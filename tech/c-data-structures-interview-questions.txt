@@ -1,0 +1,226 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is C Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>C is a programming language used to write a program. Programs are the set of instructions given by a programmer to the computer in high level language. C uses a compiler to translate the high level program into machine code before executing any instruction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Does Static Variable Mean?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Static variable is available to a C application, throughout the life time. At the time of starting the program execution, static variables allocations takes place first. In a scenario where one variable is to be used by all the functions (which is accessed by main () function), then the variable need to be declared as static in a C program.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is The Difference Between Calloc() And Malloc() ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A block of memory may be allocated using the function malloc. The malloc function reserves a block of memory of specified size and returns a pointer of type void. This means we can assign the base address of the block to any type of pointer.<br/> <strong> Syntax –     P = (cast type*)malloc(byte size);<br/></strong>Calloc is also a memory allocation function which is generally used to allocate memory for array and structure .malloc is used to allocate a single block of storage space, calloc allocates multiple blocks of storage, each of same size and initializes them with zero.<br/><strong>  Syntax -     P = (cast type*)calloc(n,array size);</strong></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is A Null Pointer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A null pointer is a special pointer value that is known not to point anywhere. It means that no other valid pointer, to any other variable or array cell or anything else, will ever compare equal to a null pointer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Advantages Of A Macro Over A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Actually macro and function are used for different purposes. A macro replaces its expression code physically in the code at the time of preprocessing. But in case of function the control goes to the function while executing the code. So when the code is small then it is better to use macro. But when code is large then function should be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Page Thrashing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It happens when a high level of paging activity. Thrashing is caused by under allocation of minimum number of pages required by a process, forcing it to continuously page fault. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How Do You Override A Defined Macro?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use the #undef preprocessor directive to undefined (override) a previously defined macro.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Are The Different Storage Classes In C?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>C has three types of storage: automatic, static and allocated. Variable having block scope and without static specifier have automatic storage duration. Variables with block scope and with static specifier have static scope. Global variables (i.e., file scope) with or without the static specifier also have static scope. Memory obtained from calls to malloc(), alloc() or realloc() belongs to storage class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. When Does The Compiler Not Implicitly Generate The Address Of The First Element Of An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Whenever an array name appears in an expression such as<br/>• Array as an operand of the sizeof operator.<br/>• Array as an operand of “&amp;” operator.<br/>• Array as a string literal initializer for a character array.<br/>Then the compiler does not implicitly generate the address of the address of the first element of an array.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Is Using Exit () The Same As Using Return?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, The exit () function is used to exit your program and return control to the operating system.The return statement is used to return from a function and return control to the calling function. If you issue a return from the main () function, you are essentially returning control to the calling function, which is the operating system. In this case, the return statement and exit () function are similar.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Do You Mean By Dynamic Memory Allocation? Give An Example.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of allocating memory at the time of execution is called dynamic memory allocation. The allocation and release of this memory space can be done with the help of some built in functions whose prototypes are found in alloc.h and stdlib.h.<br/><strong>Example:-<br/></strong>#include&lt;stdio.h&gt;<br/>#include&lt;alloc.h&gt;<br/>main()<br/>{<br/>int *p, n, i;<br/>printf( “Enter the number of integers to be entered.”);<br/>scanf(“%d”, &amp;n);<br/>p=(int *)malloc(n*sizeof(int));<br/>if(p==NULL)<br/>{<br/>printf(“Memory not available”);<br/>exit(1);<br/>}<br/>for(i=0;i&lt;n;i++)<br/>{<br/>printf(“Enter an integer”);<br/>scanf(“%d”, p+1);<br/>}<br/>for(i=0;i&lt;n;i++)<br/>printf(“%d”, *(p+i));<br/>}<br/>return 0;<br/>}</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Do You Construct An Increment Statement Or Decrement Statement In C?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are actually two ways you can do this. One is to use the increment operator ++ and decrement operator –. For example, the statement “x++” means to increment the value of x by 1. Likewise, the statement “x –” means to decrement the value of x by 1. Another way of writing increment statements is to use the conventional + plus sign or – minus sign. In the case of “x++”, another way to write it is “x = x +1”.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is The Difference Between Call By Value And Call By Reference?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When using Call by Value, you are sending the value of a variable as parameter to a function, whereas Call by Reference sends the address of the variable. Also, under Call by Value, the value in the parameter is not affected by whatever operation that takes place, while in the case of Call by Reference, values can be affected by the process within the function.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Some Coders Debug Their Programs By Placing Comment Symbols On Some Codes Instead Of Deleting It. How Does This Aid In Debugging?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Placing comment symbols /* */ around a code, also referred to as “commenting out”, is a way of isolating some codes that you think maybe causing errors in the program, without deleting the code. The idea is that if the code is in fact correct, you simply remove the comment symbols and continue on. It also saves you time and effort on having to retype the codes if you have deleted it in the first place.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is A Stack?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A stack is one form of a data structure. Data is stored in stacks using the FILO (First In Last Out) approach. At any particular instance, only the top of the stack is accessible, which means that in order to retrieve data that is stored inside the stack, those on the upper part should be extracted first. Storing data in a stack is also referred to as a PUSH, while data retrieval is referred to as a POP.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is A Sequential Access File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When writing programs that will store and retrieve data in a file, it is possible to designate that file into different forms. A sequential access file is such that data are saved in sequential order: one data is placed into the file after another. To access a particular data within the sequential access file, data has to be read one data at a time, until the right one is reached.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is Variable Initialization And Why Is It Important?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This refers to the process wherein a variable is assigned an initial value before it is used in the program. Without initialization, a variable would have an unknown value, which can lead to unpredictable outputs when used in computations or other operations.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Spaghetti Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Spaghetti programming refers to codes that tend to get tangled and overlapped throughout the program. This unstructured approach to coding is usually attributed to lack of experience on the part of the programmer. Spaghetti programing makes a program complex and analyzing the codes difficult, and so must be avoided as much as possible.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Differentiate Source Codes From Object Codes</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Source codes are codes that were written by the programmer. It is made up of the commands and other English-like keywords that are supposed to instruct the computer what to do. However, computers would not be able to understand source codes. Therefore, source codes are compiled using a compiler. The resulting outputs are object codes, which are in a format that can be understood by the computer processor. In C programming, source codes are saved with the file extension .C, while object codes are saved with the file extension .OBJ</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. In C Programming, How Do You Insert Quote Characters (‘ And “) Into The Output Screen?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is a common problem for beginners because quotes are normally part of a printf statement. To insert the quote character as part of the output, use the format specifiers ’ (for single quote), and ” (for double quote).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The Use Of A ‘ ’ Character?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is referred to as a terminating null character, and is used primarily to show the end of a string value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Difference Between The = Symbol And == Symbol?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The = symbol is often used in mathematical operations. It is used to assign a value to a given variable. On the other hand, the == symbol, also known as “equal to” or “equivalent to”, is a relational operator that is used to compare two values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Modulus Operator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The modulus operator outputs the remainder of a division. It makes use of the percentage (%) symbol. For example: 10 % 3 = 1, meaning when you divide 10 by 3, the remainder is 1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is A Nested Loop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A nested loop is a loop that runs within another loop. Put it in another sense, you have an inner loop that is inside an outer loop. In this scenario, the inner loop is performed a number of times as specified by the outer loop. For each turn on the outer loop, the inner loop is first performed.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Compare And Contrast Compilers From Interpreters.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Compilers and interpreters often deal with how program codes are executed. Interpreters execute program codes one line at a time, while compilers take the program as a whole and convert it into object code, before executing it. The key difference here is that in the case of interpreters, a program may encounter syntax errors in the middle of execution, and will stop from there. On the other hand, compilers check the syntax of the entire program and will only proceed to execution when no syntax errors are found.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Do You Declare A Variable That Will Hold String Values?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The char keyword can only hold 1 character value at a time. By creating an array of characters, you can store string values in it. Example: “char MyName[50]; ” declares a string variable named MyName that can hold a maximum of 50 characters.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Can The Curly Brackets { } Be Used To Enclose A Single Line Of Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While curly brackets are mainly used to group several lines of codes, it will still work without error if you used it for a single line. Some programmers prefer this method as a way of organizing codes to make it look clearer, especially in conditional statements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Are Header Files And What Are Its Uses In C Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Header files are also known as library files. They contain two essential things: the definitions and prototypes of functions being used in a program. Simply put, commands that you use in C programming are actually functions that are defined from within each header files. Each header file contains a set of functions. For example: stdio.h is a header file that contains definition and prototypes of commands like printf and scanf. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is Syntax Error?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Syntax errors are associated with mistakes in the use of a programming language. It maybe a command that was misspelled or a command that must was entered in lowercase mode but was instead entered with an upper case character. A misplaced symbol, or lack of symbol, somewhere within a line of code can also lead to syntax error.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Are Variables And It What Way Is It Different From Constants?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Variables and constants may at first look similar in a sense that both are identifiers made up of one character or more characters (letters, numbers and a few allowable symbols). Both will also hold a particular value.  Values held by a variable can be altered throughout the program, and can be used in most operations and computations. Constants are given values at one time only, placed at the beginning of a program. This value is not altered in the program. For example, you can assigned a constant named PI and give it a value 3.1415  .  You can then use it as PI in the program, instead of having to write 3.1415 each time you need it. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is Data Structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Data structure is a group of data elements grouped together under one name.</li>
+<li>These data elements are called members. They can have different types and different lengths.</li>
+<li>Some of them store the data of same type while others store different types of data.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Explain The Types Of Data Structures</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two basic types of data structures: </p>
+<ul>
+<li>linear.</li>
+<li>nonlinear. </li>
+</ul>
+<p><strong>Linear data structures</strong> : Linear data structures are organized in a way similar to the way computer memory is organized. Linear data structures store elements one after the other, in a linear fashion. Only one element of the data can be traversed at a time. Imagine a stack of books placed on a shelf. A book will be placed between two other books, but not three books- a book will only have a relationship to two other books at the most at one time. Linear data elements are stored in a similar way.<br/><strong>Non linear data structures :</strong> Non linear data structures are stored in a sequential way. The data elements in the non linear data structures may have relationships with one or more elements at the same time. Manipulating non linear data structures is more difficult than manipulating linear data structures.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. List Out The Areas In Which Data Structures Are Applied Extensively?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Compiler Design.</li>
+<li>Operating System.</li>
+<li>Database Management System.</li>
+<li>Statistical analysis package.</li>
+<li>Numerical Analysis.</li>
+<li>Graphics.</li>
+<li>Artificial Intelligence.</li>
+<li>Simulation.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Differentiate File Structure From Storage Structure.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Basically, the key difference is the memory area that is being accessed. When dealing with the structure that resides the main memory of the computer system, this is referred to as storage structure. When dealing with an auxiliary structure, we refer to it as file structure.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Which Data Structure Is Used To Perform Recursion?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The data structure used for recursion is Stack.</li>
+<li>Its LIFO property helps it remembers its 'caller'. This helps it know the data which is to be returned when the function has to return.</li>
+<li>System stack is used for storing the return addresses of the function calls.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is A Linked List?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A linked list is a set of linear elements where each element has an index or a pointer that indicates the next element. An element of a linked list is referred to as a node. A node will store data as well as a pointer/index about the next node in the set. There are different types of linked lists. For example, a circular linked list is a list where the last element of the list points to the first element of the list, forming an unbroken chain of data. A double linked list is a list in which every node stores the index of the node on either side of it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Are The Major Data Structures Used In The Following Areas ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p> RDBMS, Network data model and Hierarchical data model.</p>
+<ul>
+<li>RDBMS = Array (i.e. Array of structures)</li>
+<li>Network data model = Graph</li>
+<li>Hierarchical data model = Trees</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is Lifo?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>LIFO is short for Last In First Out, and refers to how data is accessed, stored and retrieved. Using this scheme, data that was stored last , should be the one to be extracted first. This also means that in order to gain access to the first data, all the other data that was stored before this first data must first be retrieved and extracted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Does The Minimal Spanning Tree Of A Graph Give The Shortest Distance Between Any 2 Specified Nodes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, it doesn’t.It assures that the total weight of the tree is kept to minimum.It doesn't imply that the distance between any two nodes involved in the minimum-spanning tree is minimum.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is A Queue?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A queue is a collection of data that follows the FIFO (First in First Out) principle. It is a type of a linear data structure. Elements in a queue are removed only from the front, while new elements are added only at the back of a queue. Imagine a queue of people in front of movie theater for tickets. People can’t skip to the front for tickets – they have to join the back of the queue. People leave the queue only after they get their tickets, from the front. This is a great example of a queue in data structures. The two operations performed on a queue are enqueue (adding data elements) and dequeue(removing data elements).<br/>A priority queue is a queue in which every element in the queue is assigned a priority and operations are performed on it according to this priority.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. If You Are Using C Language To Implement The Heterogeneous Linked List, What Pointer Type Will You Use?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The heterogeneous linked list contains different data types in its nodes and we need a link, pointer to connect them. It is not possible to use ordinary pointers for this. So we go for void pointer. Void pointer is capable of storing pointer to any type as it is a generic pointer type.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Are Multidimensional Arrays?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Multidimensional arrays make use of multiple indexes to store data. It is useful when storing data that cannot be represented using a single dimensional indexing, such as data representation in a board game, tables with data stored in more than one column.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Minimum Number Of Queues Needed To Implement The Priority Queue?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Two. One queue is used for actual storing of data and another for storing priorities.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Are Linked Lists Considered Linear Or Non-linear Data Structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It actually depends on where you intend to apply linked lists. If you based it on storage, a linked list is considered non-linear. On the other hand, if you based it on access strategies, then a linked list is considered linear.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Differentiate Between Push And Pop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pushing and popping refers to the way data is stored into and retrieved from a stack.<br/><strong>PUSH</strong> – Data being pushed/ added to the stack.<br/><strong>POP</strong> - Data being retrieved from the stack, particularly the topmost data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Are The Notations Used In Evaluation Of Arithmetic Expressions Using Prefix And Postfix Forms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Polish and Reverse Polish notations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. How Does Dynamic Memory Allocation Help In Managing Data?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Aside from being able to store simple structured data types, dynamic memory allocation can combine separately allocated structured blocks to form composite structures that expand and contract as needed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. When Is A Binary Search Algorithm Best Applied?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is best applied to search a list when the elements are already in order or sorted.<br/>The list here is searched starting in the middle. If that middle value is not the correct one, the lower or the upper half is searched in the similar way.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. In Rdbms, What Is The Efficient Data Structure Used In The Internal Storage Representation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>B+ tree. Because in B+ tree, all the data is stored only in leaf nodes, that makes searching easier. This corresponds to the records that shall be stored in leaf nodes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Is A Spanning Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A spanning tree is a tree associated with a network. All the nodes of the graph appear on the tree once. A minimum spanning tree is a spanning tree organized so that the total edge weight between nodes is minimized.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. Does The Minimum Spanning Tree Of A Graph Give The Shortest Distance Between Any 2 Specified Nodes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. The Minimal spanning tree assures that the total weight of the tree is kept at its minimum. But it doesn't mean that the distance between any two nodes involved in the minimum-spanning tree is minimum.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Which Is The Simplest File Structure? (sequential, Indexed, Random)</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sequential is the simplest file structure.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. Whether Linked List Is Linear Or Non-linear Data Structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>According to Access strategies Linked list is a linear one. <br/>According to Storage Linked List is a Non-linear one.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. In Tree Construction Which Is The Suitable Efficient Data Structure? (array, Linked List, Stack, Queue)</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Linked list is the suitable efficient data structure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Is The Type Of The Algorithm Used In Solving The 8 Queens Problem?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Backtracking.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. List Out Few Of The Applications That Make Use Of Multilinked Structures?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Sparse matrix.</li>
+<li>Index generation.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. What Are The Types Of Collision Resolution Techniques And The Methods Used In Each Of The Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Open addressing (closed hashing), The methods used include: Overflow block.<br/>Closed addressing (open hashing), The methods used include: Linked list, Binary tree.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Sorting Is Not Possible By Using Which Of The Following Methods? (insertion, Selection, Exchange, Deletion)</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sorting is not possible in Deletion. Using insertion we can perform insertion sort, using selection we can perform selection sort, using exchange we can perform the bubble sort (and other similar sorting methods). But no sorting method can be done just using deletion.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. What Are The Methods Available In Storing Sequential Files?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Straight merging.</li>
+<li>Natural merging.</li>
+<li>Polyphase sort.</li>
+<li>Distribution of Initial runs.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. List Out Few Of The Application Of Tree Data-structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The manipulation of Arithmetic expression.</li>
+<li>Symbol Table construction.</li>
+<li>Syntax analysis.</li>
+</ul></p>
+</li><br><br>

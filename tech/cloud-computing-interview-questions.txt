@@ -1,0 +1,283 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The cloud computing is the computing which is completely based on the Internet. It can also be defined as the next stage in the evolution of the Internet. The cloud computing uses the cloud (Internet) that provides the way to deliver the services whenever and wherever the user of the cloud needs. Companies use the cloud computing to fulfill the needs of their customers, partners, and providers. The cloud computing includes vendors, partners, and business leaders as the three major contributors. The vendors are the one who provide applications and their related technology, infrastructure, hardware, and integration.</p>
+<p>The partners are those who offer cloud services demand and provide support service to the customers. The business leaders are the ones who use or evaluate the cloud service provided by the partners. The cloud computing enables the companies to treat their resources as a pool and not as independent resources.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is A Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A cloud is a combination of hardware, networks, storage, services, and interfaces that helps in delivering computing as a service. It has broadly three users which are end user, business management user, and cloud service provider. The end user is the one who uses the services provided by the cloud. The business management user in the cloud takes the responsibility of the data and the services provided by the cloud. The cloud service provider is the one who takes care or is responsible for the maintenance of the IT assets of the cloud. The cloud acts as a common center for its users to fulfill their computing needs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Basic Characteristics Of Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The four basic characteristics of cloud computing are given as follows:<br/>
+•	Elasticity and scalability.<br/>
+•	Self-service provisioning and automatic de-provisioning.<br/>
+•	Standardized interfaces.<br/>
+•	Billing self-service based usage model.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is A Cloud Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A cloud service is a service that is used to build cloud applications. This service provides the facility of using the cloud application without installing it on the computer. It reduces the maintenance and support of the application as compared to those applications that are not developed using the cloud service. The different kinds of users can use the application from the cloud service, which may be public or private application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are Main Features Of Cloud Services?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Some important features of the cloud service are given as follows:<br/>
+•	Accessing and managing the commercial software.<br/>
+•	Centralizing the activities of management of software in the Web environment.<br/>
+•	Developing applications that are capable of managing several clients.<br/>
+•	Centralizing the updating feature of software that eliminates the need of downloading the upgrades.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. How Many Types Of Deployment Models Are Used In Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are 4 types of deployment models used in cloud:<br/>
+1.	Public cloud<br/>
+2.	Private cloud<br/>
+3.	Community cloud<br/>
+4.	Hybrid cloud</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Why Does An Organization Need To Manage The Workloads?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The workload can be defined as an independent service or a set of code that can be executed. It can be everything from a data-intensive workload to storage or a transaction processing workload and does not rely upon the outside elements. The workload can be considered as a small or complete application.</p>
+<p>The organization manages workloads because of the following reasons:<br/>
+•	To know how their applications are running.<br/>
+•	To know what functions they are performing.<br/>
+•	To know the charges of the individual department according to the use of the service.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Which Services Are Provided By Window Azure Operating System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Windows Azure provides three core services which are given as follows:<br/>
+•	Compute<br/>
+•	Storage<br/>
+•	Management</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Explain Hybrid And Community Cloud.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The hybrid cloud consists of multiple service providers. This model integrates various cloud services for Hybrid Web hosting. It is basically a combination of private and public cloud features. It is used by the company when a company has requirements for both the private and public clouds. Consider an example when an organization wants to implement the SaaS (Software as a Service) application throughout the company. The implementation requires security that can be provided by the private cloud used inside the firewall. The additional security can be provided by the VPN on requirement. Now, the organization has both the private and public cloud features.</p>
+<p>The community cloud provides a number of benefits, such as privacy and security. This model, which is quite expensive, is used when the organizations having common goals and requirements are ready to share the benefits of the cloud service.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Give A Brief Introduction Of Windows Azure Operating System.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Windows Azure operating system is used for running cloud services on the Windows Azure platform, as it includes necessary features for hosting your services in the cloud. It also provides runtime environment that consists of Web server, computational services, basic storage, queues, management services, and load balancers. The operating system provides development. Fabric for development and testing of services before their deployment on the Windows Azure in the cloud.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Are The Advantages Of Cloud Services?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Some of the advantages of cloud service are given as follows:<br/>
+•	Helps in the utilization of investment in the corporate sector; and therefore, is cost saving.<br/>
+•	Helps in the developing scalable and robust applications. Previously, the scaling took months, but now, scaling takes less time.<br/>
+•	Helps in saving time in terms of deployment and maintenance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Are The Concerns Prevailing Around Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Security of data is the topmost concern in the consumers minds.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How Can These Concerns Be Addressed?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By offering a more expensive - private cloud - solution, a customer's data is isolated from the public. Virtual private clouds can also be implemented. Lastly, a poorest measure against security is client-partitioning in a public cloud.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Mention The Basic Components Of A Server Computer In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The components used in less expensive client computers matches with the hardware components of server computer in cloud computing. Although server computers are usually built from higher-grade components than client computers. Basic components include Motherboard, Memory, Processor, Network connection, Hard drives, Video, Power supply etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Comment On The Security Of Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a sub domain of networks, computers and information security in a larger aspect. Cloud computing security is referred to as cloud computing. It is designed in such a way that it acts as to safeguard the policies and technologies of organizations. Controls are deployed to protect applications, company’s data and frame work of security protocols.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Mention About The Top Cloud Applications Now A Days? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Top cloud computing applications include google docs which are very fast and secure. There is also mobile version of google docs so you can access to your data from smart phone. Pixlr and Phoenix, jaycut also are the applications used for cloud computing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Comment On Cloud Computing Revolution?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Its essential to understand that the cloud computing revolution is not just about doing old things in new ways, also it is not just more cheap and green but also more collaborative intelligent and better available. The opportunity for Information technology department is to achieve new things and to make new things possible by cloud computing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Comment On Its Cost?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Low power pc’s can cut energy bills by upto 75%. This way it affects cost a lot.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Can Be Done Using Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud applications are very speedy and without buying and installing softwares we can use it. Application building in this is five times faster and it can deploy an application any time and any where and also it makes applications instantly collaborative and mobile.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How Would You Save Your Applications, Softwares And Drivers For A Long Term Without Using Any Magnetic Disk?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>I do not have to worry about my computer hardware at home because all my applications, files, games will be present somewhere on the Internet with cloud computing. The necessity is very fast connection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Explain Benefits Of Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Money saving, increase in productivity about 50% ,IT support is 40% and time saving about 30%,less power and less space.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Explain The Importance Of Cloud Computing In It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A cloud computing addresses the explosive growth of internet-connected devices, and complements the increasing presence of technology in today’s world. Cloud computing provides a superior user experience, is massively scalable, and is characterized by the internet-driven economics.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Why Cloud Is Necessary?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Amongst those who are already using the cloud, 94 % said the infrastructure was an important part of their decision but there is not one universal cloud infrastructure which suits every environment.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Name The Three Basic Clouds In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The three basic clouds which we generally come across in cloud computing are Professional cloud, Performance clouds and Personal cloud.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Explain The Role Of Performance Cloud In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is an immerging type of cloud which can transfer maximum amount of data instantly. Basically it is used by Professional computer garners which play the games online and works on high performance computing research.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Why Professional Clouds Are Required In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Professional clouds are used in Cloud computing because professional clouds are used for Emails, CRM solutions and web sites etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Describe Cloud Computing As Concisely And Simply As Possible In Layman Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The purest form of cloud computing is pay-as-you-go Info Tech, online and on demand as per needed. The Info Technology capabilities provided as a service to businesses includes the single software applications and the software suites.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Cloud Computing Can Save Money ? Explain.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We don’t need to buy the cloud and that is the biggest benefit for bottom line-conscious business offices and Information technology departments. As any other common utility, we just pay for what we use and when we use we turn it off. It always costs less to take advantage of existing infrastructure rather than building our own from scratch and that too especially for short term projects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Explain The Benefits Of Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are numerous benefits of cloud computing including data backup and storage of data, powerful server capabilities, software asa service known as (SaaS), Information technology sandboxing capabilities etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Tell Your Opinion About Adoption Of Cloud By Operators Around The World?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Many operators use it today while cloud may not be seeing the traction of some forms of technology, like 4G.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. How Does Cloud Computing Provides On-demand Functionality?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing is a metaphor used for internet. It provides on-demand access to virtualized IT resources that can be shared by others or subscribed by you. It provides an easy way to provide configurable resources by taking it from a shared pool. The pool consists of networks, servers, storage, applications and services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is The Difference Between Scalability And Elasticity?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>Scalability</strong></em> is a characteristic of cloud computing through which increasing workload can be handled by increasing in proportion the amount of resource capacity. It allows the architecture to provide on demand resources if the requirement is being raised by the traffic. Whereas, <em><strong>elasticity</strong></em> is being one of the characteristic provide the concept of commissioning and decommissioning of large amount of resource capacity dynamically. It is measured by the speed by which the resources are coming on demand and the usage of the resources.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Are The Different Layers Of Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing consists of 3 layers in the hierarchy and these are as follows:</p>
+<ol>
+<li><em><strong>Infrastructure as a Service </strong></em>(IaaS) provides cloud infrastructure in terms of hardware like memory, processor speed etc.</li>
+<li><em><strong>Platform as a Service</strong></em> (PaaS) provides cloud application platform for the developers.</li>
+<li><em><strong>Software as a Service</strong></em> (SaaS) provides cloud applications which are used by the user directly without installing anything on the system. The application remains on the cloud and it can be saved and edited in there only.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Resources Are Provided By Infrastructure As A Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Infrastructure as a Service</strong> provides physical and virtual resources that are used to build a cloud. Infrastructure deals with the complexities of maintaining and deploying of the services provided by this layer. The infrastructure here is the servers, storage and other hardware systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How Important Is Platform As A Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Platform as a Service</strong> is an important layer in cloud architecture. It is built on the infrastructure model, which provides resources like computers, storage and network. This layer includes organizing and operate the resources provided by the below layer. It is also responsible to provide complete virtualization of the infrastructure layer to make it look like a single server and keep it hidden from the outside world.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Does Software As A Service Provide?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Software as Service</strong> is another layer of cloud computing, which provides cloud applications like google is doing, it is providing google docs for the user to save their documents on the cloud and create as well. It provides the applications to be created on fly without adding or installing any extra software component. It provides built in software to create wide varieties of applications and documents and share it with other people online.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Are The Different Deployment Models?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing supports many deployment models and they are as follows:</p>
+<ul>
+<li><strong>Private Cloud</strong></li>
+<p>Organizations choose to build there private cloud as to keep the strategic, operation and other reasons to themselves and they feel more secure to do it. It is a complete platform which is fully functional and can be owned, operated and restricted to only an organization or an industry. More organizations have moved to private clouds due to security concerns. Virtual private cloud is being used that operate by a hosting company.</p>
+<li><strong>Public Cloud</strong></li>
+<p>These are the platforms which are public means open to the people for use and deployment. For example, google, amazon etc. They focus on a few layers like cloud application, infrastructure providing and providing platform markets.</p>
+<li><strong>Hybrid Clouds</strong></li>
+<p>It is the combination of public and private cloud. It is the most robust approach to implement cloud architecture as it includes the functionalities and features of both the worlds. It allows organizations to create their own cloud and allow them to give the control over to someone else as well.</p>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Are The Different Datacenters Deployed For This?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing is made up of various datacenters put together in a grid form. It consists of different datacenters like: <br/>
+<br/>
+<strong>Containerized Datacenters</strong><br/>
+These are the traditional datacenters that allow high level of customization with servers, mainframe and other resources. It requires planning, cooling, networking and power to access and work.  <br/>
+<strong>Low-Density Datacenters</strong><br/>
+These datacenters are optimized to give high performance. In these datacenters the space constraint is being removed and there is an increased density. It has a drawback that with high density the heat issue also creeps in. These datacenters are very much suitable to develop the cloud infrastructure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is The Use Of Api's In Cloud Services?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>API stands for Application programming interface is very useful in cloud platforms as it allows easy implementation of it on the system. It removes the need to write full fledged programs. It provides the instructions to make the communication between one or more applications. It also allows easy to create application with ease and link the cloud services with other systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Are The Different Modes Of Software As A Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Software as a Service</strong> provides cloud application platform on which user can create application with the tools provided. The modes of software as a service are defined as:</p>
+<ol>
+<li><em><strong>Simple multi-tenancy</strong></em>: in this each user has its own resources that are different from other users. It is an inefficient mode where the user has to put more time and money to add more infrastructure if the demand rises in less time to deliver.</li>
+<li><em><strong>Fine grain multi-tenancy:</strong></em> in this the functionality remains the same that the resources can be shared to many. But it is more efficient as the resources are shared not the data and permission within an application.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is The Security Aspects Provided With Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Security is one of the major aspects which come with any application and service used by the user. Companies or organizations remain much more concerned with the security provided with the cloud. There are many levels of security which has to be provided within cloud environment such as:</p>
+<ul>
+<li><em><strong>Identity management:</strong></em> it authorizes the application service or hardware component to be used by authorized users.</li>
+<li><em><strong>Access control:</strong></em> permissions has to be provided to the users so that they can control the access of other users who are entering the in the cloud environment.</li>
+<li><em><strong>Authorization and authentication:</strong></em> provision should be made to allow the authorized and authenticated people only to access and change the applications and data.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Is The Difference Between Traditional Datacenters And Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing uses the concept of datacenter as it is the datacenter is based on the tradition one so the difference between them are as follows:</p>
+<ul>
+<li>Cost of the traditional datacenter is higher, due to heating issues and other hardware/software related issues but this is not the case with the cloud computing infrastructure.</li>
+<li>It gets scaled when the demand increases. Most of the cost is being spent on the maintenance being performed on the datacenters, whereas cloud platform requires minimum maintenance and not very expert hand to handle them.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Are The Three Cost Factors Involves In Cloud Data Center?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud data center doesn’t require experts to operate it, but it requires skilled people to see the maintenance, maintain the workloads and to keep the track of the traffic. The labor cost is 6% of the total cost to operate the cloud data center. Power distribution and cooling of the datacenter cost 20% of the total cost. Computing cost is at the end and is the highest as it is where lots of resources and installation has to be done. It costs the maximum left percentage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. How The Cloud Services Are Measured?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing provides the services to the organizations so they can run their applications and install them on the cloud. Virtualization is used to deploy the cloud computing models as it provides a hidden layer between the user and the physical layer of the system. The cloud services are measured in terms of use. Pay as much as you use that can be on the basis of hours or months or years. Cloud services allow users to pay for only what they use and according to the demand the charges or the prices gets increased.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Are The Optimizing Strategies Used In Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To optimize the cost and other resources there is a concept of three-data-center which provides backups in cases of disaster recovery and allows you to keep all the data intact in the case of any failure within the system. System management can be done more efficiently by carrying out pre-emptive tasks on the services and the processes which are running for the job. Security can be more advanced to allow only the limited users to access the services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Are Different Data Types Used In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing is going all together for a different look as it now includes different data types like emails, contracts, images, blogs, etc. The amount of data increasing day by day and cloud computing is requiring new and efficient data types to store them. For example if you want to save video then you need a data type to save that. Latency requirements are increasing as the demand is increasing. Companies are going for lower latency for many applications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Are The Security Laws Which Take Care Of The Data In The Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The security laws which are implements to secure data in the cloud are as follows:</p>
+<ul>
+<li><em><strong>Input validation: </strong></em>controls the input data which is being to any system.</li>
+<li><em><strong>Processing:</strong></em> control that the data is being processed correctly and completely in an application.</li>
+<li><em><strong>File: </strong></em>control the data being manipulated in any type of file.</li>
+<li><em><strong>Output reconciliation:</strong></em> control the data that has to be reconciled from input to output.</li>
+<li><em><strong>Backup and recovery:</strong></em> control the security breaches logs and the problems which has occurred while creating the back.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. How To Secure Your Data For Transport In Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing provides very good and easy to use feature to an organization, but at the same time it brings lots of question that how secure is the data, which has to be transported from one place to another in cloud. So, to make sure it remains secure when it moves from point A to point B in cloud, check that there is no data leak with the encryption key implemented with the data you sending.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Do You Understand From Vpn?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>VPN stands for virtual private network</strong>; it is a private cloud which manages the security of the data during the transport in the cloud environment. VPN allows an organization to make a public network as private network and use it to transfer files and other resources on a network.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Does A Vpn Consists Of?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>VPN is known as virtual private network and it consists of two important things:</p>
+<ol>
+<li><em><strong>Firewall:</strong></em> it acts as a barrier between the public network and any private network. It filters the messages that are getting exchanged between the networks. It also protects from any malicious activity being done on the network.</li>
+<li><em><strong>Encryption:</strong></em> it is used to protect the sensitive data from professional hackers and other spammers who are usually remain active to get the data. With a message always there will be a key with which you can match the key provided to you.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. Name Few Platforms Which Are Used For Large Scale Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are many platforms available for cloud computing but to model the large scale distributed computing the platforms are as follows:</p>
+<ol>
+<li><em><strong>MapReduce:</strong></em> is software that is being built by Google to support distributed computing. It is a framework that works on large set of data. It utilizes the cloud resources and distributes the data to several other computers known as clusters. It has the capability to deal with both structured and non-structured data.</li>
+<li><em><strong>Apache Hadoop:</strong></em> is an open source distributed computing platform. It is being written in Java. It creates a pool of computer each with hadoop file system. It then clusters the data elements and applies the hash algorithms that are similar. Then it creates copy of the files that already exist.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. What Are Some Examples Of Large Cloud Providers And Their Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing has many providers and it is supported on the large scale. The providers with their databases are as follows:</p>
+<ul>
+<li><em><strong>Google bigtable: </strong></em>it is a hybrid cloud that consists of a big table that is spilt into tables and rows. MapReduce is used for modifying and generating the data.</li>
+<li><em><strong>Amazon SimpleDB:</strong></em> is a webservice that is used for indexing and querying the data. It allows the storing, processing and creating query on the data set within the cloud platform. It has a system that automatically indexes the data.</li>
+<li><em><strong>Cloud based SQL:</strong></em> is introduced by Microsoft and it is based on SQL database. it provides data storage by the usage of relational model in the cloud. The data can be accessed from the cloud using the client application.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Are Some Open Source Cloud Computing Platform Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing platform has various databases that are in support. The open source databases that are developed to support it is as follows:</p>
+<ol>
+<li><em><strong>MongoDB:</strong></em> is an open source database system which is schema free and document oriented database. It is written in C++ and provides tables and high storage space.</li>
+<li><em><strong>CouchDB:</strong></em> is an open source database system based on Apache server and used to store the data efficiently.</li>
+<li><em><strong>LucidDB:</strong></em> is the database made in Java/C++ for data warehousing. It provides features and functionalities to maintain data warehouse.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. What Essential Things A User Should Know Before Going For Cloud Computing Platform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A user should know some parameters by which he can go for the cloud computing services. The parameters are as follows:</p>
+<ol>
+<li><em><strong>User should know the data integrity in cloud computing.</strong></em> It is a measure to ensure integrity like the data is accurate, complete and reasonable.</li>
+<li><em><strong>Compliance:</strong></em> user should make sure that proper rules and regulations are followed while implementing the structure.</li>
+<li><em><strong>Loss of data:</strong></em> user should know about the provisions that are provided in case of loss of data so that backup and recovery can be possible.</li>
+<li><em><strong>Business continuity plans: </strong></em>user should think about does the cloud services provide him uninterrupted data resources.</li>
+<li><em><strong>Uptime:</strong></em> user should know about the uptime the cloud computing platform provides and how helpful it is for the business.</li>
+<li><em><strong>Data storage costs:</strong></em> user should find out about the cost which you have to pay before you go for cloud computing.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Are System Integrators?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Systems integrators</strong> are the important part of cloud computing platform. It provides the strategy of the complicated process used to design a cloud platform. It includes well defined architecture to find the resources and the characteristics which have to be included for cloud computing. Integrators plan the users cloud strategy implementation. Integrators have knowledge about data center creation and also allow more accurate private and hybrid cloud creation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. What Is The Requirement Of Virtualization Platforms In Implementing Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Virtualization</strong> is the basis of the cloud computing and there are many platforms that are available like VMware is a technology that provides the provision to create private cloud and provide a bridge to connect external cloud with private cloud.</p>
+<p><strong>There are three key features that have to be identified to make a private cloud that is:</strong></p>
+<ul>
+<li>Cloud operating system.</li>
+<li>Manage the Service level policies.</li>
+<li>Virtualization keeps the user level and the backend level concepts different from each other so that a seamless environment can be created between both.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. What Is The Use Of Eucalyptus In Cloud Computing Environment?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Eucalyptus</strong> stands for “Elastic Utility Computing Architecture for Linking Your Programs to Useful Systems” and provides an open source software infrastructure to implement clusters in cloud computing platform. It is used to build private, public and hybrid clouds. It can also produce your own datacenter into a private cloud and allow you to extend the functionality to many other organizations. Eucalyptus provides APIs to be used with the web services to cope up with the demand of resources used in the private clouds.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Explain Different Layers Which Define Cloud Architecture?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing architecture consists of many layers which help it to be more organized and can be managed from one place.</p>
+<p><strong>The layers are as follows:</strong></p>
+<ol>
+<li><em><strong>Cloud controller</strong></em> or CLC is the top most level in the hierarchy which is used to manage the virtualized resources like servers, network and storage with the user APIs.</li>
+<li><em><strong>Walrus</strong></em> is used for the storage and act as a storage controller to manage the demands of the users. It maintains a scalable approach to control the virtual machine images and user data.</li>
+<li><em><strong>Cluster Controller</strong></em> or CC is used to control all the virtual machines for executions the virtual machines are stored on the nodes and manages the virtual networking between Virtual machines and external users.</li>
+<li><em><strong>Storage Controller</strong></em> or SC provides a storage area in block form that are dynamically attached by Virtual machines.</li>
+<li><em><strong>Node Controller</strong></em> or NC is at the lowest level and provides the functionality of a hypervisor that controls the VMs activities, which includes execution, management and termination of many instances.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. How User Will Gain From Utility Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Utility computing</strong> allow the user to pay per use means whatever they are using only for that they have to pay. It is a plug in that needs to be managed by the organizations on deciding what type of services has to be deployed from the cloud. Utility computing allows the user to think and implement the services according to them. Most organizations go for hybrid strategy that combines internal delivered services that are hosted or outsourced services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Is There Any Difference In Cloud Computing And Computing For Mobiles?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Mobile cloud computing uses the same concept but it just adds a device of mobile. Cloud computing comes in action when a task or a data get kept on the internet rather then individual devices. It provides users on demand access to the data which they have to retrieve. Applications run on the remote server, and then given to the user to be able to, store and manage it from the mobile platform.</p></p>
+</li><br><br>

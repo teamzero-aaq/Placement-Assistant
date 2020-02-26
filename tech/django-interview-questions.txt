@@ -1,0 +1,154 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Django is a high­level Python Web framework that encourages rapid development and clean, pragmatic design. Developed by a fast­moving online­news operation, Django was designed to handle two challenges: the intensive deadlines of a newsroom and the stringent requirements of the experienced Web developers who wrote it. It lets you build high­performing, elegant Web applications quickly. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Does Django Mean?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Django is named after Django Reinhardt, a gypsy jazz guitarist from the 1930s to early 1950s who is known as one of the best guitarists of all time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Which Architectural Pattern Does Django Follow?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Django follows Model-View Controller (MVC) architectural pattern.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Mention What Does The Django Templates Consists Of?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The template is a simple text file.  It can create any text-based format like XML, CSV, HTML, etc.  A template contains variables that get replaced with values when the template is evaluated and tags (% tag %) that controls the logic of the template.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Which Foundation Manages Django Web Framework?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Django web framework is managed and maintained by an independent and non-profit organization named Django Software Foundation (DSF).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Is Django Stable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, Django is quite stable. Many companies like Disqus, Instagram, Pinterest, and Mozilla have been using Django for many years.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are The Features Available In Django Web Framework?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Features available in Django web framework are:</p>
+<ul>
+<li>Admin Interface (CRUD)</li>
+<li>Templating</li>
+<li>Form handling</li>
+<li>Internationalization</li>
+<li>Session, user management, role-based permissions</li>
+<li>Object-relational mapping (ORM)</li>
+<li>Testing Framework</li>
+<li>Fantastic Documentation</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Are The Advantages Of Using Django For Web Development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>It facilitates you to divide code modules into logical groups to make it flexible to change.</li>
+<li>It provides auto-generated web admin to make website administration easy.</li>
+<li>It provides pre-packaged API for common user tasks.</li>
+<li>It provides template system to define HTML template for your web page to avoid code duplication.</li>
+<li>It enables you to define what URL is for a given function.</li>
+<li>It enables you to separate business logic from the HTML.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. How To Create A Project In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To start a project in Django, use the command <strong>$django-admin.py</strong> and then use the following command:<br/><strong>Project</strong><br/><strong>_init_.py|</strong><br/><strong>manage.py</strong><br/><strong>settings.py</strong><br/><strong>urls.py</strong></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Can You Set Up The Database In Djanago?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To set up a database in Django, you can use the command edit mysite/setting.py , it is a normal python module with module level representing Django settings.<br/>By default, Django uses SQLite database. It is easy for Django users because it doesn't require any other type of installation. In the case of other database you have to the following keys in the DATABASE 'default' item to match your database connection settings.<br/><strong>Engines</strong>: you can change database by using 'django.db.backends.sqlite3' , 'django.db.backeneds.mysql', 'django.db.backends.postgresql_psycopg2', 'django.db.backends.oracle' and so on<br/><strong>Name</strong>: The name of your database. In the case if you are using SQLite as your database, in that case database will be a file on your computer, Name should be a full absolute path, including file name of that file.<br/><strong>Note</strong>: You have to add setting likes setting like Password, Host, User, etc. in your database, if you are not choosing SQLite as your database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Does The Django Templates Contain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A template is a simple text file. It can create any text-based format like XML, CSV, HTML, etc. A template contains variables that get replaced with values when the template is evaluated and tags (%tag%) that controls the logic of the template.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Is Django A Content Management System (cms)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, Django is not a CMS. Instead, it is a Web framework and a programming tool that makes you able to build websites.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is The Use Of Session Framework In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The session framework facilitates you to store and retrieve arbitrary data on a per-site visitor basis. It stores data on the server side and abstracts the receiving and sending of cookies. Session can be implemented through a piece of middleware.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How Can You Set Up Static Files In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are three main things required to set up static files in Django:<br/>1.Set STATIC_ROOT in settings.py<br/>2.run manage.py collectsatic<br/>3.set up a Static Files entry on the PythonAnywhere web tab</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How To Use File Based Sessions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You have to set the SESSION_ENGINE settings to "django.contrib.sessions.backends.file" to use file based session.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Some Typical Usage Of Middlewares In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Some usage of middlewares in Django is:</p>
+<ul>
+<li>Session management</li>
+<li>Use authentication</li>
+<li>Cross-site request forgery protection</li>
+<li>Content Gzipping, etc.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Does Of Django Field Class Types Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Django field class types specify:</p>
+<ul>
+<li>The database column type.</li>
+<li>The default HTML widget to avail while rendering a form field.</li>
+<li>The minimal validation requirements used in Django admin.</li>
+<li>Automatic generated forms.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Constitutes  Django Templates?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Template can create formats like XML,HTML and CSV(which are text based formats). In general terms template is a simple text file. It is made up of variables that will later be replaced by values after the template is evaluated and has tags which will control template’s logic.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Do You Use Views In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Views will take request to return response.  Let’s write a view in Django :  “example” using template example.html , using  the date-time module to tell us exact time of reloading the page.  Let’s edit a file called view.py, and it will be inside randomsite/randomapp/<br/>To do this save and copy following into a file:</p>
+<p><strong>from datatime import datetime</strong><br/><strong>      from django.shortcuts import render</strong><br/><strong>     def home (request):</strong><br/><strong>return render(request, ‘Guru99_home.html’, {‘right_now’: datetime.utcnow()}</strong>)<br/>You have to determine the  VIEW first, and then uncomment this line located in file urls.py<br/><strong># url ( r ‘^$’ , ‘randomsite.randomapp.views.home’ , name ‘example’),<br/></strong>This will reload the site making changes obvious.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Makes Up Django Architecture?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Django runs on MVC architecture. Following are the components that make up django architecture:<br/><strong>Models</strong>: Models elaborate back-end stuffs like database schema.(relationships)<br/><strong>Views:</strong> Views control what is to be shown to end-user.<br/><strong>Templates:</strong> Templates deal with formatting of view.<br/><strong>Controller:</strong> Takes entire control of Models.A MVC framework can be compared to a Cable TV with remote. A Television set is View(that interacts with end user), cable provider is model(that works in back-end) and Controller is remote that controls which channel to select and display it through view.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Does Session Framework Do In Django Framework?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Session framework in django will store data on server side and interact with end-users. Session is generally used with a middle-ware. It also helps in receiving and sending cookies for authentication of a user.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Mention Caching Strategies That You Know In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Few caching strategies that are available in Django are as follows:</p>
+<ul>
+<li>File sytem caching</li>
+<li>In-memory caching</li>
+<li>Using Memcached</li>
+<li>Database caching</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Why Django Should Be Used For Web-development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>It allows you to divide code modules into logical groups to make it flexible to change</li>
+<li>To ease the website administration, it provides auto-generated web admin</li>
+<li>It provides pre-packaged API for common user tasks</li>
+<li>It gives you template system to define HTML template for your web page to avoid code duplication</li>
+<li>It enables you to define what URL be for a given function</li>
+<li>It enables you to separate business logic from the HTML</li>
+<li>Everything is in python</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Do You Think Are Limitation Of Django Object Relation Mapping(orm)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the data is complex and consists of multiple joins using the SQL  will be clearer.<br/>If Performance is a concern for your, ORM aren’t your choice. Genrally. Object-relation-mapping are considered good option to construct an optimized query, SQL has an upper hand when compared to ORM.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Mention What Does The Django Field Class Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Field class types determines:</strong></p>
+<ul>
+<li>The database column type</li>
+<li>The default HTML widget to avail while rendering a form field</li>
+<li>The minimal validation requirements used in Django admin and in automatically generated forms</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. List Out The Inheritance Styles In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Django, there is three possible inheritance styles</p>
+<ol>
+<li><strong>Abstract base classes:</strong> This style is used when you only wants parent’s class to hold information that you don’t want to type out for each child model</li>
+<li><strong>Multi-table Inheritance:</strong> This style is used If you are sub-classing an existing model and need each model to have its own database table</li>
+<li><strong>Proxy models:</strong> You can use this model, If you only want to modify the Python level behavior of the model, without changing the model’s fields</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Mention What Command Line Can Be Used To Load Data Into Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To load data into Django you have to use the command line Django-admin.py loaddata. The command line will searches the data and loads the contents of the named fixtures into the database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Explain What Does Django-admin.py Make Messages Command Is Used For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This command line executes over the entire source tree of the current directory and abstracts all the strings marked for translation.  It makes a message file in the locale directory.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Explain The Use Of Session Framework In Django?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Django, the session framework enables you to store and retrieve arbitrary data on a per-site-visitor basis.  It stores data on the server side and abstracts the receiving and sending of cookies.  Session can be implemented through a piece of middleware.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Explain How You Can Use File Based Sessions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To use file based session you have to set the SESSION_ENGINE settings to “django.contrib.sessions.backends.file”</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Explain The Migration In Django And How You Can Do In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Migration in Django is to make changes to your models like deleting a model, adding a field, etc. into your database schema.  There are several commands you use to interact with migrations.</p>
+<ul>
+<li>Migrate</li>
+<li>Makemigrations</li>
+<li>Sqlmigrate</li>
+</ul>
+<p>To do the migration in SQL, you have to print the SQL statement for resetting sequences for a given app name.<br/><strong>django-admin.py sqlsequencreset</strong><br/>Use this command to generate SQL that will fix cases where a sequence is out sync with its automatically incremented field data.</p></p>
+</li><br><br>

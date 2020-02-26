@@ -1,0 +1,90 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Database Design?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Database design is the process of producing a detailed data model of database. This data model contains all the needed logical and physical design choices and physical storage parameters needed to generate a design in a data definition language, which can then be used to create a database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is The Logical Design Of A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of logical design involves arranging data into a series of logical relationships called entities and attributes. An entity represents a chunk of information. In relational databases, an entity often maps to a table. An attribute is a component of an entity and helps define the uniqueness of the entity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is The Structure Of A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Instead of having all the data in a list with a random order, a database provides a structure to organize the data. One of the most common data structures is a database table. A database table consists of rows and columns. A database table is also called a two-dimensional array.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is A Logical Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A logical data model or logical schema is a data model of a specific problem domain expressed independently of a particular database management product or storage technology (physical data model) but in terms of data structures such as relational tables and columns, object-oriented classes, or XML tags.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is A Conceptual Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A conceptual schema is a high-level description of a business's informational needs. It typically includes only the main concepts and the main relationships among them. ... The conceptual model is also known as the data model as data model can be used to describe the conceptual schema when a database system is implemented.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is The Physical Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A physical database model shows all table structures, including column name, column data type, column constraints, primary key, foreign key, and relationships between tables. Features of a physical data model include: Specification all tables and columns. Foreign keys are used to identify relationships between tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is The Conceptual Design Of A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This phase is called conceptual design. The result of this phase is an Entity-Relationship (ER) diagram or UML class diagram. It is a high-level data model of the specific application area. It describes how different entities (objects, items) are related to each other.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is A Conceptual Model For Research?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A conceptual model is a representation of a system, made of the composition of concepts which are used to help people know, understand, or simulate a subject the model represents. Some models are physical objects; for example, a toy model which may be assembled, and may be made to work like the object it represents.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is An Iconic Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An Iconic Model is a look-alike representation of some specific entity. (e.g. a house) Classification. Iconic Models can be represented in: - Two Dimensions : e.g. photos, drawings, etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Framework Of A Research?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Theories are formulated to explain, predict, and understand phenomena and, in many cases, to challenge and extend existing knowledge within the limits of critical bounding assumptions. The theoretical framework is the structure that can hold or support a theory of a research study.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is The Conceptual Framework?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A conceptual framework is an analytical tool with several variations and contexts. It is used to make conceptual distinctions and organize ideas. Strong conceptual frameworks capture something real and do this in a way that is easy to remember and apply.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is A Working Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Working Model is an engineering simulation software product by Design Simulation Technologies, Inc.. Virtual mechanical components, such as springs, ropes, and motors are combined with objects in a 2D working space.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is An Example Of A Physical Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Physical model (most commonly referred to simply as a model but in this context distinguished from a conceptual model) is a smaller or larger physical copy of an object. The object being modelled may be small (for example, an atom) or large (for example, the Solar System).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is The Internal Working Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This internal working model is a cognitive framework comprising mental representations for understanding the world, self and others.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is The Data Modeling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data modeling is often the first step in database design and object-oriented programming as the designers first create a conceptual model of how data items relate to each other. Data modeling involves a progression from conceptual model to logical model to physical schema.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are The Features Of A Physical Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Features of a physical data model include:</strong></p>
+<ol>
+<li>Specification all tables and columns.</li>
+<li>Foreign keys are used to identify relationships between tables.</li>
+<li>Denormalization may occur based on user requirements.</li>
+<li>Physical considerations may cause the physical data model to be quite different from the logical data model.</li>
+<li>Physical data model will be different for different RDBMS. For example, data type for a column may be different between MySQL and SQL Server.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Steps To Design A Physical Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The steps for physical data model design are as follows:</p>
+<ol>
+<li>Convert entities into tables.</li>
+<li>Convert relationships into foreign keys.</li>
+<li>Convert attributes into columns.</li>
+<li>Modify the physical data model based on physical constraints / requirements.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are The Features Of Conceptual Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Features of conceptual data model include:</strong></p>
+<ul>
+<li>Includes the important entities and the relationships among them.</li>
+<li>No attribute is specified.</li>
+<li>No primary key is specified.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Are The Difference Between Logical Data Model And Conceptual Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>In a logical data model, primary keys are present, whereas in a conceptual data model, no primary key is present.</li>
+<li>In a logical data model, all attributes are specified within an entity. No attributes are specified in a conceptual data model.</li>
+<li>Relationships between entities are specified using primary keys and foreign keys in a logical data model. In a conceptual data model, the relationships are simply stated, not specified, so we simply know that two entities are related, but we do not specify what attributes are used for this relationship.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Steps To Design Logical Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The steps for designing the logical data model are as follows:</strong></p>
+<ul>
+<li>Specify primary keys for all entities.</li>
+<li>Find the relationships between different entities.</li>
+<li>Find all attributes for each entity.</li>
+<li>Resolve many-to-many relationships.</li>
+<li>Normalization.</li>
+</ul></p>
+</li><br><br>

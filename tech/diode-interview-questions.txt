@@ -1,0 +1,40 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain What Is A Pn Junction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The contact surface between the layers of p-type and n-type semiconductor pieces plated together so as to form a p-n junction is called the p-n junction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Why Is Silicon Preferred Over Germanium In The Manufacture Of Semiconductor Devices?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The silicon semiconductor devices have, in general, higher PIV and current ratings and wider temperature range than germanium semiconductor devices, that’s why silicon is preferred over germanium in the manufacture of semiconductor devices.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Explain What Does The Arrow Head Represent In The Schematic Symbol Of A P-n Junction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The arrow head in the schematic symbol of a p-n junction indicates the direction of conventional current flow when the diode is forward biased.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Explain What Are The Two Mechanisms Of Breakdown In A P-n Junction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Avalanche and zener breakdown.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Name The Breakdown Mechanism In A Lightly Doped P-n Junction Under Reverse Biased Condition.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Avalanche breakdown.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Name The Breakdown Mechanism In A Highly Doped P-n Junction Under Reverse Biased Condition.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Zener breakdown.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Explain What Is An Ideal Diode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An ideal diode is a two terminal polarity sensitive device that has zero resistance when it is forward biased and infinite resistance when reverse biased.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Explain What Is Reverse Saturation Current?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Reverse current of a diode is due to minority carriers and is caused when the diode is reverse biased. Only a very small voltage is required to direct all minority carriers across the junction, and when all minority carriers are flowing across, further increase in bias voltage will not cause increase in current. This current is referred to as reverse saturation current.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Why Is Germanium More Temperature Dependent Than Silicon?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Because the reserve saturation current in case of a germanium diode is approximately 1,000 times larger.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Effect Of Temperature On The Reverse Saturation Current Of A Diode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Reverse saturation current, theoretically , increases by 8% per oC for silicon and 11% per oC for germanium. But from experimental data it is found that that reverse saturation current increases by 7% per oC for both silicon and germanium. This is because a surface leakage current component of reverse saturation current is independent of temperature. Since (1.07)10 =2.0 (approx.), the reverse saturation current approximately doubles for every 10oC rise in temperature.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Static Resistance Of A Diode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The static or dc resistance of a diode is the resistance offered by it to the direct current . It is defined as the ratio of the diode voltage and current at the point of interest and is not sensitive to the shape of the V-I characteristic curve. It decreases with the increase in diode current or voltage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Define Dynamic Resistance Of A P-n Junction Diode In Forward Biased Condition?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The resistance offered by a p-n junction diode to the changing forward current is defined as the dynamic resistance.</li>
+<li>AC or dynamic resistance, r = (Small change in forward voltage) /(Small change in forward current).</li>
+</ul></p>
+</li><br><br>

@@ -1,0 +1,1866 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What's Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The PHP Hypertext Preprocessor is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is A Session?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A session is a logical object created by the PHP engine to allow you to preserve data across subsequent HTTP requests.</p>
+<p>There is only one session object available to your PHP scripts at any time. Data saved to the session by a script can be retrieved by the same script or another script when requested from the same visitor.</p>
+<p>Sessions are commonly used to store temporary data to allow multiple PHP pages to offer a complete functional transaction for the same visitor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Meant By Pear In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PEAR is the next revolution in PHP. This repository is bringing higher level programming to PHP. PEAR is a framework and distribution system for reusable PHP components. It eases installation by bringing an automated wizard, and packing the strength and experience of PHP users into a nicely organised OOP library. PEAR also provides a command-line interface that can be used to automatically install "packages".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Can We Know The Number Of Days Between Two Given Dates Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Simple arithmetic:<br/>
+$date1 = date('Y-m-d');<br/>
+$date2 = '2006-07-01';<br/>
+$days = (strtotime() - strtotime()) / (60 * 60 * 24);<br/>
+echo "Number of days since '2006-07-01': $days";</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How Can We Repair A Mysql Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The syntex for repairing a mysql table is:</p>
+<p>REPAIR TABLE tablename<br/>
+REPAIR TABLE tablename QUICK<br/>
+REPAIR TABLE tablename EXTENDED</p>
+<p>This command will repair the table specified.<br/>
+If QUICK is given, MySQL will do a repair of only the index tree.<br/>
+If EXTENDED is given, it will create index row by row.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is The Difference Between $message And $$message?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1.1em; line-height: 1.6em; color: rgb(0, 0, 0); font-family: 'trebuchet MS', verdana; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 223); "><strong style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">$message</strong><span class="Apple-converted-space"> </span>is a simple variable whereas<strong style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><span class="Apple-converted-space"> </span>$$message</strong><span class="Apple-converted-space"> </span>is a variable's variable,which means<br style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "/>
+value of the variable. Example:<br style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "/>
+$user = 'bob'</p>
+<p style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1.1em; line-height: 1.6em; color: rgb(0, 0, 0); font-family: 'trebuchet MS', verdana; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 223); ">is equivalent to</p>
+<p style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1.1em; line-height: 1.6em; color: rgb(0, 0, 0); font-family: 'trebuchet MS', verdana; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 223); ">$message = 'user';<br style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "/>
+$$message = 'bob';</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is A Persistent Cookie?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A persistent cookie is a cookie which is stored in a cookie file permanently on the browser's computer. By default, cookies are created as temporary cookies which stored only in the browser's memory. When the browser is closed, temporary cookies will be erased. You should decide when to use temporary cookies and when to use persistent cookies based on their differences:</p>
+<p>· Temporary cookies can not be used for tracking long-term information.<br/>
+· Persistent cookies can be used for tracking long-term information.<br/>
+· Temporary cookies are safer because no programs other than the browser can access them.<br/>
+· Persistent cookies are less secure because users can open cookie files see the cookie values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Do You Define A Constant?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Via define() directive, like define ("MYCONSTANT", 100);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are The Differences Between Require And Include, Include_once?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>require_once() and include_once() are both the functions to include and evaluate the specified file only once. If the specified file is included previous to the present call occurrence, it will not be done again.</p>
+<p>But require() and include() will do it as many times they are asked to do.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Meant By Urlencode And Urldecode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>urlencode() returns the URL encoded version of the given string. URL coding converts special characters into % signs followed by two hex digits. For example: urlencode("10.00%") will return "10%2E00%25". URL encoded strings are safe to be used as part of URLs.<br/>
+urldecode() returns the URL decoded version of the given string.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. How To Get The Uploaded File Information In The Receiving Script?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Once the Web server received the uploaded file, it will call the PHP script specified in the form action attribute to process them. This receiving PHP script can get the uploaded file information through the predefined array called $_FILES. Uploaded file information is organized in $_FILES as a two-dimensional array as:</p>
+<ul>
+<li>$_FILES[$fieldName]['name'] - The Original file name on the browser system.</li>
+<li> $_FILES[$fieldName]['type'] - The file type determined by the browser.</li>
+<li> $_FILES[$fieldName]['size'] - The Number of bytes of the file content.</li>
+<li> $_FILES[$fieldName]['tmp_name'] - The temporary filename of the file in which<br/> the uploaded file was stored on the server.</li>
+<li> $_FILES[$fieldName]['error'] - The error code associated with this file upload.<br/> The $fieldName is the name used in the <input name="fieldName" type="FILE,"/>.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is The Difference Between Mysql_fetch_object And Mysql_fetch_array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL fetch object will collect first single matching record where mysql_fetch_array will collect all matching records from the table in an array.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How Can I Execute A Php Script Using Command Line?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Just run the PHP CLI (Command Line Interface) program and provide the PHP script file name as the command line argument. For example, "php myScript.php", assuming "php" is the command to invoke the CLI program.<br/>
+Be aware that if your PHP script was written for the Web CGI interface, it may not execute properly in command line environment.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. I Am Trying To Assign A Variable The Value Of 0123, But It Keeps Coming Up With A
+Different Number, What's The Problem?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PHP Interpreter treats numbers beginning with 0 as octal. Look at the similar PHP interview questions for more numeric problems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Would I Use Print "$a Dollars" Or "{$a} Dollars" To Print Out The Amount Of Dollars
+In This Example?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In this example it wouldn’t matter, since the variable is all by itself, but if you were to print something like "{$a},000,000 mln dollars", then you definitely need to use the braces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are The Different Tables Present In Mysql? Which Type Of Table Is Generated
+When We Are Creating A Table In The Following Syntax: Create Table Employee(eno
+Int(2),ename Varchar(10))?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Total 5 types of tables we can create<br/>
+1. MyISAM<br/>
+2. Heap<br/>
+3. Merge<br/>
+4. INNO DB<br/>
+5. ISAM<br/>
+MyISAM is the default storage engine as of MySQL 3.23. When you fire the above<br/>
+create query MySQL will create a MyISAM table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How To Create A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to create a table, you can run the CREATE TABLE statement as shown in the following sample script:</p>
+<pre>
+&lt;?php
+include "mysql_connection.php";
+$sql = "CREATE TABLE fyi_links ("
+. " id INTEGER NOT NULL"
+. ", url VARCHAR(80) NOT NULL"
+. ", notes VARCHAR(1024)"
+. ", counts INTEGER"
+. ", time TIMESTAMP DEFAULT sysdate()"
+. ")";
+if (mysql_query($sql, $con)) {
+print("Table fyi_links created.n");
+} else {
+print("Table creation failed.n");
+}
+mysql_close($con);
+?&gt;</pre>
+<p>Remember that mysql_query() returns TRUE/FALSE on CREATE statements. If you run this script, you will get something like this:<br/>
+Table fyi_links created.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. How Can We Encrypt The Username And Password Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can encrypt a password with the following Mysql&gt;SET<br/>
+PASSWORD=PASSWORD("Password");</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Do You Pass A Variable By Value?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Just like in C++, put an ampersand in front of it, like $a = &amp;$b.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The Functionality Of The Functions Strstr() And Stristr()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>string strstr ( string haystack, string needle ) returns part of haystack string from the first occurrence of needle to the end of haystack. This function is case-sensitive.<br/>
+stristr() is idential to strstr() except that it is case insensitive.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. When Are You Supposed To Use Endif To End The Conditional Statement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When the original if was followed by : and then the code block without braces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How Can We Send Mail Using Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. There is no way to send emails directly using JavaScript.<br/>
+But you can use JavaScript to execute a client side email program send the email using the "mailto" code. Here is an example:<br/>
+function myfunction(form)<br/>
+{<br/>
+tdata=document.myform.tbox1.value;<br/>
+location="mailto:mailid@domain.com?subject=...";<br/>
+return true;<br/>
+}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Functionality Of The Function Strstr And Stristr?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>strstr() returns part of a given string from the first occurrence of a given substring to the end of the string. For example: strstr("user@example.com","@") will return "@example.com".<br/>
+stristr() is idential to strstr() except that it is case insensitive.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Difference Between Ereg_replace() And Eregi_replace()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>eregi_replace() function is identical to ereg_replace() except that it ignores case distinction when matching alphabetic characters.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How Do I Find Out The Number Of Parameters Passed Into Function9?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>func_num_args() function returns the number of parameters passed in.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is The Purpose Of The Following Files Having Extensions: Frm, Myd, And Myi?
+What These Files Contain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In MySQL, the default table type is MyISAM.<br/>
+Each MyISAM table is stored on disk in three files. The files have names that begin with<br/>
+the table name and have an extension to indicate the file type.</p>
+<p>The '.frm' file stores the table definition.<br/>
+The data file has a '.MYD' (MYData) extension.<br/>
+The index file has a '.MYI' (MYIndex) extension.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. If The Variable $a Is Equal To 5 And Variable $b Is Equal To Character A, What's The
+Value Of $$b?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>5, it’s a reference to existing variable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How To Protect Special Characters In Query String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to include special characters like spaces in the query string, you need to protect them by applying the urlencode() translation function. The script below shows how to use urlencode():</p>
+<p>&lt;?php<br/>
+print("&lt;html&gt;");<br/>
+print("&lt;p&gt;Please click the links below"<br/>
+." to submit comments about FYICenter.com:&lt;/p&gt;");<br/>
+$comment = 'I want to say: "It\'s a good site! :-&gt;"';<br/>
+$comment = urlencode($comment);<br/>
+print("&lt;p&gt;"<br/>
+."&lt;a href=\"processing_forms.php?name=Guest&amp;comment=$comment\"&gt;"<br/>
+."It's an excellent site!&lt;/a&gt;&lt;/p&gt;");<br/>
+$comment = 'This visitor said: "It\'s an average site! :-("';<br/>
+$comment = urlencode($comment);<br/>
+print("&lt;p&gt;"<br/>
+.'&lt;a href="processing_forms.php?'.$comment.'"&gt;'<br/>
+."It's an average site.&lt;/a&gt;&lt;/p&gt;");<br/>
+print("&lt;/html&gt;");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Are Objects Passed By Value Or By Reference?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Everything is passed by value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Are The Differences Between Drop A Table And Truncate A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>DROP TABLE table_name</strong></em> - This will delete the table and its data.</p>
+<p><em><strong>TRUNCATE TABLE table_name</strong></em> - This will delete the data of the table, but not the table definition.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are The Differences Between Get And Post Methods In Form Submitting, Give
+The Case Where We Can Use Get And We Can Use Post Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When you want to send short or small data, not containing ASCII characters, then you can use GET” Method. But for long data sending, say more then 100 character you can use POST method.</p>
+<p>Once most important difference is when you are sending the form with GET method. You can see the output which you are sending in the address bar. Whereas if you send the form with POST” method then user can not see that information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. How Do You Call A Constructor For A Parent Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>parent::constructor($value).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Are The Different Types Of Errors In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Here are three basic types of runtime errors in PHP:</p>
+<ol>
+<li><em><strong>Notices:</strong></em> These are trivial, non-critical errors that PHP encounters while executing a script - for example, accessing a variable that has not yet been defined. By default, such errors are not displayed to the user at all - although you can change this default behavior.</li>
+<li><em><strong>Warnings:</strong></em> These are more serious errors - for example, attempting to include() a file which does not exist. By default, these errors are displayed to the user, but they do not result in script termination.</li>
+<li><em><strong>Fatal errors:</strong></em> These are critical errors - for example, instantiating an object of a nonexistent class, or calling a non-existent function. These errors cause the immediate termination of the script, and PHP's default behavior is to display them to the user when they take place.</li>
+</ol>
+<p>Internally, these variations are represented by twelve different error types.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What's The Special Meaning Of __sleep And __wakeup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>__sleep returns the array of all the variables than need to be saved, while __wakeup retrieves them.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How Can We Submit A Form Without A Submit Button?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you don't want to use the Submit button to submit a form, you can use normal hyper links to submit a form. But you need to use some JavaScript code in the URL of the link. For example:<br/>
+&lt;a href="javascript: document.myform.submit();"&gt;Submit Me&lt;/a&gt;.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Would You Initialize Your Strings With Single Quotes Or Double Quotes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Since the data inside the single-quoted string is not parsed for variable substitution, it’s always a better idea speed-wise to initialize a string with single quotes, unless you specifically need variable substitution.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Difference Between The Functions Unlink And Unset?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>unlink() is a function for file system handling. It will simply delete the file in context.</p>
+<p>unset() is a function for variable management. It will make a variable undefined.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. How Come The Code Works, But Doesn't For Two-dimensional Array Of Mine?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Any time you have an array with more than one dimension, complex parsing syntax is required. print "Contents: {$arr[1][2]}" would’ve worked.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Can We Register The Variables Into A Session?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>session_register($session_var);<br/>
+$_SESSION['var'] = 'value';</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is The Difference Between Characters \023 And \x23?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The first one is octal 23, the second is hex 23.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. How Can We Submit Form Without A Submit Button?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can use a simple JavaScript code linked to an event trigger of any form field. In the JavaScript code, we can call the document.form.submit() function to submit the form. For example: &lt;input type=button value="Save" onClick="document.form.submit()"&gt;.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. How Can We Create A Database Using Php And Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can create MySQL database with the use of mysql_create_db($databaseName) to create a database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. How Many Ways We Can Retrieve The Date In Result Set Of Mysql Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As individual objects so single record or as a set or arrays.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. How Many Ways Can We Get The Value Of Current Session Id?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>session_id() returns the session id for the current session.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Can We Use Include ("abc.php") Two Times In A Php Page "makeit.php"?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What's The Difference Between Include And Require?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It’s how they handle failures. If the file is not found by require(), it will cause a fatal error and halt the execution of the script. If the file is not found by include(), a warning will be issued, but execution will continue.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Explain The Ternary Conditional Operator In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Expression preceding the ? is evaluated, if it’s true, then the expression preceding the : is executed, otherwise, the expression following : is executed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. What's The Difference Between Htmlentities() And Htmlspecialchars()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>htmlspecialchars only takes care of &lt;, &gt;, single quote ‘, double quote " and ampersand.<br/>
+htmlentities translates all occurrences of character sequences that have different meaning in HTML.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. How To Store The Uploaded File To The Final Location?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>move_uploaded_file ( string filename, string destination)</p>
+<p>This function checks to ensure that the file designated by filename is a valid upload file (meaning that it was uploaded via PHP's HTTP POST upload mechanism). If the file is valid, it will be moved to the filename given by destination.</p>
+<p>If filename is not a valid upload file, then no action will occur, and move_uploaded_file() will return FALSE.</p>
+<p>If filename is a valid upload file, but cannot be moved for some reason, no action will occur, and move_uploaded_file() will return FALSE. Additionally, a warning will be issued.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Is The Difference Between Reply-to And Return-path In The Headers Of A Mail
+Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>Reply-to :</strong></em> Reply-to is where to delivery the reply of the mail.</p>
+<p><em><strong>Return-path :</strong></em> Return path is when there is a mail delivery failure occurs then where to delivery the failure notification.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. So If Md5() Generates The Most Secure Hash, Why Would You Ever Use The Less Secure
+Crc32() And Sha1()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Crypto usage in PHP is simple, but that doesn’t mean it’s free. First off, depending on the data that you’re encrypting, you might have reasons to store a 32-bit value in the database instead of the 160-bit value to save on space. Second, the more secure the crypto is, the longer is the computation time to deliver the hash value. A high volume site might be significantly slowed down, if frequent md5() generation is required.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. How Can We Destroy The Session, How Can We Unset The Variable Of A Session?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>s</strong></em><em><strong>ession_unregister()</strong></em> - Unregister a global variable from the current session.</p>
+<p><em><strong>s</strong></em><em><strong>ession_unset()</strong></em> - Free all session variables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Type Of Headers Have To Be Added In The Mail Function To Attach A File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>$boundary = '--' . md5( uniqid ( rand() ) );<br/>
+$headers = "From: \"Me\"\n";<br/>
+$headers .= "MIME-Version: 1.0\n";<br/>
+$headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"";</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. List Out Different Arguments In Php Header Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>void header ( string string [, bool replace [, int http_response_code]]).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Are The Different Functions In Sorting An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sorting functions in PHP:<br/>
+asort()<br/>
+arsort()<br/>
+ksort()<br/>
+krsort()<br/>
+uksort()<br/>
+sort()<br/>
+natsort()<br/>
+rsort()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. How Can We Know The Count / Number Of Elements Of An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>2 ways:</p>
+<p><em><strong>sizeof($array)</strong></em> - This function is an alias of count().<br/>
+<em><strong>count($urarray)</strong></em> - This function returns the number of elements in an array. Interestingly if you just pass a simple var instead of an array, count() will return 1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. How Many Ways I Can Redirect A Php Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Here are the possible ways of php page redirection.</p>
+<p>1. <strong>Using Java script:</strong><br/>
+'; echo 'window.location.href="'.$filename.'";'; echo ''; echo ''; echo ''; echo ''; } }<br/>
+redirect</p>
+<p>2. <strong>Using php function</strong>: header</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. How Many Ways We Can Pass The Variable Through The Navigation Between The
+Pages?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>At least 3 ways:<br/>
+1. Put the variable into session in the first page, and get it back from session in the next page.<br/>
+2. Put the variable into cookie in the first page, and get it back from the cookie in the next page.<br/>
+3. Put the variable into a hidden form field, and get it back from the form in the next page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. What Is The Maximum Length Of A Table Name, A Database Name, Or A Field Name In
+Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Database name: 64 characters<br/>
+Table name: 64 characters<br/>
+Column name: 64 characters</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. How Many Values Can The Set Function Of Mysql Take?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL SET function can take zero or more values, but at the maximum it can take 64 values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. What Are The Other Commands To Know The Structure Of A Table Using Mysql
+Commands Except Explain Command?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DESCRIBE table_name;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. How Can We Find The Number Of Rows In A Table Using Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use this for MySQL<br/>
+SELECT COUNT(*) FROM table_name;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. What Changes I Have To Do In Php.ini File For File Uploading?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Make the following line uncomment like:<br/>
+; Whether to allow HTTP file uploads.<br/>
+file_uploads = On<br/>
+; Temporary directory for HTTP uploaded files (will use system default if not<br/>
+; specified).<br/>
+upload_tmp_dir = C:\apache2triad\temp<br/>
+; Maximum allowed size for uploaded files.<br/>
+upload_max_filesize = 2M</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques63"><strong>Question 64. What's The Difference Between Md5(), Crc32() And Sha1() Crypto On Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The major difference is the length of the hash generated. CRC32 is, evidently, 32 bits, while sha1() returns a 128 bit value, and md5() returns a 160 bit value. This is important when avoiding collisions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques64"><strong>Question 65. How Can We Find The Number Of Rows In A Result Set Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Here is how can you find the number of rows in a result set in PHP:</p>
+<p>$result = mysql_query($any_valid_sql, $database_link);<br/>
+$num_rows = mysql_num_rows($result);<br/>
+echo "$num_rows rows found";</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques65"><strong>Question 66. What Is The Default Session Time In Php And How Can I Change It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The default session time in php is until closing of browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques66"><strong>Question 67. How Many Ways We Can We Find The Current Date Using Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT CURDATE();<br/>
+SELECT CURRENT_DATE();<br/>
+SELECT CURTIME();<br/>
+SELECT CURRENT_TIME();</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques67"><strong>Question 68. How Many Ways We Can Give The Output To A Browser?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML output<br/>
+PHP, ASP, JSP, Servlet Function<br/>
+Script Language output Function<br/>
+Different Type of embedded Package to output to a browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques68"><strong>Question 69. Please Give A Regular Expression (preferably Perl/preg Style), Which Can Be Used To
+Identify The Url From Within A Html Link Tag?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Try this: /href="([^"]*)"/i.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques69"><strong>Question 70. Give The Syntax Of Grant Commands?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The generic syntax for GRANT is as following<br/>
+GRANT [rights] on [database] TO [username@hostname] IDENTIFIED BY [password]</p>
+<p>Now rights can be:<br/>
+a) ALL privilages<br/>
+b) Combination of CREATE, DROP, SELECT, INSERT, UPDATE and DELETE etc.</p>
+<p>We can grant rights on all databse by usingh *.* or some specific database by database.* or a specific table by database.table_name.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques70"><strong>Question 71. What Are The Different Ways To Login To A Remote Server? Explain The Means,
+Advantages And Disadvantages?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is at least 3 ways to logon to a remote server:<br/>
+Use ssh or telnet if you concern with security<br/>
+You can also use rlogin to logon to a remote server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques71"><strong>Question 72. Give The Syntax Of Revoke Commands?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The generic syntax for revoke is as following<br/>
+REVOKE [rights] on [database] FROM [username@hostname]</p>
+<p>Now rights can be:<br/>
+a) ALL privilages<br/>
+b) Combination of CREATE, DROP, SELECT, INSERT, UPDATE and DELETE etc.</p>
+<p>We can grant rights on all databse by usingh *.* or some specific database by database.* or a specific table by database.table_name.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques72"><strong>Question 73. When Viewing An Html Page In A Browser, The Browser Often Keeps This Page In Its
+Cache. What Can Be Possible Advantages/disadvantages Of Page Caching? How Can
+You Prevent Caching Of A Certain Page (please Give Several Alternate Solutions)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When you use the metatag in the header section at the beginning of an HTML Web page, the Web page may still be cached in the Temporary Internet Files folder.</p>
+<p>A page that Internet Explorer is browsing is not cached until half of the 64 KB buffer is filled. Usually, metatags are inserted in the header section of an HTML document, which appears at the beginning of the document. When the HTML code is parsed, it is read from top to bottom. When the metatag is read, Internet Explorer looks for the existence of the page in cache at that exact moment. If it is there, it is removed. To properly prevent the Web page from appearing in the cache, place another header section at the end of the HTML document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques73"><strong>Question 74. When You Want To Show Some Part Of A Text Displayed On An Html Page In Red Font
+Color? What Different Possibilities Are There To Do This? What Are The
+Advantages/disadvantages Of These Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are 2 ways to show some part of a text in red:</p>
+<p>1. Using HTML tag &lt;font color="red"&gt;<br/>
+2. Using HTML tag &lt;/font&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques74"><strong>Question 75. What Is The Difference Between Char And Varchar Data Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CHAR is a fixed length data type. CHAR(n) will take n characters of storage even if you enter less than n characters to that column. For example, "Hello!" will be stored as "Hello! " in CHAR(10) column.</p>
+<p>VARCHAR is a variable length data type. VARCHAR(n) will take only the required storage for the actual number of characters entered to that column. For example, "Hello!" will be stored as "Hello!" in VARCHAR(10) column.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques75"><strong>Question 76. How Can We Encrypt And Decrypt A Data Present In A Mysql Table Using Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AES_ENCRYPT() and AES_DECRYPT().</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques76"><strong>Question 77. How Can We Change The Name Of A Column Of A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL query to rename table: RENAME TABLE tbl_name TO new_tbl_name<br/>
+or,<br/>
+ALTER TABLE tableName CHANGE OldName newName.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques77"><strong>Question 78. How Can Increase The Performance Of Mysql Select Query?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can use LIMIT to stop MySql for further search in table after we have received our required no. of records, also we can use LEFT JOIN or RIGHT JOIN instead of full join in cases we have related data in two or more tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques78"><strong>Question 79. Will Comparison Of String "10" And Integer 11 Work In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, internally PHP will cast everything to the integer type, so numbers 10 and 11 will be compared.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques79"><strong>Question 80. What Type Of Inheritance That Php Supports?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In PHP an extended class is always dependent on a single base class, that is, multiple inheritance is not supported. Classes are extended using the keyword 'extends'.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques80"><strong>Question 81. What Is The Functionality Of Md5 Function In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>string md5(string)<br/>
+It calculates the MD5 hash of a string. The hash is a 32-character hexadecimal number.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques81"><strong>Question 82. How Can I Load Data From A Text File Into A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The MySQL provides a LOAD DATA INFILE command. You can load data from a file.<br/>
+Great tool but you need to make sure that:</p>
+<p>a) Data must be delimited.<br/>
+b) Data fields must match table columns correctly.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques82"><strong>Question 83. How Can We Know The Number Of Days Between Two Given Dates Using Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use DATEDIFF()<br/>
+SELECT DATEDIFF(NOW(),'2006-07-01');</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques83"><strong>Question 84. How Can We Change The Data Type Of A Column Of A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This will change the data type of a column:<br/>
+ALTER TABLE table_name CHANGE colm_name same_colm_name [new data type].</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques84"><strong>Question 85. How Can We Know That A Session Is Started Or Not?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A session starts by session_start() function.<br/>
+This session_start() is always declared in header portion. it always declares first. then we write session_ register().</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques85"><strong>Question 86. What Are The Advantages And Disadvantages Of Cascade Style Sheets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>External Style Sheets</strong><br/>
+Advantages<br/>
+Can control styles for multiple documents at once Classes can be created for use on multiple HTML element types in many documents Selector and grouping methods can be used to apply styles under complex contexts</p>
+<p>Disadvantages</p>
+<p>An extra download is required to import style information for each document The rendering of the document may be delayed until the external style sheet is loaded Becomes slightly unwieldy for small quantities of style definitions</p>
+<p><strong>Embedded Style Sheets</strong><br/>
+Advantages<br/>
+Classes can be created for use on multiple tag types in the document Selector and grouping methods can be used to apply styles under complex contexts No additional downloads necessary to receive style information</p>
+<p>Disadvantage</p>
+<p>This method can not control styles for multiple documents at once</p>
+<p><strong>Inline Styles</strong><br/>
+Advantages<br/>
+Useful for small quantities of style definitions Can override other style specification methods at the local level so only exceptions need to be listed in conjunction with other style methods</p>
+<p>Disadvantages</p>
+<p>Does not distance style information from content (a main goal of SGML/HTML) Can not control styles for multiple documents at once Author can not create or control classes of elements to control multiple element types within the document Selector grouping methods can not be used to create complex element addressing scenarios</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques86"><strong>Question 87. If We Login More Than One Browser Windows At The Same Time With Same User And
+After That We Close One Window, Then Is The Session Is Exist To Other Windows Or Not?
+And If Yes Then Why? If No Then Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Session depends on browser. If browser is closed then session is lost. The session data will be deleted after session time out. If connection is lost and you recreate connection, then session will continue in the browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques87"><strong>Question 88. What's The Difference Between Accessing A Class Method Via -&gt; And Via ::?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>:: is allowed to access methods that can perform static operations, i.e. those, which do not require object initialization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques88"><strong>Question 89. What Are The Mysql Database Files Stored In System ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data is stored in name.myd<br/>
+Table structure is stored in name.frm<br/>
+Index is stored in name.myi</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques89"><strong>Question 90. Explain Normalization Concept?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The normalization process involves getting our data to conform to three progressive normal forms, and a higher level of normalization cannot be achieved until the previous levels have been achieved (there are actually five normal forms, but the last two are mainly academic and will not be discussed).</p>
+<p><strong>First Normal Form</strong><br/>
+The First Normal Form (or 1NF) involves removal of redundant data from horizontal rows. We want to ensure that there is no duplication of data in a given row, and that every column stores the least amount of information possible (making the field atomic).</p>
+<p><strong>Second Normal Form</strong><br/>
+Where the First Normal Form deals with redundancy of data across a horizontal row, Second Normal Form (or 2NF) deals with redundancy of data in vertical columns. As stated earlier, the normal forms are progressive, so to achieve Second Normal Form, your tables must already be in First Normal Form.</p>
+<p><strong>Third Normal Form</strong><br/>
+I have a confession to make; I do not often use Third Normal Form. In Third Normal Form we are looking for data in our tables that is not fully dependant on the primary key, but dependant on another value in the table</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques90"><strong>Question 91. What Is The Difference Between Php4 And Php5?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PHP4 cannot support oops concepts and Zend engine 1 is used.<br/>
+PHP5 supports oops concepts and Zend engine 2 is used.<br/>
+Error supporting is increased in PHP5.<br/>
+XML and SQLLite will is increased in PHP5.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques91"><strong>Question 92. What Are The Advantages Of Stored Procedures, Triggers, Indexes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A stored procedure is a set of SQL commands that can be compiled and stored in the server. Once this has been done, clients don't need to keep re-issuing the entire query but can refer to the stored procedure. This provides better overall performance because the query has to be parsed only once, and less information needs to be sent between the server and the client. You can also raise the conceptual level by having libraries of functions in the server. However, stored procedures of course do increase the load on the database server system, as more of the work is done on the server side and less on the client (application) side. Triggers will also be implemented. A trigger is effectively a type of stored procedure, one that is invoked when a particular event occurs. For example, you can install a stored procedure that is triggered each time a record is deleted from a transaction table and that stored procedure automatically deletes the corresponding customer from a customer table when all his transactions are deleted.</p>
+<p>Indexes are used to find rows with specific column values quickly. Without an index, MySQL must begin with the first row and then read through the entire table to find the relevant rows. The larger the table, the more this costs. If the table has an index for the columns in question, MySQL can quickly determine the position to seek to in the middle of the data file without having to look at all the data. If a table has 1,000 rows, this is at least 100 times faster than reading sequentially. If you need to access most of the rows, it is faster to read sequentially, because this minimizes disk seeks.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques92"><strong>Question 93. What Are The Difference Between Abstract Class And Interface?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Abstract class</strong>: abstract classes are the class where one or more methods are abstract but not necessarily all method has to be abstract. Abstract methods are the methods, which are declare in its class but not define. The definition of those methods must be in its extending class.</p>
+<p><strong>Interface</strong>: Interfaces are one type of class where all the methods are abstract. That means all the methods only declared but not defined. All the methods must be define by its implemented class</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques93"><strong>Question 94. Can We Use Include(abc.php) Two Times In A Php Page Makeit.php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes we can include that many times we want, but here are some things to make sure of: (including abc.PHP, the file names are case-sensitive) there shouldn't be any duplicate function names, means there should not be functions or classes or variables with the same name in abc.PHP and makeit.php.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques94"><strong>Question 95. How Can I Make A Script That Can Be Bilingual (supports English, German)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can change char set variable in above line in the script to support bi language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques95"><strong>Question 96. What Is The Maximum Size Of A File That Can Be Uploaded Using Php And How Can We
+Change This?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can change maximum size of a file set upload_max_filesize variable in php.ini file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques96"><strong>Question 97. How Can We Get Second Of The Current Time Using Date Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>$second = date("s");</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques97"><strong>Question 98. What Are The Differences Between Mysql_fetch_array(), Mysql_fetch_object(),
+Mysql_fetch_row()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>mysql_fetch_array - </strong>Fetch a result row as an associative array and a numeric array.</p>
+<p><strong>mysql_fetch_object -</strong> Returns an object with properties that correspond to the fetched row and moves the internal data pointer ahead. Returns an object with properties that correspond to the fetched row, or FALSE if there are no more rows.</p>
+<p><strong>mysql_fetch_row() - </strong>Fetches one row of data from the result associated with the specified result identifier. The row is returned as an array. Each result column is stored in an array offset, starting at offset 0.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques98"><strong>Question 99. What Are The Features And Advantages Of Object Oriented Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>One of the main advantages of OO programming is its ease of modification; objects can easily be modified and added to a system there by reducing maintenance costs. OO programming is also considered to be better at modeling the real world than is procedural programming. It allows for more complicated and flexible interactions. OO systems are also easier for non-technical personnel to understand and easier for them to participate in the maintenance and enhancement of a system because it appeals to natural human cognition patterns. For some systems, an OO approach can speed development time since many objects are standard across systems and can be reused. Components that manage dates, shipping, shopping carts, etc. can be purchased and easily modified for a specific system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques99"><strong>Question 100. What Are The Reasons For Selecting Lamp (linux, Apache, Mysql, Php) Instead Of
+Combination Of Other Software Programs, Servers And Operating Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>All of those are open source resource. Security of Linux is very more than windows. Apache is a better server that IIS both in functionality and security. Mysql is world most popular open source database. Php is more faster that asp or any other scripting language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques100"><strong>Question 101. What Is Meant By Nl2br()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>nl2br() inserts a HTML tag <br/>
+before all new line characters n in a string.</p>
+<p>echo nl2br("god bless n you");</p>
+<p><strong>output:</strong><br/>
+god bless<br/>
+you</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques101"><strong>Question 102. What Are The Current Versions Of Apache, Php, And Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>PHP:</strong> PHP 5.1.2<br/>
+<strong>MySQL:</strong> MySQL 5.1<br/>
+<strong>Apache: </strong>Apache 2.1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques102"><strong>Question 103. How Can We Encrypt And Decrypt A Data Presented In A Table Using Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use functions: AES_ENCRYPT() and AES_DECRYPT() like:</p>
+<p>AES_ENCRYPT(str, key_str)<br/>
+AES_DECRYPT(crypt_str, key_str)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques103"><strong>Question 104. How Can We Destroy The Cookie?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Set the cookie with a past expiration time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques104"><strong>Question 105. How Can I Retrieve Values From One Database Server And Store Them In Other
+Database Server Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For this purpose, you can first read the data from one server into session variables. Then connect to other server and simply insert the data into the database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques105"><strong>Question 106. How Can We Submit From Without A Submit Button?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Trigger the JavaScript code on any event ( like onSelect of drop down list box, onfocus, etc ) document. myform.submit(); This will submit the form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques106"><strong>Question 107. Who Is The Father Of Php And What Is The Current Version Of
+Php And Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Rasmus Lerdorf.<br/>
+PHP 5.1. Beta<br/>
+MySQL 5.0</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques107"><strong>Question 108. Tools Used For Drawing Er Diagrams?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Case Studio.<br/>
+Smart Draw.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques108"><strong>Question 109. In How Many Ways We Can Retrieve Data In The Result Set Of
+Mysql Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>mysql_fetch_array -</strong> Fetch a result row as an associative array, a numeric array, or both<br/>
+<strong>mysql_fetch_assoc - </strong>Fetch a result row as an associative array<br/>
+<strong>mysql_fetch_object -</strong> Fetch a result row as an object<br/>
+<strong>mysql_fetch_row - </strong>Get a result row as an enumerated array</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques109"><strong>Question 110. What Are The Functions For Imap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>imap_body - </strong>Read the message body<br/>
+<strong>imap_check -</strong> Check current mailbox<br/>
+<strong>imap_delete - </strong>Mark a message for deletion from current mailbox<br/>
+<strong>imap_mail - </strong>Send an email message</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques110"><strong>Question 111. Check If A Variable Is An Integer In Javascript ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>var myValue =9.8;<br/>
+if(parseInt(myValue)== myValue)<br/>
+alert('Integer');<br/>
+else<br/>
+alert('Not an integer');</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques111"><strong>Question 112. What Are Encryption Functions In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CRYPT()<br/>
+MD5()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques112"><strong>Question 113. What Types Of Images That Php Supports ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Using imagetypes() function to find out what types of images are supported in your PHP engine.</p>
+<p>imagetypes() - Returns the image types supported.</p>
+<p>This function returns a bit-field corresponding to the image formats supported by the version of GD linked into PHP. The following bits are returned, IMG_GIF | IMG_JPG | IMG_PNG | IMG_WBMP | IMG_XPM.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques113"><strong>Question 114. What Is The Difference Between Htmlentities() And Htmlspecialchars()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>htmlspecialchars()</strong></em> - Convert some special characters to HTML entities (Only the most widely used)</p>
+<p><em><strong>htmlentities()</strong></em> - Convert ALL special characters to HTML entities.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques114"><strong>Question 115. How To Reset/destroy A Cookie ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Reset a cookie by specifying expire time in the past:<br/>
+Example: setcookie('Test',$i,time()-3600); // already expired time<br/>
+Reset a cookie by specifying its name only<br/>
+Example: setcookie('Test');</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques115"><strong>Question 116. What Is The Functionality Of The Function Htmlentities?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>htmlentities() - Convert all applicable characters to HTML entities<br/>
+This function is identical to htmlspecialchars() in all ways, except with htmlentities(), all characters which have HTML character entity equivalents are translated into these entities.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques116"><strong>Question 117. How Can We Get The Properties (size, Type, Width, Height) Of An Image Using Php
+Image Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To know the image size use getimagesize() function<br/>
+To know the image width use imagesx() function<br/>
+To know the image height use imagesy() function</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques117"><strong>Question 118. How To Set Cookies?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><pre>
+setcookie('variable','value','time')
+;
+variable - name of the cookie variable
+value - value of the cookie variable
+time - expiry time
+</pre>
+<p>Example: </p>
+<p>setcookie('Test',$i,time()+3600);<br/>
+Test - cookie variable name<br/>
+$i - value of the variable 'Test'<br/>
+time()+3600 - denotes that the cookie will expire after an one hour.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques118"><strong>Question 119. How Can We Increase The Execution Time Of A Php Script?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By the use of void set_time_limit(int seconds) Set the number of seconds a script is allowed to run. If this is reached, the script returns a fatal error. The default limit is 30 seconds or, if it exists, the max_execution_time value defined in the php.ini. If seconds is set to zero, no time limit is imposed.</p>
+<p>When called, set_time_limit() restarts the timeout counter from zero. In other words, if the timeout is the default 30 seconds, and 25 seconds into script execution a call such as set_time_limit(20) is made, the script will run for a total of 45 seconds before timing out.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques119"><strong>Question 120. In How Many Ways We Can Retrieve Data In The Result Set Of Mysql Using Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>mysql_fetch_array</strong></em> - Fetch a result row as an associative array, a numeric array, or both.</p>
+<p><em><strong>mysql_fetch_assoc</strong></em> - Fetch a result row as an associative array.</p>
+<p><em><strong>mysql_fetch_object</strong></em> - Fetch a result row as an object.</p>
+<p><em><strong>mysql_fetch_row</strong></em> —- Get a result row as an enumerated array.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques120"><strong>Question 121. Who Is The Father Of Php And What Is The Current Version Of Php And Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Rasmus Lerdorf.<br/>
+PHP 5.1. Beta<br/>
+MySQL 5.0</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques121"><strong>Question 122. What's The Difference Between Include And Require?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It’s how they handle failures. If the file is not found by require(), it will cause a fatal error and halt the execution of the script. If the file is not found by include(), a warning will be issued, but execution will continue.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques122"><strong>Question 123. Steps For The Payment Gateway Processing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An online payment gateway is the interface between your merchant account and your Web site. The online payment gateway allows you to immediately verify credit card transactions and authorize funds on a customer’s credit card directly from your Web site. It then passes the transaction off to your merchant bank for processing, commonly referred to as transaction batching.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques123"><strong>Question 124. Can We Use Include(abc.php) Two Times In A Php Page Makeit.php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes we can include that many times we want, but here are some things to make sure of: (including abc.PHP, the file names are case-sensitive).<br/>
+there shouldn't be any duplicate function names, means there should not be functions or classes or variables with the same name in abc.PHP and makeit.php.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques124"><strong>Question 125. How Many Ways We Can Give The Output To A Browser?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML output<br/>
+PHP, ASP, JSP, Servlet Function<br/>
+Script Language output Function<br/>
+Different Type of embedded Package to output to a browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques125"><strong>Question 126. What Are The Different Ways To Login To A Remote Server? Explain The Means, Advantages And Disadvantages?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is at least 3 ways to logon to a remote server:<br/>
+Use ssh or telnet if you concern with security<br/>
+You can also use rlogin to logon to a remote server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques126"><strong>Question 127. What Is Meant By Mime?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MIME is Multipurpose Internet Mail Extensions is an Internet standard for the format of e-mail. However browsers also uses MIME standard to transmit files. MIME has a header which is added to a beginning of the data. When browser sees such header it shows the data as it would be a file (for example image) Some examples of MIME types:</p>
+<p>audio/x-ms-wmp<br/>
+image/png<br/>
+application/x-shockwave-flash</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques127"><strong>Question 128. What Is The Difference Between Group By And Order By In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To sort a result, use an ORDER BY clause.<br/>
+The most general way to satisfy a GROUP BY clause is to scan the whole table and create a new temporary table where all rows from each group are consecutive, and then use this temporary table to discover groups and apply aggregate functions (if any). ORDER BY [col1],[col2],...[coln]; Tells DBMS according to what columns it should sort the result. If two rows will have the same value in col1 it will try to sort them according to col2 and so on.</p>
+<p>GROUP BY [col1],[col2],...[coln]; Tells DBMS to group (aggregate) results with same value of column col1. You can use COUNT(col1), SUM(col1), AVG(col1) with it, if you want to count all items in group, sum all values or view average.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques128"><strong>Question 129. Who Is The Father Of Php And Explain The Changes In Php Versions? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Rasmus Lerdorf is known as the father of PHP.PHP/F1 2.0 is an early and no longer supported version of PHP. PHP 3 is the successor to PHP/FI 2.0 and is a lot nicer. PHP 4 is the current generation of PHP, which uses the Zend engine under the hood. PHP 5 uses Zend engine 2 which, among other things, offers many additionalOOP features .</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques129"><strong>Question 130. Which Method Do You Follow To Get A Record From A Million Records? (searching Not From Database, From An Array In Php)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>use array_searchfl, array_keys, arrayyalues, array_key_exists, and in_array.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques130"><strong>Question 131. Are Namespaces Are There In Javascript? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A namespace is a container and allows you to bundle up all your functionality using a unique name. In JavaScript, a namespace is really just an object that you’ve attached all further methods, properties and objects. But it is not always necessary to use namespace.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques131"><strong>Question 132. What Is 'float' Property In Css? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The float property sets where an image or a text will appear in another element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques132"><strong>Question 133. What Are The Advantages/disadvantages Of Mysql And Php? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both of them are open source software (so free of cost), support cross platform. php is faster then ASP and iSP.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques133"><strong>Question 134. What Are The File Upload Settings In Configuration File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are several settings in the PHP configuration file related to file uploading:<br/>
+• file_uploads = On/Off - Whether or not to allow HTTP file uploads.<br/>
+• upload_tmp_dir = directory - The temporary directory used for storing files when doing file upload.<br/>
+• upload_max_filesize = size - The maximum size of an uploaded file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques134"><strong>Question 135. How To Uploaded Files To A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To store uploaded files to MySQL database, you can use the normal SELECT statement as shown in the modified processing_uploaded_files.php listed below:<br/>
+&lt;?php<br/>
+$con = mysql_connect("localhost", "", "");<br/>
+mysql_select_db("pickzy");<br/>
+$error = $_FILES['pickzycenter_logo']['error'];<br/>
+$tmp_name = $_FILES['pickzycenter_logo']['tmp_name'];<br/>
+$size = $_FILES['pickzycenter_logo']['size'];<br/>
+$name = $_FILES['pickzycenter_logo']['name'];<br/>
+$type = $_FILES['pickzycenter_logo']['type'];<br/>
+print("<br/>
+\n");<br/>
+if ($error == UPLOAD_ERR_OK &amp;&amp; $size &gt; 0) {<br/>
+$fp = fopen($tmp_name, 'r');<br/>
+$content = fread($fp, $size);<br/>
+fclose($fp);<br/>
+$content = addslashes($content);<br/>
+$sql = "INSERT INTO pickzy_files (name, type, size, content)"<br/>
+. " VALUES ('$name', '$type', $size, '$content')";<br/>
+mysql_query($sql, $con);<br/>
+print("File stored.\n");<br/>
+} else {<br/>
+print("Upload faield.\n");<br/>
+}<br/>
+print("<br/>
+\n");<br/>
+mysql_close($con);<br/>
+?&gt;<br/>
+Note that addslashes() is used to add backslashes to special characters that need to be protected in SQL statements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques135"><strong>Question 136. How To Create A Table To Store Files?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you using MySQL database and want to store files in database, you need to create BLOB columns, which can holds up to 65,535 characters. Here is a sample script that creates a table with a BLOB column to be used to store uploaded files:<br/>
+&lt;?php<br/>
+$con = mysql_connect("localhost", "", "");<br/>
+mysql_select_db("pickzy");<br/>
+$sql = "CREATE TABLE pickzy_files ("<br/>
+. " id INTEGER NOT NULL AUTO_INCREMENT"<br/>
+. ", name VARCHAR(80) NOT NULL"<br/>
+. ", type VARCHAR(80) NOT NULL"<br/>
+. ", size INTEGER NOT NULL"<br/>
+. ", content BLOB"<br/>
+. ", PRIMARY KEY (id)"<br/>
+. ")";<br/>
+mysql_query($sql, $con);<br/>
+mysql_close($con);<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques136"><strong>Question 137. Why Do You Need To Filter Out Empty Files?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When you are processing uploaded files, you need to check for empty files, because they could be resulted from a bad upload process but the PHP engine could still give no error.</p>
+<p>For example, if a user typed a bad file name in the upload field and submitted the form, the PHP engine will take it as an empty file without raising any error. The script below shows you an improved logic to process uploaded files:</p>
+<p>&lt;?php<br/>
+$file = '\pickzycenter\images\pickzycenter.logo';<br/>
+$error = $_FILES['pickzycenter_logo']['error'];<br/>
+$tmp_name = $_FILES['pickzycenter_logo']['tmp_name'];<br/>
+print("<br/>
+\n");<br/>
+if ($error==UPLOAD_ERR_OK) {<br/>
+if ($_FILES['pickzycenter_logo']['size'] &gt; 0) {<br/>
+move_uploaded_file($tmp_name, $file);<br/>
+print("File uploaded.\n");<br/>
+} else {<br/>
+print("Loaded file is empty.\n");<br/>
+}<br/>
+} else if ($error==UPLOAD_ERR_NO_FILE) {<br/>
+print("No files specified.\n");<br/>
+} else {<br/>
+print("Upload faield.\n");<br/>
+}<br/>
+print("<br/>
+\n");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques137"><strong>Question 138. How To Move Uploaded Files To Permanent Directory?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PHP stores uploaded files in a temporary directory with temporary file names. You must move uploaded files to a permanent directory, if you want to keep them permanently.</p>
+<p>PHP offers the move_uploaded_file() to help you moving uploaded files. The example script, processing_ uploaded_files.php, below shows a good example:</p>
+<p>&lt;?php<br/>
+$file = '\pickzycenter\images\pickzycenter.logo';<br/>
+print("&lt;pre&gt;\n");<br/>
+move_uploaded_file($_FILES['pickzycenter_logo']['tmp_name'], $file);<br/>
+print("File uploaded: ".$file."\n");<br/>
+print("&lt;/pre&gt;\n");<br/>
+?&gt;</p>
+<p>Note that you need to change the permanent directory, "\pickzycenter\images\", used in this script to something else on your Web server. If your Web server is provided by a Web hosting company, you may need to ask them which directories you can use to store files.</p>
+<p>If you copy both scripts, logo_upload.php and processing_uploaded_files.php, to your Web server, you can try them to upload an image file to your Web server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques138"><strong>Question 139. How To Process The Uploaded Files?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>How to process the uploaded files? The answer is really depending on your application. For example:</p>
+<ul>
+<li>You can attached the outgoing emails, if the uploaded files are email attachments.</li>
+<li>You can move them to user's Web page directory, if the uploaded files are user's Web pages.</li>
+<li>You can move them to a permanent directory and save the files names in the database, if the uploaded files are articles to be published on the Web site.</li>
+<li>You can store them to database tables, if you don't want store them as files.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques139"><strong>Question 140. How Many Escape Sequences Are Recognized In Single-quoted Strings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are 2 escape sequences you can use in single-quoted strings:<br/>
+• \\ - Represents the back slash character.<br/>
+• \' - Represents the single quote character.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques140"><strong>Question 141. What Are The Special Characters You Need To Escape In Double-quoted Stings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two special characters you need to escape in a double-quote string: the double quote (") and the back slash (\). Here is a PHP script example of double-quoted strings:<br/>
+&lt;?php<br/>
+echo "Hello world!";<br/>
+echo "Tom said: \"Who's there?\"";<br/>
+echo "\\ represents an operator.";<br/>
+?&gt;<br/>
+This script will print:<br/>
+Hello world!Tom said: "Who's there?"\ represents an operator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques141"><strong>Question 142. How Many Escape Sequences Are Recognized In Double-quoted Strings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are 12 escape sequences you can use in double-quoted strings:<br/>
+• \\ - Represents the back slash character.<br/>
+•  \" - Represents the double quote character.<br/>
+•  \$ - Represents the dollar sign.<br/>
+•  \n - Represents the new line character (ASCII code 10).<br/>
+•  \r - Represents the carriage return character (ASCII code 13).<br/>
+•  \t - Represents the tab character (ASCII code 9).<br/>
+•  \{ - Represents the open brace character.<br/>
+•  \} - Represents the close brace character.<br/>
+•  \[ - Represents the open bracket character.<br/>
+•  \] - Represents the close bracket character.<br/>
+• \nnn - Represents a character as an octal value.<br/>
+•  \xnn - Represents a character as a hex value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques142"><strong>Question 143. How To Include Variables In Double-quoted Strings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Variables included in double-quoted strings will be interpolated. Their values will be concatenated into the enclosing strings. For example, two statements in the following PHP script will print out the same string:<br/>
+&lt;?php<br/>
+$variable = "and";<br/>
+echo "part 1 $variable part 2\n";<br/>
+echo "part 1 ".$variable." part 2\n";<br/>
+?&gt;<br/>
+This script will print:<br/>
+part 1 and part 2<br/>
+part 1 and part 2</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques143"><strong>Question 144. How To Access A Specific Character In A String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Any character in a string can be accessed by a special string element expression:<br/>
+• $string{index} - The index is the position of the character counted from left and starting from 0.<br/>
+Here is a PHP script example:<br/>
+&lt;?php<br/>
+$string = 'It\'s Friday!';<br/>
+echo "The first character is $string{0}\n";<br/>
+echo "The first character is {$string{0}}\n";<br/>
+?&gt;<br/>
+This script will print:<br/>
+The first character is It's Friday!{0}<br/>
+The first character is I</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques144"><strong>Question 145. How To Assigning A New Character In A String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The string element expression, $string{index}, can also be used at the left side of an assignment statement. This allows you to assign a new character to any position in a string. Here is a PHP script example:<br/>
+&lt;?php<br/>
+$string = 'It\'s Friday?';<br/>
+echo "$string\n";<br/>
+$string{11} = '!';<br/>
+echo "$string\n";<br/>
+?&gt;<br/>
+This script will print:<br/>
+It's Friday?<br/>
+It's Friday!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques145"><strong>Question 146. How To Get The Number Of Characters In A String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use the "strlen()" function to get the number of characters in a string. Here is a PHP script example of strlen():<br/>
+&lt;?php<br/>
+print(strlen('It\'s Friday!'));<br/>
+?&gt;<br/>
+This script will print:<br/>
+12</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques146"><strong>Question 147. How To Remove The New Line Character From The End Of A Text Line?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you are using fgets() to read a line from a text file, you may want to use the chop() function to remove the new line character from the end of the line as shown in this PHP script:<br/>
+&lt;?php<br/>
+$handle = fopen("/tmp/inputfile.txt", "r");<br/>
+while ($line=fgets()) {<br/>
+$line = chop($line);<br/>
+# process $line here...<br/>
+}<br/>
+fclose($handle);<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques147"><strong>Question 148. How To Remove Leading And Trailing Spaces From User Input Values?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you are taking input values from users with a Web form, users may enter extra spaces at the beginning and/or the end of the input values. You should always use the trim() function to remove those extra spaces as shown in this PHP script:<br/>
+&lt;?php<br/>
+$name = $_REQUEST("name");<br/>
+$name = trim($name);<br/>
+# $name is ready to be used...<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques148"><strong>Question 149. How To Take A Substring From A Given String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you know the position of a substring in a given string, you can take the substring out by the substr() function. Here is a PHP script on how to use substr():<br/>
+&lt;?php<br/>
+$string = "beginning";<br/>
+print("Position counted from left: ".substr($string,0,5)."\n");<br/>
+print("Position counted form right: ".substr($string,-7,3)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Position counted from left: begin<br/>
+Position counted form right: gin<br/>
+substr() can take negative starting position counted from the end of the string.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques149"><strong>Question 150. How To Replace A Substring In A Given String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you know the position of a substring in a given string, you can replace that substring by another string by using the substr_replace() function. Here is a PHP script on how to use substr_replace():<br/>
+&lt;?php<br/>
+$string = "Warning: System will shutdown in NN minutes!";<br/>
+$pos = strpos($string, "NN");<br/>
+print(substr_replace($string, "15", $pos, 2)."\n");<br/>
+sleep(10*60);<br/>
+print(substr_replace($string, "5", $pos, 2)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Warning: System will shutdown in 15 minutes!<br/>
+(10 minutes later)<br/>
+Warning: System will shutdown in 5 minutes!<br/>
+Like substr(), substr_replace() can take negative starting position counted from the end of the string.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques150"><strong>Question 151. How To Convert Strings To Upper Or Lower Cases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Converting strings to upper or lower cases are easy. Just use strtoupper() or strtolower() functions. Here is a PHP script on how to use them:<br/>
+&lt;?php<br/>
+$string = "PHP string functions are easy to use.";<br/>
+$lower = strtolower($string);<br/>
+$upper = strtoupper($string);<br/>
+print("$lower\n");<br/>
+print("$upper\n");<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+php string functions are easy to use.<br/>
+PHP STRING FUNCTIONS ARE EASY TO USE.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques151"><strong>Question 152. How To Convert The First Character To Upper Case?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you are processing an article, you may want to capitalize the first character of a sentence by using the ucfirst() function. You may also want to capitalize the first character of every words for the article title by using the ucwords() function. Here is a PHP script on how to use ucfirst() and ucwords():<br/>
+&lt;?php<br/>
+$string = "php string functions are easy to use.";<br/>
+$sentence = ucfirst($string);<br/>
+$title = ucwords($string);<br/>
+print("$sentence\n");<br/>
+print("$title\n");<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Php string functions are easy to use.<br/>
+Php String Functions Are Easy To Use.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques152"><strong>Question 153. How To Convert Strings In Hex Format?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want convert a string into hex format, you can use the bin2hex() function. Here is a PHP script on how to use bin2hex():<br/>
+&lt;?php<br/>
+$string = "Hello\tworld!\n";<br/>
+print($string."\n");<br/>
+print(bin2hex($string)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Hello world!<br/>
+48656c6c6f09776f726c64210a</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques153"><strong>Question 154. How To Generate A Character From An Ascii Value?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to generate characters from ASCII values, you can use the chr() function.<br/>
+chr() takes the ASCII value in decimal format and returns the character represented by the ASCII value. chr() complements ord(). Here is a PHP script on how to use chr():<br/>
+&lt;?php<br/>
+print(chr(72).chr(101).chr(108).chr(108).chr(111)."\n");<br/>
+print(ord("H")."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Hello<br/>
+72</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques154"><strong>Question 155. How To Convert A Character To An Ascii Value?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to convert characters to ASCII values, you can use the ord() function, which takes the first charcter of the specified string, and returns its ASCII value in decimal format. ord() complements chr(). Here is a PHP script on how to use ord():<br/>
+&lt;?php<br/>
+print(ord("Hello")."\n");<br/>
+print(chr(72)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+72<br/>
+H</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques155"><strong>Question 156. How To Join Multiple Strings Into A Single String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you multiple strings stored in an array, you can join them together into a single string with a given delimiter by using the implode() function. Here is a PHP script on how to use implode():<br/>
+&lt;?php<br/>
+$date = array('01', '01', '2006');<br/>
+$keys = array('php', 'string', 'function');<br/>
+print("A formated date: ".implode("/",$date)."\n");<br/>
+print("A keyword list: ".implode(", ",$keys)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+A formated date: 01/01/2006<br/>
+A keyword list: php, string, function</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques156"><strong>Question 157. What Is An Array In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An array in PHP is really an ordered map of pairs of keys and values.<br/>
+Comparing with Perl, an array in PHP is not like a normal array in Perl. An array in PHP is like an associate array in Perl. But an array in PHP can work like a normal array in Perl.<br/>
+Comparing with Java, an array in PHP is not like an array in Java. An array in PHP is like a TreeMap class in Java. But an array in PHP can work like an array in Java.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques157"><strong>Question 158. How To Test If A Variable Is An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Testing if a variable is an array is easy. Just use the is_array() function. Here is a PHP script on how to use is_array():<br/>
+&lt;?php<br/>
+$var = array(0,0,7);<br/>
+print("Test 1: ". is_array($var)."\n");<br/>
+$var = array();<br/>
+print("Test 2: ". is_array($var)."\n");<br/>
+$var = 1800;<br/>
+print("Test 3: ". is_array($var)."\n");<br/>
+$var = true;<br/>
+print("Test 4: ". is_array($var)."\n");<br/>
+$var = null;<br/>
+print("Test 5: ". is_array($var)."\n");<br/>
+$var = "PHP";<br/>
+print("Test 6: ". is_array($var)."\n");<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Test 1: 1<br/>
+Test 2: 1<br/>
+Test 3:<br/>
+Test 4:<br/>
+Test 5:<br/>
+Test 6:</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques158"><strong>Question 159. How To Retrieve Values Out Of An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can retrieve values out of arrays using the array element expression $array[$key].<br/>
+Here is a PHP example script:<br/>
+&lt;?php $languages = array(); $languages["Zero"] = "PHP"; $languages["One"] = "Perl";<br/>
+$languages["Two"] = "Java"; print("Array with inserted values:\n");<br/>
+print_r($languages); ?&gt;<br/>
+This script will print:<br/>
+Array with default keys:<br/>
+The second value: Perl<br/>
+Array with specified keys:<br/>
+The third value: Java</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques159"><strong>Question 160. How Values In Arrays Are Indexed?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Values in an array are all indexed their corresponding keys. Because we can use either an integer or a string as a key in an array, we can divide arrays into 3 categories:</p>
+<ul>
+<li>Numerical Array - All keys are sequential integers.</li>
+<li>Associative Array - All keys are strings.</li>
+<li>Mixed Array - Some keys are integers, some keys are strings.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques160"><strong>Question 161. How The Values Are Ordered In An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PHP says that an array is an ordered map. But how the values are ordered in an array?<br/>
+The answer is simple. Values are stored in the same order as they are inserted like a queue. If you want to reorder them differently, you need to use a sort function. Here is a PHP script show you the order of array values:<br/>
+&lt;?php<br/>
+$mixed = array();<br/>
+$mixed["Two"] = "Java";<br/>
+$mixed["3"] = "C+";<br/>
+$mixed["Zero"] = "PHP";<br/>
+$mixed[1] = "Perl";<br/>
+$mixed[""] = "Basic";<br/>
+$mixed[] = "Pascal";<br/>
+$mixed[] = "FORTRAN";<br/>
+$mixed["Two"] = "";<br/>
+unset($mixed[4]);<br/>
+print("Order of array values:\n");<br/>
+print_r($mixed);<br/>
+?&gt;<br/>
+This script will print:<br/>
+Order of array values:<br/>
+Array<br/>
+(<br/>
+[Two] =&gt;<br/>
+[3] =&gt; C+<br/>
+[Zero] =&gt; PHP<br/>
+[1] =&gt; Perl<br/>
+[] =&gt; Basic<br/>
+[5] =&gt; FORTRAN<br/>
+)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques161"><strong>Question 162. How To Get The Total Number Of Values In An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can get the total number of values in an array by using the count() function. Here is a PHP example script:<br/>
+&lt;?php<br/>
+$array = array("PHP", "Perl", "Java");<br/>
+print_r("Size 1: ".count($array)."\n");<br/>
+$array = array();<br/>
+print_r("Size 2: ".count($array)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Size 1: 3<br/>
+Size 2: 0<br/>
+Note that count() has an alias called sizeof().</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques162"><strong>Question 163. How To Find A Specific Value In An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two functions can be used to test if a value is defined in an array or not:</p>
+<ul>
+<li>array_search($value, $array) - Returns the first key of the matching value in the array, if found. Otherwise, it returns false.</li>
+<li>in_array($value, $array) - Returns true if the $value is defined in $array.</li>
+</ul>
+<p>Here is a PHP script on how to use arrary_search():</p>
+<pre>
+&lt;?php
+$array = array("Perl", "PHP", "Java", "PHP");
+print("Search 1: ".array_search("PHP",$array)."n");
+print("Search 2: ".array_search("Perl",$array)."n");
+print("Search 3: ".array_search("C#",$array)."n");
+print("n");
+?&gt;
+</pre>
+<p>This script will print:</p>
+<p>Search 1: 1<br/>
+Search 2: 0<br/>
+Search 3:</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques163"><strong>Question 164. How To Merge Values Of Two Arrays Into A Single Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use the array_merge() function to merge two arrays into a single array.<br/>
+array_merge() appends all pairs of keys and values of the second array to the end of the first array. Here is a PHP script on how to use array_merge():<br/>
+&lt;?php<br/>
+$lang = array("Perl", "PHP", "Java",);<br/>
+$os = array("i"=&gt;"Windows", "ii"=&gt;"Unix", "iii"=&gt;"Mac");<br/>
+$mixed = array_merge($lang, $os);<br/>
+print("Merged:\n");<br/>
+print_r($mixed);<br/>
+?&gt;<br/>
+This script will print:<br/>
+Merged:<br/>
+Array<br/>
+(<br/>
+[0] =&gt; Perl<br/>
+[1] =&gt; PHP<br/>
+[2] =&gt; Java<br/>
+[i] =&gt; Windows<br/>
+[ii] =&gt; Unix<br/>
+[iii] =&gt; Mac<br/>
+)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques164"><strong>Question 165. How To Randomly Retrieve A Value From An Array?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a list of favorite greeting messages, and want to randomly select one of them to be used in an email, you can use the array_rand() function. Here is a PHP example script:<br/>
+&lt;?php<br/>
+$array = array("Hello!", "Hi!", "Allo!", "Hallo!", "Coucou!");<br/>
+$key = array_rand($array);<br/>
+print("Random greeting: ".$array[$key]."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Random greeting: Coucou!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques165"><strong>Question 166. How To Pad An Array With The Same Value Multiple Times?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to add the same value multiple times to the end or beginning of an array, you can use the array_pad($array, $new_size, $value) function. If the second argument, $new_size, is positive, it will pad to the end of the array. If negative, it will pad to the beginning of the array. If the absolute value of $new_size if not greater than the current size of the array, no padding takes place. Here is a PHP script on how to use array_pad():<br/>
+&lt;?php<br/>
+$array = array("Zero"=&gt;"PHP", "One"=&gt;"Perl", "Two"=&gt;"Java");<br/>
+$array = array_pad($array, 6, "&gt;&gt;");<br/>
+$array = array_pad($array, -8, "---");<br/>
+print("Padded:\n");<br/>
+print(join(",", array_values($array)));<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Padded:<br/>
+---,---,PHP,Perl,Java,&gt;&gt;,&gt;&gt;,&gt;&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques166"><strong>Question 167. How To Join Multiple Strings Stored In An Array Into A Single String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you multiple strings stored in an array, you can join them together into a single string with a given delimiter by using the implode() function. Here is a PHP script on how to use implode():<br/>
+&lt;?php<br/>
+$date = array('01', '01', '2006');<br/>
+$keys = array('php', 'string', 'function');<br/>
+print("A formated date: ".implode("/",$date)."\n");<br/>
+print("A keyword list: ".implode(", ",$keys)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+A formated date: 01/01/2006<br/>
+A keyword list: php, string, function</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques167"><strong>Question 168. How To Define A User Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can define a user function anywhere in a PHP script using the function statement like this: "function name() {...}". Here is a PHP script example on how to define a user function:<br/>
+&lt;?php<br/>
+function msg() {<br/>
+print("Hello world!\n");<br/>
+}<br/>
+msg();<br/>
+?&gt;<br/>
+This script will print:<br/>
+Hello world!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques168"><strong>Question 169. How To Invoke A User Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can invoke a function by entering the function name followed by a pair of parentheses. If needed, function arguments can be specified as a list of expressions enclosed in parentheses. Here is a PHP script example on how to invoke a user function:<br/>
+&lt;?php<br/>
+function hello($f) {<br/>
+print("Hello $f!\n");<br/>
+}<br/>
+hello("Bob");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Hello Bob!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques169"><strong>Question 170. How To Return A Value Back To The Function Caller?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can return a value to the function caller by using the "return $value" statement. Execution control will be transferred to the caller immediately after the return statement. If there are other statements in the function after the return statement, they will not be executed. Here is a PHP script example on how to return values:<br/>
+&lt;?php<br/>
+function getYear() {<br/>
+$year = date("Y");<br/>
+return $year;<br/>
+}<br/>
+print("This year is: ".getYear()."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+This year is: 2006</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques170"><strong>Question 171. How To Pass An Argument To A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To pass an argument to a function, you need to:<br/>
+•Add an argument definition in the function definition.<br/>
+•Add a value as an argument when invoking the function.<br/>
+Here is a PHP script on how to use arguments in a function():<br/>
+&lt;?php<br/>
+function f2c($f) {<br/>
+return ($f - 32.0)/1.8;<br/>
+}<br/>
+print("Celsius: ".f2c(100.0)."\n");<br/>
+print("Celsius: ".f2c(-40.0)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Celsius: 37.777777777778<br/>
+Celsius: -40</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques171"><strong>Question 172. How Variables Are Passed Through Arguments?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Like more of other programming languages, variables are passed through arguments by values, not by references. That means when a variable is passed as an argument, a copy of the value will be passed into the function. Modipickzyng that copy inside the function will not impact the original copy. Here is a PHP script on passing variables by values:<br/>
+&lt;?php<br/>
+function swap($a, $b) {<br/>
+$t = $a;<br/>
+$a = $b;<br/>
+$b = $t;<br/>
+}<br/>
+$x = "PHP";<br/>
+$y = "JSP";<br/>
+print("Before swapping: $x, $y\n");<br/>
+swap($x, $y);<br/>
+print("After swapping: $x, $y\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Before swapping: PHP, JSP<br/>
+After swapping: PHP, JSP<br/>
+As you can see, original variables were not affected.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques172"><strong>Question 173. How To Pass Variables By References?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can pass a variable by reference to a function by taking the reference of the original variable, and passing that reference as the calling argument. Here is a PHP script on how to use pass variables by references:<br/>
+&lt;?php<br/>
+function swap($a, $b) {<br/>
+$t = $a;<br/>
+$a = $b;<br/>
+$b = $t;<br/>
+}<br/>
+$x = "PHP";<br/>
+$y = "JSP";<br/>
+print("Before swapping: $x, $y\n");<br/>
+swap(&amp;$x, &amp;$y);<br/>
+print("After swapping: $x, $y\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Before swapping: PHP, JSP<br/>
+After swapping: JSP, PHP<br/>
+As you can see, the function modified the original variable.<br/>
+Note that call-time pass-by-reference has been deprecated. You need to define arguments as references.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques173"><strong>Question 174. Can You Define An Argument As A Reference Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can define an argument as a reference type in the function definition. This will automatically convert the calling arguments into references. Here is a PHP script on how to define an argument as a reference type:<br/>
+&lt;?php<br/>
+function ref_swap(&amp;$a, &amp;$b) {<br/>
+$t = $a;<br/>
+$a = $b;<br/>
+$b = $t;<br/>
+}<br/>
+$x = "PHP";<br/>
+$y = "JSP";<br/>
+print("Before swapping: $x, $y\n");<br/>
+ref_swap($x, $y);<br/>
+print("After swapping: $x, $y\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Before swapping: PHP, JSP<br/>
+After swapping: JSP, PHP</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques174"><strong>Question 175. Can You Pass An Array Into A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can pass an array into a function in the same as a normal variable. No special syntax needed. Here is a PHP script on how to pass an array to a function:<br/>
+&lt;?php<br/>
+function average($array) {<br/>
+$sum = array_sum($array);<br/>
+$count = count($array);<br/>
+return $sum/$count;<br/>
+}<br/>
+$numbers = array(5, 7, 6, 2, 1, 3, 4, 2);<br/>
+print("Average: ".average($numbers)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Average: 3.75</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques175"><strong>Question 176. How Arrays Are Passed Through Arguments?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Like a normal variable, an array is passed through an argument by value, not by reference. That means when an array is passed as an argument, a copy of the array will be passed into the function. Modipickzyng that copy inside the function will not impact the original copy. Here is a PHP script on passing arrays by values:<br/>
+&lt;?php<br/>
+function shrink($array) {<br/>
+array_splice($array,1);<br/>
+}<br/>
+$numbers = array(5, 7, 6, 2, 1, 3, 4, 2);<br/>
+print("Before shrinking: ".join(",",$numbers)."\n");<br/>
+shrink($numbers);<br/>
+print("After shrinking: ".join(",",$numbers)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Before shrinking: 5,7,6,2,1,3,4,2<br/>
+After shrinking: 5,7,6,2,1,3,4,2<br/>
+As you can see, original variables were not affected.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques176"><strong>Question 177. Can You Define An Array Argument As A Reference Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can define an array argument as a reference type in the function definition. This will automatically convert the calling arguments into references. Here is a PHP script on how to define an array argument as a reference type:<br/>
+&lt;?php<br/>
+function ref_shrink(&amp;$array) {<br/>
+array_splice($array,1);<br/>
+}<br/>
+$numbers = array(5, 7, 6, 2, 1, 3, 4, 2);<br/>
+print("Before shrinking: ".join(",",$numbers)."\n");<br/>
+ref_shrink($numbers);<br/>
+print("After shrinking: ".join(",",$numbers)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+BBefore shrinking: 5,7,6,2,1,3,4,2<br/>
+After shrinking: 5</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques177"><strong>Question 178. What Is The Scope Of A Variable Defined In A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The scope of a local variable defined in a function is limited with that function. Once the function is ended, its local variables are also removed. So you can not access any local variable outside its defining function. Here is a PHP script on the scope of local variables in a function:<br/>
+&lt;?php<br/>
+?&gt;<br/>
+function myPassword() {<br/>
+$password = "U8FIE8W0";<br/>
+print("Defined inside the function? ". isset($password)."\n");<br/>
+}<br/>
+myPassword();<br/>
+print("Defined outside the function? ". isset($password)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Defined inside the function? 1<br/>
+Defined outside the function?</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques178"><strong>Question 179. What Is The Scope Of A Variable Defined Outside A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A variable defined outside any functions in main script body is called global variable. However, a global variable is not really accessible globally any in the script. The scope of global variable is limited to all statements outside any functions. So you can not access any global variables inside a function. Here is a PHP script on the scope of global variables:<br/>
+&lt;?php<br/>
+?&gt;<br/>
+$login = "pickzycenter";<br/>
+function myLogin() {<br/>
+print("Defined inside the function? ". isset($login)."\n");<br/>
+}<br/>
+myLogin();<br/>
+print("Defined outside the function? ". isset($login)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Defined inside the function?<br/>
+Defined outside the function? 1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques179"><strong>Question 180. How To Access A Global Variable Inside A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By default, global variables are not accessible inside a function. However, you can make them accessible by declare them as "global" inside a function. Here is a PHP script on declaring "global" variables:<br/>
+&lt;?php<br/>
+?&gt;<br/>
+$intRate = 5.5;<br/>
+function myAccount() {<br/>
+global $intRate;<br/>
+print("Defined inside the function? ". isset($intRate)."\n");<br/>
+}<br/>
+myAccount();<br/>
+print("Defined outside the function? ". isset($intRate)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Defined inside the function? 1<br/>
+Defined outside the function? 1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques180"><strong>Question 181. How To Specify Argument Default Values?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to allow the caller to skip an argument when calling a function, you can define the argument with a default value when defining the function. Adding a default value to an argument can be done like this "function name($arg=expression){}. Here is a PHP script on how to specify default values to arguments:<br/>
+&lt;?php<br/>
+function printKey($key="download") {<br/>
+print("PHP $key\n");<br/>
+}<br/>
+printKey();<br/>
+printKey("hosting");<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+PHP download<br/>
+PHP hosting</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques181"><strong>Question 182. How To Define A Function With Any Number Of Arguments?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to define a function with any number of arguments, you need to:<br/>
+•Declare the function with no argument.<br/>
+•Call func_num_args() in the function to get the number of the arguments.<br/>
+•Call func_get_args() in the function to get all the arguments in an array.<br/>
+Here is a PHP script on how to handle any number of arguments:<br/>
+&lt;?php<br/>
+function myAverage() {<br/>
+$count = func_num_args();<br/>
+$args = func_get_args();<br/>
+$sum = array_sum($args);<br/>
+return $sum/$count;<br/>
+}<br/>
+$average = myAverage(102, 121, 105);<br/>
+print("Average 1: $average\n");<br/>
+$average = myAverage(102, 121, 105, 99, 101, 110, 116, 101, 114);<br/>
+print("Average 2: $average\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Average 1: 109.33333333333<br/>
+Average 2: 107.66666666667</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques182"><strong>Question 183. How To Read The Entire File Into A Single String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a file, and you want to read the entire file into a single string, you can use the file_get_contents() function. It opens the specified file, reads all characters in the file, and returns them in a single string. Here is a PHP script example on how to file_get_contents():<br/>
+&lt;?php<br/>
+$file = file_get_contents("/windows/system32/drivers/etc/services");<br/>
+print("Size of the file: ".strlen($file)."\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Size of the file: 7116</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques183"><strong>Question 184. How To Open A File For Reading?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to open a file and read its contents piece by piece, you can use the fopen($fileName, "r") function. It opens the specified file, and returns a file handle. The second argument "r" tells PHP to open the file for reading. Once the file is open, you can use other functions to read data from the file through this file handle. Here is a PHP script example on how to use fopen() for reading:<br/>
+&lt;?php<br/>
+$file = fopen("/windows/system32/drivers/etc/hosts", "r");<br/>
+print("Type of file handle: " . gettype($file) . "\n");<br/>
+print("The first line from the file handle: " . fgets($file));<br/>
+fclose($file);<br/>
+?&gt;<br/>
+This script will print:<br/>
+Type of file handle: resource<br/>
+The first line from the file handle: # Copyright (c) 1993-1999<br/>
+Note that you should always call fclose() to close the opened file when you are done with the file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques184"><strong>Question 185. How To Open A File For Writing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to open a new file and write date to the file, you can use the fopen($fileName, "w") function. It creates the specified file, and returns a file handle. The second argument "w" tells PHP to open the file for writing. Once the file is open, you can use other functions to write data to the file through this file handle. Here is a PHP script example on how to use fopen() for writing:<br/>
+&lt;?php<br/>
+$file = fopen("/temp/todo.txt", "w");<br/>
+fwrite($file,"Download PHP scripts at dev.pickzycenter.com.\r\n");<br/>
+fclose($file);<br/>
+?&gt;<br/>
+This script will write the following to the file:<br/>
+Download PHP scripts at dev.pickzycenter.com.<br/>
+Note that you should use "\r\n" to terminate lines on Windows. On a Unix system, you should use "\n".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques185"><strong>Question 186. How To Read One Character From A File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a text file, and you want to read the file one character at a time, you can use the fgetc() function. It reads the current character, moves the file pointer to the next character, and returns the character as a string. If end of the file is reached, fgetc() returns Boolean false. Here is a PHP script example on how to use fgetc():<br/>
+&lt;?php<br/>
+$file = fopen("/windows/system32/drivers/etc/services", "r");<br/>
+$count = 0;<br/>
+while ( ($char=fgetc($file)) !== false ) {<br/>
+if ($char=="/") $count++;<br/>
+}<br/>
+fclose($file);<br/>
+print("Number of /: $count\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Number of /: 113<br/>
+Note that rtrim() is used to remove "\n" from the returning string of fgets().</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques186"><strong>Question 187. How To Read A File In Binary Mode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a file that stores binary data, like an executable program or picture file, you need to read the file in binary mode to ensure that none of the data gets modified during the reading process. You need to:<br/>
+•Open the file with fopen($fileName, "rb").<br/>
+•Read data with fread($fileHandle,$length).<br/>
+Here is a PHP script example on reading binary file:<br/>
+&lt;?php<br/>
+$in = fopen("/windows/system32/ping.exe", "rb");<br/>
+$out = fopen("/temp/myPing.exe", "w");<br/>
+$count = 0;<br/>
+while (!feof($in)) {<br/>
+$count++;<br/>
+$buffer = fread($in,64);<br/>
+fwrite($out,$buffer);<br/>
+}<br/>
+fclose($out);<br/>
+fclose($in);<br/>
+print("About ".($count*64)." bytes read.\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+About 16448 bytes read.<br/>
+This script actually copied an executable program file ping.exe in binary mode to new file. The new file should still be executable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques187"><strong>Question 188. How To Open Standard Output As A File Handle?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to open the standard output as a file handle yourself, you can use the fopen("php://stdout") function. It creates a special file handle linking to the standard output, and returns the file handle. Once the standard output is opened to a file handle, you can use fwrite() to write data to the starndard output like a regular file. Here is a PHP script example on how to write to standard output:<br/>
+&lt;?php<br/>
+$stdout = fopen("php://stdout", "w");<br/>
+fwrite($stdout,"To do:\n");<br/>
+fwrite($stdout,"Looking for PHP hosting provider!\n");<br/>
+fclose($stdout);<br/>
+?&gt;<br/>
+This script will print:<br/>
+What's your name?<br/>
+To do:<br/>
+Looking for PHP hosting provider!<br/>
+If you don't want to open the standard output as a file handle yourself, you can use the constant STDOUT predefined by PHP as the file handle for standard output.<br/>
+If you are using your script in a Web page, standard output is merged into the Web page HTML document.<br/>
+print() and echo() also writes to standard output.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques188"><strong>Question 189. How To Create A Directory?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use the mkdir() function to create a directory. Here is a PHP script example on how to use mkdir():<br/>
+&lt;?php<br/>
+if (file_exists("/temp/download")) {<br/>
+print("Directory already exists.\n");<br/>
+} else {<br/>
+mkdir("/temp/download");<br/>
+print("Directory created.\n");<br/>
+}<br/>
+?&gt;<br/>
+This script will print:<br/>
+Directory created.<br/>
+If you run this script again, it will print:<br/>
+Directory already exists.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques189"><strong>Question 190. How To Remove An Empty Directory?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have an empty existing directory and you want to remove it, you can use the rmdir(). Here is a PHP script example on how to use rmdir():<br/>
+&lt;?php<br/>
+if (file_exists("/temp/download")) {<br/>
+rmdir("/temp/download");<br/>
+print("Directory removed.\n");<br/>
+} else {<br/>
+print("Directory does not exist.\n");<br/>
+}<br/>
+?&gt;<br/>
+This script will print:<br/>
+Directory removed.<br/>
+If you run this script again, it will print:<br/>
+Directory does not exist.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques190"><strong>Question 191. How To Remove A File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to remove an existing file, you can use the unlink() function. Here is a PHP script example on how to use unlink():<br/>
+&lt;?php<br/>
+if (file_exists("/temp/todo.txt")) {<br/>
+unlink("/temp/todo.txt");<br/>
+print("File removed.\n");<br/>
+} else {<br/>
+print("File does not exist.\n");<br/>
+}<br/>
+?&gt;<br/>
+This script will print:<br/>
+File removed.<br/>
+If you run this script again, it will print:<br/>
+File does not exist.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques191"><strong>Question 192. How To Copy A File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a file and want to make a copy to create a new file, you can use the copy() function. Here is a PHP script example on how to use copy():<br/>
+&lt;?php<br/>
+unlink("/temp/myPing.exe");<br/>
+copy("/windows/system32/ping.exe", "/temp/myPing.exe");<br/>
+if (file_exists("/temp/myPing.exe")) {<br/>
+print("A copy of ping.exe is created.\n");<br/>
+}<br/>
+?&gt;<br/>
+This script will print:<br/>
+A copy of ping.exe is created.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques192"><strong>Question 193. How To Get The Directory Name Out Of A File Path Name?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have the full path name of a file, and want to get the directory name portion of the path name, you can use the dirname() function. It breaks the full path name at the last directory path delimiter (/) or (\), and returns the first portion as the directory name. Here is a PHP script example on how to use dirname():<br/>
+&lt;?php<br/>
+$pathName = "/temp/download/todo.txt";<br/>
+$dirName = dirname($pathName);<br/>
+print("File full path name: $pathName\n");<br/>
+print("File directory name: $dirName\n");<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+File full path name: /temp/download/todo.txt<br/>
+File directory name: /temp/download</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques193"><strong>Question 194. How To Break A File Path Name Into Parts?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a file name, and want to get different parts of the file name, you can use the pathinfo() function. It breaks the file name into 3 parts: directory name, file base name and file extension; and returns them in an array. Here is a PHP script example on how to use pathinfo():<br/>
+&lt;?php<br/>
+$pathName = "/temp/download/todo.txt";<br/>
+$parts = pathinfo($pathName);<br/>
+print_r($parts);<br/>
+print("\n");<br/>
+?&gt;<br/>
+This script will print:<br/>
+Array<br/>
+(<br/>
+[dirname] =&gt; /temp/download<br/>
+[basename] =&gt; todo.txt<br/>
+[extension] =&gt; txt<br/>
+)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques194"><strong>Question 195. How To Create A Web Form?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you take input data from visitors on your Web site, you can create a Web form with input fields to allow visitors to fill in data and submit the data to your server for processing. A Web form can be created with the &lt;FORM&gt; tag with some input tags. The &amp;FORM tag should be written in the following format:<br/>
+&lt;form action=processing.php method=get/post&gt;<br/>
+......<br/>
+&lt;/form&gt;<br/>
+Where "processing.php" specifies the PHP page that processes the submitted data in the form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques195"><strong>Question 196. What Are Form Input Html Tags?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML tags that can be used in a form to collect input data are:<br/>
+•&lt;SUBMIT ...&gt; - Displayed as a button allow users to submit the form.<br/>
+•&lt;INPUT TYPE=TEXT ...&gt; - Displayed as an input field to take an input string.<br/>
+•&lt;INPUT TYPE=RADIO ...&gt; - Displayed as a radio button to take an input flag.<br/>
+•&lt;INPUT TYPE=CHECKBOX ...&gt; - Displayed as a checkbox button to take an input flag.<br/>
+•&lt;SELECT ...&gt; - Displayed as a dropdown list to take input selection.<br/>
+•&lt;TEXTAREA ...&gt; - Displayed as an input area to take a large amount of input text.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques196"><strong>Question 197. How To Generate A Form?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Generating a form seems to be easy. You can use PHP output statements to generate the required &lt;FORM&gt; tag and other input tags. But you should consider to organized your input fields in a table to make your form looks good on the screen. The PHP script below shows you a good example of HTML forms:<br/>
+&lt;?php<br/>
+print("&lt;html&gt;&lt;form action=processing_forms.php method=post&gt;");<br/>
+print("&lt;table&gt;&lt;tr&gt;&lt;td colspan=2&gt;Please enter and submit your"<br/>
+." comments about PICKZYCenter.com:&lt;/td&gt;&lt;/tr&gt;");<br/>
+print("&lt;tr&gt;&lt;td&gt;Your Name:&lt;/td&gt;"<br/>
+."&lt;td&gt;&lt;input type=text name=name&gt;&lt;/td&gt;&lt;/tr&gt;\n");<br/>
+print("&lt;tr&gt;&lt;td&gt;Comments:&lt;/td&gt;"<br/>
+."&lt;td&gt;&lt;input type=text name=comment&gt;&lt;/td&gt;&lt;/tr&gt;\n");<br/>
+print("&lt;tr&gt;&lt;td colspan=2&gt;&lt;input type=submit&gt;&lt;td&gt;&lt;/tr&gt;&lt;/table&gt;\n");<br/>
+print("&lt;/form&gt;&lt;/html&gt;\n");<br/>
+?&gt;<br/>
+If you save this script as a PHP page, submit_comments.php, on your Web site, and view this page, you will see a simple Web form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques197"><strong>Question 198. Where Is The Submitted Form Data Stored?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a user submit a form on your Web server, user entered data will be transferred to the PHP engine, which will make the submitted data available to your PHP script for processing in pre-defined arrays:<br/>
+• $_GET - An associate array that store form data submitted with the GET method.<br/>
+• $_POST - An associate array that store form data submitted with the POST method.<br/>
+• $_REQUEST - An associate array that store form data submitted with either GET or POST method. $_REQUEST also contains the cookie values received back from the browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques198"><strong>Question 199. What Happens If An Expected Input Field Was Not Submitted?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Obviously, if an expected input field was not submitted, there will no entry in the $_REQUEST array for that field. You may get an execution error, if you are not checking the existence of the expected entries in $_REQUEST. For example, if you copy processing_forms.php to your local Web server, and run your browser with http://localhost/processing_forms.php?name=Joe, you will an error page like this:<br/>
+You have submitted the following information:<br/>
+Name = Joe<br/>
+Comments =<br/>
+Thank you!<br/>
+PHP Notice: Undefined index:<br/>
+comment in ...\processing_forms.php on line 3</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques199"><strong>Question 200. How To Avoid The Undefined Index Error?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you don't want your PHP page to give out errors as shown in the previous exercise, you should consider checking all expected input fields in $_REQUEST with the isset() function as shown in the example script below:<br/>
+&lt;?php<br/>
+if (isset($_REQUEST['name'])) {<br/>
+$name = $_REQUEST['name'];<br/>
+} else {<br/>
+$name = "";<br/>
+}<br/>
+if (isset($_REQUEST['comment'])) {<br/>
+$comment = $_REQUEST['comment'];<br/>
+} else {<br/>
+$comment = "";<br/>
+}<br/>
+print("&lt;html&gt;&lt;pre&gt;");<br/>
+print("You have submitted the following information:\n");<br/>
+print(" Name = $name\n");<br/>
+print(" Comments = $comment\n");<br/>
+print("Thank you!\n");<br/>
+print("&lt;/pre&gt;&lt;/html&gt;\n");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques200"><strong>Question 201. How To List All Values Of Submitted Fields?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want list all values of submitted fields, you can write a simple loop to retrieve all entries in the $_REQUEST array. Below is an improved version of processing_forms.php to list all submited input values:<br/>
+&lt;?php<br/>
+print("&lt;html&gt;&lt;pre&gt;");<br/>
+$count = count($_REQUEST);<br/>
+print("Number of values: $count\n");<br/>
+foreach ($_REQUEST as $key=&gt;$value) {<br/>
+print(" $key = $value\n");<br/>
+}<br/>
+print("&lt;/pre&gt;&lt;/html&gt;\n");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques201"><strong>Question 202. How To Retrieve The Original Query String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have coded some values in the URL without using the standard form GET format, you need to retrieve those values in the original query string in $_SERVER['QUERY_STRING']. The script below is an enhanced version of processing_forms.php which print the original query string:<br/>
+&lt;?php<br/>
+print("&lt;html&gt;&lt;pre&gt;");<br/>
+print(" query_string = {$_SERVER['QUERY_STRING']}\n");<br/>
+$count = count($_REQUEST);<br/>
+print("Number of values: $count\n");<br/>
+foreach ($_REQUEST as $key=&gt;$value) {<br/>
+if (is_array($value)) {<br/>
+print(" $key is an array\n");<br/>
+for ($i = 0; $i &lt; count($value); $i++) {<br/>
+$sub_value = $value[$i];<br/>
+if (get_magic_quotes_gpc()) {<br/>
+$sub_value = stripslashes($sub_value);<br/>
+}<br/>
+print(" ".$key."[".$i."] = ".$sub_value."\n");<br/>
+}<br/>
+} else {<br/>
+if (get_magic_quotes_gpc()) {<br/>
+$value = stripslashes($value);<br/>
+}<br/>
+print(" $key = $value\n");<br/>
+}<br/>
+}<br/>
+print("&lt;/pre&gt;&lt;/html&gt;\n");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques202"><strong>Question 203. How To Support Multiple-page Forms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a long form with a lots of fields, you may want to divide the fields into multiple groups and present multiple pages with one group of fields on one page. This makes the a long form more user-friendly. However, this requires you to write good scripts that:<br/>
+• When processing the first page and other middle pages, you must keep those input values collected so far in the session or as hidden values in the next page form.<br/>
+• When processing the last page, you should collect all input values from all pages for final process, like saving everything to the database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques203"><strong>Question 204. What Is A Cookie?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A cookie is a small amount of information sent by a Web server to a web browser and then sent back unchanged by the browser each time it accesses that server. HTTP cookies are used for authenticating, tracking, and maintaining specific information about users, such as site preferences and the contents of their electronic shopping carts. The term "cookie" is derived from "magic cookie", a well-known concept in computing which inspired both the idea and the name of HTTP cookies.<br/>
+A cookie consists of a cookie name and cookie value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques204"><strong>Question 205. How To Send A Cookie To The Browser?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to sent a cookie to the browser when it comes to request your PHP page, you can use the setcookie( ) function. Note that you should call setcookie() function before any output statements. The following script shows you how to set cookies:<br/>
+&lt;?php<br/>
+setcookie("LoginName","XYZ");<br/>
+setcookie("PreferredColor","Blue");<br/>
+print("2 cookies were delivered.\n");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques205"><strong>Question 206. How To Receive A Cookie From The Browser?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you know that a cookie has been sent to the browser when it was visiting the server previously, you can check the built-in $_COOKIE array, which contains all cookies that were sent by the server previously. The script below shows you how to pickup one cookie from the $_COOKIE and loop through all cookies in $_COOKIE:<br/>
+&lt;?php<br/>
+if (isset($_COOKIE["LoginName"])) {<br/>
+$loginName = $_COOKIE["LoginName"];<br/>
+print("Received a cookie named as LoginName: ".$loginName."\n");<br/>
+} else {<br/>
+print("Did not received any cookie named as LoginName.\n");<br/>
+}<br/>
+print("All cookies received:\n");<br/>
+foreach ($_COOKIE as $name =&gt; $value) {<br/>
+print " $name = $value\n";<br/>
+}<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques206"><strong>Question 207. How Cookies Are Transported From Servers To Browsers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cookies are transported from a Web server to a Web browser in the header area of the HTTP response message. Each cookie will be included in a separate "Set-Cookie:" header line in the following format:<br/>
+Set-Cookie: name=value; expires=time; path=pathVal; domain=domainVal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques207"><strong>Question 208. How Cookies Are Transported From Browsers To Servers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cookies are transported from a Web browser to a Web server in the header area of the HTTP request message. Each cookie will be included in a separate "Cookie:" header line in the following format:<br/>
+GET / HTTP/1.1<br/>
+Cookie: name1=value1<br/>
+Cookie: name2=value2<br/>
+Cookie: name3=value3<br/>
+......<br/>
+Accept: */*</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques208"><strong>Question 209. Where Are The Persistent Cookies Stored On Your Computer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The location and file names where persistent cookies are stored on your computer depend on which browser you are using. If you using Microsoft Internet Explorer, persistent cookies are stored in the \Documents and Settings\$user\Cookies directory. Cookies are stored in multiple cookie files with one file per Web server. Check your cookie directory on your local system, you will be surprised to see how many Web servers are setting persistent cookies to your computer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques209"><strong>Question 210. How To Delete Cookie Files On Your Computer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A simple way to delete cookie files on your computer is to use the function offered by the IE browser. The following tutorial exercise shows you how to delete cookie files created by IE:<br/>
+• Open IE (Internet Explorer)<br/>
+• Go to Options/Internet Options<br/>
+• Click the Delete Cookies button on the options dialog window.<br/>
+Check the cookie directory again. All cookie files should be deleted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques210"><strong>Question 211. How Does Firefox Manage Cookies?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>FireFox browser allows you to delete old cookies, and gives you options to keep persistent cookies in cookie files until they reach their expiration time. The following tutorial shows you how to manage cookies in FireFox:<br/>
+• Run FireFox<br/>
+• Go to Tools/Options<br/>
+• Click Privacy and then Cookies<br/>
+• Click the Clear button to delete all old cookies<br/>
+• Change the Keep Cookies option to "until they expire" to allow persistent cookies to be store a cookie file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques211"><strong>Question 212. What Are The Options To Transfer Session Ids?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Once a new session is created, its session ID must be transferred to the client browser and included in the next client request, so that the PHP engine can find the same session created by the same visitor. The PHP engine has two options to transfer the session ID to the client browser:</p>
+<ul>
+<li><em><strong>As URL parameter </strong></em>- The Session ID will be embedded in all URLs in the HTML document delivered to the client browser. When the visitor clicks any of those URLs, the session ID will be returned back to the Web server as part of the requesting URL.</li>
+<li><em><strong>As a cookie </strong></em>- The session ID will be delivered as a cookie to the client browser. When visitor requests any other pages on the Web server, the session ID will be returned back to the Web server also as a cookie.</li>
+</ul>
+<p>The PHP engine is configured to use URL parameters for transferring session IDs by default.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques212"><strong>Question 213. Is It More Secure To Use Cookies To Transfer Session Ids?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>yes, because attacking your Web site using URL parameters is much easier than using cookies.<br/>
+So if you are the system administrator of your Web server, you should set session.use_only_cookies=1.<br/>
+If your Web server is provided by a hosting service provider, ask them to set session.use_only_cookies=1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques213"><strong>Question 214. What Is The Timeout Period On Session Values?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The PHP engine has no direct settings on session timeout period. But it has a session garbage collection mechanism that you can set to remove those special files containing session values. There are 3 settings you can use to define the session garbage collection mechanism:<br/>
+session.gc_probability = 1<br/>
+session.gc_divisor = 1000<br/>
+session.gc_maxlifetime = 1440<br/>
+The first two settings tell the PHP engine to run the garbage collection process once every 1000 requests received by the Web server. The last setting tells the PHP engine to treat session values as garbage 1440 seconds after they have not been used.<br/>
+Putting all settings together, your session values probably be removed 1440 seconds after the visitor stopping using your Web site. The probability of this removal is one over 1000 requests received after the 1440-second period.<br/>
+In another word, if visitor John stopped using your site, and there is no other visitors coming to your site, session values created for John will never be removed. However, if you have a busy site, like 1000 requests per minute, John's session values will be removed about one minute plus 1440 seconds after John stopped using the site.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques214"><strong>Question 215. How To Set Session.gc_maxlifetime Properly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As you know that session.gc_maxlifetime is the session value timeout period. You should set this value based on the usage pattern of your visitors. Here are some suggestions:<br/>
+# Set it to 20 minutes for a normal Web site:<br/>
+session.gc_maxlifetime = 1200<br/>
+# Set it to 24 hours if visitors comes to the site many time a day:<br/>
+# Example: Yahoo email site expires your session in 24 hours.<br/>
+session.gc_maxlifetime = 86400</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques215"><strong>Question 216. How To Set Session.gc_divisor Properly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As you know that session.gc_divisor is the frequency of when the session garbage collection process will be executed. You should set this value based on the income request traffic. Here are some suggestions:<br/>
+# Set it to 10, if traffic is less than 10,000 per day:<br/>
+session.gc_divisor = 10<br/>
+# Set it to 100, if traffic is between 10,000 and 100,000 per day:<br/>
+session.gc_divisor = 100<br/>
+# Set it to 1000, if traffic is greater than 100,000 per day:<br/>
+session.gc_divisor = 1000</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques216"><strong>Question 217. How To Remove Values Saved In The Current Session?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to remove values saved in the current session, you should use the unset() function on those saved values in $_SESSION, or use array() to empty $_SESSION:</p>
+<ul>
+<li>unset($_SESSION['MyColor']) - Removes one value named MyColor in the current session.</li>
+<li>$_SESSION = array() - Removes all values in the current session.</li>
+<li>unset($_SESSION) - Bad statement. It may affect the session mechanism.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques217"><strong>Question 218. How To Close A Session Properly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Let's say you site requires users to login. When a logged in user clicks the logout button, you need to close the session associated with this user properly in 3 steps:<br/>
+1. Remove all session values with $_SESSION = array().<br/>
+2. Remove the session ID cookie with the setcookie() function.<br/>
+3. Destroy the session object with the session_destroy() function.<br/>
+Below is a good sample script:<br/>
+&lt;?php<br/>
+session_start();<br/>
+$_SESSION = array();<br/>
+if (isset($_COOKIE[session_name()])) {<br/>
+setcookie(session_name(), '', time()-42000, '/');<br/>
+}<br/>
+session_destroy();<br/>
+print("&lt;html&gt;&lt;pre&gt;");<br/>
+print("Thank you for visiting PICKZYCenter.com.\n");<br/>
+print(" &lt;a href=login.php&gt;Login Again.&lt;/a&gt;\n");<br/>
+print("&lt;/pre&gt;&lt;/html&gt;\n");<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques218"><strong>Question 219. What Is Session_register()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>session_register() is old function that registers global variables into the current session. You should stop using session_register() and use array $_SESSION to save values into the current session now.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques219"><strong>Question 220. What Do You Need To Connect Php To Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to access MySQL database server in your PHP script, you need to make sure that MySQL module is installed and turned on in your PHP engine. Check the PHP configuration file, php.ini, to make sure the extension=php_mysql.dll is not commented out.<br/>
+The MySQL module offers a number of functions to allow you to work with MySQL server. Some commonly used MySQL functions are:<br/>
+• mysql_connect -- Open a connection to a MySQL Server<br/>
+• mysql_close -- Close MySQL connection<br/>
+• mysql_db_query -- Send a MySQL query<br/>
+• mysql_fetch_array -- Fetch a result row as an associative array, a numeric array, or both<br/>
+• mysql_free_result -- Free result memory<br/>
+• mysql_list_tables -- List tables in a MySQL database<br/>
+• mysql_list_fields -- List MySQL table fields</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques220"><strong>Question 221. How To Connect To Mysql From A Php Script?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want access the MySQL server, you must create a connection object first by calling the mysql_connect() function in the following format:<br/>
+$con = mysql_connect($server, $username, $password);<br/>
+If you are connecting to a local MySQL server, you don't need to specify username and password. If you are connecting to a MySQL server offered by your Web hosting company, they will provide you the server name, username, and password.<br/>
+The following script shows you how to connect to a local MySQL server, obtained server information, and closed the connection:<br/>
+&lt;?php<br/>
+$con = mysql_connect('localhost');<br/>
+print(mysql_get_server_info($con)."\n");<br/>
+print(mysql_get_host_info($con)."\n");<br/>
+mysql_close($con);<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques221"><strong>Question 222. How To Run A Sql Statement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can run any types of SQL statements through the mysql_query() function. It takes the SQL statement as a string and returns different types of data depending on the SQL statement type and execution status:<br/>
+• Returning FALSE, if the execution failed.<br/>
+• Returning a result set object, if the execution is successful on a SELECT statement or other statement returning multiple rows of data.<br/>
+• Returning TRUE, if the execution is successful on other statements.<br/>
+Here is a good example of running a SQL statement with the mysql_query() function:<br/>
+&lt;?php<br/>
+include "mysql_connection.php";<br/>
+$sql = 'SELECT sysdate() FROM dual';<br/>
+$rs = mysql_query($sql, $con);<br/>
+$row = mysql_fetch_array($rs);<br/>
+print("Database current time: ". $row[0] ."\n");<br/>
+mysql_close($con);<br/>
+?&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques222"><strong>Question 223. How To Get The Number Of Rows Selected Or Affected By A Sql Statement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two functions you can use the get the number of rows selected or affected by a SQL statement:</p>
+<ul>
+<li><em><strong>mysql_num_rows($rs)</strong></em> - Returns the number of rows selected in a result set object returned from SELECT statement.</li>
+<li><em><strong>mysql_affected_rows()</strong></em> - Returns the number of rows affected by the last INSERT, UPDATE or DELETE statement.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques223"><strong>Question 224. What Is A Result Set Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A result set object is a logical representation of data rows returned by mysql_query() function on SELECT statements. Every result set object has an internal pointer used to identify the current row in the result set. Once you get a result set object, you can use the following functions to retrieve detail information:<br/>
+• mysql_free_result($rs) - Closes this result set object.<br/>
+• mysql_num_rows($rs) - Returns the number rows in the result set.<br/>
+• mysql_num_fields($rs) - Returns the number fields in the result set.<br/>
+• mysql_fetch_row($rs) - Returns an array contains the current row indexed by field position numbers.<br/>
+• mysql_fetch_assoc($rs) - Returns an array contains the current row indexed by field names.<br/>
+• mysql_fetch_array($rs) - Returns an array contains the current row with double indexes: field position numbers and filed names.<br/>
+• mysql_fetch_lengths($rs) - Returns an array contains lengths of all fields in the last row returned.<br/>
+• mysql_field_name($rs, $i) - Returns the name of the field of the specified index.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques224"><strong>Question 225. What Is File Upload?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>File upload is Web page function which allows visitor to specify a file on the browser's system and submit it to the Web server. This is a very useful function for many interactive Web sites. Some examples are:</p>
+<ul>
+<li>Web base email systems for users to send attachments.</li>
+<li> Forums that allows user to submit pictures.</li>
+<li> Web sites file managers for users to build their own Web pages.</li>
+</ul>
+<p>Which HTML Tag Allows Users to Specify a File for Uploading?<br/>
+To present an input field on your Web page to allow users to specify a local file to upload, you need to use the &lt;INPUT TYPE="FILE" ...&gt; tag inside a &lt;FORM ...&gt; tag. The &lt;INPUT TYPE="FILE" ...&gt; will be displayed as a text input field followed by a button called "Browse...". Users can either enter the full path name of a local file, or click Browse button to go through a dialog box to select a file interactively. The following PHP code shows you a good example of the file upload tag:</p>
+<pre>
+&lt;?php
+print("&lt;html&gt;&lt;form&gt;n");
+print("&lt;input type=file&gt;n");
+print("&lt;input type=submit&gt;n");
+print("&lt;/form&gt;&lt;/html&gt;n");
+?&gt;</pre></p>
+</li><br><br>

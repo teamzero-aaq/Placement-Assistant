@@ -1,0 +1,192 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Described Heavy Weight Components Mean In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Heavy weight components like Abstract Window Toolkit (AWT), depend on the local windowing toolkit. For example, java.awt.Button is a heavy weight component, when it is running on the Java platform for Unix platform, it maps to a real Motif button. In this relationship, the Motif button is called the peer to the java.awt.Button. If you create two Buttons, two peers and hence two Motif Buttons are also created. The Java platform communicates with the Motif Buttons using the Java Native Interface.</p>
+<p>For each and every component added to the application, there is an additional overhead tied to the local windowing system, which is why these components are called heavyweight.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Can You Please Explain The Difference Between Boolean &amp; Operator And The &amp;&amp; Operator In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If an expression involving the Boolean &amp; operator is evaluated, both operands are evaluated. Then the &amp; operator is applied to the operand. When an expression involving the &amp;&amp; operator is evaluated, the first operand is evaluated. If the first operand returns a value of true then the second operand is evaluated. The &amp;&amp; operator is then applied to the first and second operands. If the first operand evaluates to false, the evaluation of the second operand is skipped.</p>
+<p>Operator &amp; has no chance to skip both sides evaluation and &amp;&amp; operator does. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Does The Garbage Collection Guarantee That A Program Will Not Run Out Of Memory?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, it doesn't. It is possible for programs to use up memory resources faster than they are garbage collected. It is also possible for programs to create objects that are not subject to garbage collection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Described The Elements Of A Gridbaglayout Organized In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The elements of a GridBagLayout are organized according to a grid. However, the elements are of different sizes and may occupy more than one row or column of the grid. In addition, the rows and columns may have different sizes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Advantage Do Java's Layout Managers Provide Over The Traditional Windowing Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Java uses layout managers to lay out components in a consistent manner across all windowing platforms. Since Java's layout managers aren't tied to absolute sizing and positioning, they are able to accommodate platform-specific differences among windowing systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. How A Gui Component Handle Its Own Events In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A component can handle its own events by implementing the required event-listener interface and adding itself as its own event listener.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Name Primitive Java Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The primitive types are byte, char, short, int, long, float, double, and boolean.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Explain The Difference Between Reader/writer Class Hierarchy And The Inputstream/outputstream Class Hierarchy In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Reader/Writer class hierarchy is character-oriented, and the InputStream/OutputStream class hierarchy is byte-oriented.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Does A Class Inherit Constructors Of Its Superclass In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A class does not inherit constructors from any of its superclasses.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Define Map Interface In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Map interface replaces the JDK 1.1 Dictionary class and is used associate keys with values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. If The A Class Is Declared Without Any Access Modifiers, Where May The Class Be Accessed In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A class that is declared without any access modifiers is said to have package or friendly access. This means that the class can only be accessed by other classes and interfaces that are defined within the same package.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Which Classes Of Exceptions May Be Caught By A Catch Clause In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A catch clause can catch any exception that may be assigned to the Throwable type. This includes the Error and Exception types.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Can You Please Explain The Difference Between Preemptive Scheduling And Time Slicing In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Under preemptive scheduling, the highest priority task executes until it enters the waiting or dead states or a higher priority task comes into existence. Under time slicing, a task executes for a predefined slice of time and then reenters the pool of ready tasks. The scheduler then determines which task should execute next, based on priority and other factors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Happens When A Thread Cannot Acquire Lock On An Object In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If a thread attempts to execute a synchronized method or synchronized statement and is unable to acquire an object's lock, it enters the waiting state until the lock becomes available.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Can You Please Explain The Difference Between Font And Fontmetrics Classes In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The FontMetrics class is used to define implementation-specific properties, such as ascent and descent, of a Font object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are Peerless Components?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The peerless components are called light weight components.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Which Package Has The Light Weight Components In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>javax.Swing package. All components in Swing, except JApplet, JDialog, JFrame and JWindow are lightweight components in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. When An Object Reference Be Cast To An Interface Reference In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An object reference be cast to an interface reference when the object implements the referenced interface.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Can You Please Explain The Difference Between Window And A Frame In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Frame class extends Window to define a main application window that can have a menu bar.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Can You Please Explain The Difference Between Static And A Non-static Inner Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A non-static inner class may have object instances that are associated with instances of the class's outer class. A static inner class does not have any object instances.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Described Object's Lock And Which Object's Have Locks In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An object's lock is a mechanism that is used by multiple threads to obtain synchronized access to the object. A thread may execute a synchronized method of an object only after it has acquired the object's lock. All objects and classes have locks. A class's lock is acquired on the class's Class object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Described Abstract Method In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An abstract method is a method whose implementation is deferred to a subclass in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Are High-level Thread States In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The high-level thread states are ready, running, waiting, and dead.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Must Class Do To Implement An Interface In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It must provide all of the methods in the interface and identify the interface in its implements clause.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Described The Purpose Of The Wait(), Notify(), And Notifyall() Methods In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The wait(),notify(), and notifyAll() methods are used to provide an efficient way for threads to communicate each other in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is The Purpose Of Finally Clause Of A Try-catch-finally Statement In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The finally clause is used to provide the capability to execute code no matter whether or not an exception is thrown or caught.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Described Locale Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Locale class is used to tailor program output to the conventions of a particular geographic, political, or cultural region.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Purpose Of Runtime Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The purpose of the Runtime class is to provide access to the Java runtime system in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Described The Purpose Of System Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The purpose of the System class is to provide access to system resources in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Which Container Method Is Used To Cause Container To Be Laid Out And Redisplayed In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>validate();</strong>  : Container method is used to cause a container to be laid out and redisplayed in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Described Properties Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The properties class is a subclass of Hashtable that can be read from or written to a stream. It also provides the capability to specify a set of default values to be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Described Gregorian Calendar Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The GregorianCalendar provides support for traditional Western calendars in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Simpletimezone Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The SimpleTimeZone class provides support for a Gregorian calendar in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Which Invokes A Thread's Run() Method In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>After a thread is started, via its start() method or that of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Can Anonymous Class Be Declared As Implementing An Interface And Extending A Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An anonymous class may implement an interface or extend a superclass, but may not be declared to do both.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Purpose Of Finalization In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The purpose of finalization is to give an unreachable object the opportunity to perform any cleanup processing before the object is garbage collected.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Which Class Is Superclass For Every Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Object class is the superclass for every class in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Which Component Subclasses That Support Painting In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Canvas, Frame, Panel, and Applet classes support painting.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Described Native Method In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A native method is a method that is implemented in a language other than Java.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. How To Write A Loop Indefinitely In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>for(;;)-for loop; while(true)-always true, etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. How Many Bits Are Used To Represent The Unicode, Ascii, Utf-16, And Utf-8 Characters In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Unicode requires 16 bits and ASCII require 7 bits. Although the ASCII character set uses only 7 bits, it is usually represented as 8 bits. UTF-8 represents characters using 8, 16, and 18 bit patterns. UTF-16 uses 16-bit and larger bit patterns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Can You Please Explain The Difference Between Yielding And Sleeping In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a task invokes its yield() method, it returns to the ready state. When a task invokes its sleep() method, it returns to the waiting state.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Is The Size Of A Keyword In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The sizeof operator is not a keyword in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Described Wrapped Classes In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Wrapped classes are classes that allow primitive types to be accessed as objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Does Java Handle Integer Overflows And Underflows?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It uses those low order bytes of the result that can fit into the size of the type allowed by the operation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is Vector Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Vector class in Java Programming provides the capability to implement a growable array of objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Which Modifiers May Be Used With An Inner Class That Is A Member Of An Outer Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A (non-local) inner class may be declared as public, protected, private, static, final, or abstract.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Suppose If A Method Is Declared As Protected, Where May The Method Be Accessed In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A protected method may only be accessed by classes or interfaces of the same package or by subclasses of the class in which it is declared.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is Iterator Interface In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Iterator interface is used to step through the elements of a Collection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Which Containers Is Use A Border Layout As Their Default Layout?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The window, Frame and Dialog classes use a border layout as their default layout in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. Which Method Is Used To Specify A Container's Layout In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The setLayout() method is used to specify a container's layout in Java Programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Which State Does A Thread Enter When It Terminates Its Processing In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a thread terminates its processing, it enters the dead state.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Is Collections Api In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Collections API is a set of classes and interfaces that support operations on collections of objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Define Llist Interface In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The List interface provides support for ordered collections of objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. Can A Lock Be Acquired On Class In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, a lock can be acquired on a class. This lock is acquired on the class's Class object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. Which Containers Use Flowlayout As Their Default Layout In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Panel and Applet classes use the FlowLayout as their default layout.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. Described Transient Variable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A transient variable is a variable that may not be serialized.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. What's New With Stop(), Suspend() And Resume() Methods In Jdk 1.2?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The stop(), suspend() and resume() methods have been deprecated in JDK 1.2.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. Define Preferred Size Of A Component In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The preferred size of a component is the minimum component size that will allow the component to display normally.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Which Three Ways In Which A Thread Can Enter The Waiting State In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A thread can enter the waiting state by invoking its sleep() method, by blocking on I/O, by unsuccessfully attempting to acquire an object's lock, or by invoking an object's wait() method. It can also enter the waiting state by invoking its (deprecated) suspend() method.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. Described Synchronized Methods And Synchronized Statements In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Synchronized methods are methods that are used to control access to an object. A thread only executes a synchronized method after it has acquired the lock for the method's object or class. Synchronized statements are similar to synchronized methods. A synchronized statement can only be executed after a thread has acquired the lock for the object or class referenced in the synchronized statement.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Described Synchronization And Why Is It Important In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With respect to multithreading, synchronization is the capability to control the access of multiple threads to shared resources. Without synchronization, it is possible for one thread to modify a shared object while another thread is in the process of using or updating that object's value. This often causes dirty data and leads to significant errors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. How Observer And Observable Used In Java Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Objects that subclass the Observable class maintain a list of observers. When an Observable object is updated it invokes the update() method of each of its observers to notify the observers that it has changed state. The Observer interface is implemented by objects that observe Observable objects.</p></p>
+</li><br><br>

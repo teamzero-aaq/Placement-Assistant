@@ -1,0 +1,61 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain Npm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NPM stands for node package manager. It is used for installing dependencies for javascript packages.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Angular Cli? List The Command To Install Angular Cli?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Angular CLI is Command Line Interface for Angular that runs Webpack.You can use npm install -g @angular/cli command to install angular CLI.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How To Create A New Project In Angular Js Using Cli?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>After installing Angular CLI run ng new project-name command to create a new Angular project.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are Decorators?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Decorators are functions that adds metadata to class members and functions. It was proposed in ES2016 and implemented in Typescript.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. List The Types Of Data Binding Supported By Angular 5?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A<strong>ngular 5 supports four types of Data Binding They are</strong></p>
+<ol>
+<li>String Interpolation</li>
+<li>Property Binding</li>
+<li>Event Binding</li>
+<li>Two-way-binding</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. How To Run Angular5 Application Locally During Development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ng serve command is used to run Angular5 application locally during development.To start development server on specific port ng serve -p aPortNumber command is used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What An Angular 5 Component Made Of? How Do You Generate A New Component?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Angular2 component is made of a Component decorator and a component definition of a class. ng generate component componentname command is used to generate a component in Angular2.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Do We Import A Module In Angular 5?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Simply use below syntax to import a module in Angular 5.</p>
+<p>import { ModuleName } from ‘someWhere’;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Explain $event In Angular 5?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Angular 5 $event is a reserved keyword that represents the data emitted by an event (event data).</p>
+<p>It is commonly used as a parameter for event based methods.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Do Double Curly Brackets Are Used In Angular 5?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>double curly brackets are used form data interpolation in Angular 5.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is *ngfor Directive Used For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ngFor directive is used for Iterating over a list of items and for Generating a new DOM element for each one.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Explain Webpack?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Webpack is module bundler Bundler for Angular2 or above. It bundles, minified and transpiler an Angular application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Transpiling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Transpiling is a process of converting code from one language to another. In Angular, Traceur compiler is used for converting TypeScript to JavaScript so that browsers can understand.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain Component Life Cycle In Angular?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>In Angular component life cycle in Angular goes through following stages.</li>
+<li>Create</li>
+<li>Render</li>
+<li>Create and render children</li>
+<li>Check for bound data changes and re-render</li>
+<li>Destroy</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain Ngmodule?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NgModule is a decorator function in Angular that takes a single metadata object whose properties describe the module.</p></p>
+</li><br><br>

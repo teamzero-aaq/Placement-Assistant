@@ -1,0 +1,242 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Define Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An Image may be defined as a two dimensional function f (x,y) where x &amp; y are spatial (plane) coordinates, and the amplitude of f at any pair of coordinates (x,y) is called intensity or gray level of the image at that point. When x,y and the amplitude values of f are all finite, discrete quantities we call the image as Digital Image.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Define Image Sampling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Digitization of spatial coordinates (x,y) is called Image Sampling. To be suitable for computer processing, an image function f(x,y) must be digitized both spatially and in magnitude.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Define Quantization ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Digitizing the amplitude values is called Quantization. Quality of digital image is determined to a large degree by the number of samples and discrete gray levels used in sampling and quantization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is Dynamic Range?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The range of values spanned by the gray scale is called dynamic range of an image. Image will have high contrast, if the dynamic range is high and image will have dull washed out gray look if the dynamic range is low.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Define Mach Band Effect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The spatial interaction of Luminance from an object and its surround creates a Phenomenon called the mach band effect.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Define Brightness?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Brightness of an object is the perceived luminance of the surround. Two objects with different surroundings would have identical luminance but different brightness.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Define Tapered Quantization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If gray levels in a certain range occur frequently while others occurs rarely, the quantization levels are finely spaced in this range and coarsely spaced outside of it.This method is sometimes called Tapered Quantization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Do You Meant By Gray Level?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Gray level refers to a scalar measure of intensity that ranges from black to grays and finally to white.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Define Resolutions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Resolution is defined as the smallest number of discernible detail in an image. Spatial resolution is the smallest discernible detail in an image and gray level resolution refers to the smallest discernible change is gray level.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Write The M X N Digital Image In Compact Matrix Form?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>f(x,y )= f(0,0) f(0,1)………………f(0,N-1)</p>
+<p>f(1,0) f(1,1)………………f(1,N-1)</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>f(M-1) f(M-1,1)…………f(M-1,N-1)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Write The Expression To Find The Number Of Bits To Store A Digital Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The number of bits required to store a digital image is</p>
+<p>b=M X N X k</p>
+<p>When M=N, this equation becomes</p>
+<p>b=N^2k</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Do You Meant By Zooming Of Digital Images?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Zooming may be viewed as over sampling. It involves the creation of new pixel locations and the assignment of gray levels to those new locations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Do You Meant By Shrinking Of Digital Images?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Shrinking may be viewed as under sampling. To shrink an image by one half, we delete every row and column. To reduce possible aliasing effect, it is a good idea to blue an image slightly before shrinking it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Define The Term Radiance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Radiance is the total amount of energy that flows from the light source, and it is usually measured in watts (w).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Define The Term Luminance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Luminance measured in lumens (lm), gives a measure of the amount of energy an observer perceiver from a light source.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Image Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An image can be expanded in terms of a discrete set of basis arrays called basis images. Unitary matrices can generate these basis images. Alternatively, a given NXN image can be viewed as an N^2X1 vectors. An image transform provides a set of coordinates or basis vectors for vector space.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Applications Of Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>To reduce band width</li>
+<li>To reduce redundancy</li>
+<li>To extract feature.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Give The Conditions For Perfect Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Transpose of matrix = Inverse of a matrix. Orthoganality.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Are The Properties Of Unitary Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Determinant and the Eigen values of a unitary matrix have unity magnitude</li>
+<li>The entropy of a random vector is preserved under a unitary Transformation</li>
+<li>Since the entropy is a measure of average information, this means information is preserved under a unitary transformation.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Write The Expression Of One-dimensional Discrete Fourier Transforms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Forward transform</p>
+<p>The sequence of x(n) is given by x(n) = { x0,x1,x2,… xN-1}.</p>
+<p>X(k) = (n=0 to N-1) _ x(n) exp(-j 2* pi* nk/N) ; k= 0,1,2,…N-1</p>
+<p>Reverse transforms</p>
+<p>X(n) = (1/N) (k=0 to N-1) _ x(k) exp(-j 2* pi* nk/N) ; n= 0,1,2,…N-1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Properties Of Twiddle Factor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>1. Periodicity</p>
+<p>WN^(K+N)= WN^K</p>
+<p>2. Symmetry</p>
+<p>WN^(K+N/2)= -WN^K</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Give The Properties Of One-dimensional Dft?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>The DFT and unitary DFT matrices are symmetric.</li>
+<li>The extensions of the DFT and unitary DFT of a sequence and their inverse transforms are periodic with period N.</li>
+<li>The DFT or unitary DFT of a real sequence is conjugate symmetric about N/2.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Give The Properties Of Two-dimensional Dft?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Symmetric</li>
+<li>Periodic extensions</li>
+<li>Sampled Fourier transform</li>
+<li>Conjugate symmetry.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Cosine Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The NXN cosine transform c(k) is called the discrete cosine transform and is defined as</p>
+<p>C(k) = 1/_N , k=0, 0 _ n _ N-1 = _ (2/N) cos (pi (2n+1)/2N 1_ k _ N-1, 0_ n _ N-1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Write The Properties Of Cosine Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Real &amp; orthogonal.</li>
+<li>Fast transform.</li>
+<li>Has excellent energy compaction for highly correlated data</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Write The Properties Of Sine Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Real, symmetric and orthogonal.</li>
+<li>Not the imaginary part of the unitary DFT.</li>
+<li>Fast transform.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Write The Properties Of Hadamard Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Hadamard transform contains any one value.</li>
+<li>No multiplications are required in the transform calculations.</li>
+<li>The no: of additions or subtractions required can be reduced from N^2 to Nlog2N</li>
+<li>Very good energy compaction for highly correlated images.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Define Haar Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Haar functions are defined on a continuous interval Xe [0,1] and for K=0,1,……. N-1.Where N=2^n. The integer k can be uniquely decomposed as K=2^P+Q-1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Write The Expression For Hadamard Transforms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hadamard transform matrices Hn are NXN matrices where N=2^n , n= 1,2,3,… is defined as Hn= Hn-1 * H1 = H1* Hn-1</p>
+<p>= 1/ _ 2 Hn-1 Hn-1</p>
+<p>H2 = 1 1</p>
+<p>1 –1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Are The Properties Of Haar Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Haar transform is real and orthogonal.</li>
+<li>Haar transform is a very fast transform</li>
+<li>Haar transform has very poor energy compaction for images</li>
+<li>The basic vectors of Haar matrix sequency ordered.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are The Properties Of Slant Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Slant transform is real and orthogonal.</li>
+<li>Slant transform is a fast transform</li>
+<li>Slant transform has very good energy compaction for images</li>
+<li>The basic vectors of Slant matrix are not sequency ordered.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Define Of Kl Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>KL Transform is an optimal in the sense that it minimizes the mean square error between the vectors X and their approximations X^. Due to this idea of using the Eigenvectors corresponding to largest Eigen values. It is also known as principal component transform.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Justify That Klt Is An Optimal Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Since mean square error of reconstructed image and original image is minimum and the mean value of transformed image is zero so that uncorrelated.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Explain The Term Digital Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The digital image is an array of real or complex numbers that is represented by a finite no of bits.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Write Any Four Applications Of Dip?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Remote sensing</li>
+<li>Image transmission and storage for business application</li>
+<li>Medical imaging</li>
+<li>Astronomy</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is The Effect Of Mach Band Pattern?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The intensity or the brightness pattern perceive a darker stribe in region D and brighter stribe in region B.This effect is called Mach band pattern or effect.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Write Down The Properties Of 2d Fourier Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Separability</li>
+<li>Translation</li>
+<li>Periodicity and Conjugate property</li>
+<li>Rotation</li>
+<li>Distributivity and scaling</li>
+<li>Average value</li>
+<li>Convolution and Correlation</li>
+<li>Laplacian</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Obtain The Hadamard Transformation For N = 4?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>        N = 4 = 2n</p>
+<p>         =&gt; n = 2</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Write Down The Properties Of Haar Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Real and orthogonal</li>
+<li>Very fast transform</li>
+<li>Basis vectors are sequentially ordered</li>
+<li>Has fair energy compaction for image</li>
+<li>Useful in feature extraction,image coding and image analysis problem</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Image Enhancement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Image enhancement is to process an image so that the output is more suitable for specific application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Name The Categories Of Image Enhancement And Explain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The categories of Image Enhancement are</p>
+<ol>
+<li>Spatial domain</li>
+<li>Frequency domain Spatial domain: It refers to the image plane, itself and it is based on direct manipulation of pixels of an image.</li>
+</ol>
+<p>Frequency domain techniques are based on modifying the Fourier transform of an image.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Do You Mean By Point Processing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Image enhancement at any Point in an image depends only on the gray level at that point is often referred to as Point processing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Explain Mask Or Kernels?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Mask is a small two-dimensional array, in which the value of the mask coefficient determines the nature of the process, such as image sharpening.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Is Image Negatives?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The negative of an image with gray levels in the range [0, L-1] is obtained by using the negative transformation, which is given by the expression.</p>
+<p>s = L-1-r</p>
+<p>Where s is output pixel.</p>
+<p>r is input pixel.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Define Histogram?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The histogram of a digital image with gray levels in the range [0, L-1] is a discrete function h (rk) = nk, where rk is the kth gray level and nk is the number of pixels in the image having gray level rk.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. Define Derivative Filter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For a function f (x, y), the gradient f at co-ordinate (x, y) is defined as the</p>
+<p>vector_f = _f/_x</p>
+<p>_f/_y</p>
+<p>_f = mag (_f) = {[(_f/_x) 2 +(_f/_y) 2 ]} ½</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Explain Spatial Filtering?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Spatial filtering is the process of moving the filter mask from point to point in an image. For linear spatial filter, the response is given by a sum of products of the filter coefficients, and the corresponding image pixels in the area spanned by the filter mask.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Define Averaging Filters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The output of a smoothing, linear spatial filter is the average of the pixels contain in the neighborhood of the filter mask. These filters are called averaging filters.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is A Median Filter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The median filter replaces the value of a pixel by the median of the gray levels in the neighborhood of that pixel.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Is Maximum Filter And Minimum Filter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The 100th percentile is maximum filter is used in finding brightest points in an image. The 0th percentile filter is minimum filter used for finding darkest points in an image.</p></p>
+</li><br><br>

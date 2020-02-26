@@ -1,0 +1,131 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Difference Between Latch And Flip-flop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The main difference between latch and FF is that latches are level sensitive while FF is edge sensitive. They both require the use of clock signal and are used in sequential logic. For a latch, the output tracks the input when the clock signal is high, so as long as the clock is logic 1, the output can change if the input also changes.</p>
+<p>FF on the other hand, will store the input only when there is a rising/falling edge of the clock. Latch is sensitive to glitches on enable pin, whereas flip-flop is immune to glitches. Latches take fewer gates (also less power) to implement than flip-flops. Latches are faster than flip-flops</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Given Only Two Xor Gates One Must Function As Buffer And Another As Inverter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Tie one of xor gates input to 1 it will act as inverter.<br/>Tie one of xor gates input to 0 it will act as buffer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Difference Between Mealy And Moore State Machine?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A) Mealy and Moore models are the basic models of state machines. A state machine which uses only Entry Actions, so that its output depends on the state, is called a Moore model. A state machine which uses only Input Actions, so that the output depends on the state and also on inputs, is called a Mealy model. The models selected will influence a design but there are no general indications as to which model is better. Choice of a model depends on the application, execution means (for instance, hardware systems are usually best realized as Moore models) and personal preferences of a designer or programmer<br/>B) Mealy machine has outputs that depend on the state and input (thus, the FSM has the output written on edges) Moore machine has outputs that depend on state only (thus, the FSM has the output written in the state itself.</p>
+<p><strong>Advantage and Disadvantage</strong></p>
+<p>•In Mealy as the output variable is a function both input and state, changes of state of the state variables will be delayed with respect to changes of signal level in the input variables, there are possibilities of glitches appearing in the output variables.</p>
+<p>•Moore overcomes glitches as output dependent on only states and not the input signal level.<br/>•All of the concepts can be applied to Moore-model state machines because any Moore state machine can be implemented as a Mealy state machine, although the converse is not true.<br/>•Moore machine: the outputs are properties of states themselves... which means that you get the output after the machine reaches a particular state, or to get some output your machine has to be taken to a state which provides you the output. The outputs are held until you go to some other state Mealy machine:<br/>•Mealy machines give you outputs instantly, that is immediately upon receiving input, but the output is not held after that clock cycle.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Difference Between One Hot And Binary Encoding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Common classifications used to describe the state encoding of an FSM are Binary (or highly encoded) and One hot.</p>
+<p>A binary-encoded FSM design only requires as many flip-flops as are needed to uniquely encode the number of states in the state machine. The actual number of flip-flops required is equal to the ceiling of the log-base-2 of the number of states in the FSM.A one hot FSM design requires a flip-flop for each state in the design and only one flip-flop (the flip-flop representing the current or "hot" state) is set at a time in a one hot FSM design.</p>
+<p>For a state machine with 9- 16 states, a binary FSM only requires 4 flip-flops while a one hot FSM requires a flip-flop for each state in the design FPGA vendors frequently recommend using a one hot state encoding style because flip-flops are plentiful in an FPGA and the combinational logic required to implement a one hot FSM design is typically smaller than most binary encoding styles.</p>
+<p>Since FPGA performance is typically related to the combinational logic size of the FPGA design, one hot FSMs typically run faster than a binary encoded FSM with larger combinational logic blocks</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How To Achieve 180 Degree Exact Phase Shift?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Never tell using inverter<br/>a) DCM an inbuilt resource in most of FPGA can be configured to get 180 degree phase shift.<br/>b) BUFGDS that is differential signaling buffers which are also inbuilt resource of most of FPGA can be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Significance Of Ras And Cas In Sdram?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SDRAM receives its address command in two address words. It uses a multiplex scheme to save input pins. The first address word is latched into the DRAM chip with the row address strobe (RAS).</p>
+<p>Following the RAS command is the column address strobe (CAS) for latching the second address word. Shortly after the RAS and CAS strobes, the stored data is valid for reading.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Tell Some Of Applications Of Buffer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>a) They are used to introduce small delays.<br/>b) They are used to eliminate cross talk caused due to inter electrode capacitance due to close routing.<br/>c) They are used to support high fan-out, e.g.: bufg</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Give Two Ways Of Converting A Two Input Nand Gate To An Inverter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>a) Short the 2 inputs of the nand gate and apply the single input to it.<br/>b) Connect the output to one of the input and the other to the input signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Why Is Most Interrupts Active Low?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This answers why most signals are active low if you consider the transistor level of a module, active low means the capacitor in the output terminal gets charged or discharged based on low to high and high to low transition respectively. When it goes from high to low it depends on the pull down resistor that pulls it down and it is relatively easy for the output capacitance to discharge rather than charging. Hence people prefer using active low signals.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Design A Four-input Nand Gate Using Only Two-input Nand Gates.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Basically, you can tie the inputs of a NAND gate together to get an inverter.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Will Happen If Contents Of Register Are Shifter Left, Right?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is well known that in left shift all bits will be shifted left and LSB will be appended with 0 and in right shift all bits will be shifted right and MSB will be appended with 0 this is a straightforward answer What is expected is in a left shift value gets Multiplied by 2 <br/>e.g.: consider 0000_1110=14 a left shift will make it 0001_110=28, it the same fashion right shift will Divide the value by 2.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Given The Following Fifo And Rules, How Deep Does The Fifo Need To Be To Prevent Underflow Or Overflow?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RULES:</p>
+<p>1) frequency(clk_A) = frequency(clk_B) / 4<br/>2) period(en_B) = period(clk_A) * 100<br/>3) duty cycle(en_B) = 25%</p>
+<p>Assume clk_B = 100MHz (10ns)<br/>From (1), clk_A = 25MHz (40ns)<br/>From (2), period(en_B) = 40ns * 400 = 4000ns, but we only output for 1000ns,due to (3), so 3000ns of the enable we are doing no output work. Therefore, FIFO size = 3000ns/40ns = 75 entries</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Differences Between D-latch And D Flip-flop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>D-latch is level sensitive where as flip-flop is edge sensitive. Flip-flops are made up of latches.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is A Multiplexer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Is a combinational circuit that selects binary information from one of many input lines and directs it to a single output line.</p>
+<p>(2n =&gt;n). Where n is selection line.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are Set Up Time &amp; Hold Time Constraints? What Do They Signify? Which One Is Critical For Estimating Maximum Clock Frequency Of A Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Set up time is the amount of time the data should be stable before the application of the clock signal, where as the hold time is the amount of time the data should be stable after the application of the clock. Setup time signifies maximum delay constraints; hold time is for minimum delay constraints. Setup time is critical for establishing the maximum clock frequency.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How Can You Convert An Sr Flip-flop To A Jk Flip-flop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By giving the feedback we can convert, i.e. !Q=&gt;S and Q=&gt;R.Hence the S and R inputs will act as J and K respectively.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How Can You Convert The Jk Flip-flop To A D Flip-flop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By connecting the J input to the K through the inverter.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. How Do You Detect If Two 8-bit Signals Are Same?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>XOR each bits of A with B (for e.g. A [0] xor B [0]) and so on. The o/p of 8 xor gates is then given as i/p to an 8-i/p nor gate.</p>
+<p>if o/p is 1 then A=B.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Convert D-ff Into Divide By 2. (not Latch) What Is The Max Clock Frequency The Circuit Can Handle, Given The Following Information?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>T_setup= 6nsT_hold = 2nS T_propagation = 10nS</p>
+<p>Circuit: Connect Qbar to D and apply the clk at clk of DFF and take the O/P at Q. It gives freq/2. Max. Freq of operation: 1/ (propagation delay+setup time) = 1/16ns = 62.5 MHz</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. 7 Bit Ring Counter's Initial State Is 0100010. After How Many Clock Cycles Will It Return To The Initial State?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>6 cycles</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Design All The Gates (not, And, Or, Nand, Nor, Xor, Xnor) Using 2:1 Multiplexer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Using 2:1 Mux, (2 inputs, 1 output and a select line)<br/>a) NOT :Give the input at the select line and connect I0 to 1 &amp; I1 to 0. So if A is 1, we will get I1 that is 0 at the O/P.<br/>b) AND: Give input A at the select line and 0 to I0 and B to I1. O/p is A &amp; B<br/>c) OR: Give input A at the select line and 1 to I1 and B to I0. O/p will be A | B<br/>d) NAND: AND + NOT implementations together<br/>e) NOR: OR + NOT implementations together<br/>f) XOR: A at the select line B at I0 and ~B at I1. ~B can be obtained from (a)<br/>g) XNOR: A at the select line B at I1 and ~B at I0</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Design A Circuit That Calculates The Square Of A Number?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It should not use any multiplier circuits. It should use Multiplexers and other logic?</p>
+<p>1^2=0+1=1<br/>2^2=1+3=4<br/>3^2=4+5=9<br/>4^2=9+7=16<br/>5^2=16+9=25</p>
+<p>See a pattern yet? To get the next square, all you have to do is add the next odd number to the previous square that you found. See how 1,3,5,7 and finally 9 are added. Wouldn’t this be a possible solution to your question since it only will use a counter, multiplexer and a couple of adders? It seems it would take n clock cycles to calculate square of n.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. N Number Of Xnor Gates Is Connected In Series Such That The N Inputs (a0, A1, A2......) Are Given In The Following Way: A0 &amp; A1 To First Xnor Gate And A2 &amp; O/p Of First Xnor To Second Xnor Gate And So On..... Nth Xnor Gates Output Is Final Output. How Does This Circuit Work? Explain In Detail?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If N=Odd, the circuit acts as even parity detector, i.e. the output will 1 if there are even number of 1's in the N input...This could also be called as odd parity generator since with this additional 1 as output the total number of 1's will be ODD. If N=Even, just the opposite, it will be Odd parity detector or Even Parity Generator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Race-around Problem? How Can You Rectify It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The clock pulse that remains in the 1 state while both J and K are equal to 1 will cause the output to complement again and repeat complementing until the pulse goes back to 0, this is called the race around problem. To avoid this undesirable operation, the clock pulse must have a time duration that is shorter than the propagation delay time of the F-F, this is restrictive so the alternative is master-slave or edge-triggered construction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. An Assembly Line Has 3 Fail Safe Sensors And One Emergency Shutdown Switch. The Line Should Keep Moving Unless Any Of The Following Conditions Arise:</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>(i) If the emergency switch is pressed<br/>(ii) If the senor1 and sensor2 are activated at the same time.<br/>(iii) If sensor 2 and sensor3 are activated at the same time.<br/>(iv) If all the sensors are activated at the same time</p>
+<p>suppose a combinational circuit for above case is to be implemented only with NAND Gates. How many minimum number of 2 input NAND gates are required?</p>
+<p>No of 2-input NAND Gates required = 6 you can try the whole implementation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Will You Implement A Full Subtractor From A Full Adder?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>All the bits of subtrahend should be connected to the xor gate. Other input to the xor being one. The input carry bit to the full adder should be made 1. Then the full adder works like a full subtract.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is Difference Between Setup And Hold Time. The Interviewer Was Looking For One Specific Reason, And Its Really A Good Answer Too..the Hint Is Hold Time Doesn't Depend On Clock, Why Is It So...?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Setup violations are related to two edges of clock, i mean you can vary the clock frequency to correct setup violation. But for hold time, you are only concerned with one edge and do not basically depend on clock frequency.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. In A 3-bit Johnson's Counter What Are The Unused States?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>2(power n)-2n is the one used to find the unused states in Johnson counter.</p>
+<p>So for a 3-bit counter it is 8-6=2.Unused states=2. the two unused states are 010 and 101.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is Difference Between Ram And Fifo?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>FIFO does not have address lines</p>
+<p>Ram is used for storage purpose where as FIFO is used for synchronization purpose i.e. when two peripherals are working in different clock domains then we will go for FIFO.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Consider Two Similar Processors, One With A Clock Skew Of 100ps And Other With A Clock Skew Of 50ps. Which One Is Likely To Have More Power? Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Clock skew of 50ps is more likely to have clock power. This is because it is likely that low-skew processor has better designed clock tree with more powerful and number of buffers and overheads to make skew better.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Is It Possible To Reduce Clock Skew To Zero? Explain Your Answer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Even though there are clock layout strategies (H-tree) that can in theory reduce clock skew to zero by having the same path length from each flip-flop from the pll, process variations in R and C across the chip will cause clock skew as well as a pure H-Tree scheme is not practical (consumes too much area).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. The Circle Can Rotate Clockwise And Back. Use Minimum Hardware To Build A Circuit To Indicate The Direction Of Rotating?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>2 sensors are required to find out the direction of rotating. They are placed like at the drawing. One of the m is connected to the data input of D flip-flop, and a second one - to the clock input. If the circle rotates the way clock sensor sees the light first while D input (second sensor) is zero - the output of the flip-flop equals zero, and if D input sensor "fires" first - the output of the flip-flop becomes high.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. You Have Two Counters Counting Upto 16, Built From Negedge Dff , First Circuit Is Synchronous And Second Is "ripple" (cascading), Which Circuit Has A Less Propagation Delay? Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The synchronous counter will have lesser delay as the input to each flop is readily available before the clock edge. Whereas the cascade counter will take long time as the output of one flop is used as clock to the other. So the delay will be propagating. For E.g.: 16 state counter = 4 bit counter = 4 Flip flops Let 10ns be the delay of each flop The worst case delay of ripple counter = 10 * 4 = 40ns The delay of synchronous counter = 10ns only.(Delay of 1 flop)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Difference Between Synchronous And Asynchronous Reset?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Synchronous reset logic will synthesize to smaller flip-flops, particularly if the reset is gated with the logic generating the dinput. But in such a case, the combinational logic gate count grows, so the overall gate count savings may not be that significant. The clock works as a filter for small reset glitches; however, if these glitches occur near the active clock edge, the Flip-flop could go metastable. In some designs, the reset must be generated by a set of internal conditions. A synchronous reset is recommended for these types of designs because it will filter the logic equation glitches between clocks.</p>
+<p><strong>Disadvantages of synchronous reset:</strong></p>
+<p>Problem with synchronous resets is that the synthesis tool cannot easily distinguish the reset signal from any other data signal. Synchronous resets may need a pulse stretcher to guarantee a reset pulse width wide enough to ensure reset is present during an active edge of the clock. if you have a gated clock to save power, the clock may be disabled coincident with the assertion of reset. Only an asynchronous reset will work in this situation, as the reset might be removed prior to the resumption of the clock. Designs that are pushing the limit for data path timing, cannot afford to have added gates and additional net delays in the data path due to logic inserted to handle synchronous resets.</p>
+<p><strong>Asynchronous reset:</strong></p>
+<p>The biggest problem with asynchronous resets is the reset release, also called reset removal. Using an asynchronous reset, the designer is guaranteed not to have the reset added to the data path. Another advantage favoring asynchronous resets is that the circuit can be reset with or without a clock present.</p>
+<p>Disadvantages of asynchronous reset: ensure that the release of the reset can occur within one clock period. if the release of the reset occurred on or near a clock edge such that the flip-flops went metastable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Implement The Following Circuits:</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>(a) 3 input NAND gate using min no of 2 input NAND Gates<br/>(b) 3 input NOR gate using min no of 2 input NOR Gates<br/>(c) 3 input XNOR gate using min no of 2 input XNOR Gates</p>
+<p>Assuming 3 inputs A,B,C?<br/>3 input NAND Connect:<br/>a) A and B to the first NAND gate<br/>b) Output of first Nand gate is given to the two inputs of the second NAND gate (this basically realizes the inverter functionality)4<br/>c) Output of second NAND gate is given to the input of the third NAND gate, whose other input is C ((A NAND B) NAND (A NAND B)) NAND C Thus, can be implemented using '3' 2-input NAND gates. I guess this is the minimum number of gates that need to be used.</p></p>
+</li><br><br>

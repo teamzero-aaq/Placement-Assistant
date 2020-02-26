@@ -1,0 +1,199 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is The Difference Between Id And Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ID identifies and sets style to one and only one occurrence of an element while class can be attached to any number of elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Can I Include Comments In My Style Sheet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Comments can be written anywhere where whitespace is allowed and are treated as white space themselves. Anything written between /* and */ is treated as a comment (white space).</p>
+<p><strong>NOTE:</strong> Comments cannot be nested.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Is There Anything That Can T Be Replaced By Style Sheets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Quite a bit actually. Style sheets only specify information that controls display and rendering information. Virtual style elements that convey the NATURE of the content can not be replaced by style sheets, and hyperlinking and multimedia object insertion is not a part of style sheet functionality at all (although controlling how those objects appear IS part of style sheets functionality.) The CSS1specification has gone out of its way to absorb ALL of the HTML functionality used in controlling display and layout characteristics. For more information on the possible properties in CSS, see the Index DOT Css Property Index.</p>
+<p>Rule of Thumb: if an HTML element or attribute gives cues as to how its contentsshould be displayed, then some or all of its functionality has been absorbed by stylesheets.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Can I Make A Page Look The Same In E.g. Ns And Msie ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The simple answer is, you can't, and you shouldn't waste your time trying to make it exactly the same. Web browsers are allowed, per definition, to interpret a page as they like, subject to the general rules set down in the HTML and CSS specifications. As a web author you can not have a prior knowledge of the exact situation and/or medium that will be used to render your page, and it's almost always rather counterproductive to try to control that process. There is no necessity for a well-written page to look the same in different browsers. You may want to strive to ensure that it looks good in more than one browser, even if the actual display (in the case of graphical browsers) comes out a bit different. "Looking good" can be achieved by adopting sensible design and guidelines, such as not fixing the size or face of your fonts, not fixing the width of tables, etc… Don't fight the medium; most web users only use one browser and will never know, or bother to find out, that your page looks different, or even "better", in any other browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are Pseudo-elements?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pseudo-elements are fictional elements that do not exist in HTML. They address the element's sub-part (non-existent in HTML) and not the element itself. In CSS1 there are two pseudo-elements: 'first-line pseudo-element' and 'first-letter pseudo-element'. They can be attached to block-level elements (e.g. paragraphs or headings) to allow typographical styling of their sub-parts.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. How Do I Write My Style Sheet So That It Gracefully Cascades With User S Personal Sheet ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can help with this by setting properties in recommended places. Style rules that apply to the whole document should be set in the BODY element -- and only there. In this way, the user can easily modify document-wide style settings.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Property?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Property is a stylistic parameter (attribute) that can be influenced through CSS, e.g. FONT or WIDTH. There must always be a corresponding value or values set to each property, e.g. font: bold or font: bold san-serif.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Can Be Done With Style Sheets That Can Not Be Accomplished With Regular Html?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Many of the recent extensions to HTML have been tentative and somewhat crude attempts to control document layout. Style sheets go several steps beyond, and introduces complex border, margin and spacing control to most HTML elements. It also extends the capabilities introduced by most of the existing HTML browser extensions. Background colors or images can now be assigned to ANY HTMLelement instead of just the BODY element and borders can now be applied to anyelement instead of just to tables. For more information on the possible properties in CSS, see the Index DOT Css Property Index.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Why Is My External Stylesheet Not Working ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There may be several different reasons behind that, but one very common mistake is to have an external stylesheet that contains HTML markup in some form.</p>
+<p>An external stylesheet must contain only CSS rules, and if required, correctly formed CSS comments; never include any HTML syntax, such as &lt;style type="text/css"&gt;…</p>
+<p>CSS comments are defined as anything that is placed between</p>
+<p>/* (the comment start mark) and</p>
+<p>*/ (the comment end mark). I.e. as follows…</p>
+<p>/* This text right here is a correct CSS comment */</p>
+<p>CSS comments may span multiple lines in the stylesheet. Nesting of CSS comments is not allowed.</p>
+<p>Another reason for external stylesheets (and even embedded and inline stylerules) not to function as expected may be that you have tried to make use of some CSS-features that are not supported in the browser you are using.</p>
+<p>External stylesheets shall also be served from the www-server with a MIME-type of 'text/css' in its 'Content Type:' HTTP header.</p>
+<p>You may need to negotiate with your server admin to add this MIME type to your server if you are not able to configure the server yourself.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do I Quote Font Names In Quoted Values Of The Style Attribute?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The attribute values can contain both single quotes and double quotes as long as they come in matching pairs. If two pair of quotes are required include single quotes in double ones or vice versa:</p>
+<p>&lt;P STYLE="font-family: 'New Times Roman'; font-size: 90%"&gt;<br/>&lt;P STYLE='font-family: "New Times Roman"; font-size: 90%'&gt;</p>
+<p>It's been reported the latter method doesn't work very well in some browsers, therefore the first one should be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Styles Not Showing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are different ways to apply CSS to a HTML document with a stylesheet, and these different ways can be combined:</strong></p>
+<p><strong>*</strong> inline (internal) (Deprecated for XHTML)<br/>* embedded (internal)<br/>* linked (external) and<br/>* @import (external)</p>
+<p><strong>Note:</strong> An external stylesheet is a text file that contains only CSS Styles. HTML comments are not supposed to be in there and can lead to misinterpretation (&gt; is the CSS "Child" selector!).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Are Style Sheets Case Sensitive?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. Style sheets are case insensitive. Whatever is case insensitive in HTML is also case insensitive in CSS. However, parts that are not under control of CSS like font family names and URLs can be case sensitive - IMAGE.gif and image.gif is not the same file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Cascade?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cascade is a method of defining the weight (importance) of individual styling rules thus allowing conflicting rules to be sorted out should such rules apply to the sameselector.</p>
+<p><strong>Declarations with increased weight take precedence over declaration with normal weight:</strong></p>
+<p>P {color: white ! important} /* increased weight */<br/>P (color: black} /* normal weight */</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Important Declaration?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Important declaration is a declaration with increased weight. Declaration with increased weight will override declarations with normal weight. If both reader's and author's style sheet contain statements with important declarations the author's declaration will override the reader's.</p>
+<p>BODY {background: white ! important; color: black}</p>
+<p>In the example above the background property has increased weight while the color property has normal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Css Declaration?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS declaration is style attached to a specific selector. It consists of two parts; property which is equivalent of HTML attribute, e.g. text-indent: and value which is equivalent of HTML value, e.g. 10pt. NOTE: properties are always ended with a colon.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Class Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Class selector is a "stand alone" class to which a specific style is declared. Using the CLASS attribute the declared style can then be associated with any HTML element. The class selectors are created by a period followed by the class's name. The name can contain characters a-z, A-Z, digits 0-9, period, hyphen, escaped characters, Unicode characters 161-255, as well as any Unicode character as a numeric code, however, they cannot start with a dash or a digit. (Note: in HTML the value of the CLASS attribute can contain more characters).It is a good practice to name classes according to their function than their appearance.</p>
+<p>.footnote {font: 70%} /* class as selector */<br/>&lt;ADDRESS CLASS=footnote/&gt;This element is associated with the CLASS footnote&lt;/ADDRESS&gt;<br/>&lt;P CLASS=footnote&gt;And so is this&lt;/P&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS selector is equivalent of HTML element(s). It is a string identifying to which element(s) the corresponding declaration(s) will apply and as such the link between the HTML document and the style sheet.</p>
+<p>For example in P {text-indent: 10pt} the selector is P and is called type selector as it matches all instances of this element type in the document.</p>
+<p>in P, UL {text-indent: 10pt} the selector is P and UL (see grouping); in .class {text-indent: 10pt} the selector is .class (see class selector).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Css Rule At-rule ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are two types of CSS rules:</strong></p>
+<p>ruleset and at-rule. At-rule is a rule that applies to the whole style sheet and not to a specific selector only (like in ruleset). They all begin with the @ symbol followed by a keyword made up of letters a-z, A-Z, digits 0-9, dashes and escaped characters, e.g. @import or @font-face.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Does The Cascading In Cascading Style Sheets Mean?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style Sheets allow style information to be specified from many locations. Multiple (partial) external style sheets can be referenced to reduce redundancy, and both authors as well as readers can specify style preferences.</p>
+<p>In addition, three main methods can be employed by an author to add style information to HTML documents, and multiple approaches for style control are available in each of these methods. In the end, style can be specified for a single element using any, or all, of these methods.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Why Use Style Sheets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style sheets allow a much greater degree of layout and display control than has ever been possible thus far in HTML. The amount of format coding necessary to control display characteristics can be greatly reduced through the use of external style sheets which can be used by a group of documents. Also, multiple style sheetscan be integrated from different sources to form a cohesive tapestry of styles for a document. Style sheets are also backward compatible - They can be mixed with HTML styling elements and attributes so that older browsers can view content as intended.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. How Do I Get Rid Of The Gap Under My Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Images are inline elements, which means they are treated in the same way as text. Most people kind of know this - they know that if you use 'text-align:center' on an image it will be centred. What many people don't realise is that this means you will have a gap underneath an image. This gap is for the descenders of letters like j,q,p,y and g. To get rid of this gap you need to make the image block-level - like this :</p>
+<p>CSS</p>
+<p>img {display:block;}</p>
+<p>One problem that this can cause is when you want to have a few images next to each other - if they are block-level, they won't be next to each other. To get around that, you can use float:left. Of course, this might present another problem - maybe you don't want the image to float left. In this case, you can use an unordered list like this :</p>
+<p>CSS<br/>ul, li {<br/>list-style-type:none;<br/>padding:0;<br/>margin:0 auto;<br/>}<br/>ul {<br/>width:150px;<br/>}<br/>li {<br/>float:left;<br/>}<br/>HTML<br/>&lt;ul&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;li&gt;&lt;img src="wine.jpg" height="50" width="50" alt="wine" /&gt;&lt;/li&gt;<br/>&lt;/ul&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. As A Reader, How Can I Make My Browser Recognize My Own Style Sheet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Netscape</strong></p>
+<p>It is not possible to do this in Netscape yet (as of version 4.0.)</p>
+<p>Internet Explorer 3.0 (Win95/NT)</p>
+<p>[It is possible to do this at least in Windows95/NT, but no user interface is provided. Unknown how this might be accomplished on other operating systems.]</p>
+<p>1. Open the Registry editor (Start..Run..regedit..ENTER)<br/>2. Under the 'HKEY_LOCAL_MACHINESoftwareMicrosoftInternetExplorerStyles' key, Edit..New..String Value<br/>3. The new value should be called 'StyleSheet Pathname'<br/>4. For the value, type in the full directory path of your .css style sheet.</p>
+<p><strong>Internet Explorer 4.0 (Win95/NT)</strong></p>
+<p>1. Under the View menu, select 'Internet Options'.<br/>2. Under the 'General' tab, choose the 'Accessibility' button.<br/>3. Choose the 'Format documents using my style sheet' check box and 'Browse...' to the location of your .css style sheet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How Do I Design For Backward Compatibility Using Style Sheets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Existing HTML style methods (such as &lt;font SIZE&gt; and &lt;b&gt;) may be easily combined with style sheet specification methods. Browsers that do not understand style sheets will use the older HTML formatting methods, and style sheetsspecifications can control the appearance of these elements in browsers that support CSS1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Are Pseudo-classes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pseudo-classes are fictional element types that do not exist in HTML. In CSS1 there is only one element type which can be classed this way, namely the A element(anchor). By creating three fictional types of the A element individual style can be attached to each class. These three fictional element types are: A as unvisited link, A as active link and A as visited link. Pseudo-classes are created by a colon followed by pseudo-class's name. They can also be combined with normal classes</p>
+<p><strong> example:</strong></p>
+<p>A:link {background: black; color: white}<br/>A:active {background: black; color: red}<br/>A:visited {background: transparent; color: black}<br/>&lt;A HREF....&gt;This anchor (or rather these anchors) will be displayed as declared above&lt;/A&gt;<br/>A.foot:link {background: black; color: white}<br/>A.foft:active {background; black: color: red}<br/>A.foot:visited {background: transparent; color: black}<br/>&lt;A CLASS=foot HREF....&gt;This anchor and all other anchors with CLASS foot will be displayed as declared above&lt;/A&gt;</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Can Style Sheets And Html Stylistic Elements Be Used In The Same Document?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Style Sheets will be ignored in browsers without CSS-support and HTML stylistic elements used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Can Css Be Used With Other Than Html Documents?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. CSS can be used with any ny structured document format. e.g. XML, however, the method of linking CSS with other document types has not been decided yet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Some Examples Of Good And Bad Coding. What Is Wrong With This?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>&lt;font size="3"&gt;Welcome to my page&lt;/font&gt;</p>
+<p><strong>Comment:</strong> The font-tag is design and design shouldn’t be in the HTML document. All design should be in the CSS-file! Instead do this:</p>
+<p><strong>In the HTML:</strong></p>
+<p>&lt;h1&gt;Welcome to my page&lt;/h1&gt;</p>
+<p><strong>In the CSS:</strong></p>
+<p>h1 { font-size: 2em; }</p>
+<p><strong>One more example:</strong></p>
+<p>&lt;b&gt;An error occurred&lt;/b&gt;</p>
+<p>This looks right doesn’t it? But if you look up what &lt;b&gt; stands for you quickly find bold. But bold is certainly design, so it still doesn’t belong in the HTML document. A better choice is &lt;em&gt; that stands for emphasis or simply “this piece of text is important”. So instead of saying “this text looks like this” you are saying “this text is important” and you let the looks be decided by the CSS. Seems like a minor change, but it illustrates how to select your tags. Use this instead:</p>
+<p><strong>In the HTML:</strong></p>
+<p>&lt;em&gt;An error occured&lt;/em&gt;</p>
+<p><strong>In the CSS:</strong></p>
+<p>em {<br/>font-weight: bold;<br/>color: Red;<br/>}<br/><strong>One last example:</strong><br/>&lt;table&gt;<br/>&lt;tr&gt;&lt;td&gt;&lt;a href=""&gt;first link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;<br/>&lt;tr&gt;&lt;td&gt;&lt;a href=""&gt;second link&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;<br/>...<br/>&lt;/table&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How To Use Css To Separate Content And Design?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The idea here is that all sites contain two major parts, the content: all your articles, text and photos and the design: rounded corners, colors and effects. Usually those two are made in different parts of a webpage’s lifetime. The design is determined at the beginning and then you start filling it with content and keep the design fixed.</p>
+<p>In CSS you just add the nifty &lt;link&gt;-tag I’ve told you about to the head of yourHTML document and you have created a link to your design. In the HTML documentyou put content only, and that link of yours makes sure it looks right. You can also use the exact same link on many of your pages, giving them all of them the same design. You want to add content? Just write a plain HTML document and think about marking things up like “header” instead of “big blue header” and use CSS to make all headers look the way you want!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Why Was The Decision Made To Make Padding Apply Outside Of The Width Of A Box, Rather Than Inside, Which Would Seem To Make More Sense?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It makes sense in some situations, but not in others. For example, when a childelement is set to width: 100%, I don't think it should cover the padding of its parent. The box-sizing property in CSS3 addresses this issue. Ideally, the issue should have been addressed earlier, though.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Why Call The Subtended Angle A Pixel, Instead Of Something Else (e.g. Subangle)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In most cases, a CSS pixel will be equal to a device pixel. But, as you point out, the definition of a CSS pixel will sometimes be different. For example, on a laser printer, one CSS pixel can be equal to 3x3 device pixels to avoid printing illegibly small text and images. I don't recall anyone ever proposing another name for it. Subangle? Personally, I think most people would prefer the pragmatic "px" to the non-intuitive "sa".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. How Do I Eliminate The Blue Border Around Linked Images?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>in your CSS, you can specify the border property for linked images:</strong></p>
+<p>a img { border: none ; }</p>
+<p>However, note that removing the border that indicates an image is a link makes it harder for users to distinguish quickly and easily which images on a web page are clickable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Which Set Of Definitions, Html Attributes Or Css Properties, Take Precedence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS properties take precedence over HTML attributes. If both are specified, HTML attributes will be displayed in browsers without CSS support but won't have any effect in browsers with CSS support.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Are Inline, Block, Parent, Children, Replaced And Floating Elements?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inline elements which do not have line breaks. Can occur in block elements or other inline elements, cannot contain block elements.</p>
+<p>Inline elements in HTML 3.2; EM, STRONG, DFN, CODE, SAMP, KBD, VAR, CITE, TT, I, B, U, STRIKE, BIG, SMALL, SUB, SUP, A, IMG, APPLET, FONT, BASEFONT, BR, SCRIPT, MAP, INPUT, SELECT, TEXTAREA.</p>
+<p>Inline elements in HTML 4.0; EM, STRONG, DFN, CODE, SAMP, KBD, VAR, CITE, ABBR, ACRONYM, TT, I, B, BIG, SMALL, SUB, SUP, A, IMG, OBJECT, BR, SCRIPT, MAP, Q, SPAN, BDO, INPUT, SELECT, TEXTAREA, LABEL, BUTTON, (INS, DEL).</p>
+<p>Inline elements in HTML 4.0 Transitional; EM, STRONG, DFN, CODE, SAMP, KBD, VAR, CITE, ABBR, ACRONYM, TT, I, B, U, S, STRIKE, BIG, SMALL, SUB, SUP, A, IMG, APPLET, OBJECT, FONT, BASEFONT, BR, SCRIPT, MAP, Q, SPAN, BDO, IFRAME, INPUT, SELECT, TEXTAREA, LABEL, BUTTON, (INS, DEL).</p>
+<p><strong>Block</strong></p>
+<p>elements which do have line breaks. May occur in other block elements, cannot occur in inline elements, may contain both block and inline elements.</p>
+<p>Block elements in HTML 3.2; H1, H2, H3, H4, H5, H6, ADDRESS, P, DL, DT, DD, UL, OL, DIR, MENU, LI, DIV, CENTER, BLOCKQUOTE, PRE, HR, ISINDEX, TABLE, FORM.</p>
+<p>Block elements in HTML 4.0; P, H1, H2, H3, H4, H5, H6, UL, OL, PRE, DL, DIV, NOSCRIPT, BLOCKQUOTE, FORM, HR, TABLE, FIELDSET, ADDRESS, (INS, DEL).</p>
+<p>Block elements in HTML 4.0 Transitional; P, H1, H2, H3, H4, H5, H6, UL, OL, DIR, MENU, PRE, DL, DIV, CENTER, NOSCRIPT, NOFRAMES, BLOCKQUOTE, FORM, ISINDEX, HR, TABLE, FIELDSET, ADDRESS, (INS, DEL).</p>
+<p>Parents and children elements which either contain (parents) or are in the content of (children) other elements, e.g. &lt;P&gt;text&lt;STRONG&gt;text&lt;/STRONG&gt;text&lt;/P&gt;. P is a parent of STRONG. STRONG is a child of P. If not specified otherwise, children will inherit parent's properties.</p>
+<p>Replaced elements which content is replaced. For example content of the IMG element is replaced with an image, content of the INPUT element is replace with a field.</p>
+<p><strong>Floating</strong></p>
+<p>elements which follow the flow of a parent - inline elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. How Do I Have A Fixed (non-scrolling) Background Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With CSS, you can use the background-attachment property. The backgroundattachment can be included in the shorthand background property, as in this example:</p>
+<p>body {<br/>background: white url(example.gif) fixed ;<br/>color: black ;<br/>}</p>
+<p>Note that this CSS is supported by Internet Explorer, Mozilla, Firefox Opera, Safari, and other browsers. In contrast, Microsoft's proprietary BGPROPERTIES attribute is supported only by Internet Explorer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is A Style Sheet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style sheets are the way that standards-compliant Web designers define the layout, look-and-feel, and design of their pages. They are called Cascading Style Sheets or CSS. With style sheets, a designer can define many aspects of a Web page:</p>
+<p>* fonts<br/>* colors<br/>* layout<br/>* positioning<br/>* imagery<br/>* accessibility</p>
+<p>Style sheets give you a lot of power to define how your pages will look. And another great thing about them is that style sheets make it really easy to update your pages when you want to make a new design. Simply load in a new style sheet onto your pages and you're done.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Inline Style? How To Link?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inline style is the style attached to one specific element. The style is specified directly in the start tag as a value of the STYLE attribute and will apply exclusively to this specific element occurrence.</p>
+<p>&lt;P STYLE="text-indent: 10pt"&gt;Indented paragraph&lt;/P&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Why Do Style Sheets Exist?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SGML (of which HTML is a derivative) was meant to be a device-independent method for conveying a document's structural and semantic content (its meaning.) It was never meant to convey physical formatting information. HTML has crossed this line and now contains many elements and attributes which specify visual style and formatting information. One of the main reasons for style sheets is to stop the creation of new HTML physical formatting constructs and once again separate style information from document content.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Are Style Sheets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style Sheets are templates, very similar to templates in desktop publishing applications, containing a collection of rules declared to various selectors(elements).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is Css Rule Ruleset?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two types of CSS rules: ruleset and at-rule. Ruleset identifies selector orselectors and declares style which is to be attached to that selector or selectors. For example P {text-indent: 10pt} is a CSS rule. CSS rulesets consist of two parts:selector, e.g. P and declaration,</p>
+<p>e.g. {text-indent: 10pt}.<br/>P {text-indent: 10pt} - CSS rule (ruleset)<br/>{text-indent: 10pt} - CSS declaration<br/>text-indent - CSS property<br/>10pt - CSS value</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Embedded Style? How To Link?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Embedded style is the style attached to one specific document. The style information is specified as a content of the STYLE element inside the HEAD element and will apply to the entire document.</p>
+<p>The Pack contains nearly 14 plus software . Pick the one which is suited for you Make your PC more useful. Get the free Google Pack.</p>
+<p>&lt;HEAD&gt;<br/>&lt;STYLE TYPE="text/css"&gt;<br/>&lt;!--<br/>P {text-indent: 10pt}<br/>--&gt;<br/>&lt;/STYLE&gt;<br/>&lt;/HEAD&gt;</p>
+<p><strong>Note:</strong> The styling rules are written as a HTML comment, that is, between &lt;!-- and --&gt; to hide the content in browsers without CSS support which would otherwise be displayed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is Id Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ID selector is an individually identified (named) selector to which a specific style is declared. Using the ID attribute the declared style can then be associated with one and only one HTML element per document as to differentiate it from all other elements. ID selectors are created by a character # followed by the selector's name. The name can contain characters a-z, A-Z, digits 0-9, period, hyphen, escaped characters, Unicode characters 161-255, as well as any Unicode characteras a numeric code, however, they cannot start with a dash or a digit.</p>
+<p>#abc123 {color: red; background: black}</p>
+<p>&lt;P ID=abc123&gt;This and only this element can be identified as abc123 &lt;/P&gt;</p></p>
+</li><br><br>

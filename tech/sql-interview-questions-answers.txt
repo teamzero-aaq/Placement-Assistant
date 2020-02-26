@@ -1,0 +1,265 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain What Is A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A database is a collection of information in an organized form for faster and better access, storage and manipulation. It can also be defined as a collection of tables, schema, views and other database objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain What Is Dbms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Database Management System is a collection of programs that enables a user to store, retrieve, update and delete information from a database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Explain What Is Rdbms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RDBMS stands for Relational Database Management System. RDBMS is a database management system (DBMS) that is based on the relational model. Data from relational database can be accessed using Structured Query Language (SQL)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are The Popular Database Management Systems In The It Industry?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Oracle, MySQL, Microsoft SQL Server, PostgreSQL, Sybase, MongoDB, DB2, and Microsoft Access etc.,</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Explain What Is Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL stands for Structured Query Language. It is an American National Standard Institute (ANSI) standard. It is a standard language for accessing and manipulating databases. Using SQL, some of the action we could do are to create databases, tables, stored procedures (SP’s), execute queries, retrieve, insert, update, delete data against a database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Explain What Is Table In A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A table is a database object used to store records in a field in the form of columns and rows that holds data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Explain What Is A Field In A Database And Record In A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>A field in a Database table is a space allocated to store a particular record within a table.</li>
+<li>A record (also called a row of data) is an ordered set of related data in a table.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is The Use Of Nvl Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NVL function is used to convert the null value to its actual value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Explain What Is A Column In A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A column is a vertical entity in a table that contains all information associated with a specific field in a table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are The Different Types Of Sql Commands?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>SQL commands are segregated into following types:</strong></p>
+<ul>
+<li><strong>DDL</strong> – Data Definition Language</li>
+<li><strong>DML</strong> – Data Manipulation Language</li>
+<li><strong>DQL</strong> – Data Query Language</li>
+<li><strong>DCL</strong> – Data Control Language</li>
+<li><strong>TCL</strong> – Transaction Control Language</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Are The Different Ddl Commands In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DDL commands are used to define or alter the structure of the database.</p>
+<p><strong>CREATE:</strong> To create databases and database objects</p>
+<p><strong>ALTER:</strong> To alter existing database objects</p>
+<p><strong>DROP:</strong> To drop databases and databases objects</p>
+<p><strong>TRUNCATE:</strong> To remove all records from a table but not its database structure</p>
+<p><strong>RENAME:</strong> To rename database objects</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Are The Different Dml Commands In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DML commands are used for managing data present in the database.</p>
+<p><strong>SELECT:</strong> To select specific data from a database</p>
+<p><strong>INSERT:</strong> To insert new records into a table</p>
+<p><strong>UPDATE:</strong> To update existing records</p>
+<p><strong>DELETE:</strong> To delete existing records from a table</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Are The Different Dcl Commands In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DCL commands are used to create roles, grant permission and control access to the database objects.</p>
+<p><strong>GRANT:</strong> To provide user access</p>
+<p><strong>DENY:</strong> To deny permissions to users</p>
+<p><strong>REVOKE:</strong> To remove user access</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are The Different Tcl Commands In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>TCL commands are used to manage the changes made by DML statements.</p>
+<p><strong>COMMIT:</strong> To write and store the changes to the database</p>
+<p><strong>ROLLBACK:</strong> To restore the database since the last commit</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain What Is An Index?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An index is used to speed up the performance of queries. It makes faster retrieval of data from the table. The index can be created on one column or a group of columns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Explain What Is A View?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A view is like a subset of a table which is stored logically in a database. A view is a virtual table. It contains rows and columns similar to a real table. The fields in the view are fields from one or more real tables. Views do not contain data of their own. They are used to restrict access to the database or to hide data complexity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Explain What Is A Subquery ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Subquery is a SQL query within another query. It is a subset of a Select statement whose return values are used in filtering the conditions of the main query.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is The Difference Between Rename And Alias?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>‘Rename’ is a permanent name given to a table or column</p>
+<p>‘Alias’ is a temporary name given to a table or column.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is A Join?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Join is a query, which retrieves related columns or rows from multiple tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Different Types Of Joins?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Types of Joins are as follows:</strong></p>
+<p><strong>INNER JOIN:</strong> It is also known as SIMPLE JOIN which returns all rows from BOTH tables when it has at least one column matched</p>
+<p><strong>Syntax:</strong> SELECT column_name(s) </p>
+<p>FROM table_name1 </p>
+<p>INNER JOIN table_name2 </p>
+<p>ON column_name 1=column_name 2;</p>
+<p><strong>LEFT JOIN (LEFT OUTER JOIN):</strong> This join returns all rows from a LEFT table and its matched rows from a RIGHT table.</p>
+<p><strong>Syntax:</strong> SELECT column_name(s)</p>
+<p>FROM table_name1</p>
+<p>LEFT JOIN table_name2</p>
+<p>ON column_name 1=column_name 2;</p>
+<p><strong>RIGHT JOIN (RIGHT OUTER JOIN):</strong> This joins returns all rows from the RIGHT table and its matched rows from a LEFT table.</p>
+<p><strong>Syntax:</strong> SELECT column_name(s)</p>
+<p>FROM table_name1</p>
+<p>RIGHT JOIN table_name2</p>
+<p>ON column_name1=column_name2;</p>
+<p><strong>FULL JOIN (FULL OUTER JOIN):</strong> This joins returns all when there is a match either in the RIGHT table or in the LEFT table.</p>
+<p><strong>Syntax:</strong> SELECT column_name(s)</p>
+<p>FROM table_name1</p>
+<p>FULL OUTER JOIN table_name2</p>
+<p>ON column_name1=column_name2;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are Sql Constraints?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL constraints are the set of rules that enforced some restriction while inserting, deleting or updating of data in the databases.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Are The Constraints Available In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Some of the constraints in SQL are :</strong> Primary Key, Foreign Key, Unique Key, SQL Not Null, Default, Check and Index constraint.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is A Unique Key And Primary Key And Foreign Key?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>A UNIQUE KEY constraint is used to ensure that there are no duplication values in the field/column.</li>
+<li>A PRIMARY KEY constraint uniquely identifies each record in a database table. All columns participating in a primary key constraint must not contain NULL values.</li>
+<li>A FOREIGN KEY is a key used to link two tables together. A FOREIGN KEY in a table is linked with the PRIMARY KEY of another table.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Difference Between Unique And Primary Key Constraints?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There should be only one PRIMARY KEY in a table whereas there can be any number of UNIQUE Keys.</p>
+<p>PRIMARY KEY doesn’t allow NULL values whereas Unique key allows NULL values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is A Null Value?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A field with a NULL value is a field with no value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation. Assume, there is a field in a table is optional and it is possible to insert a record without adding a value to the optional field then the field will be saved with a NULL value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is Normalization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Normalization is the process of table design to minimize the data redundancy.</p>
+<p><strong> There are different types of Noramalization forms in SQL:-</strong></p>
+<ul>
+<li><strong>First Normal Form (1NF):</strong> It removes all duplicate columns from the table. Creates table for related data and identifies unique column values</li>
+<li><strong>First Normal Form (2NF):</strong> Follows 1NF and creates and places data subsets in an individual table and defines relationship between tables using primary key</li>
+<li><strong>Third Normal Form (3NF):</strong> Follows 2NF and removes those columns which are not related through primary key</li>
+<li><strong>Fourth Normal Form (4NF):</strong> Follows 3NF and do not define multi-valued dependencies. 4NF also known as BCNF</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is Stored Procedure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Stored Procedure is a collection of SQL statements that have been created and stored in the database to perform a particular task. The stored procedure accepts input parameters and processes them and returns a single value such as a number or text value or a result set (set of rows).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is A Trigger?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Trigger is a SQL procedure that initiates an action in response to an event (Insert, Delete or Update) occurs. When a new Employee is added to an Employee_Details table, new records will be created in the relevant tables such as Employee Payroll, Employee Time Sheet etc.,</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. List Out The Acid Properties And Explain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Following are the four properties of ACID. These guarantees that the database transactions are processed reliably.</p>
+<ul>
+<li>Atomicity</li>
+<li>Consistency</li>
+<li>Isolation</li>
+<li>Durability</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is The Difference Between Delete, Truncate And Drop Command?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The difference between the Delete, Truncate and Drop command is:</strong></p>
+<ul>
+<li>Delete command is a DML command, it is used to delete rows from a table. It can be rolled back.</li>
+<li>Truncate is a DDL command, it is used to delete all the rows from the table and free the space containing the table. It cant be rolled back.</li>
+<li>Drop is a DDL command, it removes the complete data along with the table structure(unlike truncate command that removes only the rows). All the tables’ rows, indexes, and privileges will also be removed.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is The Difference Between Having And Where Clause?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Where clause is used to fetch data from a database that specifies particular criteria whereas a Having clause is used along with ‘GROUP BY’ to fetch data that meets particular criteria specified by the Aggregate functions. Where clause cannot be used with Aggregate functions, but the Having clause can.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Are Aggregate Functions In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL aggregate functions return a single value, calculated from values in a column.</p>
+<p><strong> Some of the aggregate functions in SQL are as follows:</strong></p>
+<ul>
+<li><strong>AVG() :</strong> This function returns the average value</li>
+<li><strong>COUNT() :</strong> This function returns the number of rows</li>
+<li><strong>MAX() :</strong> This function returns the largest value</li>
+<li><strong>MIN() :</strong> This function returns the smallest value</li>
+<li><strong>ROUND() :</strong> This function rounds a numeric field to the number of decimals specified</li>
+<li><strong>SUM() :</strong> This function returns the sum</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Are String Functions In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL string functions are used primarily for string manipulation.</p>
+<p><strong> Some of the widely used SQL string functions are:</strong></p>
+<ul>
+<li><strong>LEN() :</strong> It returns the length of the value in a text field</li>
+<li><strong>LOWER() :</strong> It converts character data to lower case</li>
+<li><strong>UPPER() :</strong> It converts character data to upper case</li>
+<li><strong>SUBSTRING() :</strong> It extracts characters from a text field</li>
+<li><strong>LTRIM() :</strong> It is to remove all whitespace from the beginning of the string</li>
+<li><strong>RTRIM() :</strong> It is to remove all whitespace at the end of the string</li>
+<li><strong>CONCAT() :</strong> Concatenate function combines multiple character strings together</li>
+<li><strong>REPLACE() :</strong>To update the content of a string.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Explain The Working Of Sql Privileges?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL GRANT and REVOKE commands are used to implement privileges in SQL multiple user environments.  The administrator of the database can grant or revoke privileges to or from users of database object like SELECT, INSERT, UPDATE, DELETE, ALL etc.</p>
+<p><strong>GRANT Command:</strong> This command is used provide database access to user apart from an administrator.</p>
+<p><strong>Syntax:</strong> GRANT privilege_name</p>
+<p>ON object_name</p>
+<p>TO {user_name|PUBLIC|role_name}</p>
+<p>[WITH GRANT OPTION];</p>
+<p>In above syntax WITH GRANT OPTIONS indicates that the user can grant the access to another user too.</p>
+<p><strong>REVOKE Command:</strong> This command is used provide database deny or remove access to database objects.</p>
+<p><strong>Syntax:</strong> REVOKE privilege_name</p>
+<p>ON object_name</p>
+<p>FROM {user_name|PUBLIC|role_name};</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How Many Types Of Privileges Are Available In Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two types of privileges used in SQL, such as</p>
+<p><strong>System Privilege:</strong> System privileges deal with an object of a particular type and specifies the right to perform one or more actions on it which include Admin allows a user to perform administrative tasks, ALTER ANY INDEX, ALTER ANY CACHE GROUP CREATE/ALTER/DELETE TABLE, CREATE/ALTER/DELETE VIEW etc.</p>
+<p><strong>Object Privilege:</strong> This allows to perform actions on an object or object of another user(s) viz. table, view, indexes etc. Some of the object privileges are EXECUTE, INSERT, UPDATE, DELETE, SELECT, FLUSH, LOAD, INDEX, REFERENCES etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Sql Injection?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL Injection is a type of database attack technique where malicious SQL statements are inserted into an entry field of database such that once it is executed the database is opened for an attacker. This technique is usually used for attacking Data-Driven Applications to have an access to sensitive data and perform administrative tasks on databases.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Difference Between Clustered And Non-clustered Indexes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>One table can have only one clustered index but multiple nonclustered indexes.</li>
+<li>Clustered indexes can be read rapidly rather than non-clustered indexes.</li>
+<li>Clustered indexes store data physically in the table or view and non-clustered indexes do not store data in table as it has separate structure from data row</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is Relationship? How Many Types Of Relationship Are There?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The relationship can be defined as the connection between more than one tables in the database.</p>
+<p><strong>There are 4 types of relationships:</strong></p>
+<ul>
+<li>One to One Relationship</li>
+<li>Many to One Relationship</li>
+<li>Many to Many Relationship</li>
+<li>One to Many Relationship</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is Collation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Collation is set of rules that check how the data is sorted by comparing it. Such as Character data is stored using correct character sequence along with case sensitivity, type, and accent.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Database White Box Testing And Black Box Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Database White Box Testing involves:</strong></p>
+<ul>
+<li>Database Consistency and ACID properties</li>
+<li>Database triggers and logical views</li>
+<li>Decision Coverage, Condition Coverage, and Statement Coverage</li>
+<li>Database Tables, Data Model, and Database Schema</li>
+<li>Referential integrity rules</li>
+</ul>
+<p><strong>Database Black Box Testing involves:</strong></p>
+<ul>
+<li>Data Mapping</li>
+<li>Data stored and retrieved</li>
+<li>Use of Black Box techniques such as Equivalence Partitioning and Boundary Value Analysis (BVA)</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Are The Advantages Of Views?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Advantages of Views:</strong></p>
+<p>Views restrict access to the data because the view can display selective columns from the table.</p>
+<p>Views can be used to make simple queries to retrieve the results of complicated queries. For example, views can be used to query information from multiple tables without the user knowing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Is Schema?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A schema is a collection of database objects of a User.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Is The Difference Between Sql And Pl/sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL is a structured query language to create and access databases whereas PL/SQL comes with procedural concepts of programming languages.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Is The Difference Between Sql And Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL is a structured query language that is used for manipulating and accessing the relational database, on the other hand, MySQL itself is a relational database that uses SQL as the standard database language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is Sql Sandbox In Sql Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL Sandbox is the safe place in SQL Server Environment where untrusted scripts are executed. There are 3 types of SQL sandbox, such as</p>
+<p><strong>Safe Access Sandbox:</strong> Here a user can perform SQL operations such as creating stored procedures, triggers etc. but cannot have access to the memory and cannot create files.</p>
+<p><strong>External Access Sandbox:</strong> User can have access to files without having a right to manipulate the memory allocation.</p>
+<p><strong>Unsafe Access Sandbox:</strong> This contains untrusted codes where a user can have access to memory.</p></p>
+</li><br><br>

@@ -1,0 +1,185 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is A Recommender System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A recommender system is today widely deployed in multiple fields like movie recommendations, music preferences, social tags, research articles, search queries and so on. The recommender systems work as per collaborative and content-based filtering or by deploying a personality-based approach. This type of system works based on a person’s past behavior in order to build a model for the future. This will predict the future product buying, movie viewing or book reading by people. It also creates a filtering approach using the discrete characteristics of items while recommending additional items.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Compare Sas, R And Python Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>SAS:</strong> it is one of the most widely used analytics tools used by some of the biggest companies on earth. It has some of the best statistical functions, graphical user interface, but can come with a price tag and hence it cannot be readily adopted by smaller enterprises</p>
+<p><strong>R:</strong> The best part about R is that it is an Open Source tool and hence used generously by academia and the research community. It is a robust tool for statistical computation, graphical representation and reporting. Due to its open source nature it is always being updated with the latest features and then readily available to everybody.</p>
+<p><strong>Python:</strong> Python is a powerful open source programming language that is easy to learn, works well with most other tools and technologies. The best part about Python is that it has innumerable libraries and community created modules making it very robust. It has functions for statistical operation, model building and more.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Explain The Various Benefits Of R Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The R programming language includes a set of software suite that is used for graphical representation, statistical computing, data manipulation and calculation.</p>
+<p><strong>Some of the highlights of R programming environment include the following:</strong></p>
+<ol>
+<li>An extensive collection of tools for data analysis</li>
+<li>Operators for performing calculations on matrix and array</li>
+<li> Data analysis technique for graphical representation</li>
+<li> A highly developed yet simple and effective programming language</li>
+<li> It extensively supports machine learning applications</li>
+<li> It acts as a connecting link between various software, tools and datasets</li>
+<li> Create high quality reproducible analysis that is flexible and powerful</li>
+<li> Provides a robust package ecosystem for diverse needs</li>
+<li> It is useful when you have to solve a data-oriented problem</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Do Data Scientists Use Statistics?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Statistics helps Data Scientists to look into the data for patterns, hidden insights and convert Big Data into Big insights. It helps to get a better idea of what the customers are expecting. Data Scientists can learn about the consumer behavior, interest, engagement, retention and finally conversion all through the power of insightful statistics. It helps them to build powerful data models in order to validate certain inferences and predictions. All this can be converted into a powerful business proposition by giving users what they want at precisely when they want it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Logistic Regression?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a statistical technique or a model in order to analyze a dataset and predict the binary outcome. The outcome has to be a binary outcome that is either zero or one or a yes or no.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Why Data Cleansing Is Important In Data Analysis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With data coming in from multiple sources it is important to ensure that data is good enough for analysis. This is where data cleansing becomes extremely vital. Data cleansing extensively deals with the process of detecting and correcting of data records, ensuring that data is complete and accurate and the components of data that are irrelevant are deleted or modified as per the needs. This process can be deployed in concurrence with data wrangling or batch processing.</p>
+<p>Once the data is cleaned it confirms with the rules of the data sets in the system. Data cleansing is an essential part of the data science because the data can be prone to error due to human negligence, corruption during transmission or storage among other things. Data cleansing takes a huge chunk of time and effort of a Data Scientist because of the multiple sources from which data emanates and the speed at which it comes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Describe Univariate, Bivariate And Multivariate Analysis.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As the name suggests these are analysis methodologies having a single, double or multiple variables.</p>
+<p>So a univariate analysis will have one variable and due to this there are no relationships, causes. The major aspect of the univariate analysis is to summarize the data and find the patterns within it to make actionable decisions.</p>
+<p>A Bivariate analysis deals with the relationship between two sets of data. These sets of paired data come from related sources, or samples. There are various tools to analyze such data including the chi-squared tests and t-tests when the data are having a correlation.</p>
+<p>If the data can be quantified then it can analyzed using a graph plot or a scatterplot. The strength of the correlation between the two data sets will be tested in a Bivariate analysis.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Machine Learning Is Deployed In Real World Scenarios?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Here are some of the scenarios in which machine learning finds applications in real world:</strong></p>
+<p><strong>Ecommerce: </strong>Understanding the customer churn, deploying targeted advertising, remarketing.</p>
+<p><strong>Search engine:</strong> Ranking pages depending on the personal preferences of the searcher</p>
+<p><strong>Finance:</strong> Evaluating investment opportunities &amp; risks, detecting fraudulent transactions</p>
+<p><strong>Medicare:</strong> Designing drugs depending on the patient’s history and needs</p>
+<p><strong>Robotics:</strong> Machine learning for handling situations that are out of the ordinary</p>
+<p><strong>Social media:</strong> Understanding relationships and recommending connections</p>
+<p><strong>Extraction of information:</strong> framing questions for getting answers from databases over the web.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are The Various Aspects Of A Machine Learning Process?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In this post I will discuss the components involved in solving a problem using machine learning.</p>
+<p><strong>Domain knowledge:</strong></p>
+<p>This is the first step wherein we need to understand how to extract the various features from the data and learn more about the data that we are dealing with. It has got more to do with the type of domain that we are dealing with and familiarizing the system to learn more about it.</p>
+<p><strong>Feature Selection:</strong></p>
+<p>This step has got more to do with the feature that we are selecting from the set of features that we have. Sometimes it happens that there are a lot of features and we have to make an intelligent decision regarding the type of feature that we want to select to go ahead with our machine learning endeavor.</p>
+<p><strong>Algorithm:</strong></p>
+<p>This is a vital step since the algorithms that we choose will have a very major impact on the entire process of machine learning. You can choose between the linear and nonlinear algorithm. Some of the algorithms used are Support Vector Machines, Decision Trees, Naïve Bayes, K-Means Clustering, etc.</p>
+<p><strong>Training:</strong></p>
+<p>This is the most important part of the machine learning technique and this is where it differs from the traditional programming. The training is done based on the data that we have and providing more real world experiences. With each consequent training step the machine gets better and smarter and able to take improved decisions.</p>
+<p><strong>Evaluation:</strong></p>
+<p>In this step we actually evaluate the decisions taken by the machine in order to decide whether it is up to the mark or not. There are various metrics that are involved in this process and we have to closed deploy each of these to decide on the efficacy of the whole machine learning endeavor.</p>
+<p><strong>Optimization:</strong></p>
+<p>This process involves improving the performance of the machine learning process using various optimization techniques. Optimization of machine learning is one of the most vital components wherein the performance of the algorithm is vastly improved. The best part of optimization techniques is that machine learning is not just a consumer of optimization techniques but it also provides new ideas for optimization too.</p>
+<p><strong>Testing:</strong></p>
+<p>Here various tests are carried out and some these are unseen set of test cases. The data is partitioned into test and training set. There are various testing techniques like cross-validation in order to deal with multiple situations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Do You Understand By The Term Normal Distribution?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a set of continuous variable spread across a normal curve or in the shape of a bell curve. It can be considered as a continuous probability distribution and is useful in statistics. It is the most common distribution curve and it becomes very useful to analyze the variables and their relationships when we have the normal distribution curve.</p>
+<p>The normal distribution curve is symmetrical. The non-normal distribution approaches the normal distribution as the size of the samples increases. It is also very easy to deploy the Central Limit Theorem. This method helps to make sense of data that is random by creating an order and interpreting the results using a bell-shaped graph.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Linear Regression?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is the most commonly used method for predictive analytics. The Linear Regression method is used to describe relationship between a dependent variable and one or independent variable. The main task in the Linear Regression is the method of fitting a single line within a scatter plot.</p>
+<p><strong>The Linear Regression consists of the following three methods:</strong></p>
+<p>Determining and analyzing the correlation and direction of the data</p>
+<p>Deploying the estimation of the model</p>
+<p>Ensuring the usefulness and validity of the model</p>
+<p>It is extensively used in scenarios where the cause effect model comes into play. For example you want to know the effect of a certain action in order to determine the various outcomes and extent of effect the cause has in determining the final outcome.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Interpolation And Extrapolation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The terms of interpolation and extrapolation are extremely important in any statistical analysis. Extrapolation is the determination or estimation using a known set of values or facts by extending it and taking it to an area or region that is unknown. It is the technique of inferring something using data that is available.</p>
+<p>Interpolation on the other hand is the method of determining a certain value which falls between a certain set of values or the sequence of values.</p>
+<p>This is especially useful when you have data at the two extremities of a certain region but you don’t have enough data points at the specific point. This is when you deploy interpolation to determine the value that you need.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Power Analysis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The power analysis is a vital part of the experimental design. It is involved with the process of determining the sample size needed for detecting an effect of a given size from a cause with a certain degree of assurance. It lets you deploy specific probability in a sample size constraint.</p>
+<p>The various techniques of statistical power analysis and sample size estimation are widely deployed for making statistical judgment that are accurate and evaluate the size needed for experimental effects in practice.</p>
+<p>Power analysis lets you understand the sample size estimate so that they are neither high nor low. A low sample size there will be no authentication to provide reliable answers and if it is large there will be wastage of resources.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is K-means? How Can You Select K For K-means?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>K-means clustering can be termed as the basic unsupervised learning algorithm. It is the method of classifying data using a certain set of clusters called as K clusters. It is deployed for grouping data in order to find similarity in the data.</p>
+<p>It includes defining the K centers, one each in a cluster. The clusters are defined into K groups with K being predefined. The K points are selected at random as cluster centers. The objects are assigned to their nearest cluster center. The objects within a cluster are as closely related to one another as possible and differ as much as possible to the objects in other clusters. K-means clustering works very well for large sets of data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How Is Data Modeling Different From Database Design?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Data Modeling:</strong> It can be considered as the first step towards the design of a database. Data modeling creates a conceptual model based on the relationship between various data models. The process involves moving from the conceptual stage to the logical model to the physical schema. It involves the systematic method of applying the data modeling techniques.</p>
+<p><strong>Database Design:</strong> This is the process of designing the database. The database design creates an output which is a detailed data model of the database. Strictly speaking database design includes the detailed logical model of a database but it can also include physical design choices and storage parameters.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are Feature Vectors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>n-dimensional vector of numerical features that represent some object</li>
+<li>Term occurrences frequencies, pixels of an image etc.</li>
+<li>Feature space: vector space associated with these vectors</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Explain The Steps In Making A Decision Tree.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Take the entire data set as input</li>
+<li>Look for a split that maximizes the separation of the classes. A split is any test that divides the data in two sets</li>
+<li>Apply the split to the input data (divide step)</li>
+<li>Re-apply steps 1 to 2 to the divided data</li>
+<li>Stop when you meet some stopping criteria</li>
+<li>This step is called pruning. Clean up the tree when you went too far doing splits.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Root Cause Analysis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Root cause analysis was initially developed to analyze industrial accidents, but is now widely used in other areas. It is basically a technique of problem solving used for isolating the root causes of faults or problems. A factor is called a root cause if its deduction from the problem-fault-sequence averts the final undesirable event from reoccurring.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Explain Cross-validation.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a model validation technique for evaluating how the outcomes of a statistical analysis will generalize to an independent data set. Mainly used in backgrounds where the objective is forecast and one wants to estimate how accurately a model will accomplish in practice.</p>
+<p>The goal of cross-validation is to term a data set to test the model in the training phase (i.e. validation data set) in order to limit problems like over fitting, and get an insight on how the model will generalize to an independent data set.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Collaborative Filtering?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of filtering used by most of the recommender systems to find patterns or information by collaborating perspectives, numerous data sources and several agents.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Do Gradient Descent Methods At All Times Converge To Similar Point?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, they do not because in some cases it reaches a local minima or a local optima point. You will not reach the global optima point. This is governed by the data and the starting conditions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Goal Of A/b Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a statistical hypothesis testing for randomized experiment with two variables A and B. The objective of A/B Testing is to detect any changes to the web page to maximize or increase the outcome of an interest.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Are The Drawbacks Of Linear Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Some drawbacks of the linear model are:</strong></p>
+<ol>
+<li>The assumption of linearity of the errors</li>
+<li>It can’t be used for count outcomes, binary outcomes</li>
+<li>There are overfitting problems that it can’t solve</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Law Of Large Numbers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a theorem that describes the result of performing the same experiment a large number of times. This theorem forms the basis of frequency-style thinking. It says that the sample mean, the sample variance and the sample standard deviation converge to what they are trying to estimate.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Are Confounding Variables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These are extraneous variables in a statistical model that correlate directly or inversely with both the dependent and the independent variable. The estimate fails to account for the confounding factor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Explain Star Schema.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a traditional database schema with a central table. Satellite tables map ID’s to physical name or description and can be connected to the central fact table using the ID fields; these tables are known as lookup tables, and are principally useful in real-time applications, as they save a lot of memory. Sometimes star schemas involve several layers of summarization to recover information faster.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. How Regularly An Algorithm Must Be Update?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>You want to update an algorithm when:</strong></p>
+<ul>
+<li>You want the model to evolve as data streams through infrastructure</li>
+<li>The underlying data source is changing</li>
+<li>There is a case of non-stationarity</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Are Eigenvalue And Eigenvector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Eigenvectors are for understanding linear transformations. In data analysis, we usually calculate the eigenvectors for a correlation or covariance matrix. Eigenvectors are the directions along which a particular linear transformation acts by flipping, compressing or stretching.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Why Is Resampling Done?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Resampling is done in one of these cases:</strong></p>
+<ol>
+<li>Estimating the accuracy of sample statistics by using subsets of accessible data or drawing randomly with replacement from a set of data points</li>
+<li>Substituting labels on data points when performing significance tests</li>
+<li>Validating models by using random subsets (bootstrapping, cross validation.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Explain Selective Bias.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Selection bias, in general, is a problematic situation in which error is introduced due to a non-random population sample.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are The Types Of Biases That Can Occur During Sampling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Selection bias</li>
+<li>Under coverage bias</li>
+<li>Survivorship bias</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. How To Work Towards A Random Forest?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Underlying principle of this technique is that several weak learners combined provide a strong learner. The steps involved are</p>
+<ul>
+<li>Build several decision trees on bootstrapped training samples of data</li>
+<li>On each tree, each time a split is considered, a random sample of mm predictors is chosen as split candidates, out of all pp predictors</li>
+<li><strong>Rule of thumb:</strong> at each split m=p√m=p</li>
+<li><strong>Predictions:</strong> at the majority rule.</li>
+</ul></p>
+</li><br><br>

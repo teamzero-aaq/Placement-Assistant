@@ -1,0 +1,76 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Define Electronics?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The branch of engineering which deals with conduction of current through vacuum or gas or a semiconductor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Define Semiconductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Semiconductor is a substance has its resistivity in between conductors and insulators. E.g. silicon, Germanium.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Define Conductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The substances, which allow electric current to pass through them, are called conductors. E.g. Copper.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Define Insulator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Material, which does not allow the passage of electric current through them.E.g. Glass, wood, etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Define Energy Band Diagram?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is diagram drawn between interatomic spacing along the X-axis and the band energy along the Y-axis.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are Free Electrons?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The valence electrons, which are very loosely attached to the nucleus, are known as free electrons.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Define Doping?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of adding impurities to an intrinsic semiconductor is called doping.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Define Intrinsic Semiconductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Semiconductor in an extremely pure form is called intrinsic semiconductor. Its valence shell must be tetravalent in nature.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Define Extrinsic Semiconductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Semiconductor in an impure form is called extrinsic semiconductor.</p>
+<p><strong> They are two types</strong></p>
+<ul>
+<li>P-type</li>
+<li>N-type. </li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Define Valence Band?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The range of energy possessed by valence electron in an atom is called Valence band.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Define Conduction Band?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The range of energy possessed by conduction electron in an atom is called conduction band.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Explain Forbidden Energy Gap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The separation between the conduction band and the valence band on the energy band diagram.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Define P-n Junction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When P-type and N-type are suitably joined together by the conducting surfaces of these two semiconductors is called P-N junction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Define Forward Biasing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a diode is forward biased the current is produced because the holes in the P-region and electron from N-region moves towards the junction. The depletion region formed will be very small hence recombination occurs and current will be produced.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Define Reverse Biasing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a reverse biased voltage is given an electron from N-region and holes from P-region moves away from the junction,hence the depletion region formed is very high and hence a small current will be produced due to minority carriers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Define Reverse Resistance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The resistance offered by the diode in its reverse biased condition is called reverse resistance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Define Forward Resistance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The resistance offered by the diode in its forward biased condition when a voltage is given is called forward resistance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Define Transition Capacitance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The P-N region on either of the dielectric media act as the plates hence we have components for making a   plate capacitor the junction capacitance is called transition capacitance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Define Power Rating?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The power rating of a diode is defined as the maximum value of power  that can be dissipated without failure if V f is the forward biased voltage and I f is the forward biased current.  </p>
+<p>Pd= V f x I f.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Define Diffusion Capacitance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This capacitance effect is present when the junction is forward biased it is called diffusion capacitance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Define Drift Velocity And Drift Current?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When an electric field is applied the charge carriers moves in the opposite direction and produce current this result is drift current and net average velocity is called drift velocity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Define Transition Time?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Only after the minority carriers are swept of the junction the diode voltage begins to reverse and the diode current decreases exponentially the time which elapses between and when the diode normally recovered is the called transition time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Define Storage Time?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When the conduction diode is reverse biased the voltage does not become zero. Immediately up to time t 1 the diode is conducting in the forward direction. The time interval t = t 2 –t1 during which the stored minority carriers reduces to zero is called  storage time (t s).</p></p>
+</li><br><br>

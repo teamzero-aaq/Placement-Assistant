@@ -1,0 +1,578 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+body {
+  margin: 0;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+
+a {
+  color: #39cfca;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #39cfca;
+  text-decoration: underline;
+}
+.section1
+{
+  padding: 80px 0px;
+}
+
+.section1 img {
+  
+  border-style: none;
+  width: 23.3rem;
+  height: 23.3rem;
+  align-content: center;
+}
+
+@media (max-width: 800px) {
+
+  .section1 img {
+  border-style: none;
+  width: 20rem;
+  height: 23.3rem;
+  align-content: center;
+  margin-bottom: 50px; 
+
+}}
+
+
+.btn {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.btn-xl {
+    line-height: 42px;
+    padding: 0 36px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(90deg,#39cfca 0%,#3279bb 100%);
+    outline: none;
+
+}
+.btn-xl:hover
+{
+  color: #fff;
+    background-size: 200% auto;
+    background-position: right center;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn-xl:focus
+{
+  outline: none;
+}
+
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+#mainNav .navbar-brand {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #212529;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #6c757d;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.75rem 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #39cfca;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:active {
+
+  color: #000;
+}
+
+
+#mainNav .navbar-nav .nav-item .dd {
+  color: #6c757d;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#mainNav .navbar-nav .nav-item .dd:hover{ 
+  color: #39cfca;
+}
+
+ #mainNav .navbar-nav .nav-item .dd:active {
+  color: #39cfca;
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #fff; !important;
+}
+
+#mainNav .navbar-nav .nav-item .dd.active {
+  color: #39cfca; !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  #mainNav.navbar-scrolled .navbar-brand {
+    color: #212529;
+  }
+  #mainNav.navbar-scrolled .navbar-brand:hover {
+    color: #39cfca;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #000;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #39cfca;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link.active {
+  color: #39cfca;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link .dd.active {
+  color: #39cfca;
+  }
+  }
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+  background: url("../img/header-bg.webp");
+  background-color: #39cfca: 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.section1 .sec1-content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.5rem;
+
+} 
+
+.section2
+{
+  background: #f1f9ff;
+  padding: 150px 0;
+}
+
+
+.section2 .right-row
+{
+  margin-left: 50px;
+
+}
+
+.section2 .right-row img
+{
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+
+}
+
+.section3
+{
+  background: #fff;
+  padding: 120px 0;
+}
+
+.section3 .heading-style
+{
+  margin-bottom: 50px;
+}
+
+
+header.mastheader {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+  background: url("../img/header-bg.webp");
+  background-color: #39cfca: 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+header.mastheader h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.mastheader {
+    height: 25rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+     width: 100%;
+  }
+  header.mastheader p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.mastheader h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.testsection
+{
+  padding: 5rem 0;
+}
+ .testsection .left-side
+ {
+  
+ }
+
+.testsection .left-side h3
+ {
+  font-size: 20px;
+ }
+
+ .testsection .left-side h4
+ {
+  font-size: 2rem;
+  color: #39cfca;
+  margin-bottom: 0.7rem;
+ }
+
+
+ .testsection .questions h2
+ {
+  font-size: 20px;
+  padding: 2rem 0;
+ }
+
+.questions {
+  border-bottom: 1px dashed #ccc;
+  padding: 0 0 30px;
+  margin: 0 0 30px;
+}
+
+.questions .row {
+  margin: 0 0 15px;
+}
+
+
+/* custom radio */
+
+.customRadio input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.customRadio input[type="radio"]+label {
+  position: relative;
+  padding: 3px 0 0 40px;
+  cursor: pointer;
+}
+
+.customRadio input[type="radio"]+label:before {
+  content: '';
+  background: #fff;
+  border: 2px solid #39cfca;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.customRadio input[type="radio"]+label:after {
+  content: '';
+  background: #39cfca;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  opacity: 0;
+  transform: scale(2);
+  transition: transform 0.3s linear, opacity 0.3s linear;
+}
+
+.customRadio input[type="radio"]:checked+label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.sidebar h3
+{
+  color: #39cfca;
+}
+
+
+.sidebar p
+{
+
+  font-size: 1rem;
+}
+
+.sidebar li
+{
+  list-style: none;
+  padding-top: 0.5rem;
+}
+
+.sidebar li a
+{
+  text-decoration: none;
+  color: #000;
+}
+ 
+ .sidebar li a:hover
+{
+  
+  color: #39cfca;
+}
+
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+.sidebar-item {
+  position: absolute;
+  font-size: 20px;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+
+.make-me-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20%;
+  padding: 20px 20px;
+  background-color: #f1f9ff;
+}
+
+.card-body .ans
+{
+  color: green;
+}
+
+.gdlist li
+{
+  margin-top: 10px;
+  border:none;
+  padding: .75rem 0rem;
+}
+
+
+.right-content-q
+{
+  
+padding: 25px 25px;
+margin: 10px 0px;
+font-size: 15px;
+background: #f1f9ff;
+border-radius: 5px;
+
+
+}
+
+.right-content-q h2
+{
+  
+
+font-size: 22px;
+margin: 20px 0px 10px;
+
+
+}
+
+.right-content-q p
+{
+  
+
+font-size: 14px;
+
+}
+
+  
+.sidebar .style-title
+{
+  font-size: 0.9rem;
+  color: #39cfca;
+}
+
+.sidebar .p-style
+{
+  font-size: 0.9rem;
+}
+
+.testsection h3
+{
+  font-size: 22px;
+}
+
+
+
+.dept_card
+{
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background: #000;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  border-radius: 10px; 
+  margin:15px;
+
+
+}
+
+.dept_card .dept_img
+{
+  position: relative;
+  overflow: hidden;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+
+.dept_card .dept_img::before
+{
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 30%;
+background: linear-gradient(0deg, #030303 50%, transparent);  
+transition: 0.5s;
+z-index: 1;
+}
+
+
+.details
+{
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  height: 70%;
+  bottom: -100px;
+  left: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.dept_card:hover .details
+{
+  bottom: -50px;
+}
+
+.details h2
+{
+  color: #fff;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+
+
+
+

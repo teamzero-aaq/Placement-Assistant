@@ -1,0 +1,153 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is A Firebase Project?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A project is a container for apps across iOS, Android and web. It supports sharing of features such as Database, Config and Notifications between your cross-platform apps.</p>
+<p>You should add iOS, Android and web app variants to a single project.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Do I Need To Provide A Sha-1 When Adding An Android App?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A SHA-1 is only required if you are using either Firebase Invites or Firebase Dynamic Links. Adding a SHA-1 to your project simplifies the Google Sign-In configuration with Firebase Authentication.</p>
+<p>If you're not using these features, you don't have to provide a SHA-1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. I Currently Have Both An Existing Firebase.com App As Well As An Existing Google Project. How Do I Import Both Of Them Into A Single Firebase Project?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You should upgrade your firebase.com app into a Firebase project. If you want to use Google Sign In with Firebase Authentication or Firebase Invites in your Firebase project, and you have your OAuth Client registered with another Google project, you can add the OAuth client ID of your Google project to the Auth &gt; Sign in method &gt; Google &gt; Whitelist client IDs from external projects list.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Is My Firebase Console Language Determined?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The language setting for the Firebase console is based on the language selected in your Google account settings under "Account Preferences" &gt; "Language and Input Tools".</p>
+<p><strong>The Firebase console is available in the following languages:</strong></p>
+<ul>
+<li>English</li>
+<li>Brazillian Portuguese</li>
+<li>French</li>
+<li>German</li>
+<li>Indonesian</li>
+<li>Japanese</li>
+<li>Korean</li>
+<li>Russian</li>
+<li>Simplified Chinese</li>
+<li>Spanish</li>
+<li>Traditional Chinese</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Roles And Permissions Does The Firebase Console Support?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>The Firebase console and Google Cloud console use the same underlying roles and permissions. At a high-level, these are owner, editor, and viewer.</li>
+<li>A project owner can add other members to the project, link other Google services such as Play/AdMob/AdWords/BigQuery and has full edit access on the project.</li>
+<li>A project editor has full edit access on the project.</li>
+<li>A project viewer has only read access on the project. Note that our UI currently does not hide/disable edit UI controls for project viewers, but these operations will fail for users with viewer role.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Prerequisites For Linking Play/admob/adwords/bigquery To My Firebase Project?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>For linking your Play account, you need to be both a Firebase project owner and a Play account owner.</li>
+<li>For linking your AdMob app, you need to be both a Firebase project owner and an AdMob administrator.</li>
+<li>For linking your AdWords account, you need to be both a Firebase project owner and an AdWords administrator.</li>
+<li>For linking your BigQuery project, you need to be the Firebase project owner.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are The Supported Browsers For Accessing Firebase Console?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Firebase console can be accessed from recent versions of popular desktop browsers such as Chrome, Firefox, Safari and IE. Mobile browsers are currently not fully supported.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Open Source Notices Should I Include In My App?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>On iOS, the Firebase pod contains a NOTICES file which includes the relevant entries.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Why Is Firebase Analytics A Recommended Part Of Using Firebase Products?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Firebase Analytics is a free and unlimited analytics solution that works with Firebase features to deliver powerful insights. It enables you to view event logs in Firebase Crash Reporting, notification effectiveness in Firebase Notifications, deep link performance for Firebase Dynamic Links, and in-app purchase data from Google Play. It powers advanced audience targeting in Firebase Remote Config, Firebase Notifications, and more.</p>
+<p>Firebase Analytics acts as a layer of intelligence in the Firebase console to provide you with more actionable insights about how to develop a high quality app, grow your user base, and earn more money.</p>
+<p>Firebase Analytics is a part of the core Firebase SDK. Integrating Firebase Analytics is fast and easy.  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do I Segment Users Who Have Have Not Met Some Criterion?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can reframe the problem by "negatively targeting" these users. For example, reframe the problem as "Don't show ads to people who have bought something", and form an audience of those users to target.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. How Do I Control How My Analytics Data Is Shared With Rest Of Firebase?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By default, your Firebase Analytics data is used to enhance other Firebase and Google features. You can control how your Firebase Analytics data is shared in your project settings anytime. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Do I Create Closed Funnels?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Firebase Analytics, the Funnels page only shows open funnels. To create closed funnels, the events that the developers create have to enforce this. For example, if the following flows are possible:</p>
+<p>Flow 1: Screen A, Screen B, Screen C, Screen D<br/>Flow 2: Screen X, Screen Y, Screen C, Screen D</p>
+<p><strong>You could log the following events :</strong></p>
+<p>Flow 1 → A, B, C_1, D_1<br/>Flow 2 → X, Y, C_2, D_2</p>
+<p>Each set of these creates a closed funnel in Firebase Analytics. You can then create an audience of users who log all events in each Flow.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Why Are There Fewer Crash Reports In Analytics Than Crash Reporting?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Crash Reporting creates a separate background process to upload crash info. If your app extends the Android Application class, you must ensure it is multi-process safe. Otherwise, it may cause concurrency issues. When an app extends an Application object, this object gets instantiated for each process in a multi-process app. Consider the following when adding Crash Reporting to your app:</p>
+<p>If the implementation of this object accesses any out-of-process state (a database, the file system, shared preferences, etc), or performs other actions not safe for a multi-process environment, concurrency issues might arise. This is because multiple instances of the Application object may run simultaneously.</p>
+<p>Many third-party libraries keep out-of-process state (e.g. in a local database) and are subject to the same concurrency issues if they are initialized from the Application object. If your app fits this description and you plan to use Crash Reporting in your app, we strongly encourage you to consider moving the Application logic to Content Providers, or to Android Activities. Any Application logic that is not safe for a multi-process environment can have unintended effects on your app.</p>
+<p>Crash Reporting automatically exports captured errors to Firebase Analytics as app_exception events. Currently on Android, you may see a significant discrepancy between the number of Crash Reporting errors and Analytics app_exception events.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Do I Need To Use Other Firebase Services In Order To Use Fcm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use Firebase Cloud Messaging as a standalone component, in the same manner as you did with GCM, without using other Firebase services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. I Am An Existing Google Cloud Messaging (gcm) Developer. Should I Move To Firebase Cloud Messaging?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>FCM is the new version of GCM under the Firebase brand. It inherits GCM’s core infrastructure, with new SDKs to make Cloud Messaging development easier.</p>
+<p><strong>Benefits of upgrading to FCM SDK include:</strong></p>
+<p>Simpler client development. You no longer have to write your own registration or subscription retry logic.</p>
+<p>An out-of-the-box notification solution. You can use Firebase Notifications, a serverless notifications solution with a web console that lets anyone send notifications to target specific audiences based on Firebase Analytics insights.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Why Do My Targeted Devices Apparently Fail To Receive Messages?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When it looks like devices haven't successfully received messages, check first for these two potential causes:</p>
+<p>Foreground message handling for notification messages. Client apps need to add message handling logic to handle notification messages when the app is in the foreground on the device. See the details for iOS and Android.</p>
+<p>Network firewall restrictions. If your organization has a firewall that restricts the traffic to or from the Internet, you need to configure it to allow connectivity with FCM in order for your Firebase Cloud Messaging client apps to receive messages. The ports to open are:</p>
+<ul>
+<li>5228</li>
+<li>5229</li>
+<li>5230</li>
+</ul>
+<p>FCM usually uses 5228, but it sometimes uses 5229 and 5230. FCM does not provide specific IPs, so you should allow your firewall to accept outgoing connections to all IP addresses contained in the IP blocks listed in Google's ASN of 15169.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. I Have Implemented Onmessagereceived In My Android App, But It Is Not Being Called.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When your app is in the background, notification messages are displayed in the system tray, and onMessageReceived is not called. For notification messages with a data payload, the notification message is displayed in the system tray, and the data that was included with the notification message can be retrieved from the intent launched when the user taps on the notification.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Why Was My Realtime Database Reported Bandwidth Lower Than Average Between September 2016 And March 2017?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For our bandwidth calculations, we normally include SSL encryption overhead (based on layer 5 of the OSI model). However, in September 2016, we introduced a bug that caused our bandwidth reporting to ignore encryption overhead. This might have resulted in artificially low reported bandwidth and bills on your account for a few months.</p>
+<p>We released a fix for the bug in late March 2017, returning bandwidth reporting and billing to their normal levels.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Are The Scaling Limitations Of The Realtime Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Each Realtime Database instance has limits on the number of write operations per second. For small writes, this limit is approximately 1000 write operations per second. In addition, each database instance has a cap on the number of simultaneous database connections.</p>
+<p>Our default limits are large enough for most applications. If you are building an app that requires additional scale, we recommend tracking your usage over time and contacting us if you get near these limits. In some cases, we may need to shard your application across multiple database instances for added scale.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Can I Do If I'm Over My Real Time Database Usage Limits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you've received an email alert or notification in the Firebase console that you've exceeded your Realtime Database usage limits, you can address it based on the usage limit you've exceeded. To see your Realtime Database usage, go to the Realtime Database usage section of the Firebase console.</p>
+<p><strong>If you're over your download limit, you can upgrade your Firebase plan or wait until your download limit resets at the start of your next billing cycle. To decrease your downloads, try the following steps:</strong></p>
+<ul>
+<li>Add queries to limit the data that your listen operations return.</li>
+<li>Check for unindexed queries.</li>
+<li>Use listeners that only download updates to data — for example, on() instead of once().</li>
+<li>Use security rules to block unauthorized downloads.</li>
+</ul>
+<p><strong>If you're over your storage limit, upgrade your plan to avoid service disruptions. To reduce the amount of data in your database, try the following steps:</strong></p>
+<ul>
+<li>Run periodic cleanup jobs.</li>
+<li>Reduce any duplicate data in your database.</li>
+</ul>
+<p>Note that it may take some time to see any data deletions reflected in your storage allotment.</p>
+<p>If you're over your simultaneous database connections limit, upgrade your plan to avoid any service disruptions. To manage simultaneous connections to your database, try connecting via users via the REST API if they don't require a realtime connection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Why Can't I Use Cloud Storage?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Firebase Storage creates a default bucket in the Google App Engine free tier. This allows you to quickly get up and running with Firebase and Firebase Storage, without having to put in a credit card or enable a billing account. It also allows you to easily share data between Firebase and a Google Cloud Platform project.</p>
+<p>There are, however, two known cases where this bucket cannot be created and you will be unable to use Firebase Storage:</p>
+<p>A project imported from Google Cloud Platform which had a Google App Engine Master/Slave Datastore application.</p>
+<p>A project imported from Google Cloud Platform which has domain prefixed projects. For example: domain.com:project-1234.</p>
+<p>There are currently no workarounds to these issues, and we recommend that you create a new project in the Firebase console and enable Firebase Storage in that project.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Why Don't Fetched Values Change The Behavior And Appearance Of My App?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When your app fetches parameter values from the Remote Config service, those values are cached locally but not activated. To activate fetched values so that they can take effect, call activateFetched. This design lets you control when the behavior and appearance of your app changes, because you can choose when to call activateFetched. After you call activateFetched, your app source code determines when updated parameter values are used.</p>
+<p>For example, you could fetch values and then activate them the next time a user starts your app, which removes the need to delay app startup while your app waits for fetched values from the service. Changes to your app's behavior and appearance then occur when your app uses the updated parameter values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How Quickly Does The Remote Config Service Return Fetched Values After My App Sends A Fetch Request?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Devices usually receive fetched values in less than a second, and often receive fetched values in milliseconds. The Remote Config service handles fetch requests within milliseconds, but the time required to complete a fetch request will depend on the network speed of the device and the latency of the network connection used by the device.</p>
+<p>If your goal is to make fetched values take effect in your app as soon as possible, but without creating a jarring user experience, consider adding calls to activateFetched each time that your app does a full screen refresh.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Why Does My Android App Access Each Dynamic Link Twice?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The getInvitation API clears the saved Dynamic Link to prevent it from being accessed twice. Be sure to call this API with the autoLaunchDeepLink parameter set to false in each of the deep link activities to clear it for the case when the activity is triggered outside the main activity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. I Am An Existing Google Cloud Messaging (gcm) Developer, And I Want To Use Firebase Notifications. What Should I Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Firebase Notifications is an out-of-the-box solution that lets anyone send notifications to target specific audiences based on Firebase Analytics insights. Also, Firebase Notifications provides funnel analysis for every message, allowing easy evaluation of notification effectiveness. </p>
+<p>If you are an existing GCM developer, to use Firebase Notifications you have to upgrade from GCM SDKs to FCM SDKs. See the guides for migrating Android and iOS apps.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Can Google Search Index Multiple Languages For A Single App?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Google Search supports the following multi-language cases:</strong></p>
+<ol>
+<li>The associated website has unique URLs for each language, and there is one corresponding app HTTP URL for each web URL.</li>
+<li>The associated website has unique URLs for each language, but there is only one app HTTP URL. The app uses system language settings to display the correct language content.</li>
+<li>The associated website has one URL for all languages (or it supports only one language), and there is one corresponding app URL. The website and the application must display the content in the same language when the user has set no preference.</li>
+</ol></p>
+</li><br><br>

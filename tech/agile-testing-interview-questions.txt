@@ -1,0 +1,119 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Agile Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Agile testing is a software testing practice which emphasizes testing from the perspective of customers who will utilize the system. Agile testing does not rigidly follow the pre-defined testing procedures, but rather focuses on testing iteratively against newly developed code until quality is achieved from an end customer's perspective. <br/>
+<br/>
+<strong>Agile testers:</strong></p>
+<ol>
+<li>Use reusable checklists to suggest tests. </li>
+<li>Focus on the essence of the test rather than the incidental details.</li>
+<li>Use lightweight documentation styles/tools. </li>
+<li>Capturing test ideas in charters for Exploratory Testing.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Are The Different Approaches To Testing On Agile Development Projects?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li> First, you want to test as early as you possibly can because the potential impact of a defect rises exponentially over time (this isn’t always true, but it’s something to be concerned about). In fact, many agile developers prefer a test-first approach.</li>
+<li> Second, you want to test as often as possible, and more importantly, as effectively as possible, to increase the chance that you’ll find defects. Although this increases your costs in the short term, studies have shown that greater investment in testing reduces the total cost of ownership of a system due to improved quality.</li>
+<li> Third, you want to do just enough testing for your situation: Commercial banking software requires a greater investment in testing than membership administration software for your local Girl Scouts group.</li>
+<li> Fourth, pair testing, just like pair programming and modeling with others, is an exceptionally good idea. My general philosophy is that software development is a lot like swimming it’s very dangerous to do it alone.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Application Binary Interface (abi)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A specification defining requirements for portability of applications in binary forms across different system platforms and environments.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is The Difference Between Agile Testing And Rad?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Agile testing is used to test the design in the early stages of SDLC life cycle. Rad is informal name given to agile.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are The Key Characteristics Of Agile Testing Methodology?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When adopting agile methods for testing, we ensure that the tests are done over every simple and small unit of code that is being developed. This type of testing has lot of advantages in the management and technical aspects of the project. With greater control over the progress that is being made in the development and a demonstratable code at hand every time, the agile methods of testing can prove very useful. The requirements if complex, can be easily matched up at every stage of development by having agile methods of testing over units of code. This will avoid the possibilities of facing requirement conformance mismatches.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Changes That A Development Team Has To Accept If Agile Testing Is On The Cards?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The adaptive nature of the development teams play a major role if we have to successfully implement a agile method of testing for the project.</p>
+<ul>
+<li> Every small change that is being made has to be done in a completely testable form. This means the development of even a very large concept has to be broken up accordingly to facilitate periodic testing.</li>
+<li>The short iterations of test cycles also would mean that the development team has to come up with frequent builds and versions.</li>
+<li>When a project is already being tested with other long term methods of testing, a sudden change can be very difficult to be brought in.</li>
+<li>Unit testing will in turn be a major test of integration for each developer and one has to cautiously integrate the smaller pieces of the unit that have already been tested.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. In What Kind Of Environments Do The Agile Testing Methodologies Prove Very Successful And Where Do They Dont?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The agile methods of testing can be a very good way of developing a project which has to have a periodic deliverable and which has a very few members in the team with fixed resources. In such scenarios, the Agile methods can help to get the maximum efficiency and stability in the products under development. In such cases the requirements are not so varied and remain quite constant.<br/>
+On the other hand, if we consider a very large organization which is developing a software or any other product which has lot of modules and lot of functional requirements (business logics) then agile methods may just prove to be a hurdle in the development of different modules. So it is not a good idea to adopt agile testing methods in large projects with a wider scope of operations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Can Agile Methods Help In Marketing And Business Aspects Of A Product?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The agile methods help in churning out workable code at every stage of development. So marketing of a product can be really effective as the updates to the software/product can come in handy in promotions. The Inspect and adapt approach that agile implements can help the product developers to change/add new functionalities over the previously developed layers. This adaptive approach again can help in keeping the product up-to-date in the market.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. How Can It Be Advantageous To The Developers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Technically the agile methods implement a iterative and incremental development phase in the project. This means the developers have higher control over the design/code that is under development. This can be helpful in maintaining a confident mindset among the team members. Also the smaller units of development can bring in the much needed modularity in the product, making it more reusable than the traditional methods can offer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Key Differences Between Agile And Other Conventional Methodologies?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li> The product that is developed is based upon incremental, rapid cycles rather than sequential methodology which is deployed by conventional models(INCREMNTAL means each release is tested about its functionality and its increments are small and calculative ).</li>
+<li> Where other methods emphasize on processes and tools, this method stresses on people and interactions. Customer’s point of view is also given a priority as well as developer and tester also has their say in the upbringing of the product.</li>
+<li> The product should be working as thought and expected ,but its documentation isn’t given a priority.</li>
+<li> Agile method focuses on an end product which is functional and takes into consideration all the conditions but the documentation isn’t a priority on agile method’s list.</li>
+<li> This is also because the developer, tester, and the customer or client are always in conversation and they do know how the product is going to shape up.</li>
+<li> All Agile method include customer as integral part of the team, customer clarify the developer about the need requirements and limitations of the product.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is An Agile Testing Life Cycle?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Almost all the other software development life cycles either follow a sequential model (eg waterfall model) or an iterative model. But for processes which are a little more complex these models find it difficult to tackle the changes which are large in number and continuous.</p>
+<p>Agile model was basically made in order to counter these changes effectively and smoothly. This method is a collection of values, principles and practices that tests and provide the feedback to convert it into a new style of development.<br/>
+<strong>Development life cycle:</strong></p>
+<ul>
+<li><strong> Iteration -1</strong> :Identify, prioritize the potential project, and consider its feasibility.</li>
+<li> <strong>Iteration 0 (Warm Up)</strong> : Initiates the project, takes care of the initial input , and emphasis is on building a unit.</li>
+<li> <strong>Construction Iterations</strong>: Client participates actively and advises about the expected output, requirements and stuff which is not required by the project.</li>
+<li> <strong>Release</strong>: Deploys first release into production, Final system testing and trains end users.</li>
+<li> <strong>Production</strong>: Operates, supports and identifies defects in the system.</li>
+<li> <strong>Retirement</strong>: Removes the system completely from production and migrates the users.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. In What Does The Agile Testing (development) Methodology Differs From The Other Testing (development) Methodologies?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Anytime applying agile testing methodology, the testers (developers) ensure that the whole process of testing (development) is broke into as small steps as possible and just a small unit of code is tested (developed) in each of this steps. The team of testers (developers) is communicating consistently the results of their work, and change the short term strategy and even the development plan on the go, based on the results of agile testing. Agile methodology encourages flexible and rapid response to change which should lead to a better end result.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Can Agile Methodology Be Applied Also In Other Than Software Testing And Development Projects?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While asking these sort of agile testing interview questions, employers try to recognize if you really understand the benefits of this methodology and can see a practical application of it in various areas of business. To state that this methodology can be, and maybe even should be, applied in all the instances and test cases where we have insufficient entry data, or work in an unknown area, or simply work within a small team, or where many unpredictable variables take place is a good answer. It is in fact used quite commonly in bio-medicine, biochemistry or physics. Anyway, it could be used in many other areas.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Understanding Agile Software Development:?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Agile Software Development primarily focuses on an iterative method of development and delivery.  The developers and end users communicate closely and the software is built. A working piece of software is delivered in a short span of time and based on the feedback more features and capabilities are added.  The focus is on satisfying the customer by delivering working software quickly with minimum features and then improvising on it based on the feedback. The customer is thus closely involved in the Software Design and Development Process.  The delivery timelines are short and the new code is built on the previous one.  Despite this, high quality of the product cannot be comprised.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How Is Testing Approach Different In An Agile Development Scenario?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Testing Strategy and Approach in Agile Development could be very different from traditional bureaucratic methods. In fact it could vary with project needs and the project team.  In many scenarios, it may make sense to not have a separate testing team.</p>
+<p>The above statement should be understood carefully. By not having a testing team we do not consider testing to be any less important. In fact testing can done more effectively in short turn around times, by people who know the system and its objectives very well.  <br/>
+<br/>
+For example in certain teams Business Analysts could be doing a few rounds of testing each time the software version is released. Business Analysts understand the Business Requirements of the Software and test it to verify if it meets the requirements.</p>
+<p>Developers may test the software. They tend to understand the system better and can verify the test results in a better way. Testing for AGILE Software Development requires innovative thinking and the right mix of people should be chosen for doing the testing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What To Test?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Given the relatively short turn around times in this methodology it is important that the team is clear on what needs to be tested. Even though close interaction and innovation is advocated rather than processes, sufficient emphasis is given to the testing effort.</li>
+<li>While each team may have its own group dynamics based on the context, each code has to be unit tested. The developers do the unit testing to ensure that the software unit is functioning correctly.</li>
+<li>Since the development itself is iterative it is possible that the next release of code was built by modifying the previous one. Hence Regression Testing gains significant importance in these situations.</li>
+<li>The team tests if the newly added functionality works correctly and that the previously released functionality still works as expected.</li>
+<li>Test Automation also gains importance due to short delivery timelines. Test Automation may prove effective in ensuring that everything that needs to be tested was covered.</li>
+<li>It is not necessary that costly tools be purchased to automate testing. Test Automation can be achieved in a relatively cost effective way by utilizing the various open source tools or by creating in-house scripts. These scripts can run one or more test cases to exercise a unit of code and verify the results or to test several modules.  This would vary with the complexity of the Project and the experience of the Team.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Typical Bugs Found When Doing Agile Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Although nothing is typical about any Agile Development Project and each project may have its own set of complexities, by the very nature of the paradigm bugs may be introduced in the system when a piece of code is modified/enhanced/changed by one or more Developers.<br/>
+<br/>
+Whenever a piece of code is changed it is possible that bugs have been introduced to it or previously working code is now broken. New bugs/defects can be introduced at every change or old bugs/defects may be reopened.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Steps Taken To Effectively Test In Agile Development Methodology:?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>As a wise person once said there is no substitute to hard work.  The only way one can effectively test is by ensuring Sufficient Test Coverage and Testing Effort Automated or otherwise.</li>
+<li>The challenge could be lack of documentation, but the advantage could be close communication between team members thereby resulting in greater clarity of thought and understanding of the system.</li>
+<li>Each Time Code is changed Regression Testing is done. Test Coverage is ensured by having Automated Scripts and the right mix/combination of People executing the Test Cases.</li>
+<li>Exploratory Testing may also be encouraged. Exploratory Tests are not pre-designed or pre-defined. The Tests are designed and executed immediately. Similarly ad hoc testing may also be encouraged. Ad-hoc testing is done based on the tester’s experience and skills.</li>
+<li>While automated Test Cases will ensure that the Test Cases scripted are executed as defined, the team may not have enough time to design and script all the test cases.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Ensuring Software Test Coverage?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>To ensure that delivered product meets the end user’s requirements it is important that sufficient testing is done and all scenarios are tested.</li>
+<li>Sufficient Test Coverage in an Agile Development Scenario may be tricky but with close cooperation and the right team dynamics it may not be impossible.</li>
+<li>The objectives of the Project should be clear to the entire team. Many teams advocate Test Driven Development. At every stage the Software is tested if it meets the Requirements. Every Requirement is translated to a Test Case and Software is validated/ verified. While the Processes and Documentation are not stressed upon sufficient steps are taken to ensure that the software is delivered as per the User Expectations. This implies that each Software delivery should be tested thoroughly before it is released.</li>
+<li>The timelines being short requires that the person testing the software has sufficient knowledge about the system and its objectives.</li>
+</ul></p>
+</li><br><br>

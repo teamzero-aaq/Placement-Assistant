@@ -1,0 +1,173 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Does Bode Plots Shows?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bode plots are a graphical way to display the behavior of a circuit over a wide range of frequencies. By plotting the amplitude and phase versus the logarithm of frequency, each unit of change on the ω axis is equal to a factor of 10 also called a decade of frequency. Also, there may be a wide distribution in the amplitude response over a specified range of frequencies. The usual way is to plot the amplitude in dB and phase in degrees or radians versus the logarithm of frequency.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. How To Calculate Energy Stored In An Inductance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Energy stored =1/2 L I2 Joules where L is in henries and I is in amps.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How To Calculate Energy Stored In A Capacitance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>1/2 C V2 Joules where C is in farads and V in volts.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. At What Base You Will Tell The Direction Of Rotation Of Dc Motors And Generators?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Motors obey the left hand rule and generators the right hand rule.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Force On Parallel Conductors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>F = [2 I2 / d] 10­</p>
+<p>Newtons/meter where I is in amps and d is in meters With currents in opposite directions, the force is pushing the conductors apart.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Corkscrew Rule?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As current flows along a wire,the magnetic field rotates in the direction of a corkscrew.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How Would You Calculate Power Loss In A Resistor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>W = I2 R = V2 / R.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Do You Mean By Pull Of Electromagnet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pu11= B2 107 / (8 ) Newtons per m2 of magnet force where B is in tesla.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is The Method To Solve Circuit Using Source Transformation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In an electric circuit, it is often convenient to have a voltage source rather than a current source (e.g. in mesh analysis) or vice versa. This is made possible using source transformations. It should be noted that only practical voltage and current sources can be transformed.</p>
+<p>In other words, a Th´evenin’s equivalent circuit is transformed into a Norton’s one or vice versa. The parameters used in the transformation are given as follows.</p>
+<p>Th´evenin parameters: VTH ,RTH =⇒ RN = RTH ,IN = VTH/RTH.</p>
+<p>Norton parameters: IN ,RN =⇒ RTH = RN ,VTH = RN IN.</p>
+<p>Any load resistance, RL will have the same voltage across, and current through it when connected across the terminals of either source.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Meant By Reverse Polarity And How It Can Be Fixed?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Reverse polarity is referred in a condition where one or more of your receptacles are connected incorrectly. To fix the reverse polarity, check the wire connection at the outlet and inspect your receptacle. A receptacle with reverse polarity will have the white wire screwed to the hot side and the black wire will be connected to the neutral side, if that the case swap the wires and it will resolves the problem. If it persists, a licensed electrician will be needed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Explain What Does A String Of Resistors In A Series Will Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a string of resistors in a series will divide the source voltage into proportion to their values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Happens If The Series Current Double?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the series current gets double then, the resistance is halved.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Will Be The Current If The Resistance Total In A Series Circuit Doubles?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the resistance total in a series circuit doubles the current will reduce to half.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain What Is Laser Diodes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Laser diodes are compact transistor like packages with two or more electrical leads. Lasing occurs when stimulated emission results into the amplification of photon confined to the lasing mode.  These photons hit back and forth between the back and front mirror, and hence a diverging beam emits from the laser diode packages.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Meant By Cycle In Ac Waveform? What Is Period? Define Frequency?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>One complete set of change in value is known as waveform. If you any basic question on AC waveform, then first draw an ac waveform and explain with reference to the waveform.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Form Factor And Peak Factor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The ratio of rms value to average value of an ac quantity is called form factor.</p>
+<p><strong>Form Factor = RMS value/ Average value</strong></p>
+<p>The ratio of maximum value to the RMS value of an ac quantity is called as peak factor.</p>
+<p><strong>Peak Factor = Maximum Value/RMS value</strong></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Basic Components Required For Generator Action To Exits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A generating action requires following basic components to exits</p>
+<ul>
+<li>The conductor or a coil.</li>
+<li>The flux.</li>
+<li>The relative motion between conductor and flux.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Why Pole Shoe Has Been Given A Specific Shape?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is necessary that maximum area of the armature comes across the flux produced by the field winding. </p>
+<p>Pole shoe enlarges the area of armature core to come across the flux, which is necessary to produce larger induced emf. To achieve this, pole shoe has been given a particular shape.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Why Generators Are Operated In Parallel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The generators are operated in parallel to get, Continuity and reliability of service without interruption Maintenance and repair will be easy Efficient operation of each generator Increase in plant capacity</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Functions Of Yoke? What Is The Choice Material For The Yoke?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>It serves the purpose of outer most cover of the dc machine. so that the insulating material get protected from the harmful atmospheric environmental like noise, dust and various gases like SO2, acidic fumes etc.</li>
+<li>It provides mechanical support to the poles.</li>
+<li>It forms a part of the magnetic circuit.</li>
+<li>It provides a path of low reluctance for magnetic flux.</li>
+<li>It is prepared by using cast iron. For large machines, rolled steel, cast steel, silicon steel is used which provides high permeability.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. How To Reverse The Direction Of Rotation Of Dc Motor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To reverse direction of rotation of dc motor, either direction of main field produced by the field winding is reversed or direction of the current passing through the armature is reversed.</p>
+<p>By changing the direction of current passing through the field winding,the direction of the main field can be reversed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How To Determine The Number Of Lamps In Final Sub Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If it is decided the current rating and already cable installed according to the rating of final sub circuit. and we want to know that how many light point will be on this final sub circuit. </p>
+<p>Suppose for a normal lighting in a home,office or hall, the current rating of sub circuit or final sub circuit is 5Amp and supply Voltage is 220 Volts. then how many 100  Watt Lamps we can instal on that specific sub circuit. We can find the number of lamps  by using this formula.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Are The Main Difference Between Active And Passive Components?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Main Difference between Active and Passive Components</p>
+<p><strong>Active Components: </strong>Those devices or components which produce energy in the form of Voltage or Current are called as Active Components<br/>For Example: Diodes Transistors SCR etc… </p>
+<p><strong>Passive Components: </strong>Those devices or components which store or maintain Energy in the form of Voltage or Current are known as Passive Components <br/>For Example:  Resistor, Capacitor, Inductor etc…  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Capacitance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Capacitance (C):</strong> Capacitance is the amount of electric charge moved in the condenser (Capacitor), when one volt power source is attached across its terminal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Capacitance Equation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Capacitance Equation:</strong></p>
+<p>C=Q/V</p>
+<p>Where,</p>
+<ul>
+<li>C=Capacitance in Farads (F).</li>
+<li>Q=Electrical Charge in Coulombs.</li>
+<li>V=Voltage in Volts.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Capacitor Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Working and Construction of a capacitor :</strong></p>
+<p>Whenever voltage is applied across its terminals, (Also known as charging of a capacitor) current start to flow and continue to travel until the voltage across both the negative and positive (Anode and Cathode) plates become equal to the voltage of the source (Applied Voltage). These two plates are separated by a dielectric material (such as mice, paper, glass, etc. which are insulators), which is used to increase the capacitance of the capacitor.</p>
+<p>When we connect a charged capacitor across a small load, it starts to supply the voltage (Stored energy) to that load until the capacitor fully discharges.</p>
+<p>Capacitor comes in different shapes and their value is measured in farad (F). Capacitors are used in both AC and DC systems </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is Capacitor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The capacitor is a two terminal electrical device used to store electrical energy in the form of electric field between the two plates. It is also known as a condenser and the SI unit of its capacitance measure is Farad “F”, where Farad is a large unit of capacitance, so they are using microfarads (µF) or nanofarads (nF) nowadays.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Role Of Capacitor In Ac And Dc Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Role of Capacitor in AC Circuits: In an AC circuit, capacitor reverses its charges as the current alternates and produces a lagging voltage (in other words, capacitor provides leading current in AC circuits and networks).</p>
+<p>Role and Performance of Capacitor in DC Circuit.</p>
+<p>In a DC Circuit, the capacitor once charged with the applied voltage acts as an open switch.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Why We Can’t Store Ac In Batteries Instead Of Dc.or Can We Store Ac In Batteries Instead Of Dc?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We cannot store AC in batteries because AC changes their polarity up to 50 (When frequency = 50 Hz) or 60 (When frequency = 60 Hz) times in a second. Therefore the battery terminals keep changing Positive (+ve) becomes Negative (-Ve) and vice versa, but the battery cannot change their terminals with the same speed so that’s why we can’t store AC in Batteries.</p>
+<p> in addition, when we connect a battery with AC Supply, then It will charge during positive half cycle and discharge during negative half cycle, because the Positive (+ve) half cycle cancel the negative (-Ve) half cycle, so the average voltage or current in a complete cycle is Zero. So there is no chance to store AC in the Batteries.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is An Instrumentation Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An instrumentation (or instrumentational) amplifier is a type of differential amplifier that has been outfitted with input buffer amplifiers, which eliminate the need for input impedance matching and thus make the amplifier particularly suitable for use in measurement and test equipment.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Define Modulation. ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In electronics and telecommunications, modulation is the process of varying one or more properties of a periodic waveform, called the carrier signal, with a modulating signal that typically contains information to be transmitted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is Am?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Amplitude modulation (AM) is a modulation technique used in electronic communication, most commonly for transmitting information via a radio carrier wave. In amplitude modulation, the amplitude (signal strength) of the carrier wave is varied in proportion to the waveform being transmitted. That waveform may, for instance, correspond to the sounds to be reproduced by a loudspeaker, or the light intensity of television pixels.This technique contrasts with frequency modulation, in which the frequency of the carrier signal is varied, and phase modulation, in which its phase is varied.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Fm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In telecommunications and signal processing, frequency modulation (FM) is the encoding of information in a carrier wave by varying the instantaneous frequency of the wave. (Compare with amplitude modulation, in which the amplitude of the carrier wave varies, while the frequency remains constant.)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is The Purpose Of Using Data Modem?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Short for modulator­demodulator. A modem is a device or program that enables a computer to transmit data over, for example, telephone or cable lines. Computer information is stored digitally, whereas information transmitted over telephone lines is transmitted in the form of analog waves.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Zigbee?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ZigBee is a IEEE 802.15.4­based specification for a suite of high­level communication protocols used to create personal area networks with small, low­power digital radios.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Pcb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A printed circuit board (PCB) mechanically supports and electrically connects electronic components using conductive tracks, pads and other features etched from copper sheets laminated onto a non­conductive substrate.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Define Voltage Regulator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A voltage regulator is designed to automatically maintain a constant voltage level. A voltage regulator may be a simple “feed­forward” design or may include negative feedback control loops. It may use an electromechanical mechanism, or electronic components.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is Scr?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Thyristors or silicon controlled rectifiers, SCR are find many uses in electronics, and in particular for power control. These devices have even been called the workhorse of high power electronics.Thyristors are able to switch large levels of power are accordingly they used in a wide variety of different applications. Thyristors even finds uses in low power electronics where they are used in many circuits from light dimmers to power supply over voltage protection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Define Microprocessor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A siliconchip that contains a CPU. In the world of personal computers, the terms microprocessor and CPU are used interchangeably. At the heart of all personal computers and most workstations sits a microprocessor. Microprocessors also control the logic of almost all digitaldevices, from clock radios to fuel­injection systems for automobiles.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Define Microcontroller?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A microcontroller (sometimes abbreviated µC, uC or MCU) is a small computer on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Define Timer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The 555 timer IC is an integrated circuit (chip) used in a variety of timer, pulse generation, and oscillator applications. The 555 can be used to provide time delays, as an oscillator, and as a flip­flop element. Derivatives provide up to four timing circuits in one package.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Define Various Modes Of Operation Of Timer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The 555 has three main operating modes, Monostable, Astable, and Bistable. Each mode represents a different type of circuit that has a  particular output. Astable mode, Bistable Mode (or Schmitt Trigger), Monostable mode.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Is Dsp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Digital signal processing (DSP) refers to various techniques for improving the accuracy and reliability of digital communications. The theory behind DSP is quite complex.Basically, DSP works by clarifying, or standardizing, the levels or states of a digital signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Define Voltage Controller?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A voltage controller, also called an AC voltage controller or AC regulator is an electronic module based on either thyristors, TRIACs, SCRs or IGBTs, which converts a fixed voltage, fixed frequency alternating current (AC) electrical input supply to obtain variable voltage in output delivered to a resistive load.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Define Awgn?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AWGN­Additive White Gaussian Noise. Its the natural noise added in the system.Correlator are used to remove the noise. Equalizer are used to remove the ISI, in the receiver.</p></p>
+</li><br><br>

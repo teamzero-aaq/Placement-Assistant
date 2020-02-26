@@ -1,0 +1,224 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain Some Assembly Controls?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>BRA Branch; Motorola 680x0, Motorola 68300; short (16 bit) unconditional branch relative to the current program counter</li>
+<li>JMP Jump; Motorola 680x0, Motorola 68300; unconditional jump (any valid effective addressing mode other than data register)</li>
+<li>JMP Jump; Intel 80x86; unconditional jump (near [relative displacement from PC] or far; direct or indirect [based on contents of general purpose register, memory location, or indexed])</li>
+<li>JMP Jump; MIX; unconditional jump to location M; J-register loaded with the address of the instruction which would have been next if the jump had not been taken</li>
+<li>JSJ Jump, Save J-register; MIX; unconditional jump to location M; J-register unchanged</li>
+<li>Jcc Jump Conditionally; Intel 80x86; conditional jump (near [relative displacement from PC] or far; direct or indirect [based on contents of general purpose register, memory location, or indexed]) based on a tested condition: JA/JNBE, JAE/JNB, JB/JNAE, JBE/JNA, JC, JE/JZ, JNC, JNE/JNZ, JNP/JPO, JP/JPE, JG/JNLE, JGE/JNL, JL/JNGE, JLE/JNG, JNO, JNS, JO, JS</li>
+<li>Bcc Branch Conditionally; Motorola 680x0, Motorola 68300; short (16 bit) conditional branch relative to the current program counter based on a tested condition: BCC, BCS, BEQ, BGE, BGT, BHI, BLE, BLS, BLT, BMI, BNE, BPL, BVC, BVS</li>
+<li>JOV Jump on Overflow; MIX; conditional jump to location M if overflow toggle is on; if jump occurs, J-register loaded with the address of the instruction which would have been next if the jump had not been taken</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Assembly Condition Codes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Condition codes are the list of possible conditions that can be tested during conditional instructions. Typical conditional instructions include: conditional branches, conditional jumps, and conditional subroutine calls. Some processors have a few additional data related conditional instructions, and some processors make every instruction conditional. Not all condition codes available for a processor will be implemented for every conditional instruction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Data Movement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data movement instructions move data from one location to another. The source and destination locations are determined by the addressing modes, and can be registers or memory. Some processors have different instructions for loading registers and storing to memory, while other processors have a single instruction with flexible addressing modes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are Kinds Of Processors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Processors can broadly be divided into the categories of: CISC, RISC, hybrid, and special purpose.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are Assembly Attributes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Attributes are declarative tags in code that insert additional metadata into an assembly.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Types Of Assemblies?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assemblies are of two types: </p>
+<ol>
+<li>Private Assemblies </li>
+<li>Shared Assemblies</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Explain An Intermediate Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assemblies are made up of IL code modules and the metadata that describes them. Although programs may be compiled via an IDE or the command line, in fact, they are simply translated into IL, not machine code. The actual machine code is not generated until the function that requires it is called.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Assembly Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Each personal computer has a microprocessor that manages the computer's arithmetical, logical, and control activities.</p>
+<p>Each family of processors has its own set of instructions for handling various operations such as getting input from keyboard, displaying information on screen and performing various other jobs. These set of instructions are called 'machine language instructions'.</p>
+<p>A processor understands only machine language instructions, which are strings of 1's and 0's. However, machine language is too obscure and complex for using in software development. So, the low-level assembly language is designed for a specific family of processors that represents various instructions in symbolic code and a more understandable form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are The Advantages Of Assembly Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Having an understanding of assembly language makes one aware of:</p>
+<ul>
+<li>How programs interface with OS, processor, and BIOS;</li>
+<li>How data is represented in memory and other external devices;</li>
+<li>How the processor accesses and executes instruction;</li>
+<li>How instructions access and process data;</li>
+<li>How a program accesses external devices.</li>
+</ul>
+<p>Other advantages of using assembly language are:</p>
+<ul>
+<li>It requires less memory and execution time;</li>
+<li>It allows hardware-specific complex jobs in an easier way;</li>
+<li>It is suitable for time-critical jobs;</li>
+<li>It is most suitable for writing interrupt service routines and other memory resident programs.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are The Basic Features Of Pc Hardware?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The main internal hardware of a PC consists of processor, memory, and registers. Registers are processor components that hold data and address. To execute a program, the system copies it from the external device into the internal memory. The processor executes the program instructions.</p>
+<p>The fundamental unit of computer storage is a bit; it could be ON (1) or OFF (0). A group of nine related bits makes a byte, out of which eight bits are used for data and the last one is used for parity. According to the rule of parity, the number of bits that are ON (1) in each byte should always be odd.</p>
+<p>So, the parity bit is used to make the number of bits in a byte odd. If the parity is even, the system assumes that there had been a parity error (though rare), which might have been caused due to hardware fault or electrical disturbance.</p>
+<p>The processor supports the following data sizes −</p>
+<ul>
+<li>Word: a 2-byte data item</li>
+<li>Doubleword: a 4-byte (32 bit) data item</li>
+<li>Quadword: an 8-byte (64 bit) data item</li>
+<li>Paragraph: a 16-byte (128 bit) area</li>
+<li>Kilobyte: 1024 bytes</li>
+<li>Megabyte: 1,048,576 bytes</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Binary Number System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Every number system uses positional notation, i.e., each position in which a digit is written has a different positional value. Each position is power of the base, which is 2 for binary number system, and these powers begin at 0 and increase by 1.</p>
+<p>The value of a binary number is based on the presence of 1 bits and their positional value. So, the value of a given binary number is:</p>
+<p>1 + 2 + 4 + 8 +16 + 32 + 64 + 128 = 255</p>
+<p>which is same as 2<sup>8</sup> - 1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Hexadecimal Number System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hexadecimal number system uses base 16. The digits in this system range from 0 to 15. By convention, the letters A through F is used to represent the hexadecimal digits corresponding to decimal values 10 through 15.</p>
+<p>Hexadecimal numbers in computing is used for abbreviating lengthy binary representations. Basically, hexadecimal number system represents a binary data by dividing each byte in half and expressing the value of each half-byte. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Local Environment Setup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assembly language is dependent upon the instruction set and the architecture of the processor. In this tutorial, we focus on Intel-32 processors like Pentium. To follow this tutorial, you will need :</p>
+<ul>
+<li>An IBM PC or any equivalent compatible computer</li>
+<li>A copy of Linux operating system</li>
+<li>A copy of NASM assembler program</li>
+</ul>
+<p>There are many good assembler programs, such as :</p>
+<ul>
+<li>Microsoft Assembler (MASM)</li>
+<li>Borland Turbo Assembler (TASM)</li>
+<li>The GNU assembler (GAS)</li>
+</ul>
+<p>We will use the NASM assembler, as it is :</p>
+<ul>
+<li>Free. You can download it from various web sources.</li>
+<li>Well documented and you will get lots of information on net.</li>
+<li>Could be used on both Linux and Windows.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How To Installing Nasm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you select "Development Tools" while installing Linux, you may get NASM installed along with the Linux operating system and you do not need to download and install it separately. For checking whether you already have NASM installed, take the following steps −</p>
+<ul>
+<li>Open a Linux terminal.</li>
+<li>Type whereis nasm and press ENTER.</li>
+<li>If it is already installed, then a line like, nasm: /usr/bin/nasm appears. Otherwise, you will see just nasm:, then you need to install NASM.</li>
+</ul>
+<p>To install NASM, take the following steps :</p>
+<ul>
+<li>Check The netwide assembler (NASM) website for the latest version.</li>
+<li>Download the Linux source archive nasm-X.XX.ta.gz, where X.XX is the NASM version number in the archive.</li>
+<li>Unpack the archive into a directory which creates a subdirectory nasm-X. XX.</li>
+<li>cd to nasm-X.XX and type ./configure. This shell script will find the best C compiler to use and set up Makefiles accordingly.</li>
+<li>Type make to build the nasm and ndisasm binaries.</li>
+<li>Type make install to install nasm and ndisasm in /usr/local/bin and to install the man pages.</li>
+</ul>
+<p>This should install NASM on your system. Alternatively, you can use an RPM distribution for the Fedora Linux. This version is simpler to install, just double-click the RPM file.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are The Assembly Program Sections?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An assembly program can be divided into three sections −</p>
+<ul>
+<li>The data section,</li>
+<li>The bss section, and</li>
+<li>The text section.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is The Data Section?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The data section is used for declaring initialized data or constants. This data does not change at runtime. You can declare various constant values, file names, or buffer size, etc., in this section.</p>
+<p>The syntax for declaring data section is:</p>
+<p>section.data</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is The Bss Section?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The bss section is used for declaring variables. The syntax for declaring bss section is :</p>
+<p>section.bss</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is The Text Section?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The text section is used for keeping the actual code. This section must begin with the declaration global _start, which tells the kernel where the program execution begins.</p>
+<p>The syntax for declaring text section is:</p>
+<p>section.text<br/>   global _start<br/>_start:</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Are The Assembly Language Statements?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assembly language programs consist of three types of statements −</p>
+<ul>
+<li>Executable instructions or instructions,</li>
+<li>Assembler directives or pseudo-ops, and</li>
+<li>Macros.</li>
+</ul>
+<p>The executable instructions or simply instructions tell the processor what to do. Each instruction consists of an operation code (opcode). Each executable instruction generates one machine language instruction.</p>
+<p>The assembler directives or pseudo-ops tell the assembler about the various aspects of the assembly process. These are non-executable and do not generate machine language instructions.</p>
+<p>Macros are basically a text substitution mechanism.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The Syntax Of Assembly Language Statements?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assembly language statements are entered one statement per line. Each statement follows the following format −</p>
+<p>[label]   mnemonic   [operands]   [;comment]</p>
+<p>The fields in the square brackets are optional. A basic instruction has two parts, the first one is the name of the instruction (or the mnemonic), which is to be executed, and the second are the operands or the parameters of the command.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are Memory Segments?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A segmented memory model divides the system memory into groups of independent segments referenced by pointers located in the segment registers. Each segment is used to contain a specific type of data. One segment is used to contain instruction codes, another segment stores the data elements, and a third segment keeps the program stack.</p>
+<p>In the light of the above discussion, we can specify various memory segments as −</p>
+<ul>
+<li>Data segment − It is represented by .data section and the .bss. The .data section is used to declare the memory region, where data elements are stored for the program. This section cannot be expanded after the data elements are declared, and it remains static throughout the program.<br/>The .bss section is also a static memory section that contains buffers for data to be declared later in the program. This buffer memory is zero-filled.</li>
+<li>Code segment − It is represented by .text section. This defines an area in memory that stores the instruction codes. This is also a fixed area.</li>
+<li>Stack − This segment contains data values passed to functions and procedures within the program.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Are The Processor Registers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are ten 32-bit and six 16-bit processor registers in IA-32 architecture. The registers are grouped into three categories −</p>
+<ul>
+<li>General registers,</li>
+<li>Control registers, and</li>
+<li>Segment registers.</li>
+</ul>
+<p>The general registers are further divided into the following groups −</p>
+<ul>
+<li>Data registers,</li>
+<li>Pointer registers, and</li>
+<li>Index registers.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Linux System Calls?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can make use of Linux system calls in your assembly programs. You need to take the following steps for using Linux system calls in your program −</p>
+<ul>
+<li>Put the system call number in the EAX register.</li>
+<li>Store the arguments to the system call in the registers EBX, ECX, etc.</li>
+<li>Call the relevant interrupt (80h).</li>
+<li>The result is usually returned in the EAX register.</li>
+</ul>
+<p>There are six registers that store the arguments of the system call used. These are the EBX, ECX, EDX, ESI, EDI, and EBP. These registers take the consecutive arguments, starting with the EBX register. If there are more than six arguments, then the memory location of the first argument is stored in the EBX register.</p>
+<p>Most assembly language instructions require operands to be processed. An operand address provides the location, where the data to be processed is stored. Some instructions do not require an operand, whereas some other instructions may require one, two, or three operands.</p>
+<p>When an instruction requires two operands, the first operand is generally the destination, which contains data in a register or memory location and the second operand is the source. Source contains either the data to be delivered (immediate addressing) or the address (in register or memory) of the data. Generally, the source data remains unaltered after the operation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Are The Basic Modes Of Addressing ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The three basic modes of addressing are −</p>
+<ol>
+<li>Register addressing</li>
+<li>Immediate addressing</li>
+<li>Memory addressing</li>
+</ol>
+<p><strong>Register Addressing</strong></p>
+<p>In this addressing mode, a register contains the operand. Depending upon the instruction, the register may be the first operand, the second operand or both.</p>
+<p>For example,</p>
+<p>MOV DX, TAX_RATE ; Register in first operand<br/>MOV COUNT, CX  ; Register in second operand<br/>MOV EAX, EBX  ; Both the operands are in registers</p>
+<p>As processing data between registers does not involve memory, it provides fastest processing of data.</p>
+<p><strong>Immediate Addressing</strong></p>
+<p>An immediate operand has a constant value or an expression. When an instruction with two operands uses immediate addressing, the first operand may be a register or memory location, and the second operand is an immediate constant. The first operand defines the length of the data.</p>
+<p>For example,</p>
+<p>BYTE_VALUE  DB  150 ; A byte value is defined<br/>WORD_VALUE  DW  300 ; A word value is defined<br/>ADD  BYTE_VALUE, 65 ; An immediate operand 65 is added<br/>MOV AX, 45H; Immediate constant 45H is transferred to AX</p>
+<p><strong>Direct Memory Addressing</strong></p>
+<p>When operands are specified in memory addressing mode, direct access to main memory, usually to the data segment, is required. This way of addressing results in slower processing of data. To locate the exact location of data in memory, we need the segment start address, which is typically found in the DS register and an offset value. This offset value is also called effective address.</p>
+<p>In direct addressing mode, the offset value is specified directly as part of the instruction, usually indicated by the variable name. The assembler calculates the offset value and maintains a symbol table, which stores the offset values of all the variables used in the program.</p>
+<p>In direct memory addressing, one of the operands refers to a memory location and the other operand references a register.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is The Equ Directive?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The EQU directive is used for defining constants. The syntax of the EQU directive is as follows −</p>
+<p>CONSTANT_NAME EQU expression</p>
+<p>For example: TOTAL_STUDENTS equ 50</p>
+<p>You can then use this constant value in your code, like −</p>
+<p>mov  ecx,  TOTAL_STUDENTS <br/>cmp  eax,  TOTAL_STUDENTS</p>
+<p>The operand of an EQU statement can be an expression −</p>
+<p>LENGTH equ 20<br/>WIDTH  equ 10<br/>AREA   equ length * width</p>
+<p>Above code segment would define AREA as 200.</p></p>
+</li><br><br>

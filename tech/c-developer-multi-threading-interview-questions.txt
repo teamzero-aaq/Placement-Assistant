@@ -1,0 +1,337 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Thread ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>A thread is basically a separate sequence of instruction designed to performing a " specific task" in the program.</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Multithreading In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>Performing multiple task at same time during the execution of a program,is known as multithreading.</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is The Namespace Used For Multithreading In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>using System.Threading;</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are The Advantage Of Multithreading In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>There are two main  advantage to use of multithreading in c#.
+Optimize the use of computer resources such as memory.
+Save time</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are The Classes Used In System.threading Namespace ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>Thread 
+Thread Pool
+Monitor
+Mutex</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is The Use Of Thread Class In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>The Thread class is used to perform tasks such as creating and setting the priority of a thread.</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are The Main Properties Of Thread Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span>Priority
+Thread State
+IsAlive
+Current thread
+Name   etc.</p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Are The Methods Used In Thread Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Join</li>
+<li>Resume</li>
+<li>sleep</li>
+<li>Spin Wait</li>
+<li>Suspended</li>
+<li>Start</li>
+<li>Interrupt</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is The Thread Pool Class In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Thread Pool class is used,to perform task such as processing of asynchronous i/o and waiting on behalf of another thread.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are The Method Used In Thread Pool Class ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Gettype</li>
+<li>Equals</li>
+<li>SetMaxThreads</li>
+<li>QueueUserWorkItem</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Monitor Class In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Monitor class is used to access an object by granting a lock for the object to a single thread.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Are The Methods Used In Monitor Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Enter</li>
+<li>Exit</li>
+<li>TryEnter</li>
+<li>Wait</li>
+<li>GetType</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Mutex Class In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Mutex is used ,to perform interprocess synchronization and a thread to have exclusive access to shared resources.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are The Methods Used In Mutex Class ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Equals</li>
+<li>close</li>
+<li>OpenExisting</li>
+<li>SetAccessControl</li>
+<li>Release Mutex</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are The Syntax For Creating And Starting A Thread In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>First define a delegate:-</strong></p>
+<p>Public delegate void start_thread();</p>
+<p><strong>Create a new thread:-</strong></p>
+<p>Thread thread_name = new Thread(new start_thread(method_name));</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How Can We Scheduled A Thread In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can scheduled the  thread with the help of priority property of the Thread class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Priority Value Used For Scheduling A Thread In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Highest</li>
+<li>Normal</li>
+<li>AboveNormal</li>
+<li>BelowNormal</li>
+<li>Lowest</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are The Two Types Of Thread In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Foreground thread</li>
+<li>Background thread</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is The Difference Between  Join And Sleep ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>You can wait for another thread to end by calling its Join method. For example:</strong></p>
+<p>static void Main()</p>
+<p>{</p>
+<p>Thread t = new Thread (Go);</p>
+<p>t.Start();</p>
+<p>t.Join();</p>
+<p>Console.WriteLine ("Thread t has ended!");</p>
+<p>}</p>
+<p>static void Go()</p>
+<p>{</p>
+<p>for (int i = 0; i &lt; 1000; i++) Console.Write ("y");</p>
+<p>}</p>
+<p>This prints “y” 1,000 times, followed by “Thread t has ended!” immediately afterward. You can include a timeout when calling Join, either in milliseconds or as a TimeSpan. It then returns true if the thread ended or false if it timed out.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The Difference Between Threads Vs Processes ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A thread is analogous to the operating system process in which your application runs. Just as processes run in parallel on a computer,threads run in parallel within a single process. Processes are fully isolated from each other; threads have just a limited degree of isolation. In particular, threads share (heap) memory with other threads running in the same application. This, in part, is why threading is useful: one thread can fetch data in the background, for instance, while another thread can display the data as it arrives.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The Naming Threads ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Each thread has a Name property that you can set for the benefit of debugging.This is particularly useful in Visual Studio, since the thread’s name is displayed in the Threads Window and Debug Location toolbar. You can set a thread’s name just once; attempts to change it later will throw an exception. The static Thread.CurrentThread property gives you the currently executing thread. In the following example, we set the main thread’s name:</p>
+<p>class ThreadNaming</p>
+<p>{</p>
+<p>static void Main()</p>
+<p>{</p>
+<p>Thread.CurrentThread.Name = "main";</p>
+<p>Thread worker = new Thread (Go);</p>
+<p>worker.Name = "worker";</p>
+<p>worker.Start();</p>
+<p>Go();</p>
+<p>}</p>
+<p>static void Go()</p>
+<p>{</p>
+<p>Console.WriteLine ("Hello from " + Thread.CurrentThread.Name);</p>
+<p>}</p>
+<p>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Difference Between  Monitor.enter And Monitor.exit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>C#’s lock statement is in fact a syntactic shortcut for a call to the methods Monitor.Enter and Monitor.Exit, with a try/finally block. Here’s (a simplified version of) what’s actually happening within the Go method of the preceding   </p>
+<p><strong>example:</strong></p>
+<p>Monitor.Enter (_locker);</p>
+<p>try</p>
+<p>{</p>
+<p>if (_val2 != 0) Console.WriteLine (_val1 / _val2);</p>
+<p>_val2 = 0;</p>
+<p>}</p>
+<p>finally { Monitor.Exit (_locker); }</p>
+<p>Calling Monitor.Exit without first calling Monitor.Enter on the same object throws an exception.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Meaning Of Deadlocks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A deadlock happens when two threads each wait for a resource held by the other, so neither can proceed. The easiest  way to illustrate this is with two locks:</p>
+<p>object locker1 = new object();</p>
+<p>object locker2 = new object();</p>
+<p>new Thread (() =&gt; {</p>
+<p>lock (locker1)</p>
+<p>{</p>
+<p>Thread.Sleep (1000);</p>
+<p>lock (locker2); // Deadlock</p>
+<p>}</p>
+<p>}).Start();</p>
+<p>lock (locker2)</p>
+<p>{</p>
+<p>Thread.Sleep (1000);</p>
+<p>lock (locker1); // Deadlock</p>
+<p>}</p>
+<p>More elaborate deadlocking chains can be created with three or more threads.</p>
+<p>Deadlocking is one of the hardest problems in multithreading—especially when there are many interrelated objects. Fundamentally, the hard problem is that you can't be sure what locks your caller has taken out.</p>
+<p>So, you might innocently lock private field a within your class x, unaware that your caller (or caller's caller) has already locked field b within class y. Meanwhile, another thread is doing the reverse—creating a deadlock. Ironically, the problem is exacerbated by (good) object-oriented design patterns, because such patterns create call chains that are not determined until runtime. The popular advice, “lock objects in a consistent order to avoid deadlocks,” although helpful in our initial example, is hard to apply to the scenario just described. A better strategy is to be wary of locking around calling methods in objects</p>
+<p>that may have references back to your own object. Also, consider whether you really need to lock around calling methods in other classes (often you do—as we’ll see later—but sometimes there are other options). Relying more on declarative and data parallelism, immutable types, and nonblocking synchronization constructs, can lessen the need for locking.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Meaning Of Mutex?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Mutex is like a C# lock, but it can work across multiple processes. In other words, Mutex can be computer-wide as</p>
+<p>well as application-wide. </p>
+<p>With a Mutex class, you call the WaitOne method to lock and ReleaseMutex to unlock. Closing or disposing a Mutex automatically releases it. Just as with the lock statement, a Mutex can be released only from the same thread that obtained it. A common use for a cross-process Mutex is to ensure that only one instance of a program can run at a time. Here’s how it’s done:</p>
+<p>class OneAtATimePlease</p>
+<p>{</p>
+<p>static void Main()</p>
+<p>{</p>
+<p>// Naming a Mutex makes it available computer-wide. Use a name that's</p>
+<p>// unique to your company and application (e.g., include your URL).</p>
+<p>using (var mutex = new Mutex (false, "oreilly.com OneAtATimeDemo"))</p>
+<p>{</p>
+<p>// Wait a few seconds if contended, in case another instance</p>
+<p>// of the program is still in the process of shutting down.</p>
+<p>if (!mutex.WaitOne (TimeSpan.FromSeconds (3), false))</p>
+<p>{</p>
+<p>Console.WriteLine ("Another instance of the app is running. Bye!");</p>
+<p>return;</p>
+<p>}</p>
+<p>RunProgram();</p>
+<p>}</p>
+<p>}</p>
+<p>static void RunProgram()</p>
+<p>{</p>
+<p>Console.WriteLine ("Running. Press Enter to exit");</p>
+<p>Console.ReadLine();</p>
+<p>}</p>
+<p>} </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is The Meaning Semaphore ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A semaphore is like a nightclub: it has a certain capacity, enforced by a bouncer. Once it’s full, no more people can enter, and a queue builds up outside. Then, for each person that leaves, one person enters from the head of the queue. The constructor requires a minimum of two arguments: the number of places currently available in the nightclub and the club’s total capacity.</p>
+<p>A semaphore with a capacity of one is similar to a Mutex or lock, except that the semaphore has no “owner”—it’s thread-agnostic. Any thread can call Release on a Semaphore, whereas with Mutex and lock, only the thread that obtained the lock can release it. </p>
+<p>Semaphores can be useful in limiting concurrency—preventing too many threads from executing a particular piece of code at once. In the following example, five threads try to enter a nightclub that allows only three threads in at once:</p>
+<p>class TheClub // No door lists!</p>
+<p>{</p>
+<p>static SemaphoreSlim _sem = new SemaphoreSlim (3); // Capacity of 3</p>
+<p>static void Main()</p>
+<p>{</p>
+<p>for (int i = 1; i &lt;= 5; i++) new Thread (Enter).Start (i);</p>
+<p>}</p>
+<p>static void Enter (object id)</p>
+<p>{</p>
+<p>Console.WriteLine (id + " wants to enter");</p>
+<p>_sem.Wait();</p>
+<p>Console.WriteLine (id + " is in!"); // Only three threads</p>
+<p>Thread.Sleep (1000 * (int) id); // can be here at</p>
+<p>Console.WriteLine (id + " is leaving"); // a time.</p>
+<p>_sem.Release();</p>
+<p>}</p>
+<p>}</p>
+<p><strong>Out Put:</strong></p>
+<p>1 wants to enter</p>
+<p>1 is in!</p>
+<p>2 wants to enter</p>
+<p>2 is in!</p>
+<p>3 wants to enter</p>
+<p>3 is in!</p>
+<p>4 wants to enter</p>
+<p>5 wants to enter</p>
+<p>1 is leaving</p>
+<p>4 is in!</p>
+<p>2 is leaving</p>
+<p>5 is in!</p>
+<p>If the Sleep statement was instead performing intensive disk I/O, the Semaphore would improve overall performance</p>
+<p>by limiting excessive concurrent hard-drive activity.</p>
+<p>A Semaphore, if named, can span processes in the same way as a Mutex.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is Synchronization In Respect To Multi-threading In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With respect to multi-threading, synchronization is the capability to control the access of multiple threads to shared resources. Without synchronization, it is possible for one Java thread to modify a shared variable while another thread is in the process of using or updating same shared variable. This usually leads to erroneous behavior or program.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Explain Different Way Of Using Thread?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Java thread could be implemented by using Runnable interface or by extending the Thread class. The Runnable is more advantageous, when you are going for multiple inheritance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Difference Between Thread.start() &amp; Thread.run() Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Thread.start() method (native method) of Thread class actually does the job of running the Thread.run() method in a thread. If we directly call Thread.run() method it will executed in same thread, so does not solve the purpose of creating a new thread.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Why Do We Need Run() &amp; Start() Method Both. Can We Achieve It With Only Run Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We need run() &amp; start() method both because JVM needs to create a separate thread which can not be differentiated from a normal method call. So this job is done by start method native implementation which has to be explicitly called. Another advantage of having these two methods is we can have any object run as a thread if it implements Runnable interface. This is to avoid Java multiple inheritance problems which will make it difficult to inherit another class with Thread. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Threadlocal Class? How Can It Be Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below are some key points about ThreadLocal variables </strong></p>
+<ul>
+<li>A thread-local variable effectively provides a separate copy of its value for each thread that uses it.</li>
+<li>ThreadLocal instances are typically private static fields in classes that wish to associate state with a thread</li>
+<li>In case when multiple threads access a ThreadLocal instance, separate copy of Threadlocal variable is maintained for each thread.</li>
+<li>Common use is seen in DAO pattern where the DAO class can be singleton but the Database connection can be maintained separately for each thread. (Per Thread Singleton)</li>
+<li>ThreadLocal variable are difficult to understand and I have found below reference links very useful in getting better understanding on them </li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. When Invalidmonitorstateexception Is Thrown? Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This exception is thrown when you try to call wait()/notify()/notifyAll() any of these methods for an Object from a point in your program where u are NOT having a lock on that object.(i.e. u r not executing any synchronized block/method of that object and still trying to call wait()/notify()/notifyAll()) wait(), notify() and notifyAll() all throw IllegalMonitorStateException. since This exception is a subclass of RuntimeException so we r not bound to catch it (although u may if u want to). and being a RuntimeException this exception is not mentioned in the signature of wait(), notify(), notifyAll() methods. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is The Difference Between Sleep(), Suspend() And Wait() ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Thread.sleep() takes the current thread to a "Not Runnable" state for specified amount of time. The thread holds the monitors it has acquired. For example, if a thread is running a synchronized block or method and sleep method is called then no other thread will be able to enter this block or method. The sleeping thread can wake up when some other thread calls t.interrupt on it. Note that sleep is a static method, that means it always affects the current thread (the one executing sleep method). A common mistake is trying to call t2.sleep() where t2 is a different thread; even then, it is the current thread that will sleep, not the t2 thread. thread.suspend() is deprecated method. Its possible to send other threads into suspended state by making a suspend method call. In suspended state a thread keeps all its monitors and can not be interrupted. This may cause deadlocks therefore it has been deprecated. object.wait() call also takes the current thread into a "Not Runnable" state, just like sleep(), but with a slight change. Wait method is invoked on a lock object, not thread. </p>
+<p><strong>Here is the sequence of operations you can think </strong></p>
+<ul>
+<li>A thread T1 is already running a synchronized block with a lock on object - lets say "lockObject"</li>
+<li>Another thread T2 comes to execute the synchronized block and find that its already acquired.</li>
+<li>Now T2 calls lockObject.wait() method for waiting on lock to be release by T1 thread.</li>
+<li>T1 thread finishes all its synchronized block work.</li>
+<li>T1 thread calls lockObject.notifyAll() to notify all waiting threads that its done using the lock.</li>
+<li>Since T2 thread is first in the queue of waiting it acquires the lock and starts processing.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is A Deadlock?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Deadlock is a situation where two or more threads are blocked forever, waiting for each other. This may occur when two threads, each having a lock on one resource, attempt to acquire a lock on the other's resource. Each thread would wait indefinitely for the other to release the lock, unless one of the user processes is terminated. In terms of Java API, thread deadlock can occur in following conditions: </p>
+<p>When two threads call Thread.join() on each other.</p>
+<p>When two threads use nested synchronized blocks to lock two objects and the blocks lock the same objects in different order.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is Starvation? And What Is A Livelock?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Starvation and livelock are much less common a problem than deadlock, but are still problems that every designer of concurrent software is likely to encounter. </p>
+<p><strong>LiveLock:</strong></p>
+<p>Livelock occurs when all threads are blocked, or are otherwise unable to proceed due to unavailability of required resources, and the non-existence of any unblocked thread to make those resources available. In terms of Java API, thread livelock can occur in following conditions: </p>
+<p>When all the threads in a program execute Object.wait(0) on an object with zero parameter. The program is live-locked and cannot proceed until one or more threads call Object.notify() or Object.notifyAll() on the relevant objects. Because all the threads are blocked, neither call can be made.</p>
+<p>When all the threads in a program are stuck in infinite loops.</p>
+<p><strong>Starvation:</strong></p>
+<p>Starvation describes a situation where a thread is unable to gain regular access to shared resources and is unable to make progress. This happens when shared resources are made unavailable for long periods by "greedy" threads. For example, suppose an object provides a synchronized method that often takes a long time to return. If one thread invokes this method frequently, other threads that also need frequent synchronized access to the same object will often be blocked. Starvation occurs when one thread cannot access the CPU because one or more other threads are monopolizing the CPU. In Java, thread starvation can be caused by setting thread priorities inappropriately. A lower-priority thread can be starved by higher-priority threads if the higher-priority threads do not yield control of the CPU from time to time. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How To Find A Deadlock Has Occurred In Java? How To Detect A Deadlock In Java?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Earlier versions of Java had no mechanism to handle/detect deadlock. Since JDK 1.5 there are some powerful methods added in the java.lang.management package to diagnose and detect deadlocks. The java.lang.management.ThreadMXBean interface is management interface for the thread system of the Java virtual machine. It has two methods which can leveraged to detect deadlock in a Java application. </p>
+<p><strong>findMonitorDeadlockedThreads() -</strong> This method can be used to detect cycles of threads that are in deadlock waiting to acquire object monitors. It returns an array of thread IDs that are deadlocked waiting on monitor.</p>
+<p><strong>findDeadlockedThreads() -</strong> It returns an array of thread IDs that are deadlocked waiting on monitor or ownable synchronizers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Immutable Object? How Does It Help In Writing Concurrent Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An object is considered immutable if its state cannot change after it is constructed. Maximum reliance on immutable objects is widely accepted as a sound strategy for creating simple, reliable code. Immutable objects are particularly useful in concurrent applications. Since they cannot change state, they cannot be corrupted by thread interference or observed in an inconsistent state. Examples of immutable objects from the JDK include String and Integer. Immutable objects greatly simplify your multi threaded program, since they are </p>
+<ul>
+<li>Simple to construct, test, and use.</li>
+<li>Automatically thread-safe and have no synchronization issues.</li>
+<li>To create a object immutable You need to make the class final and all its member final so that once objects gets crated no one can modify its state. You can achieve same functionality by making member as non final but private and not modifying them except in constructor. </li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. How Will You Take Thread Dump In Java? How Will You Analyze Thread Dump?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Thread Dump is a complete list of active threads. A java thread dump is a way of finding out what each thread in the JVM is doing at a particular point of time. This is especially useful when your java application seems to have some performance issues. Thread dump will help you to find out which thread is causing this. There are several ways to take thread dumps from a JVM. It is highly recommended to take more than 1 thread dump and analyze the results based on it. Follow below steps to take thread dump of a java process </p>
+<p><strong>Step 1 </strong></p>
+<p>On UNIX, Linux and Mac OSX Environment run below command: </p>
+<p>ps -el | grep java </p>
+<p><strong>On Windows: </strong></p>
+<p>Press Ctrl+Shift+Esc to open the task manager and find the PID of the java process </p>
+<p><strong>Step 2: </strong></p>
+<p>Use jstack command to print the Java stack traces for a given Java process PID </p>
+<p>jstack [PID] </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is A Thread Leak? What Does It Mean In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Thread leak is when a application does not release references to a thread object properly. Due to this some Threads do not get garbage collected and the number of unused threads grow with time. Thread leak can often cause serious issues on a Java application since over a period of time too many threads will be created but not released and may cause applications to respond slow or hang.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Can I Trace Whether The Application Has A Thread Leak?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If an application has thread leak then with time it will have too many unused threads. Try to find out what type of threads is leaking out.</p>
+<p><strong> This can be done using following ways </strong></p>
+<ul>
+<li>Give unique and descriptive names to the threads created in application. - Add log entry in all thread at various entry and exit points in threads.</li>
+<li>Change debugging config levels (debug, info, error etc) and analyze log messages.</li>
+<li>When you find the class that is leaking out threads check how new threads are instantiated and how they're closed.</li>
+<li>Make sure the thread is Guaranteed to close properly by doing following - Handling all Exceptions properly.</li>
+<li>Make sure the thread is Guaranteed to close properly by doing following</li>
+<li>Handling all Exceptions properly.</li>
+<li>releasing all resources (e.g. connections, files etc) before it closes.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Thread Pool? Why Should We Use Thread Pools?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A thread pool is a collection of threads on which task can be scheduled. Instead of creating a new thread for each task, you can have one of the threads from the thread pool pulled out of the pool and assigned to the task. When the thread is finished with the task, it adds itself back to the pool and waits for another assignment. One common type of thread pool is the fixed thread pool. This type of pool always has a specified number of threads running; if a thread is somehow terminated while it is still in use, it is automatically replaced with a new thread. Below are key reasons to use a Thread Pool </p>
+<p>Using thread pools minimizes the JVM overhead due to thread creation. Thread objects use a significant amount of memory, and in a large-scale application, allocating and de-allocating many thread objects creates a significant memory management overhead.</p>
+<p>You have control over the maximum number of tasks that are being processed in parallel (= number of threads in the pool).</p>
+<p>Most of the executor implementations in java.util.concurrent use thread pools, which consist of worker threads. This kind of thread exists separately from the Runnable and Callable tasks it executes and is often used to execute multiple tasks. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Can We Synchronize The Run Method? If Yes Then What Will Be The Behavior?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, the run method of a runnable class can be synchronized. If you make run method synchronized then the lock on runnable object will be occupied before executing the run method. In case we start multiple threads using the same runnable object in the constructor of the Thread then it would work. But until the 1st thread ends the 2nd thread cannot start and until the 2nd thread ends the next cannot start as all the threads depend on lock on same object</p></p>
+</li><br><br>

@@ -1,0 +1,246 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Modulation And Demodulation ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Modulation is the process of altering the characteristics of the amplitude, frequency, or phase angle of the high-frequency signal in accordance with the instantaneous value of the modulating wave.</p>
+<p>Demodulation is the process of extracting the original information signal from a modulated carrier signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain The Need Of Modulation And Demodulation ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Modulation is required to send the information over long distances as low frequency signals are not able to cover large area.</p>
+<p>While demodulation is required to get back the information sent at the receiving side.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Analog Modulation And State Various Techniques?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In it, the modulating technique is applied to the analog information signal. Its various techniques are:</p>
+<ul>
+<li>Amplitude modulation(AM)</li>
+<li>Frequency modulation(FM)</li>
+<li>Phase modulation(PM)</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Why Frequency Modulation Is Better Than Amplitude Modulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Modulation is better as it provide more resistance to noise as compared to demodulation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Digital Modulation And State Various Techniques?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can consider it as conversion of analog to digital signal. Its various techniques are:</p>
+<ul>
+<li>PSK- Phase shift keying</li>
+<li>ASK- Amplitude shift keying</li>
+<li>FSK- Frequency shift keying</li>
+<li>QAM- Quadrature amplitude modulation</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. State The Techniques Of Demodulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are several ways of demodulation depending on how parameters of the carrier signal, such as amplitude, frequency or phase.</p>
+<ul>
+<li>For a signal modulated with a linear modulation, like AM, we can use a synchronous detector.</li>
+<li>For a signal modulated with an angular modulation, we must use an FM demodulator or a PM demodulator.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Which Type Of Modulation Is Used In Tv Transmission?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Vegestial side band modulation (VSBM).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is The Difference Between Detector And Demodulator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A detector is a device that recovers information of interest contained in a modulated wave.</p>
+<p>Demodulation is updated form of detector which extracts the original information from a modulated carrier wave.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Depth Of Modulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It refers to the ratio of the unmodulated carrier amplitude to the amplitude deviation for which the modulated carrier wave reaches its minimum value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Difference Between Coherent And Non-coherent Demodulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In case of coherent, carrier used for demodulation purpose is in phase and frequency synchronism with carrier used for modulation purpose while for non-coherent, it is not in synchronism.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Calculate The Power In One Of The Side Band In Ssbsc Modulation When The Carrier Power Is 124w And There Is 80% Modulation Depth In The Amplitude Modulated Signal?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Modulation Index = 0.8<br/>Pc = 124W<br/>Power in sidebands may be calculated as = m2 Pc/4<br/>= (0.8)2 * 124/4<br/>= 79.36 W</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Advantages Of Analog Communication Over Digital Communication Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Due to analog to digital conversion, the data rate becomes high in digital communication. So the transmission bandwidth is also increased. Digital transmission also needs synchronization in certain applications which is not needed in case of analog communication systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is The Carrier Frequency In An Am Wave When Its Highest Frequency Component Is 850hz And The Bandwidth Of The Signal Is 50hz?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Upper frequency = 850Hz<br/>Bandwidth = 50Hz<br/>Therefore lower Frequency = 850 - 50= 800 Hz<br/>Carrier Frequency = (850-800)/2<br/>= 825 Hz</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. In Terms Of Signal Frequency (fs) And Intermediate Frequency (fi), The Image Frequency Is Given By?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The image frequency is defined as the signal frequency added to twice the value of intermediate frequency. It is the undesirable frequency generated at the receiver which also gets amplified with the message signal. The image frequency causes interference and therefore two or more stations or sources may be received simultaneously at the receiver output.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Cross Talk Is ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cross talk is the disturbance caused in the nearby channel or circuit due to transmitted signal. Cross talk is usually caused by undesired coupling of capacitors or inductors from one channel to another. Electromagnetic interference (EMI) causes cross talk in the circuits or the channels. In crosstalk, the signals traveling closer to each other interfere with each other and cause disturbance in the signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. The Costas Receiver Is Used For ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Costas receiver is a synchronous receiver system used for demodulating DSB-SC waves. The incoming modulated carrier is applied at two inputs of the coherent detectors of the receiver. The locally generated carrier applied to the two inputs is however in phase quadrature with each other. The frequencies of the local carriers are adjusted as same as the carrier frequency of the received signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. The Advantages Of Using An Rf Amplifier Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The RF amplifiers are used in super heterodyne receivers. The advantages of using RF receivers are </p>
+<ul>
+<li>They have better sensitivity i.e. they have improved gain to the signal</li>
+<li>They have better signal to noise ration than other amplifiers</li>
+<li>The selectivity is better as they have better rejection to the adjacent undesired signals.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Function Of Frequency Mixer In Super Heterodyne Receiver Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The function of a frequency mixer in a super heterodyne receiver is that it mixes or multiplies the incoming modulated carrier with the locally generated carrier. It then produces a number of frequencies. The produced frequencies are either the sum or the differences of the frequencies of the received signals. The output of the mixer is used to detect the modulating or information signal from the received modulated carrier.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. The Functions Of Radio Receiver Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The radio receivers receive the incoming modulated carrier by the receiving antennas. Then they select the wanted signal from the carrier and reject the unwanted signals and noise. The received signal is then amplified by the RF amplifiers. Detection of the information signal is done from the received carrier and the information or the modulating signal is then filtered and amplified.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. The Standard Value For Intermediate Frequency (if) In Am Receivers Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Intermediate frequency (IF) is a frequency at which the received carrier frequency is shifted for detection of message signal. The IF is generated by mixing the received carrier with the locally generated signal. The IF is generated and is shifted to further amplifiers and detectors for amplification and detection of message signal respectively. In super heterodyne AM receivers, an intermediate frequency of 455 KHz is used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Intermediate Frequency (if) Should Be Carefully Chosen As?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Intermediate frequency (IF) should be carefully chosen as</p>
+<ul>
+<li>High IF results in poor selectivity and therefore poor rejection of adjacent channels.</li>
+<li>High IF results in problems in tracking of signals in the receivers.</li>
+<li>Image frequency rejection becomes poor at low IF or if very high.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Advantages Of Using An Rf Amplifier Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The RF amplifiers have greater gain that is they have better sensitivity. They have better ability to amplify weak signals received by the receiver. The RF amplifiers have better selectivity i.e., better ability to select the wanted signals among the various incoming signals. The incoming weak signals are raised to a higher level by the RF amplifiers and therefore they improve signal to noise ratio.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Selectivity Of A Receiver?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The ability of the receiver to select the wanted signals among the various incoming signals is termed as Selectivity. It rejects the other signals at closely lying frequencies. Selectivity is determines performance of a radio receiver that how much it responds only to the radio signal that is required to receive. Selectivity of a receiver changes with incoming signal frequency and is poorer at high frequencies.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. The Factors That Determine The Sensitivity Of Super Heterodyne Receiver Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sensitivity of a receiver is defined as the ability of the receiver to amplify weak signals received by the receiver. It is the voltage that must be applied at the input terminals of the receiver to achieve a minimum standard output at the output of the receiver. The factors that determine the sensitivity of super heterodyne receiver are?</p>
+<ul>
+<li>Gain of the IF amplifier</li>
+<li>Noise figure of the receiver</li>
+<li>Gain of RF amplifier</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. In Automatic Gain Control Of The Am Receiver?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The automatic gain control (AGC) circuit is used to adjust the gain of the receiver depending upon the strength of the received signal at the receiver. The AGC gives a DC voltage as an output that is proportional to the amplitude of the received signal. In AGC, the output is a linear function of the input.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Squelch Circuit Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Squelch circuit suppresses the output audio when there is insufficient desired input signal at the receiver. The circuit is used to suppress the unwanted channel noise when there is no reception by the receiver. Squelch circuits may be used in wireless microphones stay away from replicating the noise when enough signal is not received. Regulating squelch is provided in some systems for the receiver.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Frequency Components Of An Am Wave (m = Modulation Index) Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Frequency components of an AM wave having m modulation index are </p>
+<ul>
+<li>carrier frequency (ωc ) with amplitude A</li>
+<li>upper side band (ωc + ωm) having amplitude mA/2</li>
+<li>lower side band (ωc - ωm) having amplitude mA/2</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Examples Of Low Level Modulation Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a Low level Amplitude Modulation system, modulation is done at lower power of carrier and modulating signal. Therefore the output power of modulation is low. So power amplifiers are required to boost the signal up to the desired power level. Examples of low level modulation are</p>
+<ol>
+<li>Square law diode modulation</li>
+<li>Switching modulation</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. If Modulation Index Is Greater Than 1?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Modulation index is the measure of extent to which the parameter of the carrier is varied in accordance with the modulating signal. If modulation index is greater than 1, or the modulation percentage is more than 100%, it is called over modulation. </p>
+<p>The baseband signal is not preserved in the envelope of the AM signal and therefore, the recovered signal is distorted at the output of the receiver.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. In An Amplitude Modulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In an Amplitude Modulation, the amplitude of the carrier varies according to the instantaneous values of the baseband signal. The frequency and the phase of the carrier remain constant. </p>
+<p>The envelope of the AM wave has the same shape as the message of the base band signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Automatic Gain Control Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Automatic gain control provides controlled signal amplitude at the output even if there are amplitude variations at the input. This controlled output adjusts the input to output gain to a suitable value so that the system may work properly even for wide range of variations at the input. </p>
+<p>The AGC is used in AM radio receivers for controlling the weak and strong sound signals.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Vestigial Side Band Signals Are Detected By?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Vestigial side band signals are detected by Synchronous detection or coherent detection technique. The distortions in a VSB signal may be reduced by reducing the modulation index and increasing the width of VSB.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Phase Shift Method Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Phase shift method is one of the methods used for the generation of SSB-SC signals. This method includes two balanced modulators and two phase shifting networks and avoids the use of filters. Both the balanced modulators produce side band as an output. </p>
+<p>The SSB-SC signals are generated using multiple tone modulating signals as if done with single tone modulating signal, they do not carry any useful information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Limitations Of Frequency Discrimination Method Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Limitations of Frequency discrimination method are that as the base band signal must be appropriately related to the carrier signal frequency, the designing of band pass filter is difficult if the carrier frequency is quite higher than the bandwidth of the baseband signal. The system is not useful for video communication purpose.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Generation Of Ssb Sc Signal Is Done By?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SSB-SC signals are the signals where only one of the sidebands is transmitted in an AM wave. The carrier is also suppressed while transmitting the AM signal. SSBSC signal may be generated by two methods:</p>
+<ul>
+<li>Frequency discrimination method or filter method</li>
+<li>Phase discrimination method or phase shift method</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Pilot Carrier Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pilot carrier is a small carrier transmitted with modulated signal from the transmitter. It is separated at the receiver and used to phase lock the locally generated carrier signal generated at the receiver. It provides synchronization at the receiver. </p>
+<p>As a weak carrier is transmitted with the DSB signal, it is also referred to as partially suppressed carrier system, as the carrier is not totally suppressed. So it is a case of over modulation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Quadrature Amplitude Modulation (qam) Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The modulation scheme Quadrature Amplitude Modulation (QAM) enables same bandwidth used for transmission of two DSB-SC signals. It is also known as Bandwidth Conservation scheme. However it needs synchronous detection so it needs an additional system for generation of carrier. Also known as Quadrature Carrier Multiplexing, the scheme is used in color television.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Disadvantages Of Using Synchronous Detection Of Am Signal Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Disadvantages of using synchronous detection of AM signal are that it needs an additional system for generation of carrier. The frequency of the locally generated carrier must be identical to that of transmitted carrier. And the phase of the locally generated carrier must be synchronized to that of transmitted carrier otherwise the detected signal would get distorted so it needs an additional system for synchronization of carrier. This makes the receiver complex and costlier.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Requirements Of Synchronous Detection Of Am Signal Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Synchronous detection of AM signal requires local generation of the carrier signal at the receiver. The frequency of the locally generated carrier must be identical to that of transmitted carrier. And the phase of the locally generated carrier must be synchronized to that of transmitted carrier otherwise the detected signal would get distorted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. In Synchronous Detection Of Am Signal?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In synchronous detection of AM signal, the carrier signal is locally generated and then passed through a low pass filter. At the output of the low pass filter, the original modulating signal is recovered. The synchronous detection requires the generation of carrier at the receiver also. So additional circuitry is required at the receiver.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is The Maximum Transmission Efficiency Of An Am Signal?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The transmission efficiency (η) of AM wave is defined as the percentage of total power contributed by side bands of the AM signal. The maximum transmission efficiency of an AM signal is 33.33%, i.e., only one third of the total transmitted power is carried by the side bands in an AM wave. The remaining two third of the total transmitted power gets wasted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Ring Modulator Is</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ring modulator is a product modulator used for DSB SC generation. It consists of four diodes connected in the form of ring. In AM , the ring modulator acts as a product modulator for a square wave carrier and modulating signal and generated a Double Side Band-Suppressed Carrier signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. The Process Of Recovering Information Signal From Received Carrier Is Known As?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Detection or demodulation of the received signal is the recovery of information or the original message that was transmitted by the transmitter after modulation. The process is also called demodulation it recovers the original signal from the modulated signal received.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Am Demodulation Techniques Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AM signals are detected or demodulated using Square law demodulator or envelope detector. The demodulators extract the information from the received AM signal. </p>
+<p>Square law demodulators are highly nonlinear in low voltage region so they are used for low level modulated signals. Envelope detectors extract the envelope of the AM wave.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. In High Level Amplitude Modulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In High level Amplitude Modulation system, Modulation is done at high power of carrier and modulating signals so Power amplifiers are used to boost the carrier and modulating signals before modulation. Collector modulation method is the example of High level Amplitude Modulation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. In Low Level Amplitude Modulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a Low level Amplitude Modulation system, modulation is done at lower power of carrier and modulating signal. Therefore the output power of modulation is low. So power amplifiers are required to boost the signal up to the desired power level.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. An Oscillator For An Am Transmitter Has A 100μh Coil And A 10nf Capacitor. If A Modulating Frequency Of 10 Khz Modulates The Oscillator, Find The Frequency Range Of The Side Bands?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Carrier frequency fc = 1/2Π√LC<br/>= 1/ 2Π√100 * 10 - 6 * 10 * 10-9<br/>= 1/2Π * 10-6<br/>= 1.59 * 105 Hz<br/>= 159 KHz</p>
+<p>The modulating frequency fm is 10KHz</p>
+<p>Therefore the range of AM spectrum is given by (fc fm ) to (fc + fm )</p>
+<p>= (159 - 10) to (159 + 10)<br/>= 149 KHz to 169 KHz</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Bandwidth (b) Of An Am Signal Is Given By?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bandwidth of the AM wave is the difference in the two extreme frequencies of the AM signal. It is given by</p>
+<p>B = (ωc + ωm)- (ωc - ωm)<br/>= ωm</p>
+<p>i.e., the bandwidth of the AM wave is twice the highest frequency present in the modulating signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. Am Wave May Be Represented As E(t) Cos ωct Where E(t) Is</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An AM wave may be represented by</p>
+<p>s(t) = [A+ x(t)] cos ωct<br/>= E(t) cos ωct</p>
+<p>Where x(t) is the modulating signal</p>
+<p>A is the amplitude of carrier wave</p>
+<p>E(t) is the Envelope of the AM wave</p>
+<p>The envelope consists of the modulating signal that may be recovered from AM signal using demodulation techniques.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Radio Waves Travel Through?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Radio communication or wireless communication takes place through electromagnetic waves.</p>
+<p>The message is transmitted through open space via electromagnetic waves or radio waves. The waves are transmitted in the open space through antenna after processing of signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. The Minimum Antenna Height Required For Transmission In Reference To Wavelength λ Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For effective transmission of signal by the transmitter, the antenna height should be at least quarter length of the signal wavelength i.e., λ/4</p>
+<p>L= λ/4<br/>= c/4f</p>
+<p>Required antenna height decreases with increase in frequency of the signal so modulation is done. With modulation, the low frequency signals are shifted to high frequency signals.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Analog Signal May Be Converted Into Digital Signal By?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Conversion of analog signal into digital signal converts a continuous time signal in the form of digits. The conversion is done with the help of sampling technique. A sample is a set of values at a point in time space. The average number of samples obtained in one second is known as sampling frequency.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. Synchronous Detection Means?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Synchronous detection means demodulation of received signal and extracting information from it. It requires a reference signal at the receivers with predetermined frequency and phase which is generated using extra circuitry. Synchronous detection helps in extracting weak signals from noise.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. What Is The Effect On The Transmitted Power Of Am Signal When The Modulation Index Changes From 0.8 To 1?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The total power in an AM is given by </p>
+<p>Pt = Pc (1 + m2/2) </p>
+<p>Where Pc is the carrier power and m is the modulation index.</p>
+<p>Therefore,</p>
+<p>Pt1 = Pc (1 + 0.82/2) = 1.32 Pc<br/>Pt2 = Pc ( 1 + 12/2) = 1.5 Pc<br/>Increase in power = (1.5 Pc - 1.32 Pc)/ 1.32 Pc<br/>= 0.1364</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. Types Of Analog Modulation Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Modulation is a process by which some characteristics of signal such as amplitude or phase or frequency are varied in accordance with the instantaneous value of the information signal .  </p>
+<p>The signal whose characteristics are varied is known as carrier signal, as it carries the information. The signal that carries the information is known as modulating signal as according to it, the characteristics of carrier signal are varied.</p>
+<p><strong>Methods of analog modulations are:</strong></p>
+<ol>
+<li>Amplitude modulation</li>
+<li>Frequency modulation</li>
+<li>Phase modulation</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. Analog Communication Indicates?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Analog communication means that the information is transmitted in the form of a continuous signal, such as a sound wave. The signal has varying amplitude or phase or frequency. </p>
+<p>Coding is not applied to the signal as in case of digital data. Amplitude modulated signal and frequency modulated signals are the examples of analog communication.</p></p>
+</li><br><br>

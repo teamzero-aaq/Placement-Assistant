@@ -1,0 +1,150 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain What Is An Operational Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An operational amplifier, abbreviated as op-amp, is basically a multi-stage, very high gain, direct-coupled, negative feedback amplifier that uses voltage shunt feedback to provide a stabilized voltage gain.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. State Assumptions Made For Analyzing Ideal Op-amp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Assumptions made for analyzing ideal op-amp are:</strong></p>
+<ul>
+<li>Infinite open-loop gain</li>
+<li>Infinite input impedance</li>
+<li>Zero output impedance</li>
+<li>Perfect balance</li>
+<li>Infinite frequency bandwidth</li>
+<li>Infinite slew rate</li>
+<li>Infinite common-mode rejection ratio</li>
+<li>Nil drift of characteristics with temperature</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Explain What Are Differential Gain And Common-mode Gain Of A Differential Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When the difference of the two inputs applied to the two terminals of a differential amplifier is amplified, the resultant gain is termed as differential gain. But when the two input terminals are connected to the same input source then the gain established by the differential amplifier is called the common mode gain.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Define Cmrr?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CMRR is defined as the ratio of differential voltage gain to common-mode voltage gain and it is given as CMRR = Ad/Acm.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Explain Why Does An Op-amp Have High Cmrr?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>High CMRR ensures that the common mode signals such as noise are rejected successfully and the output voltage is proportional only to the differential input voltage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Explain Why Open-loop Op-amp Configurations Are Not Used In Linear Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When an op-amp is operated in the open-loop configuration, the output either goes to positive saturation or negative saturation levels or switches between positive and negative saturation levels and thus clips the output above these levels. So open-loop op-amp configurations are not used in linear applications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. List The Parameters That Should Be Considered For Ac And Dc Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The parameters to be considered for dc applications are:</strong></p>
+<ul>
+<li>Input offset voltage</li>
+<li>Input offset current</li>
+<li>Input bias current</li>
+<li>Drift</li>
+</ul>
+<p><strong>The parameters to be considered for ac applications are:</strong></p>
+<ul>
+<li>Gain bandwidth product (GBW)</li>
+<li>Rise time</li>
+<li>Slew rate</li>
+<li>Full-power response</li>
+<li>AC noise</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Define Offset Voltage As Applied To An Op-amp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Input offset voltage may be defined as that voltage which is to be applied between the input terminals to balance the amplifier.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Define Slew Rate?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Slew rate of an op-amp is defined as the maximum rate of change of output voltage per unit time and is expresses in V/µs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Explain What Is A Voltage Follower?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Voltage follower is an electronic circuits in which output voltage tracts the input voltage both in sign and magnitude.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Explain What Are The Advantages Of Using A Voltage Follower Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Voltage follower has three unique characteristics viz. extremely high input impedance, extremely low output impedance and unity transmission gain and is , therefore, an ideal circuit device for use as a buffer amplifier.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. In Explain What Way Is The Voltage Follower A Special Case Of The Non-inverting Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If feedback resistor is made zero or R1 is made ∞(by keeping it open-circuited) in a noninverting amplifier circuit, voltage follower is obtained.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain What Is An Inverting Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In an inverting amplifier, the input is connected to the minus or inverting terminal of op-amp.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain What Are The Applications Of An Inverting Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inverting amplifier is a very versatile component and can be used for performing number of mathematical stimulation such as analog inverter, paraphrase amplifier, phase shifter, adder, integrator, and differentiator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain What Is A Differential Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Differential amplifier is a combination of inverting and noninverting amplifiers and amplifies the voltage difference between input lines neither of which is grounded.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Give Examples Of Linear Circuits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Adder, subtractor, differentiator, integrator fall under the category of linear circuits.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Explain What Is An Adder Or Summing Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Adder or summing amplifier is a circuit that provides an output voltage proportional to or equal to the algebraic sum of two or more input voltages multiplied by a constant gain factor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Explain What Is An Integrator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An integrator is a circuit that performs a mathematical operation called integration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Explain What Are The Applications Of Integrator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Integrators are widely used in ramp or sweep generators, filters, analog computers etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Op-amp Is Used Mostly As An Integrator Than A Differentiation. Explain Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Op-amp is used mostly as an integrator than a differentiator because in differentiator at high frequency, gain is high and so high-frequency noise is also amplified which absolutely abstract the differentiated signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is Characteristic Of Ideal Op Amp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Characteristic of ideal OP AMP are</strong></p>
+<ol>
+<li>Infinite voltage gain</li>
+<li>Zero output impedance</li>
+<li>Infinite input impedance</li>
+<li>Infinite slew rate</li>
+<li>Characteristics not drifting with temperature</li>
+<li>Infinite bandwidth</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Amplifier is a device that makes sound louder and signal level greater.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Formula For Non Inverting Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The formula for non inverting amplifier is given as 1+Rf/R1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Perfect Balance In Op Amp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Perfect balance is the characteristics of ideal OP AMP and if there is same input applied then we will get the output zero. In this condition it is known as perfect balance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Which Opamp Don’t Have Feedback Loop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Comparator OP AMP (operational amplifier) don’t have feedback loop.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Why Opamp Called Direct Coupled High Differential Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>OPAMP is called direct coupled because the input of one OPAMP is inserted into the input of another OPAMP. It is called high gain differential circuit because the difference of the two input is amplified.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Why Opamp Called Operational Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>OPAMP it is a direct coupled high gain differential input amplifier. It is called operational amplifier because it is used for performing different functions like differentiation, addition, integration, subtraction. It has infinite voltage gain, infinite slew rate, infinite input impedance, zero output impedance, infinite bandwidth.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Output Differentiation And Integrator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If we give the sinusoidal input in differentiator we will get the output of differentiator as a square output. If we give the sinusoidal input in integrator we will get the output of integrator as a ramp output.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. For The Cmrr To Be Infinite What Will Be The Condition?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CMRR is defined as the ratio of differential voltage gain (Ad) to common mode voltage gain (Acm).</p>
+<p><strong>The formula for CMRR is given below:</strong></p>
+<p>CMRR = Ad/Acm</p>
+<p>If Acm will be zero then only it will be infinite.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Explain What Is Meant By Small Signal Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When the input signal is quite weak and produces less small fluctuations in the output current in comparison to its quiescent value, the amplifier is called the small signal or voltage amplifier.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Explain What Is Meant By Phase Reversal?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a CE configuration, the output voltage increases in the negative direction when the input signal voltage increases in the positive direction and vice-versa. This is called the phase reversal and and causes a phase difference of 180o between the input signal and output voltage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Explain What Is An Ac Emitter Resistance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The dynamic resistance of the emitter-base junction diode is called the ac emitter resistance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Explain What Do You Mean By Operating Point?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The zero signal values of IC and VCE are known as the operating point. It is called operating point because the variations of IC and VCE take place about this point when signal is applied. It is also known as the quiescent or Q-point.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Explain What Is Transistor Biasing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The proper flow of zero signal collector current and the maintenance of proper collector emitter voltage during the passage of signal is called the transistor biasing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Explain What Is Faithful Amplification?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of raising the strength of a weak signal without any change in its general shape is referred to as faithful amplification.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Explain What Is The Effect Of Removal Of Bypass Capacitor In A Ce Amplifier Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Removal of bypass capacitor in a CE amplifier circuit causes excessive degeneration in the amplifier circuit and therefore reduction in voltage gain.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Explain Why Common-collector Circuit Is Known As An Emitter Follower?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The CC circuit amplifier is called an emitter follower because in this circuit the output voltage at the emitter terminal follows the input signal applied to the base terminal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Explain What Are The Main Purposes For Which A Common-collector Amplifier May Be Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For a common collector amplifier, current gain is as high as for CE amplifier, voltage gain is less than unity, input resistance is the highest and the output resistance is the lowest of all the three (CE, ,CC and CB) configurations. This circuit finds wide applications as a buffer amplifier between a high impedance source and a low load.</p></p>
+</li><br><br>

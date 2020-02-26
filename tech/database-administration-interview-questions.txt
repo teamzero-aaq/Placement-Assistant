@@ -1,0 +1,150 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is A Dba?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A DBA is a Database Administrator, and this is the most common job that you find a database specialist doing. There are Development DBAs and Production DBAs.<br/>A Development DBA usually works closely with a team of developers and gets more involved in design decisions, giving advice on performance and writing good SQL.<br/>That can be satisfying at a human level because you are part of a team and you share the satisfaction of the teams accomplishments.<br/>A Production DBA (on the other hand) is responsible for maintaining Databases within an organization, so it is a very difficult and demanding job. He or she, often gets involved when all the design decisions have been made, and has simply to keep things up and running.<br/>Therefore, of course, it is also a rewarding job, both financially and in terms of job satisfaction. But it is a more “lonely” job than being a Development DBA.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is The Maximum No Of Chars The Parameter Can Store?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The maximum no of chars the parameter can store is only valid for char parameters, which can be up to 64K. No parameters default to 23 Bytes and Date parameter default to 7 Bytes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How Do You Reference A Parameter Indirectly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To indirectly reference a parameter use the NAME IN, COPY ‘built-ins to indirectly set and reference the parameters value’ Example name_in (’capital parameter my param’), Copy (’XXXX’,’Parameter my_param’)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. If Two Groups Are Not Linked In The Data Model Editor, What Is The Hierarchy Between Them?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Two group that is above are the left most rank higher than the group that is to right or below it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Explain About Horizontal, Vertical Tool Bar Canvas Views?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Tool bar canvas views are used to create tool bars for individual windows. </li>
+<li>Horizontal tool bars are display at the top of a window, just under its menu bar. </li>
+<li>Vertical Tool bars are displayed along the left side of a window</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is The Purpose Of The Product Order Option In The Column Property Sheet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To specify the order of individual group evaluation in a cross products.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is The Use Of Image_zoom Built-in?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To manipulate images in image items.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Is It Possible To Insert Comments Into Sql Statements Return In The Data Model Editor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes it is possible to insert comments into sql statements return in the data model editor</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are The Options Available To Refresh Snapshots?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>COMPLETE</strong> – Tables are completely regenerated using the snapshots query and the master tables every time the snapshot referenced. <br/><strong>FAST</strong> – If simple snapshot used then a snapshot log can be used to send the changes to the snapshot tables.<br/> <strong>FORCE</strong> – Default value. If possible it performs a FAST refresh; Otherwise it will perform a complete refresh.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is A Snapshot Log?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A snapshot log is a table in the master database that is associated with the master table. ORACLE uses a snapshot log to track the rows that have been updated in the master table. Snapshot logs are used in updating the snapshots based on the master table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is The Difference Between The Sql*loader And Import Utilities?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These two Oracle utilities are used for loading data into the database. The difference is that the import utility relies on the data being produced by another Oracle utility EXPORT while the SQL*Loader utility allows data to be loaded that has been produced by other utilities from different data sources just so long as it conforms to ASCII formatted or delimited files.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Can You Enable A Trace For A Session?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use the DBMS_SESSION.SET_SQL_TRACE or<br/>Use ALTER SESSION SET SQL_TRACE = TRUE;</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Are The Different Modes Of Mounting A Database With The Parallel Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Exclusive Mode If the first instance that mounts a database does so in exclusive mode, only that Instance can mount the database. Parallel Mode If the first instance that mounts a database is started in parallel mode, other instances that are started in parallel mode can also mount the database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are The Advantages Of Operating A Database In Archivelog Mode Over Operating It In No Archivelog Mode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Complete database recovery from disk failure is possible only in ARCHIVELOG mode. Online database backup is possible only in ARCHIVELOG mode.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are The Referential Actions Supported By Foreign Key Integrity Constraint?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>UPDATE and DELETE Restrict – A referential integrity rule that disallows the update or deletion of referenced data.<br/> DELETE Cascade – When a referenced row is deleted all associated dependent rows are deleted.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Compare And Contrast Truncate And Delete For A Table. ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both the truncate and delete command have the desired outcome of getting rid of all the rows in a table. The difference between the two is that the truncate command is a DDL operation and just moves the high water mark and produces a now rollback. The delete command, on the other hand, is a DML operation, which will produce a rollback and thus take longer to complete.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Give The Two Types Of Tables Involved In Producing A Star Schema And The Type Of Data They Hold.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Fact tables and dimension tables. A fact table contains measurements while dimension tables will contain data that will help describe the fact tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is A Segment?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A segment is a set of extents allocated for a certain logical structure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. A Table Is Classified As A Parent Table And You Want To Drop And Re-create It. How Would You Do This Without Affecting The Children Tables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Disable the foreign key constraint to the parent, drop the table, re-create the table, enable the foreign key constraint.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Explain The Difference Between $oracle_home And $oracle_base.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ORACLE_BASE is the root directory for oracle. ORACLE_HOME located beneath ORACLE_BASE is where the oracle products reside.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Explain The Use Of Setting Global_names Equal To True.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Setting GLOBAL_NAMES dictates how you might connect to a database. This variable is either TRUE or FALSE and if it is set to TRUE it enforces database links to have the same name as the remote database to which they are linking.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Explain The Difference Between A Function, Procedure And Package?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A function and procedure are the same in that they are intended to be a collection of PL/SQL code that carries a single task. While a procedure does not have to return any values to the calling application, a function will return a single value. A package on the other hand is a collection of functions and procedures that are grouped together based on their commonality to a business function or application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Explain The Use Of Table Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Table functions are designed to return a set of rows through PL/SQL logic but are intended to be used as a normal table or view in a SQL statement. They are also used to pipeline information in an ETL process.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Name Three Advisory Statistics You Can Collect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Buffer Cache Advice</li>
+<li>Segment Level Statistics</li>
+<li>Timed Statistics</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Explain Materialized Views And How They Are Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Materialized views are objects that are reduced sets of information that have been summarized, grouped, or aggregated from base tables. They are typically used in data warehouse or decision support systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Does A Control File Contain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Control file records the physical structure of the database. It contains the following information. Database Name Names and locations of a database’s files and redolog files. Time stamp of database creation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Describe What Redo Logs Are?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Redo logs are logical and physical structures that are designed to hold all the changes made to a database and are intended to aid in the recovery of a database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Does Coalescing A Tablespace Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Coalescing is only valid for dictionary-managed tablespaces and de-fragments space by combining neighboring free extents into large single extents.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is The Difference Between A Temporary Tablespace And A Permanent Tablespace?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A temporary tablespace is used for temporary objects such as sort structures while permanent tablespaces are used to store those objects meant to be used as the true objects of the database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Distributed Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A distributed database is a network of databases managed by multiple database servers that appears to a user as single logical database. The data of all databases in the distributed database can be simultaneously accessed and modified.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Explain The Difference Between Archivelog Mode And Noarchivelog Mode And The Benefits And Disadvantages To Each?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ARCHIVELOG mode is a mode that you can put the database in for creating a backup of all transactions that have occurred in the database so that you can recover to any point in time. NOARCHIVELOG mode is basically the absence of ARCHIVELOG mode and has the disadvantage of not being able to recover to any point in time. NOARCHIVELOG mode does have the advantage of not having to write transactions to an archive log and thus increases the performance of the database slightly.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Explain The Use Of Setting Global_names Equal To True?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Setting GLOBAL_NAMES dictates how you might connect to a database. This variable is either TRUE or FALSE and if it is set to TRUE it enforces database links to have the same name as the remote database to which they are linking.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Explain What Partitioning Is And What Its Benefit Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Partitioning is a method of taking large tables and indexes and splitting them into smaller, more manageable pieces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Are The Basic Element Of Base Configuration Of An Oracle Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It consists of one or more data files. one or more control files. two or more redo log files. The Database contains multiple users/schemas one or more rollback segments one or more tablespaces Data dictionary tables User objects (table, indexes, views etc.,) The server that access the database consists of SGA (Database buffer, Dictionary Cache Buffers, Redo log buffers, Shared SQL pool) SMON (System MONito) PMON (Process MONitor) LGWR (LoG Write) DBWR (Data Base Write) ARCH (ARCHiver) CKPT (Check Point) RECO Dispatcher User Process with associated PGS</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Database Clusters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Group of tables physically stored together because they share common columns and are often used together is called Cluster.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is An Index? How It Is Implemented In Oracle Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An index is a database structure used by the server to have direct access of a row in a table. An index is automatically created when a unique of primary key constraint clause is specified in create table command (Ver 7.0)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is A Database Instance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A database instance (Server) is a set of memory structure and background processes that access a set of database files. The process can be shared by all users. The memory structure that are used to store most queried data from database. This helps up to improve database performance by decreasing the amount of I/O performed against data file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is The Use Of Analyze Command?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>–To perform one of these function on an index, table, or cluster<br/>– To collect statistics about object used by the optimizer and store them in the data dictionary.<br/> – To delete statistics about the object used by object from the data dictionary. <br/>– To validate the structure of the object.<br/>– To identify migrated and chained rows off the table or cluster.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is Default Tablespace?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Tablespace to contain schema objects created without specifying a tablespace name.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Are The System Resources That Can Be Controlled Through Profile?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The number of concurrent sessions the user can establish the CPU processing time available to the user’s session the CPU processing time available to a single call to ORACLE made by a SQL statement the amount of logical I/O available to the user’s session the amount of logical I/O available to a single call to ORACLE made by a SQL statement the allowed amount of idle time for the user’s session the allowed amount of connect time for the user’s session.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is Tablespace Quota?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The collective amount of disk space available to the objects in a schema on a particular tablespace.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Are The Different Levels Of Auditing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Statement Auditing</li>
+<li>Privilege Auditing </li>
+<li> Object Auditing</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Is Statement Auditing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Statement auditing is the auditing of the powerful system privileges without regard to specifically named objects</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Are The Database Administrators Utilities Available?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL * DBA – This allows DBA to monitor and control an ORACLE database. <br/>SQL * Loader – It loads data from standard operating system files (Flat files) into ORACLE database tables. Export (EXP) and Import (imp) utilities allow you to move existing data in ORACLE format to and from ORACLE database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. How Can You Enable Automatic Archiving?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Shut the database Backup the database Modify/Include LOG_ARCHIVE_START_TRUE in init.ora file. Start up the database.</p></p>
+</li><br><br>

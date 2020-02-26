@@ -1,0 +1,223 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Object Oriented Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Object-oriented programming (OOP) is a programming language model organized around objects rather than actions;</p>
+<p>Objects are instances of classes, are used to interact with one another.</p>
+<p><strong>Following are few examples of object-oriented programming languages</strong></p>
+<p>PHP, C++, Objective-C, Smalltalk, C#, Perl, Python, Ruby.</p>
+<p><strong>The goals of object-oriented programming are:</strong></p>
+<ul>
+<li>Increased understanding.</li>
+<li>Ease of maintenance.</li>
+<li>Ease of evolution.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Data Modeling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In class, we create multiple get/set function to get and set the data through the protected functions known as Data Modeling.</p>
+<p>class dataModel {    </p>
+<p>    public function __set( $key, $value ) {</p>
+<p>        $this-&gt;$key = $value;</p>
+<p>    } </p>
+<p>}</p>
+<p><strong>Following are the benefits of Data Modeling:</strong></p>
+<ul>
+<li>It is very fast.</li>
+<li>Smart way to  manipulation on data</li>
+<li>No extra layer of logic </li>
+<li>Really flexible to be modeled per need </li>
+<li>Setters can explicitly define what data can be loaded into the object</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Difference Between Class And Interface?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Interfaces do not contain business logic </li>
+<li>You must extend interface to use.</li>
+<li>You can't create object of interface.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Session - Cookie Works In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a website open in new client machine(Browser), new sessionId is created and stored in php server and in client machine (In cookie).</p>
+<p>All data is store in PHP Server and cookie only have sessionId. When client send sessionId with request to the server, then server fetch the data corresponsing to that sessionId and retun to the browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are Some Of The Big Changes Php Has Gone Through In The Past Few Years?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>5.1 added PDO </p>
+<p>5.3 - added namespace support </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Polymorphism?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is simply "One thing, can use in different forms"</p>
+<p>For example, One car (class) can extend two classes (hond &amp; Alta)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How To Load Classes In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>We can load a class with the use of "autoload" class.</li>
+<li>If we want to change from default function autoload to testautload function.</li>
+<li>we can do this with "spl_autoload_register" </li>
+<li>spl_autoload_register('kumar');</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How To Call Parent Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>parent::__construct()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Are Parent Constructor Called Implicitly When Create An Object Of Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, Parent constructors are not called implicitly It must call this explicitly. But If Child constructors is missing then parent constructor called implicitly. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Happen, If Constructor Is Defined As Private Or Protected?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If constructor declared as private, PHP through the following fatal error when create object.</p>
+<p><strong> Fatal error:</strong> Call to private BaseClass::__construct() from invalid context in. If constructor declared as private, PHP through the following fatal error when create object. Fatal error: Call to protected BaseClass::__construct() from invalid context in.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Happen, If New-style Constructor &amp; Old-style Constructor Are Defined. Which One Will Be Called?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>New-Style constructor will called. But if New-Style constructor is missing, old style constructor will called. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Are Different Visibility Of Method/property?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are 3 types of visibility of method &amp; property and are following</strong></p>
+<p><strong>Public:</strong> Can be accessed from same class method, child class and from outside of class.</p>
+<p><strong>Protected :</strong> Can be accessed from same class method, child class.</p>
+<p><strong>Private:</strong> Can be accessed from same class method only. </p>
+<p>class TestClass</p>
+<p>{</p>
+<p>    public $public = 'Public';</p>
+<p>    protected $protected = 'Protected';</p>
+<p>    private $private = 'Private';</p>
+<p> function printValue()</p>
+<p>    {</p>
+<p>        echo $this-&gt;public;</p>
+<p>        echo $this-&gt;protected;</p>
+<p>        echo $this-&gt;private;</p>
+<p>    }</p>
+<p>}</p>
+<p>$obj = new TestClass();</p>
+<p>echo $obj-&gt;public; // Works</p>
+<p>echo $obj-&gt;protected; // Fatal error: Cannot access protected property TestClass::$protected in</p>
+<p>echo $obj-&gt;private; // Fatal error: Cannot access private property TestClass::$private in C:wampwwwarunclassclass.php on line 20</p>
+<p>$obj-&gt;printValue(); // Shows Public, Protected and Private </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Scope Resolution Operator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Scope Resolution Operator (also called Paamayim Nekudotayim) is double colon that allows access to static, constant, and overridden properties or methods of a class.</p>
+<p><strong> Following are different uses Access to static</strong></p>
+<ul>
+<li>Acess the constant</li>
+<li>Access the overridden properties of parent class</li>
+<li>Access the overridden methods of a parent class</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Static Keyword In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>If we declare a Method or Class Property as static, then we can access that without use of instantiation of the class.</li>
+<li>Static Method are faster than Normal method.</li>
+<li>$this is not available within Static Method.</li>
+<li>Static properties cannot be accessed through the object(i.e arrow operator)</li>
+<li>Calling non-static methods with Scope Resolution operator, generates an E_STRICT level warning.</li>
+<li>Static properties may only be initialized using a literal or constant value.</li>
+<li>Static properties/Normal properties Can't be initialized using expressions value.</li>
+</ul>
+<p>class StaticClass</p>
+<p>{</p>
+<p>    public static $staticValue = 'foo';</p>
+<p> </p>
+<p>    public function staticValue() {</p>
+<p>        return self::$my_static;</p>
+<p>    }</p>
+<p>}</p>
+<p>echo StaticClass::$staticValue;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Abstraction In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Abstraction are defined using the keyword abstract .</li>
+<li>PHP 5 introduces abstract classes and methods. Classes defined as abstract may not be instantiated (create object).</li>
+<li>To extend the Abstract class, extends operator is used.</li>
+<li>You can inherit only one abstract class at one time extending.</li>
+<li>Any class that contains one abstract method must also be declare as abstract. Methods defined as abstract simply declare the method's signature, they can't define the implementation.</li>
+<li>All methods marked as abstract in the parent's class, declaration must be defined by the child.</li>
+<li>additionally, these methods must be defined with the same (or a less restricted) visibility (Public,Protected &amp; private).</li>
+<li>Type hint &amp; number of parameter must be match between parent &amp; child class.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Interface In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Interfaces are defined using the interface keyword.</li>
+<li>All methods declared in an interface must be public. Classes defined as Interface may not be instantiated(create object).</li>
+<li>To extend the interface class, implements operator is used.</li>
+<li>You can inherit number of interface class at the time of extending and number of abstract class separated by comma.</li>
+<li>All methods in the interface must be implemented within a child class; failure to do so will result in a fatal error.</li>
+<li>Interfaces can be extended like classes using the extends operator.</li>
+<li>The class implementing the interface must use the exact same method signatures as are defined in the interface. Not doing so will result in a fatal error.</li>
+<li>Type hint &amp; number of parameter must be match.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is Traits In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Traits are a mechanism for code reuse in single inheritance.</li>
+<li>A Trait is similar to a class, but only intended to group functionality in a fine-grained and consistent way. </li>
+<li>It is not possible to instantiate a Trait but addition to traditional inheritance. It is intended to reduce some limitations of single inheritance to reuse sets of methods freely in several independent classes living in different class hierarchies.</li>
+<li>Multiple Traits can be inserted into a class by listing them in the use statement, separated by commas(,).</li>
+<li>If two Traits insert a method with the same name, a fatal error is produced.</li>
+</ul>
+<p><strong>Example of Traits:</strong></p>
+<p>class BaseClass{</p>
+<p>    function getReturnType() {</p>
+<p>        return 'BaseClass';</p>
+<p>    }</p>
+<p>}</p>
+<p>trait traitSample {</p>
+<p>    function getReturnType() {</p>
+<p>        echo "TraitSample:";</p>
+<p>        parent::getReturnType();</p>
+<p>    }    </p>
+<p>}</p>
+<p>class Class1 extends BaseClass {</p>
+<p>    use traitSample;   </p>
+<p>}</p>
+<p>$obj1 = new Class1();</p>
+<p>$obj1-&gt;getReturnType();//TraitSample:BaseClass</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Overloading?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is dynamically create method / properties and performed by magic methods. Overloading method / properties are invoked when interacting with properties or methods that have not been declared or are not visible in the current scope, Means we you are calling a function which is not exist. None of the arguments of these magic methods can be passed by reference.</p>
+<p>In PHP, Overloading is possible http://200-530.blogspot.in/2013/04/oop-magic-methods.html</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Object Iteration?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PHP provides a way for objects to be iterate through a list of items, for this we can use foreach. Only visible properties will be listed. </p>
+<p>class TestClass{</p>
+<p>    public $public='PublicVal';</p>
+<p>    protected $protected='ProtectedVal';</p>
+<p>    private $private='PrivateVal';</p>
+<p>      function myfunc() {</p>
+<p>        return 'func';</p>
+<p>    }</p>
+<p>     function iterateVisible(){</p>
+<p>        foreach($this as $key =&gt; $value) {</p>
+<p>           print "$key =&gt; $valuen";</p>
+<p>       }</p>
+<p>    }</p>
+<p>}</p>
+<p>$obj=new TestClass();</p>
+<p>$obj-&gt;iterateVisible(); </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Final Keyword In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>PHP introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final.</p>
+<p>If the class itself is being defined final then it cannot be extended. If the function itself is being defined final then it cannot be extended. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is Serialize Function In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It return string containing a byte-stream representation of any value that can be stored in PHP.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Comparing Objects?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When using the comparison operator (==), object variables are compared in a simple manner, namely: Two object instances are equal if they have the same attributes and values, and are instances of the same class.</p>
+<p>When using the identity operator (===), object variables are identical if and only if they refer to the same instance of the same class</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Uml?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>UML stands for Unified Modeling Language.</p>
+<p><strong>You can do following things with UML:</strong></p>
+<ul>
+<li>Manage project complexity.</li>
+<li>create database schema.</li>
+<li>Produce reports.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Are Properties Of Object Oriented Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Inheritance</li>
+<li>Encapsulation of data</li>
+<li>Extensibility of existing data types and classes</li>
+<li>Support for complex data types</li>
+<li>Aggregation</li>
+<li>Association</li>
+</ul></p>
+</li><br><br>

@@ -1,0 +1,422 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What's Mysql ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL (pronounced "my ess cue el") is an open source relational database management system (RDBMS) that uses Structured Query Language (SQL), the most popular language for adding, accessing, and processing data in a database. Because it is open source, anyone can download MySQL and tailor it to their needs in accordance with the general public license. MySQL is noted mainly for its speed, reliability, and flexibility.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Ddl, Dml And Dcl ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you look at the large variety of SQL commands, they can be divided into three large subgroups. Data Definition Language deals with database schemas and descriptions of how the data should reside in the database, therefore language statements like CREATE TABLE or ALTER TABLE belong to DDL. DML deals with data manipulation, and therefore includes most common SQL statements such SELECT, INSERT, etc. Data Control Language includes commands such as GRANT, and mostly concerns with rights, permissions and other controls of the database system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How Do You Get The Number Of Rows Affected By Query?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT COUNT (user_id) FROM users would only return the number of user_id’s.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. If The Value In The Column Is Repeatable, How Do You Find Out The Unique Values?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use DISTINCT in the query, such as SELECT DISTINCT user_firstname FROM users; You can also ask for a number of distinct values by saying SELECT COUNT (DISTINCT user_firstname) FROM users;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How Do You Return The A Hundred Books Starting From 25th?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT book_title FROM books LIMIT 25, 100. The first number in LIMIT is the offset, the second is the number.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. You Wrote A Search Engine That Should Retrieve 10 Results At A Time, But At The Same Time You'd Like To Know How Many Rows There're Total. How Do You Display That To The User?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT SQL_CALC_FOUND_ROWS page_title FROM web_pages LIMIT 1,10; SELECT FOUND_ROWS(); The second query (not that COUNT() is never used) will tell you how many results there’re total, so you can display a phrase "Found 13,450,600 results, displaying 1-10". Note that FOUND_ROWS does not pay attention to the LIMITs you specified and always returns the total number of rows affected by query.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How Would You Write A Query To Select All Teams That Won Either 2, 4, 6 Or 8 Games?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT team_name FROM teams WHERE team_won IN (2, 4, 6, 8)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Would You Select All The Users, Whose Phone Number Is Null?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT user_name FROM users WHERE ISNULL(user_phonenumber);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Does This Query Mean: Select User_name, User_isp From Users Left Join Isps
+Using (user_id) ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It’s equivalent to saying SELECT user_name, user_isp FROM users LEFT JOIN isps WHERE users.user_id=isps.user_id</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do You Find Out Which Auto Increment Was Assigned On The Last Insert?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT LAST_INSERT_ID() will return the last value assigned by the auto_increment function. Note that you don’t have to specify the table name.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Does -i-am-a-dummy Flag To Do When Starting Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Makes the MySQL engine refuse UPDATE and DELETE commands where the WHERE clause is not present.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. On Executing The Delete Statement I Keep Getting The Error About Foreign Key Constraint Failing. What Do I Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>What it means is that so of the data that you’re trying to delete is still alive in another table. Like if you have a table for universities and a table for students, which contains the ID of the university they go to, running a delete on a university table will fail if the students table still contains people enrolled at that university. Proper way to do it would be to delete the offending data first, and then delete the university in question. Quick way would involve running SET foreign_key_checks=0 before the DELETE command, and setting the parameter back to 1 after the DELETE is done. If your foreign key was formulated with ON DELETE CASCADE, the data in dependent tables will be removed automatically.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. When Would You Use Order By In Delete Statement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When you’re not deleting by row ID. Such as in DELETE FROM techpreparation_com_questions ORDER BY timestamp LIMIT 1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How Can You See All Indexes Defined For A Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SHOW INDEX FROM techpreparation_questions;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How Would You Change A Column From Varchar(10) To Varchar(50)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE techpreparation_questions CHANGE techpreparation_content techpreparation_CONTENT VARCHAR(50).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How Would You Delete A Column?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE techpreparation_answers DROP answer_user_id.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How Would You Change A Table To Innodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE techpreparation_questions ENGINE innodb;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. When You Create A Table, And Then Run Show Create Table On It, You Occasionally Get Different Results Than What You Typed In. What Does Mysql Modify In Your Newly Created Tables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>1. VARCHARs with length less than 4 become CHARs<br/>
+2. CHARs with length more than 3 become VARCHARs.<br/>
+3. NOT NULL gets added to the columns declared as PRIMARY KEYs<br/>
+4. Default values such as NULL are specified for each column</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Do I Find Out All Databases Starting With 'tech' To Which I Have Access To?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SHOW DATABASES LIKE ‘tech%’;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How Do You Concatenate Strings In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CONCAT (string1, string2, string3)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. How Do You Get A Portion Of A String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT SUBSTR(title, 1, 10) from techpreparation_questions;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What's The Difference Between Char_length And Length?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The first is, naturally, the character count. The second is byte count. For the Latin characters the numbers are the same, but they’re not the same for Unicode and other encodings.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How Do You Convert A String To Utf-8?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT (techpreparation_question USING utf8);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Do % And _ Mean Inside Like Statement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>% corresponds to 0 or more characters, _ is exactly one character.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Does + Mean In Regexp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>At least one character. Appendix G. Regular Expressions from MySQL manual is worth perusing before the interview.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Do You Get The Month From A Timestamp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT MONTH(techpreparation_timestamp) from techpreparation_questions;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. How Do You Offload The Time/date Handling To Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT DATE_FORMAT(techpreparation_timestamp, ‘%Y-%m-%d’) from techpreparation_questions; A similar TIME_FORMAT function deals with time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How Do You Add Three Minutes To A Date?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ADDDATE(techpreparation_publication_date, INTERVAL 3 MINUTE)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What's The Difference Between Unix Timestamps And Mysql Timestamps?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Internally Unix timestamps are stored as 32-bit integers, while MySQL timestamps are stored in a similar manner, but represented in readable YYYY-MM-DD HH:MM:SS format.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. How Do You Convert Between Unix Timestamps And Mysql Timestamps?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>UNIX_TIMESTAMP converts from MySQL timestamp to Unix timestamp, FROM_UNIXTIME converts from Unix timestamp to MySQL timestamp.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are Enums Used For In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can limit the possible values that go into the table. CREATE TABLE months (month ENUM ‘January’, ‘February’, ‘March’,…); INSERT months VALUES (’April’);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. How Are Enums And Sets Represented Internally?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As unique integers representing the powers of two, due to storage optimizations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. How Do You Start And Stop Mysql On Windows?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>net start MySQL, net stop MySQL</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. How Do You Start Mysql On Linux?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>/etc/init.d/mysql start</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Explain The Difference Between Mysql And Mysql Interfaces In Php?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>mysql is the object-oriented version of mysql library functions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What's The Default Port For Mysql Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>3306 is the default port for MYSQL.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Does Tee Command Do In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>tee followed by a filename turns on MySQL logging to a specified file. It can be stopped by command note.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Can You Save Your Connection Settings To A Conf File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, and name it ~/.my.conf. You might want to change the permissions on the file to 600, so that it’s not readable by others.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Do You Change A Password For An Existing User Via Mysqladmin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>mysqladmin -u root -p password "newpassword"</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Use Mysqldump To Create A Copy Of The Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>mysqldump -h mysqlhost -u username -p mydatabasename &gt; dbdump.sql</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Have You Ever Used Mysql Administrator And Mysql Query Browser?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Describe the tasks you accomplished with these tools.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Are Some Good Ideas Regarding User Security In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is no user without a password. There is no user without a user name. There is no user whose Host column contains % (which here indicates that the user can log in from anywhere in the network or the Internet). There are as few users as possible (in the ideal case only root) who have unrestricted access.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Explain The Difference Between Myisam Static And Myisam Dynamic. ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In MyISAM static all the fields have fixed width. The Dynamic MyISAM table would include fields such as TEXT, BLOB, etc. to accommodate the data types with various lengths. MyISAM Static would be easier to restore in case of corruption, since even though you might lose some data, you know exactly where to look for the beginning of the next record.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Does Myisamchk Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It compressed the MyISAM tables, which reduces their disk usage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Explain Advantages Of Innodb Over Myisam?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Row-level locking, transactions, foreign key constraints and crash recovery.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. Explain Advantages Of Myisam Over Innodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Much more conservative approach to disk space management - each MyISAM table is stored in a separate file, which could be compressed then with myisamchk if needed. With InnoDB the tables are stored in tablespace, and not much further optimization is possible. All data except for TEXT and  BLOB can occupy 8,000 bytes at most. No full text indexing is available for InnoDB. TRhe COUNT(*)s execute slower than in MyISAM due to tablespace complexity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Are Heap Tables In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HEAP tables are in-memory. They are usually used for high-speed temporary storage. No TEXT or<br/>
+BLOB fields are allowed within HEAP tables. You can only use the comparison operators = and &lt;=&gt;. HEAP tables do not support AUTO_INCREMENT. Indexes must be NOT NULL.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. How Do You Control The Max Size Of A Heap Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL config variable max_heap_table_size.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Are Csv Tables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Those are the special tables, data for which is saved into comma-separated values files. They cannot be indexed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Explain Federated Tables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Introduced in MySQL 5.0, federated tables allow access to the tables located on other databases on other servers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Is Serial Data Type In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT</p>
+<p>SERIAL is an alias for BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. What Happens When The Column Is Set To Auto Increment And You Reach The Maximum Value For That Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It stops incrementing. It does not overflow to 0 to prevent data losses, but further inserts are going to produce an error, since the key has been used already.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. Explain The Difference Between Bool, Tinyint And Bit. ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Prior to MySQL 5.0.3: those are all synonyms. After MySQL 5.0.3: BIT data type can store 8 bytes of data and should be used for binary data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Explain The Difference Between Float, Double And Real. ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>FLOATs</strong> store floating point numbers with 8 place accuracy and take up 4 bytes. </p>
+<p><strong>DOUBLEs</strong> store floating point numbers with 16 place accuracy and take up 8 bytes. </p>
+<p><strong>REAL</strong> is a synonym of FLOAT for now.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. If You Specify The Data Type As Decimal (5,2), What's The Range Of Values That Can Go In This Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>999.99 to -99.99. Note that with the negative number the minus sign is considered one of the digits.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. What Happens If A Table Has One Column Defined As Timestamp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>That field gets the current timestamp whenever the row gets altered.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. But What If You Really Want To Store The Timestamp Data, Such As The Publication Date Of The Article?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Create two columns of type TIMESTAMP and use the second one for your real data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Explain Data Type Timestamp Default Current_timestamp On Update
+Current_timestamp ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The column exhibits the same behavior as a single timestamp column in a table with no other timestamp columns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. What Does Timestamp On Update Current_timestamp Data Type Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>On initialization places a zero in that column, on future updates puts the current value of the timestamp in.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Explain Timestamp Default 2006:09:02 17:38:44? On Update Current_timestamp. ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A default value is used on initialization, a current timestamp is inserted on update of the row.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. If I Created A Column With Data Type Varchar(3), What Would I Expect To See In Mysql Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CHAR(3), since MySQL automatically adjusted the data type.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. General Information About Mysql.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL is a very fast, multi-threaded, multi-user, and robust SQL (Structured Query Language) database server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. Why Sql Is A Database Management System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A database is a structured collection of data. It may be anything from a simple shopping list to a picture gallery or the vast amounts of information in a corporate network. To add, access, and process data stored in a computer database, you need a database management system such as MySQL. Since computers are very good at handling large amounts of data, database management plays a central role in computing, as stand-alone utilities, or as parts of other applications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques63"><strong>Question 64. Why Use Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL is very fast, reliable, and easy to use. If that is what you are looking for, you should give it a try. MySQL also has a very practical set of features developed in very close cooperation with our users. You can find a performance comparison of MySQL to some other database managers on our benchmark page. See section 12.7 Using Your Own Benchmarks. MySQL was originally developed to handle very large databases much faster than existing solutions and has been successfully used in highly demanding production environments for several years. Though under constant development,  MySQL today offers a rich and very useful set of functions. The connectivity, speed, and security make MySQL highly suited for accessing databases on the Internet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques64"><strong>Question 65. How Mysql Optimizes Distinct ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DISTINCT is converted to a GROUP BY on all columns, DISTINCT combined with ORDER BY will in many cases also need a temporary table.</p>
+<p>When combining LIMIT # with DISTINCT, MySQL will stop as soon as it finds # unique rows.</p>
+<p>If you don't use columns from all used tables, MySQL will stop the scanning of the not used tables as soon as it has found the first match.</p>
+<pre>
+SELECT DISTINCT t1.a FROM t1,t2 where t1.a=t2.a;</pre>
+<p>In the case, assuming t1 is used before t2 (check with EXPLAIN), then MySQL will stop reading from t2 (for that particular row in t1) when the first row in t2 is found.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques65"><strong>Question 66. How Mysql Optimizes Limit ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In some cases MySQL will handle the query differently when you are using LIMIT # and not using HAVING:</p>
+<p>If you are selecting only a few rows with LIMIT, MySQL will use indexes in some cases when it normally would prefer to do a full table scan.</p>
+<p>If you use LIMIT # with ORDER BY, MySQL will end the sorting as soon as it has found the first # lines instead of sorting the whole table.</p>
+<p>When combining LIMIT # with DISTINCT, MySQL will stop as soon as it finds # unique rows.</p>
+<p>In some cases a GROUP BY can be resolved by reading the key in order (or do a sort on the key) and then calculate summaries until the key value changes. In this case LIMIT # will not calculate any unnecessary GROUP BY's.</p>
+<p>As soon as MySQL has sent the first # rows to the client, it will abort the query.</p>
+<p>LIMIT 0 will always quickly return an empty set. This is useful to check the query and to get the column types of the result columns.</p>
+<p>The size of temporary tables uses the LIMIT # to calculate how much space is needed to resolve the query.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques66"><strong>Question 67. Mysql - Speed Of Delete Queries ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to delete all rows in the table, you should use TRUNCATE TABLE table_name. The time to delete a record is exactly proportional to the number of indexes. To delete records more quickly, you can increase the size of the index cache.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques67"><strong>Question 68. What Is The Difference Between Mysql_fetch_array And Mysql_fetch_object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>mysql_fetch_array — Fetch a result row as an associative ARRAY, a numeric array, or both<br/>
+mysql_fetch_object — Fetch a result row as an OBJECT.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques68"><strong>Question 69. What Are The Different Table Present In Mysql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>MyISAM :</strong> This is default. Based on Indexed Sequntial Access Method. The above SQL will create a MyISA table.</p>
+<p><strong>ISAM :</strong> same</p>
+<p><strong>HEAP :</strong> Fast data access, but will loose data if there is a crash. Cannot have BLOB, TEXT &amp; AUTO INCRIMENT fields</p>
+<p><strong>BDB :</strong> Supports Transactions using COMMIT &amp; ROLLBACK. Slower that others.</p>
+<p><strong>InoDB :</strong> same as BDB</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques69"><strong>Question 70. What Is Primary Key? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A primary key is a single column or multiple columns defined to have unique values that can be used as row identifications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques70"><strong>Question 71. What Is Foreign Key? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A foreign key is a single column or multiple columns defined to have values that can be mapped to a primary key in another table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques71"><strong>Question 72. What Is Index? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An index is a single column or multiple columns defined to have values pre-sorted to speed up data retrieval speed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques72"><strong>Question 73. What Is Join? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Join is data retrieval operation that combines rows from multiple tables under certain matching conditions to form a single row.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques73"><strong>Question 74. What Is Union? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Join is data retrieval operation that combines  multiple query outputs of the same structure into a single output. By default  the MySQL UNION removes all duplicate rows from the result set even if you  don’t explicit using DISTINCT after the keyword UNION.</p>
+<pre>
+SELECT customerNumber id, contactLastname name
+FROM customers
+UNION</pre>
+<pre>
+SELECT employeeNurrber id, firstname name
+FROM employees</pre>
+<p><strong>id name </strong></p>
+<p>103 Schmitt <br/>
+112 King <br/>
+114 Ferguson <br/>
+119 Labrune <br/>
+121 Bergulfsen</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques74"><strong>Question 75. What Is Isam? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ISAM (Indexed Sequential Access Method) was developed by IBM to store and retrieve data on secondary storage systems like tapes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques75"><strong>Question 76. What Is Innodb? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>lnnoDB is a transaction safe storage engine developed by Innobase Oy (an Oracle company now).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques76"><strong>Question 77. What Is Bdb (berkeleydb)? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BDB (BerkeleyDB) is transaction safe storage engine originally developed at U.C. Berkeley. It is now developed by Sleepycat Software, Inc. (an Oracle company now).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques77"><strong>Question 78. What Is Csv? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSV (Comma Separated Values) is a file format used to store database table contents, where one table row is stored as one line in the file, and each data field is separated with comma.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques78"><strong>Question 79. What Is Transaction? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A transaction is a logical unit of work requested by a user to be applied to the database objects. MySQL server introduces the transaction concept to allow users to group one or more SQL statements into a single transaction, so that the effects of all the SQL statements in a transaction can be either all committed (applied to the database) or all rolled back (undone from the database).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques79"><strong>Question 80. What Is Commit? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Commit is a way to terminate a transaction with all database changes to be saved permanently to the database server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques80"><strong>Question 81. What Is Rollback? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Rollback is a way to terminate a transaction with all database changes not saving to the database server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques81"><strong>Question 82. How Many Groups Of Data Types? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MySQL support 3 groups of data types as listed below:</p>
+<p><em><strong>String Data Types</strong></em> - CHAR, NCHAR, VARCHAR, NVARCHAR, BINARY, VARBINARY, TINYBLOB, TINYTEXT,  BLOB, TEXT, MEDIUMBLOB, MEDIUMTEXT, LONGBLOB, LONGTEXT, ENUM, SET.</p>
+<p><em><strong>Numeric Data Types</strong></em> - BIT, TINYINT, BOOLEAN, SMALLINT, MEDIUMINT, INTEGER, BIGINT, FLOAT,  DOUBLE, REAL, DECIMAL.</p>
+<p><em><strong>Date and Time Data Types</strong></em> - DATE, DATETIME, TIMESTAMP, TIME, YEAR.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques82"><strong>Question 83. What Is The Differences Between Char And Nchar? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both CHAR and NCHAR are fixed length string data types. But they have the following differences:</p>
+<ul>
+<li>CHARs full name is CHARACTER.</li>
+<li>NCHARs full name is NATIONAL CHARACTER.</li>
+<li>By default, CHAR uses ASCII character set. So 1 character is always stored as 1 byte.</li>
+<li>By default, NCHAR uses Unicode character set. NCHAR data are stored in UTF8 format. So 1 character  could be stored as 1 byte or upto 4 bytes.</li>
+<li>Both CHAR and NCHAR columns are defined with fixed lengths in units of characters.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques83"><strong>Question 84. How To Escape Special Characters In Sql Statements? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are a number of special characters that  needs to be escaped (protected), if you want to include them in a character  string. Here are some basic character escaping rules:</p>
+<ul>
+<li>The escape character () needs to be escaped as (\).</li>
+<li>The single quote (‘) needs to be escaped as (‘) or (“) in single-quote quoted  strings.</li>
+<li>The double quote () needs to be escaped as (“) or (““) in double-quote quoted  strings.</li>
+<li>The wild card character for a single character () needs to be escaped as (_).</li>
+<li>The wild card character for  multiple characters (%) needs to be escaped as (%).</li>
+<li>The tab character needs to be escaped as (t).</li>
+<li>The new line character needs to be escaped as (n).</li>
+<li>The carriage return character needs to be escaped as (r).</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques84"><strong>Question 85. How To Concatenate Two Character Strings? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want concatenate multiple character strings into one, you need to use the CONCAT() function. Here are some good examples:</p>
+<pre>SELECT CONCAT(’Welcome’,’ to’) FROM DUAL;
+Welcome to
+SELECT CONCAT(wj’,’center’,’.com’) FROM DUAL;
+wisdomjobs.com</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques85"><strong>Question 86. How To Enter Characters As Hex Numbers? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to enter characters as HEX numbers, you can quote HEX numbers with single quotes and a prefix of (X), or just prefix HEX numbers with (Ox). A HEX number string will be automatically converted into a character string, if the expression context is a string. Here are some good examples:</p>
+<pre>
+SELECT X313233’ FROM DUAL;
+123
+SELECT 0x414243 FROM DUAL;
+ABC</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques86"><strong>Question 87. How To Enter Boolean Values In Sql Statements? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to enter Boolean values in SQL statements, you use (TRUE), (FALSE), (true), or (false). Here are some good examples:</p>
+<pre>SELECT TRUE, true, FALSE, false FROM DUAL;</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques87"><strong>Question 88. How To Convert Numeric Values To Character Strings? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can convert numeric values to character strings by using the CAST(value AS CHAR) function as shown in the following examples:</p>
+<pre>
+SELECT CAST(4123.45700 AS CHAR) FROM DUAL;
+4123.45700</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques88"><strong>Question 89. How To Get Rid Of The Last 2 0's? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SELECT CAST(4.12345700E+3 AS CHAR) FROM DUAL; <br/>
+4123.457 <br/>
+SELECT CAST(1/3 AS CHAR); <br/>
+0.3333</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques89"><strong>Question 90. How To Use In Conditions? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An IN condition is single value again a list of values. It returns TRUE, if the specified value is in the list.  Otherwise, it returns FALSE. Some examples are :</p>
+<pre>
+SELECT 3 IN (1,2,3,4,5) FROM DUAL;
+1
+SELECT 3 NOT IN (1,2,3,4,5) FROM DUAL;
+0
+SELECT Y’ IN (‘F’,’Y’,I) FROM DUAL; 
+1</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques90"><strong>Question 91. How To Use Like Conditions? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A LIKE condition is also called pattern patch. There are 3 main rules on using LIKE condition:</p>
+<ul>
+<li>is used in the pattern to match any one character.</li>
+<li>% is used in the pattern to match any zero or more characters.</li>
+<li>ESCAPE clause is used to provide the escape character in the pattern.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques91"><strong>Question 92. How To Present A Past Time In Hours, Minutes And Seconds? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want show an article was posted “n hours n minutes and n seconds ago’, you can use the TIMEDIFF(NOWO, pastTime) function as shown in the following are:</p>
+<pre>
+SELECT TIMEDIFF(NOWO, ‘2006-07-01 04:09:49’) FROM DUAL;
+06:42:58</pre>
+<pre>
+SELECT TIM E_FORMAT(TI M EDI FF( NOWO, ‘2006-06-30 04:09:49’), 
+ ‘%H hours, %i minutes and %s seconds ago.’) FROM DUAL;
+30 hours, 45 minutes and 22 seconds ago.</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques92"><strong>Question 93. How To Add A New Column To An Existing Table In Mysql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE tip ADD COLUMN author VARCHAR(40); <br/>
+Query OK, 1 row affected (0.18 sec) <br/>
+Records: 1 Duplicates: 0 Warnings: 0</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques93"><strong>Question 94. How To Delete An Existing Column In A Table? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE tip DROP COLUMN create_date; <br/>
+Query OK, 1 row affected (0.48 sec) <br/>
+Records: 1 Duplicates: 0 Warnings: 0</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques94"><strong>Question 95. How To Rename An Existing Column In A Table? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE tip CHANGE COLUMN subject  title VARCHAR(60);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques95"><strong>Question 96. How To Rename An Existing Table In Mysql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ALTER TABLE tip RENAME TO faq;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques96"><strong>Question 97. How To Create A Table Index In Mvsql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a table with a lots of rows, and you know that one of the columns will be used often as a search criteria, you can add an index for that column to improve the search performance. To add an index, you can use the “CREATE INDEX” statement as shown in the following script:</p>
+<pre>
+&lt;pre&gt;mysql&gt; CREATE TABLE tip (id INTEGER PRIMARY KEY,
+subject VARCHAR(80) NOT NULL, 
+description VARCHAR(256) NOT NULL, 
+create_date DATE NULL);  Query OK, 
+0 rows affected (0.08 sec)&lt;/pre&gt;</pre>
+<pre>
+mysql&gt; CREATE INDEX tip_subject ON tip(subject);
+Query OK,
+0 rows affected (0.19 sec)
+Records: 0 Duplicates: 0 Warnings: 0</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques97"><strong>Question 98. How To Get A List Of Indexes Of An Existing Table? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want to see the index you have just created for an existing table, you can use the “SHOW INDEX FROM tableName” command to get a list of all indexes in a given table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques98"><strong>Question 99. How To Drop An Existing Index In Mysql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you don’t need an existing index any more,  you should delete it with the “DROP INDEX indexName ON tableName” statement.  Here is an example SQL script : </p>
+<pre>
+mysqi&gt; DROP INDEX tip_subject ON tip;
+Query OK, 0 rows affected (0.13 sec)
+Records: 0 Duplicates: 0 Warnings: 0</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques99"><strong>Question 100. How To Drop An Existing View In Mysql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have an existing view, and you dont want it anymore, you can delete it by using the “DROP VIEW viewName” statement</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques100"><strong>Question 101. How To Create A New View In Mysql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can create a new view based on one or more existing tables by using the</p>
+<p>“CREATE VIEW viewName AS selectStatement” .</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques101"><strong>Question 102. How To Increment Dates By 1111 Mysql? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you have a date, and you want to increment it by 1 day, you can use the DATE_ADD(date, INTERVAL 1 DAY) function. You can also use the date interval add operation as “date + INTERVAL 1 DAY.</p></p>
+</li><br><br>

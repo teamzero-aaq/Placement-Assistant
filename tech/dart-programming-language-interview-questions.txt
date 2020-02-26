@@ -1,0 +1,203 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Dart is an application programming language. It is used to build web, server and mobile applications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Who Is The Developer Of Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Google is the developer of Dart.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How To Create A Simple Program?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The following code for simple program:</strong></p>
+<p>main() {   </p>
+<p>   print("Hello World!");   </p>
+<p>}  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are The Ways To Execute Dart Program?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are two ways to execute Dart program:</strong></p>
+<ul>
+<li>Via the terminal.</li>
+<li>Via the WebStrom IDE.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Is Dirt Is Case Sensitive Programming Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, Dirt is case sensitive programming language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Data Types In Dart Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are following data types in Dart language:</strong></p>
+<ul>
+<li>Numbers</li>
+<li>Strings</li>
+<li>Booleans</li>
+<li>Lists</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Type-checking In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, type-checking is used to check that a variable hold only specific to a data type.</p>
+<p>-----------------------------------------------------------------  </p>
+<p>String name = 'Smith';   </p>
+<p>int num = 10;  </p>
+<p>----------------------------------------------------------------  </p>
+<p>void main() {   </p>
+<p>   String name = 1; // variable Not Match  </p>
+<p>}  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Are Various String Functions In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are given various string functions:</strong></p>
+<p>String Methods---&gt;Description</p>
+<p><strong>toLowerCase():</strong>It converts all string characters in to lower case.</p>
+<p><strong>toUpperCase():</strong>It converts all string characters in this to upper case.</p>
+<p><strong>trim():</strong>It returns the string without any whitespace.</p>
+<p><strong>compareTo():</strong>It compares this object to another.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are The Types Of List In Dirt?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are two types of list in Dirt that are given below:</strong></p>
+<p><strong>Fixed Length List :</strong> (length fixed)</p>
+<p><strong>Growable List:</strong> (Length can change at runtime.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Syntax For Declare The Map Using A Map Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Map declaration syntax is:</strong></p>
+<p>var identifier = new Map()  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Rune In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, rune is an integer representing Unicode code point.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Does Dart Has A Syntax For Declaring Interfaces?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, Dart has not syntax for declaring interface.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Lambda Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Lambda function is a concise mechanism to represent functions. These functions are known as Arrow functions.</p>
+<p><strong>Example:</strong></p>
+<p>void main() {   </p>
+<p>   printMsg();   </p>
+<p>   print(test());   </p>
+<p>}    </p>
+<p>printMsg()=&gt;  </p>
+<p>print("hello");   </p>
+<p>int test()=&gt;123;                         </p>
+<p>// returning function  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is The Use Of This Keyword In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, this keyword refers to the current instance of the class.</p>
+<p>void main() {   </p>
+<p>   Car c1 = new Car('E1001');   </p>
+<p>}    </p>
+<p>class Car {   </p>
+<p>   String engine;   </p>
+<p>   Car(String engine) {   </p>
+<p>      this.engine = engine;   </p>
+<p>      print("The engine is : ");   </p>
+<p>   }   </p>
+<p>}     </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are Getters And Setters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Getters and Setters allow the program to initialize and retrieve the value of class fields. It is also known as accessors and mutators.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Which Command Is Used To Compile Dart Into Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The following command is used to compile Dart into JavaScript:</strong></p>
+<p>dart2js - - out=&lt;output_file&gt;.js  &lt;dart_script&gt;.dart </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Does Dart Support Comment?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Yes, Dart supports comment. There are two types of comment:</strong></p>
+<ul>
+<li>Single-line comments( // )</li>
+<li>Multi-line comments ( /**/ )</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are The Various Types Of Operators In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>In Dart, there are various types of operators:</strong></p>
+<ul>
+<li>Arithmetic Operators</li>
+<li>Equality and Relational Operators</li>
+<li>Type test Operators</li>
+<li>Bitwise Operators</li>
+<li>Assignment Operators</li>
+<li>Logical Operators</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is The Use Of Truncate Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Truncate method is used to return an integer after discarding any fractions digits.</p>
+<p><strong>Example:</strong></p>
+<p>void main() {   </p>
+<p>   double n1 = 2.123;   </p>
+<p>   var value = n1.truncate();   </p>
+<p>   print("The truncated value of 2.123 = ");   </p>
+<p>}   </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The File Extension Of Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The file extension of Dart is .Dart.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are The Various Methods To Manipulate Strings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are various methods to manipulate string that are given in table:</strong></p>
+<p>String Methods---&gt;Description</p>
+<p><strong>toLowerCase():</strong>It converts all the string character into lower case.</p>
+<p><strong>toUpperCase():</strong>It converts all the string character into upper case.</p>
+<p><strong>trim():</strong>It returns the string without any leading and trailing whitespace.</p>
+<p><strong>compareTo():</strong>It compare objects to another objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Does Dart Have Syntax To Declare Interface?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, Class declarations are themselves interfaces in Dart.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Syntax To Declare Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The following is the syntax to declare class:</strong></p>
+<p>class class_name {    </p>
+<p>   &lt;fields&gt;   </p>
+<p>   &lt;getters/setters&gt;   </p>
+<p>   &lt;constructors&gt;   </p>
+<p>   &lt;functions&gt;   </p>
+<p>}  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How To Create An Example Of This Keyword In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, the following code is used to create an example of this keyword.</p>
+<p>void main() {   </p>
+<p>   Car c1 = new Car('M2001');   </p>
+<p>}    </p>
+<p>class Car {   </p>
+<p>   String engine;   </p>
+<p>   Car(String engine) {   </p>
+<p>      this.engine = engine;   </p>
+<p>      print("The engine is : ");   </p>
+<p>   }   </p>
+<p>}   </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Are Getters And Setters In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, Getters and Setters is also known as accessors and mutators. It allows the program to initialize and retrieve the values of class fields.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is Method Overriding In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, Method Overriding is a technique that child class redefines a method in its parent class.</p>
+<p><strong>Example:</strong></p>
+<p>void main() {   </p>
+<p>   Child c = new Child();   </p>
+<p>   c.m1(12);   </p>
+<p>}   </p>
+<p>class Parent {   </p>
+<p>   void m1(int a){ print("value of a ");}   </p>
+<p>}    </p>
+<p>class Child extends Parent {   </p>
+<p>   @override   </p>
+<p>   void m1(int b) {   </p>
+<p>      print("value of b ");   </p>
+<p>   }   </p>
+<p>}  </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is Pub In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, pub is a tool for manage Dart packages.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Syntax To Handle An Exception?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The following syntax is used to handle an exceptions:</strong></p>
+<p>try {   </p>
+<p>   // code that might throw an exception   </p>
+<p>}    </p>
+<p>on Exception1 {   </p>
+<p>   // code for handling exception   </p>
+<p>}    </p>
+<p>catch Exception2 {   </p>
+<p>   // code for handling exception   </p>
+<p>}   </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Which Editor Is Used To Enables Breakpoint And Step By Step Debugging?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>WebStorm editor is used to enables breakpoint and step by step debugging.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Typedef In Dart?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Dart, A typedef (Or function types alias) helps to define pointer to execute code within memory.</p>
+<p><strong>Syntax:</strong></p>
+<p>typedef function_name(parameters) </p></p>
+</li><br><br>

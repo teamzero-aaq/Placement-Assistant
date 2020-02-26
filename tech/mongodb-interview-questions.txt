@@ -1,0 +1,171 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Are Nosql Databases? What Are The Different Types Of Nosql Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases (like SQL, Oracle, etc.).</p>
+<p><strong>Types of NoSQL databases:</strong></p>
+<ul>
+<li>Document Oriented</li>
+<li>Key Value</li>
+<li>Graph</li>
+<li>Column Oriented</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Kind Of Nosql Database Mongodb Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MongoDB is a document oriented database. It stores data in the form of BSON structure based documents. These documents are stored in a collection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Which Are The Most Important Features Of Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Flexible data model in form of documents</li>
+<li>Agile and highly scalable database</li>
+<li>Faster than traditional databases</li>
+<li>Expressive query language</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is A Namespace In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Namespace is the concatenation of the database name and collection name. For e.g. school.students with school as the database and students as the collection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Which All Languages Can Be Used With Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Currently, MonggoDB provides official driver support for C, C++, C#, Java, Node.js, Perl, PHP, Python, Ruby, Scala, Go and Erlang. MongoDB can easily be used with any of these languages. There are some other community supported drivers too but the above mentioned ones are officially provided by MongoDB.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Compare Sql Databases And Mongodb At A High Level.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL databases store data in form of tables, rows, columns and records. This data is stored in a pre-defined data model which is not very much flexible for today's real-world highly growing applications. MongoDB in contrast uses a flexible structure which can be easily modified and extended.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How Is Mongodb Better Than Other Sql Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MongoDB allows a highly flexible and scalable document structure. For e.g. one data document in MongoDB can have five columns and the other one in the same collection can have ten columns. Also, MongoDB database are faster as compared to SQL databases due to efficient indexing and storage techniques.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Compare Mongodb And Couchdb At High Level.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Although both of these databases are document oriented, MongoDB is a better choice for applications which need dynamic queries and good performance on a very big database. On the other side, CouchDB is better used for applications with occasionally changing queries and pre-defined queries.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Does Mongodb Support Foreign Key Constraints?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. MongoDB does not support such relationships.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Does Mongodb Support Acid Transaction Management And Locking Functionalities?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. MongoDB does not support default multi-document ACID transactions. However, MongoDB provides atomic operation on a single document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. How Can You Achieve Primary Key - Foreign Key Relationships In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By default MongoDB does not support such primary key - foreign key relationships. However, we can achieve this concept by embedding one document inside another. Foe e.g. an address document can be embedded inside customer document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Does Mongodb Need A Lot Of Ram?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. MongoDB can be run even on a small amount of RAM. MongoDB dynamically allocates and de-allocates RAM based on the requirements of other processes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Does Mongodb Pushes The Writes To Disk Immediately Or Lazily?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MongoDB pushes the data to disk lazily. It updates the immediately written to the journal but writing the data from journal to disk happens lazily.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain The Structure Of Objectid In Mongodb.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>ObjectID is a 12-byte BSON type with:</strong></p>
+<ul>
+<li>4 bytes value representing seconds</li>
+<li>3 byte machine identifier</li>
+<li>2 byte process id</li>
+<li>3 byte counter</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Mongodb Uses Bson To Represent Document Structures. True Or False?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>True</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. If You Remove A Document From Database, Does Mongodb Remove It From Disk?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Removing a document from database removes it from disk too.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Mention The Command To Insert A Document In A Database Called School And Collection Called Persons.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>use school;<br/>db.persons.insert( { name: "kadhir", dept: "CSE" } )</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are Indexes In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Indexes support the efficient execution of queries in MongoDB. Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement. If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Many Indexes Does Mongodb Create By Default For A New Collection?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By default, MongoDB created the _id collection for every collection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Can You Create An Index On An Array Field In Mongodb? If Yes, What Happens In This Case?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. An array field can be indexed in MongoDB. In this case, MongoDB would index each value of the array.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is A Covered Query In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>A covered query is the one in which:</strong></p>
+<p>fields used in the query are part of an index used in the query, and the fields returned in the results are in the same index.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Why Is A Covered Query Important?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Since all the fields are covered in the index itself, MongoDB can match the query condition as well as return the result fields using the same index without looking inside the documents. Since indexes are stored in RAM or sequentially located on disk, such access is a lot faster.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Does Mongodb Provide A Facility To Do Text Searches? How?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. MongoDB supports creating text indexes to support text search inside string content. This was a new feature which can introduced in version 2.6.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Happens If An Index Does Not Fit Into Ram?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the indexes do not fit into RAM, MongoDB reads data from disk which is relatively very much slower than reading from RAM.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Mention The Command To List All The Indexes On A Particular Collection.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>db.collection.getIndexes()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. At What Interval Does Mongodb Write Updates To The Disk?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By default configuration, MongoDB writes updates to the disk every 60 seconds. However, this is configurable with the commitIntervalMs and syncPeriodSecs options.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. How Can You Achieve Transaction And Locking In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To achieve concepts of transaction and locking in MongoDB, we can use the nesting of documents, also called embedded documents. MongoDB supports atomic operations within a single document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is Aggregation In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Aggregations operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. MongoDB provides three ways to perform aggregation: the aggregation pipeline, the map-reduce function, and single purpose aggregation methods and commands.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is Sharding In Mongodb? Explain.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sharding is a method for storing data across multiple machines. MongoDB uses sharding to support deployments with very large data sets and high throughput operations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Replication In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Replication is the process of synchronizing data across multiple servers. Replication provides redundancy and increases data availability. With multiple copies of data on different database servers, replication protects a database from the loss of a single server. Replication also allows you to recover from hardware failure and service interruptions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are Primary And Secondary Replica Sets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Primary and master nodes are the nodes that can accept writes. MongoDB's replication is 'single-master:' only one node can accept write operations at a time.</p>
+<p>Secondary and slave nodes are read-only nodes that replicate from the primary.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. By Default, Mongodb Writes And Reads Data From Both Primary And Secondary Replica Sets. True Or False.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>False. MongoDB writes data only to the primary replica set.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Why Are Mongodb Data Files Large In Size?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MongoDB preallocate data files to reserve space and avoid file system fragmentation when you setup the server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. When Should We Embed One Document Within Another In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>You should consider embedding documents for:</strong></p>
+<ul>
+<li>'contains' relationships between entities</li>
+<li>One-to-many relationships</li>
+<li>Performance reasons</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Why Mongodb Is Not Preferred Over A 32-bit System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When running a 32-bit build of MongoDB, the total storage size for the server, including data and indexes, is 2 gigabytes. For this reason, do not deploy MongoDB to production on 32-bit machines.<br/>If you're running a 64-bit build of MongoDB, there's virtually no limit to storage size.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is A Storage Engine In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A storage engine is the part of a database that is responsible for managing how data is stored on disk. For example, one storage engine might offer better performance for read-heavy workloads, and another might support a higher-throughput for write operations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Which Are The Two Storage Engines Used By Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MongoDB uses MMAPv1 and WiredTiger.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is The Role Of A Profiler In Mongodb? Where Does The Writes All The Data?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The database profiler collects fine grained data about MongoDB write operations, cursors, database commands on a running mongod instance. You can enable profiling on a per-database or per-instance basis.</p>
+<p>The database profiler writes all the data it collects to the system.profile collection, which is a capped collection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Does Journaling Work In Mongodb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When running with journaling, MongoDB stores and applies write operations in memory and in the on-disk journal before the changes are present in the data files on disk. Writes to the journal are atomic, ensuring the consistency of the on-disk journal files. With journaling enabled, MongoDB creates a journal subdirectory within the directory defined by dbPath, which is /data/db by default.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Mention The Command To Check Whether You Are On The Master Server Or Not.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>db.isMaster()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Can You Configure The Cache Size For Mmapv1? How?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. MMAPv1 does not allow configuring the cache size.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. How Does Mongodb Provide Concurrency?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MongoDB uses reader-writer locks that allow concurrent readers shared access to a resource, such as a database or collection, but give exclusive access to a single write operation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. How Can You Isolate Your Cursors From Intervening With The Write Operations?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use the snapshot() method on a cursor to isolate the operation for a very specific case. snapshot() traverses the index on the _id field and guarantees that the query will return each document no more than once.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Can One Mongodb Operation Lock More Than One Databases? If Yes, How?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Operations like copyDatabase(), repairDatabase(), etc. can lock more than onne databases involved.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. How Can Concurrency Affect Replica Sets Primary?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In replication, when MongoDB writes to a collection on the primary, MongoDB also writes to the primary's oplog, which is a special collection in the local database. Therefore, MongoDB must lock both the collection's database and the local database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is Gridfs?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>GridFS is a specification for storing and retrieving files that exceed the BSON-document size limit of 16MB. Instead of storing a file in a single document, GridFS divides a file into parts, or chunks, and stores each of those chunks as a separate document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Can You Run Multiple Javascript Operations In A Single Mongod Instance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. The V8 JavaScript engine added in 2.4 allows multiple JavaScript operations to run at the same time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Which Command Can Be Used To Provide Various Information On The Query Plans Used By A Mongodb Query?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The explain() command can be used for this information. The possible modes are: 'queryPlanner', 'executionStats', and 'allPlansExecution'.</p></p>
+</li><br><br>

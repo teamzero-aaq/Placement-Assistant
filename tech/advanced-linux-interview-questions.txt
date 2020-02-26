@@ -1,0 +1,82 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is The Difference Between Ctrl-c And Ctrl-z?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>When you have a process in progress which handle your prompt, there are some signals (orders) that we can send to theses process to indicate what we need:</strong></p>
+<p><strong>Control+C</strong> sends SIGINT which will interrupt the application. Usually causing it to abort, but a process is able to intercept this signal and do whatever it likes: for instance, from your Bash prompt, try hitting Ctrl-C. In Bash, it just cancels whatever you've typed and gives you a blank prompt (as opposed to quitting Bash)</p>
+<p><strong>Control+Z</strong> sends SIGTSTP to a foreground application, effectively putting it in the background on suspended mode. This is very useful when you want the application to continue its process while you are doing another job in the current shell. When you finish the job, you can go back into the application by running fg (or %x where x is the job number as shown in jobs).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. I Want To Troubleshoot My Network But I Don’t Know How Does The Traceroute Command Work Exactly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Traceroute is a program that shows you the route taken by packets through a network. It traces the route of packets from source to destination. It is commonly used when your network doesn’t work as well and you want to examine where can be the problem. Traceroute sends a UDP packet to the destination taking advantage of ICMP’s messages. ICMP has two types of messages: error-reporting messages and query messages. Query messages are generally used to diagnose network problems (the ping tool uses ICMP’s query messages). The error-reporting messages as the name suggest report errors if any in the IP packet; it uses Destination unreachable and Time exceeded errors message. It works by theses steps:</p>
+<ol>
+<li>Traceroute creates a UDP packet from the source to destination with a TTL(Time-to-live) = 1</li>
+<li>The UDP packet reaches the first router where the router decrements the value of TTL by 1, thus making our UDP packet’s TTL = 0 and hence the packet gets dropped.</li>
+<li>Noticing that the packet got dropped, it sends an ICMP message (Time exceeded) back to the source.</li>
+<li>Traceroute makes a note of the router’s address and the time taken for the round-trip.</li>
+<li>It sends two more packets in the same way to get an average value of the round-trip time. Usually, the first round-trip takes longer than the other two due to the delay in ARP finding the physical address, the address stays in the ARP cache during the second and the third time and hence the process speeds up.</li>
+<li>The steps that have occurred up til now, occur again and again until the destination has been reached. The only change that happens is that the TTL is incremented by 1 when the UDP packet is to be sent to next router/host.</li>
+<li>Once the destination is reached, Time exceeded ICMP message is NOT sent back this time because the destination has already been reached.</li>
+<li>But, the UDP packet used by Traceroute specifies the destination port number to be one that is not usually used for UDP. Hence, when the destination computer verifies the headers of the UDP packet, the packet gets dropped due to the improper port being used and an ICMP message (this time – Destination Unreachable) is sent back to the source.</li>
+<li>When Traceroute encounters this message, it understands that the destination has been reached. Even the destination is reached 3 times to get the average of the round-trip time.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Nscd Sometimes Die Itself And Dns Resolving Doesn't Happen Properly. How Can We Avoid Nscd For Dns And There Is A Disadvantage To Bypass It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>nscd is a daemon that provides a cache for the most common name service requests. When resolving a user, group, host, service..., the process will first try to connect to the nscd socket (something like /var/run/nscd/socket).</p>
+<p>If nscd has died, the connect will fail, and so nscd won't be used and that should not be a problem.</p>
+<p>If it's in a hung state, then the connect may hang or succeed. If it succeeds the client will send its request (give IP address for www.google.com, passwd entries...). Now, you can configure nscd to disable caching for any type of database (for instance by having enable-cache hosts no in /etc/nscd.conf for the hosts database).</p>
+<p>However, if nscd is in a hung state, it may not be able to even give that simple won't do answer, so that won't necessarily help. nscd is a caching daemon, it's meant to improve performance. Disabling it would potentially make those lookups slower. However, that's only true for some kind of databases. For instance, if user/service/group databases are only in small files (/etc/passwd, /etc/group, /etc/services), then using nscd for those will probably bring little benefit if any. nscd will be useful for the hosts database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Can I Redirect Both Stderr And Stdin At Once?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>command &gt; file.log 2&gt;&amp;1 :</strong> Redirect stderr to "where stdout is currently going". In this case, that is a file opened in append mode. In other words, the &amp;1 reuses the file descriptor which stdout currently uses.</p>
+<p><strong>command 2&gt;&amp;1 | tee -a file.txt</strong></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is The Difference Between /dev/random And /dev/urandom To Generate Random Data?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Random Number Generator gathers environmental noise from device drivers and other sources into entropy pool. It also keeps an estimate of Number of bits of noise in entropy pool. It is from this entropy pool, random numbers are generated.</p>
+<p>/dev/random will only return Random bytes from entropy pool. If entropy pool is empty, reads to /dev/random will be blocked until additional environmental noise is gathered. This is suited to high-quality randomnesses, such as one-time pad or key generation.</p>
+<p>/dev/urandom will return as many random bytes as requested. But if the entropy pool is empty, it will generate data using SHA, MD5 or any other algorithm. It never blocks the operation. Due to this, the values are vulnerable to theoretical cryptographic attack, though no known methods exist.</p>
+<p>For cryptographic purposes, you should really use /dev/random because of nature of data it returns. Possible waiting should be considered as an acceptable tradeoff for the sake of security, IMO. When you need random data fast, you should use /dev/urandom of course.</p>
+<p>Both /dev/urandom and /dev/random are using the exact same CSPRNG (a cryptographically secure pseudorandom number generator). They only differ in very few ways that have nothing to do with “true” randomness and /dev/urandom is the preferred source of cryptographic randomness on UNIX-like systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is The Difference Between Tar And Zip ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sometimes sysadmins Linux need to save data safety and to this, it is recommended to compress the data. We have some methods or commands for compression on Linux. So frequently asked questions could be why should I use this command instead of another one example, why should I use tar instead of zip. To answer this, you should know the difference between the two.</p>
+<p>tar is only an archiver whereas zip is an archiver and compressor. Tar uses gzip and bzip2 to achieve compression. With using tar command, we preserve metadata information of file and directories like seiuid, setgid and sticky bit information which are very important while zip doesn't preserve theses information. It is very important for criticals information. Other advantages of using tar is the fact that it assembles all the files into a single file to compress directly while zip compress file by file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How To Check Open Ports On A Remote Server Without Netcat Or Nmap Linux Command?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In the work of sysadmin, we can sometimes want to check open ports on our remote server. But if we are on a machine where can not install nmap or we don't have the possibility to install a tool which can help us to check open ports, what could we do?</p>
+<p>We can check it with bash using /dev/tcp or /dev/udp to open a TCP or UDP connection to the associated socket.</p>
+<p><strong>The command behavior is:</strong></p>
+<p>$ echo &gt; /dev/tcp/$host/$port</p>
+<p>we can associate a message to display if the port is opened</p>
+<p>$ echo &gt; /etc/tcp/8.8.8.8/53 &amp;&amp; echo "OPEN PORT" </p>
+<p>OPEN PORT</p>
+<p>$ echo &gt; /dev/tcp/8.8.8.8/80 &amp;&amp; echo "GOOD" || echo "NOT OPEN"</p>
+<p>-bash: connect: Connection timed out</p>
+<p>-bash: /dev/tcp/8.8.8.8/80: Connection timed out</p>
+<p>NOT OPEN</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Systemd Over Init System, What Do You Think?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Systemd is well designed. It was conceived from the top, not just to fix bugs, but to be a correct implementation of the base system services. A systemd, may refer to all the packages, utilities and libraries around daemon. It was designed to overcome the shortcomings of init. It itself is a background process which is designed to start processes in parallel, thus reducing the boot time and computational overhead. It has a lot other features as compared to init while Sysvinit was never designed to cope with the dynamic/event-based architecture of the current Linux kernel. The only reason why we still use it today is the cost of a migration.  </p>
+<p>Systemd ships a growing number of useful, unified command-line interfaces for system settings and control (timedatectl, bootctl, hostnamectl, loginctl, machinectl, kernel-install, localectl). In Debian, they use the existing configuration files without breaking compatibility.</p>
+<p>Systemd makes the boot process much simpler, entirely removing the need to specify dependencies in many cases thanks to D-Bus activation, socket activation, file/inotify activation and udev integration.</p>
+<p>Systemd supports SELinux integration while SysV doesn't</p>
+<p>Systemd can handle the boot process from head to toe, without needing to use any of the existing shell scripts. Systemd extends the logging features of the system in many ways with journald, and can remain integrated with the existing rsyslog daemon. Logs are in a structured format, attributed to filename, line of code, PID and service. They include the early boot (starting from initramfs). They can be quickly filtered and programmatically accessed through an efficient interface.</p>
+<p>Systemd unit files, unlike SysV scripts, can usually be shipped by upstream, or at least shared with other distributions (already more than 1000 existing unit files in Fedora) without any changes, the Debian specifics being handled by systemd itself.</p>
+<p>Systemd is incredibly fast (1 second to boot). It was not designed with speed in mind, but doing things correctly avoids all the delays currently incurred by the boot process.</p>
+<p>The transition plan is easy, since existing init scripts are treated as first-class services: scripts can depend (using LSB headers) on units, units can depend on scripts. More than 99% of init scripts can be used without a modification.</p>
+<p>It is not just init. It unifies, in fewer lines of code, everything that is related to starting services and managing session groups: user login, cron jobs, network services (inetd), virtual TTY management… Having a single system to handle all of that allows us to remove a lot of cruft, and to use less memory on the system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Basics Measures Could You Take To Secure An Ssh Connection?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For Linux sysadmins, it is frequent to access servers by ssh. But are we sure the communication established is really good secured?</p>
+<p><strong>There some additionals very simple steps that can be taken to initially harden the SSH service, such as:</strong></p>
+<ol>
+<li><strong>Disabling root login, and even password-based logins will further reinforce the security of the server.</strong></li>
+<li>Disabling password-based logins and allow key based logins which are secured but can be taken further by restricting their use from only certain IP addresses.</li>
+<li>Changing the standard port to something other significantly decreases random brute force attempts from the internet</li>
+<li>Forcing the service to use only version 2 of the protocol will introduce both security and feature enhancement.</li>
+<li>The whitelist approach can be taken, where only the users that belong to a certain list can log in via SSH to the server.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Lvm And Does It Required On Linux Servers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>LVM is a logical volume manager. It requires to resize filesystem size. This size can be extended and reduced using lvextend and lvreduce commands respectively.  You can think of LVM as dynamic partitions, meaning that you can create/resize/delete LVM partitions from the command line while your Linux system is running: no need to reboot the system to make the kernel aware of the newly-created or resized partitions. LVM also provides:</p>
+<p>You can extend over more than one disk if you have more than one hard-disk. They are not limited by the size of one single disk, rather by the total aggregate size.</p>
+<p>You can create a (read-only) snapshot of any LV (Logical Volume). You can revert the original LV to the snapshot at a later time, or delete the snapshot if you no longer need it. This is handy for server backups for instance (you cannot stop all your applications from writing, so you create a snapshot and backup the snapshot LV), but can also be used to provide a "safety net" before a critical system upgrade (clone the root partition, upgrade, revert if something went wrong).</p>
+<p>you can also set up writeable snapshots too. It allows you to freeze an existing Logical Volume in time, at any moment, even while the system is running. You can continue to use the original volume normally, but the snapshot volume appears to be an image of the original, frozen in time at the moment you created it. You can use this to get a consistent filesystem image to back up, without shutting down the system. You can also use it to save the state of the system, so that you can later return to that state if you mess things up. You can even mount the snapshot volume and make changes to it, without affecting the original.</p></p>
+</li><br><br>

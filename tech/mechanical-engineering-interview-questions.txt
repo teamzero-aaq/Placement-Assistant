@@ -1,0 +1,168 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Extrued Aluminum?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Extrusion is the process where a metal or a metal bar is pulled through a mandrel to elongate it and/or give it a final shape.</li>
+<li>Extruded Aluminum is a common form of making small aluminum wire, bars or beams and many varieties of small non-structural, decorative pieces.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is The Mechanical Advantage Of A Double Pulley?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It only takes half the effort to move an object but twice the distance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Knurling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Knurling is a machining process normally carried our on a centre lathe. The act of Knurling creates a raised criss-cross pattern on a smooth round bar that could be used as a handle or something that requires extra grip.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Does Hydraulic Clutches Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By using a non-compressible fluid, it acts like a solid push rod.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Why Is Over-pressurizing An Air Conditioning System Bad?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Overcharging a refrigeration or air conditioning system can result in an explosion. To avoid serious injury or death, never overcharge the system. Always use proper charging techniques. Limit charge amounts to those specified on the system equipment serial label or in the original equipment manufacturer's service information.</p>
+<p>Overcharging the system immerses the compressor motor, piston, connecting rods, and cylinders in liquid refrigerant. This creates a hydraulic block preventing the compressor from starting. The hydraulic block is also known as locked rotor.</p>
+<p>Continued supply of electricity to the system causes heat to build in the compressor. This heat will eventually vaporize the refrigerant and rapidly increase system pressure. If, for any reason, the thermal protector fails to open the electrical circuit, system pressure can raise to high enough levels to cause a compressor-housing explosion.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Will A Steel Cable Become Longer If It Is Heated While Under Load?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Even the heaviest steel cables stretch under load, whether they heat or not. Heating the cable will certainly elongate it. Friction caused by guides or pulleys can greatly increase the temperature of a cable under load.</p>
+<p>You might consider the possibility of total failure if the heat is high enough and I am not sure but the cable might act in unpredictable ways when it fails. Applying heat to a steel cable under load is probably dangerous to your health and the health of anyone nearby.</p>
+<p>When steel is heated, steel expands. It does not need to be under load. That is the reason that in the old days before advanced electronics and optics surveyors used chains rather than cables for measuring land. Had they used cable they would have gotten different measurements in summer and winter based on the difference in temperature and the coefficient of expansion of the material. The coefficient of expansion is a number that informs just how much a given material will expand or contract for a given change in temperature.</p>
+<p>To find the coefficient of expansion and other interesting information consult a materials handbook, available in better libraries or your local college of engineering. Another example of expanding steel and the necessity for dealing with this characteristic is the overlapping slip joint found on bridges that allows horizontal structural members to expand and contract without damaging the bridge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is The Congressional Space Medal Of Honor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The medal was created in 1969, designed by Congress for "any astronaut who in the performance of his duties has distinguished himself by exceptionally meritorious efforts and contributions to the welfare of the Nation and mankind.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is The Law Of Thermodynamics?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are actually 3 Laws of Thermodynamics (the actual number is debatable, but the number ranges from 3-5, depending on your adding skills).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Is It The Stress That, Produces Strain Or Strain Produces Stress?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Force applied to an object will cause a displacement. Strain is effectively a measure of this displacement (change in length divided by original length).</p>
+<p>Stress is the Force applied divided by the area it is applied. (E.g. pounds per square inch)</p>
+<p>Therefore, to answer the question, the applied force produces both “Stress and Strain”. “Stress and Strain” are linked together by various material properties such as Poisson's ratio and Young's Modulus.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Does A Super Charger Work In A Car?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A supercharger is a used to increase the volume of air dragged into each cylinder per stroke.</p>
+<p>In combustion engines, there are only really two ways to increase power, firstly increase the amount of fuel in the engine (either increase the displacement, or add more cylinders) or increase the amount of air in the engine (for a more effective explosion of the fuel)</p>
+<p>Superchargers are powered by the engines crankshaft, which is connected usually by a belt drive. This rotational power turns a fan, which sucks air into the intake manifold similar in effect to turbochargers, with reduced lag. However, superchargers take more energy out the engine, so swings and roundabouts.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Why Do The Radiators In Your House Click When You Start The Heating System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>They are clicking because they are heating up. The heat causes expansion and that is why you hear clicking.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Can I See Where Pipes Are Behind The Wall?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By using radio waves.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How Are The Pneumatic System And The Hydraulic System Similar?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pneumatics use gases such as air or nitrogen, hydraulics use oil or water, both systems use pressure to act on a specific application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is The Difference Between An Electric Motor And An Electric Generator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is no fundamental difference between an electric motor and an electric generator or dynamo. In normal use, all motors behave as generators, and all generators behave as motors. DC Motors act like generators because they use less electrical energy when allowed to spin fast. DC generators act like motors because they become easier to spin when less electrical energy is drawn from their terminals.</p>
+<p>For example, connect two small DC magnet motors together. Then if you spin the shaft of the first motor, the second motor's shaft will start spinning too. One acts as a DC generator, and the other acts as a DC motor. Alternatively, spin the second one's shaft, and the first one will start spinning.</p>
+<p>Another example: If you connect a small DC motor to a small battery, then an electric current will appear in the motor's coils, and the motor starts spinning. However, if you spin the motor's shaft slightly faster than the normal speed, the direction of current in the circuit will reverse, and the battery starts taking in energy from the motor. The motor has become a generator, and it is recharging the battery.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are Some Examples Of A Periscope?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is an optical instrument for viewing objects, which are above the level of direct sight; mostly used in submarines.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Does Green Field Project Mean?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Green field projects are those projects, which do not create any environmental nuisance (pollution), follows environmental management system and EIA (environment impact assessment). These projects are usually of big magnitude.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Is Pipe Round Because It Provides The Least Area To Volume Ratio?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>More likely because it is easier to manufacture, much easier to put threads on, you do not have to worry about orientation when you put them together, and they have no weak spots created by corners.</p>
+<p>My gutter pipes are rectangular because they do not stick out as far from the house as a circular one with the same area. However, they are low enough in the pressure they contain that they can be formed from sheet metal with a crimped seam. Making a water supply pipe, that way would be impossible.</p>
+<p>In addition, it is easy to keep them aligned to the house. Running a rectangular water main under a street would be a major pain.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Who Built The Trans Alaska Pipelene?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The pipe was constructed in six sections by five different contractors employing 21,000 people at the peak of work.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Is A Submarine Able To Submerge And Surface?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Submarines have ballast tanks. The tanks can hold air, or they can be "vented" and water can flow into them and fill them completely. When the tanks are full of air, the submarine is buoyant and floats. When the main vents are opened, the tanks are flooded and the submarine submerges. When the submarine is submerged, wants to surface, air can be injected at high pressure into the ballast tanks to force out water, again make the submarine buoyant, and cause it to rise to the surface and float.</p>
+<p>In practice, when a submarine surfaces, it doesn't use a lot of air from its high pressure air tanks to "blow the ballast tanks" because it takes a long time to pump up the high pressure air tanks again. What happens is that all the ballast tanks are given a "good shot" of high-pressure air (a few seconds), and then the planes are used in conjunction with the screw (which some call a propellor) to actually drive a submarine to the surface. Once there, something called a low-pressure blower system can be used to finish blowing the ballast tanks (while the high-pressure air compressors are running to pump the high-pressure air tanks back up).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Railroad Track Ballast?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>That being said railroad track ballast is the cover for the subgrade. Ballast has several functions:</p>
+<ol>
+<li>It enables water to drain from the track.</li>
+<li>It assists in helping control the thermal expansion of continues welded rail.</li>
+<li>As a train passes the rails, it supports the train.</li>
+<li>It distributes the weight of the train from the track structure to the sub grade.</li>
+<li>Maintains a smooth running surface for the train to run on.</li>
+</ol>
+<p>As ballast becomes contaminated with other materials, it looses its ability to do some or all of these jobs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is A Turboprop Engine?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The combination of the words turbine and propeller in techno jargon will give you the word "turboprop". A turboprop engine is a turbojet (gas turbine) engine, which powers the propeller/s.</p>
+<p>A conventional jet engine produces its thrust in large part due to the heated gasses escaping out the rear of the engine. While this is very useful for aircraft, which fly at high speeds and high altitudes, it is less desirable for aircraft, which are designed to fly at slower speeds and take off from smaller runways.</p>
+<p>A turboprop engine is a jet engine, which converts the bulk of its thrust into rotational energy for powering a propeller. This allows jet engines, which are a high-rpm low-torque engine to be used in situations where low-rpm and high-torque are needed instead.</p>
+<p>The higher reliability and efficiency of a jet or turboprop engine as compared to an internal combustion engine makes them very desirable for aircraft designs, which, in the past, would have utilized internal combustion engines.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Are Examples Of Mechanisms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Examples of mechanisms are the workings of a clock, a light switch, and a nail clipper.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Color Are Thermal Oil Piping Lines?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Brownish and sort of grey.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How Does Hydraulics Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A positive displacement pump (gear, vane, or piston pump) is driven by a prime mover (Electrical Motor or Engine) it sucks fluid from reservoir and delivers oil to system. During loading, a resistance to flow creates the pressure, which is utilized to do the work through cylinder for linear motion, or through hydraulic motor for rotary motion, Direction of flow is changed with help of direction control valve &amp; system pressure is regulated by pressure control valve &amp; flow is regulated by flow control valve.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is The Role Of Nitrogen In Welding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Nitrogen is used to prevent porosity in the welding member by preventing oxygen and air from entering the molten metal during the welding process. Other gases are also used for this purpose such as Argon, Helium, Carbon Dioxide, and the gases given off when the flux burns away during SMAW (stick) welding.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Causes White Smoke In Two Stroke Locomotive Engines?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>That is the engine running too lean (lack of fuel). This condition will lead to overheating and failure of the engine.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is The Difference Between Hydraulic Oil And Engine Oil?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both the hydraulic and engine oils are made from base oils with additives mixed in. The additives used change the characteristics of the oils so that they function differently.</p>
+<p>Generally, hydraulic oils (final product including additives) are expected to have very low compressibility and very predictable friction and viscosity stability under pressure.</p>
+<p>Generally engine oils (Engine Lubrication Oils anyway) are intended to have high resistance to heat (degradation including chemical and viscosity due to heat) resistance to burning and resistance to absorption of fuels and chemical compounds produced during combustion.</p>
+<p>Both classes of oils are likely to have additives intended to provide detergency and to reduce foaming.</p>
+<p>Base oils are most commonly petroleum oil bases due to cost, but other bases oil can be used including mineral oils (especially for hydraulic oils) and plant oils (especially for engine oils) and oils from animal sources.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Can You Use Motor Oil In A Hydraulic System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hydraulic fluid has to pass a different set of standards than motor oil. Motor oil has tackifiers, lower sulfur content, and other ingredients that could prove harmful to the seals and other components in a hydraulic system. If it is an emergency only should you do it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Does Angular Momentum Mean?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Angular momentum is an expression of an objects mass and rotational speed.</p>
+<p>Momentum is the velocity of an object times it is mass, or how fast something is moving how much it weigh. Therefore, angular momentum is the objects mass times the angular velocity where angular velocity is how fast something is rotating expressed in terms like revolutions per minute or radians per second or degrees per second.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is The Difference Between Upstream And Downstream In A Refinery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The total process of a the refining business starts at the oil field or gas field and runs all the way to the sending of processed hydrocarbon to a final user.</p>
+<p>Upstream applies to the operation of exploration, drilling, hydrocarbon production, and transmission via truck, rail or ship or pipeline to the refinery intake valve.</p>
+<p>Downstream includes all work done at the refinery, distillation, cracking, reforming, blending storage, mixing and shipping.</p>
+<p>The case of heavy oil processing (oil sands etc.) and gas plant operation tend to cross the boundaries somewhat. Most are regarded as upstream operations even though downstream type operations are part of the processes. The production of chemical side products at gas plants (e.g. sulfur) is not generally segregated as a "Chemical Plant" operation.</p>
+<p>Additional hydrocarbon production operations such as saddle plants, which remove a component from pipeline gas, are generally lumped with upstream.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Does A Rolling Offset Look Like?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Rolling offsets are used in the piping and sheet metal (ductwork) trades, a rolling offset changes the elevation and locaton of the piping or duct usually by using two fittings to offset around obstacles. Rolling offsets are used mostly when you are limited to the size of the fittings in order to change your elevation and location.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Kind Of Paper Airplane Flies The Farthest?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Thickest paper has the greatest mass and therefore potential energy. Potential energy equals kinetic energy (speed). Speed equals lift. Lift equals a greater flight distance. Thicker planes fly farther.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. How Does An Equal-arm Balance Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Two pans of equal balances are placed at the end of the beam, one at each end. A long pointer attached at right angles to the beam at the point of support. Zero on a scale indicates the beam is at rest.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is Wet Corrosion And Galvanic Corrosion?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Galvanic corrosion is an electrochemical process in which one metal corrodes preferentially when in electrical contact with a different type of metal and both metals are immersed in an electrolyte.</p>
+<p>When two or more different sorts of metal come into contact in the presence of an electrolyte, a galvanic couple is set up as different metals have different electrode potentials. The electrolyte provides a means for ion migration whereby metallic ions can move from the anode to the cathode. This leads to the anodic metal corroding more quickly than it otherwise would; the corrosion of the cathodic metal is retarded even to the point of stopping. The presence of electrolyte and a conducting path between the metals may cause corrosion where otherwise neither metal alone would have corroded.</p>
+<p>Wet Corrosion: The main feature of corrosion of a divalent metal M in an aqueous solution containing oxygen is because of the corrosion process consists of an anodic and a cathodic reaction. In the anodic reaction (oxidation), the metal is dissolved and transferred to the solution as ions M2+. The cathodic reaction in the example is reduction of oxygen. It is seen that the process makes an electrical circuit without any accumulation of charges.</p>
+<p>The electrons released by the anodic reaction are conducted through the metal to the cathodic area where they are consumed in the cathodic reaction. A necessary condition for such a corrosion process is that the environment is a conducting liquid (an electrolyte) that is in contact with the metal. The electrical circuit is closed by ion conduction through the electrolyte. In accordance with the conditions, this dissolution process is called wet corrosion, and the mechanism is typically electrochemical.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How Do Concrete Pumps Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>liquid (fluid) concrete has a big viscosity, how the pump overcomes this big viscosity.  every couple seconds maybe 4-5 seconds the machine emits a loud thump. sound come from pnomatic part of the machine.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Representative Elementary Volume?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Smallest volume over which measurements can be made that will yield a representative of the whole.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. How Can You Convert Air Mass To Air Volume?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Mass = density * volume.</strong></p>
+<p>Air density is p/RT, where R is the gas constant for air (287 J/kg-K), T is the absolute temperature, and p is the pressure, equal to 101325 Pa at sea level.</p>
+<p>At sea level and room temperature, the density of air is rho 101325 N/m2/ (287 N-m/ (kg-K)*293 K or about a) 2 kg/mc)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Are Different Types Of Gate Valves?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are a few different designs:</p>
+<p>Parallel disk gate valves use two disks with a spring in between them, sliding into the seats. At low pressure, the spring forces the disks outward against the seats, sealing off the valve. At high pressure, all the sealing is accomplished by the downstream disk.</p>
+<p>Wedge gate valves use a tapered disk that slides into two seats set at a slight, converging angle. The wedging action provides the sealing force between the disk and the seat.</p>
+<p>Single disk gate valves are used where the flow is always one-way (like sluices on dams). There is some flexibility in the attachment of the disk to the stem, so the differential pressure on the disk pushes it against the seat, sealing it off.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is The Density Of Plastic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Plastics are the general term for a wide range of synthetic or semisynthetic polymerization products. There are many different plastics; all have their own density!</p>
+<p>Most common plastics, however, have a density between .035 and .045 lb/cu in.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is An Ortographic Drawing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Orthographic projections are views of a 3D object, showing 3 faces of it. The 3 drawings are aligned so that if the page were folded, it would create part of the shape. It is also called multiview projections.</p>
+<p>The 3 faces of an object consist of its plan view, front view and side view. There are 2 types of orthographic projection, which are 1st angle projection and 3rd angle projection.</p></p>
+</li><br><br>

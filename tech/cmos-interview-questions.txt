@@ -1,0 +1,76 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Latch Up?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Latch-up pertains to a failure mechanism wherein a parasitic thyristor (such as a parasitic silicon controlled rectifier, or SCR) is inadvertently created within a circuit, causing a high amount of current to continuously flow through it once it is accidentally triggered or turned on. Depending on the circuits involved, the amount of current flow produced by this mechanism can be large enough to result in permanent destruction of the device due to electrical overstress (EOS).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Why Is Nand Gate Preferred Over Nor Gate For Fabrication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NAND is a better gate for design than NOR because at the transistor level the mobility of electrons is normally three times that of holes compared to NOR and thus the NAND is a faster gate.</p>
+<p>Additionally, the gate-leakage in NAND structures is much lower. If you consider t_phl and t_plh delays you will find that it is more symmetric in case of NAND ( the delay profile), but for NOR, one delay is much higher than the other(obviously t_plh is higher since the higher resistance p mos's are in series connection which again increases the resistance).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Noise Margin? Explain The Procedure To Determine Noise Margin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The minimum amount of noise that can be allowed on the input stage for which the output will not be effected.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Explain Sizing Of The Inverter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In order to drive the desired load capacitance we have to increase the size (width) of the inverters to get an optimized performance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Happens To Delay If You Increase Load Capacitance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>delay increases.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Happens To Delay If We Include A Resistance At The Output Of A Cmos Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Increases. (RC delay)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are The Limitations In Increasing The Power Supply To Reduce Delay?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The delay can be reduced by increasing the power supply but if we do so the heating effect comes because of excessive power, to compensate this we have to increase the die size which is not practical.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. For Cmos Logic, Give The Various Techniques You Know To Minimize Power Consumption?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Power dissipation=CV2f ,from this minimize the load capacitance, dc voltage and the operating frequency.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Charge Sharing? Explain The Charge Sharing Problem While Sampling Data From A Bus?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In the serially connected NMOS logic the input capacitance of each gate shares the charge with the load capacitance by which the logical levels drastically mismatched than that of the desired once. To eliminate this load capacitance must be very high compared to the input capacitance of the gates (approximately 10 times).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Why Do We Gradually Increase The Size Of Inverters In Buffer Design? Why Not Give The Output Of A Circuit To One Large Inverter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Because it can not drive the output load straight away, so we gradually increase the size to get an optimized performance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Latch Up? Explain Latch Up With Cross Section Of A Cmos Inverter. How Do You Avoid Latch Up?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Latch-up is a condition in which the parasitic components give rise to the Establishment of low resistance conducting path between VDD and VSS with Disastrous results.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Give The Expression For Cmos Switching Power Dissipation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CV2</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Body Effect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In general multiple MOS devices are made on a common substrate. As a result, the substrate voltage of all devices is normally equal. However while connecting the devices serially this may result in an increase in source-to-substrate voltage as we proceed vertically along the series chain (Vsb1=0, Vsb2 0).Which results Vth2&gt;Vth1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Why Is The Substrate In Nmos Connected To Ground And In Pmos To Vdd?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>we try to reverse bias not the channel and the substrate but we try to maintain the drain,source junctions reverse biased with respect to the substrate so that we dont loose our current into the substrate.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is The Fundamental Difference Between A Mosfet And Bjt?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In MOSFET, current flow is either due to electrons(n-channel MOS) or due to holes(p-channel MOS) - In BJT, we see current due to both the carriers.. electrons and holes. BJT is a current controlled device and MOSFET is a voltage controlled device.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Which Transistor Has Higher Gain. Bjt Or Mos And Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BJT has higher gain because it has higher transconductance.This is because the current in BJT is exponentially dependent on input where as in MOSFET it is square law.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. In Cmos Technology, In Digital Design, Why Do We Design The Size Of Pmos To Be Higher Than The Nmos.what Determines The Size Of Pmos Wrt Nmos. Though This Is A Simple Question Try To List All The Reasons Possible?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In PMOS the carriers are holes whose mobility is less[ aprrox half ] than the electrons, the carriers in NMOS. That means PMOS is slower than an NMOS. In CMOS technology, nmos helps in pulling down the output to ground ann PMOS helps in pulling up the output to Vdd. If the sizes of PMOS and NMOS are the same, then PMOS takes long time to charge up the output node. If we have a larger PMOS than there will be more carriers to charge the node quickly and overcome the slow nature of PMOS . Basically we do all this to get equal rise and fall times for the output node.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Why Pmos And Nmos Are Sized Equally In A Transmission Gates?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Transmission Gate, PMOS and NMOS aid each other rather competing with each other. That's the reason why we need not size them like in CMOS. In CMOS design we have NMOS and PMOS competing which is the reason we try to size them proportional to their mobility.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. All Of Us Know How An Inverter Works. What Happens When The Pmos And Nmos Are Interchanged With One Another In An Inverter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>I have seen similar Qs in some of the discussions. If the source &amp; drain also connected properly...it acts as a buffer. But suppose input is logic 1 O/P will be degraded 1 Similarly degraded 0;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Give 5 Important Design Techniques You Would Follow When Doing A Layout For Digital Circuits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>In digital design, decide the height of standard cells you want to layout.It depends upon how big your transistors will be.Have reasonable width for VDD and GND metal paths.Maintaining uniform Height for all the cell is very important since this will help you use place route tool easily and also incase you want to do manual connection of all the blocks it saves on lot of area.</li>
+<li>Use one metal in one direction only, This does not apply for metal 1. Say you are using metal 2 to do horizontal connections, then use metal 3 for vertical connections, metal4 for horizontal, metal 5 vertical etc...</li>
+<li>Place as many substrate contact as possible in the empty spaces of the layout.</li>
+<li>Do not use poly over long distances as it has huge resistances unless you have no other choice.</li>
+<li>Use fingered transistors as and when you feel necessary.</li>
+<li>Try maintaining symmetry in your design. Try to get the design in BIT Sliced manner.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is Metastability? When/why It Will Occur?different Ways To Avoid This?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Metastable state:</strong> A un-known state in between the two logical known states.This will happen if the O/P cap is not allowed to charge/discharge fully to the required logical levels.</p>
+<p><strong>One of the cases is:</strong> If there is a setup time violation, metastability will occur,To avoid this, a series of FFs is used (normally 2 or 3) which will remove the intermediate states.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Let A And B Be Two Inputs Of The Nand Gate. Say Signal A Arrives At The Nand Gate Later Than Signal B. To Optimize Delay Of The Two Series Nmos Inputs A And B Which One Would You Place Near To The Output?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The late coming signals are to be placed closer to the output node ie A should go to the nmos that is closer to the output.</p></p>
+</li><br><br>

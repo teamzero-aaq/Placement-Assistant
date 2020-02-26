@@ -1,0 +1,472 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jquery is javascript library and it is used for HTML DOM access (manipulating and traversing of HTML DOM elements). It provides most powerful feature of event handling as well.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain We Can Use Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jquery can be used along with other libraries. It works with simple and complex javascript and AJAX.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How We Can Use Jquery In Asp.net?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can use Jquery by downloading the jquery and use it in our project or can use CDNs available from Google, Microsoft and give the CDN URL in ASPX page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Explain Difference Between Jquery And Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>query is a library and Javascript is a language and Jquery provides full-fledged support for javascript language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is The Significance Of ‘$’ Sign In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>‘$’ is used as an alias for jquery.</p>
+<p><strong>Below are the examples of how we can use it:</strong></p>
+<p><strong>Eg:</strong> $(‘#MyControl’)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Differences Between “body.onload” And “document.ready” Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>“body.onload” method will be used only once in a page where as “document.ready” method can be used multiple times in a same page. “body.onload” method will be called once all the resources of the page are loaded. (images, css and DOM).</li>
+<li>But “document.ready” method called once DOM is ready and it does not wait till other resources are loaded.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Why We Can Use Jquery In Our Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below are the main reasons where we can use Jquery:</strong></p>
+<ul>
+<li>To apply the css for the controls.</li>
+<li>To give special effects for the controls.</li>
+<li>Event Handling.</li>
+<li>To provide the AJAX support.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How We Can Hide And Show The Controls In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Access the control using ‘$’ and use the methods “Hide()” and “Show()” like below.</p>
+<p><strong>For example:</strong></p>
+<p>$(‘#MyControl’).Hide()</p>
+<p>$(‘#MyControl’).Show()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. How To Show The Alert Message On Button Click In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jquery is one of the most powerful libraries what we have and it provides event handling. This scenario can be handled by “OnClick” of the button. Below is the code snippet –</p>
+<p>&lt;input type=”button” id=”myButton” onclick=”alert(‘Hi’)” /&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Meaning Of Selectors In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In javascript we have several methods to find the controls like – “getElementByName” and “getElementByID”, which is used to find the control based on Name of the control and ID of the control respectively. Similarly in Jquery we have find the controls using selectors. Below are some of the selectors -</p>
+<ul>
+<li>“*” - To Find all the elements of the page.</li>
+<li>“#” – Used to find the control by ID.</li>
+<li>“.” - Used to find the control by Class.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. In Asp.net, Jquery Will Be Added In Content And Master Pages Both?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. If the Jquery file added in master page then content pages will going to use that.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is The Advantage Of Using Minified Version Of Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Advantage of using minified verison of Jquery will mainly be performance. Size of the minified jquery file will be around 76KB where as the normal Jquery file size will be around 180KB.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Can You Give An Example Of Selecting An Element Based On Its Class Name ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the sample code snippet:</strong></p>
+<p>$(‘.MyControl’).Hide()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are The Difference Between “length” And “size” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both are used to find number of elements in an object. “Length” will be used commonly because it’s faster compared to “size” because “length” is a property and “size” is a method.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How Can We Set The Page Title In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the code snippet used to set the page title:</strong></p>
+<p>$(function(){</p>
+<p>$(document).attr(“title”, “A4 Academics”);</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is The Use Of Jquery Connect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Connect method is used to bind one function to another and it’s used to execute the function when a function is executed from another object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How To Use Ajax In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jquery supports AJAX calls, below is the code snippet of AJAX in Jquery –</p>
+<p>$.ajax({</p>
+<p>url: ‘MyURL',</p>
+<p>success: function(response) {</p>
+<p>//My Code goes here</p>
+<p>},</p>
+<p>error: function(err) {</p>
+<p>//My Code goes here }</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is “noconflict” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jquery.Conflict method is used in case other client side libraries used along with Jquery then we will use this method.</p>
+<p><strong>Eg:</strong> Prototype.js can be used with Jquery and this Prototype.js also uses “$” symbol for accessing the element. So for this purpose we are using Jquery.Conflict method.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What You Mean By Cdn?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CDN is known as – “Content Distribution Network”, which is a network of servers which is deployed in large data center and can be accessed using internet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Explain The Advantages Of Using Cdns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below are the advantages of using CDNs:</strong></p>
+<ul>
+<li>Performance will be improved as there would not be much load on server.</li>
+<li>Jquery libraries will be loaded faster.</li>
+<li>Caching for the Jquery libraries will be enabled on use of CDNs.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Which Providers Will Give Jquery Cdns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Following are the list of providers gives CDNs for Jquery library:</strong></p>
+<ul>
+<li>Microsoft</li>
+<li>Google</li>
+<li>Jquery</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Explain The Difference Between “this” And “$(this)” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“this” refers to the current element in the scope. “this” will be used in traditional javascript and “$(“this”)” if used then we will get the benefits of Jquery methods.</p>
+<p><strong>For example:</strong></p>
+<p>Using “$(this)” -</p>
+<p>$(document).ready(function(){</p>
+<p>$('#mycontrolid').change(function(){</p>
+<p>alert($(this).text());</p>
+<p>});</p>
+<p>});</p>
+<p>Using “this” -</p>
+<p>$(document).ready(function(){</p>
+<p>$('# mycontrolid'').change(function(){</p>
+<p>alert(this.innerText);</p>
+<p>});</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How We Can Check Element Empty In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>$(document).ready(function(){</p>
+<p>if ($('#mycontrolid’).is(':empty')){</p>
+<p>//Code here for Empty element</p>
+<p>}</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How We Can Check Element Exists Or Not In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>$(document).ready(function(){</p>
+<p>if ($('# mycontrolid’).length &gt; 0){</p>
+<p>//Code Here if element exists.</p>
+<p>});</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How We Can Use “each” Function In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For iterating over objects we will be using this method. Each function uses “length” property of the object internally. Index and Text of each object can be fetched during iteration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Are The Differences Between “parents” And “parent” Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In DOM structure “parents” method is used to traverse all along the DOM tree, whereas “parent” method is used to traverse only one level.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Explain “empty” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Empty method is generally used to remove the child elements and the text associated to the elements.</p>
+<p><strong>For example:</strong></p>
+<div>Hi, A4 <em>Academics</em>. </div>
+<p>In the above scenario nothing will be shown in UI as all the child controls and text will be removed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How We Can Check/uncheck Radio Buttons In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the code snippet to check/uncheck radio buttons:</strong></p>
+<p>// Check #mycontrolid</p>
+<p>$('#mycontrolid').attr('checked', true);</p>
+<p>// Uncheck #mycontrolid</p>
+<p>$('#mycontrolid').attr('checked', false);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Explain The Difference Between “live” And “bind” Methods In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>“bind” and “live” methods are used to attach the events for the controls but there are pros and cons for each. </li>
+<li>“bind” – This method is used to attach the events for the elements which are static. We can not attach the events for the dynamic elements.</li>
+<li>“live” – “live” method supports dynamic element event handling. But it has performance issues if you used all along the page.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is The Use Of “clone” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“clone” method is used to copy the matched elements. So all its childrens are also being copied along with the parent element.</p>
+<p><strong>For example:</strong></p>
+<p>$(document).ready(function(){</p>
+<p>$('#mycontrolid').click(function(){</p>
+<p>$('#mySpan').clone().prependTo("div");;</p>
+<p>return false;</p>
+<p>});</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is The Use Of “event.preventdefault” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This method is used to prevent the default action from happening.</p>
+<p><strong>For example:</strong></p>
+<p>$("#mycontrolid").click(function(event){</p>
+<p>event.preventDefault();</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is The Use Of “event.stoppropagation” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This method is used to stop the event bubbling from the child elements. It prevents parent being notified to the child events.</p>
+<p>Method – “event.isPropagationStopped()” can be used to check whether method – “stopPropagation” was called or not.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Does $("div.parent") Will Select?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It means select all the div elements with class – “parent”.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Which Methods Are Used To Provide Effects?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below are some of the methods used:</strong></p>
+<ul>
+<li>Toggle()</li>
+<li>FadeIn()</li>
+<li>FadeOut()</li>
+<li>Hide()</li>
+<li>Show()</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Explain Methods “childrens” And “find” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“Childrens” method is used to find the child controls of the element but its limited to only one level where as “find” method can be used to find the controls in any level in DOM tree.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Why To Use “data” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“data” method is used to attach the data to the elements in DOM. When the element is removed data also will be removed.</p>
+<p><strong>For example:</strong></p>
+<p>jQuery.data( document.body, "a4academics", 40 );</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Use Of Validation Jquery Plugins?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In MVC we can use these Jquery Plugins in the form of rules like below -</p>
+<p>$('#MyControlId').rules("add", {</p>
+<p>required: true</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. How We Can Implement Animation Effects In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“Animate” method is used for animation in Jquery. This method is used to change the element look and feel and give extra effects to the elements.</p>
+<p><strong>For example:</strong></p>
+<p>$("#MyControlID").animate({height:"45px"});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Which Method To Be Used To Stop The Animation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Jquery, we have to use the method called – “stop()” to stop the animation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. How Can We Disable The Animation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can use the property – “fx.off” to disable the Jquery animation. Set the property value to true then it will disable the animation in Jquery.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is The Use Of Clone Method And Give An Example To Create It In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“Clone” method is used to clone the set of controls, which basically means to copy the set of elements which are matched on selectors. It copies the descendant elements along with the parent element.</p>
+<p><strong>For example:</strong></p>
+<p>$(document).ready(function(){</p>
+<p>$('#mycontrolid').click(function(){</p>
+<p>$('#mycontrolid').clone().appendTo('body');</p>
+<p>return false;</p>
+<p>});</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Will Events Are Also Copied On Clone In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By Default “clone” method does not clone the events unless it is being instructed to copy. When “clone” method is being instructed to clone the events also then along with elements, events are also being copied. “Clone”method takes a Boolean parameter, pass true in clone method to copy the events like below -</p>
+<p>$('#mycontrolid').clone(true).appendTo('body');</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Explain The Difference Between “attr” And “prop” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Attr() – This method is used to get the value of attribute of first element.</li>
+<li>Prop() – This method is used to get the value of first element property.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Can We Include Different Versions Of Jquery In Web Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. We can include different versions of Jquery in same page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. How We Can Delay The Execution Of Document.ready Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can use method – “holdReady” for this purpose. Below is the sample code snippet –</p>
+<p><strong>$.holdReady(true);</strong></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. Explain Chaining?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is one of the powerful or robust feature of Jquery. Chaining means connecting multiple events/ selectors/ functions. Advantage of this would be – code will be easy to manage and good performance. Chain starts from left.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Can You Give An Example For Chaining Along With Code Snippet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the sample code snippet:</strong></p>
+<p><strong>Old Code:</strong></p>
+<p>$(document).ready(function(){</p>
+<p>$('#MyControlID').addClass('test');</p>
+<p>$('#MyControlID').css('color', 'yellow');</p>
+<p>$('#MyControlID').fadeIn('fast');</p>
+<p>});</p>
+<p><strong>New Code after chaining:</strong></p>
+<p>$(document).ready(function(){</p>
+<p>$('#MyControlID').addClass('test')</p>
+<p>.css('color', 'yellow')</p>
+<p>.fadeIn('fast'); </p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Explain Caching In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Caching is temporary memory to store the data, which increases the performance of the application. So in Jquery we can use the similar concept to store the data instead of repeating as shown below:</p>
+<p><strong>Old Code:</strong></p>
+<p>$('#MyControlID').addClass('test');</p>
+<p>$('#MyControlID').css('color', 'yellow');</p>
+<p><strong>New Code for caching:</strong></p>
+<p>var $mycontrol = $("#MyControlID").css("color", "red");</p>
+<p>//Do somre stuffs here</p>
+<p>$mycontrol.text("Error occurred!");</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. How We Can Write Code Specific To Browser In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By using the property – “Jquery.Browser” we can write the browser specific code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Will Jquery Support Ajax ? Mention Some Ajax Methods Which Can Be Used In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Jquery supports AJAX.</p>
+<p><strong>Below are some of the methods of AJAX:</strong></p>
+<ul>
+<li>Get()</li>
+<li>Post()</li>
+<li>GetJSON()</li>
+<li>Ajax()</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. How We Can Get The Value Of Multiple Css In Single Statement Of Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the sample code to explain:</strong></p>
+<p>var Mypropertiescollection = $("#MyControlID").css([ "height", "width", "backgroundColor" ]);</p>
+<p>In the above code snippet variable – “Mypropertiescollection” will have array like below –</p>
+<p>{</p>
+<p>height: "100px",</p>
+<p>width: "200px", </p>
+<p>backgroundColor: "#FF01EF"</p>
+<p>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Explain Finish Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“finish” method is used to stop the animations of the elements and bring the elements to its final state.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Are The Parameters Which Are Being Used In Ajax Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Below are the list of 4 parameters which are used in AJAX calls –</p>
+<ul>
+<li>Type</li>
+<li>Cache</li>
+<li>Data</li>
+<li>URL</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Can We Debug Jquery? If Yes, How Can We Do That?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. We can debug Jquery file by using “debugger” keyword. We can add the “debugger” keyword to the line of Jquery file where we have to debug.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. Write A Code Snippet To Sort String Array In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Below is the code snippet which is used to sort the string array –</p>
+<p>$(document).ready(function(){</p>
+<p>var a4acarray = [ “Apple”,”Orange”,”Banana”];</p>
+<p>sortedarray = a4acarray.sort();</p>
+<p>$(“#mycontrolID”).html(sortedarray.join(“”));</p>
+<p>});</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. Explain “resize” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“Resize” method used with window object. This method will be fired when the size of the browser window changes. For example</p>
+<p>$( window ).resize(function() {</p>
+<p>$( "#myControlID" ).append( "&lt;div&gt;Test Content&lt;/div&gt;" );</p>
+<p>});</p>
+<p>As per above snippet when browser window’s size changes, content will be appended to the control – “myControlID”.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. How To Get The Selected Value Of Dropdown In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Below is the sample code to bind to dropdown (selected) –</p>
+<p>&lt;select id="myControlID"&gt;</p>
+<p>&lt;option value="1"&gt;AA&lt;/option&gt;</p>
+<p>&lt;option value="2"&gt;BB&lt;/option&gt;</p>
+<p>&lt;option value="3"&gt;CC&lt;/option&gt;</p>
+<p>&lt;option value="4"&gt;DD&lt;/option&gt;</p>
+<p>&lt;/select&gt;</p>
+<p>Get the selected value –</p>
+<p>$("#myControlID option:selected").text();</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. How To Disable Elements Using “attr” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>$('#myControlID').attr('disabled', true);</p>
+<p>$('#myControlID').attr('disabled', false);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. How To Check/uncheck Radio Button Using Attr In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>$('#myControlID').attr('checked', true);</p>
+<p>$('#myControlID').attr('checked', false);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Why To Use “siblings” Method? Give Sample Code To Demonstrate The Same?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When we need to get the list of sibling elements then “sibling” method is used on parent element. Selectors can be used to filter the siblings. For example</p>
+<p>&lt;ul&gt;</p>
+<p>&lt;li&gt; itemA &lt;/li&gt;</p>
+<p>&lt;li id=”mycontrolID”&gt; itemB &lt;/li&gt;</p>
+<p>&lt;li class=”mycontrolclass”&gt; itemC &lt;/li&gt;</p>
+<p>&lt;li class=”mycontrolclass”&gt; itemD &lt;/li&gt;</p>
+<p>&lt;/ul&gt;</p>
+<p>$(‘li#mycontrolID’).siblings().css(‘color’,’yellow’);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. What Is The Difference Between Methods - “css(‘width’)” And “width()” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both methods are used to change the widths of the elements.</p>
+<p><strong>For example:</strong></p>
+<p>$(‘#myControlID’).css(‘width’,’150px’);</p>
+<p>$(‘#myControlID’).width(150);</p>
+<p>Above is the code to change the width of the element to 150px. As you can see “css(width)” method takes the width in pixels whereas for “width” method no need to explicitly mention the width in pixels.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Explain “slidetoggle” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>This method is used to give the animation effects to the elements in Jquery. SlideToggle method uses following parameters:</strong></p>
+<ul>
+<li><strong>Speed –</strong> This is an optional parameter and it specifies the speed of animation effect.</li>
+<li><strong>Easing -</strong> This is an optional parameter and this specifies the speed of animation effect at different interval of time.</li>
+<li><strong>Callback –</strong> This parameter is optional and it accepts the callback function which will be executed once the execution of “slideToggle” method is completed.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. Explain “param” Method In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“param” method is used for object or array in the manner of serialization. While making AJAX calls, param method can be used to serialize the querystrings.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques63"><strong>Question 64. Give An Example With Code Snippet For “param” Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>customerObj=new Object();</p>
+<p>customerObj.name="A4Academics";</p>
+<p>customerObj.Designation=”IT”;</p>
+<p>$("#myControlID").click(function(){</p>
+<p>$("span").text($.param(customerObj));</p>
+<p>});</p>
+<p>Now the span element will have value like - “name=A4Academics&amp;Designation=IT”</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques64"><strong>Question 65. What Is “unbind” In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“unbind” method is used to remove the event handlers associated to the element. This method can be used with selectors to remove the event handlers of the selected elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques65"><strong>Question 66. Why To Use Jquery Dialog?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jquery Dialog is used like a pop up and if Jquery used in MVC then we can render the cshtml contents in Jquery Dialog and its used like a confirm box (as javascript) too.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques66"><strong>Question 67. How Can We Select Elements In Two Different Classes In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Below is the sample code for showing how we can do it –</p>
+<p>$(".MyClass1.MyClass2").css('color','green');</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques67"><strong>Question 68. How To Select All The &lt;span&gt; Elements Which Has Text ‘a4academics’?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can select all &lt;span&gt; elements using below code –</p>
+<p>$("span:contains('a4academics’')")</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques68"><strong>Question 69. How We Can Select The Specified &lt;li&gt; Element From The List Of &lt;li&gt; Elements In &lt;ul&gt;?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If we want to get the 4th &lt;li&gt; from the list of elements in &lt;ul&gt; then we can write code as below –</p>
+<p>$("ul li:eq(3)") // Index will start from 0.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques69"><strong>Question 70. In &lt;table&gt; Design Change The Color Of Even &lt;tr&gt; Elements To “green” And Change The Color Of Odd &lt;tr&gt; Elements To “blue” Color? Give An Example Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Below is the sample code snippet for this scenario –</p>
+<p>$("tr:even").css('color','green')</p>
+<p>$("tr:odd").css('color','blue')</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques70"><strong>Question 71. Write A Code Snippet To Select &lt;li&gt; Elements Which Are In Index Greater Than 5 And Less Than 10 In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the code snippet for this scenario:</strong></p>
+<ul>
+<li>$("ul li:gt(5)").css('color','green')</li>
+<li>$("ul li:lt(10)").css('color','blue')</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques71"><strong>Question 72. Write A Code Snippet To Select All &lt;p&gt; Elements Which Are In All Pages Except First Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Below is the code snippet for this scenario:</p>
+<p>$("p :not(:first)")</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques72"><strong>Question 73. What Is Jquery In The Context Of Web Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>jQuery is nothing but a collection of well written javascript code.</p>
+<p>In other words Jquery is ready made concise and fast JavaScript Library to be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques73"><strong>Question 74. What Are The Advantages Of Using Jquery Over Javascript In Asp.net Web Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below are the advatages of using jQery over JavaScript:</strong></p>
+<ol>
+<li>Jquery is well written optimised javascript code so it will be faster in execution unless we write same standard optimised javascript code.</li>
+<li>Jquery is concise java script code ,means minimal ammount of code is to be written for the same functionality than the javascript.</li>
+<li>Javascript related Development is fast using Jquery because most of the functionality is already written in the library and we just need to use that.</li>
+<li>Jquery has cross browser support ,so we save time for supporting all the browsers.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques74"><strong>Question 75. How To Use Jquery In Asp.net Web Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>To use jQuery in ASP.NET web application follow the below steps:</strong></p>
+<ol>
+<li>Go to http://jquery.com/(The official jQuery WebSite)</li>
+<li>Download latest .js jQuery file from the website. </li>
+<li>Put it the script(or other folder) in the root of your web application </li>
+<li>Add the below tag on the page where you want to use Jquery script type="text/javascript" src="script/jQueryDownLoadedFileName.js" /script</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques75"><strong>Question 76. What Is The Use Of Jquery Min Js File In Asp.net Web Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JQuery min .js file is actully a minified version of Actual JQuery .js. The min files have less size but same content so this improves the performance.so You should prefer to use min files.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques76"><strong>Question 77. What Is The Advantages Of Use Of Document.ready Functions In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Advantage of using $(document).ready(function () in jQuery is that the code inside this function will excecute only when the full page has been loaded so that there will be no error like the DOM object on which the Jquery has to execute is not loaded.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques77"><strong>Question 78. Can We Write More Than One Document.ready Jquery Functions In One Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes we can write more than one jquery $(document).ready(function ()</p>
+<p>in one page.This is helpful when you have large Jquery code and you want to split it in multiple files.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques78"><strong>Question 79. How To Select An Element With Id In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>To select an element with Id write as below:</strong></p>
+<p>var divValue = $(''#sampleDivId'').val();</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques79"><strong>Question 80. How To Select An Element With Class In Jquery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>To select an element with class write as below:</strong></p>
+<p>$(".sampleClass").css("border","2px solid blue");</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques80"><strong>Question 81. What Is The Difference Between Jquery Find And Children Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The difference between find() and children() methods</li>
+<li>are that the children only travels a single level down the DOM tree</li>
+<li>while the find travels at all level down the DOM tree.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques81"><strong>Question 82. How To Use Length Function In Jquery To Text Existance Of An Element By Id?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>To test if an element exists we can use length method in jQuery as below:</strong></p>
+<p>if $(''#mySampleDiv'').length )//Tests wheter the div with id mySampleDiv exists or not</p>
+<p>$(mySampleDiv).find(''div'');</p></p>
+</li><br><br>

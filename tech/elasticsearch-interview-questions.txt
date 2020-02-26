@@ -1,0 +1,106 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is An Index In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An index is similar to a table in relational databases. The difference is that relational databases would store actual values, which is optional in ElasticSearch. An index can store actual and/or analyzed values in an index.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is A Document In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A document is similar to a row in relational databases. The difference is that each document in an index can have a different structure (fields), but should have same data type for common fields.</p>
+<p>Each field can occur multiple times in a document with different data types. Fields can contain other documents too.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Does Elasticsearch Have A Schema ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, ElasticSearch can have mappings which can be used to enforce schema on documents.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is A Document Type In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A document type can be seen as the document schema / mapping definition, which has the mapping of all the fields in the document along with its data types.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Indexing In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of storing data in an index is called indexing in ElasticSearch. Data in ElasticSearch can be dividend into write-once and read-many segments. Whenever an update is attempted, a new version of the document is written to the index.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is A Node In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Each instance of ElasticSearch is called a node. Multiple nodes can work in harmony to form an ElasticSearch Cluster.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is A Shard In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Due to resource limitations like RAM, vCPU etc, for scale-out, applications need to employ multiple instances of ElasticSearch on separate machines. Data in an index can be divided into multiple partitions, each handled by a separate node (instance) of ElasticSearch. Each such partition is called a shard. By default an ElasticSearch index has 5 shards.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is A Replica In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Each shard in ElasticSearch has 2 copy of the shard. These copies are called replicas. They serve the purpose of high-availability and fault-tolerance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is An Analyzer In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While indexing data in ElasticSearch, data is transformed internally by the Analyzer defined for the index, and then indexed. An analyzer is built of tokenizer and filters. Following types of Analyzers are available in ElasticSearch 1.10.</p>
+<ul>
+<li>STANDARD ANALYZER</li>
+<li>SIMPLE ANALYZER</li>
+<li>WHITESPACE ANALYZER</li>
+<li>STOP ANALYZER</li>
+<li>KEYWORD ANALYZER</li>
+<li>PATTERN ANALYZER</li>
+<li>LANGUAGE ANALYZERS</li>
+<li>SNOWBALL ANALYZER</li>
+<li>CUSTOM ANALYZER</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is A Tokenizer In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Tokenizer breakdown fields values of a document into a stream, and inverted indexes are created and updates using these values, and these stream of values are stored in the document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is A Filter In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>After data is processed by Tokenizer, the same is processed by Filter, before indexing. Following types of Filters are available in ElasticSearch 1.10.</p>
+<ul>
+<li>AND FILTER</li>
+<li>BOOL FILTER</li>
+<li>EXISTS FILTER</li>
+<li>GEO BOUNDING BOX FILTER</li>
+<li>GEO DISTANCE FILTER</li>
+<li>GEO DISTANCE RANGE FILTER</li>
+<li>GEO POLYGON FILTER</li>
+<li>GEOSHAPE FILTER</li>
+<li>GEOHASH CELL FILTER</li>
+<li>HAS CHILD FILTER</li>
+<li>HAS PARENT FILTER</li>
+<li>IDS FILTER</li>
+<li>INDICES FILTER</li>
+<li>LIMIT FILTER</li>
+<li>MATCH ALL FILTER</li>
+<li>MISSING FILTER</li>
+<li>NESTED FILTER</li>
+<li>NOT FILTER</li>
+<li>OR FILTER</li>
+<li>PREFIX FILTER</li>
+<li>QUERY FILTER</li>
+<li>RANGE FILTER</li>
+<li>REGEXP FILTER</li>
+<li>SCRIPT FILTER</li>
+<li>TERM FILTER</li>
+<li>TERMS FILTER</li>
+<li>TYPE FILTER</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is The Query Language Of Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ElasticSearch uses the Apache Lucene query language, which is called Query DSL.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Elasticsearch is a search engine based on Lucene. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is released as open source under the terms of the Apache License.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are The Basic Operations You Can Perform On A Document ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The following operations can be performed on documents</p>
+<ul>
+<li>INDEXING A DOCUMENT USING ELASTICSEARCH.</li>
+<li>FETCHING DOCUMENTS USING ELASTICSEARCH.</li>
+<li>UPDATING DOCUMENTS USING ELASTICSEARCH.</li>
+<li>DELETING DOCUMENTS USING ELASTICSEARCH.</li>
+</ul>
+<p>Perform basic operations with Elasticsearch. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Inverted Index In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inverted index is the heart of search engines. The primary goal of a search engine is to provide speedy searches while finding the documents in which our search terms occur. Inverted index is a hashmap like data structure that directs users from a word to a document or a web page. It is the heart of search engines. Its main goal is to provide quick searches for finding data from millions of documents.</p>
+<p>Usually in Books we have inverted indexes as below. Based on the word we can thus find the page on which the word exists.</p>
+<p>Consider the following statements</p>
+<ul>
+<li>javainuse is a good website</li>
+<li>javainuse is one of the good websites.</li>
+</ul>
+<p>For indexing purpose the above text are tokenized into separate terms and all the unique terms are stored inside the index with information such as in which document this term appears and what is the term position in that document.</p>
+<p>So the inverted index for the document text will be as follows-</p>
+<p>When you search for the term website OR websites, the query is executed against the inverted index and the terms are looked out for, and the documents where these terms appear are quickly identified. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is A Cluster In Elasticsearch ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cluster is a collection of one or more nodes (servers) that together holds your entire data and provides federated indexing and search capabilities across all nodes. A cluster is identified by a unique name which by default is "elasticsearch". This name is important because a node can only be part of a cluster if the node is set up to join the cluster by its name.</p></p>
+</li><br><br>

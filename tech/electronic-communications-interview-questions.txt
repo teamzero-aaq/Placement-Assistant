@@ -1,0 +1,217 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Are Different Categories Of Antenna And Give An Example Of Each?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Different categories of antenna are as follows :</p>
+<ol>
+<li>Wire Antennas - Short Dipole Antenna</li>
+<li>Microstrip Antennas - Rectangular Microstrip (Patch) Antennas</li>
+<li>Reflector Antennas - Corner Reflector</li>
+<li>Travelling Wave Antennas - Helical Antennas</li>
+<li>Aperture Antennas - Slot Antenna</li>
+<li>Other Antennas - NFC Antennas</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Handover And What Are Its Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Handover in mobile communication refers to the process of transferring a call from one network cell to another without breaking the call.</p>
+<p>There are two types of handover which are as follows :</p>
+<p><strong>Hard Handoff :</strong> hard handoff is the process in which the cell connection is disconnected from the previous cell before it is made with the new one.</p>
+<p><strong>Soft Handoff :</strong> It is the process in which a new connection is established first before disconnecting the old one. It is thus more efficient and smart.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Ionospheric Bending?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When a radio wave travels into the ionospheric layer it experiences refraction due to difference in density. The density of ionospheric layer is rarer than the layer below which causes the radio wave to be bent away from the normal. Also the radio wave experiences a force from the ions in the ionospheric layer. If incident at the correct angle the radio wave is completely reflected back to the inner atmosphere due to total internal reflection. This phenomenon is called ionospheric reflection and is used in mobile communication for radio wave propagation also known as ionospheric bending of radio waves.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is Cdma?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CDMA stands for Code Division Multiple Access which uses digital format. In CDMA systems several transmissions via the radio interface take place simultaneously on the same frequency bandwidth. User data is combined at the transmitter’s side with a code, then transmitted. On air, all transmission get mixed. At the receiver's side the same code is used as in the transmitter’s side. The code helps the receiver to filter the user information of the transmitter from incoming mixture of all transmissions on the same frequency band and same time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Explain The Concept Of Frequency Re-use?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The whole of the geographical area is divided into hexagonal shape geometrical area called cell and each cell having its own transceiver. Each BTS (cell site) allocated different band of frequency or different channel. Each BTS antenna is designed in such a way that i cover cell area in which it is placed with frequency allotted without interfering other cell signals. The design process of selecting and allocating channel groups for all of the cellular base station within system is called frequency reuse.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Explain Bluetooth?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bluetooth is designed to be a personal area network, where participating entities are mobile and require sporadic communication with others. It is omni directional i.e. it does not have line of sight limitation like infra red does. Ericsson started the work on Bluetooth and named it after the Danish king Harold Biuetooth. Bluetooth operates in the 2.4 GHz area of spectrum and provides a range of 10 metres. It offers transfer speeds of around 720 Kbps.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are Gprs Services?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>GPRS services are defined to fall in one of the two categories :</p>
+<ol>
+<li>PTP ( Point to point)</li>
+<li>PTM ( Point to Multipoint)</li>
+</ol>
+<p>Some of the GPRS services are not likely to be provided by network operators during early deployment of GPRS due in part to the phased development of standard. Market demand is another factor affecting the decision of operators regarding which services to offer first.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Are The Advantages Of Cdma?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Advantages of CDMA are as follows :</p>
+<ol>
+<li><strong>Frequency diversity</strong> : Transmission is spread out over a large bandwidth due to that less affected by noise. If bandwidth is increased S/N ratio increases, which means noise will be reduced.</li>
+<li><strong>Multiplication Resistance</strong> : Chipping codes used for CDMA not only exhibit low correlation but also low autocorrelation. Hence a version of the signal that is delayed by more than one chip interval does not interfere with dominant signal as in other multipath environments.</li>
+<li><strong>Privacy</strong> : Due to spread spectrum is obtained by the use of noise like signals, where each user has a unique code, so privacy is inherent.</li>
+<li><strong>Graceful Degradation</strong> : In CDMA, more users access the system simultaneously as compared to FDMa, TDMA.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are The Advantages Of Spread Spectrum?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Spread spectrum has the following advantages :</p>
+<ol>
+<li>No crosstalk interference.</li>
+<li>Better voice quality/data integrity and less static noise.</li>
+<li>Lowered susceptibility to multipath fading.</li>
+<li>Inherent security.</li>
+<li>Co-existence.</li>
+<li>Longer operating distances.</li>
+<li>Hard to detect.</li>
+<li>Hard to intercept or demodulate.</li>
+<li>Harder to jam than narrow bands.</li>
+<li>Use of ranging and radar.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Explain The Steps Involved In Demodulating A Signal?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Once the signal is coded, modulated and then sent, the receiver must demodulate the signal. This is usually done in two steps :</p>
+<ol>
+<li>Spectrum spreading (e.g., direct sequence or frequency hopping) modulation is removed.</li>
+<li>The remaining information bearing signal is demodulated by multiplying with a local reference identical in structure and synchronised with received signal.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. How Can A Pseudo Random Noise Code Be Usable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To be usable for direct sequence spreading, a PN code must meet the following conditions :</p>
+<ol>
+<li>Sequence must be built from 2 levelled numbers.</li>
+<li>The codes must have sharp autocorrelation peak to enable code synchronization.</li>
+<li>Codes must have a low cross-correlation value, the lower it is, more are the number of users which can be allowed in the system.</li>
+<li>The codes should be “balanced” i.e. the difference between ones and zeros in code may only be 1.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Are The Drawbacks Of Walsh Codes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Walsh codes have the following drawbacks :</p>
+<ol>
+<li>The codes do not have a single, narrow autocorrelation peak.</li>
+<li>The spreading is not over the whole bandwidth; instead the energy is spread over a number of discrete frequency components.</li>
+<li>Although the full sequence cross correlation is identically zero, this does not hold for a partial sequence cross correlation function. Thus advantage of using orthogonal codes is lost.</li>
+<li>Orthogonality is also affected by channel properties like multi path.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain Radio Environment In Building.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Building penetration:</strong> Building penetration depends on the material used for construction and architecture used. This varies building to building and is based on building construction.</p>
+<p><strong>Building Height Effect:</strong> The signal strength is always higher at top floor and generally floor gain height is about 2.7dB/floor which is not dependent on building construction.</p>
+<p><strong>Building Floor Reception:</strong> The signal isolation between floors in a multi floor building is on the average about 20dB. Within a floor of 150 * 150 feet, the propagation loss due to interior walls, depending on the wall materials is about 20 dB between the strong and the weak areas.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. List Some Advantages Of Gsm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Here are some advantages of GSM :</p>
+<ol>
+<li>GSM is mature, this maturity means a more stable network with robust features.</li>
+<li>Less signal deterioration inside buildings.</li>
+<li>Ability to use repeaters.</li>
+<li>Talk time is generally higher in GSM phones due to pulse nature of transmission.</li>
+<li>The availability of Subscriber Identity Modules allows users to switch networks and handset at will.</li>
+<li>GSM covers virtually all parts of world so international roaming is not a problem.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are The Various Types Of Numbers For Network Identity?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Various types of number for network identity are as follows :</p>
+<ol>
+<li>MSISDN ( Mobile station ISDN) Number : It is international mobile subscriber number which is normally called mobile number. It is unique worldwide.</li>
+<li>MSRN ( Mobile Subscriber Routing Number) : MSRN is used during mobile terminate trunk call to provide location of mobile subscriber.</li>
+<li>HON ( Hand Over Number ) : HON is used for providing information required to transfer call from one B?SC to another BSC or to another MSC.</li>
+<li>ISMI ( International Mobile Subscriber Identity Number) : Purpose of ISMI is for location update and authentication.</li>
+<li>TMSI ( Temporary Mobile Subscriber Identity ) : TMSI is used instead of IMSI to improve security efficiency of network.</li>
+<li>IMEI : International Mobile Equipment Identity.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are The Functions Of Base Station System ( Bss)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Functions of BSS are as follows :</p>
+<ol>
+<li>Radio path control.</li>
+<li>BTS and TC control.</li>
+<li>Connection establishment with MS-NSS.</li>
+<li>Mobility management, speech transcoding.</li>
+<li>Connection of statistical data.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Parts Of Network Management System ( Nms )?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Following are the parts of network management system :</p>
+<ol>
+<li><strong>OMC :</strong> Operation and maintenance center - Computerized monitoring center.</li>
+<li><strong>NMC :</strong> Network Management Center - Centralized control of a network is done here.</li>
+<li><strong>OSS :</strong> Operation and support system - Used for supporting activities performed in an OMC and/or NMC.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are Applications Of Dsp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Some selected applications or digital signal processing that are often encountered in daily life are listed as follows:</p>
+<ol>
+<li>Telecommunication: Echo cancellation in telephone networks.</li>
+<li>Military Radar signal processing</li>
+<li>Consumer electronics Digital Audio/TV</li>
+<li>Instrumentation and control</li>
+<li>Image processing image representation, image compression</li>
+<li>Speech processing speech analysis methods are used in automatic speech recognition</li>
+<li>Medicine Medical diagnostic instrumentation such as computerised tomography (CT)</li>
+<li>Seismology DSP techniques are employed in geophysical exploration for oil and gas.</li>
+<li>Signal Filtering Removal of unwanted background noise.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Analog-to-digital Conversion Of Signals?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A discrete-time signal is defined by specifying its value only at discrete times, called sampling instants. When the sampled values are quantised and encoded, a digital signal is obtained. A digital signal is obtained from the analog signal by using an analog-to-digital converter. This entire process is referred to as the conversion of signals from analog to digital form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Properties Of Roc For Z-transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Properties of the ROC for the z-Transform :</p>
+<ol>
+<li>X(z) converges uniformly if and only if the ROC of the z-transform X(z) of the sequence includes the unit circle. The ROC of X(z) consists of a ring in the z-plane centered about the origin. That is, the ROC of the z-transform of x(n) has values of z for which x(n) r-n is absolutely summable.</li>
+<li>The ROC does not contain any poles.</li>
+<li>When x(n) is of finite duration then the ROC is the entire z-plane, except possibly z=0 and/or z=infinity.</li>
+<li>If x(n) is a right sided sequence, the ROC will not include infinity.</li>
+<li>If x(n) is a left sided sequence, the ROC will not include z=0. However if x(n)=0 for all n&gt;0, the ROC will include z=0.</li>
+<li>If x(n) is two sided and if the circle |z| = r0 is in the ROC, then the ROC will consist of a ring in the z-plane that includes the circle |z|=r0.</li>
+<li>If X(z) is rational, then the ROC extends to infinity, i.e. the ROC is bounded by poles.</li>
+<li>If x(n) is causal, then the ROC includes z=infinity.</li>
+<li>If x(n) is anti- causal, trhen the ROC includes z=0.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The Basic Difference Between Latches And Flip Flops?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>flip flops have clock signal whiles latches dont need any clock pulse.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Race Around Condition In Flip Flop?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a jk flip flop(level triggerd) when J=1,k=1......the output Q continuosly keep changing between 1 and 0 as long as clock is high.....this is called race around condition.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. If A Crow Sit On On Current Wire It Will Not Fell Current But A Man Touch It He Get Shock . Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>there is no grond termainal (-ve terminal to complete path),</li>
+<li>tere is no conductor (conduction medium) In tere leg. </li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Why 2 Rectifier Is Used In Smps?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Its not necessary that a power plant uses only two rectifiers, it depends on the load present at the site and the capacity of the rectifier or SMPS. Suppose the load at the site is 120 Amps and the SMPS capacity is 2000W or the current capacity of the recifier is 50 Amps. In that case 3 or more rectifiers is preffered. Rectifiers is used to balance the load in each phase.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Difference Between Voltage And Potential?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Voltage is referred as Potenial difference between two points.potential means its force.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Why Always Current In Some Amp And Voltage Is 230?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>current is depending upon the load. ByOhm's law,</p>
+<p>V -lR,here load is variable.v-230v so current is depending upon your load</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Why I Hire You And Why I Dont Hire You?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You should hire me because I meet the eligibility criteria asked by you. Even I had the experience in this relevant field. I am a good team player. For the second question at the end of the interview you will be clear enough of my knowledge and my potential. That will help you to decide whether u sud hire me or not.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Find Wrong Number 76,20,32,84,325,1580?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>76, bcz except 76 all number is in increasing order....!!!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Kind Of Modulation Is Used For Land Phone  Communication Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>pulse code modulation</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Nmc?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>network management center.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is Ups And Inverters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While both provide backup power during mains outage, with the UPS the switch is instantaneous whereas with the Inverter there is a gap of a second or two. This gap is OK for household gadgets such as lights, fans, fridge, etc. but not OK for computers.</p>
+<p>In technical terms:</p>
+<p><strong>UPS:</strong> The mains power comes to the UPS. The AC is converted to DC and this DC is constantly charging the battery. The output of the battery is fed to the Sine wave inverter and it converts DC to AC and this feeds the equipment. Since power out is always drawn from the battery, there is no time lag when mains swicthes off; it justs stops the battery from being charged and the UPS continues to supply power till the battery runs out.</p>
+<p><strong>Inverter:</strong> The mains power comes to the Inverter. This is directly sent to the output but the AC is also converted to DC and this DC is constantly charging the battery. A sensor and relay mechanism checks whether the mains is ON or OFF.</p>
+<p>When the main switches OFF, the relay actuator triggers to switch from mains to inverter. Rest is same like the UPS. Because of this sensor and relay, there is a gap between triggering.</p>
+<p>UPS involves more costly circuitary and is therefor more expensive to make and sell.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Effect At Thersold Value On Transmission Power Is Increase Or Decrease In Telecommunication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When Transmission power increase the sensitivity of the antenna increase and so the threshold value decrease.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Ups And Inverters. And How To Give Battery Connections For Ups?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ups is a uninterputed power supply.inverter is invet the load in DC to AC than load taking the AC.it will be convertor is convet AC to DC that time battery is charged.battery connections in series..</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is Operating Ratio In Railway?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Operating Ratio = Total revenue / Total expenses </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Artificial Intelligence? Isnt It Is Dangerous?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An artificial intelligence ic the branch of science which makes the computers to act as an human beings. Yes AI is dangerous because it is leading us down to dystopia. it is exploits natural human zoomorphism.</p></p>
+</li><br><br>

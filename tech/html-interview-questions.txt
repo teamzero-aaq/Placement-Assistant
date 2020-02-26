@@ -1,0 +1,644 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Html?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML, or HyperText Markup Language, is a Universal language which allows an individual using special code to create web pages to be viewed on the Internet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is A Tag? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In HTML, a tag tells the browser what to do. When you write an HTML page, you enter tags for many reasons -- to change the appearance of text, to show a graphic, or to make a link to another page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is The Simplest Html Page? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML Code:<br/>
+&lt;HTML&gt;<br/>
+&lt;HEAD&gt;<br/>
+&lt;TITLE&gt;This is my page title! &lt;/TITLE&gt;<br/>
+&lt;/HEAD&gt;<br/>
+&lt;BODY&gt;<br/>
+This is my message to the world!<br/>
+&lt;/BODY&gt;<br/>
+&lt;/HTML&gt; <br/>
+<br/>
+Browser Display:<br/>
+This is my message to the world!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Do I Create Frames? What Is A Frameset? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Frames allow an author to divide a browser window into multiple (rectangular) regions. Multiple documents can be displayed in a single window, each within its own frame. Graphical browsers allow these frames to be scrolled independently of each other, and links can update the document displayed in one frame without affecting the others. </p>
+<p>You can't just "add frames" to an existing document. Rather, you must create a frameset document that defines a particular combination of frames, and then display your content documents inside those frames. The frameset document should also include alternative non-framed content in a NOFRAMES element.  The HTML 4 frames model has significant design flaws that cause usability problems for web users. Frames should be used only with great care.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How Can I Include Comments In Html? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Technically, since HTML is an SGML application, HTML uses SGML comment syntax. However, the  full syntax is complex, and browsers don't support it in its entirety anyway. Therefore, use the following simplified rule to create HTML comments that both have valid syntax and work in browsers:<br/>
+<br/>
+An HTML comment begins with "&lt;!--", ends with  "--&gt;", and does not contain "--" or "&gt;" anywhere in the comment. <br/>
+The following are examples of HTML comments:<br/>
+<br/>
+* &lt;!-- This is a comment. --&gt;<br/>
+* &lt;!-- This is another comment,<br/>
+and it continues onto a second line. --&gt;<br/>
+* &lt;!----&gt;<br/>
+<br/>
+Do not put comments inside tags (i.e., between "&lt;" and "&gt;") in HTML markup.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is A Hypertext Link? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A hypertext link is a special tag that links one page to another page or resource. If you click the link, the browser jumps to the link's destination.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Everyone Using To Write Html? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Everyone has a different preference for which tool works best for them. Keep in mind that typically the less HTML the tool requires you to know, the worse the output of the HTML. In other words, you can always do it better by hand if you take the time to learn a little HTML.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is A Doctype? Which One Do I Use? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>According to HTML standards, each HTML document begins with a DOCTYPE declaration that specifies which version of HTML the document uses. Originally, the DOCTYPE declaration was used only by SGML-based tools like HTML validators, which needed to determine which version of HTML a document used (or claimed to use).<br/>
+Today, many browsers use the document's DOCTYPE declaration to determine whether to use a stricter, more standards-oriented layout mode, or to use a "quirks" layout mode that attempts to emulate older, buggy browsers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Can I Nest Tables Within Tables? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, a table  can be embedded inside a cell in another table. Here's a simple example: <br/>
+<br/>
+&lt;table&gt;<br/>
+&lt;tr&gt;<br/>
+&lt;td&gt;this is the first cell of the outer  table&lt;/td&gt;<br/>
+&lt;td&gt;this is the second cell of the outer table,<br/>
+<br/>
+with the inner table embedded in it<br/>
+&lt;table&gt;<br/>
+&lt;tr&gt;<br/>
+&lt;td&gt;this is the first cell of the inner  table&lt;/td&gt;<br/>
+&lt;td&gt;this is the second cell of the inner  table&lt;/td&gt;<br/>
+&lt;/tr&gt;<br/>
+&lt;/table&gt;<br/>
+&lt;/td&gt;<br/>
+&lt;/tr&gt;<br/>
+&lt;/table&gt;<br/>
+<br/>
+The main caveat about nested tables is that older versions of Netscape Navigator have problems with them if you don't explicitly close your TR, TD, and TH elements. To avoid problems, include every &lt;/tr&gt;,  &lt;/td&gt;, and &lt;/th&gt; tag, even though the HTML specifications don't require them. Also, older versions of Netscape Navigator have problems with tables that are nested extremely deeply (e.g., tables nested ten deep). To avoid problems, avoid nesting tables more than a few deep. You may be able to use the ROWSPAN and COLSPAN attributes to minimize table nesting. Finally, be especially sure to validate your markup whenever you use nested tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do I Align A Table To The Right (or Left)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can use &lt;TABLE ALIGN="right"&gt; to float a table to the right. (Use ALIGN="left" to float it to the left.) Any content that follows the closing &lt;/TABLE&gt; tag will flow around the table. Use &lt;BR CLEAR="right"&gt; or &lt;BR CLEAR="all"&gt; to mark the end of the text that is to flow around the table, as shown in this example:<br/>
+<br/>
+The table in this example will float to the right.<br/>
+&lt;table align="right"&gt;...&lt;/table&gt;<br/>
+This text will wrap to fill the available space to the left of (and if the text is long enough, below) the table.<br/>
+&lt;br clear="right"&gt;<br/>
+This text will appear below the table, even if there is additional room to its left.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. How Can I Use Tables To Structure Forms? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Small forms are sometimes placed within a TD element within a table. This can be a useful for positioning a form relative to other content, but it doesn't help position the form-related elements relative to each other. <br/>
+To position form-related elements relative to each other, the entire table must be within the form. You cannot start a form in one TH or TD element and end in another. You cannot place the form within the table without placing it inside a TH or TD element. You can put the table inside the form, and then use the table to position the INPUT, TEXTAREA, SELECT, and other form-related elements, as shown in the following example. <br/>
+<br/>
+&lt;FORM ACTION="[URL]"&gt;<br/>
+&lt;TABLE BORDER="0"&gt;<br/>
+&lt;TR&gt;<br/>
+&lt;TH&gt;Account:&lt;/TH&gt;<br/>
+&lt;TD&gt;&lt;INPUT TYPE="text"  NAME="account"&gt;&lt;/TD&gt;<br/>
+&lt;/TR&gt;<br/>
+&lt;TR&gt;<br/>
+&lt;TH&gt;Password:&lt;/TH&gt;<br/>
+&lt;TD&gt;&lt;INPUT TYPE="password"  NAME="password"&gt;&lt;/TD&gt;<br/>
+&lt;/TR&gt;<br/>
+&lt;TR&gt;<br/>
+&lt;TD&gt; &lt;/TD&gt;<br/>
+&lt;TD&gt;&lt;INPUT TYPE="submit" NAME="Log  On"&gt;&lt;/TD&gt;<br/>
+&lt;/TR&gt;<br/>
+&lt;/TABLE&gt;<br/>
+&lt;/FORM&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Do I Center A Table? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In your HTML, use<br/>
+<br/>
+&lt;div class="center"&gt;<br/>
+&lt;table&gt;...&lt;/table&gt;<br/>
+&lt;/div&gt;<br/>
+<br/>
+In your CSS, use<br/>
+<br/>
+div.center {<br/>
+text-align: center;<br/>
+}<br/>
+<br/>
+div.center table {<br/>
+margin-left: auto;<br/>
+margin-right: auto;<br/>
+text-align: left;<br/>
+}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How Do I Use Forms? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The basic syntax for a form is: &lt;FORM ACTION="[URL]"&gt;...&lt;/FORM&gt; <br/>
+When the form is submitted, the form data is sent to the URL specified in the ACTION attribute. This URL should refer to a server-side (e.g., CGI) program that will process the form data. The form itself should contain</p>
+<p>* at least one submit button (i.e., an &lt;INPUT TYPE="submit" ...&gt; element),<br/>
+* form data elements (e.g., &lt;INPUT&gt;, &lt;TEXTAREA&gt;, and &lt;SELECT&gt;) as needed, and<br/>
+* additional markup (e.g., identifying data elements, presenting instructions) as needed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How Can I Check For Errors? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML validators check HTML documents against a formal definition of HTML syntax and then output a list of errors. Validation is important to give the best chance of correctness on unknown browsers (both existing browsers that you haven't seen and future browsers that haven't been written yet). </p>
+<p>HTML checkers (linters) are also useful. These programs check documents for specific problems, including some caused by invalid markup and others caused by common browser bugs. Checkers may pass some invalid documents, and they may fail some valid ones. </p>
+<p>All validators are functionally equivalent; while their reporting styles may vary, they will find the same errors given identical input. Different checkers are programmed to look for different problems, so  their reports will vary significantly from each other. Also, some programs that are called validators (e.g. the "CSE HTML Validator") are really linters/checkers. They are still useful, but they should not be confused with real HTML validators. </p>
+<p>When checking a site for errors for the first time, it is often useful to identify common problems that occur repeatedly in your markup. Fix these problems everywhere they occur (with an automated process if possible), and then go back to identify and fix the remaining problems. </p>
+<p>Link checkers follow all the links on a site and report which ones are no longer functioning. CSS checkers report problems with CSS style sheets.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Do I Have To Memorize A Bunch Of Tags? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. Most programs that help you write HTML code already know most tags, and create them when you press a button. But you should understand what a tag is, and how it works. That way you can correct errors in your page more easily.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How Do I Make A Form So It Can Be Submitted By Hitting Enter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The short answer  is that the form should just have one &lt;INPUT TYPE=TEXT&gt; and no TEXTAREA,  though it can have other form elements like checkboxes and radio buttons.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How Do I Set The Focus To The First Form Field? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You cannot do  this with HTML. However, you can include a script after the form that sets the  focus to the appropriate field, like this: <br/>
+<br/>
+&lt;form id="myform" name="myform"  action=...&gt;<br/>
+&lt;input type="text" id="myinput"  name="myinput" ...&gt;<br/>
+&lt;/form&gt;<br/>
+<br/>
+&lt;script type="text/javascript"&gt;<br/>
+document.myform.myinput.focus();<br/>
+&lt;/script&gt; <br/>
+<br/>
+A similar approach uses &lt;body onload=...&gt; to set the  focus, but some browsers seem to process the ONLOAD event before the entire  document (i.e., the part with the form) has been loaded.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. How Can I Eliminate The Extra Space After A </strong></a></p></li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Can I Show Html Examples Without Them Being Interpreted As Part Of My Document?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Within the HTML example, first replace the "&amp;" character with "&amp;amp;" everywhere it occurs. Then replace the "&amp;lt;" character with "&lt;" and the "&amp;gt;" character with "&gt;" in the same way. </p>
+<p>Note that it may be appropriate to use the CODE and/or PRE elements when displaying HTML examples.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How Do I Eliminate The Blue Border Around Linked Images? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In your HTML, you can specify the BORDER attribute for the image: <br/>
+&lt;a href=...&gt;&lt;img src=... alt=...  border="0"&gt;&lt;/a&gt; <br/>
+However, note that removing the border that indicates an image is a link makes it harder for users to distinguish quickly and easily which images on a web page are clickable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. How Can I Specify Colors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you want others to view your web page with specific colors, the most appropriate way is to suggest the colors with a style sheet. Cascading Style Sheets use the color and background-color properties to specify text and background colors. To avoid conflicts between the reader's default colors and those suggested by the author, these two properties should always be used together. </p>
+<p>With HTML, you can suggest colors with the TEXT, LINK, VLINK (visited link), ALINK (active link), and BGCOLOR (background color) attributes of the BODY element. </p>
+<p>Note that these attributes are deprecated by HTML 4. Also, if one of these attributes is used, then all of them should be used to ensure that the reader's default colors do not interfere with those suggested by the author. Here is an example: </p>
+<p>&lt;body bgcolor="#ffffff"  text="#000000" link="#0000ff" vlink="#800080"  alink="#000080"&gt; <br/>
+Authors should not rely on the specified colors since browsers allow their users to override document-specified colors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How Can I Allow File Uploads To My Web Site? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These things are necessary for Web-based uploads:<br/>
+<br/>
+* An HTTP server that accepts uploads.<br/>
+* Access to the /cgi-bin/ to put the receiving script. Prewritten CGI file-upload scripts are available.<br/>
+* A form implemented something like this:<br/>
+<br/>
+&lt;form method="post"  enctype="multipart/form-data" action="fup.cgi"&gt;<br/>
+File to upload: &lt;input type=file  name=upfile&gt;&lt;br&gt;<br/>
+Notes about the file: &lt;input type=text  name=note&gt;&lt;br&gt;<br/>
+&lt;input type=submit value=Press&gt; to upload the file!<br/>
+&lt;/form&gt;<br/>
+<br/>
+Not all browsers support form-based file upload, so try to give alternatives where possible.<br/>
+The Perl CGI.pm module supports file upload. The most recent versions of the cgi-lib.pl library also support file upload. Also, if  you need to do file upload in conjunction with form-to-email, the Perl package MIME::Lite handles email attachments.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How Can I Require That Fields Be Filled In, Or Filled In Correctly? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Have the server-side (e.g., CGI) program that processes the form submission send an error message if the field is not filled in properly. Ideally, this error message should include a copy of the original form with the original (incomplete or incorrect) data filled in as the default values for the form fields. The Perl CGI.pm module provides helpful mechanisms for returning partially completed forms to the user. </p>
+<p>In addition, you could use JavaScript in the form's ONSUBMIT attribute to check the form data. If JavaScript support is enabled, then the ONSUBMIT event handler can inform the user of the problem and return false to prevent the form from being submitted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How Do I Change The Title Of A Framed Document? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The title displayed is the title of the frameset document rather than the titles of any of the pages within frames. To change the title displayed, link to a new frameset document using TARGET="_top" (replacing the entire frameset).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How Do I Link An Image To Something? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Just use the image as the link content, like this:<br/>
+<br/>
+&lt;a href=...&gt;&lt;img src=... alt=...&gt;&lt;/a&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Do I Specify A Specific Combination Of Frames Instead Of The Default Document?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is unfortunately not possible. When you navigate through a site using frames, the URL will not change as the documents in the individual frames change. This means that there is no way to indicate the combination of documents that make up the current state of the frameset. </p>
+<p>The author can provide multiple frameset documents, one for each combination of frame content. These frameset documents can be generated automatically, perhaps being created on the fly by a CGI program. Rather than linking to individual content documents, the author can link to these separate frameset documents using TARGET="_top". Thus, the URL of the current frameset document will always specify the combination of frames being displayed, which allows links, bookmarks, etc. to function normally.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. How Do I Create A Link? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use an anchor element. The HREF attribute specifies the URL of the document that you want to link to. The following example links the text "Web Authoring FAQ" to &lt;URL:http://www.htmlhelp.com/faq/html/&gt;: <br/>
+&lt;A HREF="http://www.yoursite.com/faq/html/"&gt;Web Authoring FAQ&lt;/A&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How Do I Create A Link That Opens A New Window? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>&lt;a target="_blank" href=...&gt; opens a new, unnamed window.<br/>
+&lt;a target="example" href=...&gt; opens a new window named "example", provided that a window or frame by that name does not already exist.</p>
+<p>Note that the TARGET attribute is not part of HTML 4 Strict. In HTML 4 Strict, new windows can be created only with JavaScript. links that open new windows can be annoying to your readers if there is not a good reason for them.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. How Do I Create A Button Which Acts Like A Link? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is best done with a small form:<br/>
+<br/>
+&lt;FORM ACTION="[URL]" METHOD=GET&gt;<br/>
+&lt;INPUT TYPE=submit VALUE="Text on button"&gt;<br/>
+&lt;/FORM&gt;<br/>
+<br/>
+If you want to line up buttons next to each other, you will have to put them in a one-row table, with each button in a separate cell. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. How Can I Make A Form With Custom Buttons? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Rather than a normal submit button (&lt;input type="submit" ...&gt;), you can use the image input type (&lt;input type="image" ...&gt;). The image input type specifies a graphical submit button that functions like a server-side image map. </p>
+<p>Unlike normal submit buttons (which return a name=value pair), the image input type returns the x-y coordinates of the location where the user clicked on the image. The browser returns the x-y coordinates as name.x=000 and name.y=000 pairs. </p>
+<p>ronments, the VALUE and ALT attributes should be set to the same value as the NAME attribute. For example: </p>
+<p>&lt;input type="image" name="Send" alt="Send" value="Send" src="send-button.gif"&gt; <br/>
+For the reset button, one could use &lt;button type="reset" ...&gt;, JavaScript, and/or style sheets, although none of these mechanisms work universally.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. How Do I Specify Page Breaks In Html? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is no way in standard HTML to specify where page breaks will occur when printing a page. HTML was designed to be a device-independent structural definition language, and page breaks depend on things like the fonts and paper size that the person viewing the page is using.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. How Do I Remove The Border Around Frames? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Removing the border around frames involves both not drawing the frame borders and eliminating the space between the frames. The most widely supported way to display borderless frames is &lt;FRAMESET ... BORDER=0 FRAMEBORDER=0  FRAMESPACING=0&gt;. </p>
+<p>Note that these attributes are proprietary and not part of the HTML 4.01 specifications. (HTML 4.01 does define the FRAMEBORDER attribute for the FRAME element, but not for the FRAMESET element.) Also, removing the border around a frame makes it difficult to resize it, as this border is also used in most GUIs to change the size of the frame.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Why Aren't My Frames The Exact Size I Specified? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Older versions of Netscape Navigator seems to convert pixel-based frame dimensions to whole percentages, and to use those percentage-based dimensions when laying out the frames. Thus, frames with pixel-based dimensions will be rendered with a slightly different size than that specified in the frameset document. The rounding error will vary depending on the exact size of the browser window.  Furthermore, Navigator seems to store the percentage-based dimensions internally, rather than the original pixel-based dimensions. Thus, when a window is resized, the frames are redrawn based on the new window size and the old percentage-based dimensions.</p>
+<p>There is no way to prevent this behavior. To accommodate it, you should design your site to adapt to variations in the frame dimensions. This is another situation where it is a good idea to accommodate variations in the browser's presentation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. How Can I Specify Background Images? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With HTML, you can suggest a background image with the BACKGROUND attribute of the BODY element. Here is an example: </p>
+<p>&lt;body background="imagefile.gif" bgcolor="#ffffff" text="#000000" link="#0000ff"  vlink="#800080" alink="#000080"&gt; </p>
+<p>If you specify a background image, you should also specify text, link, and background colors since the reader's default colors may not provide adequate contrast against your background image. The background color may be used by those not using your background image. Authors should not rely on the specified background image since browsers allow their users to disable image loading or to override document-specified backgrounds.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How Can I Copy Something From A Webpage To My Webpage? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>1: Plaintext or any text information viewable from your browser can be easily copied like any other text from any other file.<br/>
+2: HTML and web scripts - you will need to view the web page's source code. In the page's source code, copying the <script> and </script> tags as well as all the information in-between these tags will usually enable the script to work on your web page. <br/>
+3: Images, sounds, or movies - Almost all images, sounds, and movies can be copied to your computer and then viewed on your webpage. Images can be easily copied from a webpage by right-clicking an image and selecting "Save Picture as" or "Save Image as". Unless the sound or movies file has a direct link to download and save the file to a specified location on your hard disk drive or to view your Internet browser's cache and locate the sound or movie file saved in the cache. <br/>
+4. Embedded objects - Looking at the source code of the object to determine the name of the file and how it is loaded, and copy both the code and the file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Is It Possible To Make The Html Source Not Viewable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In short, there is no real method or script for making standard HTML source code not viewable. You may consider doing any of the below if they are concerned about your source code.<br/>
+1. Create the web page in Macromedia Flash or a similar program. The visitor would need to download the Macromedia Flash plug-in and would be unable to view the source code for the flash applet.<br/>
+2. There are various scripts that will disable the right click feature, preventing the user from saving images or viewing the source. However, this will not protect the source code of your page. For example, Internet Explorer users may still click "View" and "Source" to view the source code of the page, or a user could disable scripts and images can be saved by simply saving the web page to the hard drive.<br/>
+3. There are several programs that will help scramble your code, making it difficult (not impossible) to read. Again, this is not going to prevent someone from viewing your code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Why Doesn't My Title Show Up When I Click "check It Out"? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You're probably looking at the wrong part of the screen. The Title usually shows up in the Title Bar on the Window, to the left of the minimize/maximize buttons on graphical browsers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is The Difference Between The Html Form Methods Get And Post? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The method parameter specifies which method the client is using to send information to the WEB server. The method determines which parameter you will find the CGI request data in:<br/>
+* POST - post_args<br/>
+* GET - httpargs</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Do I Put Sounds For Older Versions Of Internet Explorer? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For older versions of Internet Explorer, this technique was used &lt;BG SOUND="sound.ext"&gt;.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Can I Use Any Html In The Box? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Any HTML tag that your browser supports will work in the box. So you can carry tags from chapters to chapters and mix and match.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. How To Transferring User To New Web Page Automatically? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You will need to use the below meta tag. <br/>
+&lt;META HTTP-EQUIV="Refresh" CONTENT="2"; URL="http://www.yourname.com"&gt; <br/>
+Placing the above tag in your &lt;HEAD&gt;&lt;/HEAD&gt; will load yousite.com in 2 seconds. <br/>
+Changing the 2 value on CONTENT="2" to another value will increase or decrease the delay until loading the new page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. How Do I Keep People From Stealing My Source Code And/or Images?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Because copies of your HTML files and images are stored in cache, it is impossible to prevent someone from being able to save them onto their hard drive. If you are concerned about your images, you may wish to embed a watermark with your information into the image. Consult your image editing program's help file for more details.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. The Colors On My Page Look Different When Viewed On A Mac And A Pc. </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Mac and the PC use slightly different color palettes. There is a 216 "browser safe" color palette that both platforms support; the Microsoft color picker page has some good information and links to other resources about this. In addition, the two platforms use different gamma (brightness) values, so a graphic that looks fine on the Mac may look too dark on the PC. The only way to address this problem is to tweak the brightness of your image so that it looks acceptable on both platforms.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. How Do You Create Tabs Or Indents In Web Pages? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There was a tag proposed for HTML 3.0, but it was never adopted by any major browser and the draft specification has now expired. You can simulate a tab or indent in various ways, including using a transparent GIF, but none are quite as satisfactory or widely supported as an official tag would be.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. My Page Looks Good On One Browser, But Not On Another. </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are slight differences between browsers, such as Netscape Navigator and Microsoft Internet Explorer, in areas such as page margins. The only real answer is to use standard HTML tags whenever possible, and view your pages in multiple browsers to see how they look.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. When I Try To Upload My Site, All My Images Are X's. How Do I Get Them To Load Correctly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>They are a few reasons that this could happen. The most common are:<br/>
+<br/>
+1. You're attempting to use a .bmp or .tif or other non-supported file format. You can only use .gif and .jpg on the web. You must convert files that are not .gif or .jpg into a .gif or .jpg with your image/graphics program.<br/>
+2. You've forgotten to upload the graphic files. Double-Check.<br/>
+3. You've incorrectly linked to the images. When you are starting out, try just using the file name in the &lt;img&gt; tag. If you have cat.jpg, use <br/>
+img src="cat.jpg"&gt;.<br/>
+4. Image file names are case-sensitive. If your file is called CaT.JpG, you cannot type cat.jpg, you must type CaT.JpG exactly in the  src.<br/>
+5. If all of the above fail, re-upload the image in BINARY mode. You may have accidentally uploaded the image in ASCII mode.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Why Does The Browser Show My Plain Html Source? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If Microsoft Internet Explorer displays your document normally, but other browsers display your plain HTML source, then most likely your web server is sending the document with the MIME type "text/plain". Your web server needs to be configured to send that filename with the MIME type "text/html". Often, using the filename extension ".html" or ".htm" is all that is necessary. If you are seeing this behavior while viewing your HTML documents on your local Windows filesystem, then your text editor may have added a ".txt" filename extension automatically. You should rename filename.html.txt to filename.html so that Windows will treat the file as an HTML document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. How Can I Display An Image On My Page? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use an IMG element. The SRC attribute specifies the location of the image. The ALT attribute provides alternate text for those not loading images. For example:<br/>
+<br/>
+&lt;img src="logo.gif" alt="ACME Products"&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. Why Do My Links Open New Windows Rather Than Update An Existing Frame? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If there is no existing frame with the name you used for the TARGET attribute, then a new browser window will be opened, and this window will be assigned the name you used. Furthermore, TARGET="_blank" will open a new, unnamed browser window.</p>
+<p>In HTML 4, the TARGET attribute value is case-insensitive, so that abc and ABC both refer to the same frame/window, and _top and _TOP both have the same meaning. However, most browsers treat the TARGET attribute value as case-sensitive and do not recognize ABC as being the same as abc, or _TOP as having the special meaning of _top. </p>
+<p>Also, some browsers include a security feature that prevents documents from being hijacked by third-party framesets. In these browsers, if a document's link targets a frame defined by a frameset document that is located on a different server than the document itself, then the link opens in a new window instead.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. How Do I Make A Frame With A Vertical Scrollbar But Without A Horizontal Scrollbar? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The only way to have a frame with a vertical scrollbar but without a horizontal scrollbar is to define the frame with SCROLLING="auto" (the default), and to have content that does not require horizontal scrolling. There is no way to specify that a frame should have one scrollbar but not the other. Using SCROLLING="yes" will force scrollbars in both directions (even when they aren't needed), and using SCROLLING="no" will inhibit all scrollbars (even when scrolling is necessary to access the frame's content). There are no other values for the SCROLLING attribute.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Are The Attributes That Make Up A Dhtml?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DHTML is called as Dynamic HTML. This is used to increase the interactive ability and the visual effect of the web pages which is loaded in the browser. The main technologies that are used in DHTML are namely:<br/>
+*	HTML<br/>
+*	JavaScript<br/>
+*	CSS which is also called as Cascading Style Sheet<br/>
+*	DOM also called as Document Object Model</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. What Is Meant By Iframe ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>iframe is used for creating an inline or floating frame. As most of know frames are mainly used to structure the page or for placing a menu bar on the side and so on. But iframe is used in a different context. That is in other words iframe is used to embed or insert content on a page of padding. This is done for several reasons. Say the content may be large enough that the user may wish to place it separately and scroll through it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. How To Place A Background For A Single Table Cell?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can put a background for a single table cell in two ways namely: Either by using HTML Using CSS</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. What Are Differences Between Div And Span?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DIV is used to select a block of text so that one can apply styles to it. SPAN is used to select inline text and let users to apply styles to it.  The main difference between DIV and SPAN is SPAN does not do formatting by itself. Also the DIV tag is used as a paragraph break as it creates a logical division of the document in which it is applied. This is in contrast to the SPAN as SPAN simply dos the functionality of applying the style and alignment whatever was specified in it. DIV has ALIGN attribute in it which is not present in case of SPAN. Thus DIV is used in cases where one wants to apply styles to a block of text. But there may be situations in which there might not be clear well structured block of text to work with. In those cases one can opt to apply SPAN which is used to apply styles inline. That is in other words DIV is generally used for block of text and SPAN is generally used for words or sentences.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Are The Differences Between Cell Spacing And Cell Padding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cell padding is used for formatting purpose which is used to specify the space needed between the edges of the cells and also in the cell contents. Cell spacing is one also used f formatting but there is a major difference between cell padding and cell spacing. It is as follows: Cell padding is used to set extra space which is used to separate cell walls from their contents. But in contrast cell spacing is used to set space between cells.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. How Do I Add Scrolling Text To My Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Add a Tag of marquee</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. How Do I Close A Browser Window With Html Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use the below code example. &lt; type="button" value="Close this window" onclick="self.close()"&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. How Do I Do Multiple Colors Of Text?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To do the multicolor text adjust the color of your font tag as:<br/>
+&lt; font color="blue"&gt;blue</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. What Are Style Sheets? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style Sheets are templates, very similar to templates in desktop publishing applications, containing a collection of rules declared to various selectors (elements).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. What Are Cascading Style Sheets? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Cascading Style Sheet (CSS) is a list of statements (also known as rules) that can assign various rendering properties to HTML elements. Style rules can be specified for a single element occurrence, multiple elements, an entire document, or even multiple documents at once. It is possible to specify many different rules for an element in different locations using different methods. All these rules are collected and merged (known as a "cascading" of styles) when the document is rendered to form a single style rule for each element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. What Is External Style Sheet? How To Link? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>External Style Sheet is a template/document/file containing style information which can be linked with any number of HTML documents. This is a very convenient way of formatting the entire site as well as restyling it by editing just one file. The file is linked with HTML documents via the LINK element inside the HEAD element. Files containing style information must have extension .css, e.g. style.css.
+<link href="style.css" rel="STYLESHEET" type="text/css"/></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Is Css Case Sensitive? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cascading Style Sheets (CSS) is not case sensitive. However, font families, URLs to images, and other direct references with the style sheet may be.</p>
+<p>The trick is that if you write a document using an XML declaration and an XHTML doctype, then the CSS class names will be case sensitive for some browsers.</p>
+<p>It is a good idea to avoid naming classes where the only difference is the case, for example:</p>
+<p>div.myclass { ...}<br/>
+div.myClass { ... }</p>
+<p>If the DOCTYPE or XML declaration is ever removed from your pages, even by mistake, the last instance of the style will be used, regardless of case.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. What Is Css Rule 'ruleset'? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two types of CSS rules: ruleset and at-rule. Ruleset identifies selector or selectors and declares style which is to be attached to that selector or selectors. For example P {text-indent: 10pt} is a CSS rule. CSS rulesets consist of two parts: selector, e.g. P and declaration, e.g. {text-indent: 10pt}.</p>
+<p>P {text-indent: 10pt} - CSS rule (ruleset)<br/>
+{text-indent: 10pt} - CSS declaration<br/>
+text-indent - CSS property<br/>
+10pt - CSS value</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques63"><strong>Question 64. 'fixed' Background? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is the possibility to use the HTML tag  bgproperties="fixed", but that is IE proprietary, and dependent upon  the 'background' attribute (deprecated in HTML4).<br/>
+<br/>
+With CSS, you can declare the background like:<br/>
+<br/>
+BODY {<br/>
+font-family : "Trebuchet MS", Verdana, Arial,  Helvetica, sans-serif;<br/>
+background-image: url(images/yourimage.gif);<br/>
+background-repeat: no-repeat; /*no-tiling background*/<br/>
+background-position: center;<br/>
+background-attachment: fixed;<br/>
+background-color: #hexcolor;<br/>
+color : #hexcolor;<br/>
+margin: 10px;<br/>
+}<br/>
+<br/>
+that shows a background-image in the center of the  &lt;BODY&gt; element, non-scrolling and non-repeating - in IE or NN6. NN 4.xx  gets the non-repeat-part right, but stuffs the picture in the upper left corner  and scrolls ...</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques64"><strong>Question 65. What Is Embedded Style? How To Link? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Embedded style is the style attached to one specific document. The  style information is specified as a content of the STYLE element inside the  HEAD element and will apply to the entire document.</p>
+<p>&lt;HEAD&gt;<br/>
+&lt;STYLE TYPE="text/css"&gt;<br/>
+&lt;!--<br/>
+P {text-indent: 10pt}<br/>
+--&gt;<br/>
+&lt;/STYLE&gt;<br/>
+&lt;/HEAD&gt;<br/>
+<br/>
+Note: The styling rules are written as a HTML comment, that  is, between &lt;!-- and --&gt; to hide the content in browsers without CSS  support which would otherwise be displayed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques65"><strong>Question 66. How Do I Have A Background Image That Isn't Tiled? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Specify the background-repeat property as no-repeat. You can also  use the background property as a shortcut for specifying multiple background-*  properties at once. Here's an example:<br/>
+<br/>
+BODY {background: #FFF url(watermark.jpg) no-repeat;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques66"><strong>Question 67. Why Do Style Sheets Exist?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SGML (of which HTML is a derivative) was meant to be a device-independent method for conveying a document's structural and semantic content (its meaning.) It was never meant to convey physical formatting information. HTML has crossed this line and now contains many elements and attributes which specify visual style and formatting information. One of the main reasons for style sheets is to stop the creation of new HTML physical formatting constructs and once again separate style information from document content.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques67"><strong>Question 68. What Is Inline Style? How To Link? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inline style is the style attached to one specific element. The  style is specified directly in the start tag as a value of the STYLE attribute  and will apply exclusively to this specific element occurrence.<br/>
+<br/>
+&lt;P STYLE="text-indent: 10pt"&gt;Indented  paragraph&lt;/P&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques68"><strong>Question 69. What Is A Style Sheet? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style sheets are the way that standards-compliant Web designers define the layout, look-and-feel, and design of their pages. They are called Cascading Style Sheets or CSS. With style sheets, a designer can define many aspects of a Web page:</p>
+<p>* fonts <br/>
+* colors<br/>
+* layout<br/>
+* positioning<br/>
+* imagery<br/>
+* accessibility</p>
+<p>Style sheets give you a lot of power to define how your pages will look. And another great thing about them is that style sheets make it really easy to update your pages when you want to make a new design. Simply load in a new style sheet onto your pages and you're done.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques69"><strong>Question 70. How Do I Place Text Over An Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To place text or image over an image you use the position  property. The below example is supported by IE 4.0. All you have to do is adapt  the units to your need.<br/>
+<br/>
+&lt;div style="position: relative; width: 200px;  height: 100px"&gt;<br/>
+&lt;div style="position: absolute; top: 0; left: 0;  width: 200px"&gt;<br/>
+&lt;image&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;div style="position: absolute; top: 20%; left:  20%; width: 200px"&gt;<br/>
+Text that nicely wraps<br/>
+&lt;/div&gt;<br/>
+&lt;/div&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques70"><strong>Question 71. Why Does My Content Shift To The Left On Some Pages (in Ff)? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>That'll be the pages with more content? The ones that have a  vertical scrollbar? If you look in IE there's probably a white space on the  right where there would be a scrollbar if there were enough content to require  one. In Firefox, the scrollbar appears when it's needed and the viewport  becomes about 20px smaller, so the content seems to shift to the left when you  move from a page with little content to one with lots of content. It's not a  bug or something that needs to be fixed, but it does confuse and irritate some  developers.<br/>
+<br/>
+If, for some reason, you'd like Firefox to always have  scrollbars - whether they're needed or not - you can do this :<br/>
+<br/>
+CSS html {<br/>
+height:100.1%;<br/>
+}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques71"><strong>Question 72. How Do I Combine Multiple Sheets Into One?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To combine multiple/partial style sheets into one set the TITLE  attribute taking one and the same value to the LINK element. The combined style  will apply as a preferred style, e.g.:<br/>
+<br/>
+&lt;LINK REL=Stylesheet HREF="default.css"  TITLE="combined"&gt;<br/>
+&lt;LINK REL=Stylesheet HREF="fonts.css"  TITLE="combined"&gt;<br/>
+&lt;LINK REL=Stylesheet HREF="tables.css"  TITLE="combined"&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques72"><strong>Question 73. Which Set Of Definitions, Html Attributes Or Css Properties, Take Precedence? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS properties take precedence over HTML attributes. If both are specified, HTML attributes will be displayed in browsers without CSS support but won't have any effect in browsers with CSS support.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques73"><strong>Question 74. Why Call The Subtended Angle A "pixel", Instead Of Something Else (e.g. "subangle")?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In most cases, a CSS pixel will be equal to a device pixel. But, as you point out, the definition of a CSS pixel will sometimes be different. For example, on a laser printer, one CSS pixel can be equal to 3x3 device pixels to avoid printing illegibly small text and images. I don't recall anyone ever proposing another name for it. Subangle? Personally, I think most people would prefer the pragmatic "px" to the non-intuitive "sa".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques74"><strong>Question 75. Why Was The Decision Made To Make Padding Apply Outside Of The Width Of A 'box', Rather Than Inside, Which Would Seem To Make More Sense? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It makes sense in some situations, but not in others. For example, when a child element is set to width: 100%, I don't think it should cover the padding of its parent. The box-sizing property in CSS3 addresses this issue. Ideally, the issue should have been addressed earlier, though.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques75"><strong>Question 76. Can Css Be Used With Other Than Html Documents? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. CSS can be used with any ny structured document format. e.g. XML, however, the method of linking CSS with other document types has not been decided yet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques76"><strong>Question 77. Can Style Sheets And Html Stylistic Elements Be Used In The Same Document? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Style Sheets will be ignored in browsers without CSS-support and HTML stylistic elements used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques77"><strong>Question 78. How Do I Design For Backward Compatibility Using Style Sheets? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Existing HTML style methods (such as &lt;font SIZE&gt; and  &lt;b&gt;) may be easily combined with style sheet specification methods.  Browsers that do not understand style sheets will use the older HTML formatting  methods, and style sheets specifications can control the appearance of these  elements in browsers that support CSS1.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques78"><strong>Question 79. Why Use Style Sheets? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Style sheets allow a much greater degree of layout and display control than has ever been possible thus far in HTML. The amount of format coding necessary to control display characteristics can be greatly reduced through the use of external style sheets which can be used by a group of documents. Also, multiple style sheets can be integrated from different sources to form a cohesive tapestry of styles for a document. Style sheets are also backward compatible - They can be mixed with HTML styling elements and attributes so that older browsers can view content as intended.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques79"><strong>Question 80. What Is Css Rule 'at-rule'? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two types of CSS rules: ruleset and at-rule. At-rule is a rule that applies to the whole style sheet and not to a specific selector only (like in ruleset). They all begin with the @ symbol followed by a keyword made up of letters a-z, A-Z, digits 0-9, dashes and escaped characters, e.g. @import or @font-face.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques80"><strong>Question 81. What Is Selector? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS selector is equivalent of HTML element(s). It is a string identifying to which element(s) the corresponding declaration(s) will apply and as such the link between the HTML document and the style sheet.</p>
+<p>For example in P {text-indent: 10pt} the selector is P and is called type selector as it matches all instances of this element type in the document.</p>
+<p>in P, UL {text-indent: 10pt} the selector is P and UL (see grouping); in .class {text-indent: 10pt} the selector is .class (see class selector).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques81"><strong>Question 82. What Is Css Declaration? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS declaration is style attached to a specific selector. It consists of two parts; property which is equivalent of HTML attribute, e.g. text-indent: and value which is equivalent of HTML value, e.g. 10pt. NOTE: properties are always ended with a colon.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques82"><strong>Question 83. What Is 'important' Declaration? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Important declaration is a declaration with increased weight.  Declaration with increased weight will override declarations with normal  weight. If both reader's and author's style sheet contain statements with  important declarations the author's declaration will override the reader's.<br/>
+<br/>
+BODY {background: white ! important; color: black}<br/>
+<br/>
+In the example above the background property has increased  weight while the color property has normal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques83"><strong>Question 84. What Is Cascade? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cascade is a method of defining the weight (importance) of  individual styling rules thus allowing conflicting rules to be sorted out  should such rules apply to the same selector. <br/>
+<br/>
+Declarations with increased weight take precedence over  declaration with normal weight:<br/>
+<br/>
+P {color: white ! important} /* increased weight */<br/>
+P (color: black} /* normal weight */</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques84"><strong>Question 85. Are Style Sheets Case Sensitive? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. Style sheets are case insensitive. Whatever is case insensitive in HTML is also case insensitive in CSS. However, parts that are not under control of CSS like font family names and URLs can be case sensitive - IMAGE.gif and image.gif is not the same file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques85"><strong>Question 86. How Do I Have A Non-tiling (non-repeating) Background Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With CSS, you can use the background-repeat property. The  background repeat can be included in the short hand background property, as in  this example:<br/>
+<br/>
+body {<br/>
+background: white url(example.gif) no-repeat ;<br/>
+color: black ;<br/>
+}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques86"><strong>Question 87. Styles Not Showing? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are different ways to apply CSS to a HTML document with a stylesheet, and these different ways can be combined:</p>
+<p>* inline (internal) (Deprecated for XHTML)<br/>
+* embedded (internal)<br/>
+* linked (external) and<br/>
+* @import (external)</p>
+<p>Note: An external stylesheet is a text file that contains only CSS Styles. HTML comments are not supposed to be in there and can lead to misinterpretation (&gt; is the CSS "Child" selector!).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques87"><strong>Question 88. How Do I Quote Font Names In Quoted Values Of The Style Attribute? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The attribute values can contain both single quotes and double  quotes as long as they come in matching pairs. If two pair of quotes are  required include single quotes in double ones or vice versa:<br/>
+<br/>
+&lt;P STYLE="font-family: 'New Times Roman';  font-size: 90%"&gt;<br/>
+&lt;P STYLE='font-family: "New Times Roman";  font-size: 90%'&gt;<br/>
+<br/>
+It's been reported the latter method doesn't work very well  in some browsers, therefore the first one should be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques88"><strong>Question 89. What Can Be Done With Style Sheets That Can Not Be Accomplished With Regular Html? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Many of the recent extensions to HTML have been tentative and somewhat crude attempts to control document layout. Style sheets go several steps beyond, and introduces complex border, margin and spacing control to most HTML elements. It also extends the capabilities introduced by most of the existing HTML browser extensions. Background colors or images can now be assigned to ANY HTML element instead of just the BODY element and borders can now be applied to any element instead of just to tables. For more information on the possible properties in CSS, see the Index DOT Css Property Index.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques89"><strong>Question 90. What Is Property? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Property is a stylistic parameter (attribute) that can be influenced through CSS, e.g. FONT or WIDTH. There must always be a corresponing value or values set to each property, e.g. font: bold or font: bold san-serif.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques90"><strong>Question 91. How Do I Write My Style Sheet So That It Gracefully Cascades With User's Personal Sheet ? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can help with this by setting properties in recommended places. Style rules that apply to the whole document should be set in the BODY element -- and only there. In this way, the user can easily modify document-wide style settings.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques91"><strong>Question 92. How Can I Make A Page Look The Same In E.g. Ns And Msie ? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The simple answer is, you can't, and you shouldn't waste your time trying to make it exactly the same. Web browsers are allowed, per definition, to interpret a page as they like, subject to the general rules set down in the HTML and CSS specifications. As a web author you can not have a prior knowledge of the exact situation and/or medium that will be used to render your page, and it's almost always rather counterproductive to try to control that process. There is no necessity for a well-written page to look the same in different browsers. You may want to strive to ensure that it looks good in more than one browser, even if the actual display (in the case of graphical browsers) comes out a bit different. "Looking good" can be achieved by adopting sensible design and guidelines, such as not fixing the size or face of your fonts, not fixing the width of tables, etc… Don't fight the medium; most web users only use one browser and will never know, or bother to find out, that your page looks different, or even "better", in any other browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques92"><strong>Question 93. Is There Anything That Can't Be Replaced By Style Sheets? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Quite a bit actually. Style sheets only specify information that controls display and rendering information. Virtual style elements that convey the NATURE of the content can not be replaced by style sheets, and hyperlinking and multimedia object insertion is not a part of style sheet functionality at all (although controlling how those objects appear IS part of style sheets functionality.) The CSS1 specification has gone out of its way to absorb ALL of the HTML functionality used in controlling display and layout characteristics. For more information on the possible properties in CSS, see the Index DOT Css Property Index.</p>
+<p>Rule of Thumb: if an HTML element or attribute gives cues as to how its contents should be displayed, then some or all of its functionality has been absorbed by style sheets.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques93"><strong>Question 94. Can I Include Comments In My Style Sheet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. Comments can be written anywhere where whitespace is allowed and are treated as white space themselves. Anything written between /* and */ is treated as a comment (white space). NOTE: Comments cannot be nested.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques94"><strong>Question 95. Which Characters Can Css-names Contain? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The CSS-names; names of selectors, classes and IDs can contain characters a-z, A-Z, digits 0-9, period, hyphen, escaped characters, Unicode characters 161-255, as well as any Unicode character as a numeric code. The names cannot start with a dash or a digit. (Note: in HTML the value of the CLASS attribute can contain more characters).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques95"><strong>Question 96. What Browsers Support Style Sheets? To What Extent? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Microsoft's Internet Explorer version 3.0 Beta 2 and above supports CSS, as does Netscape Communicator 4.0 Beta 2 and above and Opera 3.5 and above. Take note that the early implementations in these browsers did not support ALL of the properties and syntax described in the full CSS1 specification and beyond. Later versions have been getting much closer to full CSS1 compliance, but then comes the next hurdle - CSS2...it was such a big leap over CSS1 that it has taken the browsers years to come close to supporting a majority of CSS2's features. Mozilla and Opera's current versions both offer excellent CSS standards compliance. The Macintosh version of Internet Explorer is said to be very impressive in its CSS capabilities as well, but PC IE lags behind these implementations. Quite a few other implementations of CSS now exist in browsers that are not as widely-used (such as Amaya, Arena and Emacs-W3), but coverage of features in these documents currently only covers Internet Explorer, NCSA Mosaic, Netscape and Opera browsers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques96"><strong>Question 97. Why Shouldn't I Use Fixed Sized Fonts ? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Only in very rare situations we will find users that have a "calibrated" rendering device that shows fixed font sizes correct. This tells us that we can never know the real size of a font when it's rendered on the user end. Other people may find your choice of font size uncomfortable. A surprisingly large number of people have vision problems and require larger text than the average. Other people have good eyesight and prefer the advantage of more text on the screen that a smaller font size allows. What is comfortable to you on your system may be uncomfortable to someone else. Browsers have a default size for fonts. If a user finds this inappropriate, they can change it to something they prefer. You can never assume that your choice is better for them. So, leave the font size alone for the majority of your text. If you wish to change it in specific places (say smaller text for a copyright notice at the bottom of page), use relative units so that the size will stay in relationship to what the user may have selected already. Remember, if people find your text uncomfortable, they will not bother struggling with your web site. Very few (if any) web sites are important enough to the average user to justify fighting with the author's idea of what is best.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques97"><strong>Question 98. What Is Initial Value? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Initial value is a default value of the property, that is the  value given to the root element of the document tree. All properties have an  initial value. If no specific value is set and/or if a property is not  inherited the initial value is used. For example the background property is not  inherited, however, the background of the parent element shines through because  the initial value of background property is transparent. <br/>
+<br/>
+&lt;P style="background: red"&gt;Hello  &lt;strong&gt;World &lt;/strong&gt; &lt;/P&gt;<br/>
+Content of the element P will also have red background</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques98"><strong>Question 99. How Frustrating Is It To Write A Specification Knowing That You're At The Browser Vendors' Mercy? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>That's part of the game. I don't think any specification has a birthright to be fully supported by all browsers. There should be healthy competition between different specifications. I believe simple, author-friendly specifications will prevail in this environment.</p>
+<p>Microformats are another way of developing new formats. Instead of having to convince browser vendors to support your favorite specification, microformats add semantics to HTML through the CLASS attribute. And style it with CSS.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques99"><strong>Question 100. How Far Can Css Be Taken Beyond The Web Page--that Is, Have Generalized Or Non-web Specific Features For Such Things As Page Formatting Or Type Setting? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, it's possible to take CSS further in several directions. W3C just published a new Working Draft which describes features for printing, e.g., footnotes, cross-references, and even generated indexes.</p>
+<p>Another great opportunity for CSS is Web Applications. Just like documents, applications need to be styled and CSS is an intrinsic component of AJAX. The "AJAX" name sounds great.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques100"><strong>Question 101. How To Style Table Cells? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Margin, Border and Padding are difficult to apply to inline  elements. Officially, the &lt;TD&gt; tag is a block level element because it  can contain other block level elements (see Basics - Elements). </p>
+<p>If you need to set special margins, borders, or padding  inside a table cell, then use this markup:<br/>
+<br/>
+&lt;td&gt;<br/>
+yourtext &lt;/div&gt;&lt;/td&gt; <br/>
+to apply the CSS rules to the div inside the cell.  &lt;/p&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques101"><strong>Question 102. How To Style Forms? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Forms and form elements like SELECT, INPUT etc. can be styled with CSS - partially.</p>
+<p>Checkboxes and Radiobuttons do not yet accept styles, and Netscape 4.xx has certain issues, but here is a tutorial that explains the application of CSS Styles on Form Elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques102"><strong>Question 103. Can I Attach More Than One Declaration To A Selector? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. If more than one declaration is attached to a selector they  must appear in a semi colon separated list, e.g.;<br/>
+<br/>
+Selector {declaration1; declaration2}<br/>
+P {background: white; color: black}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques103"><strong>Question 104. What Is The Percentage Value In 'font-size' Relative To?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is relative to the parent element's font-size. For example, if  the style sheet says:<br/>
+<br/>
+H1 {font-size: 20pt;}<br/>
+SUP {font-size: 80%;}<br/>
+<br/>
+...then a &lt;SUP&gt; inside an &lt;H1&gt; will have a  font-size of 80% times 20pt, or 16pt.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques104"><strong>Question 105. Must I Quote Property Values? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Generally no. However, values containing white spaces, e.g. font-family names should be quoted as white spaces surrounding the font name are ignored and whitespaces inside the font name are converted to a single space, thus font names made up of more than one word (e.g.) 'Times New Roman' are interpreted as three different names: Times, New and Roman.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques105"><strong>Question 106. Do Any Wysiwyg Editors Support The Creation Of Style Sheets? Any Text-based Html Editors? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As support for CSS in browsers has matured in the last year, both WYSIWYG and Text-based HTML editors have appeared that allow the creation or the assistance of creating Cascading Style Sheet syntax. There are now at least two dozen editors supporting CSS syntax in some form. The W3C maintains an up-to-date list of these WYSIWYG and text-based editors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques106"><strong>Question 107. Do Url's Have Quotes Or Not? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Double or single quotes in URLs are optional. The tree following  examples are equally valid:<br/>
+<br/>
+BODY {background: url(pics/wave.png) blue}<br/>
+BODY {background: url("pics/wave.png") blue}<br/>
+BODY {background: url('pics/wave.png') blue}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques107"><strong>Question 108. Can You Use Someone Else's Style Sheet Without Permission?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is a somewhat fuzzy issue. As with HTML tags, style sheet information is given using a special language syntax. Use of the language is not copyrighted, and the syntax itself does not convey any content - only rendering information.</p>
+<p>It is not a great idea to reference an external style sheet on someone else's server. Doing this is like referencing an in-line image from someone else's server in your HTML document. This can end up overloading a server if too many pages all over the net reference the same item. It can't hurt to contact the author of a style sheet, if known, to discuss using the style sheet, but this may not be possible. In any case, a local copy should be created and used instead of referencing a remote copy.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques108"><strong>Question 109. Document Style Semantics And Specification Language (dsssl)? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Document Style Semantics and Specification Language is an international standard, an expression language, a styling language for associating processing (formatting and transformation) with SGML documents, for example XML.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques109"><strong>Question 110. What Is Extensible Stylesheet Language (xsl)? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>XSL is a proposed styling language for formatting XML (eXtensible Markup Language) documents. The proposal was submitted to the W3C by Microsoft, Inso, and ArborText.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques110"><strong>Question 111. Explain In Brief About The Term Css.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A stylesheet language used to describe the presentation of a document written in a markup language. Cascading Style Sheets are a big breakthrough in Web design because they allow developers to control the style and layout of multiple Web pages all at once.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques111"><strong>Question 112. What Are The Various Style Sheets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inline, external, imported and embedded are the different types of style sheets.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques112"><strong>Question 113. What Are Style Sheet Properties?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS Background<br/>
+CSS Text<br/>
+CSS Font<br/>
+CSS Border<br/>
+CSS Outline<br/>
+CSS Margin<br/>
+CSS Padding<br/>
+CSS List<br/>
+CSS Table</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques113"><strong>Question 114. List Various Font Attributes Used In Style Sheet.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>font-style<br/>
+font-variant<br/>
+font-weight<br/>
+font-size/line-height<br/>
+font-family<br/>
+caption<br/>
+icon<br/>
+menu<br/>
+message-box<br/>
+small-caption<br/>
+status-bar</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques114"><strong>Question 115. Explain Vbscript In Detail.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is a scripting language developed by Microsoft and is based loosely on Visual Basic. Its functionality in a web environment is dependant upon either an ASP engine or the Windows Scripting Host, and must be used on a Windows hosting platform.</p></p>
+</li><br><br>

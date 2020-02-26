@@ -1,0 +1,288 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Attribute In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An attributes is a declarative tag that is used to convey information about the behaviors of various elements (classes, methods, assemblies, structures, enumerators, etc). it is access at compile time or run-time. Attributes are declare with a square brackets [] which is places above the elements.</p>
+<p>[Obsolete(“Don’t use Old method, please use New method”, true)]</p>
+<p>For example consider the bellow class. If we call the old method it will through error message.</p>
+<p>public class myClass</p>
+<p>{</p>
+<p>    [Obsolete("Don't use Old method, please use New method", true)]</p>
+<p>    public string Old() { return "Old"; }</p>
+<p>    public string New() { return "New"; }</p>
+<p>}</p>
+<p>myClass omyClass = new myClass();</p>
+<p>omyClass.Old();</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Why Attributes Are Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a program the attributes are used for adding metadata, like compiler instruction or other information (comments, description, etc).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Types Of Attributes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Microsoft .Net Framework provides two types of attributes: the pre-defined attributes and custom built attributes.</p>
+<p><strong>Pre-define attributes are three types:</strong></p>
+<ul>
+<li>AttributeUsage</li>
+<li>Conditional</li>
+<li>Obsolete</li>
+</ul>
+<p>This marks a program that some entity should not be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is Custom Attributes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Microsoft .Net Framework allows creating custom attributes that can be used to store declarative information and can be retrieved at run-time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Reflection?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Reflection is a process by which a computer program can monitor and modify its own structure and behavior. It is a way to explore the structure of assemblies at run time (classes, resources, methods). Reflection is the capability to find out the information about objects, metadata, and application details (assemblies) at run-time. We need to include System.Reflection namespace to perform reflections in C#. For example consider the following C# codes, which will returns some meta information’s.</p>
+<p>public class MyClass</p>
+<p>{</p>
+<p>    public virtual int Add(int numb1, int numb2)</p>
+<p>    {                </p>
+<p>        return numb1 + numb2;</p>
+<p>    }</p>
+<p>    public virtual int Subtract(int numb1, int numb2)</p>
+<p>    {</p>
+<p>        return numb1 - numb2;</p>
+<p>    }</p>
+<p>}</p>
+<p>static void Main(string[] args)</p>
+<p>{</p>
+<p>    MyClass oMyClass = new MyClass();</p>
+<p>    //Type information.</p>
+<p>    Type oMyType = oMyClass.GetType();</p>
+<p>    //Method information.</p>
+<p>MethodInfo oMyMethodInfo = oMyType.GetMethod("Subtract");</p>
+<p>Console.WriteLine("nType information:" + oMyType.FullName);</p>
+<p> Console.WriteLine("nMethod info:" + oMyMethodInfo.Name);            </p>
+<p>Console.Read();</p>
+<p>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Why We Need Reflection In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Reflections needed when we want to determine / inspect contents of an assembly. For example: at Visual Studio editor intelligence, when we type “.” (dot) before any object, it gives us all the members of the object. This is possible for Reflection.</p>
+<p><strong>Beside this we need reflection for the following purposes:</strong></p>
+<ul>
+<li>To view attribute information at run time</li>
+<li>To view the structure of assemblies at run time (classes, resources, methods)</li>
+<li>It allows dynamic/late binding to methods and properties</li>
+<li>In serialization, it is used to serialize and de-serialize objects</li>
+<li>In web service, it is used to create and consume SOAP messages and also to generate WSDL</li>
+<li>Debugging tools can use reflection to examine the state of an object.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Dynamic Keyword?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The dynamic is a keyword which was introduced in .NET 4.0. Computer programming languages are two types: strongly typed and dynamically typed. In strongly types all types checks are happened at compile time, in dynamic types all types of checks are happened at run time.</p>
+<p>For example consider the following code</p>
+<p>dynamic x = "c#";</p>
+<p>x++;</p>
+<p>It will not provide error at compile time but will provide error at run time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. When To Use Dynamic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The biggest practical use of the dynamic keyword is when we operate on MS Office.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is The Difference Between Reflection And Dynamic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both Reflection and dynamic are used to operate on an object during run time. But they have some differences:</p>
+<ul>
+<li>Dynamic uses reflection internally</li>
+<li>Reflection can invoke both public and private members of an object. But dynamic can only invoke public members of an object</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Serialization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When we want to transport an object through network then we need to convert the object into a stream of bytes. Serialization is a process to convert a complex objects into stream of bytes for storage (database, file, cache, etc) or transfer. Its main purpose is to save the state of an object.</p>
+<p>De-serialization is the reverse process of creating an object from a stream of bytes to their original form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Are The Types Of Serialization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The types of Serializations are given bellow:</strong></p>
+<p><strong>1  Binary Serialization</strong><br/>            In this process all the public, private, read only members are serialized and convert into stream of bytes. This is used when we want a complete conversion of our objects.<br/><strong>2  SOAP Serialization</strong><br/>           In this process only public members are converted into SOAP format. This is used in web services.<br/><strong>3  XML Serialization</strong><br/>            In this process only public members are converted into XML. This is a custom serialization. Required namespaces: System.Xml, System.Xml.Serialization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Why Serialization And Deserialization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For example consider, we have a very complex object and we need XML format to show it on HTML page. Then we can create a XML file in the disk, writes all the necessary data on the XML file, and use it for the HTML page. But this is not good approach for large number of users. Extra space is required; anyone can see the XML file which creates security issue. We can overcome it by using XML serialization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. When To Use Serialization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Serialization is used in the following purposes:</strong></p>
+<ul>
+<li>To pass an object from on application to another</li>
+<li>In SOAP based web services</li>
+<li>To transfer data through cross platforms, cross devices</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Give Examples Where Serialization Is Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Serialization is used to save session state in ASP.NET applications, to copy objects to the clipboard in Windows Forms. It is also used to pass objects from one application domain to another. Web services uses serialization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Generics?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Generics are the most powerful features introduced in C# 2.0. It is a type-safe data structure that allows us to write codes that works for any data types.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is A Generic Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A generic class is a special kind of class that can handle any types of data. We specify the data types during the object creations of that class. It is declared with the bracket &lt;&gt;. For example consider the following Comparer class, which has a method that compare two value and returns as Boolean output.</p>
+<p>public class Comparer</p>
+<p>{</p>
+<p>    public bool Compare(Unknown t1, Unknown t2)</p>
+<p>  {  </p>
+<p>         if (t1.Equals(t2))</p>
+<p>      {</p>
+<p>            return true;</p>
+<p>        }</p>
+<p>        else</p>
+<p>        {</p>
+<p>            return false;</p>
+<p>        }</p>
+<p>    }</p>
+<p>}</p>
+<p>Comparer oComparerInt = new Comparer();</p>
+<p>Console.WriteLine(oComparerInt.Compare(10, 10));</p>
+<p>Comparer oComparerStr = new Comparer();</p>
+<p>Console.WriteLine(oComparerStr.Compare("jdhsjhds", "10"));</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Why We Should Use Generics?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Generic provides lot of advantages during programming. We should use generics for the following reasons:</strong></p>
+<ul>
+<li>It allows creating class, methods which are type-safe</li>
+<li>It is faster. Because it reduce boxing/un-boxing</li>
+<li>It increase the code performance</li>
+<li>It helps to maximize code reuse, and type safety</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Collections In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sometimes we need to work with related objects for data storage and retrieval. There are two ways to work with related objects. One is array and another one is collections. Arrays are most useful for creating and working with a fixed number of strongly-typed objects. Collections are enhancement of array which provides a more flexible way to work with groups of objects.</p>
+<p>The Microsoft .NET framework provides specialized classes for data storage and retrieval. Collections are one of them. Collection is a data structure that holds data in different ways. Collections are two types. One is standard collections, which is found under System.Collections namespace and another one is generic collections, which is found under System.Collections.Generic namespace.The generic collections are more flexible and preferable to work with data.</p>
+<p><strong>Some commonly used collections under System.Collections namespace are given bellow:</strong></p>
+<ul>
+<li>ArrayList</li>
+<li>SortedList</li>
+<li>Hashtable</li>
+<li>Stack</li>
+<li>Queue</li>
+<li>BitArray</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Unsafe Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In order to maintain security and type safety, C# does not support pointer generally. But by using unsafe keyword we can define an unsafe context in which pointer can be used. The unsafe code or unmanaged code is a code block that uses a pointer variable. In the CLR, unsafe code is referred to as unverifiable code. In C#, the unsafe code is not necessarily dangerous. The CLR does not verify its safety. The CLR will only execute the unsafe code if it is within a fully trusted assembly. If we use unsafe code, it is our own responsibility to ensure that the code does not introduce security risks or pointer errors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Properties Of Unsafe Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Some properties of unsafe codes are given bellow:</strong></p>
+<ul>
+<li>We can define Methods, types, and code blocks as unsafe</li>
+<li>In some cases, unsafe code may increase the application’s performance by removing array bounds checks</li>
+<li>Unsafe code is required in order to call native functions that require pointers</li>
+<li>Using unsafe code brings security and stability risks</li>
+<li>In order to compile unsafe code, the application must be compiled with /unsafe</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Can Unsafe Code Be Executed In Untrusted Environment?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Unsafe code cannot be executed in an un-trusted environment. For example, we cannot run unsafe code directly from the Internet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How To Compile Unsafe Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For compiling unsafe code, we have to specify the /unsafe command-line switch with command-line compiler.</p>
+<p><strong>For example:</strong> to compile a program named “myClass.cs” containing unsafe code the command line command is:</p>
+<p><strong>csc /unsafe myClass.cs</strong></p>
+<p>In Visual Studio IDE at first we need to enable use of unsafe code in the project properties.</p>
+<p><strong>The steps are given bellow:</strong></p>
+<ol>
+<li>Open project properties</li>
+<li>Click on the Build tab</li>
+<li>Select the option “Allow unsafe code”</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Pointer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pointer is a variable that stores the memory address of another variable. Pointers in C# have the same capabilities as in C or C++.</p>
+<p><strong>Some examples are given bellow:</strong></p>
+<ol>
+<li>int    *i    // pointer of an integer</li>
+<li>float  *f    // pointer to a float</li>
+<li>double *d    // pointer to a double</li>
+<li>char   *ch   // pointer to a character</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Should I Use Unsafe Code In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In C#, pointer is really used and Microsoft disengaged to use it. But there are some situations that require pointer. We can use pointer if required at our own risk. Some sonorous are given bellow:</p>
+<ul>
+<li>To deal with existing structures on disk</li>
+<li>Some advanced COM or Platform Invoke scenarios that involve pointer</li>
+<li>To performance critical codes</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How Can We Sort The Elements Of The Array In Descending Order ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For This,First we call the Sort () method and then call Reverse() Methods.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Can We Store Multiple Data Types In System.array ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is The Difference Between The System.array.copyto() And System.array.clone() ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>System.Array.CopyTo()--</strong>&gt;It require a destination array to be existed before and it must be capable to hold all the elements in the source array from the index that is specified to copy from the source array.</p>
+<p><strong>System.Array.Clone()--</strong>&gt;It does not require the destination array to be existed as it creates a new one from scratch.</p>
+<p>Note-These both are used as a shallow copy.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is Difference Between String And Stringbuilder ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>StringBuilder is more efficient than string.</p>
+<p><strong>String :-</strong> It is Immutable and resides within System Namespace.</p>
+<p><strong>StringBuilder:-</strong>It is mutable and resides System.Text Namespace.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is Class Sortedlist Underneath?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a Hash Table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is The .net Data Type That Allow The Retrieval Of Data By A Unique Key ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hash Table</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Is Finally Block Get Executed If The Exception Is Not Occured ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Can Multiple Catch () Block Get Executed If The Exception Is Not Occured ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No,Once the proper catch code fires off ,the control is transferred to the finally block(if any),and the whatever follows the finally block.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Multicast Delegate ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Multicast delegate is a delegate that points to and eventually fires off several methods.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Are The Ways To Deploy An Assembly ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>An MSI Installer</li>
+<li>A CAB archive</li>
+<li>XCopy command</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is The Dll Hell Problem Solved In .net ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In .NET, Assembly versioning allows the application to specify not only the library it needs to run ,but also the version of the assembly.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is A Satellite Assembly ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When we write the code, a  multicultural or multilingual application in .NET and want to distribute the core application separately from the localized modules,the localized assemblies that modify the core application ,that is known  as Satellite assembly.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. How Do We Inherit From A Class In C# ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In c#, we use a colon (:) and then the name of the base class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Does C# Support Multiple Inheritance  ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, we use interface for this purpose.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Are Private Class -label Variables Inherited ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, but it is not accessible.we generally know that they are inherited but not accessible.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is The Implicit Name Of The Parameter That Gets Passed Into Class "set" Method ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Value and it's datatype(it depends whatever variable we are changing).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is The Top .net Class ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>System.Object</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. How Does Method Overloading Different From Overriding ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A method overloading simply involves having a method with the same name within the class. whereas in method overriding we can change method behaviour for a derived class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Can We Override Private Virtual Method ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Can We Declare The Override Method Static While The Original Method Is Non Static ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Can We Prevent My Class From Being Inherited And Becoming A Base Class From The Other Classes  ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is An Interface Class ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is an abstract class with public abstract methods , all of which must be implemented in the inherited classes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Can We Inherit Multiple Interfaces ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Can We Allow Class To Be Inherited ,but Prevent The Method From Being Overridden  ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, first create class as public and make it's method sealed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is Signature Used For Overloaded A Method ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Use different data types</li>
+<li>Use different number of parameters</li>
+<li>Use different order of parameters</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Is  The Difference Between An Interface And Abstract Class ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In an interface, all methods must be abstract but in abstract class some methods can be concrete.In interface No accessibility modifiers are alloweded but in abstract class a accessibility modifier are alloweded.</p></p>
+</li><br><br>

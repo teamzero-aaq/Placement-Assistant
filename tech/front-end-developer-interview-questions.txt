@@ -1,0 +1,246 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain What Is The Lazy Loading?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Lazy loading is a design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed.</p>
+<p>Lazy loading is loading code only once user needs it. For Example, there is a button on the page, which shows different layout once user pressed it. So there is no need to load code for that layout on initial page load.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain What Is The Difference Between Null And Undefined?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>null is an object with no value. undefined is a type. </p>
+<p>typeof null; // "object" </p>
+<p>typeof undefined; // "undefined"</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Variable Scope?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JavaScript variables have functional scope.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Explain What Is An Iife?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>IIFE stands for immediately-invoked function expression; it executes immediately after created by adding a () after the function.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is A Callback Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JavaScript is read line by line. Sometimes, this can result in what seems like a subsequent line of code being executed prior to an earlier line of code. A callback function is used to prevent this from happening, because it is not called until the previous line of code has fully executed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Tell Me Why Do We Recommend External Css Or Javascript Versus Inline?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inline CSS or Javascript has bad impact on site performance.</p>
+<p>Your HTML code will weigh more as you use inline scripts, whereas external scripts reduces HTML file size which helps fast rendering of webpage.</p>
+<p>HTML code will never be cached so inline scripts. Contrary to that, external dependencies, such as CSS and JavaScript files, will be cached by the visitor's web browser. So it reduces https requests each time user click through web pages.</p>
+<p>It is hard to maintain Inline CSS and Javascript code. Where having code in just one centralized location is a lot more preferable than changing exactly the same kind of code snippets spread all over the files in the web site.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Explain What "this" Is In Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In JavaScript, 'this' normally refers to the object which 'owns' the method, but it depends on how a function is called.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Do You Know What Is Cors? How Does It Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cross-origin resource sharing (CORS) is a mechanism that allows many resources (e.g., fonts, JavaScript, etc.) on a web page to be requested from another domain outside the domain from which the resource originated. It's a mechanism supported in HTML5 that manages XMLHttpRequest access to a domain different.</p>
+<p>CORS adds new HTTP headers that provide access to permitted origin domains. For HTTP methods other than GET (or POST with certain MIME types), the specification mandates that browsers first use an HTTP OPTIONS request header to solicit a list of supported (and available) methods from the server. The actual request can then be submitted. Servers can also notify clients whether "credentials" (including Cookies and HTTP Authentication data) should be sent with requests.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is The Difference Between Json And Jsonp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JSONP is JSON with padding.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Explain How To Use A Function A Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>function functionName(name) { <br/>this.name = name;<br/>}</p>
+<p>// Creating an object</p>
+<p>var functionName = new functionName("WTEN"); <br/>console.log(functionName.name); //WTEN</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Tell Me How Do You Clear A Floated Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>clear:both</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Explain Why Table-less Layout Is Very Important?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are several reasons why web designers should stop using tables for layouts, and adopt the use of CSS for controlling HTML layouts.</p>
+<ol>
+<li>It adheres to current W3C web standards and it improves accessibility of the information to a wider variety of users, using a wide variety of user agents.</li>
+<li>There are bandwidth savings as large numbers of semantically meaningless &lt;table&gt;, &lt;tr&gt; and &lt;td&gt; tags are removed from dozens of pages leaving fewer, but more meaningful headings, paragraphs and lists.</li>
+<li>Layout instructions are transferred into site-wide CSS stylesheets, which can be downloaded once and cached for reuse while each visitor navigates the site.</li>
+<li>If coded well, CSS makes it easy to apply global changes to the layout</li>
+<li>Web pages often have less code, and are much thinner when XHTML and CSS are used</li>
+<li>Sites may become more maintainable as the whole site can be restyled or re-branded in a single pass merely by altering the mark-up of the specific CSS, affecting every page which relies on that stylesheet.</li>
+<li>New HTML content can be added in such a way that consistent layout rules are immediately applied to it by the existing CSS without any further effort.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain What Is An Anonymous Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Anonymous functions are functions without a name. They are stored in a variable and are automatically invoked (called) using the variable name.</p>
+<p>var x = function(a, b) {<br/>console.log(a * b)<br/>}<br/>x(3, 5); // 15</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain What Is Ajax? Write An Ajax Call?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AJAX stands for asynchronous JavaScript and XML and allows applications to send and retrieve data to/from a server asynchronously (in the background) without refreshing the page. For example, your new Gmail messages appear and are marked as new even if you have not refreshed the page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain What Event Bubbling Is?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Event bubbling causes all events in the child nodes to be automatically passed to its parent nodes. The benefit of this method is speed because the code only needs to traverse the DOM tree once.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Stringify?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>stringify is used to transform JSON into a string.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are This And That Keywords?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This and that are important to variable scope in JavaScript. Here are a few stackoverflow posts on this, that and self.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Event Delegation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Event delegation allows you to avoid adding event listeners for specific nodes. Instead, you can add a single event listener to a parent element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Why Do We Need To Use W3c Standard Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The goals of such standards are to ensure cross-platform compatibility and more compact file sizes. The focus of these standards has been to separate "content" from "formatting" by implementing CSS. It eases maintenance and development.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How To Clear A Floated Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A floated element is taken out of the document flow. To clear it you would need to do a clear:both or try overflow:auto on the containing div.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is A Float?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Floats are used to push elements to the left or right, so other elements wrap around it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Tell Us The Purpose Of Each Of The Http Request Types When Used With A Restful Web Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The purpose of each of the HTTP request types when used with a RESTful web service is as follows:</strong></p>
+<ul>
+<li><strong>GET:</strong> Retrieves data from the server (should only retrieve data and should have no other effect).</li>
+<li><strong>POST</strong>: Sends data to the server for a new entity. It is often used when uploading a file or submitting a completed web form.</li>
+<li><strong>PUT:</strong> Similar to POST, but used to replace an existing entity.</li>
+<li><strong>PATCH</strong>: Similar to PUT, but used to update only certain fields within an existing entity.</li>
+<li><strong>DELETE</strong>: Removes data from the server.</li>
+<li><strong>TRACE:</strong> Provides a means to test what a machine along the network path receives when a request is made. As such, it simply returns what was sent.</li>
+<li><strong>OPTIONS:</strong> Allows a client to request information about the request methods supported by a service. The relevant response header is Allow and it simply lists the supported methods. (It can also be used to request information about the request methods supported for the server where the service resides by using a * wildcard in the URI.)</li>
+<li><strong>HEAD:</strong> Same as the GET method for a resource, but returns only the response headers (i.e., with no entity-body).</li>
+<li><strong>CONNECT</strong>: Primarily used to establish a network connection to a resource (usually via some proxy that can be requested to forward an HTTP request as TCP and maintain the connection). Once established, the response sends a 200 status code and a "Connection Established" message.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How To Optimize The Page Using Front End Code Or Technology?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Below is the list of best practices for front-end technology, which helps to optimize page.</strong></p>
+<ul>
+<li>Improve server response by reducing resource usage per page</li>
+<ul>
+<li>Combine all external CSS files into one file</li>
+<li>Combine all external JS files into one file</li>
+</ul>
+<li>Use responsive design instead of making device based redirects</li>
+<li>Use asynchronous Javascript and remove block level Javascript</li>
+<li>Use Minify version of stylesheet and javascript.</li>
+<li>Optimize Image and use correct format of Image. Use the lazy loading design pattern for large size of images.</li>
+<li>Use browser side cache with Cache control.</li>
+<li>Avoid plugins to drive functionality.</li>
+<li>Configure view port and use CSS best practices.</li>
+<li>Prioritize visible content.</li>
+<li>Load style-sheets in header and script in footer.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Have You Ever Used A Css Preprocessor/precompiler? What Are The Benefits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CSS preprocessors, such as SASS, have numerous benefits, such as variables and nesting.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Do You Know What Is The Importance Of The Html Doctype?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DOCTYPE is an instruction to the web browser about what version of the markup language the page is written. Its written before the HTML Tag. Doctype declaration refers to a Document Type Definition (DTD).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is The Difference Between Responsive And Adaptive Development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a nutshell, responsive is fluid and flexible, whereas adaptive adapts to the detected device/screen size.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Tell Me Where Do You Place Your Javascript On The Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It may depend on what you are using it for. There is some debate on this but generally a good question to ask to get an understanding of the JS knowledge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Explain The Difference Between Inline, Block, Inline-block And Box-sizing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>inline is the default. An example of an inline element is &lt;span&gt;.</li>
+<li>block displays as a block element, such as &lt;div&gt; or &lt;p&gt;.</li>
+<li>inline-block displays an element as an inline-level block container. Here's an article on the topic.</li>
+<li>box-sizing tells the browser sizing properties.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Explain What Is Web A Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A great question to feel out the depth of the applicants knowledge and experience.</p>
+<p>A web application is an application utilizing web and [web] browser technologies to accomplish one or more tasks over a network, typically through a [web] browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Explain What Is The Importance Of The Html Doctype?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The doctype declaration should be the very first thing in an HTML document, before the html tag.</p>
+<p>The doctype declaration is not an HTML tag; it is an instruction to the web browser about what version of the markup language the page is written in.</p>
+<p>The doctype declaration refers to a Document Type Definition (DTD). The DTD specifies the rules for the markup language, so that the browsers can render the content correctly.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are The Difference Between Get And Post?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A GET request is typically used for things like AJAX calls to an API (insignificant changes), whereas a POST request is typically used to store data in a database or submit data via a form (significant changes). GET requests are less secure and can be seen by the user in the URL, whereas POST requests are processed in two steps and are not seen by the user. Therefore, POST requests are more secure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Explain What Is The Difference Between A Prototype And A Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Prototype-based inheritance allows you to create new objects with a single operator; class-based inheritance allows you to create new objects through instantiation. Prototypes are more concrete than classes, as they are examples of objects rather than descriptions of format and instantiation.</p>
+<p>Prototypes are important in JavaScript because JavaScript does not have classical inheritance based on classes; all inheritances happen through prototypes. If the JavaScript runtime can't find an object's property, it looks to the object's prototype, and continues up the prototype chain until the property is found.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is The Difference Between Call And Apply?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>apply lets you invoke the function with arguments as an array. call requires the parameters to be listed explicitly. Also, check out this stackoverflow answer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Explain The Difference Between Visibility:hidden; And Display:none?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Visibility:Hidden; - It is not visible but takes up it's original space.</li>
+<li>Display:None; - It is hidden and takes no space.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Tell Me The Difference Between Visibility:hidden; And Display:none;?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Visibility:Hidden; - It is not visible but takes up it's original space.</li>
+<li>Display:None; - It is hidden and takes up absolutely no space as if it was never there.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. How To Increase Page Performance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Sprites, compressed images, smaller images; </li>
+<li>include JavaScript at the bottom of the page; </li>
+<li>minify or concatenate your CSS and JavaScript; and </li>
+<li>caching.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Do You Know What Is A Sprite? How Is It Applied Using Css? What Is The Benefit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>A image sprite is a collection of images put into one single image.</li>
+<li>Using css positioning you can show and hide different parts of the sprite depending on what you need.</li>
+<li>Sprites reduces the number of http requsts thus reducing load time of page and bandwidth</li>
+</ul>
+<p><strong>Buy Buttons using Sprite as background:</strong></p>
+<p>Both buttons use the same background image. The only differece is in the positioning.</p>
+<p><strong>Here is the actual background image:</strong></p>
+<p>And the CSS.</p>
+<p>&lt;style&gt;<br/>.orangeBuyBtn {<span class="Apple-tab-span" style="white-space: pre;"> <br/></span>background: url('buyButtons-bg.gif') repeat-x 0 0;<br/>border-color: #5B5752 #6B6B6B #808080;<br/>border-style: solid;<br/>border-width: 1px;<br/>color: #FFFFFF;<br/>cursor: pointer;<br/>font-size: 14px;<br/>font-weight: bold;</p>
+<p>}<br/>.greenBuyBtn {<br/>background: url('buyButtons-bg.gif') repeat-x 0 -24px;<br/>border-color: #5B5752 #6B6B6B #808080;<br/>border-style: solid;<br/>border-width: 1px;<br/>color: #FFFFFF;<br/>cursor: pointer;<br/>font-size: 14px;<br/>font-weight: bold;<br/>}<br/>&lt;/style&gt;</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Explain The Difference Between Static, Fixed, Absolute And Relative Positioning?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>static is the default.</li>
+<li>fixed is positioned relative to the browser.</li>
+<li>absolute is positioned relative to its parent or ancestor element.</li>
+<li>relative is positioned relative to normal positioning/the item itself. Used alone it accomplishes nothing.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Do Browsers Read Css?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>From right to left.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Explain Some Common Ie6 Bugs And How You Dealt With Them?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ie6 is not dead, just ask China which represents a nice chunk of the worlds online population. Your pages should at least be functional on IE6, unless you dont care about half the worlds population.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is A Clear?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A clear is used when you don't want an element to wrap around another element, such as a float.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Is The Difference Between Html And Xhtml?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML is HyperText Markup Language used to develop the website.</p>
+<p>XHTML is modern version of HTML 4. XHTML is an HTML that follows the XML rules which should be well-formed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Is A Javascript Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A collection of data containing both properties and methods. Each element in a document is an object. Using the DOM you can get at each of these elements/objects and do some cool sh*t.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Is The Difference Between Form Get And Form Post?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Get:</strong></p>
+<p>With GET the form data is encoded into a URL by the browser. The form data is visible in the URL allowing it to be bookmarked and stored in web history. The form data is restricted to ASCII codes. Because URL lengths are limited there can be limitations on how much form data can be sent.</p>
+<p><strong>Post:</strong></p>
+<p>With POST all the name value pairs are submitted in the message body of the HTTP request which has no restrictions on the length of the string. The name value pairs cannot be seen in the web browser bar.</p>
+<p>POST and GET correspond to different HTTP requests and they differ in how they are submitted. Since the data is encoded in differently, different decoding may be needed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Explain The Difference Between == And === ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The 3 equal signs mean "equality without type coercion". Using the triple equals, the values must be equal in type as well. </p>
+<ul>
+<li>== is equal to </li>
+<li>=== is exactly equal to (value and type)</li>
+<li>0==false // true </li>
+<li>0===false // false, because they are of a different type</li>
+<li>1=="1" // true, auto type coercion</li>
+<li>1==="1" // false, because they are of a different type</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. Do You Know What Is A Closure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Closures are expressions, usually functions, which can work with variables set within a certain context. Or, to try and make it easier, inner functions referring to local variables of its outer function create closures.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Do You Know What Is The Difference Between == And === ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>== is equal to </li>
+<li>=== is exactly equal to (value and type)</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Tell Me Are You Familiar With Jasmine Or Qunit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jasmine and QUnit are JavaScript testing frameworks. I would familiarize yourself with the basics.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is The Difference Between A Host Object And A Native Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Native - existing in JavaScript. Host - existing in the environment.</p></p>
+</li><br><br>

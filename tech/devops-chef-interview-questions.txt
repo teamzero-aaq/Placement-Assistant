@@ -1,0 +1,66 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. How Does Http Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The HTTP protocol works in a client and server model like most other protocols. A web browser using which a request is initiated is called as a client and a web server software which responds to that request is called a server. World Wide Web Consortium and the Internet Engineering Task Force are two important spokes in the standardization of the HTTP protocol. HTTP allows improvement of its request and response with the help of intermediates, for example a gateway, a proxy, or a tunnel. The resources that can be requested using the HTTP protocol, are made available using a certain type of URI (Uniform Resource Identifier) called a URL (Uniform Resource Locator). TCP (Transmission Control Protocol) is used to establish a connection to the application layer port 80 used by HTTP.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain Your Understanding And Expertise On Both The Software Development Side And The Technical Operations Side Of An Organization You’ve Worked For In The Past?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DevOps engineers almost always work in a 24/7 business critical online environment. I was adaptable to on-call duties and able to take up real-time, live-system responsibility. I successfully automated processes to support continuous software deployments. I have experience with public/private clouds, tools like Chef or Puppet, scripting and automation with tools like Python and PHP, and a background in Agile.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Discuss Your Experience Building Bridges Between It Ops, Qa And Development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DevOps is all about effective communication and collaboration. I’ve been able to deal with production issues from the development and operations sides, effectively straddling the two worlds. I’m less interested in finding blame or playing the hero than I am with ensuring that all of the moving parts come together.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Types Of Testing Are Needed?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Software teams will often look for the “fair weather” path to system completion; that is, they start from an assumption that software will usually work and only occasionally fail. I believe to practice defensive programming in a pragmatic way, which often means assuming that the code will fail and planning for those failures. I try to incorporate unit test strategy, use of test harnesses, early load testing; network simulation, A/B and multi-variate testing  etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Give Me An Example Of How You Would Handle Projects?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As a professional with managerial responsibilities, I would demonstrate a clear understanding of DevOps project management tactics and also work with teams to set objectives, streamline workflow, maintain scope,  research and introduce new tools or frameworks, translate requirements into workflow and follow up. I would resort to CI, release management and other tools to keep interdisciplinary projects on track.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What’s Your Career Objective In Your Role As A Devops Engineer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>My passion is breaking down the barriers and building and improving processes, so that the engineering and operations teams work better and smarter. That’s why I love DevOps. It’s an opportunity to be involved in the entire delivery system from start to finish.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How Would You Make Software Deployable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The ability to script the installation and reconfiguration of software systems is essential towards controlled and automated change. Although there is an increasing trend for new software to enable this, older systems and products suffer from the assumption that changes would be infrequent and minor, and so make automated changes difficult. As a professional who appreciates the need to expose configuration and settings in a manner accessible to automation, I will work with concepts like Inversion of Control (IoC) and Dependency Injection, scripted installation, test harnesses, separation of concerns, command-line tools, and infrastructure as code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is The One Most Important Thing Devops Helps Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The most important thing DevOps helps do is to get the changes into production as quickly as possible while minimizing risks in software quality assurance and compliance. That is the primary objective of DevOps. However, there are many other positive side-effects to DevOps. For example, clearer communication and better working relationships between teams which creates a less stressful working environment.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Which Scripting Languages Do You Think Are Most Important For A Devops Engineer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As far as scripting languages go, the simpler the better. In fact, the language itself isn’t as important as understanding design patterns and development paradigms such as procedural, object-oriented, or functional programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do You Expect You Would Be Required To Multitask As A Devops Professional?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>I believe I’ll be expected to:</strong></p>
+<ol>
+<li>Focus attention on bridging communication gaps between Development and Operations teams.</li>
+<li>Understand system design from an architect’s perspective, software development from a developer’s perspective,operations and infrastructure from the perspective of a seasoned Systems Administrator.</li>
+<li>Execute – to be able to actually do what needs to be done.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Testing Is Necessary To Ensure That A New Service Is Ready For Production?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DevOps is all about continuous testing throughout the process, starting with development through to production. Everyone shares the testing responsibility. This ensures that developers are delivering code that doesn’t have any errors and is of high quality, and it also helps everyone leverage their time most effectively.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What’s A Ptr In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pointer records are used to map a network interface (IP) to a host name. These are primarily used for reverse DNS. Reverse DNS is setup very similar to how normal (forward) DNS is setup.  When you delegate the DNS forward, the owner of the domain tells the registrar to let your domain use specific name servers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Describe Two-factor Authentication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Two-factor authentication is a security process in which the user provides two means of identification from separate categories of credentials; one is typically a physical token, such as a card, and the other is typically something memorized, such as a security code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Tell Us About The Ci Tools That You Are Familiar With?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The premise of CI is to get feedback as early as possible because the earlier you get feedback, the less things cost to fix. Popular open source tools include Hudson, Jenkins, CruiseControl and CruiseControl.NET. Commercial tools include ThoughtWorks’ Go, Urbancode’s Anthill Pro, Jetbrains’ Team City and Microsoft’s Team Foundation Server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are The Advantages Of Nosql Database Over Rdbms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The advantages are:</strong></p>
+<ol>
+<li>Less need for ETL</li>
+<li>Support for unstructured text</li>
+<li>Ability to handle change over  time</li>
+<li>Breadth of functionality</li>
+<li>Ability to scale horizontally</li>
+<li>Support for multiple  data structures</li>
+<li>Choice of vendors</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is An Mx Record In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>MX records are mail exchange records used for determining the priority of email servers for a domain. The lowest priority email server is the first destination for email. If the lowest priority email server is unavailable, mail will be sent to the higher priority email servers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is The Difference Between Raid 0 And Raid 1?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RAID 1 offers redundancy through mirroring, i.e., data is written identically to two drives. RAID 0 offers no redundancy and instead uses striping, i.e., data is split across all the drives. This means RAID 0 offers no fault tolerance; if any of the constituent drives fails, the RAID unit fails.</p></p>
+</li><br><br>

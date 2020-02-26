@@ -1,0 +1,189 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is The Access List Range For Extended Ip Access List?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The access list range is 100 - 199.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Name A X.25 Addressing Standard?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>X.121 is a x.25 layer 3 add. standard.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. List Three Important Properties Of Igrp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a composite metric. There are updates every 60 seconds and it is a poison reverse.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Where Can The Backup Configuration File Be Found?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is stored in the NVRAM.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are The Three Features Of Ip Access Lists?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are three different kinds of access lists. These are standard, extended and named.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. How Can A Router Be Configured?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It can be configured by TFTP, Nvram or Console</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Which Mechanism Takes Place In A Traffic Light?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Flow control</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Windowing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a kind of flow control.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Which Filters Are Used To Control Sap Traffic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Input sap filter and output sap filters can be used for the same.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Which Hardware Component Is Used To Store Buffers, Tables, Etc.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RAM</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Are The Important Features Of Udp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is the layer 4 transport protocol and has no handshaking.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is The Number Range Of Ipx Access List?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The range is 800-899</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Name The Osi Layer Which Helps Ensure Packet Delivery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Network layer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How Can You Vary The Router Boot Sequence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It can be done by boot system commands and config register.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Which Hardware Is Necessary For Broadcasts?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>switch, repeater and bridge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are The Important Characteristics Of Ppp Pap Authentication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Username and password is sent in clear text and The authentication controls remote node.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Which Switching Method Is Used To Examine The Destination Mac Address?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cut through is the switching method used to examine it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is The An Important Feature Of Rarp.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The full form of RARP is Reverse Address Resolution Protocol. It is used to start remote O/S load sequence.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Which Protocol Helps Test The Connectivity Without Configuration Of Layer 3 Protocols?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CDP protocol</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The Use Of Ipx Sap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It stands for Service Advertising Protocol and it is used to advertise services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. List The Default Values In Eigrp Metric?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The default values are bandwidth and delay.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Default Serial Encapsulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HDLC is the default serial encapsulation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Use Of Arp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used to determine the MAC Address of a workstation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Use Of Dlci?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used to identify the PVC in frame relay network.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Important Features Of Osi Layer 3 - Network Layer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Determines the path, multiplexing and management of sessions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. List The Important Characteristics Of Switches?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The bandwidth is increased and collision domains are created. Also it helps forward traffic using mac address.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Which Osi Layer Is Used For Physical Address And Network Topology?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Data link layer serves this purpose.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Why Do We Have To Disable Cdp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To save the bandwidth by reducing overhead and to connect to a non cisco router.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Are The Important Characteristics Of Isdn?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It transports both voice and data, and same as X.25</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. List The Important Characteristics Of Igrp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Multiple unequal paths, autonomous system number, etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is The Range Of Extended Ip Access List?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The range is 100-199</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Which Hardware Component Is Used To Store Backup Configuration?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NVRAM is used for this.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Which Is The Ipx Serial Encapsulation By Default?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HDLC</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Important Features Of Ppp Chap Authentication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Authentication messages and local router challenges</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. How Many Dns Servers Can Be Specified With One Command?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>6 DNS Servers can be specified with one command.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is The Use Of Cisco Ios Exec Command Trace?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The “trace [protocol] [destination]” is used to discover routes that packets will travel to their destination hosts. TTL (Time to Live) is used to report destination route information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Use Of “ip Name-server 255.255.255.255?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It sets the domain name lookup to be a local broadcast.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Which Format Is Useful For Configuring The Subnet Mask For An Ip Address?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>dotted decimal, hexadecimal and bit count formats can be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Which Process Is Used To Find An Ip Address From A Mac Address?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RARP Process</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Source Quench?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is the condition when the router lacks any more buffer space.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is Icmp Protocol?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used to carry messages like destination unreachable, source quench, parameter problem, time exceeded, timestamp, address reply and address request.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Name Any Two Protocols Which Can Exist In The Protocol Field Of An Ip Packet.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These are TCP and UDP Protocols.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Which Field In The Ip Packet Has Network Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The network testing is found in IP Options field.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. How Does The Internet Layer Know How To Handle An Ip Packet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The type of service tells it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is The Use Of Ddr On Cisco Routers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used for dial on demand routing. DDR provides routing for low volume and periodic traffic.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. Cisco Router Has Two Types Of Access Lists?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Standard and Extended</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Do You Know About The Udp Datagram Format?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Source Port - 16 bits, Destination Port - 16 bits, Length - 16 Bits, Checksum - 16 bits, Data</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. When Using Access Lists, What Does A Cisco Router Check First?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The cisco routers checks whether the packet is routable or bridgeable</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. How Many Access Lists Are Allowed Per Interface?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>One Access list per port, per protocol is allowed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Happens If We Set A Wildcard Mask Bit To 0 In Cisco Routers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The router checks the corresponding bit value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. Which Abbreviation Is Used To Tell The Router To Check All Numbers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>host</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Which Service Is Used To Get Data From Multiple Sources And Allocate Bandwidth On One?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>TDM or Time Domain Multiplexing</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. How Can We Convert The User Data From Dte To Wan Service Form?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can use the Modem, CSU/DSU and TA/NT1 for this.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Which Are The Different Forms Of Wan Services Accessed By Cisco Routers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These are Switched services, Using protocols connecting peer to peer devices and Interface front end to IBM Enterprise Data center computers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Are The Cisco Hdlc Protocol.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It contains the Flag, Address, Control, Proprietary, Data, FCS and Flag.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. What Is The Quality Protocol?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It monitors data dropped on a link.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. What Is Magic Number?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It helps avoid frame looping.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. What Is The Use Of Multilink Protocol Mp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used to provide load balancing across multiple links.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. Which Authentication Method Is Preferred To Set Up A Session?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CHAP</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Which Compression Protocols Are Used For Ppp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Stac and Predictor</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. Name And Explain The Phases Of Ppp Session Establishment.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These are link establishment phase, authentication phase and the network layer protocol phase.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Name The Default Ipx Ethernet Encapsulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Novell-Ether is the default IPX Ethernet encapsulation.</p></p>
+</li><br><br>

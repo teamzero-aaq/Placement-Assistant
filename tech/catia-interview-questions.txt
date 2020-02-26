@@ -1,0 +1,31 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Full Form Of Catia?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It's Computer Aided Three-dimensional Interactive Application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Who Is Developer Of Catia Software?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A French Company  Dassault Systemes developed CATIA.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Catia Is Written In Which Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CATIA is written in C++ programming language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Can We Use Catia On Unix Platform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes CATIA works on Unix platform.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Default Units For Length, Mass, Time In Catia?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It's mm, kg, sec respectively.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are Different Conic Sections Available In Catia?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Parabola, Ellipse and Hyperbola.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Dimensions Are Necessary To Constrain Ellipse?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Major axis, minor axis and distance from origin are required to fully constrain ellipse.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Enlist The Different Coordinate Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cartesian, Polar and Spherical Coordinate system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Thickness Of Surfaces?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Thickness of surface area tends to zero.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Kernel Of Catia?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>C NEXT.</p></p>
+</li><br><br>

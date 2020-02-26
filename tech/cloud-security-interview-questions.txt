@@ -1,0 +1,245 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Are The Advantages Of Using Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The advantages of using cloud computing are:</strong></p>
+<ul>
+<li>Data backup and storage of data</li>
+<li>Powerful server capabilities</li>
+<li>SaaS ( Software as a service)</li>
+<li>Information technology sandboxing capabilities</li>
+<li>Increase in productivity</li>
+<li>Cost effective &amp; Time saving</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Mention Platforms Which Are Used For Large Scale Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The platforms that are used for large scale cloud computing are:</strong></p>
+<ul>
+<li>Apache Hadoop</li>
+<li>MapReduce</li>
+<li>CloudComputing</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Explain Different Models For Deployment In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The different deployment models in cloud computing are:</strong></p>
+<ul>
+<li>Private Cloud</li>
+<li>Public Cloud</li>
+<li>Community Cloud</li>
+<li>Hybrid Cloud</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is The Difference In Cloud Computing And Computing For Mobiles?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Mobile computing uses the same concept as cloud computing. Cloud computing becomes active with the data with the help of internet rather than individual device. It provides users with the data which they have to retrieve on demand. In mobile, the applications runs on the remote server and gives user the access for storage and manage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How User Can Gain From Utility Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Utility computing allows the user to pay only for what they are using. It is a plug-in managed by an organization which decides what type of services has to be deployed from the cloud.Most organizations prefer hybrid strategy.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. For A Transport In Cloud How You Can Secure Your Data?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To secure your data while transporting them from one place to another, check that there is no leak with the encryption key implemented with the data you are sending.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are The Security Aspects Provided With Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li><strong>Identity management:</strong> It authorizes the application services</li>
+<li><strong>Access control:</strong> permission has to be provided to the users so that they can control the access of another user who is entering into the cloud environment.</li>
+<li><strong>Authentication and Authorization:</strong> Allows only the authorized and authenticated user only to access the data and applications</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. List Out Different Layers Which Define Cloud Architecture?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The different layers used by cloud architecture are:</strong></p>
+<ul>
+<li>CLC or Cloud Controller</li>
+<li>Walrus</li>
+<li>Cluster Controller</li>
+<li>SC or Storage Controller</li>
+<li>NC or Node Controller</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are System Integrators In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Cloud Computing, systems integrator provides the strategy of the complicated process used to design a cloud platform. Integrator allows to create more accurate hybrid and private cloud network, as integrators have all the knowledge about the data center creation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is “ Eucalyptus” Stands For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“ EUCALYPTUS” stands for Elastic Utility Computing Architecture For Linking Your Programs To Useful Systems”</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Explain What Is The Use Of “eucalyptus” In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“Eucalyptus” is an open source software infrastructure in cloud computing, which is used to implement clusters in cloud computing platform. It is used to build public, hybrid and private clouds. It has the ability to produce your own data center into a private cloud and allows you to use its functionality to many other organizations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is The Requirement Of Virtualization Platform In Implementing Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The requirement of virtualization platform in implementing cloud is to</p>
+<ul>
+<li>Manage the service level policies</li>
+<li>Cloud Operating System</li>
+<li>Virtualization platforms helps to keep the backend level and user level concepts different from each other</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Before Going For Cloud Computing Platform What Are The Essential Things To Be Taken In Concern By Users?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Compliance</li>
+<li>Loss of data</li>
+<li>Data storage</li>
+<li>Business continuity</li>
+<li>Uptime</li>
+<li>Data integrity in cloud computing</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Mention Some Open Source Cloud Computing Platform Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The open source cloud computing platform databases are</strong></p>
+<ul>
+<li>MongoDB</li>
+<li>CouchDB</li>
+<li>LucidDB</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are The Security Laws Which Are Implemented To Secure Data In A Cloud ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The security laws which are implemented to secure data in cloud are:</strong></p>
+<ul>
+<li><strong>Processing:</strong> Control the data that is being processed correctly and completely in an application</li>
+<li><strong>File:</strong> It manages and control the data being manipulated in any of the file</li>
+<li><strong>Output reconciliation:</strong> It controls the data which has to be reconciled from input to output</li>
+<li><strong>Input Validation:</strong> Control the input data</li>
+<li><strong>Security and Backup:</strong> It provides security and backup it also controls the security breaches logs</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Mention The Name Of Some Large Cloud Providers And Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Google bigtable</li>
+<li>Amazon simpleDB</li>
+<li>Cloud based SQL</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Explain The Difference Between Cloud And Traditional Datacenters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The cost of the traditional data center is higher due to heating and hardware/software issues</li>
+<li>Cloud gets scaled when the demand increases. Majority of the expenses are spent on the maintenance of the data centers, while that is not the case with cloud computing</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Explain What Are The Different Modes Of Software As A Service (saas)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li><strong>Simple multi-tenancy :</strong> In this each user has independent resources and are different from other users, it is an efficient mode.</li>
+<li><strong>Fine grain multi-tenancy:</strong> In this type, the resources can be shared by many but the functionality remains the same.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is The Use Of Api’s In Cloud Services?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>API’s ( Application Programming Interface) is very useful in cloud platforms</strong></p>
+<ul>
+<li>It eliminates the need to write the fully fledged programs</li>
+<li>It provides the instructions to make communication between one or more applications</li>
+<li>It allows easy creation of applications and link the cloud services with other systems</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Different Data Centers Deployed For Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud computing consists of different datacenters like</p>
+<ul>
+<li>Containerized Datacenters</li>
+<li>Low Density Datacenters</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. In Cloud Computing What Are The Different Layers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The different layers of cloud computing are:</strong></p>
+<ul>
+<li><strong>SaaS:</strong> Software as a Service (SaaS), it provides users access directly to the cloud application without installing anything on the system.</li>
+<li><strong>IaaS:</strong> Infrastructure as a service, it provides the infrastructure in terms of hardware like memory, processor speed etc.</li>
+<li><strong>PaaS:</strong> Platform as a service, it provides cloud application platform for the developers</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How Important Is The Platform As A Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Platform as a service or PAAS is an important layer in cloud computing. It provides application platform for providers. It is responsible for providing complete virtualization of the infrastructure layer and makes it work like a single server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is A Cloud Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cloud service is used to build cloud applications using the server in a network through internet. It provides the facility of using the cloud application without installing it on the computer. It also reduces the maintenance and support of the application which are developed using cloud service.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. List Down The Three Basic Clouds In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Professional cloud</li>
+<li>Personal cloud</li>
+<li>Performance cloud</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. As A Infrastructure As A Service What Are The Resources That Are Provided By It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>IAAS ( Infrastructure As A Service) provides virtual and physical resources that are used to build a cloud. It deals with the complexities of deploying and maintaining of the services provided by this layer. Here the infrastructure is the servers, storage and other hardware systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Are The Business Benefits Involved In Cloud Architecture?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The benefits involved in cloud architecture is</strong></p>
+<ul>
+<li>Zero infrastructure investment</li>
+<li>Just in time infrastructure</li>
+<li>More efficient resource utilisation</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Are The Characteristics Of Cloud Architecture That Separates It From Traditional One?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The characteristics that makes cloud architecture above traditional architecture is</p>
+<ul>
+<li>According to the demand cloud architecture provides the hardware requirement</li>
+<li>Cloud architecture is capable of scaling the resource on demand</li>
+<li>Cloud architecture is capable of managing and handling dynamic workloads without failure</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Mention What Is The Difference Between Elasticity And Scalability In Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Scalability is a characteristics of cloud computing through which increasing workload can be handled by increasing in proportion the amount of resource capacity. Whereas, elasticity, is being one of the characteristics that highlights the concept of commissioning and decommissioning of a large amount of resource capacity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Mention The Services That Are Provided By Window Azure Operating System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Window Azure provides three core services which are given as</strong></p>
+<ul>
+<li>Compute</li>
+<li>Storage</li>
+<li>Management</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. In Cloud Architecture What Are The Different Components That Are Required?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Cloud Ingress</li>
+<li>Processor Speed</li>
+<li>Cloud storage services</li>
+<li>Cloud provided services</li>
+<li>Intra-cloud communications</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. In Cloud Architecture What Are The Different Phases Involved?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Launch Phase</li>
+<li>Monitor Phase</li>
+<li>Shutdown Phase</li>
+<li>Cleanup Phase</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. List Down The Basic Characteristics Of Cloud Computing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Elasticity and Scalability</li>
+<li>Self-service provisioning and automatic de-provisioning</li>
+<li>Standardized interfaces</li>
+<li>Billing self service based usage model</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. In Cloud Architecture What Are The Building Blocks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Reference architecture</li>
+<li>Technical architecture</li>
+<li>Deployment operation architecture</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Mention In What Ways Cloud Architecture Provide Automation And Performance Transparency?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To provide the performance transparency and automation there are many tools used by cloud architecture. It allows to manage the cloud architecture and monitor reports. It also allows them to share the application using the cloud architecture. Automation is the key component of cloud architecture which helps to improve the degree of quality.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. In Cloud Computing Explain The Role Of Performance Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Performance cloud is useful in transferring maximum amount of data instantly. It is used by the professionals who work on high performance computing research.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Explain Hybrid And Community Cloud?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li><strong>Hybrid cloud:</strong> It consists of multiple service providers. It is a combination of public and private cloud features. It is used by the company when they require both private and public clouds both.</li>
+<li><strong>Community Cloud:</strong> This model is quite expensive and is used when the organizations having common goals and requirements, and are ready to share the benefits of the cloud service.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. In Cloud What Are The Optimizing Strategies?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To overcome the maintenance cost and to optimize the resources ,there is a concept of three data center in cloud which provides recovery and back-up in case of disaster or system failure and keeps all the data safe and intact.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is Amazon Sqs?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To communicate between different connectors Amazon SQS message is used, between various components of AMAZON, it acts as a communicator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Buffer Is Used To Amazon Web Services?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In order to make system more efficient against the burst of traffic or load, buffer is used. It synchronizes different component . The component always receives and processes the request in an unbalanced way. The balance between different components are managed by buffer, and makes them work at the same speed to provide faster services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Mention What Is Hypervisor In Cloud Computing And Their Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hypervisor is a Virtual Machine Monitor which manages resources for virtual machines. There are mainly two types of hypervisors</p>
+<ul>
+<li><strong>Type 1:</strong> The guest Vm runs directly over the host hardware, eg Xen, VmWare ESXI</li>
+<li><strong>Type 2:</strong> The guest Vm runs over hardware through a host OS, eg Kvm, oracle virtualbox</li>
+</ul></p>
+</li><br><br>

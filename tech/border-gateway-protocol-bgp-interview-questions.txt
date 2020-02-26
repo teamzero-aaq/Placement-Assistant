@@ -1,0 +1,149 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain Border Gateway Protocol (bgp) ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Border Gateway Protocol advertises, learns and chooses the best paths inside the global Internet. When two ISPs connect, they typically use BGP to exchange routing information. Enterprises also sometimes uses BGP to exchange routing information with ISPs, allowing the Enterprise routers to learn Internet routes. when we have multiple Internet connections and we want to influence some packets to take one path and some packets to take another we use BGP.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Can Routers On Different Subnet Become Bgp Neighbors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP does not require neighbors to be attached to the same subnet. Instead, BGP routers use a TCP connection between the routers to pass BGP messages allowing neighboring routers to be on the same or different subnet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Tcp Port Number Bgp Use For Connection?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP uses TCP port 179 for the connection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Difference Between Ebgp And Ibgp Neighbor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In iBGP, neighborship is formed between routers within the same AS (autonomous system) whereas in eBGP, neighborship is formed between routers within different AS.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Administrative Distance Bgp Uses For Ibgp &amp; Ebgp ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AD for iBGP = 200, AD for eBGP = 20.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Explain Loop Prevention Mechanism In Bgp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP uses two mechanism to prevent loops:-</p>
+<ol>
+<li>When a router learns routes from an iBGP peer, that router does not advertise the same routes to another iBGP peer.</li>
+<li>By using AS_PATH - When advertising to an eBGP peer, a BGP router adds its own ASN to the AS_PATH. If a BGP router receives an update and the route advertisement lists an AS_PATH with its own ASN, the router ignores that route.</li>
+</ol>
+<p>Note - A BGP router does not add its ASN when advertising to an iBGP peer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Do We Need To Follow 3 Way Handshake Process To Establish Bgp Communication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is The Difference Between Hard Reset And Soft Reset In Bgp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In case of hard reset the local router brings down the neighborship, brings down the underlying TCP connection and all the BGP table entries learned from that neighbor are removed. #clear ip bgp * In case of soft reset, the router does not bring down the BGP neighborship or the underlying TCP connection. However, the local router resends outgoing Updates and reprocesses incoming Updates adjusting the BGP table based on the current configuration. #clear ip bgp * soft command is used for soft reset.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are Different Bgp Message Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li><strong>Open -</strong> It is Used to establish a neighbor relationship and exchange parameters, including autonomous system number and authentication values.</li>
+<li><strong>Keepalive -</strong> It is Sent periodically to maintain the neighbor relationship. If the Keepalive message is not received within the negotiated Hold timer than BGP neighborship will be turned down.</li>
+<li><strong>Update -</strong> It exchanges Path Attributes and the associated prefix/length (NLRI) that use those attributes.</li>
+<li><strong>Notification -</strong> It is Used to report BGP error. It results in a reset of neighbor relationship.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Explain Various States Of Bgp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Idle - The BGP process is either administratively down or waiting for the the next retry attempt.</li>
+<li>Connect - The BGP process is waiting for the TCP connection to be completed. If it is successful, it will continue to the OpenSent state. In case it fails, it will continue to the Active state.</li>
+<li>Active - BGP will try another TCP three-way handshake to establish a connection with the remote BGP neighbor. If it is successful, it will move to the OpenSent state.</li>
+<li>Opensent - The TCP connection exists, and a BGP Open message has been sent to the peer, but the matching Open message has not yet been received from the other router.</li>
+<li>Openconfirm - An Open message has been both sent to and received from the other router. Next step is to receive a BGP Keepalive message (to confirm that all neighbor-related parameters match) or a BGP Notification message (to learn that there is some mismatch in neighbor parameters).</li>
+<li>Established - All neighbor parameters matched, the neighbor relationship has been established and the peers can now exchange Update messages</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Explain Bgp Path Attributes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP supports a wide variety of Path Attributes. BGP use these path attributes to examine the competing BGP paths (routes) in BGP table to choose the best path(route).</p>
+<ol>
+<li>Next Hop - It lists the next-hop IP address used to reach a prefix. If Next hop is reachable? If no route to reach Next Hop, router cannot use this route.</li>
+<li>Weight - It is a numeric value set by a router when receiving updates to influence the route for a prefix. It is not advertised to any BGP peers. Bigger is preferred</li>
+<li>Local Preference - It is a numeric value set and communicated within a single AS for the purpose of choosing best route for all routers in that AS to reach a certain network. Bigger is preferred</li>
+<li>Locally injected routes - Locally injected routes (routes injected using network command) are better than iBGP/eBGP learned.</li>
+<li>AS Path - It is the number of ASNs in the AS Path. Smaller is preferred.</li>
+<li>Origin - Preferred I over E &amp; E over ?. It implies that the route was injected into BGP as I (IGP), E (EGP) or ? (incomplete information).</li>
+<li>Multi-Exit Discriminator (MED) - Allows an AS to tell a neighboring AS the best path to forward packets into the first AS. Smaller is preferred.</li>
+<li>Neighbor type - eBGP is preferred over iBGP.</li>
+<li>IGP metric - Route with nearest IGP neighbor (lowest IGP metric) is preferred.</li>
+<li>10. eBGP route - Oldest (longest known) route is preferred.</li>
+<li>Neighbor Router ID - Lowest is preferred.</li>
+<li>Neighbor IP address - Lowest is preferred.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Explain Bgp Weight Attribute?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The weight attribute is a Cisco proprietary attribute that is used in the path selection process when there is more than one route to the same destination. A path with the Higher weight value is preferred. The default value for weight is 0. The weight attribute is local to the router and is not propagated to any BGP peers. Weight attribute is set by a router when receiving Updates influencing that one router’s route for a prefix.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain Bgp Local Preference?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Local preference is an indication to the AS about which path has preference to exit the AS in order to reach a certain network. A path with a higher local preference is preferred more. By default value for local preference is 100 and can be changed manually. Unlike the weight attribute, which is only relevant to the local router, local preference attribute is communicated throughout a single AS for the purpose of influencing the choice of best path to exit the AS.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain Bgp Med?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The purpose of MED is to influence how other autonomous systems enters into your AS to reach a certain prefix. BGP MED is an attribute which is not propagated throughout the whole network but just to adjacent AS. The lower the MED the more the path will be preferred.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Recursive Lookup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The router looks up the BGP route and the next hop to reach a destination in the remote AS. Then the router looks up the route to reach the next hop. In this way router has to perform lookup twice to reach to a destination, this process is called recursive lookup.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Route Reflector And Why It Is Required?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In BGP, route learned from an iBGP neighbor will not be advertised to another iBGP neighbor. To overcome this situation route reflector is used. It acts as a route reflector server and makes IBGP neighbors as route reflector clients enabling route advertisements between them.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is The Difference Between Local Preference And Med?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Local Preference attribute is to influence your own AS how to get or exit to another AS. MED is to influence other AS how to enter your own AS.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is The Command To Administratively Disable Bgp Neighborship?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p># neighbor neighbor-ip shutdown</p>
+<p># no neighbor neighbor-ip shutdown (to enable it again)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Types Of Bgp Routing Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Till now we all believe that BGP is having only a single routing table where it used to store the routes and process for the best path calculation. But we all are mistaken here actually BGP maintains three table one for storing incoming routes from neighbours, one for sending the routes to neighbours and one for installing the routes where you actually find the routes with next-hop address. The tables are given below:-</p>
+<ul>
+<li>Adj-RIB-in</li>
+<li>Adj-RIB-out</li>
+<li>Loc-RIB</li>
+</ul>
+<p>Adj-RIB-in stores the unprocessed information received from its peers. Here the best path selection occurs as per BGP attributes and after conformation path is entered into the local bgp table i.e Loc-RIB. From the local RIB table it conform the next-hop address if it reachable by IGP then the route is entered into the main routing table. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Do You Mean By Mpls? What Are The Benefits Of Using Mpls?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is one of the most common questions asked during the MPLS interviews, so this question must be prepared for before facing the interview. Here you should start answering by introducing MPLS.</p>
+<p>Multiprotocol label switching (MPLS) offer a mechanism to process packets on the basis of labels. It is a data forwarding service that provides high-end network communications from one network node to the next on the basis of labels rather than routing table lookups. Routing table lookup for each packet makes communication sluggish but MPLS uses LFIB/forwarding table to process label from one node to another.</p>
+<p>The main benefits of using MPLS are:</p>
+<ul>
+<li>QoS integration: supports multiple levels of QoS, to manage latency, jitter and packet loss for various types of traffic (voice, video, email, bulk file transfers, etc.)</li>
+<li>Fast convergence: label-based switching, no need to look up routing tables</li>
+<li>Scalability to IP VPNs</li>
+<li>Low network congestion using MPLS TE</li>
+<li>Reliable and secure</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Describe Push, Swap, Pop Functions In Mpls And Also Explain Penultimate Hop Popping (php)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Label switching is a discrete mechanism from IP forwarding; here LSR regulates what label function needs to be performed, such as Push, Pop, or Swap, to process a packet throughout the MPLS backbone using label switching.</p>
+<p>Push: Add a label<br/>Pop: Remove a label<br/>Swap: Exchange/ replace a label</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Any Transport Over Mpls (atom)? Do We Require Vrf Or Bgp-vpn To Form Atom Connectivity?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Any Transport over MPLS (AToM) enables service providers to deliver Layer 2 connectivity over a MPLS backbone to connect different clients’ sites with existing data link layer (Layer 2) networks. BGP-VPN or VRF is not required to configure AToM; to form AToM connectivity we do use xconnect (cross connect) peering with unique VC-ID to distinguish multiple clients.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Describe The Roles Of Rd And Rt In Mpls L3vpn? Is It Possible To Assign A Same Rd To Multiple Customers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Route distinguisher (RD) is used to distinguish identical routes in different VRFs, whereas route target (RT) is used to share routes between them. Route target also specifies which prefixes get imported or exported on the PE router.</p>
+<p>No, we can’t assign same RD to multiple customers on a PE router because the main purpose of defining RD is limited to provide uniqueness in different VRFs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How Can You Differentiate Vpnv4 And Ipv4 Address-family?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Address-family VPNv4 is used to transport VRF traffic, which is quite heavier (96 bits) than normal IPv4 packets, and address-family IPv4 is used to transport traditional 32-bit IPv4 packets. When we deploy L3VPN, we need VPNv4 peering between the PEs to take the VRF routes (labeled with RD, RT) to the corresponding destination PE router.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Are Lib And Lfib? If We Disable Cef (on A Cisco Device) Will Mpls Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The difference between two is almost like RIB and FIB, as RIB uses FIB to forward traffic. Label Information Base (LIB) is a table where prefix to label bindings are built and stored in the control plane and can be seen with “show mpls ldp bindings.” Label Forwarding Information Base (LFIB) is another MPLS table used to forward label packets throughout the MPLS network and build in the data plane. To check LFIB, run “show mpls forwarding-table.” The lookups are in fact done in the LFIB, not the LIB.</p>
+<p>If CEF is disabled, MPLS will not work, as it uses LFIB to forward labeled packets and LFIB built from the FIB table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Name Bgp Path Attributes To Control Incoming And Outgoing Traffic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP has multiple path attributes to influencing traffic flow. In the most common practice we do manipulate incoming traffic using AS-Path prepending and MED (multi-exit discriminator). And, to influence outgoing traffic, weight and local preference are the best choices.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. My Bgp Is Showing 0.0.0.0 As Router-id; What Could Be The Possible Reason?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This happens when we configure BGP on a router that has non-IP interfaces, meaning that if a router’s interfaces are not configured with any IP address, then BGP cannot get the router-id. In that case, BGP assumes 0.0.0.0 as router-id.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. If My Bgp Neighbor Is Stuck In Idle Or Active State, What Should I Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If BGP peer is in idle state, then it could be due to physical connectivity failure or the neighbor is not defined properly with respective AS. In connect state, BGP tries to establish a TCP session over port number 179; if it fails to establish the connection, then it goes to active state, where it tries again to establish a TCP connection. By using “debug ip bgp” and “debug ip tcp transactions” commands, we can learn the exact cause of TCP connection failure. Lack of the “update-source” or “ebgp-multihop” command can also be a reason of neighbor active state.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Explain Bgp Recursive Lookup And Site Of Origin (soo)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP recursive lookup involves the router looking up the BGP route and BGP next hop to reach a destination in the remote AS. Then the router will look up the route into IGP to reach the BGP next hop. This mechanism is known as BGP recursive lookup.</p>
+<p>BGP site of origin (SoO) is a loop prevention technique in the MPLS backbone environment. BGP SoO is associated with a CE-neighbor; that’s why whenever the PE router advertise a prefix to a CE neighbor, it check the SoO of the prefix with the SoO of the BGP neighbor to avoid loops.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Do You Understand By Bgp Split-horizon Rule?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This rule states, “Network prefixes learned from an iBGP peer will not be shared with another iBGP peer” to prevent routing loops. BGP uses the AS_PATH attribute to avoid routing loops, which means a route will not be accepted if the AS_PATH contains the same AS number of the router where it is receiving. Route-reflector and confederation techniques are used to share iBGP learned networks with another iBGP neighbor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Describe Bgp Communities. Name Well-known Communities?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BGP communities are commonly used to control route policies in the BGP environment and used as flags in order to mark it over the set of network prefixes. BGP communities’ information can be shared with a neighbor by using the command “neighbor x.x.x.x send-community standard | extended | both” and can be applied using route-maps to a defined neighbor. Some well-known BGP communities are:</p>
+<p>Local-AS: Share the prefixes with iBGP-confederation peers only.</p>
+<p>No-Advertise: Do not share the prefixes with anyone.</p>
+<p>No-Export: Do not share the prefixes with another Global AS, share within the Public-AS only.</p>
+<p>Internet: Share the prefixes with all.</p></p>
+</li><br><br>

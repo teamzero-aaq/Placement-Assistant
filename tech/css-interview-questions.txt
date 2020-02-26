@@ -1,0 +1,212 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Css?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Are Advantages Of Using Css?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Following are the advantages of using CSS −<br/>•CSS saves time − You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.<br/>•Pages load faster − If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.<br/>•Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.<br/>•Superior styles to HTML − CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.<br/>•Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing.<br/>•Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS. So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.<br/>•Offline Browsing − CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.The cache also ensures faster loading and better overall performance of the website.<br/>•Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Components Of A Css Style?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">A style rule is made of three parts −</p>
+<p class="MsoNormal"><strong>Selector</strong> − A selector is an HTML tag at which a style will be applied. This could be any tag like &lt;h1&gt; or &lt;table&gt; etc.</p>
+<p class="MsoNormal"><strong>Property</strong> − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.</p>
+<p><strong>Value</strong> − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is Type Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">Type selector quite simply matches the name of an element type. To give a color to all level 1 headings −</p>
+<p class="MsoNormal">h1 {<br/>   color: #36CFFF;<br/>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Universal Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">Rather than selecting elements of a specific type, the universal selector quite simply matches the name of any element type <br/>* { <br/>   color: #000000; <br/>}</p>
+<p>This rule renders the content of every element in our document in black.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Descendant Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">Suppose you want to apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to &lt;em&gt; element only when it lies inside &lt;ul&gt; tag.<br/>ul em {<br/>   color: #000000;<br/>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Class Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">You can define style rules based on the class attribute of the elements. All the elements having that class will be formatted according to the defined rule.<br/>.black {<br/>   color: #000000; <br/>}</p>
+<p>This rule renders the content in black for every element with class attribute set to black in our document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Can You Make A Class Selector Particular To An Element Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">You can make it a bit more particular. For example </p>
+<p class="MsoNormal">h1.black <br/>{<br/>   color: #000000; <br/>}</p>
+<p>This rule renders the content in black for only elements with class attribute set to black.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Id Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">You can define style rules based on the id attribute of the elements. All the elements having that id will be formatted according to the defined rule.<br/>#black {<br/>   color: #000000; <br/>}</p>
+<p>This rule renders the content in black for every element with id attribute set to black in our document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Can You Make A Id Selector Particular To An Element Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">can make it a bit more particular.</p>
+<p class="MsoNormal"><strong>For example:</strong><br/><br/>h1#black <br/>{<br/>   color: #000000; <br/>}</p>
+<p>This rule renders the content in black for only elements with id attribute set to black.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is A Child Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">Consider the following example:</p>
+<p class="MsoNormal">body &gt; p <br/>{<br/>   color: #000000; <br/>}</p>
+<p>This rule will render all the paragraphs in black if they are direct child ofelement. Other paragraphs put inside other elements like or would not have any effect of this rule.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is An Attribute Selector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">You can also apply styles to HTML elements with particular attributes. The style rule below will match all the input elements having a type attribute with a value of text</p>
+<p class="MsoNormal">input[type = "text"]<br/>{<br/>   color: #000000; <br/>}</p>
+<p>The advantage to this method is that the <input type="submit"/> element is unaffected, and the color applied only to the desired text fields.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How To Select All Paragraph Elements With A Lang Attribute?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">p[lang] : Selects all paragraph elements with a lang attribute.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How To Select All Paragraph Elements Whose Lang Attribute Has A Value Of Exactly "fr"?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">p[lang="fr"] - Selects all paragraph elements whose lang attribute has a value of exactly "fr".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How To Select All Paragraph Elements Whose Lang Attribute Contains The Word "fr"?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">p[lang~="fr"] - Selects all paragraph elements whose lang attribute contains the word "fr".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How To Select All Paragraph Elements Whose Lang Attribute Contains Values That Are Exactly "en", Or Begin With "en-"?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">p[lang|="en"] - Selects all paragraph elements whose lang attribute contains values that are exactly "en", or begin with "en-".</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Various Ways Of Using Css In An Html Page?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">There are four ways to associate styles with your HTML document. Most commonly used methods are inline CSS and External CSS.</p>
+<p class="MsoNormal"><strong>Embedded CSS</strong> − The</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. How Css Style Overriding Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">Following is the rule to override any Style Sheet Rule</p>
+<p class="MsoNormal">Any inline style sheet takes highest priority. So, it will override any rule defined in &lt;style&gt;...&lt;/style&gt; tags or rules defined in any external style sheet file.</p>
+<p class="MsoNormal">Any rule defined in &lt;style&gt;...&lt;/style&gt; tags will override rules defined in any external style sheet file.</p>
+<p>Any rule defined in external style sheet file takes lowest priority, and rules defined in this file will be applied only when above two rules are not applicable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is The Purpose Of % Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">% - Defines a measurement as a percentage relative to another value, typically an enclosing element.</p>
+<p>p {font-size: 16pt; line-height: 125%;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The Purpose Of Cm Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">cm − Defines a measurement in centimeters.</p>
+<p>div {margin-bottom: 2cm;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The Purpose Of Em Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">em − A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font, if you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt.</p>
+<p>p {letter-spacing: 7em;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Purpose Of Ex Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">ex − This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter.</p>
+<p>p {font-size: 24pt; line-height: 3ex;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Purpose Of In Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">in − Defines a measurement in inches.</p>
+<p>p {word-spacing: .15in;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Purpose Of Mm Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">mm − Defines a measurement in millimeters.</p>
+<p>p {word-spacing: 15mm;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is The Purpose Of Pc Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">pc − Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.</p>
+<p>p {font-size: 20pc;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is The Purpose Of Pt Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">pt − Defines a measurement in points. A point is defined as 1/72nd of an inch.</p>
+<p>body {font-size: 18pt;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is The Purpose Of Px Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">px − Defines a measurement in screen pixels.</p>
+<p>p {padding: 25px;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Purpose Of Vh Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">vh − 1% of viewport height.</p>
+<p>h2 { font-size: 3.0vh; }</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is The Purpose Of Vw Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">vw − 1% of viewport width.</p>
+<p>h1 { font-size: 5.9vw; } </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is The Purpose Of Vmin Measurement Unit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">vmin 1vw or 1vh, whichever is smaller.</p>
+<p>p { font-size: 2vmin;}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Are Browser Safe Colors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">There is the list of 216 colors which are supposed to be most safe and computer independent colors. These colors vary from hexa code 000000 to FFFFFF. These colors are safe to use because they ensure that all computers would display the colors correctly when running a 256 color palette.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Which Property Is Used To Set The Background Color Of An Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The background-color property is used to set the background color of an element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Which Property Is Used To Set The Background Image Of An Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The background-image property is used to set the background image of an element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Which Property Is Used To Control The Repetition Of An Image In The Background?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The background-repeat property is used to control the repetition of an image in the background.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Which Property Is Used To Control The Position Of An Image In The Background?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The background-position property is used to control the position of an image in the background.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Which Property Is Used To Control The Scrolling Of An Image In The Background?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The background-attachment property is used to control the scrolling of an image in the background.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Which Property Is Used As A Shorthand To Specify A Number Of Other Background Properties?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The background property is used as a shorthand to specify a number of other background properties.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Which Property Is Used To Change The Face Of A Font?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The font-family property is used to change the face of a font.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Which Property Is Used To Make A Font Italic Or Oblique?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The font-style property is used to make a font italic or oblique.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Which Property Is Used To Create A Small-caps Effect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The font-variant property is used to create a small-caps effect.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Which Property Is Used To Increase Or Decrease How Bold Or Light A Font Appears?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The font-weight property is used to increase or decrease how bold or light a font appears.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Which Property Is Used To Increase Or Decrease The Size Of A Font?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The font-size property is used to increase or decrease the size of a font.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Which Property Is Used As Shorthand To Specify A Number Of Other Font Properties?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The font property is used as shorthand to specify a number of other font properties.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Which Property Is Used To Set The Color Of A Text?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The color property is used to set the color of a text.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Which Property Is Used To Set The Text Direction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The direction property is used to set the text direction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. Which Property Is Used To Add Or Subtract Space Between The Letters That Make Up A Word?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The letter-spacing property is used to add or subtract space between the letters that make up a word.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Which Property Is Used To Add Or Subtract Space Between The Words Of A Sentence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The word-spacing property is used to add or subtract space between the words of a sentence.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Which Property Is Used To Indent The Text Of A Paragraph?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The text-indent property is used to indent the text of a paragraph.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. Which Property Is Used To Align The Text Of A Document?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The text-align property is used to align the text of a document.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Which Property Is Used To Underline, Overline, And Strikethrough Text?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The text-decoration property is used to underline, overline, and strikethrough text.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. Which Property Is Used To Capitalize Text Or Convert Text To Uppercase Or Lowercase Letters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Which Property Is Used To Control The Flow And Formatting Of Text?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The white-space property is used to control the flow and formatting of text.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. Which Property Is Used To Set The Text Shadow Around A Text?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The text-shadow property is used to set the text shadow around a text.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Which Property Is Used To Set The Width Of An Image Border?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The border property is used to set the width of an image border.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. Which Property Is Used To Set The Height Of An Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The height property is used to set the height of an image.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. Which Property Is Used To Set The Width Of An Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The width property is used to set the width of an image.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. Which Property Is Used To Set The Opacity Of An Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The -moz-opacity property is used to set the opacity of an image.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Which Property Of A Hyperlink Signifies Unvisited Hyperlinks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The :link signifies unvisited hyperlinks.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. Which Property Of A Hyperlink Signifies Visited Hyperlinks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The :visited signifies visited hyperlinks.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Which Property Of A Hyperlink Signifies An Element That Currently Has The User's Mouse Pointer Hovering Over It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p class="MsoNormal">The :hover signifies an element that currently has the user's mouse pointer hovering over it.</p></p>
+</li><br><br>

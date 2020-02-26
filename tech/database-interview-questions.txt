@@ -1,0 +1,310 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Explain What Is Sqlite Transactions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The transaction is referred as a unit of work that is performed against a database. It is the propagation of one or more changes to the database. Properties of transactions are determined by ACID.</p>
+<ul>
+<li>Atomicity: It ensures that all work unit are successfully completed.</li>
+<li>Consistency: It ensures that the database changes states upon a successfully committed transaction.</li>
+<li>Isolation: It enables transactions to operate independently of and transparent to each other.</li>
+<li>Durability: It ensures that the result or effect of a committed transaction persists in case of a system failure.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Does Sql Stand For, And What Is It Used For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL stands for structured query language, used with relational databases. It is used to query, update, and retrieve the contents of databases.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. List Out The Areas Where Sql Lite Works Well?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL lite works well with :</p>
+<ul>
+<li>Embedded devices and the internet of things.</li>
+<li>Application file format.</li>
+<li>Data Analysis.</li>
+<li>Websites.</li>
+<li>Cache for enterprise data.</li>
+<li>Server side database.</li>
+<li>File archives.</li>
+<li>Internal or temporary databases.</li>
+<li>Replacement for ad hoc disk files.</li>
+<li>Experimental SQL language extensions.</li>
+<li>Stand-in for an enterprise database during demos or testing.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are Attributes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An attribute is a column in a table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Differentiate Between A Having Clause And A Where Clause.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>HAVING CLAUSE :<br/></strong></p>
+<ul>
+<li>HAVING CLAUSE is used only with the SELECT statement.</li>
+<li>It is generally used in a GROUP BY clause in a query.</li>
+<li>If GROUP BY is not used, HAVING works like a WHERE clause.</li>
+</ul>
+<p><strong>WHERE Clause :<br/></strong></p>
+<ul>
+<li>It is applied to each row before they become a part of the GROUP BY function in a query.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Data Mining And How Can It Be Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data mining refers to any procedure for collecting, analyzing, and summarizing the contents of a database. It can be used to judge the success of a business, marketing campaigns, and to forecast future trends.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Mention What Are The Sql Lite Storage Classes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL lite storage classes include :</p>
+<ul>
+<li><strong>Null:</strong> The value is a NULL value.</li>
+<li>I<strong>nteger:</strong> The value is a signed integer (1,2,3, etc.).</li>
+<li><strong>Real:</strong> The value is a floating point value, stored as an 8 byte IEEE floating point number.</li>
+<li><strong>Text:</strong> The value is a text string, stored using the database encoding ( UTF-8, UTF-16BE).</li>
+<li><strong>BLOB (Binary Large Object):</strong> The value is a blob of data, exactly stored as it was input.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Database Normalization And Why Is It Done?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is the process of organizing data in a database efficiently, and it is done to make sure that connections and dependencies between data make sense, and to get rid of redundant data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Do Constraints Do? What Are The Types Of Constraints?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Constraints are used to prevent the database from losing internal and external integrity. The types are: check, not null, unique, primary key, and foreign key.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are Fact Tables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Tables which track the progress of a certain process or activity, the primary tables of databases.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Describe The Three Levels Of Data Abstraction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li><strong>Physical level:</strong> The lowest level of abstraction describes how data are stored.</li>
+<li><strong>Logical level:</strong> The next higher level of abstraction, describes what data are stored in database and what relationship among those data.</li>
+<li><strong>View level:</strong> The highest level of abstraction describes only part of entire database.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Explain What Is The Use Of Sqlite Group By Clause?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The SQLITE group by clause is used in collaboration with the SELECT statement to arrange identical data into groups.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. When Is The Update_statistics Command Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>When the processing of large data is done, this command is used.</li>
+<li>Whenever large number of deletions, modification or copy takes place into the tables, the indexes need to be updated to take care of these changes. UPDATE_STATISTICS performs this job.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain How Boolean Values In Sql Lite Are Stored?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Boolean values in SQL lite are stored as integers 0 (false) and 1 (true). SQL Lite does not have a separate Boolean storage class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain What Is Sql Lite?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL LITE is a mostly ACID compliant relational database management system contained in a relatively small C programming library.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Give A Comment On Transaction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Using transactions we can group all SQL commands into a single unit.</li>
+<li>The transaction begins with some task and finishes only when all tasks within it are over.</li>
+<li>The transaction gets over successfully only when all commands in it are successfully over. Even if one command fails, the whole transaction fails.</li>
+<li>The BEGIN TRANSACTION, ROLLBACK TRANSACTION, and COMMIT TRANSACTION statements are used to work with transactions.</li>
+<li>A group of tasks starts with the begin statement.</li>
+<li>In case of any problem, the rollback command is executed to abort the transaction.</li>
+<li>If all the tasks run successfully, all commands are executed through commit statement.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. List Out The Standard Sql Lite Commands?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The standard SQL Lite commands interact with relational databases are similar to SQL. They are</p>
+<ul>
+<li>SELECT</li>
+<li>CREATE</li>
+<li>INSERT</li>
+<li>UPDATE</li>
+<li>DROP</li>
+<li>DELETE</li>
+</ul>
+<p>Based on their operational nature these commands can be classified.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Define The "integrity Rules"?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two Integrity rules.<br/><br/><strong>Entity Integrity:</strong> States that "Primary key cannot have NULL value".</p>
+<p><strong>Referential Integrity:</strong> States that "Foreign Key can be either a NULL value or should be Primary Key value of other relation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A database is a logically coherent collection of data with some inherent meaning, representing some aspect of real world and which is designed, built and populated with data for a specific purpose.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Segregate Database Technology’s Development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The development of database technology is divided into:</p>
+<ul>
+<li>Structure or data model</li>
+<li>Navigational model</li>
+<li>SQL/ relational model</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are The Features Of Database Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A database language may also incorporate features like:</p>
+<ul>
+<li>DBMS-specific Configuration and management of storage engine. </li>
+<li>Computations to modification of query results by computations, like summing, counting, averaging, grouping, sorting and cross-referencing Constraint enforcement Application Programming Interface.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Do Database Languages Do?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As special-purpose languages, they have:</p>
+<ul>
+<li>Data definition language</li>
+<li>Data manipulation language</li>
+<li>Query language</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Define Database Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A data model determining fundamentally how data can be stored, manipulated and organised and the structure of the database logically is called database model.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Enlist The Various Relationships Of Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The various relationships of database are:</p>
+<ul>
+<li><strong>One-to-one:</strong> Single table having drawn relationship with another table having similar kind of columns.</li>
+<li><strong>One-to-many:</strong> Two tables having primary and foreign key relation.</li>
+<li><strong>Many-to-many:</strong> Junction table having many tables related to many tables.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Define Normalization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Organized data void of inconsistent dependency and redundancy within a database is called normalization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Enlist The Advantages Of Normalizing Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Advantages of normalizing database are:</p>
+<ul>
+<li>No duplicate entries</li>
+<li>Saves storage space</li>
+<li>Boasts the query performances.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Define De Normalization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Boosting up database performance, adding of redundant data which in turn helps rid of complex data is called denormalization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Define Ddl And Dml?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Managing properties and attributes of database is called Data Definition Language(DDL).<br/><br/>Manipulating data in a database such as inserting, updating, deleting is defined as Data Manipulation Language. (DML)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Enlist Some Commands Of Ddl?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>CREATE:  </strong>Create is used in the CREATE TABLE statement. <br/><strong>Syntax is: </strong>    CREATE TABLE [column name] ( [column definitions] ) [ table parameters]<br/><br/><strong>ALTER:  </strong>It helps in modification of an existing object of database. <br/><strong>Syntax is: </strong>ALTER objecttype objectname parameters.<br/><br/><strong>DROP: </strong>It destroys an existing database, index, table or view. <br/><strong>Syntax is: </strong>DROP objecttype objectname.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Define Union All Operator And Union?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Full recordings of two tables is Union All operator.A distinct recording of two tables is Union.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Define Cursor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A database object which helps in manipulating data row by row representing a result set is called cursor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Enlist The Cursor Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>They are:<br/><br/><strong>Dynamic:</strong> it reflects changes while scrolling.<br/><br/><strong>Static:</strong> doesn’t reflect changes while scrolling and works on recording of snapshot.<br/><br/><strong>Keyset:</strong> data modification without reflection of new data is seen.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Define Sub-query?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A query contained by a query is called Sub-query.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Why Is Group-clause Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Group-clause uses aggregate values to be derived by collecting similar data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Compare Non-clustered And Clustered Index?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both having B-tree structure, non-clustered index has data pointers enabling one table many non-clustered indexes while clustered index is distinct for every table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Define Aggregate Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Functions which operate against a collection of values and returning single value is called aggregate functions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Define Scalar Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Scalar function is depended on the argument given and returns sole value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Restrictions Can You Apply When You Are Creating Views?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Restrictions that are applied are:</p>
+<ul>
+<li>Only the current database can have views.</li>
+<li>You are not liable to change any computed value in any particular view.</li>
+<li>Integrity constants decide the functionality of INSERT and DELETE.</li>
+<li>Full-text index definitions cannot be applied.</li>
+<li>Temporary views cannot be created.</li>
+<li>Temporary tables cannot contain views.</li>
+<li>No association with DEFAULT definitions.</li>
+<li>Triggers such as INSTEAD OF is associated with views.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Define “correlated Sub Queries”?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A ‘correlated subquery’ is a sort of sub query but correlated subquery is reliant on another query for a value that is returned. In case of execution, the sub query is executed first and then the correlated query.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Define Data Warehousing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Storage and access of data from the central location in order to take some strategic decision is called Data Warehousing. Enterprise management is used for managing the information whose framework is known as Data Warehousing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. Define Join And Enlist Its Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Joins help in explaining the relation between different tables. They also enable you to select data with relation to data in another table.</p>
+<p><strong>The various types are:<br/></strong><br/><strong>INNER JOINs:</strong> Blank rows are left in the middle while more than equal to two tables are joined.<br/><br/><strong>OUTER JOINs:</strong> Divided into Left Outer Join and Right Outer Join. Blank rows are left at the specified side by joining tables in other side.<br/>Other joins are CROSS JOINs, NATURAL JOINs, EQUI JOIN and NON-EQUI JOIN.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Do You Mean By Index Hunting?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Indexes help in improving the speed as well as the query performance of database. The procedure of boosting the collection of indexes is named as Index hunting.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. How Does Index Hunting Help In Improving Query Performance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Index hunting helps in improving the speed as well as the query performance of database. The followed measures are achieved to do that:</p>
+<ul>
+<li>The query optimizer is used to coordinate the study of queries with the workload and the best use of queries suggested based on this.</li>
+<li>Index, query distribution along with their performance is observed to check the effect.</li>
+<li>Tuning databases to a small collection of problem queries is also recommended.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Enlist The Disadvantages Of Query?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The disadvantages of query are:</p>
+<ul>
+<li>No indexes</li>
+<li>Stored procedures are excessively compiled.</li>
+<li>Triggers and procedures are without SET NOCOUNT ON.</li>
+<li>Complicated joins making up inadequately written query.</li>
+<li>Cursors and temporary tables showcase a bad presentation.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Enlist Ways To Efficiently Code Transactions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ways to efficiently code transactions:</p>
+<ul>
+<li>User input should not be allowed while transactions.</li>
+<li>While browsing, transactions must not be opened of data.</li>
+<li>Transactions must be kept as small as possible.</li>
+<li>Lower transaction segregation levels.</li>
+<li>Least information of data must be accessed while transacting.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is Executive Plan?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Executive plan can be defined as:</p>
+<ul>
+<li>SQL Server caches collected procedure or the plan of query execution and used thereafter by subsequent calls.</li>
+<li>An important feature in relation to performance enhancement.</li>
+<li>Data execution plan can be viewed textually or graphically.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Define B-trees?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A data structure in the form of tree which stores sorted data and searches, insertions, sequential access and deletions are allowed in logarithmic time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Differentiate Table Scan From Index Scan?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Iterating over all the table rows is called Table Scan while iterating over all the index items is defined as Index Scan.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Do You Mean By Fill Factor Concept With Respect To Indexes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Fill Factor can be defined as being that value which defines the percentage of left space on every leaf-level page that is to be packed with data. 100 is the default value of Fill Factor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Define Fragmentation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Fragmentation can be defined as a database feature of server that promotes control on data which is stored at table level by the user.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Do You Mean By Query Evaluation Engine?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Query Evaluation Engine executes the low-level instructions that are generated by the compiler.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Define Ddl Interpreter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DDL statements are interpreted and recorded in tables called metadata.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. Define Database System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DBMS along with database is called Database system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Explain The Importance Of Partitioning?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Splitting of one table which is large into smaller database entities logically is called database partitioning. Its benefits are:</p>
+<ul>
+<li>To improve query performance in situations dramatically when mostly rows which are heavily accessed are in one partition.</li>
+<li>Accessing large parts of a single partition.</li>
+<li>Slower and cheaper storage media can be used for data which is seldom used.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Is Database Partitioning?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Division of logical database into independent complete units for improving its management, availability and performance is called Database partitioning.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. Define Atomicity And Aggregation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Atomicity:</strong> It’s an all or none concept which enables the user to be assured of incomplete transactions to be taken care of. The actions involving incomplete transactions are left undone in DBMS.<br/><br/><strong>Aggregation:</strong> The collected entities and their relationship are aggregated in this model. It is mainly used in expressing relationships within relationships.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. Enlist The Various Transaction Phases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The various transaction phases are:</p>
+<ul>
+<li>Analysis Phase.</li>
+<li>Redo Phase.</li>
+<li>Undo Phase.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Define Object-oriented Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Compilations of objects make up this model in which values are stored within instance variables which is inside the object. The object itself comprises bodies of object for its operation which are called methods. Objects containing same kind of variables and methods are called classes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. Define Entity?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It can be defined as being a ‘thing’ with an independent existence in the real world.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Define Entity Set ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Compilation of all entries of any particular type of entry in the database is called Entity Set.</p></p>
+</li><br><br>

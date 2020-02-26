@@ -1,0 +1,213 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is An Avl Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AVL trees are height balancing binary search tree. AVL tree checks the height of left and right sub-trees and assures that the difference is not more than 1. This difference is called Balance Factor.</p>
+<p>BalanceFactor = height(left-sutree) − height(right-sutree)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is A Spanning Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and it can not be disconnected.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How Many Spanning Trees Can A Graph Has?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It depends on how connected the graph is. A complete undirected graph can have maximum nn-1 number of spanning trees, where n is number of nodes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Kruskal's Algorithm Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This algorithm treats the graph as a forest and every node it as an individual tree. A tree connects to another only and only if it has least cost among all available options and does not violate MST properties.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How Prim's Algorithm Finds Spanning Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Prim's algorithm treats the nodes as a single tree and keeps on adding new nodes to the spanning tree from the given graph.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is A Minimum Spanning Tree (mst) ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight that all other spanning trees of the same graph.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is A Heap In Data Structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Heap is a special balanced binary tree data structure where root-node key is compared with its children and arranged accordingly. A min-heap, a parent node has key value less than its childs and a max-heap parent node has value greater than its childs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is A Recursive Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A recursive function is one which calls itself, directly or calls a function that in turn calls it. Every recursive function follows the recursive properties − base criteria where functions stops calling itself and progressive approach where the functions tries to meet the base criteria in each iteration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Data-structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data structure is a way of defining, storing &amp; retriving of data in a structural &amp; systemetic way. A data structure may contain different type of data items.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are Various Data-structures Available?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data structure availability may vary by programming languages. Commonly available data structures are list, arrays, stack, queues, graph, tree etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Algorithm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Why We Need To Do Algorithm Analysis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Are The Criteria Of Algorithm Analysis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An algorithm are generally analyzed on two factors − time and space. That is, how much execution time and how much extra space required by the algorithm.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Asymptotic Analysis Of An Algorithm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Asymptotic analysis of an algorithm, refers to defining the mathematical boundation/framing of its run-time performance. Using asymptotic analysis, we can very well conclude the best case, average case and worst case scenario of an algorithm.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are Asymptotic Notations?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Asymptotic analysis can provide three levels of mathematical binding of execution time of an algorithm −</p>
+<ul>
+<li>Best case is represented by Ω(n) notation.</li>
+<li>Worst case is represented by Ο(n) notation.</li>
+<li>Average case is represented by Θ(n) notation.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Linear Data Structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A linear data-structure has sequentially arranged data items. The next time can be located in the next memory address. It is stored and accessed in a sequential manner. Array and list are example of linear data structure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are Common Operations That Can Be Performed On A Data-structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The following operations are commonly performed on any data-structur</strong>e −</p>
+<ul>
+<li>Insertion − adding a data item</li>
+<li>Deletion − removing a data item</li>
+<li>Traversal − accessing and/or printing all data items</li>
+<li>Searching − finding a particular data item</li>
+<li>Sorting − arranging data items in a pre-defined sequence</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Briefly Explain The Approaches To Develop Algorithms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are three commonly used approaches to develop algorithms:</strong></p>
+<ol>
+<li>Greedy Approach − finding solution by choosing next best option</li>
+<li>Divide and Conquer − diving the problem to a minimum possible sub-problem and solving them independently</li>
+<li>Dynamic Programming − diving the problem to a minimum possible sub-problem and solving them combinedly</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Give Some Examples Greedy Algorithms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The below given problems find their solution using greedy algorithm approach:</strong></p>
+<ul>
+<li>Travelling Salesman Problem</li>
+<li>Prim's Minimal Spanning Tree Algorithm</li>
+<li>Kruskal's Minimal Spanning Tree Algorithm</li>
+<li>Dijkstra's Minimal Spanning Tree Algorithm</li>
+<li>Graph - Map Coloring</li>
+<li>Graph - Vertex Cover</li>
+<li>Knapsack Problem</li>
+<li>Job Scheduling Problem</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are Some Examples Of Divide And Conquer Algorithms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The below given problems find their solution using divide and conquer algorithm approach :</strong></p>
+<ul>
+<li>Merge Sort</li>
+<li>Quick Sort</li>
+<li>Binary Search</li>
+<li>Strassen's Matrix Multiplication</li>
+<li>Closest pair (points)</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are Some Examples Of Dynamic Programming Algorithms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The below given problems find their solution using divide and conquer algorithm approach:</strong></p>
+<ul>
+<li>Fibonacci number series</li>
+<li>Knapsack problem</li>
+<li>Tower of Hanoi</li>
+<li>All pair shortest path by Floyd-Warshall</li>
+<li>Shortest path by Dijkstra</li>
+<li>Project scheduling</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is A Linked-list?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A linked-list is a list of data-items connected with links i.e. pointers or references. Most modern high-level programming language does not provide the feature of directly accessing memory location, therefore, linked-list are not supported in them or available in form of inbuilt functions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Stack?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out method.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Why Do We Use Stacks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Stacks follows LIFO method and addition and retrieval of a data item takes only Ο(n) time. Stacks are used where we need to access data in the reverse order or their arrival. Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Operations Can Be Performed On Stacks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The below operations can be performed on a stack:</strong></p>
+<ul>
+<li>push() − adds an item to stack</li>
+<li>pop() − removes the top stack item</li>
+<li>peek() − gives value of top item without removing it</li>
+<li>isempty() − checks if stack is empty</li>
+<li>isfull() − checks if stack is full</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is A Queue In Data-structure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Queue is an abstract data structure, somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Why Do We Use Queues?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival. Every operating system maintains queues of various processes. Priority queues and breadth first traversal of graphs are some examples of queues.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Operations Can Be Performed On Queues?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The below operations can be performed on a stack:</strong></p>
+<ul>
+<li>enqueue() − adds an item to rear of the queue</li>
+<li>dequeue() − removes the item from front of the queue</li>
+<li>peek() − gives value of front item without removing it</li>
+<li>isempty() − checks if stack is empty</li>
+<li>isfull() − checks if stack is full</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is Linear Searching?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Linear search tries to find an item in a sequentially arranged data type. These sequentially arranged data items known as array or list, are accessible in incrementing memory location. Linear search compares expected data item with each of data items in list or array. The average case time complexity of linear search is Ο(n) and worst case complexity is Ο(n2). Data in target arrays/lists need not to be sorted.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Binary Search?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A binary search works only on sorted lists or arrays. This search selects the middle which splits the entire list into two parts. First the middle is compared.</p>
+<p>This search first compares the target value to the mid of the list. If it is not found, then it takes decision on whether.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is Bubble Sort And How Bubble Sort Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bubble sort is comparison based algorithm in which each pair of adjacent elements is compared and elements are swapped if they are not in order. Because the time complexity is Ο(n2), it is not suitable for large set of data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Tell Me Something About 'insertion Sort'?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Insertion sort divides the list into two sub-list, sorted and unsorted. It takes one element at time and finds it appropriate location in sorted sub-list and insert there. The output after insertion is a sorted sub-list. It iteratively works on all the elements of unsorted sub-list and inserts them to sorted sub-list in order.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Selection Sort?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Selection sort is in-place sorting technique. It divides the data set into two sub-lists: sorted and unsorted. Then it selects the minimum element from unsorted sub-list and places it into the sorted list. This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. How Insertion Sort And Selection Sorts Are Different?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Both sorting techniques maintains two sub-lists, sorted and unsorted and both take one element at a time and places it into sorted sub-list. Insertion sort works on the current element in hand and places it in the sorted array at appropriate location maintaining the properties of insertion sort. Whereas, selection sort searches the minimum from the unsorted sub-list and replaces it with the current element in hand.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Merge Sort And How It Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Merge sort is sorting algorithm based on divide and conquer programming approach. It keeps on dividing the list into smaller sub-list until all sub-list has only 1 element. And then it merges them in a sorted way until all sub-lists are consumed. It has run-time complexity of Ο(n log n) and it needs Ο(n) auxiliary space.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Shell Sort?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Shell sort can be said a variant of insertion sort. Shell sort divides the list into smaller sublist based on some gap variable and then each sub-list is sorted using insertion sort. In best cases, it can perform upto Ο(n log n).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. How Quick Sort Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Quick sort uses divide and conquer approach. It divides the list in smaller 'partitions' using 'pivot'. The values which are smaller than the pivot are arranged in the left partition and greater values are arranged in the right partition. Each partition is recursively sorted using quick sort.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is A Graph?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Depth First Traversal Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Depth First Search algorithm(DFS) traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search when a dead end occurs in any iteration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. How Breadth First Traversal Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Breadth First Search algorithm(BFS) traverses a graph in a breadthwards motion and uses a queue to remember to get the next vertex to start a search when a dead end occurs in any iteration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is A Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A tree is a minimally connected graph having no loops and circuits.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Is A Binary Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A binary tree has a special condition that each node can have two children at maximum.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Is A Binary Search Tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A binary search tree is a binary tree with a special provision where a node's left child must have value less than its parent's value and node's right child must have value greater than it's parent value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Is Tree Traversal?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Tree traversal is a process to visit all the nodes of a tree. Because, all nodes are connected via edges (links) we always start from the root (head) node.</p>
+<p><strong>There are three ways which we use to traverse a tree:</strong></p>
+<ol>
+<li>In-order Traversal</li>
+<li>Pre-order Traversal</li>
+<li>Post-order Traversal</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is Tower Of Hanoi?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Tower of Hanoi, is a mathematical puzzle which consists of three tower (pegs) and more than one rings. All rings are of different size and stacked upon each other where the large disk is always below the small disk. The aim is to move the tower of disk from one peg to another, without breaking its properties.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is Fibonacci Series?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Fibonacci Series generates subsequent number by adding two previous numbers. For example − 0 1 1 2 3 5 8 13.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Is Hashing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hashing is a technique to convert a range of key values into a range of indexes of an array. By using hash tables, we can create an associative data storage where data index can be find by providing its key values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. What Is Interpolation Search Technique?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Interpolation search is an improved variant of binary search. This search algorithm works on the probing position of required value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is The Prefix And Post Fix Notation Of (a + B) * (c + D) ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Prefix Notation − * + a b + c d</p>
+<p>Postfix Notation − a b + c d + *</p></p>
+</li><br><br>

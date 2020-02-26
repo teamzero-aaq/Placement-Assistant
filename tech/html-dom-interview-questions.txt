@@ -1,0 +1,204 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is The Main Function Of Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The DOM is known as Document object model and it allows the accessing of the documents like HTML and XML.</li>
+<li>It allows a platform to be language neutral and provide an interface that allows the dynamic usage of the scripts and programs to access the content.</li>
+<li>It also provides a way to update the content, structure and style of the document and a way to represent it in any language.</li>
+<li>It is used with the language and used to create the objects that can be used as a model to allow the interface to be developed with ease.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Xml Family?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li><strong>Display</strong> : XHTML, XSLT, XSL</li>
+<li><strong>Modeling</strong> : DTD, XML Schema</li>
+<li><strong>Manipulating</strong> : DOM, SAX</li>
+<li><strong>Querying</strong> : Xlink, XQL, Xpath</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Functionalities Performed By Onload() And Onupload()?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>onload() and onUpload() are two functions that gets activated or the event gets triggered when the user enters or leaves the page.</li>
+<li>onload() event is used to verify and check the user’s visit according to the browser’s type and it loads a version of the event.</li>
+<li>It provides the web page information that allows easy access to the website and consists of the information regarding the event that is triggered.</li>
+<li>Onload() and onUpload() events uses the cookies to hold down the values given by the users when it enters or leaves the page.</li>
+<li>This includes the example of a popup that opens up as many times the user is visiting the first page of the website.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Explain The Syntax Of Ui Object Identifier Used By Dom Extension?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The DOM browser extension uses the following syntax for web UI objects:</p>
+<ul>
+<li>Browser.BrowserChild(page_titile).html_class(object_tag)</li>
+<li>page_title is the title of the web page, defined by the HTML TITLE tag.</li>
+<li>object_tag is the label of the HTML element. How a HTML element is labeled depending on the type of HTML element.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are The Levels Involved In Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>DOM is used to define the object with its properties that is having all the document elements and the methods allowing access to them.</li>
+<li>DOM is known as document object model is divided into three different parts or levels:</li>
+<ul>
+<li><strong>Core DOM</strong> is used for the standard model for all the structures and the structured documents.</li>
+<li><strong>XML DOM</strong> is used as a standard model for the XML documents that can be different according to the different requirements.</li>
+<li><strong>HTML DOM</strong> is used to have a standard model used for the HTML documents having the properties and functions.</li>
+</ul>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Javascript And How Does It Work With The Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JavaScript is just one of many programming languages with DOM support. What makes the combination of JavaScript and the DOM so exciting is the environment where they are used. Whereas most programming languages do all their work on the server side, putting together pages to be sent to the browser, JavaScript runs in the browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are The Node Properties?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>nodeName</strong>: is in the read only format and it is the parameter that acts like a tag name. It provides the information of attribute node and other nodes.<br/><strong>nodeValue</strong>: is the way to specify the value of each individual node. The node value can be element wise or it can be text wise or other nodes value can be given.<br/><strong>nodeType</strong>: provides a way to return the type of the node used and that is also in the read only format.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Explain Dom And How Does It Relate To Xml?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Document Object Model (DOM) is an interface specification maintained by the W3C DOM Workgroup that defines an application independent mechanism to access, parse, or update XML data. In simple terms it is a hierarchical model that allows developers to manipulate XML documents easily Any developer that has worked extensively with XML should be able to discuss the concept and use of DOM objects freely. Additionally, it is not unreasonable to expect advanced candidates to thoroughly understand its internal workings and be able to explain how DOM differs from an event-based interface like SAX.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is The Use Or Function Of Xml Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The XML DOM is used to define the standard model of the DOM structure and it defines all the properties of the XML elements or the methods for accessing it.</li>
+<li>XML DOM is used to create the instance of the XML parser by using the standard interfaces like COM.</li>
+<li>It consists of the inbuilt libraries and implementation code that is used to work with the document written in XML.</li>
+<li>It uses the command CreateObject method to be used with the XML DOM that allows the creation of the Parser object.</li>
+<li>The command that can be used in XML DOM is as follows:<br/>  Set objParser = CreateObject( "Microsoft.XMLDOM" )</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Html Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The HTML DOM is:</p>
+<ul>
+<li>A standard object model for HTML</li>
+<li>A standard programming interface for HTML</li>
+<li>Platform- and language-independent</li>
+<li>The HTML DOM defines the objects and properties of all HTML elements, and the methods (interface) to access them.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Are The Different Properties Of Nodes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Node is used in HTML DOM as an object that points to the other element in the tree and gets generated by the root node.</li>
+<li>Nodes in an object form have some methods and properties that allow the accessing of the JavaScript to be used for modification.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Difference Between Dom And Sax? What Would We Use If An Option Is Given?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DOM parses an XML document and returns an instance of org.w3c.dom.Document. This document object's tree must then be "walked" in order to process the different elements. DOM parses the ENTIRE Document into memory, and then makes it available to you. The size of the Document you can parse is limited to the memory available.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is The Use Or Function Of Html Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>HTML DOM provides a way to implement the HTML document model by allowing it to extend the HTML: trees models.</li>
+<li>It serves as both as HTML parser and uses the document class of HTML to apply the functions and properties in the same class.</li>
+<li>The standard object model is created for the use of HTML and it provides a programming interface through which it can be recognized.</li>
+<li>It provides platform independent and language independent features and properties that can be used.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are The Methods Involved In Html Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML DOM methods are used as a way to generate the result without much of the written code and it can be easily used.<br/>HTML DOM provides methods to simplify the tasks and the methods are as follows:</p>
+<ul>
+<li>x.getElementById(id) – this allow the getting of the element that is associated with a specified id.</li>
+<li>x.getElementsByTagName(name) – this gets all the elements using the tag name that is associated with it.</li>
+<li>x.appendChild(node) – this inserts a child node to x and append the child node at the end of the tree.</li>
+<li>x.removeChild(node) – this removes a child node from x and remove from the tree area also.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain Multi-tagging?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Multi-tagging is a technique used by the DOM browser extension to identify a web page UI object. Whenever possible, DOM extension inserts more than one tag into the object identifier in following format:<br/>Browser.BrowserChild(page_title).html_class(caption_tag|window_tag)</p>
+<ul>
+<li>Caption_tag is the caption of the HTML element.</li>
+<li>#index_tag is the index of this HTML element, counting from the beginning of this page of the same class of HTML elements.</li>
+<li>window_tag is the window identifier.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is The Use Of Dom In W3c Standards?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>HTML DOM is used to add, remove, and change the elements of HTML by using the HTML DOM.</li>
+<li>DOM considers the entire element in an HTML document as a node and it treats all of them using the same standards.</li>
+<li>The document is being given in the document node and all the elements of the HTML are present in the element node.</li>
+<li>The text used in the HTML elements is for the text nodes and allows the properties to be used for further use.</li>
+<li>HTML usually consists of the attribute and it is stored in the attribute node that allows easy modification of the properties.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is The Programming Interface Used For Dom Or Html Documents?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Programming interface is important if the DOM consisting of the HTML documents and provide settings for the node objects.</li>
+<li>Nodes in the tree are allowed to access the programming interface and it is defined with the DOM properties and methods.</li>
+<li>The properties and methods are used in the node and they are referred for the use in the HTML DOM.</li>
+<li>The DOM property that exists in HTML:</li>
+<ul>
+<li><strong>x.innerHTML</strong> – this stores the text value of x used to display it on the x axis.</li>
+<li><strong>x.nodeName</strong> – this stores the node name of x on the x axis of the node.</li>
+<li><strong>x.nodeValue</strong> – this provides the value of x for the node that is being used.</li>
+</ul>
+</ul>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. How Does The Relationship Exist Between The Node, Child And Siblings In Node-tree?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Node tree consists of root node, child and siblings with a defined relationship with each other.</li>
+<li>The relationship is described as such it allows the children on the same level to be called as siblings.</li>
+<li>The root node is the top most nodes and through this node the accessing will be done and the elements will be communicated.</li>
+<li>Every node in the tree will have exactly one parent node and root doesn’t have any parent in this.</li>
+<li>A node at lower down the order can include many other nodes and they will be called as children of parent nodes.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How You Define Node Tree In Html Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Using HTML DOM we can show a node tree structure of all nodes in an HTML document.</li>
+<li>In a node tree structure all nodes in an HTML document are relations with each other.</li>
+<li>Using node tree structure we can access all node of HTML document.</li>
+<li>In tree structure we start from root node and go down to the lowest level nodes of tree. </li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How Dhtml Work With Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Using JavaScript we can made dynamic HTML content.We can use document.write() to show dynamic content on your web page.Below I have given you HTML page which made dynamic after using JavaScript.This example will show current date.<br/><strong>Example:<br/></strong>&lt;html&gt;<br/>&lt;body&gt;<br/>&lt;script type="text/javascript"&gt;<br/>document.write(Date());<br/>&lt;/script&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is Dom And How Does It Relate To Xml?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Document Object Model (DOM) is an interface specification maintained by the W3C DOM Workgroup that defines an application independent mechanism to access, parse, or update XML data. In simple terms it is a hierarchical model that allows developers to manipulate XML documents easily Any developer that has worked extensively with XML should be able to discuss the concept and use of DOM objects freely. Additionally, it is not unreasonable to expect advanced candidates to thoroughly understand its internal workings and be able to explain how DOM differs from an event-based interface like SAX.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Xml Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The XML DOM defines the objects and properties of all XML elements, and the methods (interface) to access them.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. How You Define Events In Html Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Generally, Events are nothing other than actions. Using JavaScript we can noticed or triggered events.<br/><strong>Example:</strong>  When you use click on button than an event occur and function associated with button execute.We placed events within HTML tags. I have given you some events. Click through mouse, Click on advertisement in web page, When you select an input box in a HTML form, When you submit an HTML form.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What The Hell Is The Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Basically, the Document Object Model is a way of looking at a document. In that sense, it isn't all that different to CSS, which uses another kind of mental model. CSS uses the idea of selectors to interact with a document. The DOM, on the other hand, views a document as a tree of nodes: element nodes, attribute nodes and text nodes. The DOM provides a vocabulary for targeting and manipulating those nodes.<br/>If a programming language supports the DOM then you can use that same vocabulary to address any kind of markup document.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Explain Dom In Brief?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The DOM is a W3C (World Wide Web Consortium) standard.<br/>The DOM defines a standard for accessing documents like HTML and XML:<br/>"The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."<br/>The DOM is separated into 3 different parts / levels:</p>
+<ol>
+<li> Core DOM - standard model for any structured document</li>
+<li> XML DOM - standard model for XML documents</li>
+<li> HTML DOM - standard model for HTML documents</li>
+</ol>
+<p>The DOM defines the objects and properties of all document elements, and the methods (interface) to access them.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Are The Properties And Methods Of Html Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Properties and methods are help us to define HTML DOM programming interface.<br/>some properties of HTML DOM. Let, 'e' is an HTML element or node object.</p>
+<ol>
+<li><strong>e.innerHTML :</strong> It shows the inner text value of e.</li>
+<li><strong>e.nodeName  :</strong> It shows the name of e.</li>
+<li><strong>e.nodeValue :</strong> It shows the value of e.</li>
+<li><strong>e.parentNode:</strong> It shows the parent node of e.</li>
+<li><strong>e.childNodes:</strong> It shows the child node of e.</li>
+<li><strong>e.attributes:</strong> It shows the attribute nodes of e.</li>
+</ol>
+<p>some methods that we used in HTML DOM.</p>
+<ol>
+<li><strong>e.getElementById(id)</strong> : Using them we can get the element with a specified id in an HTML document.</li>
+<li><strong>e.getElementsByTagName(name) :</strong> Using them we can get all elements with a specified tag name in an HTML document.</li>
+<li><strong>e.appendChild(node) :</strong> Using them we can insert a child node to e or increase the no of child nodes of e.</li>
+<li><strong>e.removeChild(node) :</strong> Using them we can remove a child node from e in an HTML DOM.</li>
+</ol>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. How To Change The Background Colour Of An Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A script code using them you can change the background color of elements of body.<br/>&lt;html&gt;<br/>&lt;body&gt;<br/>&lt;script type="text/javascript"&gt;<br/>document.body.bgColor="pink";<br/>&lt;/script&gt;<br/>&lt;p&gt;Now, Your background color is pink.&lt;/p&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How To Change The Text Of An Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A script code using them you can change the text of an HTML element.Now, In example that I have shown below we change the text of the element<br/><strong>Example:<br/></strong>&lt;html&gt;<br/>&lt;body&gt;<br/>&lt;p id="welcome"&gt;R4R Welcomes You!&lt;/p&gt;<br/>&lt;script type="text/javascript"&gt;<br/>document.getElementById("welcome").innerHTML="A new message from R4R";<br/>&lt;/script&gt;<br/>&lt;p&gt;R4R introduce a new service called VoiceBox using them you can chat with R4R.&lt;/p&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. How To Change The Text Of An Element With A Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We changed the text of an element by using an function.<br/> In this example text has been changed when you execute function.<br/><strong>Example:<br/></strong>&lt;html&gt;<br/>&lt;head&gt;<br/>&lt;script type="text/javascript"&gt;<br/>function ChangeText()<br/>{<br/>document.getElementById("welcome").innerHTML="R4R Welcomes You!";<br/>}<br/>&lt;/script&gt;<br/>&lt;/head&gt;<br/>&lt;body&gt;<br/>&lt;p id="welcome"&gt;Hello User!&lt;/p&gt;<br/>&lt;input type="button" onclick="ChangeText()" value="When you click on button text will changed"&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. How To Changed Font And Colour Of An Text Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can change font and text of an element by using a function.<br/><strong>Example:<br/></strong>&lt;html&gt;<br/>&lt;head&gt;<br/>&lt;script type="text/javascript"&gt;<br/>function ChangeText()<br/>{<br/>document.getElementById("welcome").style.color="red";<br/>document.getElementById("welcome").style.fontFamily="Times New Roman";<br/>document.getElementById("welcome").style.fontSize="20";<br/>}<br/>&lt;/script&gt;<br/>&lt;/head&gt;<br/>&lt;body&gt;<br/>&lt;p id="welcome"&gt;R4R Welcomes You!&lt;/p&gt;<br/>&lt;input type="button" onclick="ChangeText()"<br/>value="When you click on button text font and color will change"&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;</p></p>
+</li><br><br>

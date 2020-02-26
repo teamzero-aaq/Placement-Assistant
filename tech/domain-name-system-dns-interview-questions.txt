@@ -1,0 +1,315 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Domain Name System is a service that can be installed on any windows server operating system to resolve the Name to IPAddress and vice-versa. TCP/IP networks, such as the Internet, use DNS to locate computers and services through user-friendly names.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Ddns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Dynamic DNS or DDNS is a method of updating, in real time, a Domain Name System to point to a changing IP address on the Internet. This is used to provide a persistent domain name for a resource that may change location on the network.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Resource Records In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>A (Address)</strong> Maps a host name to an IP address. When a computer has multiple adapter cards and IP addresses, it should have multiple address records.<br/><strong>CNAME (Canonical Name)</strong> Sets an alias for a host name. For example, using this record, zeta.tvpress.com can have an alias as www.tvpress.com.<br/><strong>MX (Mail Exchange)</strong> Specifies a mail exchange server for the domain, which allows mail to be delivered to the correct mail servers in the domain.<br/><strong>NS (Name Server)</strong> Specifies a name server for the domain, which allows DNS lookups within various zones. Each primary and secondary name server should be declared through this record.<br/><strong>PTR (Pointer)</strong> Creates a pointer that maps an IP address to a host name for reverse lookups.<br/><strong>SOA (Start of Authority)</strong> Declares the host that is the most authoritative for the zone and, as such, is the best source of DNS information for the zone. Each zone file must have an SOA record (which is created automatically when you add a zone).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are A Forward And Reverse Lookup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Forward Lookup:</strong> When a name query is send to the DNS server against to IP address, it is generally said a forward lookup.<br/><strong>Reverse Lookup:</strong> DNS also provides a reverse lookup process, enabling clients to use a known IP address during a name query and look up a computer name based on its address.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Primary Zone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is the read and writable copy of a zone file in the DNS namespace. This is primary source for information about the zone and it stores the master copy of zone data in a local file or in AD DS. Dy default the primary zone file is named as zone_name.dns in %windir%System32DNS folder on the server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Id Secondary Zone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is the read only copy of a zone file in the DNS namespace. This is secondary source for information about the zone and it get the updated information from the master copy of primary zone. The network access must be available to connect with primary server. As secondary zone is merely a copy of a primary zone that is hosted on another server, it cannot be stored in AD DS.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Stub Zone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A stub zone is a read only copy of a zone that contains only those resource records which are necessary to identify the authoritative DNS servers for that particular zone. A stub zone is practically used to resolve names between separate DNS namespaces. This type of zone is generally created when a corporate merger or acquire and DNS servers for two separate DNS namespaces resolve names for clients in both namespaces.<br/><strong>A stub zone contains:</strong></p>
+<ul>
+<li>The start of authority (SOA) resource record, name server (NS) resource records, and the glue A resource records for the delegated zone.</li>
+<li>The IP address of one or more master servers that can be used to update the stub zone.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Caching Only Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Caching-only servers are those DNS servers that only perform name resolution queries, cache the answers, and return the results to the client. Once the query is stored in cache, next time the query in resolved locally from cached instead of going to the actual site.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Aging And Scavenging?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DNS servers running Windows Server support aging and scavenging features. These features are provided as a mechanism to perform cleanup and removal of stale resource records from the server and zone. This feature removes the dynamically created records when they are stamped as stale.<br/>By default, the aging and scavenging mechanism for the DNS Server service is disabled.<br/>Scavenging and aging must be enabled both at the DNS server and on the zone</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Srv Record In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The SRV record is a resource record in DNS that is used to identify or point to a computer that host specific services i.e Active directory.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Forwarding In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A forwarder is a feature in DNS server that is used to forward DNS queries for external DNS names to DNS servers outside of that network. We ca configure a DNS server as a forwarder to forward the name query to other DNS servers in the network when they cannot resolve locally to that DNS server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Conditional Forwarding In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can configure the DNS server to forward queries according to specific domain names using conditional forwarders. In this case query is forward to an IP address against a DNS domain name.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Are Queries Types In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Recursive Query:</strong> This name queries are generally made by a DNS client to a DNS server or by a DNS server that is configured to pass unresolved name queries to another DNS server, in the case of a DNS server configured to use a forwarder.<br/><strong>Iterative Query:</strong> An iterative name query is one in which a DNS client allows the DNS server to return the best answer it can give based on its cache or zone data. If the queried DNS server does not have an exact match for the queried name, the best possible information it can return is a referral. The DNS client can then query the DNS server for which it obtained a referral. It continues this process until it locates a DNS server that is authoritative for the queried name, or until an error or time-out condition is met.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Are Tools For Troubleshooting Of Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DNS Console, NSLOOKUP, DNSCMD, IPCONFIG, DNS Logs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How To Check Dns Health?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Using the DCdiag.<br/>i.e. (dcdiag /test:dns /v /e)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is The Use Of Domain Name System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Domain Name Systems are used to help users in finding the location of the web page over the internet.</li>
+<li>It provides a unique address that is in the form of strings of numbers and it uniquely identifies a web page.</li>
+<li>The address that is being used called as IP address and IP is the protocol used to transfer the information over the network.</li>
+<li>Domain Name systems makes it easy for the user to remember the name and access the web pages easily.</li>
+<li>DNS is an alternate way to provide easy to remember IP addresses and use them to access the web-services easily.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Can You Explain What Are The Main Function Of Domain Names?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Domain names provide an easy way to recognize and memorize the names using the numerically addressed Internet resources.</li>
+<li>It is used to address the Internet resources placed on internet or it provides and abstraction that allows the resources to be moved from one place to another in hierarchy.</li>
+<li>It provides a way to move the resources in a topological form and provide the translation to be done using the IP addresses and domain names.</li>
+<li>Domain names provide a way to the registrants to refer to the domain owners for their registration of the domain and have the ownership of it.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are The Factors Involved In Guiding The Panelists Decisions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Panelists are very important people that take the decision on the cases and on the basis of criteria come up with the resolution.<br/>The UDRP policy is being contained and using the practical examples the disputes can be solved.<br/><strong>The criteria required are as follows:</strong></p>
+<ul>
+<li>The domain is identical to another domain or it is not clear for the trademark option or the service mark with which the complaint has been registered.</li>
+<li>The respondent of the domain has the rights to have the domain name and for that the offering of goods and services being provided to the respondents with the same name.</li>
+<li>The domain was registered and used in bad faith by other people or company or organization.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Explain What Are The Results Of The Procedures Followed By Udrp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The result of the procedure follows the domain name to either transfer or the complaint is being denied.</li>
+<li>During the denying of the complaint the respondent is allowed to keep the domain name and can cancel the domain name.</li>
+<li>No monetary damage is being done on the basis of domain name disputes and no provision of injunctive relief is being provided.</li>
+<li>Domain name registrars provide a way to implement the decision in a duration of their time with their appeal in the court.</li>
+<li>The panel that will sit for the decisions will be of accredited registrars who will take the decisions on the basis of disputes.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Steps Involved In Registering The Domain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>To register the domains the registering of the entry into the directory is being placed where the domain names can be registered according to the computers.</li>
+<li>Domain names are used to provide a way to access the web pages and they end with .aero, .biz, .com, .coop, .info, .museum, .name, .net, .org, or .pro.</li>
+<li>The domain names can be registered using different registrars or companies that deal in registration process.</li>
+<li>The domain gets registered by providing the information given in the registration process and a record is being maintained for the same.</li>
+<li>The technical information being provided to the registrars get stored to a central directory known as registry.</li>
+<li>The registry gives all the information on different computers that are connected to the Internet and accessing the web site.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The Directory Structure Of The Domain Names?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Domain names are used as a networking concept with addressing and application purpose.</li>
+<li>The domain name is used to represent the Internet Protocol (IP) that provides the resources for the personal computer to allow the accessing of the internet.</li>
+<li>Domain names are represented from the subordinate level and also called as sub-domains that are under the root domain.</li>
+<li>There are three levels of domain names:</li>
+<li>Top level domains are used at the top of the hierarchy and provide a way down to the lowest level in the hierarchy.</li>
+<li>This consists of gTLDs are also known as generic top-level domains and used for very generic domain names like .com, .net and .org.</li>
+<li>This consists of ccTLD are also known as code top-level domains and used to provide code domains.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Role Of Udrp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>UDRP stands for Uniform Domain Name Dispute Resolution Policy that is being given by the Internet Corporation for Assigned Names and Numbers (ICANN).</li>
+<li>UDRP provides the recommendations and uses the reports made by WIPO. This way the report is being analyzed and certain actions taken on that.</li>
+<li>The Report in the WIPO on the Internet Domain Name Process provides the information of disputes and problems.</li>
+<li>UDRP provides a way to report the problems or conflicts that can come between the trademarks and the domain names.</li>
+<li>The reports produced can be identified by the use of First WIPO Process and it can be addressed more in other alternate port domain.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Do You Know How Does Udrp Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>A trademark holder is involved in the whole process that provides a domain name registration and works under UDRP system.</li>
+<li>The standard disputes are recorded and clauses are being made with terms and conditions using the gTLD domain name registration.</li>
+<li>UDRP allows the complaints to be filed with a resolution service provider and specifies the domain name for which the question is being raised.</li>
+<li>The grounds on which the resolution is being provided include the domain name to be identical or similar to the names of trademarks.</li>
+<li>The respondent is being given the chance to defend the case by putting the views on the allegations and provides a team to assist the respondent on this matter.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is The Provision To Change The Registrars After Registering A Domain Name?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>The provision to register the domain requires sponsorship for the domain name and it requires a time to register it.</li>
+<li>The transfer of the registration process can be done by any registrar and they can provide the sponsorship for the registration.</li>
+<li>The registrars of the accredited by ICANN that is authorized to the register like .aero, .biz, .com, .coop, .info, .museum, .name, .net, .org, or .pro names.</li>
+<li>The registrars that are used to register the domain names offer the services using the resellers program that can provide the assistance for the registration process.</li>
+<li>Registration contract will be accredited with the registrar and it will be his responsibility to maintain the information.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is The Purpose Of Domain Name Space?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>ICANN also known as Internet Corporation for Assigned Names and Numbers provide tools to manage the hierarchy.</li>
+<li>The management of it includes the top level domains that are being developed or that are under process.</li>
+<li>The architecture of it is designed using the Internet domain name space as it allows the authorization to be done from the registrars.</li>
+<li>The Domain name space is required to allow the hosting of the files andeasy management through the portal.</li>
+<li>It allows a hierarchical relationship to be maintained and organized in the zones that are being served by the domain name servers.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is The Function Of Wipo To Resolve The Disputes Taking Place?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>ICANN is the organization that looks into the domain names registration and provides an easy way to get it done as well.</li>
+<li>WIPO makes it easier for businesses to do the business without any international legal standards.</li>
+<li>It provides the top level domain management like .com, .net and .org to resolve the dispute that has come up due to some problems.</li>
+<li>It provides a way to negotiate on the laws that are on the national and international level and gets uniformed by some procedures.</li>
+<li>WIPO provides protection to the intellectual property in international market and provide consultancy to the members of Internet community.</li>
+<li>It provides the prepared and published reports to the community that consists of the recommendations that deals with the domain name issues.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Explain What Is The Purpose Of Wipo Providing A Resolution Service Provider?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>WIPO's resolution service provides highly qualified group of teams and requires the administrative procedures.</li>
+<li>This involves the credibility of the WIPO to provide faster resolution of the problems that is being offered.</li>
+<li>The dispute resolution is being given at much faster pace in the courts and it allows the domain to file the case that is made with the online procedure.</li>
+<li>WIPO reduces the cost that is lower than the normal litigation and it provides help to solve certain disputes.</li>
+<li>Filing of the requirements is required to help reduce the costs and provide resolutions for the domain names that involve a single panelist with very less cost.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Role Of Icann In Domain Names?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>ICANN is a non-profit organization that has the responsibilities to manage all the technical functions.</li>
+<li>It manages the technical functions and includes the overall management of the Internet Domain Name System.</li>
+<li>It has registrars accredited with the ICANN and they all follow a uniform dispute resolution policy in case two companies fight for same registered name.</li>
+<li>The disputes are being handled by ICANN and it also provides the resources to register the domain and proceed with all the legal process.</li>
+<li>ICANN provides security and deals with the cases that come as a dispute in the court for legal purposes.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Can You Explain What Are The Factors Involved In Guiding The Panelists Decisions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Panelists are very important people that take the decision on the cases and on the basis of criteria come up with the resolution.</li>
+<li>The UDRP policy is being contained and using the practical examples the disputes can be solved.</li>
+<li>The criteria required are as follows:</li>
+<li>The domain is identical to another domain or it is not clear for the trademark option or the service mark with which the complaint has been registered.</li>
+<li>The respondent of the domain has the rights to have the domain name and for that the offering of goods and services being provided to the respondents with the same name.</li>
+<li>The domain was registered and used in bad faith by other people or company or organization.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Are The Reasons Of Having Disputes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The reasons of having disputes are as follows:</p>
+<ul>
+<li>No proper agreement to proceed with the conditions and due to the growing community of internet more and more people are trying to compete with each other.</li>
+<li>No agreement is being given to the organizations for allowing them to register the domain names to use the names that are problematic.</li>
+<li>It allows easy registration of the business but later have practical difficulties to carry on with it due to the name rights, etc.</li>
+<li>The increasing business value is also one of the reasons of disputes for the domain names that is being on the internet.</li>
+<li>More and more cybersquatting taking place that is bringing more disputes between the cybersquatters and businesses those have their name registered.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Do You Know How Does Wipo Ensure That There Is No Conflict Of Interest?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>WIPO provide a way to deal with the dispute by providing a dispute process and administrating it for any changes.</li>
+<li>The communication is being done between the different parties and it keeps several circumstances that provide the resolutions of disputes occurring.</li>
+<li>An appointment of the expert is being reviewed where the issue is being resolved by taking a decision by the expert.</li>
+<li>It involves the independent individuals that decides the cases for each of the individuals and considers the level of dispute.</li>
+<li>Panelists are used to confirm the WIPO dispute process so that certain actions can be taken on the part of the disputes.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Are The Rules For Registration Of .biz, .com, .info, .name, .net And .org Names?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The domain names can be registered without any restriction and provide open secure channel to file the names for registration.</li>
+<li>The domain names that are shown differently used for different domains and industries that involves the internet infrastructure.</li>
+<li>The activities for the registration being performed on the basis of domains that needs to be taken for example .org.</li>
+<li>There are different domains with different purposes like .org is used for non-commercial organizations and .biz for business purposes.</li>
+<li>After domain registration some legal forms need to be filled to register the domain with the registrar after checking the availability.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Authoritative Name Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An authoritative name server is a name server that gives answers that have been configured by an original source, for example, the domain administrator or by dynamic DNS methods, in contrast to answers that were obtained via a regular DNS query to another name server. An authoritative-only name server only returns answers to queries about domain names that have been specifically configured by the administrator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is The Nature Of Domain Name Disputes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Domain name disputes enable the users to find the computers and people in an easy way.</li>
+<li>Domain name has significance that has acquired business demands and identifiers to identify the business and target only the businesses existing.</li>
+<li>These disputes are protected by intellectual property rights that include the rules and regulations to tackle the disputes.</li>
+<li>The disputes rises due to the cybersquatting this provides a way to pre-emptive the registration process for the trademarks by third parties and as a domain names.</li>
+<li>Domain names are registered and targeted for the benefit of other person or company. It is being done by the cybersquatters.</li>
+<li>Domain names are being registered with the same domain names by main cybersquatters and put up for the auctions to illegally use the name of the person or the company to benefit themselves.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Tell Me What Are The Ways To Administer The Cases Under Udrp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>UDRP is used to settle the disputes by providing the domain name service provider and it provides facilities for top level domains.</li>
+<li>The top level domains like .com, .net, and .org are the generic domains that consist of policies similar to the URDRP.</li>
+<li>WIPO provides a way to resolve the services for the country code top level domains and it works under the principle of UDRP.</li>
+<li>WIPO domain name process provides a way to address the disputes that is being raised by the protection identifiers other than the trademarks.</li>
+<li>It provides the geographical indications and monitors the overall activities like personal names, trade names or acronyms of international intergovernmental organizations.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Are The Rules Of Registration For The Domains Like .uk, .in, Etc.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>To register the domain name it is required to know the ccTLDs that are associated with the geographic location.</li>
+<li>There are rules and policies that are registered for the domain names and searching for the domain name happens that are reserved for the countries.</li>
+<li>The checking need to, be done for the registration process from the registrar that offers ccTLD registration services.</li>
+<li>ICANN requires the registration services in the ccTLDs provide the registration and its services.</li>
+<li>It provides the database that is designated to the managers and that includes the complete database.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Main Purpose Of A Dns Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DNS servers are used to resolve FQDN hostnames into IP addresses and vice versa.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is A Forward Lookup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Resolving Host Names to IP Addresses.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Do I Set Up Dns For A Child Domain?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To set up DNS for a child domain, create a delegation record on the parent DNS server for the child DNS server. Create a secondary zone on the child DNS server that transfers the parent zone from the parent DNS server.<br/>Note Windows Server 2003 has additional types of zones, such as Stub Zones and forest-level integrated Active Directory zones, that may be a better fit for your environment. Set the child domain controller to point to itself first. As soon as an additional domain controller is available, set the child domain controller to point to this domain controller in the child domain as its secondary.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Should I Do If The Domain Controller Points To Itself For Dns, But The Srv Records Still Do Not Appear In The Zone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Check for a disjointed namespace, and then run Netdiag.exe /fix.<br/>You must install Support Tools from the Windows 2000 Server or Windows Server 2003 CD-ROM to run Netdiag.exe.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is The Main Purpose Of Srv Records?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SRV records are used in locating hosts that provide certain network services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Before Installing Your First Domain Controller In The Network, You Installed A Dns Server And Created A Zone, Naming It As You Would Name Your Ad Domain. However, After The Installation Of The Domain Controller, You Are Unable To Locate Infrastructure Srv Records Anywhere In The Zone. What Is The Most Likely Cause Of This Failure?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The zone you created was not configured to allow dynamic updates. The local interface on the DNS server was not configured to allow dynamic updates.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. How Do I Clear The Dns Cache On The Dns Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Go to cmd prompt and type ipconfig /flushdns .</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Soa Records Must Be Included In Every Zone. What Are They Used For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SOA records contain a TTL value, used by default in all resource records in the zone. SOA records contain the e-mail address of the person who is responsible for maintaining the zone. SOA records contain the current serial number of the zone, which is used in zone transfers.<br/>By default, if the name is not found in the cache or local hosts file, what is the first step the client takes to resolve the FQDN name into an IP address? Performs a recursive search through the primary DNS server based on the network interface configuration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is Wins Server? Where We Use Wins Server? Difference Between Dns And Wins?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>WINS is windows internet name service used to resolve the NetBIOS(computer name)name to IP address.This is proprietary for Windows.You can use in LAN.DNS is a Domain Naming System, which resolves Host names to IP addresses. It uses fully qualified domain names. DNS is an Internet standard used to resolve host names.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is Forwarder?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When one DNS server can't receive the query it can be forwarded to another DNS once configured as forwarder.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Is Secondary Dns Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is backup for primary DNS where it maintains a read only copy of DNS database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. How To Enable Dynamic Updates In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Start&gt;Program&gt;Admin tools&gt; DNS &gt;Zone properties.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Are The Properties Of Dns Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>INTERFACES, FORWARDERS, ADVANCED, ROUTINGS, SECURITY, MONITORING, LOGGING, DEBUG LOGGING.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Properties Of A Zone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>General, SOA, NAMESERVER, WINS, Security, and ZONE Transfer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Is Scavenging?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Finding and deleting unwanted records.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. What Are Srv Records?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SRV are the service records, there are 6 service records. They are useful for locating the services.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Are The Types Of Srv Records?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>MSDCS:</strong>Contains DCs information.</p>
+<p><strong>TCP:</strong>Contains Global Catalog, Kerberos &amp; LDAP information.</p>
+<p><strong>UDP:</strong>Contains Sites information.</p>
+<p><strong>Sites:</strong>Contains Sites information.</p>
+<p><strong>Domain DNS Zone</strong>:Conations domain?s DNS specific information.</p>
+<p><strong>Forest DNS zone</strong>:Contains Forest?s Specific Information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Where Does A Host File Reside?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>c:windowssystem32driversetc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Is Primary, Secondary, Stub Zone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Primary Zone:</strong> - zone which is saved as normal text file with filename (.dns) in DBS folder. Maintains a read, write copy of zone database.<br/><strong>Secondary Zone:</strong> - maintains a read only copy of zone database on another DNS server. Provides fault tolerance and load balancing by acting as backup server to primary server.<br/><strong>Stub zone:</strong> - contains a copy of name server and SOA records used for reducing the DNS search orders. Provides fault tolerance and load balancing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. How Do You Manually Create Srv Records In Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is on windows server go to run ---&gt; dnsmgmt.msc rightclick on the zone you want to add srv record to and choose "other new record" and choose service location(srv).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. What Is The Port No Of Dns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The port number of DNS is 53.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Soa Records Must Be Included In Every Zone. What Are They Used For ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SOA records contain a TTL value, used by default in all resource records in the zone. SOA records contain the e-mail address of the person who is responsible for maintaining the zone. SOA records contain the current serial number of the zone, which is used in zone transfers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. By Default, If The Name Is Not Found In The Cache Or Local Hosts File, What Is The First Step The Client Takes To Resolve The Fqdn Name Into An Ip Address?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Performs a recursive search through the primary DNS server based on the network interface configuration.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. Which Of The Following Conditions Must Be Satisfied To Configure Dynamic Dns Updates For Legacy Clients?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The zone to be used for dynamic updates must be configured to allow dynamic updates. The DHCP server must support, and be configured to allow, dynamic updates for legacy clients.</p></p>
+</li><br><br>

@@ -1,0 +1,210 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Artificial intelligence ("AI") can mean many things to many people. Much confusion arises that the word 'intelligence' is ill-defined. The phrase is so broad that people have found it useful to divide AI into two classes: strong AI and weak AI.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is The Difference Between Strong Ai And Weak Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Strong AI makes the bold claim that computers can be made to think on a level (at least) equal to humans. Weak AI simply states that some "thinking-like" features can be added to computers to make them more useful tools... and this has already started to happen (witness expert systems, drive-by-wire cars and speech recognition software). What does 'think' and 'thinking-like' mean? That's a matter of much debate.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. I Am A Programmer Interested In Ai. I Am Writing A Game That Needs Ai. Where Do I Start?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It depends what the game does. If it's a two-player board game,look into the "Mini-max" search algorithm for games. In most commercial games, the AI is is a combination of high-level scripts and low-level efficiently-coded, real-time, rule-based systems. Often, commercial games tend to use finite state machines for computer players. Recently, discrete Markov models have been used to simulate unpredictible human players (the buzzword compliant name being "fuzzy" finite state machines).</p>
+<p>A recent popular game, "Black and White", used machine learning techniques for the non-human controlled characters. Basic reinforcement learning, perceptrons and decision trees were all parts of the learning system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is An Agent?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A very misused term. Today, an agent seems to mean a stand-alone piece of AI-ish software that scours across the internet doing something "intelligent." Russell and Norvig define it as "anything that can can be viewed a perceiving its environment through sensors and acting upon that environment through effectors." Several papers I've read treat it as 'any program that operates on behalf of a human,' similar to its use in the phrase 'travel agent'. Marvin Minsky has yet another definition in the book "Society of Mind." Minsky's hypothesis is that a large number of seemingly-mindless agents can work together in a society to create an intelligent society of mind. Minsky theorizes that not only will this be the basis of computer intelligence, but it is also an explanation of how human intelligence works. Andrew Moore at Carnegie Mellon University once remarked that "The only proper use of the word 'agent' is when preceded by the words 'travel', 'secret', or 'double'."</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Has Ai Accomplished?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Quite a bit, actually. In 'Computing machinery and intelligence.', Alan Turing, one of the founders of computer science, made the claim that by the year 2000, computers would be able to pass the Turing test at a reasonably sophisticated level, in particular, that the average interrogator would not be able to identify the computer correctly more than 70 per cent of the time after a five minute conversation. AI hasn't quite lived upto Turing's claims, but quite a bit of progress has been made, including:</p>
+<ul>
+<li>Deployed speech dialog systems by firms like IBM, Dragon and Lernout &amp; Hauspie</li>
+<li>Financial software, which is used by banks to scan credit card transactions for unusual patterns that might signal fraud. One piece of software is estimated to save banks $500 million annually. </li>
+<li>Applications of expert systems/case-based reasoning: a computerized Leukemia diagnosis system did a better job checking for blood disorders than human experts.</li>
+<li>Machine translation for Environment Canada: software developed in the 1970s translated natural language weather forecasts between English and French. Purportedly stil in use.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Branches Of Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are many, some are 'problems' and some are 'techniques'.</p>
+<p><strong>Automatic Programming: </strong>The task of describing what a program should do and having the AI system 'write' the program.</p>
+<p><strong>Bayesian Networks:</strong> A technique of structuring and conferencing with probabilistic information. (Part of the "machine learning" problem).</p>
+<p><strong>Constraint Satisfaction:</strong> solving NP-complete problems, using a variety of techniques.</p>
+<p><strong>Knowledge Engineering/Representation:</strong> turning what we know about particular domain into a form in which a computer can understand it.</p>
+<p><strong>Machine Learning:</strong> Programs that learn from experience or data.</p>
+<p><strong>Natural Language Processing(NLP):</strong> Processing and (perhaps) understanding human ("natural") language. Also known as computational linguistics.</p>
+<p><strong>Neural Networks(NN):</strong> The study of programs that function in a manner similar to how animal brains do.</p>
+<p><strong>Planning: </strong>given a set of actions, a goal state, and a present state, decide which actions must be taken so that the present state is turned into the goal state</p>
+<p><strong>Robotics:</strong> The intersection of AI and robotics, this field tries to get (usually mobile) robots to act intelligently.</p>
+<p><strong>Speech Recognition:</strong> Conversion of speech into text.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are Good Programming Languages For Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This topic can be somewhat sensitive, so I'll probably tread on a few toes, please forgive me. There is no authoritative answer for this question, as it really depends on what languages you like programming in. AI programs have been written in just about every language ever created. The most common seem to be Lisp, Prolog, C/C++, recently Java, and even more recently, Python.</p>
+<p><strong>LISP:</strong> For many years, AI was done as research in universities and laboratories, thus fast prototyping was favored over fast execution. This is one reason why AI has favored high-level languages such as Lisp. This tradition means that current AI Lisp programmers can draw on many resources from the community. Features of the language that are good for AI programming include: garbage collection, dynamic typing, functions as data, uniform syntax, interactive environment, and extensibility. Read Paul Graham's essay, "Beating the Averages" for a discussion of some serious advantages:</p>
+<p><strong>PROLOG:</strong> This language wins 'cool idea' competition. It wasn't until the 70s that people began to realize that a set of logical statements plus a general theorem prover could make up a program. Prolog combines the high-level and traditional advantages of Lisp with a built-in unifier, which is particularly useful in AI. Prolog seems to be good for problems in which logic is intimately involved, or whose solutions have a succinct logical characterization. Its major drawback (IMHO)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is The Difference Between Classical Ai And Statistical Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Statistical AI, arising from machine learning, tends to be more concerned with "inductive" thought: given a set of patterns, induce the trend. Classical AI, on the other hand, is more concerned with "deductive" thought: given a set of constraints, deduce a conclusion. Another difference, as mentioned in the previous question, is that C++ tends to be a favorite language for statistical AI while LISP dominates in classical AI.</p>
+<p>A system can't be truly intelligent without displaying properties of both inductive and deductive thought. This lends many to believe that in the end, there will be some kind of synthesis of statistical and classical AI.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Are Best Graduate Schools For Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The short answer is: MIT, CMU, and Stanford are historically the powerhouses of AI and still are the top 3 today.</p>
+<p>There are however, hundreds of schools all over the world with at least one or two active researchers doing interesting work in AI. What is most important in graduate school is finding an advisor who is doing something YOU are interested in. Read about what's going on in the field and then identify the the people in the field that are doing that research you find most interesting. If a professor and his students are publishing frequently, then that should be a place to consider.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are Partial, Alternate, Artificial, Compound And Natural Key?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a set of attributes that can uniquely identify weak entities and that are related to same owner entity. It is sometime called as Discriminator.</p>
+<p><strong>Alternate Key:</strong></p>
+<p>All Candidate Keys excluding the Primary Key are known as Alternate Keys.</p>
+<p><strong>Artificial Key:</strong></p>
+<p>If no obvious key, either stand alone or compound is available, then the last resort is to simply create a key, by assigning a unique number to each record or occurrence. Then this is known as developing an artificial key.</p>
+<p><strong>Compound Key:</strong></p>
+<p>If no single data element uniquely identifies occurrences within a construct, then combining multiple elements to create a unique identifier for the construct is known as creating a compound key.</p>
+<p><strong>Natural Key:</strong></p>
+<p>When one of the data elements stored within a construct is utilized as the primary key, then it is called the natural key.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Where Can I Find Conference Information?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Georg Thimm maintains a webpage that lets you search for upcoming or past conferences in a variety of AI disciplines.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is A Chatterbot?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>chatterbot is a game</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Where To Find Specific Information On Search Bots?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Check out ALICE and ELIZA bots are very good ...and we can get more info on how to build in respective websites</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Suppose I Have Gmail Account, I Want To Delete All The Mails In My Inbox Having The Same Name(for Eg., Orkut). I Have Thousands Of Mails Like That. So, How Can I Delete All The Mails Having Single Name. Is There Any Option Provided In Gmail?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, its very easy ...just do one thing ..in the top of the Inbox page there is a search box just search whatever you want to delete then click .. after few sec all the mail with concerned name get displayed .. just select them and delete them .. as you delete your spam or other mails..</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Do Bots And Intelligent Agents Have Personalities And Emotions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>IA is used to develop bots... and moreover how u program it  is very important.It uses NL and ML also.If a person uses  proper ontology then it can answer out.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. 2 Batsman Are On 94 Notout,need To Win 7 Runs Off 2 Balls,both Hit A Century? How It Is Possible?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>First batsman hit 4 on no ball and then took a single on next ball. Thus completed his century. Second batsman hit 6 on last ball and completed his century too.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Suppose 2 Batsmen Each On 94. 7 Runs To Win In 3 Balls. Both Make Unbeaten 100. How?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Case 1:</strong> A batsman can be given out  1st batsman hits a six....gets caught on d nxt ball...crease is changed....next batsman hits a six again...</p>
+<p><strong>Case 2:</strong> No batsman is out</p>
+<p>1st batsman hits d ball n hits d keepers helmet kept behind...he also takes a single...6 runs are added to his total making it 100...on d next ball, 2nd batsman hits a six,making his score 100....as simple as dat....</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are The Undesirable Properties Of Knowledge?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Following are the undesirable properties of knowledge:</p>
+<ol type="a">
+<li>Voluminous: Knowledge may become voluminous</li>
+<li>Difficult to characterize: It is difficult to characterize the knowledge accurately</li>
+<li>Variability: Knowledge has a property that it may change over the time</li>
+<li>Variation in usage: Knowledge may be used in some other way than the way in which data is organized</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Should Knowledge Be Represented To Be Used For An Ai Technique?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Following are the requirements for knowledge to be used for an AI technique:</p>
+<ol type="a">
+<li>When two individual situations are represented, knowledge should provide generalization such that only common properties of both situations are represented rather than representing both situations individually</li>
+<li>Knowledge should be represented such that it should be understood by the people who have provided it</li>
+<li>Knowledge should be represented in a way that it can be easily modified</li>
+<li>Knowledge should be represented such that it should still be applicable to one or more situations even if it is inaccurate or incomplete</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How Many Types Of Entities Are There In Knowledge Representation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two types of entities in knowledge representation:</p>
+<ol type="a">
+<li>Facts: These are truths that need to be represented</li>
+<li>Symbols: It is a form of representation of facts and it is manipulated by the programs to derive new facts</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are The Properties Of A Good Knowledge Representation System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A good knowledge representation system must have following properties:</p>
+<ol type="a">
+<li>Representation Adequacy: It must be able to represent all knowledge required in a particular domain</li>
+<li>Inferential Adequacy: It must be able to derive knowledge representation structures such as symbols when new knowledge is inferred from old knowledge</li>
+<li>Inferential Efficiency: It must be able to incorporate additional information into knowledge structures which may help inference process to move in promising direction</li>
+<li>Acquisitional Efficiency: It must be able to incorporate new information</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Are The Techniques To Represent Knowledge?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are four techniques to represent knowledge:</p>
+<ol type="a">
+<li>Relational knowledge: In this representation, knowledge is represented as a set of relations, similar to relations that are used in the database</li>
+<li>Inheritable knowledge: In this representation, knowledge is represented using objects, their attributes and the values of the attributes</li>
+<li>Inferential knowledge: In this representation, knowledge is represented in the form of first-order predicate logic</li>
+<li>Procedural knowledge: In this representation, knowledge is represented as a set of rules and a rule describes an action to be performed when a condition is met</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Relational Knowledge?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a knowledge representation scheme in which facts are represented as a set of relations. For example knowledge about players can be represented using a relation called “player” having three fields: player name, height and weight. This form of knowledge representation provides weak inferential capabilities when used as standalone but are useful as an input for sophisticated inferential procedures.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Inheritable Knowledge?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a knowledge representation scheme in which knowledge is represented using objects, their attributes and corresponding value of the attributes. The relation between different objects is defined using a “isa” property. For example if two entities “Adult male” and “Person” are represented as objects then the relation between the two is that Adult male “isa” person.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Artificial Intelligence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Artificial Intelligence is an area of computer science that emphasizes the creation of intelligent machine that work and reacts like humans.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is An Artificial Intelligence Neural Networks?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Artificial intelligence Neural Networks can model mathematically the way biological brain works, allowing the machine to think and learn the same way the humans do- making them capable of recognizing things like speech, objects and animals like we do.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Are The Various Areas Where Ai (artificial Intelligence) Can Be Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Artificial Intelligence can be used in many areas like Computing, Speech recognition, Bio-informatics, Humanoid robot, Computer software, Space and Aeronautics’s etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Which Is Not Commonly Used Programming Language For Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Perl language is not commonly used programming language for AI</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Give An Explanation On The Difference Between Strong Ai And Weak Ai?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Strong AI makes strong claims that computers can be made to think on a level equal to humans while weak AI simply predicts that some features that are resembling to human intelligence can be incorporated to computer to make it more useful tools.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Alternate, Artificial, Compound And Natural Key?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Alternate Key:  Excluding primary keys all candidate keys are known as Alternate Keys.<br/>Artificial Key: If no obvious key either stands alone or compound is available, then the last resort is to, simply create a key, by assigning a number to each record or occurrence.  This is known as artificial key.<br/>Compound Key:  When there is no single data element that uniquely defines the occurrence within a construct, then integrating multiple elements to create a unique identifier for the construct is known as Compound Key.<br/>Natural Key:  Natural key is one of the data element that is stored within a construct, and which is utilized as the primary key.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Does A Production Rule Consist Of?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The production rule comprises of a set of rule and a sequence of steps.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Which Search Method Takes Less Memory?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The “depth first search” method takes less memory.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Agent In Artificial Intelligence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Anything perceives its environment by sensors and acts upon an environment by effectors are known as Agent. Agent includes Robots, Programs, and Humans etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Does Partial Order Or Planning Involve?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In partial order planning , rather than searching over possible situation it involves searching over the space of possible plans.  The idea is to construct a plan piece by piece.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Are The Two Different Kinds Of Steps That We Can Take In Constructing A Plan?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>a)      Add an operator (action)<br/>b)      Add an ordering constraint between operators</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Which Property Is Considered As Not A Desirable Property Of A Logical Rule-based System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>“Attachment” is considered as not a desirable property of a logical rule based system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is Neural Network In Artificial Intelligence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In artificial intelligence, neural network is an emulation of a biological neural system, which receives the data, process the data and gives the output based on the algorithm and empirical data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is A Heuristic Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A heuristic function ranks alternatives, in search algorithms, at each branching step based on the available information to decide which branch to follow.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is A Top-down Parser?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A top-down parser begins by hypothesizing a sentence and successively predicting lower level constituents until individual pre-terminal symbols are written.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Mention The Difference Between Breadth First Search And Best First Search In Artificial Intelligence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>These are the two strategies which are quite similar. In best first search, we expand the nodes in accordance with the evaluation function. While, in breadth first search a node is expanded in accordance to the cost function of the parent node.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Are Frames And Scripts In “artificial Intelligence”?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Frames are a variant of semantic networks which is one of the popular ways of presenting non-procedural knowledge in an expert system. A frame which is an artificial data structure is used to divide knowledge into substructure by representing “stereotyped situations’. Scripts are similar to frames, except the values that fill the slots must be ordered.  Scripts are used in natural language understanding systems to organize a knowledge base in terms of the situation that the system should understand.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. In ‘artificial Intelligence’ Where You Can Use The Bayes Rule?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Artificial Intelligence to answer the probabilistic queries conditioned on one piece of evidence, Bayes rule can be used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. While Creating Bayesian Network What Is The Consequence Between A Node And Its Predecessors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While creating Bayesian Network, the consequence between a node and its predecessors is that a node can be conditionally independent of its predecessors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. To Answer Any Query How The Bayesian Network Can Be Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If a Bayesian Network is a representative of the joint distribution, then by summing all the relevant joint entries, it can solve any query.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Combines Inductive Methods With The Power Of First Order Representations?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inductive logic programming combines inductive methods with the power of first order representations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. In Speech Recognition What Kind Of Signal Is Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In speech recognition, Acoustic signal is used to identify a sequence of words.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. In Speech Recognition Which Model Gives The Probability Of Each Word Following Each Word?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Biagram model gives the probability of each word following each other word in speech recognition.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. In Hmm, Where Does The Additional Variable Is Added?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While staying within the HMM network, the additional state variables can be added to a temporal model.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. In Artificial Intelligence, What Do Semantic Analysis Used For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Artificial Intelligence, to extract the meaning from the group of sentences semantic analysis is used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Is Meant By Compositional Semantics?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of determining the meaning of P*Q from P,Q and* is known as Compositional Semantics.</p></p>
+</li><br><br>

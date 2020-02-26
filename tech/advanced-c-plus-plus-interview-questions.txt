@@ -1,0 +1,155 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. How To Initialize Constant And Reference Member Variable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Using initialization list.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Constant In A Const Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Variable 'this'.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is The Issue In The Following Program?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><span style="color: #333333; font-family: 'Open Sans', sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"> #include &lt;iostream&gt;</span>     </p>
+<p>     int main(int argc, char **argv)</p>
+<p>     {</p>
+<p>         const int &amp; r1 = 100;</p>
+<p>         int v = 200;</p>
+<p>         int &amp;r2 = v;</p>
+<p>         int &amp; r3 = 200;</p>
+<p>         return 0;</p>
+<p>    }</p>
+<p> Issue is in the initialization of r3 at line 8, rvalue should be a variable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Can The Destructor Be Pure Virtual Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, but you still have to define it!</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is The Memory Structure Of An Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Usually C++ objects are made by concatenating member variables.</p>
+<p>For example;</p>
+<p>     class Test</p>
+<p>     {</p>
+<p>      int i;</p>
+<p>      float j;</p>
+<p>     };</p>
+<p>is represented by an int  followed by a float.</p>
+<p>     class TestSub: public Test</p>
+<p>     {</p>
+<p>      int k;</p>
+<p>     };</p>
+<p>The above class is represented by Test and then an int(for int k). So finally it will be int,  float and int.</p>
+<p>In addition to this each object will have the vptr(virtual pointer) if the class has virtual function, usually as the first element in a class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is The Difference Between Std::vector&lt;int&gt; X; And Std::vector&lt;int&gt; X();?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>First one declares a variable x of type std::vector&lt;int&gt;. Second one declares a function x which returns std::vector&lt;int&gt;.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is A Default Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li> A constructor which takes no argument</li>
+<li> A constructor which has argument(s) but is(are) with default value</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Can I Use This Pointer In The Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, but try to avoid calling virtual function from the constructor and passing this pointer from the initialization list to other classes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Does Friends Are Inherited?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Difference Between Calling Just Throw And Throw With An Object In A Catch Block?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A copy of the object is created if we throw with an object. With just throw, no copy is created.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is A Possible Replacement For C Static Function In C++?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Unnamed namespaces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is The Size Of An Empty Class, Or Class With Only Normal Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not zero, 1 for most compilers. The reason for this is to have different address for different object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is The Size Of Class With Only Virtual Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>4 with most of the compilers for a 32bit binary.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How To Declare A Namespace Alias?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p> namespace MyLongNameSpaceName</p>
+<p>{</p>
+<p>...</p>
+<p>}</p>
+<p>namespace MLNSN = MyLongNameSpaceName;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How To Declare C Function In C++?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By using extern "C".</p>
+<p>extern "C" void print();</p>
+<p>or </p>
+<p>extern "C" { </p>
+<p>    void print();</p>
+<p>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is The Difference Between Exit And Abort?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>exit does a graceful process termination, it calls the destructors for all the constructed objects, with abort they are not called.</p>
+<p>With exit the local With variables of the calling function and its callers will not have their destructors invoked.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Can I Have Static Members In An Union?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Can I Overload Destructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Can I Call Destructor Explicitly?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, but you only want to do that when you have used placement new.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Where Virtual Inheritance Should Be Used In A Hierarchy?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If we have a diamond class hierarchy we should use the virtual inheritance just below the top of the diamond.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. How Do You Link A C++ Program To C Functions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By using the extern "C" linkage specification around the C function declarations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Explain The Scope Resolution Operator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It permits a program to reference an identifier in the global scope that has been hidden by another identifier with the same name in the local scope.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Are The Differences Between A C++ Struct And C++ Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The default member and base-class access specifiers are different.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How Many Ways Are There To Initialize An Int With A Constant?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Two. There are two formats for initializers in C++ as shown in the example that follows.</p>
+<p>The first format uses the traditional C notation.</p>
+<p>The second format uses constructor notation.</p>
+<p>int foo = 123;</p>
+<p>int bar (123);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How Does Throwing And Catching Exceptions Differ From Using Setjmp And Longjmp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The throw operation calls the destructors for automatic objects instantiated since entry to the try block.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is Your Reaction To This Line Of Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It’s not a good practice.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is A Conversion Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A constructor that accepts one argument of a different type.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is The Difference Between A Copy Constructor And An Overloaded Assignment Operator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A copy constructor constructs a new object by using the content of the argument object. An overloaded assignment operator assigns the contents of an existing object to another existing object of the same class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. When Should You Use Multiple Inheritance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are three acceptable answers: "Never," "Rarely," and "When the problem domain cannot be accurately modeled any other way."</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is A Virtual Destructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The simple answer is that a virtual destructor is one that is declared with the virtual attribute.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Explain The Isa And Hasa Class Relationships. How Would You Implement Each In A Class Design?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A specialized class "is" a specialization of another class and, therefore, has the ISA relationship with the other class. An Employee ISA Person. This relationship is best implemented with inheritance. Employee is derived from Person. A class may have an instance of another class. For example, an employee "has" a salary, therefore the Employee class has the HASA relationship with the Salary class. This relationship is best implemented by embedding an object of the Salary class in the Employee class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. When Is A Template A Better Solution Than A Base Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When you are designing a generic class to contain or otherwise manage objects of other types, when the format and behavior of those other types are unimportant to their containment or management, and particularly when those other types are unknown (thus, the genericity) to the designer of the container or manager class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is A Mutable Member?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>One that can be modified by the class even when the object of the class or the member function doing the modification is const.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is An Explicit Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A conversion constructor declared with the explicit keyword. The compiler does not use an explicit constructor to implement an implied conversion of types. It’s purpose is reserved explicitly for construction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is The Standard Template Library?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A library of container templates approved by the ANSI committee for inclusion in the standard C++ specification.</p>
+<p>A programmer who then launches into a discussion of the generic programming model, iterators, allocators, algorithms, and such, has a higher than average understanding of the new technology that STL brings to C++ programming.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Describe Run-time Type Identification.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The ability to determine at run time the type of an object by using the typeid operator or the dynamic_cast operator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Problem Does The Namespace Feature Solve?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Multiple providers of libraries might use common global identifiers causing a name collision when an application tries to link with two or more such libraries. The namespace feature surrounds a library’s external declarations with a unique namespace that eliminates the potential for those collisions. This solution assumes that two library vendors don’t use the same namespace identifier, of course.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Are There Any New Intrinsic (built-in) Data Types?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. The ANSI committee added the bool intrinsic type and its true and false value keywords.</p></p>
+</li><br><br>

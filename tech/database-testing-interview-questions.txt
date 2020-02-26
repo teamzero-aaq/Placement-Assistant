@@ -1,0 +1,198 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Data-base Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data base testing is segmented into four different categories.</p>
+<ul>
+<li>Testing of Data Integrity</li>
+<li>Testing of Data Validity</li>
+<li>Data base related performance</li>
+<li>Testing of functions, procedure and triggers</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. In Database Testing, What Do We Need To Check Normally?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Normally, the things that we check in database testing are:</p>
+<ul>
+<li>Constraint Check</li>
+<li>Validation of a Field size</li>
+<li>Stored procedure</li>
+<li>Matching application field size to database</li>
+<li>Indexes for performance based issues</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Explain What Is Data Driven Test?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a data-table, to test the multi numbers of data, data-driven test is used. By using this it can easily replace the parameters at the same time from different locations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are Joins And Mention Different Types Of Joins?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Join is used to display two or more than two table and the types of joins are:</p>
+<ul>
+<li>Natural Join</li>
+<li>Inner Join</li>
+<li>Outer Join</li>
+<li>Cross Join</li>
+</ul>
+<p>The outer join is divided again in two:</p>
+<ul>
+<li>Left outer join</li>
+<li>Right outer join</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are Indexes And Mention Different Types Of Indexes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Indexes are database objects and they are created on columns. To fetch data quickly they are frequently accessed. Different types of indexes are:</p>
+<ul>
+<li>B-Tree index</li>
+<li>Bitmap index</li>
+<li>Clustered index</li>
+<li>Covering index</li>
+<li>Non-unique index</li>
+<li>Unique index</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. While Testing Stored Procedures What Are The Steps Does A Tester Takes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The tester will check the standard format of the stored procedures and also it checks the fields are correct like updates, joins, indexes, deletions as mentioned in the stored procedure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. How Would You Know For Database Testing, Whether Trigger Is Fired Or Not?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>On querying the common audit log you would know, whether, a trigger is fired or not. It is in audit log where you can see the triggers fired.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. In Data Base Testing, What Are The Steps To Test Data Loading?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Following steps need to follow to test data loading</p>
+<ul>
+<li>Source data should be known</li>
+<li>Target data should be known</li>
+<li>Compatibility of source and target should be checked</li>
+<li>In SQL Enterprise manager, run the DTS package after opening the corresponding DTS package</li>
+<li>You have to compare the columns of target and data source</li>
+<li>Number of rows of target and source should be checked</li>
+<li>After updating data in the source, check whether the changes appears in the target or not.</li>
+<li>Check NULLs and junk characters</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Without Using Database Checkpoints, How You Test A Sql Query In Qtp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By writing scripting procedure in VBScript, we can connect to database and can test the queries and database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Explain How To Use Sql Queries In Qtp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In QTP using output database check point and database check, you have to select the SQL manual queries option. After selecting the manual queries option, enter the "select" queries to fetch the data in the database and then compare the expected and actual.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is The Way Of Writing Test Cases For Database Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Writing a testcases is like functional testing. First you have to know the functional requirement of the application. Then you have to decide the parameters for writing testcases like</p>
+<ul>
+<li>Objective: Write the objective that you would like to test</li>
+<li>Input method: Write the method of action or input you want to execute</li>
+<li>Expected: how it should appear in the database</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. To Manage And Manipulate The Test Table What Are The Sql Statements That You Have Used In Database Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The statements like SELECT, INSERT, UPDATE, DELETE are used to manipulate the table, while ALTER TABLE, CREATE TABLE and DELETE TABLE are used to manage table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How To Test Database Procedures And Triggers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To test database procedures and triggers, input and output parameters must be known. EXEC statement can be used to run the procedure and examine the behaviour of the tables.</p>
+<ul>
+<li>Open the database project in solution explorer</li>
+<li>Now in View menu, click the database schema</li>
+<li>Open the project folder from schema View menu</li>
+<li>Right click on the object that has to be tested, and then click on the dialog box that says Create Unit Tests</li>
+<li>After that create a new language test project</li>
+<li>Select either a) Insert the unit test or b) Create a new test and then click OK</li>
+<li>Project that has to be configured will be done by clicking on the Project Configuration dialog box.</li>
+<li>Once it configured click on OK</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How You Can Write Testcases From Requirements And Do The Requirements Represents Exact Functionality Of Aut (application Under Test)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To write a testcases from requirements, you need to analyse the requirements thoroughly in terms of functionality. Thereafter you think about the appropriate testcases design techniques like Equivalence partitioning, Black box design, Cause effect graphing etc. for writing the testcases.Yes, the requirements represent exact functionality of AUT.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are Dcl Commands? What Are The Two Types Of Commands Used By Dcl?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DCL stands for Data Control Language, it is used to control data.<br/>The two types of DCL Commands are:<br/><strong>Grant:</strong> By using this command user can access privilege to database<br/><strong>Revoke:</strong> By using this command user cannot access the database</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is White Box Testing And Black Box Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Black box testing means testing the software for the outputs on giving particular inputs. This testing is usually performed to see if the software meets the user's requirements. There is no specific functional output expected for running this test.</p>
+<p>The white box testing is done to check the accuracy of code and logic of the program. This testing is done by the programmer who knows the logical flow of the system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How Does Qtp Evaluate Test Results?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Once the testing is done, QTP will generate a report. This report will show the checkpoints, system message and error that were detected while testing. The test results window will show any mismatches encountered at the checkpoints.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Explain The Qtp Testing Process?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>QTP testing process is based on following steps:<br/>Creating GUI (Graphical User Interface) Map files : </p>
+<ul>
+<li>Identifies the GUI object which has to be tested</li>
+<li>Creating test scripts: Test scripts are recorded</li>
+<li>Debug tests: Test should be debugged</li>
+<li>Run tests: Testcases should be run.</li>
+<li>View results: The results reflects the success or failure of the tests</li>
+<li>Report detects: If the test is failed, the reasons will be recorded in the report detect file</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Load Testing And Give Some Examples Of It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To measure the system response, load testing is done. If the load exceeds the users pattern it is known as stress testing. Examples of load testing are downloading the set of large files, executing multiple applications on a single computer, subjecting a server to large number of e-mails and allotting many tasks to a printer one after another.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How To Test Database Manually?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Testing the database manually involves checking the data at the back end and to see whether the addition of data in front end is affecting the back end or not, and same for delete, update, insert etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Rdbms Stands For And What Are The Important Rdmbs That Sql Use?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RDBMS stands for Relational Database Management Systems that use SQL, and the important RDBMS that SQL uses are Sybase, Oracle, Access ,Ingres, Microsoft SQL server etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Performance Testing And What Are The Bottlenecks Of Performance Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Performance testing determines the speed of the computer system performance. It includes the quantitative tests like response time measurement. The problem in performance testing is that you always need a well-trained and experienced man power also the tools you use are expensive.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Ddl And What Are Their Commands?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To define database structure, DDL is used. DDL stands for Data Definition Language. The various DDL commands include Create, Truncate, Drop, Alter, Comment and Rename.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Does The Rdbms Stands For And What Are The Major Rdbms Used By Sql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RDBMS stands for Relational Database Management Systems. Major RDBMS that are involved with SQL are Sybase, Oracle, Access, Ingres, Microsoft SQL server etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Performance Testing And The Bottlenecks Of It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Performance testing is a software testing technique to determine that how a system performance in terms of speed, sensitivity and stability under a heavy workload.<br/>The performance testing requires expensive tools and well-trained and experienced testers for operation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is Cmmi And Describe Different Levels Of Cmm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CMMI stands for Capability Maturity Model Integration is a process development training and evaluation model of various business processes in software engineering.</p>
+<p>Five CMM Maturity levels for an organization are:</p>
+<p>1) Initial: At this level, organizations don’t have any verified technique and environment, so that; usually organizations budget and schedule time go over.<br/>2) Repeatable: At this level, organizations have basic techniques and guidelines to limit the cost and schedule time, capable in repeating the same in the next similar project.<br/>3) Defined: At this level, all techniques are well organized and explained clear and standard form.<br/>4) Managed: At this level, organizations are much more developed than Defined level. Here, techniques are contacted using statistical and other quantitive technique.<br/>5) Optimizing: Organizations determinedly attempt to develop performance via modern technical progress.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is The Meaning Of Record In A Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In database, a record is the set of values/fields of a specific entity. <br/>For example; Office_Employee Record, Book Record etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How To Write Test Cases From Requirements, Do The Requirements Signify The Exact Functionality Of Aut?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, the requirements should signify the exact functionality of AUT.</p>
+<p><strong>To do so:</strong></p>
+<ul>
+<li>First examine the requirement to understand overall functionality.</li>
+<li>Next, decide which test design methods are suitable to write test case – Black Box test design methods like; Equivalence Partitioning, Boundary Value Analysis, Error Guessing and Cause Effect Graphing.</li>
+<li>Once you decide which test design method is suitable, write your test cases in requirement analysis and design phase. In this way you will be ensure that all the requirements are testable.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is The Test Scenario To Test A Database Migrated From One Sql Server To Another?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>First of all, we need to check what all enhancements and changes happened to the SQL Server where we are planning to migrate.<br/>Next, design the test case according to the following consideration:</p>
+<ul>
+<li>Data type that has been used.</li>
+<li>Length of the data field of SQL Server (Server into which we are migrating the data) should be same as the SQL Server from where we are taking out the data.</li>
+<li>Each and every task should be organized correctly.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. In Database Testing, What All Things Are Required For Writing Good Test Cases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Knowledge of following things is required before writing the database test cases:</p>
+<ul>
+<li>At first, understand the application completely and functional requirement of the application.</li>
+<li>Second, check-out other entities that have been used in an application; back-end database tables, joins between the tables, cursors (if any), triggers (if any), stored procedures (if any), input parameter and output parameters for developing that requirement.</li>
+<li>After collecting all necessary information, write down the test case with different input values for examining all the resources.</li>
+<li>Writing test cases for back end testing is opposite to functional testing, one should use the white box testing technique.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is Retesting &amp; How It Is Different From Data Driven Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>After execution of the test in terms of finding the defect that has been already detected and fixed. Re-execution of the same test with different input values to confirm the original defect has been successfully removed is called Re-testing or confirmation Testing.</p>
+<p>Retesting is also called Data Driven Testing, but the difference between both is,</p>
+<p><strong>Retesting:-</strong> It is a manual testing process whereas application testing done with entire new set of data.</p>
+<p><strong>DataDriven Testing(DDT):-</strong>It is an Automation testing process where application will be tested with multiple test data.It is simple and easy than retesting where tester just sit in front of system and enter different new input valuesmanually from front-end interface, it is really boring technique.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Is A “a Fast Database Retrieval Rate” A Testable Requirement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. I don’t think so because the requirement appears to be unclear. The SRS should clearly display the performance or transaction requirements, i.e. It should mention like; “Database retrieval rate of 5 microseconds”.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. In Database Testing, How To Do The Data Load Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>For data load testing:</strong></p>
+<ul>
+<li>You need to have knowledge about source database (data tables, columns, associated constraints, data types) and destination database (data tables, columns, data types, and constraints).</li>
+<li>You need to check the compatibility between source database and destination database via the DTS package.</li>
+<li>You need to Open corresponding DTS package in SQL Enterprise Manager and run the DTS package (If you are using SQL Server).</li>
+<li>Then you need to compare the column’s data of Source and the Target.</li>
+<li>You have to check the number to rows of Source and Target.</li>
+<li>After updating data in the Source database, you need to check whether the changes have been reflected on destination database or not.</li>
+<li>You need to check about junk character and NULLs.</li>
+<li>Database load testing, check the volume of the database server to process the queries, and also check the response time of database server and client.</li>
+</ul></p>
+</li><br><br>

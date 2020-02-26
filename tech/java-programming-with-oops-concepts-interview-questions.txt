@@ -1,0 +1,155 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is An Abstract Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Abstract class is a class that has no instances. An abstract class is written with the expectation that its concrete subclasses will add to its structure and behavior, typically by implementing its abstract operations.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is A Destructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Destructor is an operation that frees the state of an object and/or destroys the object itself. In Java, there is no concept of destructors. It’s taken care by the JVM.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is A Subclass?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Subclass is a class that inherits from one or more classes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is A Superclass?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Superclass is a class from which another class inherits.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is An Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Object is an instance of a class. It has state, behaviour and identity. It is also called as an instance of a class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Collaboration?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Collaboration is a process whereby several objects cooperate to provide some higher level behavior.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Meant By Binding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Binding denotes association of a name with a class</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Meant By Dynamic Binding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Dynamic binding is a binding in which the class association is not made until the object is created at execution time. It is also called as late binding.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Meant By Encapsulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Encapsulation is the process of compartmentalizing the elements of an abstraction that defines the structure and behavior. Encapsulation helps to separate the contractual interface of an abstraction and implementation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Meant By Inheritance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Inheritance is a relationship among classes, wherein one class shares the structure or behavior defined in another class. This is called Single Inheritance. If a class shares the structure or behavior from multiple classes, then it is called Multiple Inheritance. Inheritance defines “is-a” hierarchy among classes in which one subclass inherits from one or more generalized superclasses.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Meant By Object Oriented Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>OOP is a method of programming in which programs are organized as cooperative collections of objects. Each object is an instance of a class and each class belong to a hierarchy.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Meant By Persistence?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Persistence is the property of an object by which its existence transcends space and time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Meant By Polymorphism?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Polymorphism literally means taking more than one form. Polymorphism is a characteristic of being able to assign a different behavior or value in a subclass, to something that was declared in a parent class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Meant By Abstraction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Abstraction defines the essential characteristics of an object that distinguish it from all other kinds of objects. Abstraction provides crisply-defined conceptual boundaries relative to the perspective of the viewer. It’s the process of focusing on the essential characteristics of an object. Abstraction is one of the fundamental elements of the object model.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Meant By Static Binding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Static binding is a binding in which the class association is made during compile time. This is also called as early binding.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Multiple Inheritance And Does Java Support?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If a child class inherits the property from multiple classes is known as multiple inheritance. Java does not allow to extend multiple classes. The problem with with multiple inheritance is that if multiple parent classes has a same method name, the at runtime it becomes diffcult for compiler to decide which method to execute from the child class. To overcome this problem it allows to implement multiple Interfaces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is Association?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Association is a relationship where all object have their own lifecycle and there is no owner. Let's take an example of Teacher and Student. Multiple students can associate with single teacher and single student can associate with multiple teachers but there is no ownership between the objects and both have their own lifecycle. Both can create and delete independently.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Aggregation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Aggregation is a specialize form of Association where all object have their own lifecycle but there is ownership and child object can not belongs to another parent object. Let's take an example of Department and teacher. A single teacher can not belongs to multiple departments, but if we delete the department teacher object will not destroy. We can think about "has-a" relationship.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Composition?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Composition is again specialize form of Aggregation and we can call this as a "death" relationship. It is a strong type of Aggregation. Child object dose not have their lifecycle and if parent object deletes all child object will also be deleted. Let's take again an example of relationship between House and rooms. House can contain multiple rooms there is no independent life of room and any room can not belongs to two different house if we delete the house room will automatically delete.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Difference Between Polymorphism And Inheritance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Inheritance defines parent-child relationship between two classes, polymorphism take advantage of that relationship to add dynamic behaviour in your code.</li>
+<li>Inheritance helps in code reusability by allowing child class to inherit behavior from the parent class. On the other hand Polymorphism allows Child to redefine already defined behaviour inside parent class. Without Polymorphism it's not possible for a Child to execute its own behaviour while represented by a Parent reference variable, but with Polymorphism he can do that.</li>
+<li>Java doesn't allow multiple inheritance of classes, but allows multiple inheritance of Interface, which is actually require to implement Polymorphism. For example a Class can be Runnable, Comparator and Serializable at same time, because all three are interfaces. This makes them to pass around in code e.g. you can pass instance of this class to a method which accepts Serializable, or to Collections.sort() which accepts a Comparator.</li>
+<li>Both Polymorphism and Inheritance allow Object oriented programs to evolve. For example, by using Inheritance you can define new user types in an Authentication System and by using Polymorphism you can take advantage of already written authentication code. Since, Inheritance guarantees minimum base class behaviour, a method depending upon super class or super interface can still accept object of base class and can authenticate it.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. When Super Keyword Is Used?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the method overrides one of its superclass's methods, overridden method can be invoked through the use of the keyword super. It can be also used to refer to a hidden field.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Does Java Support Multiple Inheritance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, Java does not support multiple inheritance. Each class is able to extend only on one class, but is able to implement more than one interfaces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Differences Between Abstraction And Encapsulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Abstraction and encapsulation are complementary concepts. On the one hand, abstraction focuses on the behavior of an object. On the other hand, encapsulation focuses on the implementation of an object’s behavior. Encapsulation is usually achieved by hiding information about the internal state of an object and thus, can be seen as a strategy used in order to provide abstraction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Whatt Is Function Overriding And Overloading In Java ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Method overloading in Java occurs when two or more methods in the same class have the exact same name, but different parameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent class. Overridden methods must have the same name, argument list, and return type. The overriding method may not limit the access of the method it overrides.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is A Constructor, Constructor Overloading In Java And Copy-constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A constructor gets invoked when a new object is created. Every class has a constructor. In case the programmer does not provide a constructor for a class, the Java compiler (Javac) creates a default constructor for that class. The constructor overloading is similar to method overloading in Java. Different constructors can be created for a single class. Each constructor must have its own unique parameter list. Finally, Java does support copy constructors like C++, but the difference lies in the fact that Java doesn’t create a default copy constructor if you don’t write your own.</p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is The Difference Between An Interface And An Abstract Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Java provides and supports the creation both of abstract classes and interfaces. Both implementations share some common characteristics, but they differ in the following features:</p>
+<ul>
+<li>All methods in an interface are implicitly abstract. On the other hand, an abstract class may contain both abstract and non-abstract methods.</li>
+<li>A class may implement a number of Interfaces, but can extend only one abstract class.</li>
+<li>In order for a class to implement an interface, it must implement all its declared methods. However, a class may not implement all declared methods of an abstract class. Though, in this case, the sub-class must also be declared as abstract.</li>
+<li>Abstract classes can implement interfaces without even providing the implementation of interface methods.</li>
+<li>Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.</li>
+<li>Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.</li>
+<li>An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked if it contains a main method.</li>
+</ul>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Are Pass By Reference And Pass By Value?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it doesn’t affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Does The “static” Keyword Mean ? Can You Override Private Or Static Method In Java ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time. A static method is not associated with any instance of a class so the concept is not applicable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Can You Access Non Static Variable In Static Context?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A static variable in Java belongs to its class and its value remains the same for all its instances. A static variable is initialized when the class is loaded by the JVM. If your code tries to access a non-static variable, without any instance, the compiler will complain, because those variables are not created yet and they are not associated with any instance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Runtime Polymorphism?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.</li>
+<li>In this process, an overridden method is called through the reference variable of a super class. The determination of the method to be called is based on the object being referred to by the reference variable.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is The Difference Between Static Binding And Dynamic Binding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In case of static binding type of object is determined at compile time whereas in dynamic binding type of object is determined at runtime.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is Difference Between Object Oriented Programming Language And Object Based Programming Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Object based programming languages follow all the features of OOPs except Inheritance. Examples of object based programming languages are JavaScript, VBScript etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Will Be The Initial Value Of An Object Reference Which Is Defined As An Instance Variable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The object references are all initialized to null in Java.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Can We Override Static Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, you can't override the static method because they are the part of class not object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Why We Cannot Override Static Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is because the static method is the part of class and it is bound with class whereas instance method is bound with object and static gets memory in class area and instance gets memory in heap.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Difference Between Method Overloading And Overriding.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Method Overloading :</strong></p>
+<ul>
+<li>Method overloading increases the readability of the program.</li>
+<li>method overlaoding is occurs within the class.</li>
+<li>In this case, parameter must be different.</li>
+</ul>
+<p><strong>Method Overriding :</strong></p>
+<ul>
+<li>Method overriding provides the specific implementation of the method that is already provided by its super class.</li>
+<li>Method overriding occurs in two classes that have IS-A relationship.</li>
+<li>In this case, parameter must be same.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Can You Use Abstract And Final Both With A Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, because abstract method needs to be overridden whereas you can't override final method.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is Blank Or Uninitialized Final Variable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A final variable that is not initialized at the time of declaration is known as blank final variable.</p>
+<p>If you want to create a variable that is initialized at the time of creating object and once initialized may not be changed, it is useful. For example PAN CARD number of an employee. It can be initialized only in constructor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is Covariant Return Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The covariant return type specifies that the return type may vary in the same direction as the subclass.</p>
+<p>Before Java5, it was not possible to override any method by changing the return type. But now, since Java5, it is possible to override method by changing the return type if subclass overrides any method whose return type is Non-Primitive but it changes its return type to subclass type.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Can There Be Any Abstract Method Without Abstract Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, if there is any abstract method in a class, that class must be abstract.</p></p>
+</li><br><br>

@@ -1,0 +1,183 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is The Difference Between A Verilog Task And A Verilog Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The following rules distinguish tasks from functions:</strong></p>
+<ol>
+<li>A function shall execute in one simulation time unit; a task can contain time-controlling statements.</li>
+<li>A function cannot enable a task; a task can enable other tasks or functions.</li>
+<li>A function shall have at least one input type argument and shall not have an output or inout type argument;a task can have zero or more arguments of any type.</li>
+<li>A function shall return a single value; a task shall not return a value.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain The Differences Between "direct Mapped", "fully Associative", And "set Associative" Caches ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If each block has only one place it can appear in the cache, the cache is said to be direct mapped. The mapping is usually (block-frame address) modulo (number of blocks in cache).</p>
+<p>If a block can be placed anywhere in the cache, the cache is said to be fully associative.</p>
+<p>If a block can be placed in a restricted set of places in the cache, the cache is said to be set associative. A set is a group of two or more blocks in the cache. A block is first mapped onto a set, and then the block can be placed anywhere within the set. The set is usually chosen by bit selection; that is, (block-frame address) modulo (number of sets in cache). If there are n blocks in a set, the cache placement is called n-way set associative.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Electric Traction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Electric traction means using the electric power for traction system (i.e. for railways,trams, trolleys etc).</p>
+<p>Electric traction means use of the electricity for railways,trams, trolleys etc. Now a days, magnetic traction is also used for bullet trains.and basically dc motors are used for electric traction systems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Can You Start­up The 40w Tube Lite With 230v Ac/dc Without Using Any Choke/coil?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It’s possible by means of Electronic chokes,otherwise it’s not possible to ionize the particles in tube light with normal voltage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is “pu” In Electrical Engineering?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Pu stands for per unit and this will be used in single line diagram of power distribution and it is like a huge electrical circuit with no of components (generators, transformers, loads) with different ratings (in MVA and KV). To bring all the ratings into common platform we use pu concept in which, in general largest MVA and KV ratings of the component is considered as base values, then all other component ratings will get back into this basis.Those values are called as pu values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Operation Carried Out In Thermal Power Stations?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The water is obtained in the boiler and the coal is burnt so that steam is obtained this steam is allowed to hit the turbine , the turbine which is coupled with the generator generates the electricity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Why Link Is Provided In Neutral Of An Ac Circuit And Fuse In Phase Of Ac Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Link is provided at a Neutral common point in the circuit from which various connection are taken for the individual control circuit and so it is given in a link form to withstand high Amps. But in the case of Fuse in the Phase of AC circuit it is designed such that the fuse rating is calculated for the particular circuit (i.e load) only.So if any malfunction happen the fuse connected in the particular control circuit alone will blow off.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Tube Light Circuit Is Connected And How It Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A choke is connected in one end of the tube light and a starter is in series with the circuit. When supply is provided ,the starter will interrupt the supply cycle of AC. Due to the sudden change of supply the chock will generate around 1000volts . This volt will capable of to break the electrons inside the tube to make electron flow. once the current passes through the tube the starter circuit will be out of part. now there is no change of supply causes choke voltage normalized and act as minimize the current.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Marx Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used with generators for charging a number of capacitor in parallel and discharging them in series.It is used when voltage required for testing is higher than the available</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Encoder, How It Function?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An encoder is a device used to change a signal (such as a bitstream) or data into a code. The code may serve any of a number of purposes such as compressing information for transmission or storage, encrypting or adding redundancies to the input code, or translating from one code to another.</p>
+<p>This is usually done by means of a programmed algorithm,especially if any part is digital, while most analog encoding is done with analog circuitry.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Are The Advantages Of Speed Control Using Thyristor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Advantages :</strong></p>
+<ol>
+<li>Fast Switching Characterstics than Mosfet, BJT, IGBT.</li>
+<li>Low cost.</li>
+<li>Higher Accurate.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Why Human Body Feel Electric Shock ?? N In An electric Train During Running , We Did Nt Feel Any shock ? Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Unfortunately our body is a pretty good conductor of electricity, The golden rule is Current takes the lowest resistant path if you have insulation to our feet as the circuit is not complete (wearing rubber footwear which doing some repairs is advisable as our footwear is a high resistance path not much current flows through our body).The electric train is well insulated from its electrical system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is The Principle Of Motor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Whenever a current carrying conductor is placed in an magnetic field it produce turning or twisting movemnt is called as torque.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Why, When Birds Sit On Transmission Lines Or Current Wires Doesn’t Get Shock?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Its true that if birds touch the single one line (phase or neutral) they don’t get electrical shock… if birds touch 2 lines than the circuit is closed and they get electrical shock.. so if a human touch single one line(phase) then he doesn’t get shock if he is in the air (not touching – standing on the ground if he is standing on the ground then touching the line (phase) he will get a shock because the ground on what we standing is like line (ground bed – like neutral)? and in the most of electric lines the neutral is grounded..so that means that human who touch the line closes the circuit between phase and neutral.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Meant By Armature Reaction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The effect of armature flu to main flux is called armature reaction. The armature flux may support main flux or opposes main flux.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Happen If We Give 220 Volts Dc Supply To D Bulb R Tube Light?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bulbs [devices] for AC are designed to operate such that it offers high impedance to AC supply. Normally they have low resistance. When DC supply is applied, due to low resistance, the current through lamp would be so high that it may damage the bulb element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Which Motor Has High Starting Torque And Staring Current Dc Motor, Induction Motor Or Synchronous Motor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>DC Series motor has high starting torque. We can not start the Induction motor and Synchronous motors on load, but can not start the DC series motor without load.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Acsr Cable And Where We Use It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ACSR means Aluminium conductor steel reinforced, this conductor is used in transmission &amp; distribution.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Vaccum Currcuit Breaker.define With Cause And Where Be Use It Device?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A breaker is normally used to break a ciruit. while breaking the circuit, the contact terminals will be separated. At the time of seperation an air gap is formed in between the terminals. Due to existing current flow the air in the gap is ionised and results in the arc. various mediums are used to quench this arc in respective CB’s. but in VCB the medium is vaccum gas. since the air in the CB is having vaccum pressure the arc formation is interrupted. VCB’s can be used upto kv.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Will Happen When Power Factor Is Leading In Distribution Of Power?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If their is high power factor, i.e if the power factor is close to one:</p>
+<ol>
+<li>losses in form of heat will be reduced,</li>
+<li>cable becomes less bulky and easy to carry, and very cheap to afford, &amp;</li>
+<li>it also reduces over heating of tranformers.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The One Main Difference Between Ups &amp; Inverter ? And Electrical Engineering &amp; Electronics Engineering ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>uninterrupt power supply is mainly use for short time .means according to ups VA it gives backup.</p>
+<p><strong>ups is also two types :</strong></p>
+<ol>
+<li>on line.</li>
+<li>offline.</li>
+</ol>
+<p>online ups having high volt and amp for long time backup with with high dc voltage.but ups start with 2v dc with 7 amp. but inverter is startwith 2v,24,dc to 36v dc and 20amp to 80amp battery with long time backup. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is 2 Phase Motor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A two phase motor is a motor with the the starting winding and the running winding have a phase split.</p>
+<p>e.g;ac servo motor.where the auxiliary winding and the control winding have a phase split of 90 degree.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Power Factor? Whether It Should Be High Or Low? Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Power factor should be high in order to get smooth operation of the system.Low power factor means losses will be more.it is the ratio of true power to apparent power. it has to be ideally 1. if it is too low then cable over heating &amp; equipment overloading will occur.</p>
+<p>if it is greater than 1 then load will act as capacitor and starts feeding the source and will cause tripping.(if pf is poor ex: 0.17 to meet actual power load has to draw more current(V constant),result in more losses if pf is good.</p>
+<p>ex: 0.95 to meet actual power load has to draw less current(V constant),result in less losses).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. There Are A Transformer And An Induction Machine. Those Two Have The Same Supply. For Which Device The Load Current Will Be Maximum? And Why?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The motor has max load current compare to that of transformer because the motor consumes real power.. and the transformer is only producing the working flux and its not consuming.. hence the load current in the transformer is because of core loss so it is minimum.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Explain The Working Principal Of The Circuit Breaker?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Circuit Breaker is one which makes or breaks the circuit.It has two contacts namely fixed contact &amp; moving contact.under normal condition the moving contact comes in contact with fixed contact thereby forming the closed contact for the flow of current. During abnormal &amp; faulty conditions(when current exceeds the rated value) an arc is produced between the fixed &amp; moving contacts &amp; thereby it forms the open circuitArc is extinguished by the Arc Quenching media like air, oil, vaccum etc</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Many Types Of Colling System It Transformers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>ONAN (oil natural,air natural).</li>
+<li>ONAF (oil natural,air forced).</li>
+<li>OFAF (oil forced,air forced).</li>
+<li>ODWF (oil direct,water forced).</li>
+<li>OFAN (oil forced,air forced).</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is The Function Of Anti ­pumping In Circuit Breaker?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>when breaker is close at one time by close push button,the anti pumping contactor prevent re close the breaker by close push button after if it already close.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is Stepper Motor.what Is Its Uses?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Stepper motor is the electrical machine which act upon input pulse applied to it. it is one type of synchronous motor which runs in steps in either direction instead of running in complete cycle.so, in automation parts it is used.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Why The Capacitors Works On Ac Only?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Generally capacitor gives infinite resistance to dc components(i.e., block the dc components). it allows the ac components to pass through.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Happens If I Connect A Capacitor To A Generator Load?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Connecting a capacitor across a generator always improves power factor,but it will help depends up on the engine capacity of the alternator,other wise the alternator will be over loaded due to the extra watts consumed due to the improvement on pf. Secondly, don’t connect a capacitor across an alternator while it is picking up or without any other load.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is The Difference Between Surge Arrestor And Lightning Arrestor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>LA is installed outside and the effect of lightning is grounded,where as surge arrestor installed inside panels comprising of resistors which consumes the energy and nullify the effect of surge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Why Use The Vcb At High Transmission System ? Why Can’t Use Acb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Actually the thing is vacuum has high arc queching property compare to air because in VCB ,the die electric strengths equal to 8 times of air . That is y always vaccum used as in HT breaker and air used as in LT .</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Difference Between A Four Point Starter And Three Point Starter?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The shunt connection in four point stater is provided separately form the line where as in three point stater it is connected with line which is the drawback in three point stater.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is An Exciter And How Does It Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are two types of exciters, static exciter and rotory exciter.</p>
+<p>purpose of excitor is to supply the excitation dc voltage to the fixed poles of generator.</p>
+<p>Rotory excitor is an additional small generator mounted on the shaft of main generator. if it is dc generator, it will supply dc to the rotory poles through slip ring and brushes(conventional alternator).</p>
+<p>if it is an ac excitor, out put of ac excitor is rectified by rotating diodes and supply dc to main fixed poles.ac excitor is the ac generator whose field winding are stationary and armature rotates. initial voltage is built up by residual magnetism.It gives the starting torque to the generator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Automatic Voltage Regulator(avr)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AVR is an abbreviation for Automatic Voltage Regulator.It is important part in Synchronous Generators, it controls theoutput voltage of the generator by controlling its excitation current. Thus it can control the output Reactive Power of the Generator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Enlist Types Of Dc Generator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>D.C.Generators are classified into two types:</p>
+<ol>
+<li>separatly exicted d.c.generator.</li>
+<li>self exicted d.c.generator.</li>
+</ol>
+<p>which is further classified into;1)series 2)shunt and compound(which is further classified into cumulative and differential).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Why Syn. Generators Are Used For The Production Of Electricity?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Synchronous machines have capability to work on different power factor(or say different imaginary pow varying the field emf. Hence syn. generators are used for the production of electricity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is The Difference Between Synchronous Generator &amp; Asynchronous Generator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In simple, synchronous generator supply’s both active and reactive power but asynchronous generator(induction generator) supply’s only active power and observe reactive power for magnetizing.This type of generators are used in windmills.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is Boucholz Relay And The Significance Of It In To The Transformer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Boucholz relay is a device which is used for the protection of transformer from its internal faults, it is a gas based relay. whenever any internal fault occurs in a transformer, the boucholz relay at once gives a horn for some time, if the transformer is isolated from the circuit then it stop its sound itself other wise it trips the circuit by its own tripping mechanism.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Sf6 Circuit Breaker?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SF6 is Sulpher hexa Flouride gas.. if this gas is used as arc quenching medium in a Circuitbreaker means SF6 CB.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is Frantic Effect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Output voltage is greater than the input voltage or receiving end voltage is greater than the sending end voltage.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Is Meant By Insulation Voltage In Cables? Explain It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is the property of a cable by virtue of it can withstand the applied voltage without rupturing it is known as insulation level of the cable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Are The Advantages Of Star­ Delta Starter With Induction Motor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Resolution:</strong></p>
+<ol>
+<li>The main advantage of using the star delta starter is reduction of current during the starting of the motor.Starting current is reduced to 3­4 times Of current of Direct online starting.</li>
+<li>Hence the starting current is reduced , the voltage drops during the starting of motor in systems are reduced.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Why Delta Star Transformers Are Used For Lighting Loads?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For lighting loads, neutral conductor is must and hence the secondary must be star winding. and this lighting load is always unbalanced in all three phases. To minimize the current unbalance in the primary we use delta winding in the primary. So delta / star transformer is used for lighting loads.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is Meant By Regenerative Braking?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When the supply is cutt off for a running motor, it still continue running due to inertia. In order to stop it quickly we place a load(resitor) across the armature winding and the motor should have  maintained continuous field supply. so that back e.m.f voltage is made to apply across the resistor and due to load the motor stops quickly.This type of breaking is called as “Regenerative Breaking”.</p></p>
+</li><br><br>

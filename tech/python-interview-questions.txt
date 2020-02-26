@@ -1,0 +1,248 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on PCs under MS-DOS, Windows, Windows NT, and OS/2.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Is There A Tool To Help Find Bugs Or Perform Static Analysis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.<br/>
+PyChecker is a static analysis tool that finds bugs in Python source code and warns about code complexity and style.<br/>
+Pylint is another tool that checks if a module satisfies a coding standard, and also makes it possible to write plug-ins to add a custom feature.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Rules For Local And Global Variables In Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In Python, variables that are only referenced inside a function are implicitly global. If a variable is assigned a new value anywhere within the function's body, it's assumed to be a local. If a variable is ever assigned a new value inside the function, the variable is implicitly local, and you need to explicitly declare it as 'global'.<br/>
+Though a bit surprising at first, a moment's consideration explains this. On one hand, requiring global for assigned variables provides a bar against unintended side-effects. On the other hand, if global was required for all global references, you'd be using global all the time. You'd have to declare as global every reference to a builtin function or to a component of an imported module. This clutter would defeat the usefulness of the global declaration for identifying side-effects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. How Do I Share Global Variables Across Modules?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The canonical way to share information across modules within a single program is to create a special module (often called config or cfg). Just import the config module in all modules of your application; the module then becomes available as a global name. Because there is only one instance of each module, any changes made to the module object get reflected everywhere. For example:<br/>
+config.py:<br/>
+x = 0 # Default value of the 'x' configuration setting<br/>
+mod.py:<br/>
+import config<br/>
+config.x = 1<br/>
+main.py:<br/>
+import config<br/>
+import mod<br/>
+print config.x</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How Do I Copy An Object In Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In general, try copy.copy() or copy.deepcopy() for the general case. Not all objects can be copied, but most can.<br/>
+Some objects can be copied more easily. Dictionaries have a copy() method:<br/>
+newdict = olddict.copy()<br/>
+Sequences can be copied by slicing:<br/>
+new_l = l[:]</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. How Can I Find The Methods Or Attributes Of An Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For an instance x of a user-defined class, dir(x) returns an alphabetized list of the names containing the instance attributes and methods and attributes defined by its class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Is There An Equivalent Of C's "?:" Ternary Operator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Do I Convert A Number To A String?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To convert, e.g., the number 144 to the string '144', use the built-in function str(). If you want a hexadecimal or octal representation, use the built-in functions hex() or oct(). For fancy formatting, use the % operator on strings, e.g. "%04d" % 144 yields '0144' and "%.3f" % (1/3.0) yields '0.333'.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What's A Negative Index?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python sequences are indexed with positive numbers and negative numbers. For positive numbers 0 is the first index 1 is the second index and so forth. For negative indices -1 is the last index and -2 is the penultimate (next to last) index and so forth. Think of seq[-n] as the same as seq[len(seq)-n].<br/>
+Using negative indices can be very convenient. For example S[:-1] is all of the string except for its last character, which is useful for removing the trailing newline from a string.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do I Apply A Method To A Sequence Of Objects?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use a list comprehension:<br/>
+result = [obj.method() for obj in List]</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is A Class?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A class is the particular object type created by executing a class statement. Class objects are used as templates to create instance objects, which embody both the data (attributes) and code (methods) specific to a datatype.<br/>
+A class can be based on one or more other classes, called its base class(es). It then inherits the attributes and methods of its base classes. This allows an object model to be successively refined by inheritance. You might have a generic Mailbox class that provides basic accessor methods for a mailbox, and subclasses such as MboxMailbox, MaildirMailbox, OutlookMailbox that handle various specific mailbox formats.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is A Method?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A method is a function on some object x that you normally call as x.name(arguments...). Methods are defined as functions inside the class definition:<br/>
+class C:<br/>
+def meth (self, arg):<br/>
+return arg*2 + self.attribute</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Self?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Self is merely a conventional name for the first argument of a method. A method defined as meth(self, a, b, c) should be called as x.meth(a, b, c) for some instance x of the class in which the definition occurs; the called method will think it is called as meth(x, a, b, c).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. How Do I Call A Method Defined In A Base Class From A Derived Class That Overrides It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you're using new-style classes, use the built-in super() function:<br/>
+class Derived(Base):<br/>
+def meth (self):<br/>
+super(Derived, self).meth()<br/>
+If you're using classic classes: For a class definition such as class Derived(Base): ... you can call method meth() defined in Base (or one of Base's base classes) as Base.meth(self, arguments...). Here, Base.meth is an unbound method, so you need to provide the self argument.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How Do I Find The Current Module Name?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A module can find out its own module name by looking at the predefined global variable __name__. If this has the value '__main__', the program is running as a script. Many modules that are usually used by importing them also provide a command-line interface or a self-test, and only execute this code after checking __name__:<br/>
+def main():<br/>
+print 'Running test...'<br/>
+...<br/>
+if __name__ == '__main__':<br/>
+main()<br/>
+__import__('x.y.z') returns<br/>
+Try:<br/>
+__import__('x.y.z').y.z<br/>
+For more realistic situations, you may have to do something like<br/>
+m = __import__(s)<br/>
+for i in s.split(".")[1:]:<br/>
+m = getattr(m, i)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Where Is The Math.py (socket.py, Regex.py, Etc.) Source File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are (at least) three kinds of modules in Python:<br/>
+1. modules written in Python (.py);<br/>
+2. modules written in C and dynamically loaded (.dll, .pyd, .so, .sl, etc);<br/>
+3. modules written in C and linked with the interpreter; to get a list of these, type:<br/>
+import sys<br/>
+print sys.builtin_module_names</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How Do I Delete A File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use os.remove(filename) or os.unlink(filename);</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. How Do I Copy A File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The shutil module contains a copyfile() function.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. How Do I Run A Subprocess With Pipes Connected To Both Input And Output?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use the popen2 module. For example:<br/>
+import popen2<br/>
+fromchild, tochild = popen2.popen2("command")<br/>
+tochild.write("input\n")<br/>
+tochild.flush()<br/>
+output = fromchild.readline()</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. How Do I Avoid Blocking In The Connect() Method Of A Socket?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The select module is commonly used to help with asynchronous I/O on sockets.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Are There Any Interfaces To Database Packages In Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.<br/>
+Python 2.3 includes the bsddb package which provides an interface to the BerkeleyDB library. Interfaces to disk-based hashes such as DBM and GDBM are also included with standard Python.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How Do I Generate Random Numbers In Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The standard module random implements a random number generator. Usage is simple:<br/>
+import random<br/>
+random.random()<br/>
+This returns a random floating point number in the range [0, 1).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Can I Create My Own Functions In C?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, you can create built-in modules containing functions, variables, exceptions and even new types in  C.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Can I Create My Own Functions In C++?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, using the C compatibility features found in C++. Place extern "C" { ... } around the Python include files and put extern "C" before each function that is going to be called by the Python interpreter. Global or static C++ objects with constructors are probably not a good idea.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How Can I Execute Arbitrary Python Statements From C?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The highest-level function to do this is PyRun_SimpleString() which takes a single string argument to be executed in the context of the module __main__ and returns 0 for success and -1 when an exception occurred (including SyntaxError).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. How Can I Evaluate An Arbitrary Python Expression From C?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Call the function PyRun_String() from the previous question with the start symbol Py_eval_input; it parses an expression, evaluates it and returns its value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. How Do I Interface To C++ Objects From Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Depending on your requirements, there are many approaches. To do this manually, begin by reading the "Extending and Embedding" document. Realize that for the Python run-time system, there isn't a whole lot of difference between C and C++ -- so the strategy of building a new Python type around a C structure (pointer) type will also work for C++ objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How Do I Make Python Scripts Executable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>On Windows 2000, the standard Python installer already associates the .py extension with a file type (Python.File) and gives that file type an open command that runs the interpreter (D:Program FilesPythonpython.exe "%1" %*). This is enough to make scripts executable from the command prompt as 'foo.py'. If you'd rather be able to execute the script by simple typing 'foo' with no extension you need to add .py to the PATHEXT environment variable.</p>
+<p>On Windows NT, the steps taken by the installer as described above allow you to run a script with 'foo.py', but a longtime bug in the NT command processor prevents you from redirecting the input or output of any script executed in this way. This is often important.</p>
+<p>The incantation for making a Python script executable under WinNT is to give the file an extension of .cmd and add the following as the first line:</p>
+<p>@setlocal enableextensions &amp; python -x %~f0 %* &amp; goto :EOF</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. How Do I Debug An Extension?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When using GDB with dynamically loaded extensions, you can't set a breakpoint in your extension until your extension is loaded.<br/>
+In your .gdbinit file (or interactively), add the command:<br/>
+br _PyImport_LoadDynamicModule<br/>
+Then, when you run GDB:<br/>
+$ gdb /local/bin/python<br/>
+gdb) run myscript.py<br/>
+gdb) continue # repeat until your extension is loaded<br/>
+gdb) finish # so that your extension is loaded<br/>
+gdb) br myfunction.c:50<br/>
+gdb) continue</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Where Is Freeze For Windows?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>"Freeze" is a program that allows you to ship a Python program as a single stand-alone executable file. It is not a compiler; your programs don't run any faster, but they are more easily distributable, at least to platforms with the same OS and CPU.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Is A *.pyd File The Same As A Dll?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes .</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. How Do I Emulate Os.kill() In Windows?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use win32api:<br/>
+def kill(pid):<br/>
+"""kill function for Win32"""<br/>
+import win32api<br/>
+handle = win32api.OpenProcess(1, 0, pid)<br/>
+return (0 != win32api.TerminateProcess(handle, 0))</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Explain About The Programming Language Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python is a very easy language and can be learnt very easily than other programming languages. It is a dynamic object oriented language which can be easily used for software development. It supports many other programming languages and has extensive library support for many other languages.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Explain About The Use Of Python For Web Programming?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python can be very well used for web programming and it also has some special features which make you to write the programming language very easily. Some of the features which it supports are Web frame works, Cgi scripts, Webservers, Content Management systems, Web services, Webclient programming, Webservices, etc. Many high end applications can be created with Python because of the flexibility it offers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. State Some Programming Language Features Of Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python supports many features and is used for cutting edge technology. Some of them are<br/>
+1) A huge pool of data types such as lists, numbers and dictionaries.<br/>
+2) Supports notable features such as classes and multiple inheritance.<br/>
+3) Code can be split into modules and packages which assists in flexibility.<br/>
+4) It has good support for raising and catching which assists in error handling.<br/>
+5) Incompatible mixing of functions, strings, and numbers triggers an error which also helps in good programming practices.<br/>
+6) It has some advanced features such as generators and list comprehensions.<br/>
+7) This programming language has automatic memory management system which helps in greater memory management.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. How Is Python Interpreted?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python has an internal software mechanism which makes your programming easy. Program can run directly from the source code. Python translates the source code written by the programmer into intermediate language which is again translated it into the native language of computer. This makes it easy for a programmer to use python.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Does Python Support Object Oriented Scripting?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python supports object oriented programming as well as procedure oriented programming. It has features which make you to use the program code for many functions other than Python. It has useful objects when it comes to data and functionality. It is very powerful in object and procedure oriented programming when compared to powerful languages like C or Java.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Describe About The Libraries Of Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python library is very huge and has some extensive libraries. These libraries help you do various things involving CGI, documentation generation, web browsers, XML, HTML, cryptography, Tk, threading, web browsing, etc. Besides the standard libraries of python there are many other libraries such as Twisted, wx python, python imaging library, etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. State And Explain About Strings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Strings are almost used everywhere in python. When you use single and double quotes for a statement in python it preserves the white spaces as such. You can use double quotes and single quotes in triple quotes. There are many other strings such as raw strings, Unicode strings, once you have created a string in Python you can never change it again.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Explain About Classes In Strings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Classes are the main feature of any object oriented programming. When you use a class it creates a new type. Creating class is the same as in other programming languages but the syntax differs. Here we create an object or instance of the class followed by parenthesis.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is Tuple?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Tuples are similar to lists. They cannot be modified once they are declared. They are similar to strings. When items are defined in parenthesis separated by commas then they are called as Tuples. Tuples are used in situations where the user cannot change the context or application; it puts a restriction on the user.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Explain And Statement About List?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As the name specifies list holds a list of data items in an orderly manner. Sequence of data items can be present in a list. In python you have to specify a list of items with a comma and to make it understand that we are specifying a list we have to enclose the statement in square brackets. List can be altered at any time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Explain About The Dictionary Function In Python?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A dictionary is a place where you will find and store information on address, contact details, etc. In python you need to associate keys with values. This key should be unique because it is useful for retrieving information. Also note that strings should be passed as keys in python. Notice that keys are to be separated by a colon and the pairs are separated themselves by commas. The whole statement is enclosed in curly brackets.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Explain About Indexing And Slicing Operation In Sequences?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Tuples, lists and strings are some examples about sequence. Python supports two main operations which are indexing and slicing. Indexing operation allows you to fetch a particular item in the sequence and slicing operation allows you to retrieve an item from the list of sequence. Python starts from the beginning and if successive numbers are not specified it starts at the last. In python the start position is included but it stops before the end statement.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Explain About Raising Error Exceptions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In python programmer can raise exceptions using the raise statement. When you are using exception statement you should also specify about error and exception object. This error should be related to the derived class of the Error. We can use this to specify about the length of the user name, password field, etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is A Lambda Form?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This lambda statement is used to create a new function which can be later used during the run time. Make_repeater is used to create a function during the run time and it is later called at run time. Lambda function takes expressions only in order to return them during the run time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Explain About Assert Statement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assert statement is used to assert whether something is true or false. This statement is very useful when you want to check the items in the list for true or false function. This statement should be predefined because it interacts with the user and raises an error if something goes wrong.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Explain About Pickling And Unpickling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Python has a standard module known as Pickle which enables you to store a specific object at some destination and then you can call the object back at later stage. While you are retrieving the object this process is known as unpickling. By specifying the dump function you can store the data into a specific file and this is known as pickling.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is The Difference Between A Tuple And A List?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A tuple is a list that is immutable. A list is mutable i.e. The members can be changed and altered but a tuple is immutable i.e. the members cannot be changed.<br/>
+Other significant difference is of the syntax. A list is defined as<br/>
+list1 = [1,2,5,8,5,3,]<br/>
+list2 = ["Sachin", "Ramesh", "Tendulkar"]<br/>
+A tuple is defined in the following way<br/>
+tup1 = (1,4,2,4,6,7,8)<br/>
+tup2 = ("Sachin","Ramesh", "Tendulkar")</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. If Given The First And Last Names Of Bunch Of Employees How Would You Store It And What Datatype?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Either a dictionary or just a list with first and last names included in an element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Will Be The Output Of The Following Code<br/>
+<p>class C(object):<br>
+Def__init__(self):<br/>
+Self.x =1<br/>
+C=c()<br/>
+Print C.x<br/>
+Print C.x<br/>
+Print C.x<br/>
+Print C.x</br></p></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>All the outputs will be 1</p>
+<p>1<br/>
+1<br/>
+1<br/>
+1</p></p>
+</li><br><br>

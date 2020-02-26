@@ -1,0 +1,92 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. One Of My Control File Corrupted And I Am Unable To Start Database. Could You Tell Me How To Perform Recovery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If one of your control file is missing or corrupted then we have 2 options to recover it. Check alert.log for exact name and location of corrupted control file. Delete it manually and copy from available rest of control file and rename it and start database. Another option is delete corrupted control file and remove name from parameter file/ spfile. After removing said control file from spfile, start your database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Incremental Checkpoint?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In incremental checkpoint process, CKPT process records lowest Low RBA to the control file to keep advancing the Buffer checkpoint Queue (BCQ) to make easy and fastest Active Checkpoint Queue (ACQ).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Does Incremental Checkpoint Recorded In Alert.log? How To Disable It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can enable disable recording incremental checkpoint in alert.log .We can enable/disable recording using parameter log_checkpoints_to_alert=true/false.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. I Am Working As Oracle Dba In 24/7 Running Large Production Database. Size Of Database Is Around 800 Gb. We Take Hot Backup Every Day Night. But One Day At Around 4:00 Pm, By Mistake One Table Is Dropped By Application User. Table Is Very Important. How To Recover Said Dropped Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If your database is running on Oracle 10g/11g/12c version then there is new feature available called Recycle bin. You can recover dropped table from user_recyclebin or dba_recyclebin.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. In Continuation Of Above Scenario, Recycle Bin Doesn't Enable In My Database Then How To Recover My Table? How To Disable It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Then you should need to restore backup on your UAT or test database server and enable time based recovery for applying all archives before drop command execution. For an instance, apply archives up to 3:55 PM here.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. In Continuation Above Scenario, Why I Should Need To Perform Recovery In Uat And Test Database Server? Can I Restore Backup In Production Database Server Too?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes. You can. It is not recommended because your production database is large database and running 24/7 environment. Restoration and recovery will take downtime. It is better to perform restoration and recovery process on UAT or Test database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is The Meaning Of Lgwr Sync And Lgwr Async In Log Archive Destination Parameter Of Standby Configuration?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When use LGWR with SYNC, it means once network I/O initiated, LGWR has to wait for completion of network I/O before write processing. LGWR with ASYNC means LGWR doesn’t wait to finish network I/O and continuing write processing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. How Can I Know My Require Table Is Available In Export Dump File?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Create index file of export dump file using import with index file command. A text file will be generating with all table and index object name with number of rows. You can confirm your require table object from this text file. If you are using datapump then there is parameter called "sqlfile" in impdp.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Archive Logs Are Being Generated Around 20gb In My Production Large Database. But One Day Almost Double Archives Were Generated. What Is The Reason Behind This? How Can I Check It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are lots of reason behind increasing size of archives like If more database changes were performed using batch jobs or any special task like merging 2 database or data etc. You can investigate exact root cause using enabling Log Minor utility.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Do You Recover From The Loss Of Data File If Database Is Running In Archive Log Mode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can perform this recovery in 2 ways. One is open database mode and another is database mount mode. After taking offline lost datafile, we can bring database open and after that restore lost datafile from last backup. After restoration of datafile we can perform datafile level recovery for applying archive logs and make it online. In database mount mode, we can restore datafile from backup and perform datafile recovery using "Recover datafile" command.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is The Complete Recovery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>During this recovery we are applying all database changes using archives log and make it to up to date. Complete recovery can be done full database level or datafile level or tablespace level. Main concept is to apply all data changes using archive logs and bring database up to recent time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Why We Should Need To Open Database Using Resetlogs After Finishing Incomplete Recovery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When we are performing incomplete recovery it means we bring database to past time or rewind period of time using change based, cancel based or time based recovery. These all recovery make database in prior state of database. The forward sequence number already available after performing recovery, due to mismatching of this sequence numbers and prior state of database, it needs to open database with new sequence number of Redo log and archive logs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Why Export/data Pump Backup Called As Logical Backup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Export and datapump dump file doesn't backup or contain any physical structure of database like datafile, control file, redo log file, parameter file, password file. Instead of physical structure, export dump contains logical structure of database like definition of tablespaces, segments, schemas, data of segments etc. Due to these reasons export and datapump dump is called as logical backup.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Have You Faced Any Recovery Scenario? Explain How You Resolved It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>2 months back, a potential table was dropped by an application developer on our large 24/7 running production database. Immediately he informed us. We have standby database for our production database. We checked that archives didn’t apply to standby database up to dropped timing. We stopped archive applying on standby immediately and open database read only. Took export of dropped table and imported in production database. After finishing appropriate checking of table, again we started archive applying in standby database for refreshing.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Which Command I Should Need To Execute To Back Up Database Which Is Running On Noarchivelog Mode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Shutdown immediate. Because without shutdown, we can't perform online backup of database, which running on NOARCHIVELOG mode. We should need to take cold backup of database. After clean shutdown database copy of all datafiles, control files, redo log files, password file, and parameter files.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Are The Steps Involved In Database Startup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Start an instance, Mount the Database and Open the Database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are The Steps Involved In Database Shutdown?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Close the Database; Dismount the Database and Shutdown the Instance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Restricted Mode Of Instance Startup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An instance can be started in (or later altered to be in) restricted mode so that when the database is open connections are limited only to those whose user accounts have been granted the RESTRICTED SESSION system privilege.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Are The Different Modes Of Mounting A Database With The Parallel Server?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Exclusive Mode If the first instance that mounts a database does so in exclusive mode, only that Instance can mount the database.</p>
+<p>Parallel Mode if the first instance that mounts a database is started in parallel mode, other instances that are started in parallel mode can also mount the database.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Full Backup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A full backup is an operating system backup of all data files, on-line redo log files and control file that constitute ORACLE database and the parameter.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Can Full Backup Be Performed When The Database Is Open?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Partial Backup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Partial Backup is any operating system backup short of a full backup, taken while the database is open or shut down.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is On-line Redo Log?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The On-line Redo Log is a set of two or more on-line redo files that record all committed changes made to the database. Whenever a transaction is committed, the corresponding redo entries temporarily stores in redo log buffers of the SGA are written to an on-line redo log file by the background process LGWR. The on-line redo log files are used in cyclical fashion.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Mirrored On-line Redo Log?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A mirrored on-line redo log consists of copies of on-line redo log files physically located on separate disks; changes made to one member of the group are made to all members.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Archived Redo Log?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Archived Redo Log consists of Redo Log files that have achieved before being reused.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Are The Advantages Of Operating A Database In Archivelog Mode Over Operating It In No Archivelog Mode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Complete database recovery from disk failure is possible only in ARCHIVELOG mode.</p>
+<p>Online database backup is possible only in ARCHIVELOG mode.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is Log Switch?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The point at which ORACLE ends writing to one online redo log file and begins writing to another is called a log switch.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Are The Steps Involved In Instance Recovery?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Rolling forward to recover data that has not been recorded in data files yet has been recorded in the on-line redo log, including the contents of rollback segments.</li>
+<li>Rolling back transactions that have been explicitly rolled back or have not been committed as indicated by the rollback segments regenerated in step a.</li>
+<li>Releasing any resources (locks) held by transactions in process at the time of the failure.</li>
+<li>Resolving any pending distributed transactions undergoing a two-phase commit at the time of the instance failure.</li>
+</ul></p>
+</li><br><br>

@@ -1,0 +1,521 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AJAX (Asynchronous JavaScript and XML) is a newly coined term for two powerful browser features that have been around for years, but were overlooked by many web developers until recently when applications such as Gmail, Google Suggest, and Google Maps hit the streets.</p>
+<p>Ajax isn’t a technology. It’s really several technologies, each flourishing in its own right, coming together in powerful new ways. Ajax incorporates:<br/>
+* standards-based presentation using XHTML and CSS;<br/>
+* dynamic display and interaction using the Document Object Model;<br/>
+* data interchange and manipulation using XML and XSLT; <br/>
+* Asynchronous data retrieval using XMLHttpRequest;<br/>
+* JavaScript binding everything together.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Who Is Using Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Google is making a huge investment in developing the Ajax approach. All of the major products Google has introduced over the last year like Orkut, Gmail, the latest beta version of Google Groups, Google Suggest, and Google Maps are Ajax applications. (For more on the technical nuts and bolts of these Ajax implementations, check out these excellent analyses of Gmail, Google Suggest, and Google Maps.) Others are following suit: many of the features that people love in Flickr depend on Ajax, and Amazon’s A9.com search  engine applies similar techniques.</p>
+<p>These projects demonstrate that Ajax is not only technically sound, but also practical for real-world applications. This isn’t another technology that only works in a laboratory. Ajax applications can be any size, from the very simple, single-function Google Suggest to the very complex and sophisticated Google  Maps.</p>
+<p>At Adaptive Path, we’ve been doing our own work with Ajax over the last several months, and we’re realizing we’ve only scratched the surface of the rich interaction and responsiveness that Ajax applications can provide. Ajax is an important development for Web applications, and its importance is growing. The biggest challenges in creating Ajax applications are not technical. The core Ajax technologies are mature, stable, and well understood. As there are so many developers out there who already know how to use these technologies, we expect to see many more organizations following Google’s lead in reaping the competitive advantage Ajax provides.</p>
+<p>The challenges are for the designers of these applications to forget what we think we know about the limitations of the Web, and begin to imagine a wider, richer range of possibilities</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. How Ajax Is Different?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An Ajax application eliminates the start-stop-start-stop nature of interaction on the Web by introducing an intermediary — an Ajax engine — between the user and the server. It seems like adding a layer to the application would make it less responsive, but the  opposite is true.</p>
+<p>Instead of loading a webpage, at the start of the session, the browser loads an Ajax engine — written in JavaScript and usually tucked away in a hidden frame. This engine is responsible for both rendering the interface the user sees and communicating with the server on the user’s behalf. The Ajax engine allows the user’s interaction with the application to happen asynchronously — independent of communication with the server. So the user is never staring at a blank browser window and an hourglass icon, waiting around for the server to do  something.</p>
+<p><img alt="" height="272" src="/userfiles/image/Ajax%20IQ/Figure-1_1.jpg" width="500"/></p>
+<p><img alt="" height="346" src="/userfiles/image/Ajax%20IQ/Figure-1_2.jpg" width="500"/></p>
+<p>The synchronous interaction pattern of a traditional web application (top) compared with the asynchronous pattern of an Ajax application (bottom).</p>
+<p>Every user action that normally would generate an HTTP request takes the form of a JavaScript call to the Ajax engine instead. Any response to a user action that doesn’t require a trip back to the server  such as simple data validation, editing data in memory, and even some navigation the engine handles on its own. If the engine needs something from the server in  order to respond if it’s submitting data  for processing, loading additional interface code, or retrieving new data the engine makes those requests asynchronously, usually using XML, without stalling a user’s interaction with the application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Where Should I Start?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Assuming the framework you are using does not suffice your use cases and you would like to develop your own AJAX components or functionality I suggest you start with the article Asynchronous JavaScript Technology and XML (AJAX) With Java 2 Platform, Enterprise Edition. If you would like to see a very basic example that includes source code you can check out the tech tip Using AJAX with Java Technology. For a more complete list of AJAX resources the Blueprints AJAX Home page.Next, I would recommend spending some time investigating AJAX libraries and frameworks. If you choose to write your own AJAX clients-side script you are much better off not re-inventing the wheel.</p>
+<p>AJAX in Action by Dave Crane and Eric Pascarello with Darren James is good resource. This book is helpful for the Java developer in that in contains an appendix for learning JavaScript for the Java developer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Do Ajax Applications Always Deliver A Better Experience Than Traditional Web Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not necessarily. Ajax gives interaction designers more flexibility. However, the more power we have, the more caution we must use in exercising it. We must be careful to use Ajax to enhance the user experience of our applications, not degrade it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Are Ajax Applications Easier To Develop Than Traditional Web Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not necessarily. Ajax applications inevitably involve running complex JavaScript code on the client. Making that complex code efficient and bug-free is not a task to be taken lightly, and better development tools and frameworks will be needed to help us meet that challenge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Does Ajax Work With Java?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Absolutely. Java is a great fit for AJAX! You can use Java  Enterprise Edition servers to generate AJAX client pages and to serve incoming AJAX requests, manage server side state for AJAX clients, and connect AJAX clients to your enterprise resources. The JavaServer Faces component model is a great fit for defining and using AJAX components.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Do I Really Need To Learn Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Basically yes if you plan to develop new AJAX functionality for  your web application. On the other hand, JSF components and component libraries can abstract the details of JavaScript, DOM and CSS. These components can generate the necessary artifacts to make AJAX interactions possible. Visual tools such as Java Studio Creator may also use AJAX enabled JSF components to create applications,  shielding the tool developer from many of the details of AJAX. If you plan to develop your own JSF components or wire the events of components together in a tool it is important that you have a basic understanding of JavaScript. There are client-side JavaScript libraries (discussed below) that you can call from your in page JavaScript that abstract browser differences. Object Hierarchy and  Inheritance in JavaScript is a great resource for a Java developer to learn about JavaScript objects.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Won't My Server-side Framework Provide Me With Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You may be benefiting from AJAX already. Many existing Java based  frameworks already have some level of AJAX interactions and new frameworks and component libraries are being developed to provide better AJAX support. I won't  list all the Java frameworks that use AJAX here, out of fear of missing someone, but you can find a good list at  www.ajaxpatterns.org/Java_Ajax_Frameworks.</p>
+<p>If you have not chosen a framework yet it is recommended you consider using JavaServer Faces or a JavaServer Faces based framework. JavaServer Faces components can be created and used to abstract many of the details of generating JavaScript, AJAX interactions, and DHTML processing and thus enable simple AJAX used by JSF application developer and as plug-ins in JSF compatible  IDE's, such as Sun Java Studio Creator.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Did Adaptive Path Invent Ajax? Did Google? Did Adaptive Path Help Build Google's Ajax Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Neither Adaptive Path nor Google invented Ajax. Google’s recent products are simply the highest-profile examples of Ajax applications. Adaptive Path was not involved in the development of Google’s Ajax applications, but we have been doing Ajax work for some of our other clients.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Is It Possible To Set Session Variables From Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It's not possible to set any session variables directly from javascript as it is purely a client side technology. You can use AJAX though to asynchronously...</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Cannot Parse Xml Generated By Jsp I Am Generating An Xml Using Jsp, When I Run The Jsp In Ie It Shows The Xml As Per Dom, But When I Try To Parse It Using Javascript , The Command Xmldoc.documentelement ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is working code, it might help you. <br/>
+if (!isIE) <br/>
+xmldoc = req.responseXML; <br/>
+else <br/>
+{ <br/>
+//IE does not take the responseXML as.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Do I Need To Know To Create My Own Ajax Functionality?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you plan not to reuse and existing AJAX component, here are some of the things you will need to know.</p>
+<ol>
+<li>Plan to learn Dynamic HTML (DHTML), the technology that is the foundation for AJAX. DHTML enables browser-base real time interaction between a user and a web page. DHTML is the combination of JavaScript, the Document Object Model (DOM) and Cascading Style Sheets (CSS).</li>
+<li>JavaScript - JavaScript is a loosely typed object based scripting language supported by all major browsers and essential for AJAX interactions. JavaScript  in a page is called when an event in a page occurs such as a page load, a mouse click, or a key press in a form element.</li>
+<li>DOM - An API for accessing and manipulating structured documents. In most cases DOM represent the structure of XML and HTML documents.</li>
+<li>CSS - Allows you to define the presentation of a page such as fonts, colors, sizes, and positioning. CSS allow for a clear separation of the presentation from the content and may be changed programmatically by JavaScript.</li>
+</ol>
+<p>Understanding the basic request/response nature of HTTP is also important. Many  subtle bugs can result if you ignore the differences between the GET and OIst methods when configuring an XMLHttpRequest and HTTP response codes when processing callbacks.</p>
+<p>JavaScript is the client-side glue, in a sense. JavaScript is used to create the XMLHttpRequest Object and trigger the asynchronous call. JavaScript is used to parse the returned content. JavaScript is used to analyze the returned data and process returned messages. JavaScript is used to inject the new content into the HTML using the DOM API and to modify the CSS.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Javascript Libraries And Frameworks Are Available?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are many libraries/frameworks out there (and many more emerging) that will help abstract such things as all the nasty browser differences. Three good libraries are The Dojo Toolkit, Prototype, and DWR.</p>
+<ol>
+<li>The Dojo Toolkit contains APIs and widgets to support the development of rich web applications. Dojo contains an intelligent packaging system, UI effects, drag and drop APIs, widget APIs, event abstraction, client storage  APIs, and AJAX interaction APIs. Dojo solves common usability issues such as support for dealing with the navigation such as the ability to detect the  browser back button, the ability to support changes to the URL in the URL bar for bookmarking, and the ability to gracefully degrade when AJAX/JavaScript is not fully support on the client. Dojo is the Swiss Army Knife of JavaScript  libraries. It provides the widest range of options in a single library and it does a very good job supporting new and older browsers.</li>
+<li>Prototype focuses on AJAX interactions including a JavaScript AJAX object that contains a few objects to do basic tasks such as make a request, update a  portion of a document, insert content into a document, and update a portion of a document periodically. Prototype JavaScript library contains a set of JavaScript objects for representing AJAX requests and contains utility  functions for accessing in page components and DOM manipulations. Script.aculo.us and Rico are built on top of Prototype and provide UI effects,  support for drag and drop, and include common JavaScript centric widgets. If you are just looking to support AJAX interactions and a few basic tasks Prototype is great. If you are looking for UI effects Rico and Script.aculo.us are good options.</li>
+<li>DWR (Dynamic Web Remoting) is a client-side and server-side framework that focuses on allowing a developer to do RPC calls from client-side JavaScript to plain old Java objects in a Java Enterprise Edition web container. On the server side DWR uses a Servlet to interact with the Java objects and returns object representations of the Java objects or XML documents. DWR will be easy to get up and running and plays well with other Java technologies. If you are looking for a client-side and server-side framework that integrates well use  DWR.</li>
+</ol>
+<p>There are many new and emerging libraries for JavaScript and this list only  reviews some of the more common libraries. When making a choice choose the library which suites your needs the best. While it might be better to choose one, there is nothing stopping you from using more than one framework. For a more extensive list of client-side frameworks see: Survey of AJAX/JavaScript Libraries.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is The Difference Between Proxied And Proxyless Calls?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Proxied calls are made through stub objects that mimic your PHP classes on the JavaScript side. E.g., the helloworld class from the Hello World example.</p>
+<p>Proxyless calls are made using utility javascript functions like HTML_AJAX.replace() and HTML_AJAX.append().</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Should I Use Xml Or Text, Javascript, Or Html As A Return Type?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It depends. Clearly the 'X' in AJAX stands for XML, but several AJAX proponents are quick to point out that nothing in AJAX, per se, precludes using other types of payload, such as, JavaScript, HTML, or plain text.</p>
+<ol>
+<li>XML - Web Services and AJAX seem made for one another. You can use client-side API's for downloading and parsing the XML content from RESTful Web  Services. (However be mindful with some SOAP based Web Services architectures  he payloads can get quite large and complex, and therefore may be inappropriate  with AJAX techniqes.)</li>
+<li>Plain Text - In this case server-generated text may be injected into a document or evaluated by client-side logic.</li>
+<li>JavaScript - This is an extension to the plain text case with the exception that a server-side component passes a fragment of JavaScript including JavaScript object declarations. Using the JavaScript eval() function you can then create the objects on the client. JavaScript Object Notation (JSON), which is a JavaScript object based data exchange specification, relies on this  technique.</li>
+<li>HTML - Injecting server-generated HTML fragments directly into a document is generally a very effective AJAX technique. However, it can be complicated keeping the server-side component in sync with what is displayed on the client.</li>
+</ol>
+<p>Mashup is a popular term for creating a completely new web application by combining the content from disparate Web Services and other online API's. A good example of a mashup is housingmaps.com which graphically combines housing want-ads from craiglist.org and maps from maps.google.com.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Are There Usability Issues With Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The nature of updating a page dynamically using data retrieved via AJAX interactions and DHTML may result in drastically changing the appearance and state of a page. A user might choose to use the browser's back or forward  buttons, bookmark a page, copy the URL from the URL bar and share it with a friend via an email or chat client, or print a page at any given time. When designing an AJAX based application you need to consider what the expected behavior would be in the case of navigation, bookmarking, printing, and browser support as described below.</p>
+<ul>
+<li><em><strong>Navigation -</strong></em> What would be the expected behavior of the back, forward, refresh, and bookmark browser buttons in your application design. While you could implement history manipulation manually it may be easer to use a JavaScript frameworks such as Dojo that provides API's history manipulation and  navigation control.</li>
+<li><em><strong>Bookmarking and URL sharing -</strong></em> Many users want to bookmark or cut and paste the URL from the browser bar. Dojo provides client-side for bookmarking and URL manipulation.</li>
+<li>Printing - In some cases printing dynamically rendered pages can be problematic.</li>
+</ul>
+<p><strong>Other considerations as a developer when using AJAX are:</strong></p>
+<ul>
+<li><em><strong>Browser Support - </strong></em>Not all AJAX/DHTML features are supported on all browsers  or all versions of a browser. See quirksmode.org for a list of browser support  and possible workarounds.</li>
+<li><em><strong>JavaScript disabled -</strong></em> You should also consider what happens if the user  disables JavaScript. Additionally, there are several legitimate reasons why  JavaScript and CSS support may be unavailable on a user's web browser.</li>
+<li><em><strong>Latency -</strong></em> Keep in mind latency in your design. A running application will be  much more responsive than when it is deployed.<br/>
+    Latency problems: myth or reality?</li>
+<li><em><strong>Accessibility -</strong></em> Guaranteeing your site is accessible to people with  disabilities is not only a noble goal, it is also requited by law in many  markets. Some marvelous enabling technology is available to help people use the  Web in spite of disabilities including visual, auditory, physical, speech,  cognitive, and neurological disabilities. With a little forethought, and  comprehension of some well documented best practices, you can assure that your  application is compatible with that enabling technology.</li>
+</ul>
+<p>Degradability is the term used to describe techniques used by web applications  to adapt to the wide range of web browser capabilities. Many AJAX libraries  have automatic degradability built in. But if you are coding your own custom  AJAX functionality, simply taking some care to follow the best practices  promoted by standards bodies like the World Wide Web Consortium (W3C), and  grass root movements like the Web Standards community and many others, your  application can run usefully on browsers that are incapable of AJAX behaviors.  Granted, your application may loose some of the "wow factor" on these  less capable browsers, but your application will still be usable.</p>
+<p>Remember to not design with AJAX just for the sake of coolness. The reason you  built your application is so people will use it. And people will not use your  application if your application is not compatible with their web browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Are There Any Frameworks Available To Help Speedup Development With Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are several browser-side frameworks available, each with their own uniqueness...</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Is Adaptive Path Selling Ajax Components Or Trademarking The Name? Where Can I Download It?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ajax isn’t something you can download. It’s an approach — a way of  thinking about the architecture of web applications using certain technologies. Neither the Ajax name nor the approach is proprietary to Adaptive Path.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Should I Use An Http Get Or Post For My Ajax Calls?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AJAX requests should use an HTTP GET request when retrieving data where the data will not change for a given request URL. An HTTP POST should be used when state is updated on the server. This is in line with HTTP idempotency recommendations and is highly recommended for consistent web application architecture.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. How Do We Debug Javascript?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are not that many tools out there that will support both client-side and server-side debugging. I am certain this will change as AJAX applications proliferate. I currently do my client-side and server-side debugging separately. Below is some information on the client-side debuggers on some of the commonly used browsers.</p>
+<ol>
+<li>Firefox/Mozilla/Netscape - Have a built in debugger Venkman which can be  helpful but there is a Firefox add on known as FireBug which provides all the information and AJAX developer would ever need including the ability to inspect the browser DOM, console access to the JavaScript runtime in the browser, and the ability to see the HTTP requests and responses (including those made by an  XMLHttpRequest). I tend to develop my applications initially on Firefox using Firebug then venture out to the other browsers.</li>
+<li>Safari - Has a debugger which needs to be enabled. See the Safari FAQ for details.</li>
+<li>Internet Explorer - There is MSDN Documentation on debugging JavaScript. A developer toolbar for Internet Explorer may also be helpful.</li>
+</ol>
+<p>While debuggers help a common technique knowing as "Alert Debugging" may be used. In this case you place "alert()" function calls inline much like you would a System.out.println. While a little primitive it works for most basic cases. Some frameworks such as Dojo provide APIs for tracking debug statements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. How Do I Provide Internationalized Ajax Interactions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Just because you are using XML does not mean you can properly send and receive localized content using AJAX requests. To provide internationalized AJAX components you need to do the following:</p>
+<p>Step 1. Set the charset of the page to an encoding that is supported by your target languages. I tend to use UTF-8 because it covers the most languages. The following meta declaration in a HTML/JSP page will set the content type:</p>
+<pre>
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;</pre>
+<p>Step 2.In the page JavaScript make sure to encode any parameters sent to the server. JavaScript provides the escape() function which returns Unicode escape strings in which localized text will appear in hexadecimal format. For more details on JavaScript encoding seeComparing escape(), encodeURI(), and encode URI Component().</p>
+<p>Step 3. On the server-side component set the character encoding using the HttpServletRequest.setCharacterEncoding() method. Before you access the localized parameter using the HttpServletRequest.getParameter() call. In the case of UTF this would be request .set Characther Encoding ("UTF-8");.</p>
+<p>A server-side component returning AJAX responses needs to set the encoding of the response to the same encoding used in the page.</p>
+<pre>
+response.setContentType("text/xml;charset=;UTF-8");
+response.getWriter().write(" &lt;response&gt;invalid  &lt;/response&gt;");</pre>
+<p>For more information on using AJAX with Java Enterprise Edition technologies see AJAX and Internationalization and for developing multi-lingual applications see Developing Multilingual Web Applications Using JavaServer Pages Technology.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Some Of The Google Examples You Cite Don't Use Xml At All. Do I Have To Use Xml And/or Xslt In An Ajax Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. XML is the most fully-developed means of getting data in and out of an Ajax client, but there’s no reason you couldn’t accomplish the same effects using a technology like JavaScript Object Notation or any similar means of structuring data for interchange.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. When Do I Use A Synchronous Versus Asynchronous Request?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p> They don't call it AJAX for nothing! A synchronous request would block in page event processing and I don't see many use cases where a synchronous request is preferable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. How Do I Handle Concurrent Ajax Requests?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>With JavaScript you can have more than one AJAX request processing at a single time. In order to insure the proper post processing of code it is recommended that you use JavaScript Closures. The example below shows an XMLHttpRequest object abstracted by a  JavaScript object called AJAXInteraction. As arguments you pass in the URL to call and the function to call when the processing is done.</p>
+<pre>
+function AJAXInteraction(url, callback) {<br/>var req = init();<br/>req.onreadystatechange =  processRequest;<br/>
+unction init() {<br/>if  (window.XMLHttpRequest) {<br/>return new  XMLHttpRequest();<br/>} else if  (window.ActiveXObject) {<br/>return new  ActiveXObject("Microsoft.XMLHTTP");<br/>}<br/>}
+
+function processRequest  () {<br/>if (req.readyState ==  4) {<br/>if (req.status ==  200) {<br/>if (callback)  callback(req.responseXML);<br/>}<br/>}<br/>}
+
+this.doGet = function()  {<br/>req.open("GET", url, true);<br/>req.send(null);<br/>}<br/>
+this.doPost =  function(body) {<br/>req.open("POST", url, true);<br/>req.setRequestHeader("Content-Type",  "<br/>application/x-www-form-urlencoded");<br/>req.send(body);<br/>}<br/>}
+
+function makeRequest() {<br/>var ai = new  AJAXInteraction("processme", <br/>function() {  alert("Doing Post Process");});<br/>ai.doGet();<br/>}</pre>
+<p>The function makeRequest() in the example above creates an AJAXInteraction with a URL to of  "processme" and an inline function that will show an alert dialog with the message "Doing Post Process". When ai.doGet() is called the  AJAX interaction is initiated and when server-side component mapped to the URL  "processme" returns a document which is passed to the callback function that was specified when the AJAXInteraction was created.</p>
+<p>Using this closures insures that the proper callback function associated with a specific AJAX interaction is called. Caution should still be taken when  creating multiple closure objects in that make XmlHttpRequests as to there is a limited number of sockets that are used to make requests at any given time. Because there are limited number of requests that can be made concurrently. Internet Explorer for example only allows for two concurrent AJAX requests at  any given time. Other browsers may allow more but it is generally between three and five requests. You may choose to use pool of AJAXInteraction objects.</p>
+<p>One thing to note when making multiple AJAX calls from the client is that the calls are not guaranteed to return in any given order. Having closures within the callback of a closure object can be used to ensure dependencies are processed correctly. There is a discussion titled Ajaxian Fire and Forget Pattern that is helpful.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Do I Do On The Server To Interact With An Ajax Client?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The "Content-Type" header needs to be set to"text/xml". In servlets this may be done using the HttpServletResponse.setContentType()should be set to "text/xml" when the return type is XML. Many XMLHttpRequest  implementations will result in an error if the "Content-Type" header is set The code below shows how to set the "Content-Type".</p>
+<pre>
+response.setContentType("text/xml");<br/>response.getWriter().write("&lt;response&gt;invalid&lt;/response&gt;");</pre>
+<p>You may also want to set whether or not to set the caches header for cases such as autocomplete where you may want to notify proxy servers/and browsers not to cache the results.</p>
+<pre>
+response.setContentType("text/xml");<br/>response.setHeader("Cache-Control", "no-cache");<br/>response.getWriter().write("&lt;response&gt;invalid&lt;/response&gt;");</pre>
+<p>Note to the developer: Internet Explorer will automatically use a cached result of any AJAX response from a HTTP GET if this header is not set which can make things difficult for a developer. During development mode you may want set this header. Where do I store state with an AJAX client<br/>
+<br/>
+As with other browser based web applications you have a few options which include:</p>
+<ol>
+<li>On the client in cookies - The size is limited (generally around 4KB X 20 cookies per domain so a total of 80KB) and the content may not be secure unless encrypted which is difficult but not impossible using JavaScript.</li>
+<li>On the client in the page - This can be done securely but can be problematic and difficult to work with. See my blog entry on Storing State on the Client for more details on this topic.</li>
+<li>On the client file system - This can be done if the client grants access to the browser to write to the local file system. Depending on your uses cases this may be necessary but caution is advised.</li>
+<li>On the Server - This is closer to the traditional model where the client view is of the state on the server. Keeping the data in sync can be a bit problematic and thus we have a solution Refreshing Data on this. As more information processing and control moves to the client where state is stored will need to be re-evaluated.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Whats  With The -alpha In The Install Instructions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML_AJAX hasn't had a stable release yet and the pear installer  doesn't install non stable packages by default unless you specify a version.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How Do I Submit A Form Or A Part Of A Form Without A Page Refresh?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When creating a form make sure that the "form" element  "onSubmit" attribute is set to a JavaScript function that returns  false. </p>
+<pre>
+&lt;form onSubmit="doAJAXSubmit();return false;" &gt;<br/>&lt;input type="text" id="tf1" /&gt;<br/>&lt;input type="submit" id="submit1"  value="Update"/&gt;<br/>&lt;/&gt;</pre>
+<p>You can also submit data by associating a function with a form button in a  similar way.</p>
+<pre>
+&lt;form onSubmit="doAJAXSubmit();return false;" &gt;<br/>&lt;input type="text" id="tf1" /&gt;<br/>&lt;input type="button" id="button1"  onClick="doAJAXSubmit()" value="Update"/&gt;<br/>&lt;/&gt;</pre>
+<p>Note that the form "onSubmit" attribute is still set. If the user hits the enter key in the text field the form will be submitted so you still  need to handle that case.</p>
+<p>When updating the page it is recommend you wait to make sure that the AJAX  update of the form data was successful before updating the data in the page. Otherwise, the data may not properly update and the user may not know. I like to provide an informative message when doing a partial update and upon a successful AJAX interaction I will then update the page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. How Do I Test My Ajax Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There is a port of JUnit for client-side JavaScript called JsUnit.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Exactly Is The W3c Dom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The W3C Document Object Model (DOM) is defined by the W3C as the following: The Document Object Model is a platform- and language-neutral interface.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. When Will Html_ajax Have A Stable Release?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Once all the major features are complete and the API has been tested, the roadmap gives an idea of what is left to be done.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Parts Of The Html_ajax Api Are Stable?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We don't have a list right now, but most of the API is stable as of 0.3.0. There should be no major changes at this point, though there will be lots of new additions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Browsers Does Html_ajax Work With?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We don't have a list right now, but most of the API is stable asAs of 0.3.0, all the examples that ship with HTML_AJAX have been  verified to work with</p>
+<ol>
+<li>Firefox 1.0+</li>
+<li>Internet Explorer 5.5+ (5.0 should work but it hasn't been tested)</li>
+</ol>
+<p>Most things work with</p>
+<ol>
+<li>Safari 2+</li>
+<li>Opera 8.5+ of 0.3.0. There should be no major changes at this point, though there will be lots of new additions.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Is The Server Or The Client In Control?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It depends. With AJAX the answer is more in between. Control can be more centralized in a server-side component or as a mix of client-side and  server-side controllers.</p>
+<ol>
+<li>Centralized server-side controller - When having a more centralized controller the key is to make sure the data in client-side page is in sync with that of the server. Some applications may keep all the state on the server and  push all updates to client DOM via a simple JavaScript controller.</li>
+<li>Client and server-side controllers - This architecture would use JavaScript to do all presentation related control, event processing, page manipulation, and rendering of model data on the client. The server-side would be responsible for things such as business logic and pushing updated model data to the client. In this case the server would not have intimate knowledge of the presentation short of the initial page that would be sent to the client page request.</li>
+</ol>
+<p>There are some use cases where an entire AJAX application can be written in a single page. Keep in mind if you choose this type of architecture that navigation and bookmarking should be considered.</p>
+<p>Both methods are viable depending on what you are trying to accomplish. I tend to prefer spreading the control across the client and server.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Is Ajax Just Another Name For Xmlhttprequest?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. XMLHttpRequest is only part of the Ajax equation. XMLHttpRequest is the technical component that makes the asynchronous server  communication possible; Ajax is our name for the overall approach described in the article, which relies not only on XMLHttpRequest, but on CSS, DOM, and other technologies.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. How Do I Abort The Current Xmlhttprequest?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Just call the abort() method on the request.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Minimum Version Of Php That Needs To Be Running In Order To Use Html_ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The oldest PHP version i've fully tested HTML_AJAX is 4.3.11, but it should run on 4.2.0 without any problems. (Testing reports from PHP versions older then 4.3.11 would be appreciated.)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Why Does Html_ajax Hang On Some Server Installs?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If you run into an HTML_AJAX problem only on some servers, chances are your running into a problem with output compression. If the output compression is handled in the PHP config we detect that and do the right thing, but if its done from an apache extension we have no way of knowing its going to compress the body. Some times setting HTML_AJAX::sendContentLength to false fixes the problem, but in other cases you'll need to disabled the extension for  the AJAX pages.</p>
+<p>I've also seen problems caused by debugging extensions like XDebug, disabling the extension on the server page usually fixes that. Questions dealing with Using HTML_AJAX, and general JavaScript development</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. How Do We Get The Xmlhttprequest Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Depending upon the browser... </p>
+<pre>
+if (window.ActiveXObject) 
+{ 
+// Internet Explorer http_request = new  ActiveXObject("Microsoft.XMLHTTP"); 
+}
+else if.</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Are There Any Security Issues With Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JavaScript is in plain view to the user with by selecting view source of the page. JavaScript can not access the local file system without the user's permission. An AJAX interaction can only be made with the servers-side component from which the page was loaded. A proxy pattern could be used for AJAX interactions with external services.</p>
+<p>You need to be careful not to expose your application model in such as way that your server-side components are at risk if a nefarious user to reverse engineer your application. As with any other web application, consider using HTTPS to secure the connection when confidential information is being exchanged.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What About Applets And Plugins?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Don't be too quick to dump your plugin or applet based portions of your application. While AJAX and DHTML can do drag and drop and other advanced  user interfaces there still limitations especially when it comes to browser support. Plugins and applets have been around for a while and have been able to  make AJAX like requests for years. Applets provide a great set of UI components  and APIs that provide developers literally anything.</p>
+<p>Many people disregard applets or plugins because there is a startup time to initialize the plugin and there is no guarantee that the needed version of a plugin of JVM is installed. Plugins and applets may not be as capable of  manipulating the page DOM. If you are in a uniform environment or can depend on a specific JVM or plugin version being available (such as in a corporate environment) a plugin or applet solution is great.</p>
+<p>One thing to consider is a mix of AJAX and applets or plugins. Flickr uses a  ombination of AJAX interactions/DHTML for labeling pictures and user interaction and a plugin for manipulating photos and photo sets to provide a great user experience. If you design your server-side components well they can talk to both types of clients.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Is Ajax Code Cross Browser Compatible?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not totally. Most browsers offer a native XMLHttpRequest JavaScript object, while another one (Internet Explorer) require you to get it as an ActiveX object....</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. Techniques For Asynchronous Server Communication Have Been Around For Years. What Makes Ajax A "new" Approach?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>What’s new is the prominent use of these techniques in real-world  applications to change the fundamental interaction model of the Web. Ajax is taking hold now because these technologies and the industry’s understanding of how to deploy them most effectively have taken time to develop.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. Is Ajax A Technology Platform Or Is It An Architectural Style?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It’s both. Ajax is a set of technologies being used together in a particular way.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. How Do I Handle The Back And Forward Buttons?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While you could go out and create a custom solution that tracks the current state on your application I recommend you leave this to the experts. Dojo addresses the navigation in a browser neutral way as can be seen in the JavaScript example below.</p>
+<pre>
+function updateOnServer(oldId, oldValue, 
+itemId, itemValue) {
+var bindArgs = {
+url:  "faces/ajax-dlabel-update",
+method: "post",
+content: {"component-id": itemId, "component-value":
+itemValue},
+mimetype: "text/xml",
+load: function(type, data) {
+processUpdateResponse(data);
+},
+backButton: function() {
+alert("old itemid was " + oldId);
+},
+forwardButton: function(){
+alert("forward we must go!");
+}
+};
+dojo.io.bind(bindArgs);
+}</pre>
+<p>The example above will update a value on the server using dojo.io.bind() with a function as a property that is responsible for dealing with the browser back button event. As a developer you are capable of restoring the value to the oldValue or taking any other action that you see fit. The underlying details of how the how the browser button event are detected are hidden from the developer by Dojo.</p>
+<p>AJAX: How to Handle Bookmarks and Back Buttons details this problem and provides a JavaScript library Really Simple History framework (RSH) that focuses just on the back and forward issue.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. How Does Html_ajax Compare With The Xajax Project At Sourceforge?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>XAJAX uses XML as a transport for data between the webpage and server, and you don't write your own javascript data handlers to manipulate the data received from the server. Instead you use a php class and built in javascript methods, a combination that works very similiar to the HTML_AJAX_Action class and haSerializer combo. XAJAX is designed for simplicity and ease of use.</p>
+<p>HTML_AJAX allows for multiple transmission types for your ajax data - such as urlencoding, json, phpserialized, plain text, with others planned, and has a system you can use to write your own serializers to meet your specific needs. HTML_AJAX has a class to help generate javascript (HTML_AJAX_Helper) similiar to ruby on rail's javascript helper (although it isn't complete), and an action system similiar to XAJAX's "action pump" that allows you to avoid writing javascript data handlers if you desire.</p>
+<p>But it also has the ability to write your own data handling routines, automatically register classes and methods using a server "proxy" script, do different types of callbacks including grabbing remote urls, choose  between sync and async requests, has iframe xmlhttprequest emulation fallback capabilities for users with old browsers or disabled activeX, and is in active development with more features planned (see the Road Map for details)</p>
+<p>HTML_AJAX has additional features such as client pooling and priority queues for more advanced users, and even a javascript utility class. Although you can use HTML_AJAX the same way you use XAJAX, the additional features make it more  robust, extensible and flexible. And it is a pear package, you can use the pear installer to both install and keep it up to date.</p>
+<p>If you're asking which is "better" - as with most php scripts it's a matter of taste and need. Do you need a quick, simple ajax solution? Or do you want something that's flexible, extensible, and looking to incorporate even more great features? It depends on the project, you as a writer, and your future plans.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Browsers Support Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Internet Explorer 5.0 and up, Opera 7.6 and up, Netscape 7.1 and  up, Firefox 1.0 and up, Safari 1.2 and up, among others.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. How Do I Send An Image Using Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While it may appear that images are being sent when using AJAX with an application like Google Maps what is really happening is that the URLs of images are being send as the response of an AJAX request and those URLs are being set using DHTML.</p>
+<p>In this example an XML document is returned from an AJAX interaction and the category bar is populated.</p>
+<pre>
+&lt;categories&gt;
+&lt;category&gt;
+&lt;cat-id&gt;1&lt;/cat-id&gt;
+&lt;name&gt;Books&lt;/name&gt;
+&lt;description&gt;Fun to read&lt;/description&gt;
+&lt;image-url&gt;books_icon.gif&lt;/image-url&gt;
+&lt;/category&gt;
+&lt;category&gt;
+&lt;cat-id&gt;2&lt;/cat-id&gt;
+&lt;name&gt;Electronics&lt;/name&gt;
+&lt;description&gt;Must have gadgets&lt;/description&gt;
+&lt;image-url&gt;electronics.gif&lt;/image-url&gt;
+&lt;/category&gt;
+&lt;/categories&gt;</pre>
+<p>Notice that the image-url element contains the location of the URL for the image representing a category. The callback method of an AJAX interaction will parse the response XML document and call the addCategory  function for each category included in the response XML document. The addCategory  function looks up a table row element "categoryTable" in body of the  page and adds a row to the element which contains the image.</p>
+<pre>
+&lt;scrip type="text/javascript" &gt;
+...
+function addCategory(id, name, imageSrc) {
+var categoryTable = document.getElementById("categoryTable");
+var row = document.createElement("tr");
+var catCell = document.createElement("td");
+var img = document.createElement("img");
+img.src = ("images\" + imageSrc);
+var link = document.createElement("a");
+link.className ="category";
+link.appendChild(document.createTextNode(name));
+link.setAttribute("onclick", "catalog?command=category&amp;catid=" + id);
+catCell.appendChild(img);
+catCell.appendChild(link);
+row.appendChild(catCell);
+categoryTable.appendChild(row);
+}
+&lt;/script&gt;
+...
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td width="300" bgoclor="lightGray"&gt;
+&lt;table id="categoryTable" border="0" cellpadding="0"&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;td id="body" width="100%"&gt;Body Here&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</pre>
+<p>Note that the source of the image is set to the image source. The  image is loaded by a subsequent HTTP request for the image at the URL  "images/books_icon.gif" or "images/electronic_icon.gif"  that occurs when the img element is added to the categoryTable.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. Will Html_ajax Integrate With Other Javascript Ajax Libraries Such As Scriptaculous? How Would This Integration Look Like?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>HTML_AJAX doesn't have specific plans to integrate with other  JavaScript libraries. Part of this is because external dependencies make for a more complicated installation process. It might make sense to offer some optional dependencies on a library like scriptaculous automatically using its visual effects for the loading box or something, but there isn't a lot to gain from making default visuals like that flashier since they are designed to be asily replaceable.</p>
+<p>Most integration would take place in higher level components. Its unclear whether higher level components like that should be part of HTML_AJAX delivered through PEAR or if they should just be supported by HTML_AJAX and made available from http://htmlajax.org or some other site. If your interested in building widgets or components based on HTML_AJAX please let me know.</p>
+<p>HTML_AJAX does however offer the ability to use its library loading mechanism with any JavaScript library. I use scriptaculous in conjunction with HTML_AJAX and I load both libraries through the server.</p>
+<p>To do this you just need to register the library with your server and load add its flag to your include line.</p>
+<pre>
+&lt;?php<br/>$this-&gt;server-&gt;registerJSLibrary('scriptaculous',<br/>array('prototype.js','scriptaculous.js','builder.js','<br/>effects.js','dragdrop.js','controls.js','slider.js'),
+'/pathto/scriptaculous/'); <br/>?&gt;<br/>&lt;script type="text/javascrpt" src="server.php?client=scriptaculous"&gt;
+&lt;/script&gt;</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. When Should I Use A Java Applet Instead Of Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Applets provide features like custom data streaming, graphic manipulation, threading, and advanced GUIs which AJAX cannot.</li>
+<li>However, with the help of DHTML, the functionalities of AJAX can be extended further.</li>
+<li>AJAX requires that the browser be DHTML and AJAX capable.</li>
+<li>AJAX-based functionality does need to take browser differences into consideration due to which using a JavaScript library such as Dojo which abstracts browser differences is recommended.</li>
+<li>AJAX/DHTML works well for applications where the latest browsers are used.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Kinds Of Applications Is Ajax Best Suited For?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We don’t know yet. Because this is a relatively new approach, our understanding of where Ajax can best be applied is still in its infancy. Sometimes the traditional web application model is the most appropriate solution to a problem.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Does This Mean Adaptive Path Is Anti-flash?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not at all. Macromedia is an Adaptive Path client, and we’ve long been supporters of Flash technology. As Ajax matures, we expect that sometimes Ajax will be the better solution to a particular problem, and sometimes Flash will be the better solution. We’re also interested in exploring ways the technologies can be mixed (as in the case of Flickr, which uses both).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. Where Can I Find Examples Of Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>While components of AJAX have been around for some time (for instance, 1999 for XMLHttpRequest), it really didn't become that popular until Google took. But Global Guide Line guide all of its viewers to learn AJAX from absolute beginner to advance level.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. What Is The Xmlhttprequest Object?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It offers a non-blocking way for JavaScript to communicate back to the web server to update only part of the web page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. Does Ajax Have Significant Accessibility Or Browser Compatibility Limitations? Do Ajax Applications Break The Back Button? Is Ajax Compatible With Rest? Are There Security Considerations With Ajax Development? Can Ajax Applications Be Made To Work For Users Who Have Javascript Turned Off?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The answer to all of these questions is “maybe”. Many developers are already working on ways to address these concerns. We think there’s more work to be done to determine all the limitations of Ajax, and we expect the Ajax development community to uncover more issues like these along the way.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. How Do I Access Data From Other Domains To Create A Mashup With Java?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>From your JavaScript clients you can access data in other domains if the return data is provide in JSON format. In essence you can create a JavaScript client that runs operates using data from a different server. This technique is know as JSON with Padding or JSONP. There are questions as to whether this method is secure as you are retrieving data from outside your domain and allowing it to be excuted in the context of your domain. Not all data from third parties is accessible as JSON and in some cases you may want an extra level of protection. With Java you can provide a proxy to third party services using a web component such as a servlet. This proxy can manage the communication with a third party service and provide the data to your clients in a format of your choosing. You can also cache data at your proxy and reduce trips to service. For more on using a Java proxy to create mashups see The XmlHttpProxy Client for Java.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. Does Java Have Support For Comet Style Server-side Push?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Current AJAX applications use polling to communicate changes data between the server and client. Some applications, such as chat applications, stock tickers, or score boards require more immediate notifications of updates to the client. Comet is an event based low latency server side push for AJAX applications. Comet communication keeps one of the two connections available to the browser open to continuously communicate events from the server to the client. A Java based solution for Comet is being developed for Glassfish on top of the Grizzly HTTP connector. See Enabling Grizzly by Jean-Francois Arcand for more details.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. How Do We Create A Thread To Do Ajax Polling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JavaScript does not have threads. JavaScript functions are called  when an event happens in a page such as the page is loaded, a mouse click, or a form element gains focus. You can create a timer using the set Timeout which takes a function name and time in milliseconds as arguments. You can then loop by calling the same function as can be seen in the JavaScript example below.</p>
+<pre>
+function checkForMessage() {<br/>// start AJAX interaction with processCallback as the callback function<br/>}<br/>
+// callback for the request<br/>function processCallback() {<br/>// do post processing<br/>setTimeout("checkForMessage()", 10000);<br/>}</pre>
+<p>Notice that the checkForMessage will continue to loop indefinitely. You may  want to vary the increment the interval based on activity in the page or your use cases. You may also choose to have logic that would break out of the loop based on some AJAX response processing condition.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. Is The Xmlhttprequest Object Part Of A W3c Standard?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. Or not yet. It is part of the DOM Level 3 Load and Save Specification proposal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. How Does One Call A Javascript Function From The Ajax Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ajax is a form of JavaScript, which uses XML Http Request objects that take action event parameters into a method called “open”. The term AJAX symbolizes Asynchronous Java script and XML, wherein there is no order in which the requests and responses are tracked.”XMLHttpRequest.open” takes action events as URL Parameters. On the other hand, “XMLHttp Request.send” sends the Request object either asynchronously or synchronously, depending on whether the option for the synchronous version is true or false.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. Can You List Some Examples Of Ajax-based Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Some applications and scenarios in which AJAX is utilized include login forms, auto-complete (e,g. Google  search ), voting and rating systems, updating with user content, form submission and validation, chat rooms and instant messaging, Slicker UIs, external widgets, light-boxes (as opposed to pop-ups), and Flash (e.g. Flash games).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Is Ajax A Browser-dependent Or A Browser-independent Script?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AJAX is a browser-dependent technology. The Ajax engine runs on Firefox, Opera 8, Safari and later Mozilla builds, and the Microsoft ActiveX object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. Describe The Animation Extender Control And The Method By Which This Control Is Utilized?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The  Animation Extender control permits you to program fluid animations to the  controls that you put on the page. This control allows you to program elements  that can move around the page based upon specific end user triggers (such as a  button click). There are specific events available against which to program  your animations. These events include “OnClick,” “OnHoverOver”, “OnHoverOut”, “OnLoad,”  “OnMouseOver,” and <br/>
+“OnMouseOut,” which are to be constructed as: <br/>
+&lt;ajaxtoolkit:AnimationExtender id=”ani” targetcontrolid=”anipanel” runat=”Server”&gt; <br/>
+&lt;asp:panel id—“anipanel” runat=”server”&gt; <br/>
+&lt;/ajaxtoolkit:AnimationExtender&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques63"><strong>Question 64. Does Load Runner Support Ajax Apps?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Load Runner supports AJAX Apps. However, Ajax protocols in Load Runner are not as efficient as they are in HTTP. Yet, using HTTP to record AJAX web requires copious custom coding. AJAX protocols heavily depend on memory, and running more than 2GB of ram could cause the machine to freeze.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques64"><strong>Question 65. Describe The Process And Benefits Of Using The Always Visible Control Extender?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Always Visible Control Extender authorizes a control to be pinned to a particular location. For example, when a control has been permanently set to be present at the left corner of the page, the control will be so in the prescribed left and right co-ordinates. This placement will apply, whenever the page is resized or scrolled.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques65"><strong>Question 66. What Are Synchronous And Asynchronous Ajax Requests?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>During the initiation of synchronous requests, the script desists and awaits a reply from the server before proceeding; but during the initiation of asynchronous requests, the script sanctions the procession of the page and handles the reply.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques66"><strong>Question 67. How We Can Send More Values Through The Response Text?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can send text values with the concatenation of ‘I’ operator and by splitting with the pipe operator like ’responseText.split(‘|’);’ If done properly, we would receive an array of our text. Now, we can access it, or we can use JSQN to send multiple text values in a array format.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques67"><strong>Question 68. What Is The Predominant Distinction Between Javascript And J-query?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>JavaScript is a language, while j-query is merely a library written using JavaScript. This library is light-weight, cross-browser compatible, and simple. One can also assert that j-query is a plugin used to build function.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques68"><strong>Question 69. When Should We Use A Java Applet Instead Of Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Many amazing things can be done with AJAX/DHTML, but there are limitations. AJAX and applets can be used together in the same UIs, with AJAX providing the basic structure and applets providing more advanced functionality. The java applet can communicate to JavaScript using the Live-Connect APIs. One should not ask: “should we use AJAX or applets?” Instead, one should discover which technology best fits your needs. In summary, AJAX and applets need not be mutually exclusive.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques69"><strong>Question 70. What Is The Difference Between A Destructor And A Garbage Collector?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A destructor is a special member function of a class called as soon as an object is de-allocated, while a garbage collector is either a program or an application that de-allocates the memory of a formerly unreachable object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques70"><strong>Question 71. Do Ajax Applications Always Deliver A Better Experience Than That Delivered By A Traditional Web Application?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AJAX gives interaction designers more flexibility. However, the more power we have, the more caution we must use in exercising it. We must be careful to use AJAX only to enhance the user experience of our applications.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques71"><strong>Question 72. How Do We Manage Concurrent Request?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For managing concurrent request we can write a function or we can use Java Script closures. After code processing is finishes the call back function and the URL would pass as parameters, they are passed to the object (Ajax Interaction). These closures are good in the way that they insure the right callback function will be invoked and this will have a particular Ajax Interaction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques72"><strong>Question 73. Which Are The Problems That Can Be Fixed Using Ajax And What Is The Actual Meaning Of Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The technologies that represent Ajax belong to the client and they make possible an asynchronous client to server communication. When synchronous communication is involved at every event a complete round trip takes place, issue solved by using asynchronous communication.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques73"><strong>Question 74. Is There Any Use Abilities Problems In Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The appearance of a page is changed very much when we used Ajax interaction to dynamically update it. Because of the dynamically changes, also the state of the page is modify and the page behavior has to be defined for the following actions :navigation, using back , slash forward, page bookmarks, URL sharing, time dependant , printing of pages.</p>
+<ul>
+<li>Navigation-we have to define page refreshing, back and forward and so on .For simplifying navigation we can use a Java Script framework like Dojo.</li>
+<li>For bookmarking or URL sharing we have Dojo.</li>
+<li>Printing-problems may appear when the rendered pages are printed dynamically.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques74"><strong>Question 75. Which Are The Knowledge Requirements For Personal Ajax Functionality?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To make a personal Ajax component and not reuse an already made one we need to have knowledge of the following:</p>
+<ul>
+<li>Learning of DHTML or Dynamic HTML is a must because this is the Ajax foundation; it enables a high level of interaction in the browsers between users and pages. CSS, Document Object Model and Java Script form together what is called DHTML.</li>
+<li>We must also learn JavaScript which is an object based language compatible with the majority of browsers and very important for the interactions of Ajax, JavaScript is invoked on mouse clicks, page boots pr completing various form.</li>
+<li>Document Object Model or DOM is an application used for handling structured documents usually with HTML or XML documents.</li>
+<li>CSS-gives us the possibility to dyne the appearance(fonts, sizes, colors, positions it).In addition to these we must also known about the  requestresponse behavior of HTTP, because ignoring some of the things involved can load to serious bugs.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques75"><strong>Question 76. Which Are The Trigger Types That We Find In Update Panel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The types or triggers are in member of two: PostBackTrigger and AsynPostBackTrigger. The first one makes a complete postback. It doesn’t work asynchronously, the second one makes a practical postback and this is working asynchronously.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques76"><strong>Question 77. How Can Javascript Be Debugged?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Right now the number of utilities that are compatible with both client and server debugging is small, but this could change over time. The debugging is currently made in separate way. Some of the client debuggers for some popular browsers are presented below: the Venkman debugger is a built-in feature of Netscape/Mozilla browser and also there is an add-on called FireBug, also the browser Safari has a similar debugger that can be used by activation and Internet Explorer has some methods of debugging JavaScript. A common method used by debuggers is “Alert Debugging” with the function “alert( )”.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques77"><strong>Question 78. What Are The Protocols And Forms In Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>XMLHttpRequest, this protocol is meant for doing requests to a server. The client browser makes an object, the transfer of data happens in JSON or plain text. The JSON format can be parsed by java script and will be compatible with every browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques78"><strong>Question 79. Do We Have To Use Http Get/post For The Ajax Calls?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the data doesn’t change for a particular request URL, HTTP GET requests are necessary. If the state on a server is going to be updated then a HTTP POST is necessary.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques79"><strong>Question 80. Easy Trough That The Classical Web Applications Are Harder To Make Than Ajax Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not really, because the code that has to run on the client is complicated and it is hard to create such a code, without having bugs and we need the aid of many tools of an efficient code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques80"><strong>Question 81. Why Is Html_ajax Having Stability Issues On Some Installations?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>If the problem that we have with is specific to certain servers the best explanation would be that the problem relates to output compression. It can be dictated and fixed PHP config but if it is a related apache extension it is almost impossible to be detected properly. In most cases we will have to disable the AJAX extension, but in rare cases we can fix the issue by using the setting sendContentLength to false. Also xDdebug can create some issues but they can be fixed by the activating the extension.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques81"><strong>Question 82. Is It True That Ajax Is Code Browser Compatible?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes but only partially. The majority of browsers give us a built-in XMLHttpRequest JavaScript object but some, like Internet Explorer, will asked it in the form of an ActiveX object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques82"><strong>Question 83. Is It True That A Xmlhttprequest Objects Belongs To The W3c Standard?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This hasn’t been decided until now but we know just that it belongs to DOM Level 3 Load and Save.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques83"><strong>Question 84. What Meaning Has Asp.net Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ASP .NET Ajax is developed by Microsoft and it represent the free Ajax frame work used for creating applications that have a great amount of interactivity and is compatible with all the browsers. It gives us the possibility to choose our own way of using Ajax no matter if is Server-side, Client-side, the Query library or the Ajax Control Tool kit.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques84"><strong>Question 85. What Are The Browser Versions That Ajax Is Compatible With?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>From the version 0.3.0 Ajax is compatible with Internet Explorer 5.5, Mozilla Firefox 1.0, Safari 2+ and Opera 8.5+.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques85"><strong>Question 86. In What Way Are Proxyless Calls Different Than The Proxied Calls In Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Proxyless calls can be possible using functions such as HTML_AJAX.replace() or HTML_AJAX.append(). This functions are JavaScript utilities. Proxied calls are possible by using limitations of PHP classes or stub objects in JavaScript.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques86"><strong>Question 87. How Can We Make A Mashup With Java By Accessing Other Domains Data?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>We can gain access to other domains data in our Java Script clients if the format of the data returned is in JSON format. In this way JavaScript client can be made which is running with the usage of another servers data, method called JSQN with Padding (JSQNP). This method has his doubts when it comes to security, because it functions by bringing data from outside our domain, but the execution is made inside. Not every type of data from outside can be accessed as JSON and sometimes we want more security. In Java a proxy can be given to outside services with the aid of what we called a servlet, which is used for communication management between outside and inside services and gives us the possibility of changing the format of the data we provide according to our wishes. For speed improvement data can be cached.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques87"><strong>Question 88. Does Ajax Have The Same Meaning As Xmlhttprequest?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Because XMLHttpRequest is just a piece of Ajax, the answer will be no. Ajax depends on many pieces like XMLHttpRequest, CSS, DOM, etc.  XMLHttpRequest is the part responsible for asynchronous server  communication.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques88"><strong>Question 89. In Ajax Does The Client Or The Sever Have The Control?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sometimes yes, sometimes no. It can be more like a server-side centralized component or controller or client-side controller. A centralized server-side controller is the case where we must assure that the client-side page data is synchronized with the server data. Many programs are preserving everything on the server and the updates are given to the client DOM through an easy Java Script controller. The case of client and server-side controllers uses a JavaScript for making each control that relates to presentation, each processing of events, each manipulation of pages and model data rendering on the client. The responsibility of business logic or giving the updated model data to a client is taken by the server-side. But this case doesn’t include specific information about the initial pages which is sent to the request of the client page. In certain use cases the whole Ajax application is possible to write in one page. If we chose this we must also remember about bookmarking and navigation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques89"><strong>Question 90. We Used Asynchronous Server Communication For A Long Time, What New Thing Is Ajax Bringing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Ajax is bringing changes in the way we use interactive real-world web applications. Now it’s time to apply all this new technologies that have been in development for many years.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques90"><strong>Question 91. Is It True That The Ajax Application Are Much Better Than The Classical Internet Applications?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Not really. What it is true is that Ajax has brought more flexibility. This flexibility also implies a higher degree of responsibility when we use Ajax for providing a better experience for the user.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques91"><strong>Question 92. What Is The Response Time When Using Ajax?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Response time can also be named latency and it means the period of time that passes from the beginning of a request processing by the client to the  sever until its end. Id the time is longer than normal then we say we had a delay, Delays usually appear when the XMLHttpRequest object is badly handled.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques92"><strong>Question 93. Which Is The Purpose For Using The Scriptmanager?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ScriptManager is used for handling every ASP.NET Ajax resource and it makes links for the client libraries in ASP.NET Ajax. This means we will be able to use UpdatePanels, PageMethods and others. Also the page request Manager and Application objects are made, they are important in the client life cycle for raising events in the ASP.NET Ajax web pages. It is also good for making proxies for calling web services asynchronously.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques93"><strong>Question 94. What Is The Use Of Updatepanel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Updatepanel gives us the possibility to make ASP .NET applications Ajax compatible, to update the content of a page with the aid of Partial-Page rendering. This is useful for refreshing a section of the page without refreshing the entire page.</p></p>
+</li><br><br>

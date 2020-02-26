@@ -1,0 +1,178 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Do You Understand By Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter, is free and open source front end Javascript web framework for designing the rich, sleek, intuitive web applications with minimal effort. This framework is more useful for building mobile based web applications. It uses HTML, Javascript and CSS based design templates and other interface components. It also has optional JavaScript extensions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Why Would You Use Bootstrap? Tell Me About Its Benefits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The major benefits of using Bootstrap are-</strong></p>
+<ul>
+<li>It is a free and open-source Web Designing Framework</li>
+<li>It has support of all the web browsers like Internet Explorer, Google Chrome, Firefox, Opera, Safari etc.</li>
+<li>It is a very powerful mobile first front-end framework</li>
+<li>It is very easy to start as one needs to have idea of HTML and CSS only to work with it</li>
+<li>We can design responsive website through it which adjust to desktop, tablet and mobile</li>
+<li>It comprises functional built-in components which are easy to customize</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Who Developed The Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Mark Otto and Jacob Thornton at Twitter</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Which Components Are There In Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Main components of Bootstrap are-</strong></p>
+<p><strong>Reusable Components :</strong> It contains plenty of reusable layout components</p>
+<p><strong>CSS :</strong> It contains lots of CSS files</p>
+<p><strong>jQuery &amp; JavaScript Plugins:</strong> It comprises many jQuery and JavaScript plugins</p>
+<p><strong>Scaffolding :</strong> It comes with a basic structure with link styles, grid system and background</p>
+<p><strong>Customization:</strong> You have a freedom to customize components as per your wish</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Tell Me About Different Layouts Available In Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Two layouts are available in Bootstrap-</strong></p>
+<ol>
+<li><strong>Fluid Layout:</strong>Its design automatic adjusts to the browser size.</li>
+<li><strong>Fixed Layout:</strong>Its design doesn't adjust automatically to different browsers but it can be responsive.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Could You Explain Me About Responsive Layout?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Responsive layout's design automatic adjusts to the browser size but when resizing, the number of columns changes according to the space available.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Would You Differentiate Between Fluid Layout &amp; Responsive Layout?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, sure. The main difference is that Fluid Layout are built using widths percentages and they are based on proportionally laying out the website so elements take up the same percent of space on different screen sizes. Responsive Layout is built on a fluid grid and here CSS Media Queries are used to present different layouts based on different screen sizes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Do You Understand By A List Group In Bootstrap And Its Use?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>List group is a powerful and flexible component to display simple and complex elements together with custom contents. A simple list group is created using class .list-group to address the list with usage of &lt;ul&gt; element, and class .list-group-item to address individual item with usage of &lt;li&gt; elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Would You Tell Me Something About Glyphicons And How Are They Written In Our Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Glyphicons are symbols and icon fonts which are created for providing simplicity and easy orientation in your web projects. Glyphicons Halflings are normally not available for free use and they require licensing but their creator has made them cost free for Bootstrap projects. Bootstrap includes more than 250 glyphs from the Glyphicon Halflings set. To use the icons, we need to write &lt;span class = "glyphicon glyphicon-search"&gt;&lt;/span&gt; code anywhere in our program.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Would You Define Bootstrap Pagination?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Whenever a web site has lots of pages, we need to do pagination to each page. In Bootstrap, we can create a basic pagination by adding the .pagination class to an &lt;ul&gt; element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Describe Bootstrap Panel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Whenever there is a need of putting the contents in a bordered box with some padding around, panel components are used. They can be created with the .panel class and content inside the panel has a .panel-body class. For creating a basic panel, add class .panel to the &lt;div&gt; element and add class .panel-default to this element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Normalize In Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap uses Normalize to establish cross browser consistency.</p>
+<p>Normalize.css is a modern, HTML5-ready alternative to CSS resets. It is a small CSS file that provides better cross-browser consistency in the default styling of HTML elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Lead Body Copy?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>To add some emphasis to a paragraph, add class = "lead". This will give you larger font size, lighter weight, and a taller line height.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Explain Types Of Lists Supported By Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap supports ordered lists, unordered lists, and definition lists.</p>
+<p><strong>Ordered lists :</strong> An ordered list is a list that falls in some sort of sequential order and is prefaced by numbers.</p>
+<p><strong>Unordered lists :</strong> An unordered list is a list that doesn't have any particular order and is traditionally styled with bullets. If you do not want the bullets to appear then you can remove the styling by using the class .list-unstyled. You can also place all list items on a single line using the class .list-inline.</p>
+<p><strong>Definition lists :</strong> In this type of list, each list item can consist of both the &lt;dt&gt; and the &lt;dd&gt; elements. &lt;dt&gt; stands for definition term, and like a dictionary, this is the term (or phrase) that is being defined. Subsequently, the &lt;dd&gt; is the definition of the &lt;dt&gt;.</p>
+<p>You can make terms and descriptions in &lt;dl&gt; line up side-by-side using class dl-horizontal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Are Glyphicons?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Glyphicons are icon fonts which you can use in your web projects. Glyphicons Halflings are not free and require licensing, however their creator has made them available for Bootstrap projects free of cost.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is A Transition Plugin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The transition plugin provides simple transition effects such as Sliding or fading in modals.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is A Modal Plugin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A modal is a child window that is layered over its parent window. Typically, the purpose is to display content from a separate source that can have some interaction without leaving the parent window. Child windows can provide information, interaction, or more.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is Bootstrap Carousel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Bootstrap carousel is a flexible, responsive way to add a slider to your site. In addition to being responsive, the content is flexible enough to allow images, iframes, videos, or just about any type of content that you might want.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Button Group?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Button groups allow multiple buttons to be stacked together on a single line. This is useful when you want to place items like alignment buttons together</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Which Class Is Used For Basic Button Group?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>.btn-group class is used for a basic button group. Wrap a series of buttons with class .btn in .btn-group.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Which Class Is Used To Draw A Toolbar Of Buttons?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>.btn-toolbar helps to combine sets of &lt;div class = "btn-group"&gt; into a &lt;div class = "btn-toolbar"&gt; for more complex components.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Which Classes Can Be Applied To Button Group Instead Of Resizing Each Button?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>.btn-group-lg, .btn-group-sm, .btn-group-xs classes can be applied to button group instead of resizing each button.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Twitter Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap is a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development. It uses HTML, CSS and Javascript.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Does Bootstrap Package Includes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Bootstrap package includes:</strong></p>
+<ul>
+<li><strong>Scaffolding</strong> − Bootstrap provides a basic structure with Grid System, link styles, background. This is is covered in detail in the sectionBootstrap Basic Structure</li>
+<li><strong>CSS</strong> − Bootstrap comes with feature of global CSS settings, fundamental HTML elements styled and enhanced with extensible classes, and an advanced grid system. This is covered in detail in the section Bootstrap with CSS.</li>
+<li><strong>Components</strong> − Bootstrap contains over a dozen reusable components built to provide iconography, dropdowns, navigation, alerts, popovers, and much more. This is covered in detail in the section Layout Components.</li>
+<li><strong>JavaScript Plugins</strong> − Bootstrap contains over a dozen custom jQuery plugins. You can easily include them all, or one by one. This is covered in details in the section Bootstrap Plugins.</li>
+<li><strong>Customize</strong> − You can customize Bootstrap's components, LESS variables, and jQuery plugins to get your very own version.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Bootstrap Grid System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Are Bootstrap Media Queries?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Media Queries in Bootstrap allow you to move, show and hide content based on viewport size.<br/>Show a basic grid structure in Bootstrap.<br/><strong>Following is basic structure of Bootstrap grid:</strong><br/>&lt;div class = "container"&gt;<br/>   &lt;div class = "row"&gt;<br/>      &lt;div class = "col-*-*"&gt;&lt;/div&gt;<br/>      &lt;div class = "col-*-*"&gt;&lt;/div&gt;    <br/>   &lt;/div&gt;<br/>   &lt;div class = "row"&gt;...&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class = "container"&gt;....</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Are Offset Columns?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Offsets are a useful feature for more specialized layouts. They can be used to push columns over for more spacing, for example. The .col-xs = * classes don't support offsets, but they are easily replicated by using an empty cell.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How Can You Order Columns In Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can easily change the order of built-in grid columns with .col-md-push-* and .col-md-pull-* modifier classes where * range from 1 to 11.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. How Do You Make Images Responsive?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap 3 allows to make the images responsive by adding a class .img-responsive to the &lt;img&gt; tag. This class applies max-width: 100%; and height: auto; to the image so that it scales nicely to the parent element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Explain The Typography And Links In Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Bootstrap sets a basic global display (background), typography, and link styles:</strong><br/><strong>Basic Global display</strong> − Sets background-color: #fff; on the &lt;body&gt; element.<br/><strong>Typography</strong> − Uses the @font-family-base, @font-size-base, and @line-height-base attributes as the typographic base<br/><strong>Link styles</strong> − Sets the global link color via attribute @link-color and apply link underlines only on :hover.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. How Will You Create A Bootstrap Panel With Footer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can add footers to panels, by wrapping buttons or secondary text in a &lt;div&gt; containing class .panel-footer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Contextual Classes Are Available To Style The Panels?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Use contextual state classes such as, panel-primary, panel-success, panel-info, panel-warning, panel-danger, to make a panel more meaningful to a particular context.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Can You Put A Table Within Bootstrap Panel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes! To get a non-bordered table within a panel, use the class .table within the panel. Suppose there is a &lt;div&gt; containing .panel-body, we add an extra border to the top of the table for separation. If there is no &lt;div&gt; containing .panel-body, then the component moves from panel header to table without interruption.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Can You Put A Listgroup Within Bootstrap Panel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes You can include list groups within any panel. Create a panel by adding class .panel to the element. Also add class .panel-default to this element. Now within this panel include your list groups.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Bootstrap Well?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A well is a container in that causes the content to appear sunken or an inset effect on the page. To create a well, simply wrap the content that you would like to appear in the well with a containing the class of .well.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Scrollspy Plugin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Scrollspy (auto updating nav) plugin allows you to target sections of the page based on the scroll position. In its basic implementation, as you scroll, you can add .active classes to the navbar based on the scroll position.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is Affix Plugin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The affix plugin allows a to become affixed to a location on the page. You can also toggle it's pinning on and off using this plugin. A common example of this are social icons. They will start in a location, but as the page hits a certain mark, the will be locked in place and will stop scrolling with the rest of the page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. How To Create A Navbar In Bootstrap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>To create a default navbar:</strong></p>
+<ul>
+<li>Add the classes .navbar, .navbar-default to the tag.</li>
+<li>Add role = "navigation" to the above element, to help with accessibility.</li>
+<li>Add a header class .navbar-header to the
+<div>element. Include an <a> element with class navbar-brand. This will give the text a slightly larger size.</a></div>
+</li>
+<li>To add links to the navbar, simply add an unordered list with the classes of .nav, .navbar-nav.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is Bootstrap Breadcrumb?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Breadcrumbs are a great way to show hierarchy-based information for a site. In the case of blogs, breadcrumbs can show the dates of publishing, categories, or tags. They indicate the current page's location within a navigational hierarchy.<br/>A breadcrumb in Bootstrap is simply an unordered list with a class of .breadcrumb. The separator is automatically added by CSS (bootstrap.min.css).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Which Class Is Used For Basic Pagination?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>.pagination class is used to add the pagination on a page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. How Will You Customize Links Of Pagination?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>You can customize links by using .disabled for unclickable links and .active to indicate the current page.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Are Bootstrap Labels?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Bootstrap labels are great for offering counts, tips, or other markup for pages. Use class .label to display labels.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Are Bootstrap Badges?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Badges are similar to labels; the primary difference is that the corners are more rounded. Badges are mainly used to highlight new or unread items. To use badges just add &lt;span class = "badge"&gt; to links, Bootstrap navs, and more.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Is Bootstrap Jumbotron?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As the name suggest this component can optionally increase the size of headings and add a lot of margin for landing page content.</p>
+<p><strong>To use the Jumbotron:</strong></p>
+<ul>
+<li>Create a containerwith the class of .jumbotron.</li>
+<li>In addition to a larger</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is Bootstrap Page Header?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The page header is a nice little feature to add appropriate spacing around the headings on a page. This is particularly helpful on a web page where you may have several post titles and need a way to add distinction to each of them. To use a page header, wrap your heading in a &lt;div&gt; with a class of .page-header.</p></p>
+</li><br><br>

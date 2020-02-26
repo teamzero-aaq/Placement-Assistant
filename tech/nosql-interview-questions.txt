@@ -1,0 +1,265 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Are The Pros And Cons Of Graph Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Pros:</strong></p>
+<ul>
+<li>Graph databases seem to be tailor-made for networking applications. The prototypical example is a social network, where nodes represent users who have various kinds of relationships to each other. Modeling this kind of data using any of the other styles is often a tough fit, but a graph database would accept it with relish.</li>
+<li>They are also perfect matches for an object-oriented system. </li>
+</ul>
+<p><strong>Cons</strong></p>
+<ul>
+<li>Because of the high degree of interconnectedness between nodes, graph databases are generally not suitable for network partitioning.</li>
+<li>Graph databases don’t scale out well. </li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Impedance Mismatch In Database Terminology?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is the difference between the relational model and the in memory data structures. The relational data model organizes data into a structure of tables and rows, or more properly, relations and tuples  In the relational model, a tuple is a set of name value pairs and a relation is a set of tuples. All operations in SQL consume and return relations, which leads to the mathematically elegant relational algebra.</p>
+<p>This foundation on relations provides a certain elegance and simplicity, but it also introduces limitations. In particular, the values in a relational tuple have to be simple—they cannot contain any structure, such as a nested record or a list. This limitation isn’t true for in memory data structures, which can take on much richer structures than relations. As a result, if you want to use a richer in memory data structure, you have to translate it to a relational representation to store it on disk. Hence the impedance mismatch—two different representations that require translation</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is "polyglot Persistence" In Nosql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In 2006, Neal Ford coined the term polyglot programming, to express the idea that applications should be written in a mix of languages to take advantage of the fact that different languages are suitable for tackling different problems. Complex applications combine different types of problems, so picking the right language for each job may be more productive than trying to fit all aspects into a single language.</p>
+<p>Similarly, when working on an e­commerce business problem, using a data store for the shopping cart which is highly available and can scale is important, but the same data store cannot help you find products bought by the customers’ friends—which is a totally different question. We use the term polyglot persistence to define this hybrid approach to persistence. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Say Something About Aggregate ­oriented Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An aggregate is a collection of data that we interact with as a unit. Aggregates form the boundaries for ACID operations with the database. Key value, document, and column family databases can all be seen as forms of aggregate oriented database. Aggregates make it easier for the database to manage data storage over clusters.</p>
+<p>Aggregate oriented databases work best when most data interaction is done with the same aggregate; aggregate ignorant databases are better when interactions use data organized in many different formations. Aggregate oriented databases make inter aggregate relationships more difficult to handle than intra aggregate relationships. They often compute materialized views to provide data organized differently from their primary aggregates. This is often done with map reduce computations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is The Key Difference Between Replication And Sharding?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Replication takes the same data and copies it over multiple nodes. Sharding puts different data on different nodes </li>
+<li>Sharding is particularly valuable for performance because it can improve both read and write performance. Using replication, particularly with caching, can greatly improve read performance but does little for applications that have a lot of writes. Sharding provides a way to horizontally scale</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Explain About Cassandra Nosql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cassandra is an open source scalable and highly available “NoSQL” distributed database management system from Apache. Cassandra claims to offer fault tolerant linear scalability with no single point of failure. Cassandra sits in the Column­Family NoSQL camp.The Cassandra data model is designed for large scale distributed data and trades ACID compliant data practices for performance and availability.Cassandra is optimized for very fast and highly available writes.Cassandra is written in Java and can run on a vast array of operating systems and platform.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Explain How Cassandra Writes?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cassandra writes first to a commit log on disk for durability then commits to an in­memory structure called a memtable. A write is successful once both commits are complete. Writes are batched in memory and written to disk in a table structure called an SSTable (sorted string table). Memtables and SSTables are created per column family. With this design Cassandra has minimal disk I/O and offers high speed write performance because the commit log is append­only and Cassandra doesn’t seek on writes. In the event of a fault when writing to the SSTable Cassandra can simply replay the commit log.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Explain Cassandra Data Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Cassandra data model has 4 main concepts which are cluster, key space, column, column family. Clusters contain many nodes (machines) and can contain multiple key spaces. A key space is a namespace to group multiple column families, typically one per application. A column contains a name, value and timestamp. A column family contains multiple columns referenced by a row keys.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Flume?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Flume is an open source software program developed by Cloud era that acts as a service for aggregating and moving large amounts of data around a Hadoop cluster as the data is produced or shortly thereafter. Its primary use case is the gathering of log files from all the machines in a cluster to persist them in a centralized store such as HDFS.I n Flume, we create data flows by building up chains of logical nodes and connecting them to sources and sinks. For example, say we wish to move data from an Apache access log into HDFS. You create a source by tailing access log and use a logical node to route this to an HDFS sink.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are The Modes Of Operation That Flume Supports?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Flume supports three modes of operation: single node, pseudo distributed, and fully distributed. Single node is useful for basic testing and getting up and running quickly Pseudo distributed is a more production like environment that lets us build more complicated flows while testing on a single physical machine Fully distributed is the mode that run in for production. The fully distributed mode offers two further sub modes: a standalone mode with a single master and a distributed mode with multiple masters.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Jaql ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Jaql is a JSON­based query language that translates into Hadoop MapReduce jobs. JSON is the data interchange standard that is humanreadable like XML but is designed to be lighter weight. Jaql programs are run using the Jaql shell. We start the Jaql shell using the jaqlshell command. If we pass no arguments, we start it in interactive mode. If we pass the ­b argument and the path to a file, we will execute the contents of that file as a Jaql script.</p>
+<p>Finally, if we pass the ­e argument, the Jaql shell will execute the Jaql statement that follows the ­e. There are two modes that the Jaql shell can run in: The first is cluster mode, specified with a ­c argument. It uses the Hadoop cluster if we have one configured. The other option is minicluster mode, which starts a minicluster that is useful for quick tests. The Jaql query language is a data­flow language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Hive?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hive can be thought of as a data warehouse infrastructure for providing summarization, query and analysis of data that is managed by Hadoop.Hive provides a SQL interface for data that is stored in Hadoop.And, it implicitly converts queries into MapReduce jobs so that the programmer can work at a higher level than he or she would when writing MapReduce jobs in Java. Hive is an integral part of the Hadoop ecosystem that was initially developed at Facebook and is now an active Apache open source project.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. What Is Impala?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Impala is a SQL query system for Hadoop from Cloudera. The Cloudera positions Impala as a "real-time" query engine for Hadoop and by "real­time" they imply that rather than running batch oriented jobs like with MapReduce, we can get much faster query results for a certain  types of queries using Impala over an SQL based front­end.It does not rely on the MapReduce infrastructure of Hadoop, instead Impala implements a completely separate engine for processing queries. So this engine is a specialized distributed query engine that is similar to what you can find in some of the commercial pattern related databases. So in essence it bypasses MapReduce.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Bigsql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Big Data is a culmination of numerous research and development projects at IBM. So IBM has taken the work from these various projects and released it as a technology preview called Big SQL.</p>
+<p>IBM claims that Big SQL provides robust SQL support for the Hadoop ecosystem:</p>
+<ul>
+<li>it has a scalable architecture</li>
+<li>it supports SQL and data types available in SQL '92, plus it has some additional capabilities</li>
+<li>it supports JDBC and ODBC client drivers</li>
+<li>it has efficient handling of "point queries"</li>
+</ul>
+<p>Big SQL is based on a multi­threaded architecture, so it's good for performance and the scalability in a Big SQL environment essentially depends on the Hadoop cluster itself that is its size and scheduling policies.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. How Big Sql Works?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Big SQL engine analyzes incoming queries. It separates portions to execute at the server versus the portions to be executed by the cluster. It rewrites queries if necessary for improved performance; determines the appropriate storage handle for data; produces the execution plan and executes and coordinates the query.</p>
+<p>IBM architected Big SQL with the goal that existing queries should run with no or few modifications and that queries should be executed as efficiently as the chosen storage mechanisms allow. And rather than build a separate query execution infrastructure they made Big SQL rely much on Hive, so much of the data manipulation language, the data definition language syntax, and the general concepts of Big SQL are similar to Hive. And Big SQL shares catalogues with Hive via the Hive metastore.Hence each can query each other’s tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Data Wizard?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Data Wizard is someone who can consistently derive money out of data, e.g. working as an employee, consultant or in an other capacity, by providing value to clients or extracting value for himself, out of data. Even a guy who design statistical models for sport bets, and use his strategies for himself alone, is a data wizard.Rather than knowlege, what makes a data wizard successful is craftsmanship, intuition and vision, to compete with peers who share the same knowledge but lack these other skills.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is Apache Hbase ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Apache HBase is an open source columnar database built to run on top of the Hadoop Distributed File System (HDFS). Hadoop is a framework for handling large datasets in a distributed computing environment.HBase is designed to support high table­update rates and to scale out horizontally in distributed compute clusters. Its focus on scale enables it to support very large database tables e.g. ones containing billions of rows and millions of columns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. List Out The Features Of Bigsql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>IBM claims that Big SQL provides robust SQL support for the Hadoop ecosystem:</strong></p>
+<ul>
+<li>it has a scalable architecture;</li>
+<li>it supports SQL and data types available in SQL '92, plus it has some additional capabilities;</li>
+<li>it supports JDBC and ODBC client drivers;</li>
+<li>it has efficient handling of "point queries" (and we'll get to what that means);</li>
+<li>there are a wide variety of data sources and file formats for HDFS and HBase that it supports;</li>
+</ul>
+<p>­ And it, although is not open source, it does interoperate well with the open source ecosystem within Hadoop.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. List Some Drawbacks And Limitations Associated With Hive?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>The SQL syntax that Hive supports is quite restrictive. So for example, we are not allowed to do sub­queries, which is very very common in the SQL world. There is no windowed aggregates, and also ANSI joins are not allowed. And in the SQL world there are a lot of other joins that the developers are used to which we cannot use with Hive.</li>
+<li>The other restriction that is quite limiting is the data types that are supported, for example when it comes to Varchar support or Decimal support, Hive lacks quite severely</li>
+<li>When it comes to client support the JDBC and the ODBC drivers are quite limited and there are concurrency problems when accessing Hive using these client drivers.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. In Ravendb What Does The Below Statement Does? Using (var Ds = New Documentstore { Url = "http://localhost:8080", Defaultdatabase = "cruddemo" 
+}.initialize())</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>As a first step, we are using the Document Store class that inherits from the abstract class Document  Store Base. The Document Store class is manages access to Raven DB and open sessions to  work with Raven DB. The Document Store class needs a URL and optionally the name of the database. Our Raven DB server is running at 8080 port (at the time of installation we did so). Also we specified a Default Database name which is CRUD Demo here. The function Initialize() initializes the current instance. </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is Rss (rich Site Summary)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RSS (Rich Site Summary; originally RDF Site Summary; often called Really Simple Syndication) uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called "feed", "web feed" or "channel") includes full or  summarized text, and metadata, like publishing date and author's name.RSS is purely a  semi structured/un­structured document data </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Are The Drawbacks Of Impala?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Impala isn't a GA offering yet. So as a beta offering, it has several limitations in terms of functionality and capability; for example, several of the data sources and file formats aren't yet supported.</li>
+<li>lso ODBC is currently the only client driver that's available, so if we have JDBC applications we are not able to use them directly yet.</li>
+<li>Another Impala drawback is that it's only available for use with Cloudera's distribution of Hadoop; that is CDH 4.1</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. List Some Benefits Of Impala?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>One of the key ones is low latency for executing SQL queries on top of Hadoop. And part of this has to do with bypassing the MapReduce infrastructure which involves significant overhead, especially when starting and stopping JBMs. </li>
+<li>Cloudera also claims several magnitudes of improvement in performance compared to executing the same SQL queries using Hive.</li>
+<li>Another benefit is that if we really wanted to look under the hood at what Cloudera has provided in Impala or if we wanted to tinker with the code, the source code is available for you to access and download. </li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Redis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Redis is an advance Key­Value store, open source, NoSQL database which is primarily use for building highly scalable web applications. Redis holds its database entirely in memory and use the disk only for persistence. It has a rich set of data types like String, List, Hashes, Sets and Sorted Sets with range queries and bitmaps, hyper logs and geospatial indexes with radius queries. It finds is use where very high write and read speed is in demand</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. In Case Of Mongodb, What Is The Advantage Of Representing The Data In Bson Format As Opposed To Json?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>It is primarily because of the following reasons ­:</strong></p>
+<ul>
+<li>Fast machine scan­ability</li>
+<li>More availability of data types in BSON as opposed to JSON</li>
+<li>BSON brings more strongly typed system as compared to JSON . BSON is compatible to the Native data structures of languages like C#, Java, Python etc.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Are The Various Categories On Nosql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The various categories on NOSQL :</strong></p>
+<ul>
+<li>Key­Value Store Database</li>
+<li>Column Family Database</li>
+<li>Document Store Database</li>
+<li>Graph Database</li>
+<li>Multivalue Database</li>
+<li>Object Database</li>
+<li>Tripple Store Database</li>
+<li>Tuple Store Database</li>
+<li>Tabular Database </li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Give An Example Of Inserting Bulk Records To Redis In C#?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Let us first create a model :</strong></p>
+<p>public class Student<br/>{<br/>public int StudentID { get; set; }<br/>public string StudentName { get; set; }<br/>public string Gender { get; set; }<br/>public string DOB { get; set; }<br/>}</p>
+<p><br/><strong>Next create Redis Connector:</strong><br/>public class RedisConnector<br/>{<br/>static IDatabase GetRedisInstance()<br/>{<br/>return<br/>ConnectionMultiplexer<br/>.Connect("localhost")<br/>.GetDatabase();<br/>}<br/>}</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is Connectionmultiplexer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The connection to Redis is handled by the ConnectionMultiplexer class which is the central object in the StackExchange.Redis namespace. The ConnectionMultiplexer is designed to be shared and reused between callers.</p>
+<p><strong>e.g.</strong></p>
+<p>static IDatabase GetRedisInstance()<br/>{<br/>return<br/>ConnectionMultiplexer<br/>.Connect("localhost")<br/>.GetDatabase();<br/>}</p>
+<p>The GetDatabase() of the ConnectionMultiplexer sealed class obtains an interactive connection to a database inside redis.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. List Out Some Of The Features Of Redis?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Some of the Redis features are ­:</strong></p>
+<ul>
+<li>LRU (Less Recently Used) Eviction</li>
+<li>Messaging broker implementation via Publisher Subscriber Support</li>
+<li>Disk Persistence</li>
+<li>Automatic Failover</li>
+<li>Transaction</li>
+<li>Redis HyperLogLog</li>
+<li>Redis Lua Scripting</li>
+<li>Act as database</li>
+<li>Act as a cache</li>
+<li>Provides high availability via Redis Sentinel</li>
+<li>Provides Automatic partitioning with Redis Cluster</li>
+<li>Provides different levels of on­disk persistence </li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Graph Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This kind of NoSQL database fits best in the case where in a connected set of all nodes,edges satisfy a given predicate, starting from a given node.A classic example may be any social engineering site.<br/>Examples : Neo4j etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Which Feature(s) Mongodb Has Removed In­order To Retain Scalability?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Since MongoDB needs to maintain a huge chunk of collection, it cannot use the traditional Joins and Transactions across multiple collections (tables in RDBMS). This brings the scalability into the system. </p>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Which Data Types Available In Bson?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>BSON supports all the types like Strings, Floating-point, numbers, Objects (Subdocuments),Timestamps, Arrays but it does not support Complex Numbers</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. By Default, Which Database Does Mongodb Connect To?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>By default, the database that mogodb connects to is test.</p>
+<p>e.g.</p>
+<p>C:Userssome.user&gt;mongo<br/>MongoDB shell version: 3.2.4<br/>connecting to: test<br/>&gt;</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Is Cons?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Because of the high degree of interconnectedness between nodes, graph databases are generally not suitable for network partitioning.</li>
+<li>Graph databases don't scale out well.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Are The Cons Of A Traditional Rdbs Over Nosql Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The object-relational mapping layer can be complex.</li>
+<li>Entity-relationship modeling must be completed before testing begins, which slows development.</li>
+<li>RDBMSs don’t scale out when joins are required.</li>
+<li>Sharding over many servers can be done but requires application code and “will be operationally inefficient.</li>
+<li>Full-text search requires third-party tools.</li>
+<li>It can be difficult to store high-variability data in tables<strong>.</strong></li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Eventual Consistency In Nosql Stores?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Eventual consistency means eventually, when all service logic is executed, the system is left in a consistent state. This concept is widely used in distributed systems to achieve high availability. It informally guarantees that, if no new updates are made to a given data item, eventually all accesses to that item will return the last updated value.</p>
+<p>In NoSQL systems, the eventual consistent services are often classified as providing BASE (Basically Available, Soft state, Eventual consistency) and in RDMS, it is classified as ACID (Availability, Consistency, Isolation and Durability). Leading NoSQL databases like Riak, Couchbase, and DynamoDB provide client applications with a guarantee of “eventual consistency”. Others, like MongoDB and Cassandra are eventually consistent in some configurations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is Cap Theorem? How Is It Applicable To Nosql Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Eric Brewer posted the CAP theorem in early 2000.</p>
+<p><strong> In it he discusses three system attributes within the context of distributed databases as follows:</strong></p>
+<ol>
+<li><strong>Consistency:</strong> The notion that all nodes see the same data at the same time.</li>
+<li><strong>Availability:</strong> A guarantee that every request to the system receives a response about whether it was successful or not.</li>
+<li><strong>Partition Tolerance:</strong> A quality stating that the system continues to operate despite failure of part of the system.</li>
+</ol>
+<p>The common understanding around the CAP theorem is that a distributed database system may only provide at most 2 of the above 3 capabilities. As such, most NoSQL databases cite it as a basis for employing an eventual consistency model with respect to how database updates are handled.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Explain The Transaction Support By Using Base In Nosql Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ACID properties of RDMS seem crucial but these seem to pose some roadblocks for larger systems in terms of availability and performance. NoSQL provides an alternative to ACID called BASE.</p>
+<p><strong>BASE means:</strong></p>
+<ul>
+<li>Basic Availability</li>
+<li>Soft state</li>
+<li>Eventual consistency</li>
+</ul>
+<p>Most NoSQL databases do not provide transaction support by default, which means the developers have to think how to implement transactions. Many NoSQL stores offers transactions at the single document (or row etc.) level. For example, In MongoDB, a write operation is atomic on the level of a single document, even if the operation modifies multiple embedded documents within a single document.</p>
+<p>Since a single document can contain multiple embedded documents, single-document atomicity is sufficient for many practical use cases. For cases where a sequence of write operations must operate as if in a single transaction, you can implement a two-phase commit in your application. It’s harder to develop software in the fault-tolerant BASE compared to the ACID, but Brewer’s CAP theorem says you have no choice if you want to scale up.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is The Architectural Difference Between Applications Supporting Rdms And Nosql Systems?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>RDBMS systems traditionally support ACID transactions at the database level, which results in easier application development. On the other side, in a NoSQL system, most of the transactions are being handled at the application level. The application developer can easily abuse the implementation by making wrong choices. Fundamentally, it requires more stringent processes to create NoSQL application.</p>
+<p>On the contrary side, NoSQL system scale well in high load environments. You can apply automatic sharding to minimize down time and the nodes can be prepared in real time, which results in lower operational costs. With RDBMS system, it requires a lot of proactive strategy to maintain and meet the scalability demands. At times, it becomes operationally inefficient to meet the sudden high demands.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Is Database Sharding? How Does It Help In Minimizing The Downtime?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sharding is a type of database partitioning, which divides the large databases into smaller and easily available chunks called shards. In RDBMS, it is widely known as horizontal partitioning. It’s basically splitting and maintaining the database by rows rather than columns.</p>
+<p>As the amount of data an organization stores increases and when the amount of data needed to run the business exceeds the current capacity of the environment, some mechanism for breaking the information into manageable chunks is required. With NoSQL solutions, organizations have started practicing automatic sharding techniques as a mean to continue to store data while minimizing downtime.</p>
+<p>The loads of the required system can be elastically managed using automatic sharding. With smart technologies around, it is possible to configure the system proactively, which can automatically create shards based on demand. The strategy may vary depending upon the type of data, users information and users distribution across regions. For example, if you have a site with large user base having maximum active users from US region than Asia, then it make sense to shard your database from regional perspective.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is The Impact Of Google's Mapreduce In The Nosql Movement?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Google published a paper on MapReduce in 2004, which talked about simplified data processing on large clusters. In this paper, Google shared their process for transforming large volumes of web data content into search indexes using low-cost commodity CPUs. It was Google’s use of MapReduce that encouraged the use of low-cost commodity hardware for such huge applications. Google extended the map-reduce concept to reliably execute on billions of web pages on hundreds or thousands of low-cost commodity CPUs.</p>
+<p>This resulted into building a system that would easily scale as their data increased without forcing them to purchase expensive hardware. That’s where Google invented BigTable to boost their search capabilities. That was first real use of NoSQL columnar data store running on commodity hardware which made a big impact in NoSQL drive.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What Are The Different Kinds Of Nosql Data Stores?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are varieties of NoSQL data stores available which can be widely distributed among four categories:</strong></p>
+<ul>
+<li><strong>Key-value store:</strong> A simple data storage system that uses a key to access a value. Examples- Redis, Riak, DynamoDB, Memcache</li>
+<li><strong>Column family store:</strong> A sparse matrix system that uses a row and a column as keys. Example- HBase, Cassandra, Big Table</li>
+<li><strong>Graph store:</strong> For relationship-intensive problems. Example- Neo4j, InfiniteGraph</li>
+<li><strong>Document store:</strong> Storing hierarchical data structures directly in the database. Example- MongoDB, CouchDB, Marklogic</li>
+</ul>
+<p> </p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. How Does Nosql Relates To Big Data?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Big data applications are generally looked from 4 perspectives: Volume, Velocity, Variety and Veracity. Whereas, NoSQL applications are driven by the inability of a current application to efficiently scale. Though volume and velocity are important, NoSQL also focuses on variability and agility.</p>
+<p>NoSQL is often used to store big data. NoSQL stores provide simpler scalability and improved performance relative to traditional RDMS. They help big data moment in a big way by storing unstructured data and providing a means to query them as per requirements. There are different kinds of NoSQL data stores, which are useful for different kind of applications. While evaluating a particular NoSQL solution, one should looks for their requirements in terms of automatic scalability, data loss, payment model etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Are The Features Of Nosql?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When compared to relational databases, NoSQL databases are more scalable and provide superior performance, and their data model addresses several issues that the relational model is not designed to address:</p>
+<ul>
+<li>Large volumes of structured, semi-structured, and unstructured data</li>
+<li>Agile sprints, quick iteration, and frequent code pushes</li>
+<li>Object-oriented programming that is easy to use and flexible</li>
+<li>Efficient, scale-out architecture instead of expensive, monolithic architecture</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. Explain The Difference Between Nosql V/s Relational Database?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Google needs a storage layer for their inverted search index. They figure a traditional RDBMS is not going to cut it. So they implement a NoSQL data store, BigTable on top of their GFS file system. The major part is that thousands of cheap commodity hardware machines provides the speed and the redundancy.Everyone else realizes what Google just did.Brewers CAP theorem is proven. All RDBMS systems of use are CA systems. People begin playing with CP and AP systems as well. K/V stores are vastly simpler, so they are the primary vehicle for the research.</p>
+<p>Software-as-a-service systems in general do not provide an SQL-like store. Hence, people get more interested in the NoSQL type stores.I think much of the take-off can be related to this history. Scaling Google took some new ideas at Google and everyone else follows suit because this is the only solution they know to the scaling problem right now. Hence, you are willing to rework everything around the distributed database idea of Google because it is the only way to scale beyond a certain size.</p></p>
+</li><br><br>

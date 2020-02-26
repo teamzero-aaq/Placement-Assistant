@@ -1,0 +1,231 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Android? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android is a stack of software for mobile devices which has Operating System, middleware and some key applications. The application executes within its own process and its own instance of Dalvik Virtual Machine. Many Virtual Machines run efficiently by a DVM device. DVM executes Java languages byte code which later transforms into .dex format files.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Explain About The Exceptions Of Android? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The following are the exceptions that are supported by Android<br/>
+* InflateException : When an error conditions are occurred, this exception is thrown<br/>
+* Surface.OutOfResourceException: When a surface is not created or resized, this exception is thrown<br/>
+* SurfaceHolder.BadSurfaceTypeException: This exception is thrown from the lockCanvas() method, when invoked on a Surface whose is SURFACE_TYPE_PUSH_BUFFERS<br/>
+* WindowManager.BadTokenException: This exception is thrown at the time of trying to add view an invalid WindowManager.LayoutParamstoken.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Why To Use Android?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android is useful because:<br/>
+*It is simple and powerful SDK<br/>
+*Licensing, Distribution or Development fee is not required<br/>
+*Easy to Import third party Java library<br/>
+*Supporting platforms are ? Linux, Mac Os, Windows</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Describe Android Application Architecture?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android Application Architecture has the following components:<br/>
+* Services - like Network Operation<br/>
+* Intent - To perform inter-communication between activities or services<br/>
+* Resource Externalization - such as strings and graphics<br/>
+* Notification signaling users - light, sound, icon, notification, dialog etc.<br/>
+* Content Providers - They share data between applications</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are The Features Of Android? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>*Components can be reused and replaced by the application framework.<br/>
+*Optimized DVM for mobile devices<br/>
+*SQLite enables to store the data in a structured manner.<br/>
+*Supports GSM telephone and Bluetooth, WiFi, 3G and EDGE technologies<br/>
+*The development is a combination of a device emulator, debugging tools, memory profiling and plug-in for Eclipse IDE.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Are The Android Releases Available In A Rom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, Android is not yet available in a ROM format. Currently Android is installed by using a clean SD Card, and booted from there. It is booted by running a special application called 'Haret.exe' residing on your SD Card which will terminate the Windows kernel and boot into Linux/Android. It can't easily be run from ROM because a) it's too experimental to risk putting in ROM and then killing a device and b) WinMo does some hardware initialisation that isn't documented, but is needed before Android can run.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Can You Play Android 2.1 Games On Android 2.2?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>no.as i have a 2.2 android phone, its very hard to find games for it. The 2.2 android will not be able to support that type of game.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Android Runtime?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android includes a set of core libraries that provides most of the functionality available in the corelibraries of the Java programming language. Every Android application runs in its own process, with its own instance of the Dalvik virtual machine. Dalvik has been written so that a device can run multiple VMs efficiently. The Dalvik VM executes files in the Dalvik Executable (.dex) format which is optimized for minimal memory footprint. The VM is register-based, and runs classes compiled by a Java language compiler that have been transformed into the .dex format by the included ?dx? tool.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Creating An Android Application Using The Eclipse Plugin?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Using the Android Eclipse plugin is the fastest and easiest way to start creating a new Androidapplication. The plugin automatically generates the correct project structure for your application, and keeps the resources compiled for you automatically.</p>
+<p>It is still a good idea to know what is going on though. Take a look at Overview of an AndroidApplication to understand the basics of how an Android application works.</p>
+<p>It is also recommended that you take a look at the ApiDemos application and the other sample applications in the samples/ folder in the SDK.</p>
+<p>Finally, a great way to started with Android development in Eclipse is to follow both the Hello Android and Notepad code tutorials. In particular, the start of the Hello Android tutorial is an excellent introduction to creating a new Android application in Eclipse.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Can I Write Code For Android Using C/c++?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android applications are written using the Java programming language.Android includes a set of core libraries that provides most of the functionality available in the core libraries of the Java programming language.Every Android application runs in its own process, with its own instance of the Dalvik virtual machine. Dalvik has been written so that a device can run multiple VMs efficiently. The Dalvik VM executes files in the Dalvik Executable (.dex) format which is optimized for minimal memory footprint. The VM is register-based, and runs classes compiled by a Java language compiler that have been transformed into the .dex format by the included ?dx? tool.Android only supports applications written using the Java programming language at this time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is The Ttl (time To Live)? Why Is It Required?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>TTL is a value in data packet of Internet Protocol. It communicates to the network router whether or not the packet should be in the network for too long or discarded. Usually, data packets might not be transmitted to their intended destination within a stipulated period of time. The TTL value is set by a system default value which is an 8-bit binary digit field in the header of the packet. The purpose of TTL is, it would specify certain time limit in seconds, for transmitting the packet header. When the time is exhausted, the packet would be discarded. Each router receives the subtracts count, when the packet is discarded, and when it becomes zero, the router detects the discardedpackets and sends a message, Internet Control Message Protocol message back to the originating host.</p>
+<p>TTL(time to live) apart from determining the life time of a packet in a network also helps in avoiding the wastage of bandwith</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Is Nine-patch Image Different From A Regular Bitmap?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a resizable bitmap resource that can be used for backgrounds or other images on the device. The NinePatch class permits drawing a bitmap in nine sections. The four corners are unscaled; the four edges are scaled in one axis, and the middle is scaled in both axes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain Ip Datagram, Fragmentation And Mtu ? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>IP datagram can be used to describe a portion of IP data. Each IP datagram has set of fields arranged in an order. The order is specific which helps to decode and read the stream easily. IP datagram has fields like Version, header length, Type of service, Total length, checksum, flag, protocol, Time to live, Identification, source and destination ip address, padding, options and payload.</p>
+<p>MTU:- Maximum Transmission Unit is the size of the largest packet that a communication protocol can pass. The size can be fixed by some standard or decided at the time ofconnection</p>
+<p>Fragmentation is a process of breaking the IP packets into smaller pieces. Fragmentation is needed when the datagram is larger than the MTU. Each fragment becomes a datagram in itself and transmitted independently from source. When received by destination they are reassembled.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Sticky Intent? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Is there anyway to determine if an Intent passed into a  BroadcastReceiver's onReceive is the result of a sticky Boradcast  Intent, or if it was just sent.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. User-generated Content: Report Abuse
+Which Is The Better Phone - The Iphone Or The Droid?
+</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The iphone 4 is better than any other phone. for one it is made out of the same material they use in helicopter and train windows.(atleas from what i haerd)another thing is that the iphone has a better app market. with over 300,000 apps it is far better than the droids 70,000. Also it comes with more accesories and has an antenna to provide better signal while the droid doesn't. People say it has a bad connection but i think not since i have already used it. And last but not leats better resolution. it may have a smaller screen but still its graphics are better.so it all depends on you each one has its ups and its downs but i would go with iphone 4 over any phone especially the "all new droid x"</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How Long Does It Take To Build An App?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Depending on the complexity and how quickly you respond to us you could have an app built in about a month.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. How Much Does Mobile Application Development Cost?
+That Is A Bit Like Asking: How Much Does A Truck Cost?
+</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The answer is that it depends on the truck. Your needs are unique and your app needs to meet only those needs. A small Toyota will cost a lot less than a huge semi tractor trailer. A tractor trailer is great if you want to haul goods across the country but dont try to take it on a Saturday night date. We help you to avoid creating too much - or too little app. This keeps costs low.</p>
+<p>Having us create a custom smartphone app is surprisingly affordable. Many businesses find their app costs less than even a small radio or newspaper campaign. Unlike a radio campaign, the app?s usefulness does not end with the last commercial. Once it is created an app can add to your bottom line for a very long time. Our goal is to connect your audience with your cash register no matter where they are. With a smartphone app you give your customers access to you at the exact moment their buying decision is the strongest.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Describe The Apk Format.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The APK file is compressed the AndroidManifest.xml file, application code (.dex files), resource files, and other files. A project is compiled into a single .apk file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Is Sim Pin Code Working?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It's supposed to be working, yes, but if you have ANY troubles please DISABLE SIM PIN in WinMo (SIM PIN works on the SIM, but you need WinMo UI to disable it)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is The Future Scope Of Mobile Application Developers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Future of the mobile application development is bright</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is The Mobile Application Development All About?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In the last two years, a lot of innovation has come in the mobile computing world. Apple has launched very innovative mobile phone, iphone and ipad along with app store. Google launched Android in Nov 2007. Blackberry released SDK and app world. Microsoft has come up with phone 7 framework. Almost every type of mobile can be programmed using J2ME. Making applications for all these devices is Mobile application development.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is The Demand Of Mobile Application Developers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Desktop based IT application is present but the mobile is future. All the applications that were madeto work only on desk top are being ported to mobile. In the coming 10 years, desktops will be replaced completely with mobile, and then all the applications will be designed mainly for mobile. The demand for mobile based trained engineers are increasing every year. Now after the launch of ipad by Apple, it will be even more. Therefore; the gextgen technology will be nothing else than mobile. The demand is expected to grow 70 folds in the coming 4 years.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is The Risk In Blocking The Main Thread When Performing A Lengthyoperation Such As Web Access Or Heavy Computation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Application_Not_Responding exception will be thrown which will crash and restart the application.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is A Dalvik ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The name of Androids virtual machine. The Dalvik VM is an interpreter-only virtual machine that executes files in the Dalvik Executable (.dex) format, a format that is optimized for efficient storage and memory-mappable execution. The virtual machine is register-based, and it can run classes compiled by a Java language compiler that have been transformed into its native format using the included ?dx? tool. The VM runs on top of Posix-compliant operating systems, which it relies on for underlying functionality (such as threading and low level memory management). The Dalvik core class library is intended to provide a familiar development base for those used to programming with Java Standard Edition, but it is geared specifically to the needs of a small mobile device.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Features Are In A Release?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Generally, it's very difficult to detail them, unless there is a significant new feature (in which case, that will be very well advertised!). Usually it's minor speed improvements, bug fixes etc... and sometimes, new bugs are introduced (so bear that in mind)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. When Will It Be Available In A Rom?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No time soon. Folks are working on it, but you'll need a lot of patience before it (if ever) arrives.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. I Keep Hearing 'popping/clicking' Sounds From The Speaker?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>This is a known annoyance on some devices, believed to be related to power management switching the speaker on and off (not confirmed), it actually seems worse in silent mode (ironically). If you experience this, you're not alone... most users do. When a fix is ready, it will be announced here.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. How Much Revenue Share Does The Developer Get?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The developer gets 70% revenue generated from each Android application purchase while the rest is used for settlement charges. Google doesn't take a dime out of this.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Explain Seapine Software?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Seapine's software development and testing tools streamline your development process, saving you significant time and money. Enjoy feature-rich tools that are flexible enough to work in any software development environment. With Seapine integrated tools, every step in the developmentprocess feeds critical information into the next step, letting you focus on developing high quality software in less time.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Why Is List View Not Recommended To Have Active Components?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Clicking on the active text box will pop up the software keyboard but this will resize the list, removing focus from the clicked element.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Why Is Open Platform Good For The Mobile Operators?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An open platform would foster faster innovation, multiple software versions, better customisation options, lower costs, which would bring down the overall service and handset costs while boostingsales.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. Describe A Real Time Scenario Where Android Can Be Used? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Imagine a situation that you are in a country where no one understands the language you speak and you can not read or write. However, you have mobile phone with you.</p>
+<p>With a mobile phone with android, the Google translator translates the data of one language into another language by using XMPP to transmit data. You can type the message in English and select the language which is understood by the citizens of the country in order to reach the message to the citizens.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Why Is Open Platform Good For Developers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Developers will be able innovate rapidly because they will have comprehensive API access tohandset capabilities that are web-ready. They will experience increased productivity because they will have comprehensive and easy-to-use developer tools. And because open source offers a deeper understanding of the underlying mobile platform, they can better optimise their applications. Finally, the distribution and commercialisation of mobile apps will be less expensive and easier.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. How Will You Record A Phone Call In Android? How To Get A Handle On Audiostream For A Call In Android?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Permissions.PROCESS_OUTGOING_CALLS: Allows an application to monitor, modify, or abort outgoingcalls.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is An Ddms?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Dalvik Debug Monitor Service, a GUI debugging application shipped with the SDK. It provides screen capture, log dump, and process examination capabilities.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Are The Advantages Of Android? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The following are the advantages of Android:<br/>
+* The customer will be benefited from wide range of mobile applications to choose, since themonopoly of wireless carriers like AT&amp;T and Orange will be broken by Google Android.<br/>
+* Features like weather details, live RSS feeds, opening screen, icon on the opening screen can be customized<br/>
+* Innovative products like the location-aware services, location of a nearby convenience store etc., are some of the additive facilities in Android.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Does Android Support The Bluetooth Serial Port Profile?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is The Android G1 Phone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Android T-Mobile G1 phone is the world's first Android-powered mobile phone developed by HTC and T-Mobile.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Which Is The Virtual Machine Used To Run The Android Apps?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The VM used is called Dalvik, so named after the ancestral roots of its creator, as the story goes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Are The Android Apps First Scrutinised By Google?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No the Android applications can be directly posted on the Android Market once you are registered as a developer after paying the $25 application fee.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is An Intent Receiver?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An application class that listens for messages broadcast by calling Context.broadcastIntent</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. What's The Difference Between File, Class And Activity In Android?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>File - It is a block of arbitrary information, or resource for storing information. It can be of any type.<br/>
+Class - Its a compiled form of .Java file . Android finally used this .class files to produce an executable apk.<br/>
+Activity - An activity is the equivalent of a Frame/Window in GUI toolkits. It is not a file or a file type it is just a class that can be extended in Android for loading UI elements on view.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. How To Select More Than One Option From List In Android Xml File? Give An Example. </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Specify android id, layout height and width as depicted in the following example.</p>
+<pre>
+&lt;ListView android:id="@+id/ListView01" <br/>android:layout_height="wrap_content" <br/>android:layout_width="fill_parent"&gt;&lt;/ListView&gt;</pre></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Languages Does Android Support For Application Development?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android applications are written using the Java programming language.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Are The Dialog Boxes That Are Supported In Android? Explain. </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android supports 4 dialog boxes:<br/>
+AlertDialog : An alert dialog box supports 0 to 3 buttons and a list of selectable elements, including check boxes and radio buttons. Among the other dialog boxes, the most suggested dialog box is the alert dialog box.</p>
+<p>ProgressDialog: This dialog box displays a progress wheel or a progress bar. It is an extension of AlertDialog and supports adding buttons.</p>
+<p>DatePickerDialog: This dialog box is used for selecting a date by the user.</p>
+<p>TimePickerDialog: This dialog box is used for selecting time by the user.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Virtual Machine Android Runs On?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Dalvik virtual machine</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. What Are The Differences Between A Domain And A Workgroup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In a domain, one or more computer can be a server to manage the network. On the other hand in aworkgroup all computers are peers having no control on each other. In a domain, user doesn?t needan account to logon on a specific computer if an account is available on the domain. In a work group user needs to have an account for every computer. In a domain, Computers can be on different local networks. In a work group all computers needs to be a part of the same local network.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. How To Remove Desktop Icons And Widgets?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Press and Hold the icon or widget. The phone will vibrate and on the bottom of the phone you will see anoption to remove. While still holding the icon or widget drag it to the remove button. Once remove turns red drop the item and it is gone.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is .apk Extension?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The extension for an Android package file, which typically contains all of the files related to a single Android application. The file itself is a compressed collection of an AndroidManifest.xml file,application code (.dex files), resource files, and other files. A project is compiled into a single .apk file.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. What Is A Layout Resource?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An XML file that describes the layout of an Activity screen.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Is A Manifest ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An XML file associated with each Application that describes the various activies, intent filters, services, and other items that it exposes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. What Is A Theme ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A set of properties (text size, background color, and so on) bundled together to define various default display settings. Android provides a few standard themes, listed in R.style (starting with ?Theme_?).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Is An Uris?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Android uses URI strings both for requesting data (e.g., a list of contacts) and for requesting actions (e.g., opening a Web page in a browser). Both are valid URI strings, but have different values. All requests for data must start with the string ?content://?. Action strings are valid URIs that can be handled appropriately by applications on the device; for example, a URI starting with ?http://? will be handled by the browser.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. Can An Application Be Started On Powerup?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Is An Action?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A description of something that an Intent sender desires.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. What Is Activity?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A single screen in an application, with supporting Java code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. What Is Intent?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A class (Intent) describes what a caller desires to do. The caller sends this intent to Android's intent resolver, which finds the most suitable activity for the intent.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. What Is A Resource?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A user-supplied XML, bitmap, or other file, injected into the application build process, which can later be loaded from code.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. What Is A Sticky Intent?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>sendStickyBroadcast() performs a sendBroadcast (Intent) that is "sticky," i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver (BroadcastReceiver, IntentFilter). In all other ways, this behaves the same as sendBroadcast (Intent).<br/>
+One example of a sticky broadcast sent via the operating system is ACTION_BATTERY_CHANGED. When you call registerReceiver () for that action -- even with a null BroadcastReceiver -- you get the Intent that was last broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. What Is The Open Handset Alliance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The OHA is a consortium of 30 technology and mobile companies that have joined hands to accelerate innovation in mobile technology and at the same time offer the end users a better, costeffective and richer mobile experience.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. What Innovations The Oha Members Strive To Achieve?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The OHA members have endeavored to develop Android, the open source mobile platform consisting of an OS, web browser and key applications. Different companies have different contributions to make and roles to play. For instance, the software companies like Google are developing the requisite software, the hardware companies the chipsets and the mobile companies are ensuring compatible handsets for Android.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Why An Open Source Platform Would Be Beneficial To Consumers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Open source platform will ensure cheaper mobile handsets and services coupled with richer user experience in the form of a friendlier interface, cool applications and an enhanced browsing experience.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. How Will Apps Change With Android 2.2?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The answer is that with Froyo, Google's giving us a bunch of new ways to take advantage of apps from the Android Market and beyond. The highlights:SD card installations:  you'll finally be able to install apps on your SD card, smashing the space limitations of Android versions past. You'll be able to select where you want each app to be installed - SD card or internal storage - and even toggle it back and forth with a couple of clicks later.</p></p>
+</li><br><br>

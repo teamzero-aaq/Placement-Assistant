@@ -1,0 +1,142 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Electronic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The study and use of electrical devices that operate by controlling the flow of electrons or other electrically charged particles.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Is Communication?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Communication means transferring a signal from the transmitter which passes through a medium then the output is obtained at the receiver. (or)communication says as transferring of message from one place to another place called communication.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. Different Types Of Communications? Explain.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Analog and digital communication.</strong></p>
+<p>As a technology, analog is the process of taking an audio or video signal (the human voice) and translating it into electronic pulses. Digital on the other hand is breaking the signal into a binary format where the audio or video data is represented by a series of "1"s and "0"s.</p>
+<p>Digital signals are immune to noise, quality of transmission and reception is good, components used in digital communication can be produced with high precision and power consumption is also very less when compared with analog signals.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is Sampling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of obtaining a set of samples from a continuous function of time x(t) is referred to as sampling.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. State Sampling Theorem.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It states that, while taking the samples of a continuous signal, it has to be taken care that the sampling rate is equal to or greater than twice the cut off frequency and the minimum sampling rate is known as the Nyquist rate.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Cut-off Frequency?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The frequency at which the response is -3dB with respect to the maximum response.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Pass Band?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Passband is the range of frequencies or wavelengths that can pass through a filter without being attenuated.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Stop Band?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A stopband is a band of frequencies, between specified limits, in which a circuit, such as a filter or telephone circuit, does not let signals through, or the attenuation is above the required stopband attenuation level.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Explain Rf?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Radio frequency (RF) is a frequency or rate of oscillation within the range of about 3 Hz to 300 GHz. This range corresponds to frequency of alternating current electrical signals used to produce and detect radio waves.</p>
+<p>Since most of this range is beyond the vibration rate that most mechanical systems can respond to, RF usually refers to oscillations in electrical circuits or electromagnetic radiation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Modulation? And Where It Is Utilized?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Modulation is the process of varying some characteristic of a periodic wave with an external signals.</li>
+<li>Radio communication superimposes this information bearing signal onto a carrier signal.</li>
+<li>These high frequency carrier signals can be transmitted over the air easily and are capable of travelling long distances.</li>
+<li>The characteristics (amplitude, frequency, or phase) of the carrier signal are varied in accordance with the information bearing signal.</li>
+<li>Modulation is utilized to send an information bearing signal over long distances.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is Demodulation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Demodulation is the act of removing the modulation from an analog signal to get the original baseband signal back. Demodulating is necessary because the receiver system receives a modulated signal with specific characteristics and it needs to turn it to base-band.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Name The Modulation Techniques.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>For Analog modulation: </strong>AM, SSB, FM, PM and SM</p>
+<p><strong>Digital modulation: </strong>OOK, FSK, ASK, Psk, QAM, MSK, CPM, PPM, TCM, OFDM.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain Am And Fm.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AM-Amplitude modulation is a type of modulation where the amplitude of the carrier signal is varied in accordance with the information bearing signal.</p>
+<p>FM-Frequency modulation is a type of modulation where the frequency of the carrier signal is varied in accordance with the information bearing signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Where Do We Use Am And Fm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AM is used for video signals for example TV. Ranges from 535 to 1705 kHz.</p>
+<p>FM is used for audio signals for example Radio. Ranges from 88 to 108 MHz.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is A Base Station?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Base station is a radio receiver/transmitter that serves as the hub of the local wireless network, and may also be the gateway between a wired network and the wireless network.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. How Many Satellites Are Required To Cover The Earth?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>3 satellites are required to cover the entire earth, which is placed at 120 degree to each other. The life span of the satellite is about 15 years.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is A Repeater?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A repeater is an electronic device that receives a signal and retransmits it at a higher level and/or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances without degradation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Is An Amplifier?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An electronic device or electrical circuit that is used to boost (amplify) the power, voltage or current of an applied signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Example For Negative Feedback And Positive Feedback?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Example for ve feedback is ---Amplifiers And for +ve feedback is  Oscillators.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Oscillator?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An oscillator is a circuit that creates a waveform output from a direct current input. The two main types of oscillator are harmonic and relaxation. The harmonic oscillators have smooth curved waveforms, while relaxation oscillators have waveforms with sharp changes.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is An Integrated Circuit?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An integrated circuit (IC), also called a microchip, is an electronic circuit etched onto a silicon chip. Their main advantages are low cost, low power, high performance, and very small size.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Crosstalk?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Crosstalk is a form of interference caused by signals in nearby conductors. The most common example is hearing an unwanted conversation on the telephone. Crosstalk can also occur in radios, televisions, networking equipment, and even electric guitars.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Is Resistor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A resistor is a two-terminal electronic component that opposes an electric current by producing a voltage drop between its terminals in proportion to the current, that is, in accordance with Ohm's law:</p>
+<p>V = IR.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Is Inductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An inductor is a passive electrical device employed in electrical circuits for its property of inductance. An inductor can take many forms.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Conductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A substance, body, or device that readily conducts heat, electricity, sound, etc. Copper is a good conductor of electricity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is A Semi Conductor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A semiconductor is a solid material that has electrical conductivity in between that of a conductor and that of an insulator(An Insulator is a material that resists the flow of electric current.</p>
+<p>It is an object intended to support or separate electrical conductors without passing current through itself); it can vary over that wide range either permanently or dynamically.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Is Diode?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In electronics, a diode is a two-terminal device. Diodes have two active electrodes between which the signal of interest may flow, and most are used for their unidirectional current property.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Is Transistor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In electronics, a transistor is a semiconductor device commonly used to amplify or switch electronic signals. The transistor is the fundamental building block of computers, and all other modern electronic devices. Some transistors are packaged individually but most are found in integrated circuits.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is Op-amp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An operational amplifier, often called an op-amp , is a DC-coupled high-gain electronic voltage amplifier with differential inputs[1] and, usually, a single output.</p>
+<p>Typically the output of the op-amp is controlled either by negative feedback, which largely determines the magnitude of its output voltage gain, or by positive feedback, which facilitates regenerative gain and oscillation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is A Feedback?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Feedback is a process whereby some proportion of the output signal of a system is passed (fed back) to the input. This is often used to control the dynamic behaviour of the system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Advantages Of Negative Feedback Over Positive Feedback.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Much attention has been given by researchers to negative feedback processes, because negative feedback processes lead systems towards equilibrium states. Positive feedback reinforces a given tendency of a system and can lead a system away from equilibrium states, possibly causing quite unexpected results.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is Cdma, Tdma, Fdma?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Code division multiple access (CDMA) is a channel access method utilized by various radio communication technologies. CDMA employs spread-spectrum technology and a special coding scheme (where each transmitter is assigned a code) to allow multiple users to be multiplexed over the same physical channel. By contrast, time division multiple access (TDMA) divides access by time, while frequency-division multiple access (FDMA) divides it by frequency.</p>
+<p>An analogy to the problem of multiple access is a room (channel) in which people wish to communicate with each other. To avoid confusion, people could take turns speaking (time division), speak at different pitches (frequency division), or speak in different directions (spatial division). In CDMA, they would speak different languages.</p>
+<p>People speaking the same language can understand each other, but not other people. Similarly, in radio CDMA, each group of users is given a shared code. Many codes occupy the same channel, but only users associated with a particular code can understand each other.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Explain Different Types Of Feedback?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Types of feedback:</strong></p>
+<p><strong>Negative feedback: </strong>This tends to reduce output (but in amplifiers, stabilizes and linearizes operation). Negative feedback feeds part of a system's output, inverted, into the system's input; generally with the result that fluctuations are attenuated.</p>
+<p><strong>Positive feedback:</strong> This tends to increase output. Positive feedback, sometimes referred to as "cumulative causation", is a feedback loop system in which the system responds to perturbation (A perturbation means a system, is an alteration of function, induced by external or internal mechanisms) in the same direction as the perturbation. In contrast, a system that responds to the perturbation in the opposite direction is called a negative feedback system.</p>
+<p><strong>Bipolar feedback:</strong> which can either increase or decrease output.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Are The Main Divisions Of Power System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The generating system,transmission system,and distribution system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Instrumentation Amplifier (ia) And What Are All The Advantages?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An instrumentation amplifier is a differential op-amp circuit providing high input impedances with ease of gain adjustment by varying a single resistor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is Meant By Impedance Diagram.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The equivalent circuit of all the components of the power system are drawn and they are interconnected is called impedance diagram.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Need For Load Flow Study.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The load flow study of a power system is essential to decide the best operation existing system and for planning the future expansion of the system. It is also essential for designing the power system.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Is The Need For Base Values?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The components of power system may operate at different voltage and power levels. It will be convenient for analysis of power system if the voltage, power, current ratings of the components of the power system is expressed with reference to a common value called base value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Is The Difference Between Photodiode And Solar Cell?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A photodiode is made to detect light quickly a solar cell is made to collect energy from light. They are both typically silicon diodes, but modified to meet their different requirements. A photodiode has to be fast, which means low capacitance, which means small area of silicon.</p>
+<p>Therefore, it is not very sensitive, and cannot generate much power from light. A solar cell has as large an area as you can afford to buy, getting watts per square inch. There are other differences in the way they are made, and how the PN junction is grown, but they all relate to this difference in purpose.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. How Do You Make A Memory Card Of Mobile Phone?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A memory chip stores bits and mounted in a card with electrical contacts so a computer or camera can send data to be stored.</p></p>
+</li><br><br>

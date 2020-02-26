@@ -1,0 +1,264 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Are Different Methods Of Dimensioning?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are two methods of dimensioning:</strong></p>
+<ul>
+<li>Unidirectional system: All the dimensions are placed in one direction only. These are normally put from left to right whether written on a horizontal/vertical/inclined dimension.</li>
+<li>Aligned system: The dimensions are placed perpendicular to the dimension line. On a horizontal dimension, it is horizontal while on a vertical dimension, it is in the vertical direction.</li>
+</ul>
+<p>Aligned system of dimensioning is more common.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Name The Principal Planes Of Projection.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The principal planes of projection are three:</strong></p>
+<ul>
+<li>P.—Vertical plane for a front view</li>
+<li>P.—Horizontal plane for the top view of the object.</li>
+<li>P.—Profile plane for left or right side view of an object.</li>
+</ul>
+<p><strong>NOTE:</strong> All these planes (HP, VP and PP) are at right angles to each other.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is A ? Why Are Sectional Views Used In Drawing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sectional view: The object is cut by a vertical plane to see the internal invisible details in the front view.</p>
+<p>The object is cut by a horizontal plane to see the internal invisible details in the top view.</p>
+<p><strong>Sectional views are:</strong></p>
+<ul>
+<li>Front right half in section</li>
+<li>Total front in section</li>
+<li>Total top in section</li>
+</ul>
+<p>All the sectional views are meant to see and understand the internal invisible details of the object. It will help in the right manufacturing as well as in repair and servicing of the object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Do You Understand By The V.t. And H.t. Of A Section Plane?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>V.T. of a section plane:</strong> It is a line in the vertical plane where the cutting plane is meeting as well as perpendicular to the vertical plane.</p>
+<p><strong>H.T. of a section plane:</strong> It is a line in the horizontal plane where the cutting plane is meeting as well as perpendicular to the horizontal plane.</p>
+<p>5. Give the practical applications of intersection of surfaces or interpenetration of solids.</p>
+<p><strong>Practical applications of Intersection of surfaces: </strong>Manufacture of tables, chairs, installation of air conditioning ducts, in the construction of boilers, furnaces, chimneys.</p>
+<p><strong>Practical applications of interpenetration of solids: </strong>Connecting pipe to a cylinder, making a tee joint in a pipe line, arm of a person going into the main body.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Difference Between A Plane And A Lamina?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Plane is a two dimensional figure with limited/ unlimited two dimensions.</li>
+<li>Lamina is also a two dimensional figure with limited two dimensions. For example a sheet of paper is a lamina.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Meant By Conventions In Drawings?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are standard symbols as per national or international codes. There are standard symbols for types of lines, types of letters, types of materials, types of sections, types of joints used in industry as well as daily life. These conventions make the study easy, simple and convenient.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is The Principle Of Development Of Surfaces?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The unfolding of an object on a flat surface is the principle of development. It is used in sheet metal work for the manufacture of funnels, boilers, chimneys and furniture of various types.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Why The Drawing Is Called The Language Of Engineers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is because drawing helps in conveying one’s ideas in an easy, convenient and speedily manner. It also makes study simple as it uses international standard conventions and symbols.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is The Necessity Of Dimension A Drawing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It will give the overall size as well as sizes different parts of the object. The dimensioning is necessary for   the manufacture of the object in the industry.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is The Trace Of A Line?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Trace of a line is the point where line meets the plane on extending the line.</li>
+<li>If the line is inclined to H.P., it will have a H.T., (horizontal trace).</li>
+<li>If the line is inclined to V.P., it will have a V.T., (Vertical trace).</li>
+<li>If the line lies in a horizontal plane, it will have a horizontal trace as a line itself.</li>
+<li>If the line lies in a vertical plane, it will have a vertical trace as a line itself.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Define Representative Fraction (r.f.)?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>It is a ratio of size taken on drawing sheet to the actual size of the object.</li>
+<li>R.F. &lt; 1 for big objects like airplane, ship, tree, lathe etc.</li>
+<li>R.F. = 1 for objects in common use. May be a book, shoe, pencil, pen, cell phone, remote etc.</li>
+<li>R.F.&gt;1 for small size objects like a wrist watch, pencil cell, thread needle, button etc.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Are A Single And A Double Stroke Letters?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>A letter written in one stroke of the pencil is a single stroke letter.</li>
+<li>A letter written in two strokes of the pencil is a double stroke letter.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Why Are The Projections Of Objects Not Drawn In Second And Fourth Angle Of Projections?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Front view and top view will overlap each other and thus there will be no clarity and it will all be only confusion.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is A Plane?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a two dimensional figure which has area only such as a triangle, square, trapezium, circle, (object of negligible thickness such as sheet of paper, thin plastic sheet).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Angle Of Inclination Of Section Lines?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The angle is 450 to the reference line xy. All the section lines are parallel and equidistant.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Describe Free Hand Sketching.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is fast, easy and convenient method of drawing an object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Is Meant By Scale In Drawing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Depending on the size of the object, the size taken on drawing (sheet) can be same or different.</li>
+<li>Size on drawing can be = or &lt; or &gt; the actual size.</li>
+<li>If size on drawing = the actual size, it is a FULL SCALE, represented as 1:1</li>
+<li>If size on drawing &lt; the actual size, it is a REDUCED SCALE, represented as 1:4</li>
+<li>If size on drawing &gt; the actual size, it is a ENLARGED SCALE, represented as 3:1</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. What Are Applications Of Scales?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Scales can be used for the following purposes:</strong></p>
+<ul>
+<li>To draw an object on a full, reduced and enlarged scale.</li>
+<li>To measure distances.</li>
+<li>To mark dimensions on the drawing.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Are Different Types Of Scales?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Different styles of scales are:</strong></p>
+<p><strong>Plain scale:</strong> In which, one can measure certain units and its one tenth value. For example a scale in cm and mm is a plain scale, m and dm is another plain scale.</p>
+<p><strong>Diagonal scale:</strong> In which, one can measure certain units, its one tenth value as well as its one hundredth value. For example a scale in m, dm and cm is a diagonal scale, dm, and cm and mm is another diagonal scale.</p>
+<p><strong>Comparative or Corresponding scale:</strong> These are two different scales having same R.F. but different units. These can be placed side by side or placed over one and another.</p>
+<p><strong>For example:</strong> in miles and kilometres.</p>
+<p>These scales can be plain scales or diagonal scales.</p>
+<p><strong>Vernier scales:</strong> It is a scale which is extremely accurate for measurement. It uses a Vernier calliper. Vernier calliper is an instrument to measure a dimension very precisely. Normally its least count is 1/100 of the scale unit. Say a scale is in cm, then a Vernier can measure very accurately up to 1/100 of a cm i.e. 2.12 cm.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Are The Requirements For The Construction Of A Scale?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>(i) Maximum distance to be measured</p>
+<p>(ii) R.F.( representative fraction) of the scale</p>
+<p>Units of scale i.e. mm, cm, m, km</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. Write The Procedure For The Construction Of A Scale.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Note down the units to be measured i.e. km, m, cm——</li>
+<li>Find the R.F. of the scale.</li>
+<li>Find the length, L, of the scale</li>
+</ul>
+<p> L= (R.F.) x actual distance to be measured</p>
+<p>Draw a line and mark 0, 1, 2, 3, 4—— at equal distances on the right side of zero.</p>
+<p>Sub-divide 1 main part into 10 parts on the left side of zero.</p>
+<p>Mention clearly the units and sub units below the scale constructed.</p>
+<p> <strong>Example:</strong> Construct a scale having 2cm = 1 m to show m and dm and it should be long enough to measure a distance of 10 m.</p>
+<p>Units are m and dm.</p>
+<p>F. = 2/100=1/50</p>
+<p>L = (1/50) x 10 x 100=20 cm</p>
+<p>Draw a line of 20 cm length. Divide it into 10 equal parts to represent 1 m each.</p>
+<p>Mark zero after the first division and then number it 1, 2, 3, ——up to 9 on the right side of zero.</p>
+<p>Divide the first part into ten equal divisions to represent 1 decimetre each.</p>
+<p>Mark ten points on the left side of zero.</p>
+<p>Represent full meters on the right side and centimeters on the left side of zero to represent any required length say 5m 7 dm.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Which Are The Types Of Projections Done In Engineering Drawing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Orthographic projections are done on HP, VP and PP planes. Since projections are done on a plane, these projections are 2 dimensional.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Discuss Some Key Features About The Projection Of Points?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Distance of the front view is always from the HP.</li>
+<li>Distance of the top view is always from the VP.</li>
+</ul>
+<p>If distance above HP, front view is above xy and vice versa.</p>
+<p>If distance is in front of VP, top view is below xy and vice versa.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How Are The Projections Of A Point Marked For Its Front View And Top View?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Front view is marked by a small alphabet with a dash. The front view of point H will be h’.</li>
+<li>Top view is marked by a small alphabet without a dash. The front view of point H will be h.</li>
+</ul>
+<p>Point as such is written by a capital alphabet.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. Define A Line In General. Also Define It From The Drawing Point Of View?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>A line is the shortest distance between two points.</li>
+<li>A line in drawing can be defined in a number of ways.</li>
+</ol>
+<p>It is defined by the location of its two ends with respect to the principal planes of projections and its true length.</p>
+<p>Location of its two ends with respect to the principal planes and the distance between their projectors.</p>
+<p>One end is defined with respect to the principal planes of projections and its inclination given with one of the principal plane along with true length.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. Define The Trace Of A Line. What Are Various Types Of The Trace Of A Line?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Trace of a line is a point where the line meets if produced the HP or VP.</p>
+<p><strong>Types of trace of a line:</strong></p>
+<ul>
+<li>Horizontal trace (H.T.) When the line when produced meets at some point to HP.</li>
+<li>Vertical trace (V.T.) When the line when produced meets at some point to VP.</li>
+</ul>
+<p><strong>NOTE:</strong> When a line lies in a plane (HP or VP) its trace is a line and it is the line itself.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Are The Various Methods To Find The True Length And True Inclinations Of A Line When Its Projections Are Given?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Various methods to find the true length and inclinations are:</strong></p>
+<ul>
+<li>Rotation method</li>
+<li>Trapezoidal method</li>
+<li>Auxiliary plane method</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. What Are The Positions Of A Line With Respect To Hp And Vp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Line parallel to both HP and VP</li>
+<li> Line inclined to one plane and parallel to the other plane</li>
+<li>Line inclined to both HP and VP</li>
+</ul>
+<p>Write some important observations regarding projections of a straight line.</p>
+<ol>
+<li>Projection on a plane will be the true length to which plane line is parallel.</li>
+<li>Projection on a plane to which it is inclined will be less than the true length. If the line is inclined to HP, its top view on HP will be shorter than the true length.</li>
+<li>Projection will be a point on the plane to which line is perpendicular.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Is The Most Important Type Of Problems On The Projections Of A Straight Line?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are two main types of problems on the projections of a straight line:</strong></p>
+<ul>
+<li>The projections of a line are given. Find the true length and its true inclinations with HP and VP.</li>
+<li>The true length and its true inclinations with HP and VP are given. Draw its projections.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Define Engineering Drawing. Why Drawing Is Called Universal Language Of Engineers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Engineering drawing is a graphical language of an engineer to convey one’s ideas most effectively, easily, conveniently and with high speed.</li>
+<li>So Engineering drawing is a starting point of all engineering branches such as Mechanical, Production, Civil, Electrical, Electronics, Computer science, Chemical etc. </li>
+<li>It is spoken, read, and written in its own way. Engineering drawing has its own grammar in terms of projections, conventional representations, types of lines, abbreviations, symbols and various geometric constructions.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Name Different Drawing Instruments.?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Drawing board, drawing sheet, mini-drafter, scale, pencil and sand paper block, cello-tape, eraser and compass.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Are The Standard Sizes Of Drawing Sheets According To I.s.i. And Which Is Suitable For Drawing Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The standard size of sheets according to I.S.I. are:</strong></p>
+<ul>
+<li>A0 (1189 X 841),</li>
+<li>A1 (841 X 594), </li>
+<li>A2 (594 X 420), </li>
+<li>A3 (420 X 297), </li>
+<li>A4 (297 X 210) and </li>
+<li>A5 (210 X 148).</li>
+</ul>
+<p>Drawing sheet of size 594 X 420 i.e. A2 size is generally used by engineering students as it is very handy and easy for drawing work in class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Are The Ways Of Sharpening A Pencil For Good And Accurate Work And Which Type Of Pencil Is More Suitable For Drawing Work?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>There are two ways of sharpening a pencil: </strong></p>
+<ul>
+<li>A small piece of sand paper of zero grade, pasted upon a piece of wood. </li>
+<li>Sharpener.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. Why Cello-tape Is Used Instead Of Drawing Pins, Nowadays?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Nowadays, cello tapes are used in place of drawing pins for its practical convenience as the drafter, can be moved easily over the tape and the drawing board is spoiled by the use of drawing pins.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Layout Of Drawing Sheet?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>(i) Leave the following margins</p>
+<p>1cm on top</p>
+<p>1cm on bottom</p>
+<p>1cm on right </p>
+<p>3cm on left</p>
+<p>(i) Make a title block(rectangle) of size 65 mm high and 185 mm width on the right bottom side for title block, parts list</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. Why Is The Layout Of Sheet Is Necessary?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Layout of the drawing on the drawing sheet is necessary in order to make its reading easy and fast. The title blocks, parts list etc will provide all the required information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. List Out The Contents Of Title Block.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>The title block should contain the following information:</strong></p>
+<ol>
+<li>Name of the institution</li>
+<li>Title of drawing</li>
+<li>Name, Branch, section and Roll no. of the student</li>
+<li>Type of scale used</li>
+<li>Drawing number</li>
+<li>Type of symbol for the method of projection</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. What Do You Mean By Convention/ Code?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The representation of any matter by some standard sign or symbol on the drawing is known as convention or code. The conventions make the drawing simple and easy to draw.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. What Do You Understand By Thickness Of Lines?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are three distinct thickness of lines used in engineering drawing. These lines are specified as thick, medium and thin lines. The line specified as thick is usually 3 times thicker and the line specified as medium is 2 times thicker than a thin line.</p></p>
+</li><br><br>

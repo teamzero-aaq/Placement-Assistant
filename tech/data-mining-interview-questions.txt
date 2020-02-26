@@ -1,0 +1,313 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Data Mining?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data mining is a process of extracting hidden trends within a datawarehouse. For example an insurance dataware house can be used to mine data for the most high risk people to insure in a certain geographial area.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Differentiate Between Data Mining And Data Warehousing? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data warehousing is merely extracting data from different sources, cleaning the data and storing it in the warehouse. Where as data mining aims to examine or explore the data using queries. These queries can be fired on the data warehouse. Explore the data in data mining helps in reporting, planning strategies, finding meaningful patterns etc.</p>
+<p>E.g. a data warehouse of a company stores all the relevant information of projects and employees. Using Data mining, one can use this data to generate different reports like profits generated etc.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Is Data Purging? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The process of cleaning junk data is termed as data purging. Purging data would mean getting rid of unnecessary NULL values of columns. This usually happens when the size of the database gets too large.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are Cubes? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A data cube stores data in a summarized version which helps in a faster analysis of data. The data is stored in such a way that it allows reporting easily.</p>
+<p>E.g. using a data cube A user may want to analyze weekly, monthly performance of an employee. Here, month and week could be considered as the dimensions of the cube.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Are Olap And Oltp?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An IT system can be divided into Analytical Process and Transactional Process.</p>
+<p>OLTP – categorized by short online transactions. The emphasis is query processing, maintaining data integration in multi-access environment.</p>
+<p>OLAP – Low volumes of transactions are categorized by OLAP. Queries involve aggregation and very complex. Response time is an effectiveness measure and used widely in data mining techniques.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Are The Different Problems That "data Mining" Can Solve? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>•	Data mining helps analysts in making faster business decisions which increases revenue with lower costs.<br/>
+•	Data mining helps to understand, explore and identify patterns of data.<br/>
+•	Data mining automates process of finding predictive information in large databases.<br/>
+•	Helps to identify previously hidden patterns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Are Different Stages Of "data Mining"? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Exploration:</strong> This stage involves preparation and collection of data. it also involves data cleaning, transformation. Based on size of data, different tools to analyze the data may be required. This stage helps to determine different variables of the data to determine their behavior.</p>
+<p><strong>Model building and validation:</strong> This stage involves choosing the best model based on their predictive performance. The model is then applied on the different data sets and compared for best performance. This stage is also called as pattern identification. This stage is a little complex because it involves choosing the  best pattern to allow easy predictions.</p>
+<p><strong>Deployment:</strong> Based on model selected in previous stage, it is applied to the data sets. This is to generate predictions or estimates of the expected outcome.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Discrete And Continuous Data In Data Mining World? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Discreet data can be considered as defined or finite data. E.g. Mobile numbers, gender. Continuous data can be considered as data which changes continuously and in an ordered fashion. E.g. age.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Is Model In Data Mining World? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Models in Data mining help the different algorithms in decision making or pattern matching. The second stage of data mining involves considering various models and choosing the best one based on their predictive performance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. How Does The Data Mining And Data Warehousing Work Together? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data warehousing can be used for analyzing the business needs by storing data in a meaningful form. Using Data mining, one can forecast the business needs. Data warehouse can act as a source of this forecasting.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. What Is A Decision Tree Algorithm? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A decision tree is a tree in which every node is either a leaf node or a decision node. This tree takes an input an object and outputs some decision. All Paths from root node to the leaf node are reached by either using AND or OR or BOTH. The tree is constructed using the regularities of the data. The decision tree is not affected by Automatic Data Preparation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. What Is Naive Bayes Algorithm? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Naive Bayes Algorithm is used to generate mining models. These models help to identify relationships between input columns and the predictable columns. This algorithm can be used in the initial stage of exploration. The algorithm calculates the probability of every state of each input column given predictable columns possible states. After the model is made, the results can be used for exploration and making predictions.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Explain Clustering Algorithm? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Clustering algorithm is used to group sets of data with similar characteristics also called as clusters. These clusters help in making faster decisions, and exploring data. The algorithm first identifies relationships in a dataset following which it generates a series of clusters based on the relationships. The process of creating clusters is iterative. The algorithm redefines the groupings to create clusters that better represent the data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. What Is Time Series Algorithm In Data Mining? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Time series algorithm can be used to predict continuous values of data. Once the algorithm is skilled to predict a series of data, it can predict the outcome of other series. The algorithm generates a model that can predict trends based only on the original dataset. New data can also be added that automatically becomes a part of the trend analysis.</p>
+<p>E.g. Performance one employee can influence or forecast the profit.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Explain Association Algorithm In Data Mining?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Association algorithm is used for recommendation engine that is based on a market based analysis. This engine suggests products to customers based on what they bought earlier. The model is built on a dataset containing identifiers. These identifiers are both for individual cases and for the items that cases contain. These groups of items in a data set are called as an item set. The algorithm traverses a data set to find items that appear in a case. MINIMUM_SUPPORT parameter is used any associated items that appear into an item set.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. What Is Sequence Clustering Algorithm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sequence clustering algorithm collects similar or related paths, sequences of data containing events. The data represents a series of events or transitions between states in a dataset like a series of web clicks. The algorithm will examine all probabilities of transitions and measure the differences, or distances, between all the possible sequences in the data set. This helps it to determine which sequence can be the best for input for clustering.</p>
+<p>E.g. Sequence clustering algorithm may help finding the path to store a product of “similar” nature in a retail ware house.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Explain The Concepts And Capabilities Of Data Mining?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data mining is used to examine or explore the data using queries. These queries can be fired on the data warehouse. Explore the data in data mining helps in reporting, planning strategies, finding meaningful patterns etc. it is more commonly used to transform large amount of data into a meaningful form. Data here can be facts, numbers or any real time information like sales figures, cost, meta data etc. Information would be the patterns and the relationships amongst the data that can provide information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Explain How To Work With The Data Mining Algorithms Included In Sql Server Data Mining? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>SQL Server data mining offers Data Mining Add-ins for office 2007 that allows discovering the patterns and relationships of the data. This also helps in an enhanced analysis. The Add-in called as Data Mining client for Excel is used to first prepare data, build, evaluate, manage and predict results.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Explain How To Use Dmx-the Data Mining Query Language. </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data mining extension is based on the syntax of SQL. It is based on relational concepts and mainly used to create and manage the data mining models. DMX comprises of two types of statements: Data definition and Data manipulation. Data definition is used to define or create new models, structures.</p>
+<p>Example:<br/>
+CREATE MINING SRUCTURE<br/>
+CREATE MINING MODEL<br/>
+Data manipulation is used to manage the existing models and structures.<br/>
+Example:<br/>
+INSERT INTO<br/>
+SELECT FROM .CONTENT (DMX)</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. Explain How To Mine An Olap Cube?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A data mining extension can be used to slice the data the source cube in the order as discovered by data mining. When a cube is mined the case table is a dimension.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Are The Different Ways Of Moving Data/databases Between Servers And Databases In Sql Server? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>There are several ways of doing this. One can use any of the following options:<br/>
+- BACKUP/RESTORE, <br/>
+- Dettaching/attaching databases, <br/>
+- Replication, <br/>
+- DTS, <br/>
+- BCP, <br/>
+- logshipping, <br/>
+- INSERT...SELECT, <br/>
+- SELECT...INTO, <br/>
+- creating INSERT scripts to generate data.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Are The Benefits Of User-defined Functions? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>a. Can be used in a number of places without restrictions as compared to stored procedures.<br/>
+b. Code can be made less complex and easier to write.<br/>
+c. Parameters can be passed to the function.<br/>
+d. They can be used to create joins and also be sued in a select, where or case statement.<br/>
+e. Simpler to invoke.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. Define Pre Pruning?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A tree is pruned by halting its construction early. Upon halting, the node becomes a leaf. The leaf may hold the most frequent class among the subset samples.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. What Are Interval Scaled Variables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Interval scaled variables are continuous measurements of linear scale. For example, height and weight, weather temperature or coordinates for any cluster. These measurements can be calculated using Euclidean distance or Minkowski distance.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is A Sting? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Statistical Information Grid is called as STING; it is a grid based multi resolution clustering method. In STING method, all the objects are contained into rectangular cells, these cells are kept into various levels of resolutions and these levels are arranged in a hierarchical structure.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Is A Dbscan? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Density Based Spatial Clustering of Application Noise is called as DBSCAN. DBSCAN is a density based clustering method that converts the high-density objects regions into clusters with arbitrary shapes and sizes. DBSCAN defines the cluster as a maximal set of density connected points.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Define Density Based Method? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Density based method deals with arbitrary shaped clusters. In density-based method, clusters are formed on the basis of the region where the density of the objects is high.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Define Chameleon Method? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Chameleon is another hierarchical clustering method that uses dynamic modeling. Chameleon is introduced to recover the drawbacks of CURE method. In this method two clusters are merged, if the interconnectivity between two clusters is greater than the interconnectivity between the objects within a cluster.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. What Do U Mean By Partitioning Method? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In partitioning method a partitioning algorithm arranges all the objects into various partitions, where the total number of partitions is less than the total number of objects. Here each partition represents a cluster. The two types of partitioning method are k-means and k-medoids.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Define Genetic Algorithm?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Enables us to locate optimal binary string by processing an initial random population of binary strings by performing operations such as artificial mutation , crossover and selection.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is Ods? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>1. ODS means Operational Data Store.<br/>
+2. A collection of operation or bases data that is extracted from operation databases and standardized, cleansed, consolidated, transformed, and loaded into an enterprise data architecture. An ODS is used to support data mining of operational data, or as the store for base data that is summarized for a data warehouse. The ODS may also be used to audit the data warehouse to assure summarized and derived data is calculated properly. The ODS may further become the enterprise shared operational database, allowing operational systems that are being reengineered to use the ODS as there operation databases.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is Spatial Data Mining?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Spatial data mining is the application of data mining methods to spatial data. Spatial data mining follows along the same functions in data mining, with the end objective to find patterns in geography. So far, data mining and Geographic Information Systems (GIS) have existed as two separate technologies, each with its own methods, traditions and approaches to visualization and data analysis. Particularly, most contemporary GIS have only very basic spatial analysis functionality. The immense explosion in geographically referenced data occasioned by developments in IT, digital mapping, remote sensing, and the global diffusion of GIS emphasises the importance of developing data driven inductive approaches to geographical analysis and modeling.</p>
+<p>Data mining, which is the partially automated search for hidden patterns in large databases, offers great potential benefits for applied GIS-based decision-making. Recently, the task of integrating these two technologies has become critical, especially as various public and private sector organizations possessing huge databases with thematic and geographically referenced data begin to realise the huge potential of the information hidden there. Among those organizations are:</p>
+<p>* offices requiring analysis or dissemination of geo-referenced statistical data<br/>
+* public health services searching for explanations of disease clusters<br/>
+* environmental agencies assessing the impact of changing land-use patterns on climate change<br/>
+* geo-marketing companies doing customer segmentation based on spatial location.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Smoothing? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Smoothing is an approach that is used to remove the nonsystematic behaviors found in time series. It usually takes the form of finding moving averages of attribute values. It is used to filter out noise and outliers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Are The Advantages Data Mining Over Traditional Approaches? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data Mining is used for the estimation of future. For example if we take a company/business organization by using the concept of Data Mining we can predict the future of business interms of Revenue (or) Employees (or) Cutomers (or) Orders etc.</p>
+<p>Traditional approches use simple algorithms for estimating the future. But it does not give accurate results when compared to Data Mining.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Model Based Method? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>For optimizing a fit between a given data set and a mathematical model based methods are used. This method uses an assumption that the data are distributed by probability distributions. There are two basic approaches in this method that are<br/>
+1. Statistical Approach<br/>
+2. Neural Network Approach.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Is An Index? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Indexes of SQL Server are similar to the indexes in books. They help SQL Server retrieve the data quicker. Indexes are of two types. Clustered indexes and non-clustered indexes. Rows in the table are stored in the order of the clustered index key.<br/>
+There can be only one clustered index per table.<br/>
+Non-clustered indexes have their own storage separate from the table data storage.<br/>
+Non-clustered indexes are stored as B-tree structures.<br/>
+Leaf level nodes having the index key and it's row locater.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. Mention Some Of The Data Mining Techniques?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Statistics</li>
+<li>Machine learning</li>
+<li>Decision Tree</li>
+<li>Hidden markov models</li>
+<li>Artificial Intelligence</li>
+<li>Genetic Algorithm</li>
+<li>Meta learning</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. Define Binary Variables? And What Are The Two Types Of Binary Variables?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Binary variables are understood by two states 0 and 1, when state is 0, variable is absent and when state is 1, variable is present. There are two types of binary variables, symmetric and asymmetric binary variables. Symmetric variables are those variables that have same state values and weights. Asymmetric variables are those variables that have not same state values and weights.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Explain The Issues Regarding Classification And Prediction?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><em><strong>Preparing the data for classification and prediction:</strong></em></p>
+<ul>
+<li>Data cleaning</li>
+<li> Relevance analysis</li>
+<li> Data transformation</li>
+<li>Comparing classification methods</li>
+<li> Predictive accuracy</li>
+<li> Speed</li>
+<li> Robustness</li>
+<li> Scalability</li>
+<li> Interpretability</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. What Are Non-additive Facts? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Non-Additive: Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques40"><strong>Question 41. What Is Meteorological Data? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Meteorology is the interdisciplinary scientific study of the atmosphere. It observes the changes in temperature, air pressure, moisture and wind direction. Usually, temperature, pressure, wind measurements and humidity are the variables that are measured by a thermometer, barometer, anemometer, and hygrometer, respectively. There are many methods of collecting data and Radar, Lidar, satellites are some of them.</p>
+<p>Weather forecasts are made by collecting quantitative data about the current state of the atmosphere. The main issue arise in this prediction is, it involves high-dimensional characters. To overcome this issue, it is necessary to first analyze and simplify the data before proceeding with other analysis. Some data mining techniques are appropriate in this context.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques41"><strong>Question 42. Define Descriptive Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is used to determine the patterns and relationships in a sample data.</p>
+<p><strong>Data mining tasks that belongs to descriptive model:</strong></p>
+<ol>
+<li>Clustering</li>
+<li>Summarization</li>
+<li>Association rules</li>
+<li>Sequence discovery</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques42"><strong>Question 43. What Is A Star Schema? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Star schema is a type of organising the tables such that we can retrieve the result from the database easily and fastly in the warehouse environment.Usually a star schema consists of one or more dimension tables around a fact table which looks like a star,so that it got its name.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques43"><strong>Question 44. What Are The Steps Involved In Kdd Process?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Data cleaning</li>
+<li>Data Mining</li>
+<li>Pattern Evaluation</li>
+<li>Knowledge Presentation</li>
+<li>Data Integration</li>
+<li>Data Selection</li>
+<li>Data Transformation</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques44"><strong>Question 45. What Is A Lookup Table?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A lookUp table is the one which is used when updating a warehouse. When the lookup is placed on the target table (fact table / warehouse) based upon the primary key of the target, it just updates the table by allowing only new records or updated records based on the lookup condition.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques45"><strong>Question 46. What Is Attribute Selection Measure? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The information Gain measure is used to select the test attribute at each node in the decision tree. Such a measure is referred to as an attribute selection measure or a measure of the goodness of split.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques46"><strong>Question 47. Explain Statistical Perspective In Data Mining? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li> Point estimation</li>
+<li> Data summarization</li>
+<li> Bayesian techniques</li>
+<li> Hypothesis testing</li>
+<li> Regression</li>
+<li> Correlation</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques47"><strong>Question 48. Define Wave Cluster? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>It is a grid based multi resolution clustering method. In this method all the objects are represented by a multidimensional grid structure and a wavelet transformation is applied for finding the dense region. Each grid cell contains the information of the group of objects that map into a cell. A wavelet transformation is a process of signaling that produces the signal of various frequency sub bands.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques48"><strong>Question 49. What Is Time Series Analysis? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A time series is a set of attribute values over a period of time. Time Series Analysis may be viewed as finding patterns in the data and predicting future values.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques49"><strong>Question 50. Explain Mining Single ?dimensional Boolean Associated Rules From Transactional
+Databases?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The apriori algorithm: Finding frequent itemsets using candidate generation Mining frequent item sets without candidate generation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques50"><strong>Question 51. What Is Meta Learning? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Concept of combining the predictions made from multiple models of data mining and analyzing those predictions to formulate a new and previously unknown prediction.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques51"><strong>Question 52. Describe Important Index Characteristics? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The characteristics of the indexes are:<br/>
+* They fasten the searching of a row.<br/>
+* They are sorted by the Key values.<br/>
+* They are small and contain only a small number of columns of the table.<br/>
+* They refer for the appropriate block of the table with a key value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques52"><strong>Question 53. What Is The Use Of Regression?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Regression can be used to solve the classification problems but it can also be used for applications such as forecasting. Regression can be performed using many different types of techniques; in actually regression takes a set of data and fits the data to a formula.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques53"><strong>Question 54. What Is Dimensional Modelling? Why Is It Important ?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Dimensional Modelling is a design concept used by many data warehouse desginers to build thier data warehouse. In this design model all the data is stored in two types of tables - Facts table and Dimension table. Fact table contains the facts/measurements of the business and the dimension table contains the context of measuremnets ie, the dimensions on which the facts are calculated.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques54"><strong>Question 55. What Is Unique Index? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Unique index is the index that is applied to any column of unique value.<br/>
+A unique index can also be applied to a group of columns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques55"><strong>Question 56. What Are The Foundations Of Data Mining? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data mining techniques are the result of a long process of research and product development. This evolution began when business data was first stored on computers, continued with improvements in data access, and more recently, generated technologies that allow users to navigate through their data in real time. Data mining takes this evolutionary process beyond retrospective data access and navigation to prospective and proactive information delivery. Data mining is ready for application in the business community because it is supported by three technologies that are now sufficiently mature:<br/>
+* Massive data collection<br/>
+* Powerful multiprocessor computers<br/>
+* Data mining algorithms</p>
+<p>Commercial databases are growing at unprecedented rates. A recent META Group survey of data warehouse projects found that 19% of respondents are beyond the 50 gigabyte level, while 59% expect to be there by second quarter of 1996.1 In some industries, such as retail, these numbers can be much larger. The accompanying need for improved computational engines can now be met in a cost-effective manner with parallel multiprocessor computer technology. Data mining algorithms embody techniques that have existed for at least 10 years, but have only recently been implemented as mature, reliable, understandable tools that consistently outperform older statistical methods.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques56"><strong>Question 57. What Snow Flake Schema? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Snowflake Schema, each dimension has a primary dimension table, to which one or more additional dimensions can join. The primary dimension table is the only table that can join to the fact table.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques57"><strong>Question 58. Differences Between Star And Snowflake Schemas?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Star schema - all dimensions will be linked directly with a fat table.<br/>
+Snow schema - dimensions maybe interlinked or may have one-to-many relationship with other tables.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques58"><strong>Question 59. What Is Hierarchical Method? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hierarchical method groups all the objects into a tree of clusters that are arranged in a hierarchical order. This method works on bottom-up or top-down approaches.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques59"><strong>Question 60. What Is Cure? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Clustering Using Representatives is called as CURE. The clustering algorithms generally work on spherical and similar size clusters. CURE overcomes the problem of spherical and similar size cluster and is more robust with respect to outliers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques60"><strong>Question 61. What Is Etl? </strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>ETL stands for extraction, transformation and loading.</p>
+<p>ETL provide developers with an interface for designing source-to-target mappings, ransformation and job control parameter.<br/>
+*Extraction<br/>
+Take data from an external source and move it to the warehouse pre-processor database.<br/>
+*Transformation<br/>
+Transform data task allows point-to-point generating, modifying and transforming data.<br/>
+*Loading<br/>
+Load data task adds records to a database table in a warehouse.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques61"><strong>Question 62. Define Rollup And Cube?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Custom rollup operators provide a simple way of controlling the process of rolling up a member to its parents values.The rollup uses the contents of the column as custom rollup operator for each member and is used to evaluate the value of the member’s parents.</p>
+<p>If a cube has multiple custom rollup formulas and custom rollup members, then the formulas are resolved in the order in which the dimensions have been added to the cube.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques62"><strong>Question 63. What Are The Different Problems That "data Mining" Can Solve?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>*Data mining helps analysts in making faster business decisions which increases revenue with lower costs.</p>
+<p>*Data mining helps to understand, explore and identify patterns of data.</p>
+<p>*Data mining automates process of finding predictive information in large databases.</p>
+<p>*Helps to identify previously hidden patterns.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques63"><strong>Question 64. What Are Different Stages Of "data Mining"?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Exploration: This stage involves preparation and collection of data. it also involves data cleaning, transformation. Based on size of data, different tools to analyze the data may be required. This stage helps to determine different variables of the data to determine their behavior.</p>
+<p>Model building and validation: This stage involves choosing the best model based on their predictive performance. The model is then applied on the different data sets and compared for best performance. This stage is also called as pattern identification. This stage is a little complex because it involves choosing the best pattern to allow easy predictions.</p>
+<p>Deployment: Based on model selected in previous stage, it is applied to the data sets. This is to generate predictions or estimates of the expected outcome.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques64"><strong>Question 65. Explain How To Use Dmx-the Data Mining Query Language?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Data mining extension is based on the syntax of SQL. It is based on relational concepts and mainly used to create and manage the data mining models. DMX comprises of two types of statements: Data definition and Data manipulation. Data definition is used to define or create new models, structures.</p>
+<p>Example:<br/>
+CREATE MINING SRUCTURE<br/>
+CREATE MINING MODEL</p>
+<p>Data manipulation is used to manage the existing models and structures.</p>
+<p>Example:<br/>
+INSERT INTO<br/>
+SELECT FROM .CONTENT (DMX)</p></p>
+</li><br><br>

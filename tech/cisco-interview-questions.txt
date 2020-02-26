@@ -1,0 +1,97 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. Have You Managed Heterogeneous Networks And Environments, Supporting Both Linux And Windows-based Networking?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>What most people say:</strong> This is not a yes or no question. Elaborate on your experience.</p>
+<p><strong>What you should say:</strong> Describe the challenges hybrid environments pose, but don’t gloss over the problems or your struggles. Explain how you managed a tough situation or found an innovative solution.</p>
+<p><strong>Why you should say it:</strong> The Linux Foundation’s Enterprise End User study has found that companies are deploying more Linux while keeping their Windows servers. That means you need to show proficiency in both.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Are Some Examples Of Troubleshooting Methods You’ve Successfully Used In The Past?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>What most people say:</strong> Someone who’s never been in charge of a troubleshooting project and simply did what they were told might give a generic answer or outline some more traditional troubleshooting methods. That doesn’t make them stand out.</p>
+<p><strong>What you should say:</strong> Every network issue is different, and say so. Then be specific about how you identified a particular problem and went about fixing it. For example, just mentioning that you’ve used the Top Down or Bottom Up approach is helpful, but offer specific details.</p>
+<p><strong>Why you should say it:</strong> The details show the interviewer that you have specific and successful troubleshooting experience.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Tools Do You Typically Use To Isolate And Troubleshoot Network Issues?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>What many people say:</strong> They list the names of the tools.</p>
+<p><strong>What you should say:</strong> Explain your selection process and throw in something illustrating your diligence and attention to detail.</p>
+<p><strong>Why you should say it:</strong> The interviewer wants to know more than the names, but also why you prefer them. This allows the manager to get a deeper understanding of your real knowledge of networking in all environments.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Are Some Ways You’ve Improved Network Performance In The Past?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>What most people say:</strong> They talk about problems they’ve fixed in the past, but not necessarily how they’ve improved performance.</p>
+<p><strong>What you should say:</strong> Qualified candidates usually have crowning moments to talk about, instances where they’ve taken on a project and seriously improved the network’s performance. You should jump on this question and answer it with strength and excitement.</p>
+<p><strong>Why you should say it:</strong> Most companies are looking not only for network engineers who are not only problem-solvers, but people who can strengthen they networks and organization.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. How Much Experience Do You Have Working With The Development Team As Well As The Sysadmin/networking Team?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>What most people say:</strong> The DevOps concept of integrating the development and operations teams is fairly new, so don’t fudge it if you’ve been on only one side or the other. These teams focus on shrinking development time, saving money and eliminating conflicts between developed projects and operational integration, and rely heavily on open communication.</p>
+<p><strong>What you should say:</strong> Even if you haven’t been on such a team, here’s an opportunity to tell a story about a related skill, such as your ability to work closely with other units or to communicate effectively.</p>
+<p><strong>Why you should say it:</strong> As these teams become more common, you’ll need to be able to articulate this experience or your willingness to dive in.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Things Should Be Considered When Designing An Enterprise Network?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>What most people say:</strong> They mention some of the more generic things to be considered (which  can easily be found through a basic Internet search. Managers know that.).</p>
+<p><strong>What you should say:</strong> Begin with, “That depends, because a cookie-cutter approach just won’t work when it comes to enterprise network design.” Then outline a specific enterprise network you’ve designed and its particular concerns.</p>
+<p><strong>Why you should say it:</strong> This type of answer lets the interviewer know more about your specific level of experience rather than just your level of technical knowledge. In just about every case, experience trumps knowledge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Describe How You’ve Met The Challenges Associated With Ipv6?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li><strong>What most people say:</strong> Usually that IPv6 is a problem that can be worked around with approaches like network address translation.</li>
+<li><strong>What you should say:</strong> IPv6 is a real and definite channel that needs to be met head on.</li>
+<li><strong>Why you should say it:</strong> It’s true and the answer sounds proactive.</li>
+</ul>
+<p>We compiled these questions and answers with the Linux Foundation’s training staff, Andrew Schrage, co-owner of the startup Money Crashers, and Carl Weinschenk, longtime data and telecom blogger for websites like IT Business Edge.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Is Recovery Testing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In software testing, recovery testing is the activity of testing how well the software is able to recover from crashes, hardware failures and other similar problems.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Which Layer Is Responsible For Determining If Sufficient Resources For The Intended Communication Exists?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The Application layer of the OSI model is where users communicate to the computer. The Application layer is responsible for identifying and establishing the availability of the intended communication partner and determining if sufficient resources for the intended communication exist.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Are The 2 Functions Of The Data Link Mac Layer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Handles access to shared media and Allows multiple devices to uniquely identify one another on the data link layer.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Describe End To End Network Service?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Accomplished Segment by Segment, each segment is autonomous and Flow Control &amp; Data Integrity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Which Of The Following Provide Correct Information About A Protocol At The Transport Layer Of The Osi Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>UDP –</strong> Provides Connectionless datagrams service and</p>
+<p><strong>TCP –</strong> Provides Connection Oriented Services</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Which Layer Is Responsible For Providing Mechanisms For Multiplexing Upper-layer Application, Session Establishment, And Tear Down Of Virtual Circuits?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Transport Layer</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Which Of The Following Are Logged When Ip Access List Logging Is Enabled?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>source address</li>
+<li>protocol</li>
+<li>source port</li>
+<li>destination address</li>
+<li>access list number</li>
+<li>destination port</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is The Default Cdp Holdtime In Seconds For Cisco Routers?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>180 Seconds</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Which Two Of The Following Protocols Are Used At The Transport Layer?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>TCP and UDP</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. Choose Three Reasons Why The Networking Industry Uses A Layered Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>It facilitates systematic troubleshooting</li>
+<li>It allows changes in one layer to occur without changing other layers</li>
+<li>It clarifies what general function is to be done rather than how to do it</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Which Layer Is Responsible For Identifying And Establishing The Availability Of The Intended Communication Partner?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Application</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. What Is Tacacs? Radius?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p><strong>Terminal Access Controller Access-Control System (TACACS):</strong> This is a remote authentication protocol that is used to communicate with an authentication server commonly used in UNIX networks. TACACS allows a remote access server to communicate with an authentication server in order to determine if the user has access to the network.</p>
+<p><strong>RADIUS:</strong> Remote Authentication Dial In User Service (RADIUS) is an AAA (authentication, authorization, and accounting) protocol for controlling access to network resources. RADIUS is commonly used by ISPs and corporations managing access to Internet or internal networks across an array of access technologies including modem, DSL, wireless and VPNs.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Flow Or Netflow?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NetFlow is an open but proprietary network protocol developed by Cisco Systems to run on Cisco IOS-enabled equipment for collecting IP traffic information.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Is Span Or Rspan?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Switched Port Analyzer. Remote Switched Port Analyzer. You can monitor traffic flowing to a port from another port.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. What Is Vmps?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The VLAN Membership Policy Server ( VMPS ) makes it possible to use a client/server architecture to manage dynamic VLAN based on the MAC addresses. When someone connects to a port, the client switch connects it to server VMPS to know if this MAC address can be connected to this port.</p></p>
+</li><br><br>

@@ -1,0 +1,797 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. For Every Interface Written In A Java File, .class File Will Be Generated After Compilation? True Or False?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>True. For every interface written in a java file, .class file will be generated after compilation.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. Can You Identify The Error In The Below Code?
+Interface A
+{
+    Private Int I;
+}</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Illegal modifier for field i. Only public, static and final are allowed.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Will Be The Output Of The Following Program?<br/>
+Interface A<br/>
+{<br/>
+    Void Mymethod();<br/>
+}<br/>
+ Class B<br/>
+{<br/>
+    Public Void My Method()<br/>
+    {<br/>
+        System.out.println("my Method");<br/>
+    }<br/>
+}<br/>
+ Class C Extends B Implements A<br/>
+{<br/>
+     }<br/>
+ Class Main Class<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/> 
+    {<br/>
+        A A = New C();<br/>
+                 A.mymethod();<br/>
+    }<br/>
+}</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>My Method</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. Can A Class Implement More Than One Interfaces?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, a class can implement more than one interfaces.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. Why The Below Code Is Showing Compile Time Error?<br/>
+Interface X<br/>
+{<br/>
+    Void Method X();<br/>
+}<br/>
+ Class Y Implements X<br/>
+{<br/>
+    Void Methodx()<br/>
+    {<br/>
+        System.out.println("method X"); <br/>
+    } <br/>
+}</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Interface methods must be implemented as public. Because, interface methods are public by default and you should not reduce the visibility of any methods while overriding.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. Does Below Code Compile Successfully? If Not, Why?<br/>
+<br/>
+Interface A<br/>
+{<br/>
+    Int I = 111;<br/>
+}<br/>
+
+Class B Implements A <br/>
+{<br/>
+    Void Methodb()<br/>
+    {<br/>
+        I = 222;<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No, because interface fields are static and final by default and you can’t change their value once they are initialized. In the above code, methodB() is changing value of interface field A.i. It shows compile time error.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. Is The Following Code Written Correctly?<br/>
+<br/>
+Class A<br/>
+{<br/>
+    //class A<br/>
+}<br/>
+ 
+Interface B Extends A<br/>
+{<br/>
+    //interface B Extending Class A<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. An interface can extend another interface not the class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Interface P<br/>
+{<br/>
+    String P = "pppp";<br/>
+     
+    String Methodp();<br/>
+}<br/>
+ 
+Interface Q Extends P<br/>
+{<br/>
+    String Q = "qqqq";<br/>
+     
+    String Methodq();<br/>
+}<br/>
+ 
+Class R Implements P, Q<br/>
+{<br/>
+    Public String Methodp()<br/>
+    {<br/>
+        Return Q+p;<br/>
+    }<br/>
+     
+    Public String Methodq()<br/>
+    {<br/>
+        Return P+q;<br/>
+    }<br/>
+}<br/>
+ 
+Public Class Mainclass <br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        R R = New R();<br/>
+         
+        System.out.println(r.methodp());<br/>
+         
+        System.out.println(r.methodq());<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>QQQQPPPP</p>
+<p>PPPPQQQQ</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. Can Interfaces Have Constructor?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No. Interfaces can’t have constructors.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. Is The Below Program Written Correctly? If Yes, What Will Be The Output?<br/>
+<br/>
+Class A Implements B<br/>
+{    <br/>
+    Public Int Methodb(int I)<br/>
+    {<br/>
+        Return I =+ I * I;<br/>
+    }<br/>
+}<br/>
+ 
+Interface B<br/>
+{<br/>
+    Int Methodb(int I);<br/>
+}<br/>
+ 
+Public Class Mainclass <br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        B B = New A();<br/>
+         
+        System.out.println(b.methodb(2));<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, program is written correctly. Output will be,</p>
+<p>4</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Can You Find Out The Errors In The Following Code?<br/>
+<br/>
+Interface A<br/>
+{<br/>
+    {<br/>
+        System.out.println("interface A");<br/>
+    }<br/>
+     
+    Static<br/>
+    {<br/>
+        System.out.println("interface A");<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Interfaces can’t have initializers.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. How Do You Access Interface Field ‘i’ In The Below Code?<br/>
+<br/>
+Class P<br/>
+{<br/>
+    Interface Q<br/>
+    {<br/>
+        Int I = 111;<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>P.Q.i</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. Like Classes In Java, Interfaces Also Extend Java.lang.object Class By Default. True Or False?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>False. Interfaces don’t extend Object class.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Does Below Program Compile Successfully?<br/>
+<br/>
+Interface Abc<br/>
+{<br/>
+    Public Void Methodone();<br/>
+     
+    Public Void Methodtwo();<br/>
+}<br/>
+ 
+Interface Pqr Extends Abc<br/>
+{<br/>
+    Public Void Methodone();<br/>
+     
+    Public Void Methodtwo();<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, program compiles successfully.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. Can Interfaces Have Static Methods?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, from Java 8, interfaces can have static methods</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Is The Following Program Written Correctly? If Yes, What Will Be The Output?<br/>
+<br/>
+Interface Abc<br/>
+{<br/>
+    Void Methodone();<br/>
+}<br/>
+ 
+Interface Pqr Extends Abc<br/>
+{    <br/>
+    Void Methodtwo();<br/>
+}<br/>
+ 
+Abstract Class Xyz Implements Pqr<br/>
+{<br/>
+    Public Void Methodone()<br/>
+    {<br/>
+        Methodtwo();<br/>
+    }<br/>
+}<br/>
+ 
+Class Mno Extends Xyz<br/>
+{<br/>
+    Public Void Methodtwo()<br/>
+    {<br/>
+        Methodone();<br/>
+    }<br/>
+}<br/>
+ 
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        Abc Abc = New Mno();<br/>
+         
+        Abc.methodone();<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, program is written is correctly. But, it will throw StackOverflowError at run time. Because, methodOne() and methodTwo() are cyclicly called.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Interface X<br/>
+{<br/>
+    Char C = 'a';<br/>
+     
+    Char Methodx();<br/>
+}<br/>
+ 
+Class Y Implements X<br/>
+{<br/>
+    {<br/>
+        System.out.println(c);<br/>
+    }<br/>
+     
+    Public Char Methodx()<br/>
+    {<br/>
+        Char C = This.c;<br/>
+      
+        Return ++c;<br/>
+    }<br/>
+}<br/>
+
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        Y Y = New Y();<br/>
+         
+        System.out.println(y.methodx());<br/>
+         
+        System.out.println(y.c);<br/>
+         
+        System.out.println(x.c);<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A</p>
+<p>B</p>
+<p>A</p>
+<p>A</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Can You Identify The Error In The Below Code?<br/>
+<br/>
+Interface A<br/>
+{<br/>
+    Void Methoda();<br/>
+}<br/>
+Class B Implements A<br/>
+{<br/>
+    Public Void Methoda()<br/>
+    {<br/>
+        Interface C<br/>
+        {<br/>
+            Int I = 123;<br/>
+        }<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Interfaces can’t be local members of a method.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Can We Declare An Interface As ‘abstract’?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, interfaces can be declared as ‘abstract’. But, there is no need to declare like that because interfaces are ‘abstract’ by default.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Interface One<br/>
+
+{<br/>
+
+    String S = "final";<br/>
+
+     
+
+    String Methodone();<br/>
+
+}<br/>
+
+ 
+
+Interface Two<br/>
+
+{<br/>
+
+    String Methodone();<br/>
+
+}<br/>
+
+ 
+
+Abstract Class Three<br/>
+
+{<br/>
+
+    String S = "not Final";<br/>
+
+     
+
+    Public Abstract String Methodone();<br/>
+
+}<br/>
+
+ 
+
+Class Four Extends Three Implements One, Two<br/>
+
+{<br/>
+
+    Public String Methodone()<br/>
+
+    {<br/>
+
+        String S = Super.s + One.s;<br/>
+
+         
+
+        Return S;<br/>
+
+    }<br/>
+
+}<br/>
+
+ 
+
+Public Class Mainclass<br/>
+
+{<br/>
+
+    Public Static Void Main(string[] Args)<br/>
+
+    {<br/>
+
+        Four Four = New Four();<br/>
+
+         
+
+        System.out.println(four.methodone());<br/>
+
+         
+
+        One One = Four;<br/>
+
+         
+
+        System.out.println(one.s);<br/>
+
+    }<br/>
+
+}</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>NOT FINALFINAL</p>
+<p>FINAL</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Will Be The Output Of The Below Program?<br/>
+<br/>
+Interface X<br/>
+{<br/>
+    Void Method();<br/>
+}<br/>
+ 
+Class Y<br/>
+{<br/>
+    Public Void Method()<br/>
+    {<br/>
+        System.out.println("class Y");<br/>
+    }<br/>
+}<br/>
+ 
+Class Z Extends Y Implements X<br/>
+{<br/>
+     
+}<br/>
+ 
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        X X = New Z();<br/>
+         
+        X.method();<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>CLASS Y</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Can Interfaces Have Methods Other Than Abstract?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, from Java 8, interfaces can have static methods and default methods other than abstract methods.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Interface A<br/>
+{<br/>
+    Int Methoda();<br/>
+}<br/>
+ 
+Interface B<br/>
+{<br/>
+    Int Methodb();<br/>
+}<br/>
+ 
+Interface C<br/>
+{<br/>
+    Int Methodc();<br/>
+}<br/>
+ 
+Class D Implements A, B, C<br/>
+{<br/>
+    Int I = 999+111;<br/>
+     
+    Public Int Methoda()<br/>
+    {<br/>
+        I =+ I / I;<br/>
+         
+        Return I;<br/>
+    }<br/>
+     
+    Public Int Methodb()<br/>
+    {<br/>
+        I =- I * I;<br/>
+         
+        Return I;<br/>
+    }<br/>
+     
+    Public Int Methodc()<br/>
+    {<br/>
+        I = ++i - --i;<br/>
+         
+        Return I;<br/>
+    }<br/>
+}<br/>
+ 
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        D D = New D();<br/>
+         
+        System.out.println(d.i);<br/>
+         
+        System.out.println(d.methoda());<br/>
+         
+        System.out.println(d.methodb());<br/>
+         
+        System.out.println(d.methodc());<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>1110</p>
+<p>1</p>
+<p>-1</p>
+<p>1</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. How Do You Print The Value Of Field ‘i’ Of Interface ‘onetwothree’ In The Below Example And What Will Be The It’s Value?<br/>
+<br/>
+Interface One<br/>
+{<br/>
+    Int I = 222;<br/>
+     
+    Interface Onetwo<br/>
+    {<br/>
+        Int I = One.i+one.i;<br/>
+         
+        Interface Onetwothree<br/>
+        {<br/>
+            Int I = Onetwo.i + Onetwo.i;<br/>
+        }<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Printing ‘i’ value —&gt; System.out.println(One.OneTwo.OneTwoThree.i)</p>
+<p>Value of One.OneTwo.OneTwoThree.i will be 888.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. All Members Of Interface Are Public By Default. True Or False?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>True.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Interface A<br/>
+{<br/>
+    String A = "aaa";<br/>
+     
+    String Methoda();<br/>
+}<br/>
+Interface B<br/>
+{<br/>
+    String B = "bbb";<br/>
+     
+    String Methodb();<br/>
+}<br/>
+Class C Implements A, B<br/>
+{<br/>
+    Public String Methoda()<br/>
+    {<br/>
+        Return A+b;<br/>
+    }<br/>
+     
+    Public String Methodb()<br/>
+    {
+        Return B+a;<br/>
+    }<br/>
+}<br/>
+
+Class D Extends C Implements A, B<br/>
+{
+    String D = "ddd";<br/>
+     
+    Public String Methoda()<br/>
+    {
+        Return D+methodb();<br/>
+    }<br/>
+}<br/>
+ 
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        C C = New C();<br/>
+         
+        System.out.println(c.methoda());<br/>
+         
+        System.out.println(c.methodb());<br/>
+         
+        C = New D();<br/>
+         
+        System.out.println(c.methoda());<br/>
+         
+        System.out.println(c.methodb());<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>AAABBB</p>
+<p>BBBAAA</p>
+<p>DDDBBBAAA</p>
+<p>BBBAAA</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. Is The Below Program Written Correctly? If Yes, What Will Be The Output?<br/>
+<br/>
+Interface X<br/>
+{<br/>
+    Void Methodx();<br/>
+     
+    Interface Y<br/>
+    {<br/>
+        Void Method();<br/>
+    }<br/>
+}<br/>
+ Class Z Implements X, X.y<br/>
+{<br/>
+    {<br/>
+        Method();<br/>
+                System.out.println(1);<br/>
+    }<br/>
+        Public Void Methodx()<br/>
+    {<br/>
+        Methody();<br/>
+                System.out.println(2);<br/>
+    }<br/>
+        Public Void Methody()<br/>
+    {<br/>
+        System.out.println(3);<br/>
+    }<br/>
+}<br/>
+ Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        Z Z = New Z();<br/>
+                Z.methodx();<br/>
+                Z.methody();<br/>
+                X X = Z;<br/>
+                X.methodx();<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, program is correct. Output will be,</p>
+<p>3</p>
+<p>2</p>
+<p>1</p>
+<p>3</p>
+<p>2</p>
+<p>3</p>
+<p>3</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Can You Identify The Error In The Below Code?<br/>
+<br/>
+Class A Implements A.b<br/>
+{<br/><br/>
+    Static Interface B<br/>
+    {<br/>
+        Void Methodb();<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Cycle detected. Any class can not extend itself or it’s member types.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Interfaces Are Abstract And Public By Default. True Or False?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>False. Interfaces are abstract by default but not public.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. Can You Identify The Error In The Below Code?<br/>
+<br/>
+Interface X<br/>
+{<br/>
+    Void Methodx();<br/>
+}<br/>
+ 
+Interface Y Extends X<br/>
+{<br/>
+    Void Methody();<br/>
+}<br/>
+ 
+Class Z Implements Y<br/>
+{<br/>
+    Public Void Methody()<br/>
+    {<br/>
+        System.out.println("method Y");<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Class Z must implement methodX() also.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. Can We Define Interface As Generic?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, we can define generic interface</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Abstract Class A<br/>
+{<br/>
+    Abstract Void Mymethod(number N);<br/>
+}<br/>
+ 
+Interface B<br/>
+{<br/>
+    Abstract Void Mymethod(object O);<br/>
+}<br/>
+ 
+Class C Extends A Implements B<br/>
+{<br/>
+    Void Mymethod(number N) <br/>
+    {<br/>
+        System.out.println("number");<br/>
+    }<br/>
+   
+    Public Void Mymethod(object O)<br/>
+    {<br/>
+        System.out.println("object");<br/>
+    }<br/>
+}<br/>
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        A A = New C();<br/>
+         
+        A.mymethod(new Integer(121));<br/>
+         
+        B B = New C();<br/>
+         
+        B.mymethod(new Integer(121));<br/>
+         
+        C C = New C();<br/>
+         
+        C.mymethod(new Integer(121));<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Number</p>
+<p>Object</p>
+<p>Number</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. Is The Below Program Written Correctly? If Yes, What Will Be The Output?<br/>
+<br/>
+Interface I
+{<br/>
+    Class C<br/>
+    {<br/>
+        Int I;<br/>
+         
+        Public C(int I)<br/>
+        {<br/>
+            This.i = ++i;<br/>
+        }<br/>
+         
+        Int Methodc()<br/>
+        {<br/>
+            Return ++i;<br/>
+        }<br/>
+    }<br/>
+}<br/>
+ 
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        I.c C = New I.c(000);<br/>
+         
+        System.out.println(c.method());<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Yes, program is written correctly. Output will be,</p>
+<p>2</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. What Will Be The Output Of The Following Program?<br/>
+<br/>
+Class A { }<br/>
+ 
+Class B Extends A { }<br/>
+ 
+Class C Extends B { }<br/>
+ 
+Interface Abc<br/>
+{<br/>
+    Void Method(a A);<br/>
+}<br/>
+ 
+Interface Pqr<br/>
+{<br/>
+    Void Method(b B);<br/>
+}<br/>
+ 
+Class M Implements Abc, Pqr<br/>
+{    <br/>
+    Public Void Method(a A)<br/>
+    {<br/>
+        System.out.println(2);<br/>
+    }<br/>
+     
+    Public Void Method(b B) <br/>
+    {<br/>
+        System.out.println(3);<br/>
+    }<br/>
+}<br/>
+ 
+Public Class Mainclass<br/>
+{<br/>
+    Public Static Void Main(string[] Args)<br/>
+    {<br/>
+        M M = New M();<br/>
+         
+        M.method(new A());<br/>
+         
+        M.method(new B());<br/>
+         
+        M.method(new C());<br/>
+    }<br/>
+}<br/></strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>2</p>
+<p>3</p>
+<p>3</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. Can You Identify The Errors In The Below Code?<br/>
+<br/>
+<br/>
+Interface I<br/>
+{ <br/>
+    Class C Implements I<br/>
+    {<br/>
+        Public Void Method(int I)<br/>
+        {<br/>
+            System.out.println(i);<br/>
+        }<br/>
+    }<br/>
+        Void Method(int I);<br/>
+}</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>No errors.</p></p>
+</li><br><br>

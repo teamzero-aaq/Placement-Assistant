@@ -1,0 +1,171 @@
+<li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques0"><strong>Question 1. What Is Dynamic Range?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The range of values spanned by the gray scale is called dynamic range of an image. Image will have high contrast, if the dynamic range is high and image will have dull washed out gray look if the dynamic range is low.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques1"><strong>Question 2. What Do You Meant By Color Model?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A Color model is a specification of 3D-coordinates system and a subspace within that system where each color is represented by a single point.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques2"><strong>Question 3. What Are The Types Of Light Receptors?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The two types of light receptors are</p>
+<ul>
+<li> Cones.</li>
+<li> Rods.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques3"><strong>Question 4. What Is Chromatic Adoption?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The hue of a perceived color depends on the adoption of the viewer. For example,the American Flag will not immediately appear red, white, and blue of the viewer has been subjected to high intensity red light before viewing the flag. The color of the flag will appear to shift in hue toward the red component cyan.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques4"><strong>Question 5. What Is Meant By Pixel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>A digital image is composed of a finite number of elements each of which has a particular location or value. These elements are referred to as pixels or image elements or picture elements or pixls elements.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques5"><strong>Question 6. What Is Geometric Transformation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Transformation is used to alter the co-ordinate description of image.The basic geometric transformations are</p>
+<ol>
+<li>Image translation</li>
+<li>Scaling</li>
+<li>Image rotation</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques6"><strong>Question 7. What Is Meant By Mach Band Effect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Mach band effect means the intensity of the stripes is constant. Therefore it preserves the brightness pattern near the boundaries, these bands are called as mach band effect.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques7"><strong>Question 8. Define Digital Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>When x, y and the amplitude values of f all are finite discrete quantities , we call the image digital image.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques8"><strong>Question 9. What Do You Meant By Gray Level?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Gray level refers to a scalar measure of intensity that ranges from black to grays and finally to white.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques9"><strong>Question 10. What Is Meant By Path?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Path from pixel p with co-ordinates (x, y) to pixel q with co-ordinates (s,t) is a sequence of distinct pixels with co-ordinates.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques10"><strong>Question 11. Give The Formula For Calculating D4 And D8 Distance.</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>D4 distance ( city block distance) is defined by<br/><strong>D4(p, q) = |x-s| + |y-t|</strong></p>
+<p>D8 distance(chess board distance) is defined by<br/><strong>D8(p, q) = max(|x-s|, |y-t|).</strong></p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques11"><strong>Question 12. Explain What Is Simultaneous Contrast?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The region reserved brightness not depend on its intensity but also on its background. All centre square have same intensity. However they appear to the eye to become darker as the background becomes lighter.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques12"><strong>Question 13. How Cones And Rods Are Distributed In Retina?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In each eye, cones are in the range 6-7 million and rods are in the range 75-150 million.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques13"><strong>Question 14. Define Brightness?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Brightness of an object is the perceived luminance of the surround. Two objects with different surroundings would have identical luminance but different brightness.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques14"><strong>Question 15. What Is Meant By Machband Effect?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Machband effect means the intensity of the stripes is constant. Therefore it preserves the brightness pattern near the boundaries, these bands are called as machband effect.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques15"><strong>Question 16. Define Sampling And Quantization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sampling means digitizing the co-ordinate value (x, y).<br/>Quantization means digitizing the amplitude value.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques16"><strong>Question 17. What Are Sampling And Quantization?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Sampling means digitizing the co-ordinate value (x, y).Quantization means digitizing the amplitude value. Several rods are connected to one nerve end. So it gives the overall picture of the image.This is also known as thin lightvision.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques17"><strong>Question 18. Differentiate Photopic And Scotopic Vision?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Photopic vision /Scotopic vision</p>
+<ol>
+<li>The human being can resolve the fine details with these cones because each one is connected to its own nerve end.</li>
+<li>This is also known as bright light vision.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques18"><strong>Question 19. Define Resolutions?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Resolution is defined as the smallest number of discernible detail in an image.Spatial resolution is the smallest discernible detail in an image and gray level resolution refers to the smallest discernible change is gray level.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques19"><strong>Question 20. What Is Image Translation And Scaling?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Image translation means reposition the image from one co-ordinate location to another along straight line path.</p>
+<p>Scaling is used to alter the size of the object or image (ie) a co-ordinate system is scaled by a factor.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques20"><strong>Question 21. What Do You Meant By Shrinking Of Digital Images?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Shrinking may be viewed as under sampling. To shrink an image by one half, we delete every row and column. To reduce possible aliasing effect, it is a good idea to blue an image slightly before shrinking it.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques21"><strong>Question 22. Explain Subjective Brightness And Brightness Adaptation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Subjective brightness means intensity as preserved by the human visual system.Brightness adaptation means the human visual system can operate only from scotopic to glare limit. It cannot operate over the range simultaneously. It accomplishes this large variation by changes in its overall intensity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques22"><strong>Question 23. What Are The Steps Involved In Dip?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li> Image Acquisition</li>
+<li> Preprocessing</li>
+<li> Segmentation</li>
+<li> Representation and Description</li>
+<li> Recognition and Interpretation</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques23"><strong>Question 24. Do You Know What Is Rectification In Image Processing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Image rectification is a transformation process used to project two-or-more images onto a common image plane.</li>
+<li>It corrects image distortion by transforming the image into a standard coordinate system.</li>
+<li>It is used in computer stereo vision to simplify the problem of finding matching points between images.</li>
+<li>It is used in geographic information systems to merge images taken from multiple perspectives into a common map coordinate system.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques24"><strong>Question 25. What Is Meant By Illumination And Reflectance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Illumination is the amount of source light incident on the scene. It is represented as i(x, y). Reflectance is the amount of light reflected by the object in the scene. It is represented by r(x, y).</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques25"><strong>Question 26. List The Categories Of Digital Storage?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>Short term storage for use during processing.</li>
+<li>Online storage for relatively fast recall.</li>
+<li>Archival storage for infrequent access.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques26"><strong>Question 27. What Are The Differences Between Structural Patterns &amp; Morphological Structural Element?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships between entities.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques27"><strong>Question 28. Write Short Notes On Neighbours Of A Pixel?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ul>
+<li>The pixel p at co-ordinates (x, y) has 4 neighbors (ie) 2 horizontal and 2 vertical neighbors whose co-ordinates is given by (x+1, y), (x-1,y), (x,y-1), (x, y+1). This is called as direct neighbors. It is denoted by N4(P)</li>
+<li>Four diagonal neighbors of p have co-ordinates (x+1, y+1), (x+1,y-1), (x-1, y-1),(x-1, y+1). It is denoted by ND(4).</li>
+<li>Eight neighbors of p denoted by N8(P) is a combination of 4 direct neighbors and 4 diagonal neighbors.</li>
+</ul></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques28"><strong>Question 29. Specify The Elements Of Dip System?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>Image Acquisition</li>
+<li>Storage</li>
+<li>Processing</li>
+<li>Display</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques29"><strong>Question 30. What Is Hue And Saturation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Hue is a color attribute that describes a pure color where saturation gives a measure of the degree to which a pure color is diluted by white light.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques30"><strong>Question 31. What Is Luminance?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Luminance measured in lumens (lm), gives a measure of the amount of energy an observer perceiver from a light source.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques31"><strong>Question 32. What Is Simultaneous Contrast?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The region reserved brightness not depend on its intensity but also on its background. All centre square have same intensity. However they appear to the eye to become darker as the background becomes lighter.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques32"><strong>Question 33. What Is Recognition And Interpretation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Recognition means is a process that assigns a label to an object based on the information provided by its descriptors.Interpretation means assigning meaning to a recognized object.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques33"><strong>Question 34. How To Increase The Quality Of An Image?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Image enhancement process is purely dependent on the application where we need to use the enhanced image and the type of degradation in the image. Few solutions from my basic knowledge</p>
+<ol>
+<li>If image contain so much noises, apply filtering operations such as mean/median etc.</li>
+<li>If the image is looking too dark or or too bright apply histogram equilization process to improve the contrast.</li>
+<li>If the image is blurred apply sharpening operations in the image.</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques34"><strong>Question 35. What Is Image Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>An image can be expanded in terms of a discrete set of basis arrays called basis images. These basis images can be generated by unitary matrices. Alternatively, a given NxN image can be viewed as an N^2×1 vectors. An image transform provides a set of coordinates or basis vectors for vector space.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques35"><strong>Question 36. What Do You Meant By Zooming Of Digital Images?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Zooming may be viewed as over sampling. It involves the creation of new pixel locations and the assignment of gray levels to those new locations.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques36"><strong>Question 37. What Is The Need For Transform?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>The need for transform is most of the signals or images are time domain signal (ie) signals can be measured with a function of time. This representation is not always best. For most image processing applications anyone of the mathematical transformation are applied to the signal or images to obtain further information from that signal.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques37"><strong>Question 38. List The Hardware Oriented Color Models?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><ol>
+<li>RGB model</li>
+<li>CMY model</li>
+<li>YIQ model</li>
+<li>HSI model</li>
+</ol></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques38"><strong>Question 39. Define Subjective Brightness And Brightness Adaptation?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Subjective brightness means intensity as preserved by the human visual system.</p>
+<p>Brightness adaptation means the human visual system can operate only from scotopic to glare limit. It cannot operate over the range simultaneously. It accomplishes this large variation by changes in its overall intensity.</p></p>
+</li><br><br><li class="quesans mb-20">
+<p><a class="accordion-trigger ques" id="ques39"><strong>Question 40. Explain What Are The Differences Between The Books Digital Image Processing And Digital Image Processing?</strong></a></p>
+<p><span class="ans"><strong>Answer :</strong></span><p>Difference between the books is that Digital Image Processing (DIP) deals primarily with the theoretical foundation of digital image processing, while Digital Image Processing Using MATLAB (DIPUM) is a book whose main focus is the use of MATLAB for image processing. The DIPUM book covers essentially the same topics as DIP, but the theoretical treatment is not as detailed. Some instructors prefer to fill in the theoretical details in class in favor of having available a book with a strong emphasis on implementation.</p></p>
+</li><br><br>
