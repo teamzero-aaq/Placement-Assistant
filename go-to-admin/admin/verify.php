@@ -7,6 +7,43 @@ include('security.php');
 
 #Create ,user,company
 
+if(isset($_POST['register']))
+{
+	$name =$_POST['name'];
+	$username =$_POST['username'];
+	$email =$_POST['mailid'];
+	$contact =$_POST['contact'];
+	$password =$_POST['passadmin'];
+	$cpass =$_POST['confirmpass'];
+	$type = 1;
+
+	if ($password === $cpass) {
+		
+	$query = "INSERT INTO `register`(`name`, `contact`, `username`, `password`, `email`, `usertype`) VALUES ('$name','$contact','$username','$password','$email',$type)";
+	$query_run = mysqli_query($connection, $query);
+		
+
+	  if($query_run)
+	  {
+	  	
+	  	$_SESSION['success'] = "Admin Added Successfully";
+	  	header('Location: index.php');  
+	  }
+	  else
+	  {
+
+	  	$_SESSION['status'] = "Admin Profile Not Added";
+	  	header('Location: index.php');  
+	  }
+	}
+	else
+	{
+		$_SESSION['status'] = " Password and Confirm Password Does not Match";
+	  	header('Location: index.php');  
+	}
+}
+#create admin,user,company End
+
 if(isset($_POST['login_admin']))
 {
 	$username =$_POST['username'];
@@ -666,7 +703,7 @@ if (isset($_POST['delete_department'])) {
 	}
 	else
 	{
-		$_SESSION['status'] = "Not Deleted";  
+		$_SESSION['status'] = $query; 
 		header('Location: department.php'); 
 	}
 		
