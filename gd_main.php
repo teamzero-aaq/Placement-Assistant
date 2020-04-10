@@ -17,8 +17,7 @@ include('include_root/navbar.php');
                     <h1 class="text-uppercase text-white font-weight-bold">Group Discussion</h1>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">In the history of modern astronomy, there is
-                        probably no one greater leap forward than the building and launch of the space telescope.</p>
+                    <p class="text-white-75 font-weight-light mb-5"></p>
 
                 </div>
             </div>

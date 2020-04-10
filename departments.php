@@ -2,8 +2,8 @@
 error_reporting(0);
 
 
-include('dashboard/db.php');
-include('dashboard/security.php');
+include('database/db.php');
+include('database/security.php');
 include('include_root/header.php');
 
 
@@ -24,11 +24,10 @@ include('include_root/navbar.php');
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
-                    <h1 class="text-uppercase text-white font-weight-bold">Online Test</h1>
+                    <h1 class="text-uppercase text-white font-weight-bold">Departments</h1>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">In the history of modern astronomy, there is
-                        probably no one greater leap forward than the building and launch of the space telescope.</p>
+                    <p class="text-white-75 font-weight-light mb-5"></p>
 
                 </div>
             </div>

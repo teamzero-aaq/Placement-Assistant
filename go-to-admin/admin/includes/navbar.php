@@ -87,12 +87,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link " href="./addtest.php">
-              <i class="ni ni-planet text-blue"></i> ADD NEW TEST
+              <i class="ni ni-planet text-blue"></i> Add New Test
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="./addpractice.php">
-              <i class="ni ni-planet text-blue"></i> ADD PRACTICE QUESTIONS
+              <i class="ni ni-planet text-blue"></i> Add Practice Questions
             </a>
           </li>
           <li class="nav-item">
@@ -103,7 +103,7 @@
          
           <li class="nav-item">
             <a class="nav-link " href="./view_results.php">
-              <i class="ni ni-bullet-list-67 text-red"></i> VIEW RESULTS
+              <i class="ni ni-bullet-list-67 text-red"></i> View Results
             </a>
           </li>
           <li class="nav-item">
@@ -111,11 +111,7 @@
               <i class="ni ni-key-25 text-info"></i> Department
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./addpractice.php">
-              <i class="ni ni-key-25 text-info"></i> ADD PRACTICE QUESTIONS
-            </a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="./gd.php">
               <i class="ni ni-circle-08 text-pink"></i> GD and Interview

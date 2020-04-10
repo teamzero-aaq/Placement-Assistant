@@ -4,10 +4,11 @@ error_reporting(0);
 $count1=0;
 $count=0;
 
-include('dashboard/db.php');
-if (!$_SESSION['username']) {
-  header("Location: ./login.php");
-}
+include('database/db.php');
+include('database/security.php');
+// if (!$_SESSION['username']) {
+//   header("Location: ./login.php");
+// }
 
 include('include_root/header.php');
 ?>
@@ -25,8 +26,7 @@ include('include_root/navbar.php');
                     <h1 class="text-uppercase text-white font-weight-bold">Online Test</h1>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">In the history of modern astronomy, there is
-                        probably no one greater leap forward than the building and launch of the space telescope.</p>
+                    <p class="text-white-75 font-weight-light mb-5"></p>
 
                 </div>
             </div>
@@ -59,7 +59,8 @@ while($rows=mysqli_fetch_array($result))
             <div class="col-xl-4 col-lg-6">
                 <div class="dept_card">
                     <div class="dept_img">
-                        <?php echo '<img src="dashboard/assets/img/subject/'.$row['sub_img'].'" class="img-responsive dept_img">'?>
+                        <!-- <?php echo '<img src="go-to-admin/admin/assets/img/subject/'.$row['sub_img'].'" class="img-responsive dept_img">'?> -->
+                        <img src="go-to-admin/admin/assets/img/subject/subject.jpeg" class="img-responsive dept_img">
                     </div><!-- end dept_img -->
                     <div class="details">
                         <h2><?php echo $rows['department']; ?>
@@ -70,7 +71,8 @@ while($rows=mysqli_fetch_array($result))
                                 <form action="" method="POST">
                                     <input type="hidden" name="tempdept" value="<?php echo $row['dept_id'];?>">
                                     <button type="button" class="btn btn-info btn-sm align-item-center practice_subject"
-                                        name="subjectbtn" id="<?php echo $rows['department'] ;?>">
+                                        name="subjectbtn" id="<?php echo $rows['department'] ;?>" data-toggle="modal"
+                                        data-target="#myModal">
                                         <i class="ni ni-fat-add">&nbsp;</i>Give Test
                                     </button>
                                 </form>
@@ -105,21 +107,35 @@ while($rows=mysqli_fetch_array($result))
 
         </div>
 
-        <div class="col-md-4 sidebar">
-            <form method="POST" action="test_temp.php" id="totest">
-                <div id=bodybody></div>
-            </form>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
 
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">TEST INSTRUCTIONS</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
 
+                    </div>
+                    <div class="modal-body">
+                        <p>Evaluation will be out of 20 Marks</p>
+                        <p>1. Test will be of 20 Minutes</p>
+                        </p class="text-red">2. Do not Minimize or Exit Full Screen. If done so Test will be Submitted
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <form method="POST" action="test_temp.php" id="totest">
+                            <div id=bodybody></div>
+                        </form </div>
+                    </div>
+
+                </div>
+            </div>
 
 
 
         </div>
 
-
-
-    </div>
-
-    <?php
+        <?php
 include('include_root/footer.php');
 ?>

@@ -24,7 +24,7 @@
                       <h5 class="card-title text-upperc ase text-muted mb-0">Total GD</h5>
                       <?php 
 
-                      $query = "SELECT id FROM gd ORDER BY id";
+                      $query = "SELECT id FROM gd_hr where type='gd' ORDER BY id";
                       $query_run = mysqli_query($connection,$query);
                       $row = mysqli_num_rows($query_run);
                       echo ' <span class="h2 font-weight-bold mb-0"> '.$row. '</span>';
@@ -50,7 +50,7 @@
                       <h5 class="card-title text-uppercase text-muted mb-0">Total HR</h5>
                        <?php 
 
-                      $query = "SELECT id FROM hr ORDER BY id";
+                      $query = "SELECT id FROM gd_hr where type='hr' ORDER BY id";
                       $query_run = mysqli_query($connection,$query);
                       $row = mysqli_num_rows($query_run);
                       echo ' <span class="h2 font-weight-bold mb-0"> '.$row. '</span>';
@@ -176,11 +176,11 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fas fa-portrait"></i><span>
                     </div>
-                    <input class="form-control" placeholder="Title" type="text" name="gd_title" required="">
+                    <input class="form-control" placeholder="ENTER GD QUESTION OR TOPIC" type="text" name="gd_title" required="">
                   </div>
                 </div>
 
-                 <div class="form-group">
+                 <!--<div class="form-group">
                   <div class="input-group input-group-alternative mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -196,7 +196,7 @@
                     </div>
                     <textarea class="form-control" placeholder="Points" name="gd_point" required=""></textarea> 
                   </div>
-                </div>
+                </div>-->
 
  		           <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -223,16 +223,16 @@
 
                             <?php 
                 
-                $query = "SELECT * FROM gd";
+                $query = "SELECT * FROM gd_hr where type='gd'";
                 $query_run = mysqli_query($connection,$query);
                ?>
               <table class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
                     <th scope="col">Id</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Link</th>
-                    <th scope="col">Points</th>
+                    
+                    <th scope="col">Type</th>
+                    <th scope="col">Question</th>
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
@@ -246,17 +246,15 @@
                        ?>
 
                     <tr>
-                      <th>
-                            <span class="mb-0 text-sm"><?php echo $row['id'];?></span>
-                      </th>
+                      
                       <td>
-                        <?php echo $row['title'];?>
+                        <?php echo $row['id'];?>
                       </td>
                       <td>
-                        <?php echo $row['link'];?>
+                        <?php echo $row['type'];?>
                       </td>
                         <td>
-                          <?php  echo $row['points'];?>
+                          <?php  echo $row['question'];?>
                     </td>
                     <td class="text-left">
                       <div class="dropdown">
@@ -267,14 +265,14 @@
                         
                               <!-- Button trigger modal -->
                               <form action="update_gd.php" method="POST">
-                                <input type="hidden" name="uptitle" value="<?php echo $row['title'];?>">
+                                <input type="hidden" name="uptitle" value="<?php echo $row['id'];?>">
                                <button type="submit" name="gd_update" class="dropdown-item">
                                <i class="ni ni-fat-add"></i>  <span>Update</span>
                                 </button>
                                </form>
 
                               <form action="verify.php" method="POST">
-                              <input type="hidden" name="deltitle" value="<?php echo $row['title'];?>">
+                              <input type="hidden" name="deltitle" value="<?php echo $row['id'];?>">
                               <button type="submit" name="gd_remove" class="dropdown-item">
                                <i class="ni ni-fat-remove">&nbsp;</i>Remove
                               </button> 
@@ -398,7 +396,7 @@
                   </div>
                 </div>
 
-                 <div class="form-group">
+                <!-- <div class="form-group">
                   <div class="input-group input-group-alternative mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -406,7 +404,7 @@
                     <textarea class="form-control" placeholder="Answer"  name="hr_answer" required=""></textarea> 
                   </div>
                 </div>
-
+-->
                <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                          <button type="submit" class="btn btn-outline-primary" name="hr_btn">Add</button>
@@ -436,7 +434,7 @@
                 }
 
 
-                $query = "SELECT * FROM hr";
+                $query = "SELECT * FROM gd_hr where type='hr';";
                 $query_run = mysqli_query($connection,$query);
                ?>
               <table class="table align-items-center table-flush">
@@ -444,7 +442,7 @@
                   <tr>
                     <th scope="col">Id</th>
                     <th scope="col">Questions</th>
-                    <th scope="col">Answers</th>
+                    
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
@@ -462,12 +460,9 @@
                           <span class="mb-0 text-sm"><?php echo $row['id'];?></span>
                     </th>
                     <td>
-                      <?php echo $row['hr_question'];?>
+                      <?php echo str_replace("-"," ",ucfirst(($row['question']))); ?>
                     </td>
-                    <td>
-                     <?php  $short_ans = limit_words($row['hr_ans'],10);  
-                       echo $short_ans; ?>
-                    </td>
+                    
                      
                     <td class="text-left">
                       <div class="dropdown">
@@ -477,7 +472,7 @@
                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                            <!-- Button trigger modal -->
                               <form action="update_hr.php" method="POST">
-                                <input type="hidden" name="up_question" value="<?php echo $row['hr_question'];?>">
+                                <input type="hidden" name="up_question" value="<?php echo $row['id'];?>">
                                <button type="submit" name="hr_update" class="dropdown-item">
                                <i class="ni ni-fat-add"></i>  <span>Update</span>
                                 </button>

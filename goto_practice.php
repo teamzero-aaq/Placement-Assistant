@@ -2,7 +2,7 @@
 error_reporting(0);
 $count1=0;
 $count=0;
-include("dashboard/db.php"); 
+include("database/db.php"); 
 include('include_root/header.php');
 ?>
 
@@ -21,8 +21,7 @@ include('include_root/navbar.php');
                     <h1 class="text-uppercase text-white font-weight-bold">Online Test</h1>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">In the history of modern astronomy, there is
-                        probably no one greater leap forward than the building and launch of the space telescope.</p>
+                    <p class="text-white-75 font-weight-light mb-5"></p>
 
                 </div>
             </div>
@@ -53,7 +52,8 @@ while($rows=mysqli_fetch_array($result))
             <div class="col-xl-4 col-lg-6">
                 <div class="dept_card">
                     <div class="dept_img">
-                        <?php echo '<img src="dashboard/assets/img/subject/'.$row['sub_img'].'" class="img-responsive dept_img">'?>
+                        <!-- <?php echo '<img src="dashboard/assets/img/subject/'.$row['sub_img'].'" class="img-responsive dept_img">'?> -->
+                        <img src="go-to-admin/admin/assets/img/subject/subject.jpeg" class="img-responsive dept_img">
                     </div><!-- end dept_img -->
                     <div class="details">
                         <h2><?php echo $rows['department']; ?>
@@ -106,7 +106,7 @@ while($rows=mysqli_fetch_array($result))
 
             <div id=bodybody></div>
 
-            dhj
+
 
 
 

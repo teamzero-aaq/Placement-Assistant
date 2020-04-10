@@ -318,11 +318,10 @@ if (isset($_POST['gd_btn'])) {
 
 
 	$gd_title = $_POST['gd_title'];
-	$gd_link = $_POST['gd_link'];
-	$gd_point = $_POST['gd_point'];
+	
 
 
-	$query = "INSERT INTO `gd`(`title`, `link`, `points`) VALUES ('$gd_title','$gd_link','$gd_point')";
+	$query = "INSERT INTO `gd_hr`(`type`, `question`) VALUES ('gd','$gd_title')";
 	$query_run = mysqli_query($connection, $query);
 
 	if ($query_run) {
@@ -399,9 +398,9 @@ if (isset($_POST['hr_btn'])) {
 
 	
 	$hr_question = $_POST['hr_question'];
-	$hr_answer = $_POST['hr_answer'];
+//$hr_answer = $_POST['hr_answer'];
 
-	$query = "INSERT INTO `hr`(`hr_question`, `hr_ans`) VALUES ('$hr_question','$hr_answer')";
+	$query = "INSERT INTO `gd_hr`(`question`, `type`) VALUES ('$hr_question','hr')";
 	$query_run = mysqli_query($connection, $query);
 
 	if ($query_run) {

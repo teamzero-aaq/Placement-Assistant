@@ -47,8 +47,9 @@
                         data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false"><?php echo $_SESSION['username']; ?></a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item dd js-scroll-trigger" href="view_results.php">MY RESULTS</a>
-                        <a class="dropdown-item dd js-scroll-trigger" href="logout.php">LOGOUT</a>
+                        <a class="dropdown-item dd js-scroll-trigger" href="go-to-admin/admin/index.php">Dashboard</a>
+                        <a class="dropdown-item dd js-scroll-trigger" href="view_results.php">My Results</a>
+                        <a class="dropdown-item dd js-scroll-trigger" href="logout.php">Logout</a>
 
                     </div>
                 </li>

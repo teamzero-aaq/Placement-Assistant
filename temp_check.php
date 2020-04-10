@@ -5,7 +5,7 @@ date_default_timezone_set('Asia/Kolkata');
 //error_reporting(0);
 $count1=0;
 $count=0;
-include('dashboard/db.php');
+include('database/db.php');
 include('include_root/header.php');
 
 ?>
@@ -25,9 +25,7 @@ include('include_root/navbar.php');
                     <h1 class="text-uppercase text-white font-weight-bold">Online Test</h1>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">In the history of modern astronomy, there is
-                        probably no
-                        one greater leap forward than the building and launch of the space telescope.</p>
+                    <p class="text-white-75 font-weight-light mb-5"></p>
 
                 </div>
             </div>
@@ -194,7 +192,7 @@ else
 
             <div class="col-md-4 sidebar">
 
-                <h2>YOUR RESULT IS></h2>
+                <h2>YOUR RESULT</h2>
 
 
                 <table style="width:100%">

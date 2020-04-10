@@ -2,7 +2,7 @@
 error_reporting(0);
 $count1=0;
 $count=0;
-include("dashboard/db.php"); 
+include("database/db.php"); 
 include('include_root/header.php');
 ?>
 
@@ -19,11 +19,10 @@ include('include_root/navbar.php');
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
-                    <h1 class="text-uppercase text-white font-weight-bold">Online Test</h1>
+                    <h1 class="text-uppercase text-white font-weight-bold">Practice Test</h1>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">In the history of modern astronomy, there is
-                        probably no one greater leap forward than the building and launch of the space telescope.</p>
+                    <p class="text-white-75 font-weight-light mb-5"></p>
 
                 </div>
             </div>
@@ -54,7 +53,7 @@ $json = json_decode($data,true);
 $inner_arr=(array)($json['test_questions']);
 
 $inner=(array)($inner_arr[0]);
-print_r($inner_arr);
+//print_r($inner_arr);
 
  }
  for($x = 0; $x <count($inner) ;$x++)
