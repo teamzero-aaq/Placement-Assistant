@@ -13,7 +13,7 @@
                     <a class="nav-link js-scroll-trigger" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#">Aptitute</a>
+                    <a class="nav-link js-scroll-trigger" href="apti_practice.php">Aptitute</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="departments.php?name=goto_practice">Practice</a>
@@ -47,7 +47,9 @@
                         data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false"><?php echo $_SESSION['username']; ?></a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<?php if($_SESSION['usertype']==1){?>
                         <a class="dropdown-item dd js-scroll-trigger" href="go-to-admin/admin/index.php">Dashboard</a>
+					<?php }?>
                         <a class="dropdown-item dd js-scroll-trigger" href="view_results.php">My Results</a>
                         <a class="dropdown-item dd js-scroll-trigger" href="logout.php">Logout</a>
 

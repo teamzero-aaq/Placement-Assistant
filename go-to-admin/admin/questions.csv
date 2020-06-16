@@ -1,0 +1,149 @@
+num_of_option,question,ans,exp,opta,optb,optc,optd,opt5,opt6,opt7
+5,"In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",A,"Required run rate =
+
+282 - (3.2 x 10)
+
+=
+250
+   = 6.25
+
+
+40
+40",6.25,6.5,6.75,7,11,,
+6,"In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",A,"Required run rate =
+
+282 - (3.2 x 10)
+
+=
+250
+   = 6.25
+
+
+40
+40",6.25,6.5,6.75,7,12,none of the above,
+4,"A family consists of two grandparents, two parents and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years and that of the grandchildren is 6 years. What is the average age of the family?",B,"Required average
+
+
+
+=
+
+67 x 2 + 35 x 2 + 6 x 3
+
+
+
+2 + 2 + 3
+
+
+
+
+
+
+
+
+
+=
+
+134 + 70 + 18
+
+
+
+7
+
+
+
+
+
+
+
+
+
+=
+222
+
+
+7
+
+
+
+
+
+
+
+
+
+= 31 
+5
+years.
+
+
+7","28 
+4
+years
+
+
+7",4,B.,"31 
+5
+years
+
+
+7",,,
+4,"A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?",A,"Total sale for 5 months = Rs. (6435 + 6927 + 6855 + 7230 + 6562) = Rs. 34009.
+ Required sale = Rs. [ (6500 x 6) - 34009 ]
+   = Rs. (39000 - 34009)
+   = Rs. 4991.","Rs. 4,991","Rs. 5,991","Rs. 6,001","Rs. 6,991",,,
+7,"The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",D,"Average of 20 numbers = 0.
+ Sum of 20 numbers (0 x 20) = 0.
+It is quite possible that 19 of these numbers may be positive and if their sum is a then 20th number is (-a).",0,1,10,19,all,none of the above,100
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

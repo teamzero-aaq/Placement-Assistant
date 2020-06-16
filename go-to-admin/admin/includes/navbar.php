@@ -90,9 +90,19 @@
               <i class="ni ni-planet text-blue"></i> Add New Test
             </a>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link " href="./addtest_apti.php">
+              <i class="ni ni-planet text-blue"></i> Add New Aptitude Test
+            </a>
+          </li>
           <li class="nav-item">
             <a class="nav-link " href="./addpractice.php">
               <i class="ni ni-planet text-blue"></i> Add Practice Questions
+            </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link " href="./addpractice_apti.php">
+              <i class="ni ni-planet text-blue"></i> Add Aptitude Practice Questions
             </a>
           </li>
           <li class="nav-item">
@@ -115,6 +125,11 @@
           <li class="nav-item">
             <a class="nav-link" href="./gd.php">
               <i class="ni ni-circle-08 text-pink"></i> GD and Interview
+            </a>
+          </li>
+		            <li class="nav-item">
+            <a class="nav-link" href="./gd.php">
+              <i class="ni ni-circle-08 text-pink"></i> View GD and Interview Responses
             </a>
           </li>
         </ul>

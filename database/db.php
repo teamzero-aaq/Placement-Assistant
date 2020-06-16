@@ -17,6 +17,7 @@
 ?>
 
 <?php
+
 $user = 'root';
 $password = 'root';
 $db = 'placement';
@@ -32,4 +33,5 @@ else
 {
   die("connection failed becaues ".mysqli_connect_error() );
 }
+
 ?>

@@ -1,0 +1,45 @@
+num_of_option,question,ans,exp,opta,optb,optc,optd,opt5,opt6,opt7
+4,The profit obtained  by  selling  an  article  for  Rs.  56  is  the  same  as  the  loss  obtained  by  selling  it  for  Rs.  42.  What  is  the  cost  price  of  the  article?,C,"Exp.  S.P 1- C.P  =  C.P – S.P 2
+
+    56 -  C.P =  C.P -  42
+
+    2 C.P =  56 + 42;
+
+    C.P =    98/2  = 49",40,50,49,None of these,,,
+4,The banker's gain on a bill due 1 year hence at 12% per annum is Rs. 6. The true discount is:,D,NONE,52,56,54,50,,,
+4,"Two trains, each 100 m long, moving in opposite directions, cross each other in 8 seconds. If one is moving twice as fast the other, then the speed of the faster train is:",C,None,30km/hr,45km/hr,60km/hr,50km/hr,,,
+5,Sakshi can do a piece of work in 20 days. Tanya is 25% more efficient than Sakshi. The number of days taken by Tanya to do the same piece of work is:,C,NIL,16,14,15,18,none ,,
+4,"P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If both P and Q work together, working 8 hours a day, in how many days can they complete the work?",A,NONE,60/11,61/11,71/11,72/11,,,
+5,"The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:",B,Required number = H.C.F. of (1657 - 6) and (2037 - 5),123,127,235,304,none ,,
+4,At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?,B,NONE,6.5,6,7,5.5,,,
+4,"The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",B,NONE,24,23,21,20,,,
+4,10 women can complete a work in 7 days and 10 children take 14 days to complete the work. How many days will 5 women and 10 children take to complete the work?,D,NONE,3,4,5,7,,,
+4,A jogger running at 9 kmph alongside a railway track in 240 metres ahead of the engine of a 120 metres long train running at 45 kmph in the same direction. In how much time will the train pass the jogger?,C,None,3.6,30,36,72,,,
+4,8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of water is 16 : 65. How much wine did the cask hold originally?,B,None,20,24,32,36,,,
+4,"A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?",C,None,2|7,3|7,5|7,5|7,,,
+4,"The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be:",D,None,12,14,18,20,,,
+4,"A box contains 2 white balls, 3 black balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one black ball is to be included in the draw?",D,None,32,24,48,64,,,
+4,"ODD MAN OUT : 835, 734, 642, 751, 853, 981, 532",A ,None,751,852,734,222,,,
+4,"ODD MAN OUT : 1, 2, 6, 15, 31, 56, 91",C,None,31,56,91,15,,,
+5,The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?,B,None,75,85,70,None of these,data insufficient,,
+4,"Three people A, B and C working individually can finish a job in 10, 12 and 20 days respectively. They decided to work together but after 2 days, A left the work and after another one day, B also left work. If they got two lacs collectively for the entire work, find the difference of the highest and lowest share.",A,"Let the total work be LCM(10, 12, 20) = 60 units
+ Efficiency of A = 60/10 = 6 units / day
+ Efficiency of B = 60/12 = 5 units / day
+ Efficiency of C = 60/20 = 3 units / day
+Since the number of working days are different for each person, 
+the share of each will be calculated in the ratio of the units of work done.
+Now, A works for 2 days and B works for 3 days.
+ Work done by A = 2 x 6 = 12 units
+ Work done by B = 3 x 5 = 15 units
+ Work done by C = 60 – 12 – 15 = 33 units
+Therefore, ratio of work done = 12:15:33 = 4:5:11
+So, A’s share = (4/20) x 2, 00, 000 = Rs 40, 000
+B’s share = (5/20) x 2, 00, 000 = Rs 50, 000
+C’s share = (11/20) x 2, 00, 000 = Rs 1, 10, 000
+Therefore, difference of the highest and lowest share 
+= Rs 1,10,000 – 40,000 = Rs 70,000",70000,11000,40000,80000,,,
+4,How many ways a 6 member team can be formed having 3 men and 3 ladies from a group of 6 men and 7 ladies?,A,None,700,720,120,500,,,
+4,The marked price of a shirt was 40% less than the suggested retail price. Ram purchased the coat for half of the marked price at the 15th-anniversary sale. What per cent less than the suggested retail price did Ram pay?,A,"Let the retail price of the shirt be Rs. 100
+So according to the question, the market price will be = 100*0.6 = 60
+Purchased price of Ram = 60/2 = 30
+which is 70% less than retail price.",0.7,0.3,0.55,0.36,,,

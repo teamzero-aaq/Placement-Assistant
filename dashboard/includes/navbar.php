@@ -81,41 +81,32 @@
             </a>
           </li>
            <li class="nav-item">
-            <a class="nav-link " href="./profile.php">
+            <a class="nav-link " href="#">
               <i class="ni ni-single-02 text-yellow"></i> User profile
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./addadmin.php">
-              <i class="ni ni-planet text-blue"></i> ADD NEW TEST
+            <a class="nav-link " href="index.php">
+              <i class="ni ni-planet text-blue"></i> ADD PERSONAL DATA
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./companies.php">
-              <i class="ni ni-pin-3 text-orange"></i> Companies
+            <a class="nav-link " href="0222.php">
+              <i class="ni ni-pin-3 text-orange"></i> ADD SKILLS AND CERTIFICATES
             </a>
           </li>
          
           <li class="nav-item">
-            <a class="nav-link " href="./view_results.php">
-              <i class="ni ni-bullet-list-67 text-red"></i> VIEW RESULTS
+            <a class="nav-link " href="033.php">
+              <i class="ni ni-bullet-list-67 text-red"></i> ADD INTERNSHIPS
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./department.php">
-              <i class="ni ni-key-25 text-info"></i> Department
+            <a class="nav-link" href="044.php">
+              <i class="ni ni-key-25 text-info"></i> ADD PROJECTS AND OTHERS
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./addpractice.php">
-              <i class="ni ni-key-25 text-info"></i> ADD PRACTICE QUESTIONS
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gd.php">
-              <i class="ni ni-circle-08 text-pink"></i> GD and Interview
-            </a>
-          </li>
+        
         </ul>
        
         </ul>

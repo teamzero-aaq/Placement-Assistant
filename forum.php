@@ -91,7 +91,7 @@ while($rows=mysqli_fetch_array($result))
                                     <textarea class="form-control" name="response" id="exampleFormControlTextarea1"
                                         rows="3"></textarea>
                                 </div>
-                                <button type="submit" value="<?php echo $_POST['view_gd'] ?>" form="user_thoughts"
+                                <button type="submit" value="<?php echo $_GET['id']; ?>" form="user_thoughts"
                                     name="user_response" class="btn btn-info">Submit</button>
                             </form>
 

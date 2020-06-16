@@ -37,64 +37,61 @@ include('include_root/navbar.php');
             <div class="col-md-8 left-side">
 
 
-                <form action="temp_check.php" method="POST">
+                
 
                     <?php
-    if(isset($_GET['course'])&&isset($_GET['subcourse'])){
+    if(isset($_GET['id'])){
       
     
 error_reporting(0);
-$c=$_GET['course'];
-$sub=$_GET['subcourse'];
-$link=$c.'/'.$sub;
+$c=$_GET['id'];
+$sub=$_GET['cat'];
+$sql="select * from practice_questions where type='technical' and dept_id='$c' and subtype='$sub'";
+$run=mysqli_query($connection,$sql);
+if(mysqli_num_rows($run)>0){
 
-$data = file_get_contents('./indiabix/Scrape_IndiaBix_QA-master/DB_Collections/'.$link.'.json');
-$json = json_decode($data,true);
-$inner_arr=(array)($json['test_questions']);
 
 $inner=(array)($inner_arr[0]);
 //print_r($inner_arr);
+$char=array();
+foreach( range('A', 'Z') as $elements) { 
+      
+    // Display all alphabetic elements 
+    // one after another 
+    array_push($char,$elements); 
+}
+ $count=0;
+ while($row=mysqli_fetch_array($run)){
+$count=$count+1;
 
- }
- for($x = 0; $x <count($inner) ;$x++)
 
-
- {
+ 
  
   ?>
                     <div class="questions">
                         <div class="row">
-                            <p><?php echo 'Q) '.(nl2br($inner[$x]['question'])) ; ?></p>
+                            <p><?php echo 'Q.'.$count.') '.(nl2br($row['question'])) ; ?></p>
                         </div>
+						<?php for ($r=1;$r<=$row['no_of_option'];$r++){?>
                         <div class="row">
 
-                            <label for="optionA"><?php echo 'A) '.$inner[$x]['opta']; ?></label>
+                            <label for="option<?php echo $r ;?>"><?php echo $char[$r-1].') '.$row['opt'.$r]; ?></label>
                         </div>
-                        <div class="row">
-
-                            <label for="optionB"><?php echo 'B) '.$inner[$x]['optb']; ?></label>
-                        </div>
-                        <div class="row">
-
-                            <label for="optionC"><?php echo 'C) '.$inner[$x]['optc']; ?></label>
-                        </div>
-                        <div class="row">
-
-                            <label for="optionD"><?php echo 'D) '.$inner[$x]['optd']; ?></label>
-                        </div>
+						<?php } ?>
+                        
                         <p>
                             <button class="btn btn-outline-info btn-sm" type="button" data-toggle="collapse"
-                                data-target="#collapseExample<?php echo $x; ?>" aria-expanded="false"
+                                data-target="#collapseExample<?php echo $count; ?>" aria-expanded="false"
                                 aria-controls="collapseExample">
                                 View Solution
                             </button></p>
-                        <div class="collapse" id="collapseExample<?php echo $x ;?>">
+                        <div class="collapse" id="collapseExample<?php echo $count;?>">
                             <div class="card card-body">
 
-                                <p class="ans">Answer: Option <?php echo $inner[$x]['ans'] ;?></p>
+                                <p class="ans">Answer: Option <?php echo $row['ans'] ;?></p>
                                 <p class="ans">Explanation:</p>
                                 <p>
-                                    <?php echo $inner[$x]['explanation']; ?>
+                                    <?php echo $row['explaination']; ?>
 
                                 </p>
 
@@ -105,8 +102,8 @@ $inner=(array)($inner_arr[0]);
                     </div>
                     <?php } ?>
 
-
-                </form>
+	<?php }} ?>
+                
             </div>
 
 

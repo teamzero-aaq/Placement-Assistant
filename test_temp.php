@@ -1,7 +1,8 @@
 <?php 
 include('checking.php');
+include("database/db.php"); 
 date_default_timezone_set('Asia/Kolkata');
-//error_reporting(0);
+
 $count1=0;
 $count=0;
 
@@ -14,7 +15,7 @@ include('include_root/header.php');
 ?>
 
 <script>
-window.open('test_temp.php', 'test', 'fullscreen=yes')
+
 </script>
 
 <body>
@@ -50,56 +51,56 @@ include('include_root/navbar.php');
 
                     <?php
     if(isset($_POST['take_test'])){
-   
-      $data = file_get_contents('./indiabix/Scrape_IndiaBix_QA-master/DB_Collections/temp_jsonfiles/'.$_POST['take_test'].'.json');
-      $json = json_decode($data,true);
-//echo $_POST['take_test'];
-$inner_arr=(array)($json['test_questions']);
-
-$inner=(array)($inner_arr[0]);
+  //echo $_POST['take_test']; 
+  $testid=trim($_POST['take_test']);
+  $r="select * from tests_data where test_id='$testid'";
+  $run=mysqli_query($connection,$r);
+  $rt=mysqli_fetch_array($run);
+  $limit=(int)$rt['no_of_ques'];
+  $time_limit=(int)$rt['time_limit'];
+$q="SELECT * FROM test_questions where test_id='$testid' ORDER BY RAND() LIMIT ".$limit;
+$qr=mysqli_query($connection,$q);
+  
 $_SESSION['start_time']=date('Y-m-d H:i:s', time());
 
 $_SESSION['row'] = array(); 
-$random=range(0,count($inner));
-$res=array_rand($random,20);
+$char=array();
 //print_r($inner);
 //print_r($res);
+foreach( range('A', 'Z') as $elements) { 
+      
+    // Display all alphabetic elements 
+    // one after another 
+    array_push($char,$elements); 
 }
- for($x = 0; $x <count($res) ;$x++)
+ $count=0;
+}
+
+ while($rowr=mysqli_fetch_array($qr))
 
  {
- 	$_SESSION['row'][] = $inner[$res[$x]];
+ 	$_SESSION['row'][] = $rowr;
   $count=$count+1;
   ?>
                     <div class="questions">
                         <div class="row">
-                            <p><?php echo nl2br($inner[$res[$x]]['question']) ; ?></p>
+                            <p><?php echo nl2br($rowr['question']) ; ?></p>
                         </div>
-                        <div class="row">
-                            <input type="radio" id="<?php echo 'A'.$count; ?>" value="<?php echo 'A';?>"
+						<?php for ($r=1;$r<=$rowr['num_of_option'];$r++){?>
+						<div class="row">
+                            <input type="radio" id="<?php echo $char[$r-1].$count; ?>" value="<?php echo $char[$r-1];?>"
                                 name="quizcheck[<?php echo $count; ?>]">
-                            <label for="<?php echo 'A'.$count; ?>"><?php echo $inner[$res[$x]]['opta'] ?></label>
+                            <label for="<?php echo $char[$r-1].$count; ?>"><?php echo  $rowr['opt'.$r];?></label>
                         </div>
-                        <div class="row">
-                            <input type="radio" id="<?php echo 'B'.$count; ?>" value="<?php echo 'B';?>"
-                                name="quizcheck[<?php echo $count; ?>]">
-                            <label for="<?php echo 'B'.$count; ?>"><?php echo $inner[$res[$x]]['optb'] ?></label>
-                        </div>
-                        <div class="row">
-                            <input type="radio" id="<?php echo 'C'.$count; ?>" value="<?php echo 'C'; ?>"
-                                name="quizcheck[<?php echo $count; ?>]">
-                            <label for="<?php echo 'C'.$count; ?>"><?php echo $inner[$res[$x]]['optc'] ?></label>
-                        </div>
-                        <div class="row">
-                            <input type="radio" id="<?php echo 'D'.$count; ?>" value="<?php echo 'D'; ?>"
-                                name="quizcheck[<?php echo $count; ?>]">
-                            <label for="<?php echo 'D'.$count; ?>"><?php echo $inner[$res[$x]]['optd'] ?></label>
-                        </div>
+                        
+						<?php } ?>
+                        
+                      
 
 
                     </div>
                     <?php } ?>
-                    <input type="hidden" name="on" value=" <?php echo $_POST['take_test']; ?>">
+                    <input type="hidden" name="testid" value=" <?php echo $_POST['take_test']; ?>">
                     <input type="submit" class="btn btn-info btn align-item-center" id="btn" value="Submit Test"
                         name="submit_test">
                 </form>
@@ -129,7 +130,32 @@ $res=array_rand($random,20);
             </div>
         </div>
     </div>
+<script>
+var total_seconds = <?php echo $time_limit ; ?> * 60;
+var c_min = parseInt(total_seconds / 60);
+var c_sec = parseInt(total_seconds % 60);
 
+function checktime() {
+
+    var time = c_min + ':' + c_sec;
+    document.getElementById("MyClockDisplay").innerHTML = time;
+    //document.getElementById("MyClockDisplay").innerContent =c_sec;  
+    if (total_seconds <= 0) {
+        setTimeout(document.getElementById('btn').click(), 1);
+    } else {
+        {
+            total_seconds = total_seconds - 1;
+            c_min = parseInt(total_seconds / 60);
+            c_sec = parseInt(total_seconds % 60);
+            setTimeout('checktime()', 1000);
+        }
+
+    }
+
+}
+setTimeout('checktime()', 1000);
+
+</script>
 
     <?php
 include('include_root/footer.php');

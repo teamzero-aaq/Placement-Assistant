@@ -63,10 +63,10 @@ while($rows=mysqli_fetch_array($result))
                             <div class="col text-center">
                                 <form action="" method="POST">
                                     <input type="hidden" name="tempdept" value="<?php echo $row['dept_id'];?>">
-                                    <button type="button" class="btn btn-info btn-sm align-item-center subClass"
+                                    <a href="practice_questions.php?id=<?php echo $rows['dept_id']; ?>&cat=<?php echo $rows['department'];?>"><button type="button" class="btn btn-info btn-sm align-item-center subClass"
                                         name="subjectbtn" id="<?php echo $rows['department'] ;?>">
                                         <i class="ni ni-fat-add">&nbsp;</i>Give Test
-                                    </button>
+                                    </button></a>
                                 </form>
                             </div>
 

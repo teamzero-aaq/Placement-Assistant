@@ -40,7 +40,9 @@ $(".subClass").click(function() {
   <script type="text/javascript">
 $(".practice_subject").click(function() {
     var id = ($(this).attr('id'));
+var p=$(this).data('id');
 
+if(p=='no'){
     $.ajax({
         url: 'fil.php',
         type: 'get',
@@ -55,37 +57,50 @@ $(".practice_subject").click(function() {
         }
 
 
-    });
+});}
+else{
+	alert("please enter password");
+	if(!document.getElementById('pass')){
+	$('#id_test').text(id);	
+	$('#here').append('<input type="password" name="pass"  id="pass" placeholder="enter password" />');
+	$('#here').append('<br><br><button type="button" name="verify_pass"  value="'+id+'" class="btn btn-info btn-sm align-item-center verify_pass" id="verify">verify</button>');
+}
+}
 
 
+});
+$(".close").click(function() {
+	  $('#myModal').modal('toggle');
+	  location.reload(true);
+	
+});	
+	
+$("body").on('click','.verify_pass',function () {
+	
+var pass=document.getElementById('pass').value;
+var id=$(this).val();
+
+$.ajax({
+        url: 'fil2.php',
+        type: 'get',
+        data: {
+            depart: id,
+			pass:pass
+        },
+        dataType: 'text',
+        success: function(data) {
+
+
+            $('#bodybody').html(data);
+        }
+
+
+});
 });
   </script>
 
 
   <script>
-var total_seconds = 20 * 60;
-var c_min = parseInt(total_seconds / 60);
-var c_sec = parseInt(total_seconds % 60);
-
-function checktime() {
-
-    var time = c_min + ':' + c_sec;
-    document.getElementById("MyClockDisplay").innerHTML = time;
-    //document.getElementById("MyClockDisplay").innerContent =c_sec;  
-    if (total_seconds <= 0) {
-        setTimeout(document.getElementById('btn').click(), 1);
-    } else {
-        {
-            total_seconds = total_seconds - 1;
-            c_min = parseInt(total_seconds / 60);
-            c_sec = parseInt(total_seconds % 60);
-            setTimeout('checktime()', 1000);
-        }
-
-    }
-
-}
-setTimeout('checktime()', 1000);
   </script>
 
   </body>

@@ -78,58 +78,83 @@ if(isset($_POST['submit_file']))
 	{
 		
                     //Store file in directory "upload" with the name of "uploaded_file.txt"
-		    $dept=$_POST['department'];
 		    
+		    $type=$_POST['type'];
+			if($type=='aptitude')
+			{
+				$dept=10;
+			}
+			else
+			{
+				$dept=$_POST['department'];
+				
+			}
 //		    $q='select * from department where dept_id='.$dept;
 //		    $q_run1=mysqli_query($connection,$q);
 //		    $row=mysqli_fetch_array($q_run1);
 		    $name= $_FILES['file']['name'];
 		    $dep=str_replace(".csv","",$name);
 		    //echo($dep);
-		    $query="insert into subject (dept_id,department) values ('$dept','$dep')";
-		    $qrun=mysqli_query($connection,$query);
+            if($_POST['sub']=='-1')
+			{
+				$subtype=$_POST['new_sub'];
+				
+			}
+			else
+			{
+				$subtype=$_POST['sub'];
+			}
             $storagename = $_FILES["file"]["name"];
             move_uploaded_file($_FILES["file"]["tmp_name"], "upload/" . $storagename);
             $file = fopen("upload/".$_FILES['file']['name'],"r");
             $count=0;
             $start=false;
+			$bool=true;
 while(! feof($file))
   {
   	
   $arr=(fgetcsv($file));
   //print_r ($arr);
   if($start&&(!is_null($arr[0])||!is_null($arr[1])||!is_null($arr[3]))){
-  $q=$arr[0];
-  $a=$arr[1];
-  $b=$arr[2];
-  $c=$arr[3];
-  $d=$arr[4];
-  $ans=$arr[5];
-  $exp=$arr[6];
-  $posts[] = array('question'=> $q, 'opta'=> $a,'optb'=>$b,'optc'=>$c,'optd'=>$d,'ans'=>$ans,'explanation'=>$exp);
+  $num=(int)$arr[0];
+  $q=$arr[1];
+  $ans=$arr[2];
+  $exp=$arr[3];
+  $options=array();
+  for ($o=3;$o<=$num+3;$o++){
+	  
+  array_push($options,$arr[1+$o]);
+  }
+  for($k=$o+2;$k<11;$k++)
+  {
+	array_push($options,null);
+  }	
+  
+  echo $num;
+  #print_r($options);
+ 
+  $sql="insert into practice_questions (dept_id,type,subtype,question,opt1,opt2,opt3,opt4,opt5,opt6,opt7,no_of_option,ans,explaination) values('$dept','$type','$subtype','$q','$options[0]','$options[1]','$options[2]','$options[3]','$options[4]','$options[5]','$options[6]','$num','$ans','$exp')";
+  $run=mysqli_query($connection,$sql);
+  
   	
 
   }
-  if($arr[0]=='question'&&$arr[1]=='opta'&&$arr[2]=='optb'&&$arr[3]=='optc'&&$arr[4]=='optd'&&$arr[5]=='ans'&&$arr[6]=='exp')
+  if($arr[1]=='question'&&$arr[0]=='num_of_option'&&explode(".",$storagename)[1]=='csv'&&$bool)
   {
   	$start=true;
+	$bool=false;
   	
 
   }
   
  
 }
-$res=array();
-$res_im=array();
-$res_im=$posts;
-$res['test_questions'][0]=$res_im;
+
 
 fclose($file);
 $file_pointer = "../indiabix/Scrape_IndiaBix_QA-master/DB_Collections/temp_jsonfiles/".$_FILES['file']['name'];
 unlink($file_pointer); 
-$fp = fopen('../../indiabix/Scrape_IndiaBix_QA-master/DB_Collections/temp_jsonfiles/'.$dep.'.json', 'w');
-fwrite($fp, json_encode($res));
-fclose($fp);
+
               
 
 	}
@@ -138,20 +163,45 @@ fclose($fp);
 	}
 	if($start)
 	{
-		  	$_SESSION['success'] = "Students Added Successfully";
+		  	$_SESSION['success'] = "Questions  Added Successfully";
+			if($type!='aptitude' && $_POST['sub']=='-1'){
+					$q="insert into subject (dept_id,department) values('$dept','$subtype')";
+					$t=mysqli_query($connection,$q);
+					$_SESSION['success'] = "Questions  inside if  Added Successfully";
+				}
 	}
 	else
 	{
-				  	$_SESSION['success'] = "SORRY CSV FILE SHOULD BE PROPER(name,dob,grade,gender)";
+				  	$_SESSION['success'] = "SORRY CSV FILE SHOULD BE PROPER Format OR INVALID file type(csv only)";
 
 	}
 
 
 	
-header('Location: addtest.php');
+header('Location: addpractice_apti.php');
 
 }
-
+if(isset($_POST['create_test'])){
+	$tid=$_POST['testid'];
+	$depart=$_POST['department'];
+	$testname=$_POST['test_name'];
+	
+	$pass=$_POST['pass'];
+	$noqes=(int)$_POST['noques'];
+	$time=(int)$_POST['timelimit'];
+	echo $tid.' '.$depart.' '.$pass.' '.$noqes.' '.$time;
+	$num=0;
+	$q="insert into tests_data(test_id,department,pass,no_of_ques,time_limit,test_created,test_name) values('$tid','$depart','$pass','$noqes','$time','$num','$testname')";
+	$run=mysqli_query($connection,$q);
+	$_SESSION['success'] = "TEST ADDED .NOW ADD QUESTIONS";
+if($depart=='10'){	
+header('LOCATION:addtest_apti.php');
+}
+else{
+header('LOCATION:addtest.php');	
+}	
+	
+}
 
 if(isset($_POST['submit_file_prac']))
 {
@@ -253,7 +303,101 @@ header('Location: addpractice.php');
 
 }
 
+if(isset($_POST['submit_file_for_test']))
+{
+	if(!empty($_FILES['file']))
+	{
+		
+                    //Store file in directory "upload" with the name of "uploaded_file.txt"
+		    
+		    $id=$_POST['test_id'];
+			$type=$_POST['type'];
+			$e="select * from tests_data where test_id='$id'";
+			$erun=mysqli_query($connection,$e);
+			$rowt=mysqli_fetch_array($erun);
+            //$dept_id=$rowt['department'];
+			$test_id=$rowt['test_id'];
+//		    $q='select * from department where dept_id='.$dept;
+//		    $q_run1=mysqli_query($connection,$q);
+//		    $row=mysqli_fetch_array($q_run1);
 
+
+            $storagename = $_FILES["file"]["name"];
+            move_uploaded_file($_FILES["file"]["tmp_name"], "upload/" . $storagename);
+            $file = fopen("upload/".$_FILES['file']['name'],"r");
+            $count=0;
+            $start=false;
+			$bool=true;
+while(! feof($file))
+  {
+  	
+  $arr=(fgetcsv($file));
+  //print_r ($arr);
+  if($start&&(!is_null($arr[0])||!is_null($arr[1])||!is_null($arr[3]))){
+  $num=(int)$arr[0];
+  $q=$arr[1];
+  $ans=$arr[2];
+  $exp=$arr[3];
+  $options=array();
+  for ($o=3;$o<=$num+3;$o++){
+	  
+  array_push($options,$arr[1+$o]);
+  }
+  for($k=$o+2;$k<11;$k++)
+  {
+	array_push($options,null);
+  }	
+  
+  echo $num;
+  #print_r($options);
+ 
+  $sql="insert into test_questions (test_id,type,question,opt1,opt2,opt3,opt4,opt5,opt6,opt7,num_of_option,ans,explaination) values('$id','$type','$q','$options[0]','$options[1]','$options[2]','$options[3]','$options[4]','$options[5]','$options[6]','$num','$ans','$exp')";
+  $run=mysqli_query($connection,$sql);
+  
+  	
+
+  }
+  if($arr[1]=='question'&&$arr[0]=='num_of_option'&&explode(".",$storagename)[1]=='csv'&&$bool)
+  {
+  	$start=true;
+	$bool=false;
+  	
+
+  }
+  
+ 
+}
+
+
+fclose($file);
+
+
+              
+
+	}
+	else{
+		$_SESSION['success'] = "PLEASE SELECT THE FILE.NO FILE CHOOSEN";
+	}
+	if($start)
+	{
+		  	$_SESSION['success'] = "Questions  Added Successfully to the test";
+		            $id=trim($id);
+					$q="update tests_data set test_created=1 where test_id='$id'";
+					$t=mysqli_query($connection,$q);
+					
+				
+	}
+	else
+	{
+				  	$_SESSION['success'] = "SORRY CSV FILE SHOULD BE PROPER Format OR INVALID file type(csv only)";
+
+	}
+
+
+	
+header('Location: addtest_apti.php');
+
+}
 
 
 
@@ -375,7 +519,7 @@ if (isset($_POST['gd_remove'])) {
 	$deltitle = $_POST['deltitle'];
 
 
-	$query = "DELETE FROM `gd` WHERE `title`='$deltitle' ";
+	$query = "DELETE FROM `gd_hr` WHERE `id`='$deltitle' ";
 	$query_run = mysqli_query($connection,$query);
 
 	if ($query_run) {

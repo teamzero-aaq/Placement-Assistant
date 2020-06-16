@@ -135,7 +135,7 @@
                 <div class="card-header bg-white border-0">
                     <div class="row align-items-center">
                         <div class="col-8">
-                            <h3 class="mb-0">Add New Test</h3>
+                            <h3 class="mb-0">Add practice technical</h3>
                         </div>
                         <div class="col-4 text-right">
                             <a href="#!" class="btn btn-sm btn-primary">Edit</a>
@@ -145,6 +145,7 @@
                 </div>
                 <div class="card-body">
                     <form action="verify.php" method="POST" enctype="multipart/form-data">
+					<input type="hidden" value="technical" name="type">
                         <?php 
                 
                 $query = "SELECT * FROM department";
@@ -200,7 +201,7 @@
                                         <label class="form-control-label" for="">Select a file to upload</label>
                                         <div class="custom-file">
 
-                                            <input type="file" name="file_prac" value="file" id="file_prac"
+                                            <input type="file" name="file" value="file" id="file_prac"
                                                 class="custom-file-input" aria-describedby="inputGroupFileAddon01"
                                                 required="true">
                                             <label class="custom-file-label" for="file">Select a CSV file to
@@ -209,9 +210,15 @@
 
                                     </div>
                                 </div>
+ <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for=""></label>
+                                        <a href="download.php?name=questions.csv"><button type="button" class="btn btn-outline-primary" name="">Sample Csv</button></a>
 
+                                    </div>
+                                </div>
                             </div>
-                            <button type="submit" class="btn btn-outline-primary" name="submit_file_prac">Add</button>
+                            <button type="submit" class="btn btn-outline-primary" name="submit_file">Add</button>
 
                         </div>
 

@@ -8,6 +8,7 @@ include('include_root/header.php');
 
 <body>
     <?php
+	session_start();
 include('include_root/navbar.php');
 ?>
 

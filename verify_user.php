@@ -6,18 +6,30 @@ include('dashboard/security.php');
 
 if(isset($_POST['signup']))
 {
-	$name =$_POST['name'];
-	$username =$_POST['username'];
+	$fname =$_POST['fname'];
+	$lname =$_POST['lname'];
 	$email =$_POST['email'];
-	$contact =$_POST['contact'];
+	//$contact =$_POST['contact'];
 	$password =$_POST['password'];
 	$cpass =$_POST['cpassword'];
-	$type = $_POST['usertype'];
+	$type = 2;
 
 	if ($password === $cpass) {
 		
-	$query = "INSERT INTO `register`(`name`, `contact`, `username`, `password`, `email`, `usertype`) VALUES ('$name','$contact','$username','$password','$email',$type)";
+	$query = "INSERT INTO `google_user`(`First_name`, `Last_name`, `email_id`, `password`, `usertype`) VALUES ('$fname','$lname','$email','$password',$type)";
 	$query_run = mysqli_query($connection, $query);
+	$mypath =  'dashboard/users/'.$email;
+        //echo $mypath;
+        if (file_exists($mypath) && is_dir($mypath)) 
+        { 
+            echo "The  folder exists. </br>"; 
+        } 
+        else 
+        { 
+            echo "The folder does not exists. New Folder created.</br>"; 
+            mkdir($mypath);
+        } 
+	
 	  if($query_run)
 	  {
 	  	$_SESSION['status'] = "Registration Successfully !!!";
@@ -47,20 +59,16 @@ if(isset($_POST['signin']))
 	$password =$_POST['password'];
 
 		
-	$query = "SELECT * FROM register WHERE username = '$username' AND password = '$password' ";
+	$query = "SELECT * FROM google_user WHERE email_id = '$username' AND password = '$password' ";
 	
 	$query_run = mysqli_query($connection, $query);
 	$usertype = mysqli_fetch_array($query_run);
-	  if($usertype['usertype']==1)
+	print_r($usertype);
+	  if(mysqli_num_rows($query_run)>0)
 	  {
-	      $_SESSION['usertype']=1;
+	      $_SESSION['usertype']=$usertype['usertype'];
 	  	$_SESSION['username'] = $username ;
-	  	header('Location: go-to-admin/admin/');  
-	  }
-	  else if ($usertype['usertype'] == 2) {
-	  	$_SESSION['username'] = $username ;
-	  	  $_SESSION['usertype']=2;
-	  	header('Location: index.php');  
+	  	header('Location: index.php');
 	  }
 	  else
 	  {

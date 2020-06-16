@@ -42,10 +42,19 @@ include('include_root/navbar.php');
 
                 <?php 
 error_reporting(0);
+
 if(isset($_POST['submit_test']))
 {
     
-
+$char=array();
+//print_r($inner);
+//print_r($res);
+foreach( range('A', 'Z') as $elements) { 
+      
+    // Display all alphabetic elements 
+    // one after another 
+    array_push($char,$elements); 
+}
     
     $_SESSION['submit']=true;
     $input=array();
@@ -77,22 +86,14 @@ if(isset($_POST['submit_test']))
                     <div class="row">
                         <p><?php echo 'Q) '.nl2br($row['question']) ; ?></p>
                     </div>
-                    <div class="row">
+					<?php for ($r=1;$r<=$row['num_of_option'];$r++){?>
+                        <div class="row">
 
-                        <label for="optionA"><?php echo 'A) '.$row['opta']; ?></label>
-                    </div>
-                    <div class="row">
-
-                        <label for="optionB"><?php echo 'B) '.$row['optb']; ?></label>
-                    </div>
-                    <div class="row">
-
-                        <label for="optionC"><?php echo 'C) '.$row['optc']; ?></label>
-                    </div>
-                    <div class="row">
-
-                        <label for="optionD"><?php echo 'D) '.$row['optd']; ?></label>
-                    </div>
+                            <label for="option<?php echo $r ;?>"><?php echo $char[$r-1].') '.$row['opt'.$r]; ?></label>
+                        </div>
+						<?php } ?>
+						
+                   
                     <p>
                         <button class="btn btn-outline-info btn-sm" type="button" data-toggle="collapse"
                             data-target="#collapseExample<?php echo $j; ?>" aria-expanded="false"
@@ -105,7 +106,7 @@ if(isset($_POST['submit_test']))
                             <p class="ans">Answer: Option <?php echo $row['ans'] ;?></p>
                             <p class="ans">Explanation:</p>
                             <p>
-                                <?php echo $row['explanation']; ?>
+                                <?php echo $row['explaination']; ?>
 
                             </p>
 
@@ -179,8 +180,7 @@ else
     }?>
 
 
-                <?php  
-}?>
+
 
 
             </div>
@@ -212,10 +212,11 @@ else
 
                 <?php 
 $uname=$_SESSION['username'];
-$on=$_POST['on'];
+$on=$_POST['testid'];
 $s_time=$_SESSION['start_time'];
 $e_time=date('Y-m-d H:i:s', time());
-$q="insert into scorecard (user_name,Lang_name,score,start_time,end_time) values('$uname','$on','$correct','$s_time','$e_time')" ;
+
+$q="insert into scorecard (user_name,testid,score,start_time,end_time) values('$uname','$on','$correct','$s_time','$e_time')" ;
 $q_run=mysqli_query($connection,$q);
 ?>
                 <br><br><br>
@@ -225,7 +226,8 @@ $q_run=mysqli_query($connection,$q);
 
 
             </div>
-
+                <?php  
+}?>
 
 
         </div>

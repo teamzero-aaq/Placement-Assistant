@@ -45,7 +45,7 @@ include('include_root/navbar.php');
             <?php
      $id=$_GET['id'];
    
-     $q="select * from subject where dept_id='$id'";
+     $q="select * from tests_data where department='$id'";
      $result=mysqli_query($connection,$q);
      if (mysqli_num_rows($result) > 0) {
 
@@ -63,16 +63,21 @@ while($rows=mysqli_fetch_array($result))
                         <img src="go-to-admin/admin/assets/img/subject/subject.jpeg" class="img-responsive dept_img">
                     </div><!-- end dept_img -->
                     <div class="details">
-                        <h2><?php echo $rows['department']; ?>
+                        <h2><?php echo $rows['test_name']; ?>
                         </h2>
-
+                        
                         <div class=" row">
                             <div class="col text-center">
                                 <form action="" method="POST">
-                                    <input type="hidden" name="tempdept" value="<?php echo $row['dept_id'];?>">
+                                    <?php $bool=$rows['pass'];
+									if($bool!='no'){
+										$bool='yes';
+									}
+									?>
+										
                                     <button type="button" class="btn btn-info btn-sm align-item-center practice_subject"
-                                        name="subjectbtn" id="<?php echo $rows['department'] ;?>" data-toggle="modal"
-                                        data-target="#myModal">
+                                        name="subjectbtn" id="<?php echo $rows['test_id'] ;?>" data-toggle="modal"
+                                        data-target="#myModal" data-id="<?php echo $bool; ?>">
                                         <i class="ni ni-fat-add">&nbsp;</i>Give Test
                                     </button>
                                 </form>
@@ -122,6 +127,10 @@ while($rows=mysqli_fetch_array($result))
                         <p>1. Test will be of 20 Minutes</p>
                         </p class="text-red">2. Do not Minimize or Exit Full Screen. If done so Test will be Submitted
                         </p>
+						<p>Please enter password for following test id</p>
+						
+						<div id="here"></div>
+							
                     </div>
                     <div class="modal-footer">
                         <form method="POST" action="test_temp.php" id="totest">
@@ -135,7 +144,9 @@ while($rows=mysqli_fetch_array($result))
 
 
         </div>
+<script>
 
+</script>
         <?php
 include('include_root/footer.php');
 ?>

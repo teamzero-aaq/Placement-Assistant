@@ -5,7 +5,7 @@ include('dashboard/db.php');
 
 include('include_root/header.php');
 
-
+session_start();
 //if (!$_SESSION['username']) {
 //  header("Location: ./login.php");
 //}

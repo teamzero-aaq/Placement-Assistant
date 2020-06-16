@@ -1,0 +1,1715 @@
+num_of_option,question,ans,exp,opta,optb,optc,optd,opt5,opt6,opt7
+5,"In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",A,"Required run rate =
+
+282 - (3.2 x 10)
+
+=
+250
+   = 6.25
+
+
+40
+40",6.25,6.5,6.75,7,11,,
+6,"In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",A,"Required run rate =
+
+282 - (3.2 x 10)
+
+=
+250
+   = 6.25
+
+
+40
+40",6.25,6.5,6.75,7,12,none of the above,
+4,"A family consists of two grandparents, two parents and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years and that of the grandchildren is 6 years. What is the average age of the family?",B,"Required average
+
+
+
+=
+
+67 x 2 + 35 x 2 + 6 x 3
+
+
+
+2 + 2 + 3
+
+
+
+
+
+
+
+
+
+=
+
+134 + 70 + 18
+
+
+
+7
+
+
+
+
+
+
+
+
+
+=
+222
+
+
+7
+
+
+
+
+
+
+
+
+
+= 31 
+5
+years.
+
+
+7","28 
+4
+years
+
+
+7",4,B.,"31 
+5
+years
+
+
+7",,,
+4,"A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?",A,"Total sale for 5 months = Rs. (6435 + 6927 + 6855 + 7230 + 6562) = Rs. 34009.
+ Required sale = Rs. [ (6500 x 6) - 34009 ]
+   = Rs. (39000 - 34009)
+   = Rs. 4991.","Rs. 4,991","Rs. 5,991","Rs. 6,001","Rs. 6,991",,,
+7,"The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",D,"Average of 20 numbers = 0.
+ Sum of 20 numbers (0 x 20) = 0.
+It is quite possible that 19 of these numbers may be positive and if their sum is a then 20th number is (-a).",0,1,10,19,all,none of the above,100
+4,The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?,C,"Total weight increased = (8 x 2.5) kg = 20 kg.
+Weight of new person = (65 + 20) kg = 85 kg.",76 kg,76.5 kg,85 kg,Data inadequate,,,
+4,"The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",A,"Let the average age of the whole team by x years.
+ 11x - (26 + 29) = 9(x -1)
+ 11x - 9x = 46
+ 2x = 46
+ x = 23.
+So, average age of the team is 23 years.",23 years,24 years,25 years,None of these,,,
+4,The average monthly income of P and Q is Rs. 5050. The average monthly income of Q and R is Rs. 6250 and the average monthly income of P and R is Rs. 5200. The monthly income of P is:,B,"Let P, Q and R represent their respective monthly incomes. Then, we have:
+P + Q = (5050 x 2) = 10100 .... (i)
+Q + R = (6250 x 2) = 12500 .... (ii)
+P + R = (5200 x 2) = 10400 .... (iii)
+Adding (i), (ii) and (iii), we get:  2(P + Q + R) = 33000  or   P + Q + R = 16500 .... (iv)
+Subtracting (ii) from (iv), we get P = 4000.
+ P's monthly income = Rs. 4000.",3500,4000,4050,5000,14,,
+4,"The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:",B,"Sum of the present ages of husband, wife and child = (27 x 3 + 3 x 3) years = 90 years.
+Sum of the present ages of wife and child = (20 x 2 + 5 x 2) years = 50 years.
+ Husband's present age = (90 - 50) years = 40 years.",35 years,40 years,50 years,None of these,,,
+4,"A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?",A,"Total quantity of petrol consumed in 3 years
+
+
+
+=
+
+4000
++
+4000
++
+4000
+
+ litres
+
+
+7.50
+8
+8.50
+
+
+
+
+
+
+
+
+
+= 4000
+
+2
++
+1
++
+2
+
+ litres
+
+
+15
+8
+17
+
+
+
+
+
+
+
+
+
+=
+
+76700
+
+ litres
+
+
+51
+
+
+
+
+
+
+Total amount spent = Rs. (3 x 4000) = Rs. 12000.
+
+
+
+ Average cost = Rs.
+
+12000 x 51
+
+= Rs.
+6120
+  = Rs. 7.98
+
+
+76700
+767",Rs. 7.98,Rs. 8,Rs. 8.50,Rs. 9,,,
+4,"In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother doest not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all are them are correct in their estimation, what is the average of different probable weights of Arun?",A,"Let Arun's weight by X kg.
+According to Arun, 65 < X < 72
+According to Arun's brother, 60 < X < 70.
+According to Arun's mother, X <= 68
+The values satisfying all the above conditions are 66, 67 and 68.
+
+
+
+ Required average =
+
+66 + 67 + 68
+
+=
+
+201
+
+= 67 kg.
+
+
+3
+3",67 kg.,68 kg.,69 kg.,Data inadequate,,,
+4,"The average weight of A, B and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, then the weight of B is:",D,"Let A, B, C represent their respective weights. Then, we have:
+A + B + C = (45 x 3) = 135 .... (i)
+A + B = (40 x 2) = 80 .... (ii)
+B + C = (43 x 2) = 86 ....(iii)
+Adding (ii) and (iii), we get: A + 2B + C = 166 .... (iv)
+Subtracting (i) from (iv), we get : B = 31.
+ B's weight = 31 kg.",17 kg,20 kg,26 kg,31 kg,,,
+4,The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.,C,"Required average
+
+
+
+=
+
+50.25 x 16 + 45.15 x 8
+
+
+
+16 + 8
+
+
+
+
+
+
+
+
+
+=
+
+804 + 361.20
+
+
+
+24
+
+
+
+
+
+
+
+
+
+=
+1165.20
+
+
+24
+
+
+
+
+
+
+= 48.55",47.55 kg,48 kg,48.55 kg,49.25 kg,,,
+4,A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:,D,"Since the month begins with a Sunday, to there will be five Sundays in the month.
+
+
+
+Required average
+
+
+
+=
+
+510 x 5 + 240 x 25
+
+
+
+30
+
+
+
+
+
+
+
+
+
+=
+8550
+
+
+30
+
+
+
+
+
+
+= 285",250,276,280,285,,,
+4,"If the average marks of three batches of 55, 60 and 45 students respectively is 50, 55, 60, then the average marks of all the students is:",B,"Required average
+
+
+
+=
+
+55 x 50 + 60 x 55 + 45 x 60
+
+
+
+55 + 60 + 45
+
+
+
+
+
+
+
+
+
+=
+
+2750 + 3300 + 2700
+
+
+
+160
+
+
+
+
+
+
+
+
+
+=
+8750
+
+
+160
+
+
+
+
+
+
+= 54.68",53.33,54.68,55,None of these,,,
+4,A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half (1/2). The number of pupils in the class is:,C,"Let there be x pupils in the class.
+
+
+
+Total increase in marks =
+
+x x
+1
+
+=
+x
+
+
+2
+2
+
+
+
+
+
+
+
+x
+= (83 - 63)   
+x
+= 20      x= 40.
+
+
+2
+2",10,20,40,73,,,
+4,"find odd man out 3, 5, 11, 14, 17, 21",C,"Each of the numbers except 14 is an odd number.
+The number '14' is the only EVEN number.",21,17,14,3,,,
+4,"find odd man out 8, 27, 64, 100, 125, 216, 343",B,"The pattern is 23, 33, 43, 53, 63, 73. But, 100 is not a perfect cube.",27,100,125,343,,,
+4,"find odd man out 10, 25, 45, 54, 60, 75, 80",C,Each of the numbers except 54 is multiple of 5.,10,45,54,75,,,
+4,"find odd man out 396, 462, 572, 427, 671, 264",B,"In each number except 427, the middle digit is the sum of other two.",396,427,671,264,,,
+4,"find odd man out 6, 9, 15, 21, 24, 28, 30",A,"Each of the numbers except 28, is a multiple of 3.",28,21,24,30,,,
+4,"find odd man out 1, 4, 9, 16, 23, 25, 36",B,"Each of the numbers except 23, is perfect square.",9,23,25,36,,,
+4,"find odd man out 1, 4, 9, 16, 20, 36, 49",C,"The pattern is 12, 22, 32, 42, 52, 62, 72. But, instead of 52, it is 20 which to be turned out.",1,9,20,49,,,
+4,"find odd man out 2, 5, 10, 17, 26, 37, 50, 64",D,"(1*1)+1 , (2*2)+1 , (3*3)+1 , (4*4)+1 , (5*5)+1 , (6*6)+1 , (7*7)+1 , (8*8)+1
+But, 64 is out of pattern.",50,26,37,64,,,
+4,"find odd man out 10, 14, 16, 18, 21, 24, 26",C,Each of the numbers except 21 is an even number.,26,24,21,18,,,
+4,"find odd man out 16, 25, 36, 72, 144, 196, 225",B,Each of the numbers except 72 is a perfect square.,36,72,196,225,,,
+4,"find odd man out 331, 482, 551, 263, 383, 362, 284",B,"In each number except 383, the product of first and third digits is the middle one.",263,383,331,551,,,
+4,"find odd man out 835, 734, 642, 751, 853, 981, 532",A,"In each number except 751, the difference of third and first digit is the middle one.",751,853,981,532,,,
+4,"find odd man out 41, 43, 47, 53, 61, 71, 73, 81",D,Each of the numbers except 81 is a prime number.,61,71,73,81,,,
+4,"find odd man out 3, 5, 7, 12, 17, 19",D,Each of the numbers is a prime number except 12.,19,17,5,12,,,
+4,The banker's discount on a bill due 4 months hence at 15% is Rs. 420. The true discount is:,A,"T.D.
+
+
+
+=
+B.D. x 100
+
+
+100 + (R x T)
+
+
+
+
+
+
+
+
+
+= Rs.
+
+420 x 100
+
+
+
+
+
+
+100 +
+
+15 x
+1
+
+
+
+3
+
+
+
+
+
+
+
+
+
+
+
+
+= Rs.
+
+420 x 100
+
+
+
+105
+
+
+
+
+
+
+= Rs. 400.",Rs. 400,Rs. 360,Rs. 480,Rs. 320,,,
+4,The banker's discount on Rs. 1600 at 15% per annum is the same as true discount on Rs. 1680 for the same time and at the same rate. The time is:,B,"S.I. on Rs. 1600 = T.D. on Rs. 1680.
+ Rs. 1600 is the P.W. of Rs. 1680, i.e., Rs. 80 is on Rs. 1600 at 15%.
+
+
+
+ Time =
+
+100 x 80
+year
+=
+1
+year = 4 months.
+
+
+1600 x 15
+3",3 months,4 months,6 months,8 months,,,
+4,The banker's gain of a certain sum due 2 years hence at 10% per annum is Rs. 24. The present worth is:,C,"T.D. =
+
+B.G. x 100
+
+= Rs.
+
+24 x 100
+
+= Rs. 120.
+
+
+Rate x Time
+10 x 2
+
+
+
+
+
+
+ P.W. =
+100 x T.D.
+= Rs.
+
+100 x 120
+
+= Rs. 600.
+
+
+Rate x Time
+10 x 2",Rs. 480,Rs. 520,Rs. 600,Rs. 960,,,
+4,The banker's discount on a sum of money for 1 years is Rs. 558 and the true discount on the same sum for 2 years is Rs. 600. The rate percent is:,C,"B.D. for  years
+= Rs. 558.
+
+
+B.D. for 2 years
+
+
+
+= Rs.
+
+558 x
+2
+x 2
+
+
+
+3
+
+
+
+
+
+
+= Rs. 744
+
+
+
+T.D. for 2 years = Rs. 600.
+
+
+
+ Sum =
+B.D. x T.D.
+= Rs.
+
+744 x 600
+
+= Rs. 3100.
+
+
+B.D. - T.D
+144
+
+
+
+Thus, Rs. 744 is S.I. on Rs. 3100 for 2 years.
+
+
+
+ Rate =
+
+100 x 744
+%
+= 12%
+
+
+3100 x 2",10%,13%,12%,15%,,,
+4,The banker's gain on a sum due 3 years hence at 12% per annum is Rs. 270. The banker's discount is:,C,"T.D. =
+
+B.G. x 100
+
+= Rs.
+
+270 x 100
+
+= Rs. 750.
+
+
+R x T
+12 x 3
+
+
+
+ B.D. = Rs.(750 + 270) = Rs. 1020.",Rs. 960,Rs. 840,"Rs. 1,020",Rs. 760,,,
+4,The banker's discount of a certain sum of money is Rs. 72 and the true discount on the same sum for the same time is Rs. 60. The sum due is:,A,"Sum =
+B.D. x T.D.
+= Rs.
+
+72 x 60
+
+= Rs.
+
+72 x 60
+
+= Rs. 360.
+
+
+B.D. - T.D.
+72 - 60
+12",Rs. 360,Rs. 432,Rs. 540,"Rs. 1,080",,,
+4,The certain worth of a certain sum due sometime hence is Rs. 1600 and the true discount is Rs. 160. The banker's gain is:,C,"B.G. =
+(T.D.)2
+= Rs.
+
+160 x 160
+
+= Rs. 16.
+
+
+P.W.
+1600",Rs. 20,Rs. 24,Rs. 16,Rs. 12,,,
+4,The present worth of a certain bill due sometime hence is Rs. 800 and the true discount is Rs. 36. The banker's discount is:,B,"B.G. =
+(T.D.)2
+= Rs.
+
+36 x 36
+
+= Rs. 1.62
+
+
+P.W.
+800
+
+
+
+ B.D. = (T.D. + B.G.) = Rs. (36 + 1.62) = Rs. 37.62",Rs. 37,Rs. 37.62,Rs. 34.38,Rs. 38.98,,,
+4,The banker's gain on a bill due 1 year hence at 12% per annum is Rs. 6. The true discount is:,D,"T.D. =
+B.G. x 100
+= Rs.
+
+6 x 100
+
+= Rs. 50.
+
+
+R x T
+12 x 1",Rs. 72,Rs. 36,Rs. 54,Rs. 50,,,
+4,"The banker's gain on a certain sum due 1
+1
+years hence is
+3
+of the banker's
+
+
+2
+25
+
+
+
+discount. The rate percent is:",B,"Let, B.D = Re. 1.
+
+
+
+Then, B.G. = Re.
+3
+.
+
+
+25
+
+
+
+
+
+
+ T.D. = (B.D. - B.G.) = Re.
+
+1 -
+3
+
+= Re.
+22
+.
+
+
+25
+25
+
+
+
+
+
+
+Sum =
+
+1 x (22/25)
+
+= Rs.
+22
+.
+
+
+1-(22/25)
+3
+
+
+
+
+
+
+S.I. on Rs.
+22
+for 1
+1
+years is Re. 1.
+
+
+3
+2
+
+
+
+
+
+
+ Rate =
+
+100 x 1
+%
+
+
+
+=
+100
+= 9
+1
+%.
+
+
+11
+11
+
+
+
+
+
+
+
+
+22
+x
+3
+
+
+3
+2","5
+1
+%
+
+
+5",1,B.,"9
+1
+%
+
+
+11",,,
+4,The present worth of a sum due sometime hence is Rs. 576 and the banker's gain is Rs. 16. The true discount is:,D,T.D. = P.W. x B.G. = 576 x 16 = 96.,Rs. 36,Rs. 72,Rs. 48,Rs. 96,,,
+4,The true discount on a bill of Rs. 540 is Rs. 90. The banker's discount is:,B,"P.W. = Rs. (540 - 90) = Rs. 450.
+ S.I. on Rs. 450 = Rs. 90.
+
+
+
+S.I. on Rs. 540 = Rs.
+
+90
+x 540
+
+= Rs. 108.
+
+
+450
+
+
+
+ B.D. = Rs. 108.",Rs. 60,Rs. 108,Rs. 110,Rs. 112,,,
+4,"The banker's discount on a certain sum due 2 years hence is
+11
+of the true discount.
+
+
+10
+
+
+
+The rate percent is:",C,"Let T.D. be Re. 1.
+
+
+
+Then, B.D. = Rs.
+11
+= Rs. 1.10.
+
+
+10
+
+
+
+
+
+
+ Sum = Rs.
+
+1.10 x 1
+
+= Rs.
+
+110
+
+= Rs. 11.
+
+
+1.10 - 1
+10
+
+
+
+ S.I. on Rs. 11 for 2 years is Rs. 1.10
+
+
+
+ Rate =
+
+100 x 1.10
+%
+= 5%.
+
+
+11 x 2",11%,10%,5%,5.50%,,,
+4,"A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is:",B,"Amount
+
+
+
+= Rs.
+
+1600 x
+
+1 +
+5
+
+2
++ 1600 x
+
+1 +
+5
+
+
+
+
+2 x 100
+2 x 100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+1600 x
+41
+x
+41
++ 1600 x
+41
+
+
+
+40
+40
+40
+
+
+
+
+
+
+
+
+
+= Rs.
+
+1600 x
+41
+
+41
++ 1
+
+
+
+
+40
+40
+
+
+
+
+
+
+
+
+
+= Rs.
+
+1600 x 41 x 81
+
+
+
+40 x 40
+
+
+
+
+
+
+= Rs. 3321.
+
+
+ C.I. = Rs. (3321 - 3200) = Rs. 121",Rs. 120,Rs. 121,Rs. 122,Rs. 123,,,
+4,The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is:,A,"Let the sum be Rs. x. Then,
+
+
+
+C.I. =
+
+x
+
+1 +
+4
+
+2
+- x
+
+=
+
+676
+x
+- x
+
+=
+51
+x.
+
+
+100
+625
+625
+
+
+
+
+
+
+S.I. =
+
+x x 4 x 2
+
+=
+2x
+.
+
+
+100
+25
+
+
+
+
+
+
+
+51x
+-
+2x
+= 1
+
+
+625
+25
+
+
+
+ x = 625.",625,630,640,650,,,
+4,"There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?",C,"Let P = Rs. 100. Then, S.I. Rs. 60 and T = 6 years.
+
+
+
+ R =
+
+100 x 60
+
+= 10% p.a.
+
+
+100 x 6
+
+
+
+Now, P = Rs. 12000. T = 3 years and R = 10% p.a.
+
+
+
+ C.I.
+
+
+
+= Rs.
+
+12000 x
+
+
+1 +
+10
+
+3
+- 1
+
+
+
+
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+12000 x
+331
+
+
+
+1000
+
+
+
+
+
+
+= 3972.","Rs. 2,160","Rs. 3,120","Rs. 3,972","Rs. 6,240",,,
+4,What is the difference between the compound interests on Rs. 5000 for 1 years at 4% per annum compounded yearly and half-yearly?,A,"C.I. when interest compounded yearly    
+
+
+
+= Rs.
+
+5000 x
+
+1 +
+4
+
+x
+
+1 +
+ x 4
+
+
+
+
+100
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+5000 x
+26
+x
+51
+
+
+
+25
+50
+
+
+
+
+
+
+= Rs. 5304.
+
+
+
+
+
+
+C.I. when interest is compounded half-yearly
+
+
+
+= Rs.
+
+5000 x
+
+1 +
+2
+
+3
+
+
+
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+5000 x
+51
+x
+51
+x
+51
+
+
+
+50
+50
+50
+
+
+
+
+
+
+= Rs. 5306.04
+
+
+
+ Difference = Rs. (5306.04 - 5304) = Rs. 2.04",Rs. 2.04,Rs. 3.06,Rs. 4.80,Rs. 8.30,,,
+4,"The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is:",A,"Amount = Rs. (30000 + 4347) = Rs. 34347.
+Let the time be n years.
+
+
+
+Then, 30000
+
+1 +
+7
+
+n
+= 34347
+
+
+100
+
+
+
+
+
+
+ 
+
+107
+
+n
+=
+34347
+=
+11449
+=
+
+107
+
+2
+
+
+100
+30000
+10000
+100
+
+
+
+ n = 2 years.",2,"2
+1
+
+
+2",1,C.,,,
+4,"What will be the compound interest on a sum of Rs. 25,000 after 3 years at the rate of 12 p.c.p.a.?",C,"Amount
+
+
+
+= Rs.
+
+25000 x
+
+1 +
+12
+
+3
+
+
+
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+25000 x
+28
+x
+28
+x
+28
+
+
+
+25
+25
+25
+
+
+
+
+
+
+= Rs. 35123.20
+
+
+
+ C.I. = Rs. (35123.20 - 25000) = Rs. 10123.20","Rs. 9,000.30","Rs. 9,720","Rs. 10,123.20","Rs. 10,483.20",,,
+4,At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?,A,"Let the rate be R% p.a.
+
+
+
+Then, 1200 x
+
+1 +
+R
+
+2
+= 1348.32
+
+
+100
+
+
+
+
+
+
+ 
+
+1 +
+R
+
+2
+=
+134832
+=
+11236
+
+
+100
+120000
+10000
+
+
+
+
+
+
+ 
+
+1 +
+R
+
+2
+=
+
+106
+
+2
+
+
+100
+100
+
+
+
+
+
+
+ 1 +
+R
+=
+106
+
+
+100
+100
+
+
+
+ R = 6%",6%,6.50%,7%,7.50%,,,
+4,The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:,B,"P
+
+1 +
+20
+
+n
+> 2P
+        
+
+6
+
+n
+> 2.
+
+
+100
+5
+
+
+
+
+
+
+Now,
+
+6
+x
+6
+x
+6
+x
+6
+
+> 2.
+
+
+5
+5
+5
+5
+
+
+
+So, n = 4 years.",3,4,5,6,,,
+4,Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?,C,"Amount
+
+
+
+= Rs.
+
+8000 x
+
+1 +
+5
+
+2
+
+
+
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+8000 x 
+21
+x
+21
+
+
+
+20
+20
+
+
+
+
+
+
+= Rs. 8820.","Rs. 8,600","Rs. 8,620","Rs. 8,820",None of these,,,
+4,The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half-yearly is:,D,"Amount of Rs. 100 for 1 year when compounded half-yearly
+
+= Rs.
+
+100 x
+
+1 +
+3
+
+2
+
+= Rs. 106.09
+
+
+100
+
+
+
+ Effective rate = (106.09 - 100)% = 6.09%",6.06%,6.07%,6.08%,6.09%,,,
+4,Simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. The sum placed on simple interest is:,C,"C.I.
+
+
+
+= Rs.
+
+4000 x
+
+1 +
+10
+
+2
+- 4000
+
+
+
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+4000 x
+11
+x
+11
+- 4000
+
+
+
+10
+10
+
+
+
+
+
+
+= Rs. 840.
+
+
+
+
+
+
+ Sum = Rs.
+
+420 x 100
+
+= Rs. 1750.
+
+
+3 x 8","Rs. 1,550","Rs. 1,650","Rs. 1,750","Rs. 2,000",,,
+4,"If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?",A,"Sum = Rs.
+
+50 x 100
+
+= Rs. 500.
+
+
+2 x 5
+
+
+
+
+
+
+Amount
+
+
+
+= Rs.
+
+500 x
+
+1 +
+5
+
+2
+
+
+
+100
+
+
+
+
+
+
+
+
+
+= Rs.
+
+500 x
+21
+x
+21
+
+
+
+20
+20
+
+
+
+
+
+
+= Rs. 551.25
+
+
+
+ C.I. = Rs. (551.25 - 500) = Rs. 51.25",Rs. 51.25,Rs. 52,Rs. 54.25,Rs. 60,,,
+4,The difference between simple interest and compound on Rs. 1200 for one year at 10% per annum reckoned half-yearly is:,B,"S.I. = Rs
+
+1200 x 10 x 1
+
+= Rs. 120.
+
+
+100
+
+
+
+
+
+
+C.I. = Rs.
+
+1200 x
+
+1 +
+5
+
+2
+- 1200
+
+= Rs. 123.
+
+
+100
+
+
+
+ Difference = Rs. (123 - 120) = Rs. 3.",Rs. 2.50,Rs. 3,Rs. 3.75,Rs. 4,,,
+4,"The difference between compound interest and simple interest on an amount of Rs. 15,000 for 2 years is Rs. 96. What is the rate of interest per annum?",A,"15000 x
+
+1 +
+R
+
+2
+- 15000
+
+-
+
+15000 x R x 2
+
+= 96
+
+
+100
+100
+
+
+
+
+
+
+ 15000
+
+
+1 +
+R
+
+2
+- 1 -
+2R
+
+= 96
+
+
+100
+100
+
+
+
+
+
+
+ 15000
+
+(100 + R)2 - 10000 - (200 x R)
+
+= 96
+
+
+10000
+
+
+
+
+
+
+ R2 =
+
+96 x 2
+
+= 64
+
+
+3
+
+
+
+ R = 8.
+ Rate = 8%.",8,10,12,Cannot be determined,,,
+4,The compound interest on a certain sum for 2 years at 10% per annum is Rs. 525. The simple interest on the same sum for double the time at half the rate percent per annum is:,B,"Let the sum be Rs. P.
+
+
+
+Then,
+
+P
+
+1 +
+10
+
+2
+- P
+
+= 525
+
+
+100
+
+
+
+
+
+
+ 
+P
+
+
+11
+
+2
+- 1
+
+= 525
+
+
+10
+
+
+
+
+
+
+ P =
+
+525 x 100
+
+= 2500.
+
+
+21
+
+
+
+ Sum = Rs . 2500.
+
+
+
+So, S.I. = Rs.
+
+2500 x 5 x 4
+
+= Rs. 500
+
+
+100",Rs. 400,Rs. 500,Rs. 600,Rs. 800,,,

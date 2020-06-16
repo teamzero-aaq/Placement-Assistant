@@ -1,29 +1,23 @@
-<?php 
-session_start();
+<?php
+
+//logout.php
 
 
-#Logout Section End
+//logout.php
+
+include('config.php');
+
+//Reset OAuth access token
+$google_client->revokeToken();
 
 
-if(isset($_POST['logoutbtn']))
-{
-	session_destroy();
-	unset($_SESSION['username']);
-	header("Location: login.php");
-	
-}
+//Destroy entire session data.
+session_destroy();
 
 
-	session_destroy();
-	unset($_SESSION['username']);
-	header("Location: .\\login.php");
+header('LOCATION:login.php');
+//https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
 
 
-
-
-
-#Logout Section End
-
-
-
- ?>
+//https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+?>
